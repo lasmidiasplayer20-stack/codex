@@ -10,11 +10,12 @@
       "start": 0,
       "end": 15.05,
       "status": "preview_for_review",
-      "revision": "r1",
+      "revision": "r2",
       "exports": [
-        "exports/parte-01-previa-r1-720p60.mp4",
-        "exports/parte-01-previa-r1-1080p60.mp4"
-      ]
+        "exports/parte-01-previa-r2-720p60.mp4",
+        "exports/parte-01-previa-r2-1080p60.mp4"
+      ],
+      "revision_notes": "Marca de corte no rosto aparece após o golpe e acompanha a cabeça."
     },
     {
       "id": "02",

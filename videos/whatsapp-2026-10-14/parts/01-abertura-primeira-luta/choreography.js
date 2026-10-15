@@ -4,7 +4,8 @@
 (()=>{'use strict';
 const key=(t,root,body,neck,hand0,hand1)=>({t,root,body,neck,hand0,hand1});
 const f=(t,x,y,lift=0)=>({t,p:[x,y],lift});
-const orange={start:2,end:15.05,color:'#ff8527',hollow:true,armSides:[1,-1],kneeSide:-1,
+const cutRoll=[{t:10.04,roll:0},{t:10.4,roll:0},{t:10.60,roll:62},{t:11.1,roll:67},{t:11.66,roll:65},{t:12.083,roll:30},{t:12.25,roll:0},{t:13.2,roll:15},{t:15.05,roll:15}];
+const orange={start:2,end:15.05,color:'#ff8527',hollow:true,armSides:[1,-1],kneeSide:-1,damage:t=>t<10.04?null:{faceCut:{roll:Rig.radians(Rig.value(cutRoll,t,'roll'))}},
  profile:{radius:31.8,neck:41.34,torso:63.6,arm:[41.34,41.34],leg:[57.876,57.876],width:13.3},
  airborne:[[8.22,8.60],[12.06,12.91]],
  keys:[

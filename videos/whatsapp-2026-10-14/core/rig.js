@@ -41,7 +41,7 @@ function at(track,t){if(t<track.start||t>=track.end)return null;
  const legs=feet.map((p,i)=>ik(root,p,...profile.leg,track.kneeSide));
  const nodes=[root,shoulder,head,arms[0].joint,arms[0].end,arms[1].joint,arms[1].end,legs[0].joint,legs[0].end,legs[1].joint,legs[1].end];
  const offset=track.stagingOffsets?.find(o=>o.start<=t&&t<o.end);if(offset){for(const p of nodes){p[0]+=offset.x;p[1]+=offset.y;}for(const p of [...feet,...hands]){p[0]+=offset.x;p[1]+=offset.y;}}
- return {nodes,root,shoulder,head,profile,r:profile.radius,color:track.color,hollow:track.hollow,targets:{feet,hands},errors:[...arms,...legs].map(x=>x.error),t};
+ return {nodes,root,shoulder,head,profile,r:profile.radius,color:track.color,hollow:track.hollow,damage:track.damage?.(t),targets:{feet,hands},errors:[...arms,...legs].map(x=>x.error),t};
 }
 function attachArm(actor,index,target,side){const p=actor.profile,j=index?5:3,result=ik(actor.shoulder,target,...p.arm,side);actor.nodes[j]=result.joint;actor.nodes[j+1]=result.end;actor.errors[index]=result.error;return result;}
 window.Rig={at,ik,attachArm,value,foot,interval,torso,radians,polar,add,sub,clamp};
