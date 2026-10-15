@@ -1,13 +1,13 @@
 {
   "passed": true,
-  "duration": 30,
+  "duration": 75,
   "step": 0.008333333333333333,
-  "framesExpected": 720,
+  "framesExpected": 1800,
   "finite": true,
-  "maxBone": 2.2026824808563106e-13,
-  "maxFloor": 0.6178068936320642,
-  "maxSpeed": 760.7896762235451,
-  "maxWorldStep": 8.109074933071156,
+  "maxBone": 8.704148513061227e-13,
+  "maxFloor": 0.5858272823590238,
+  "maxSpeed": 1351.4436817134117,
+  "maxWorldStep": 20.993242391487183,
   "maxContact": 0,
   "deterministic": true,
   "renderDeterministic": true,
@@ -19,6 +19,6 @@
   ],
   "kickMomentumError": 0,
   "swimVelocityError": 0,
-  "takeCount": 6,
+  "takeCount": 15,
   "errors": []
 }
