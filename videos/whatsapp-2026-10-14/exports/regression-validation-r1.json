@@ -1,0 +1,15 @@
+{
+  "passed": true,
+  "results": [
+    {
+      "part": "01",
+      "samples": 28,
+      "changed": []
+    },
+    {
+      "part": "02",
+      "samples": 22,
+      "changed": []
+    }
+  ]
+}

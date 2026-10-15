@@ -2,6 +2,21 @@
 
 Referência: **WhatsApp Video 2026-10-14 at 10.28.28.mp4**, 1:34,60.
 
+## Vídeo completo para revisão
+
+**1:34,60 · 60 fps · cinco partes montadas · trilha original aplicada uma vez.** A primeira parte inclui a marca do corte no rosto; a terceira usa a revisão R2 de continuidade.
+
+- [Vídeo completo leve — MP4 720p](https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/video-2026-10-14-em-partes-e5fc9397/videos/whatsapp-2026-10-14/exports/video-completo-previa-r1-720p60.mp4)
+- [Vídeo completo — MP4 1080p](https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/video-2026-10-14-em-partes-e5fc9397/videos/whatsapp-2026-10-14/exports/video-completo-previa-r1-1080p60.mp4)
+- [Código completo em ZIP](https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/video-2026-10-14-em-partes-e5fc9397/videos/whatsapp-2026-10-14/exports/codigo-completo-r1.zip)
+- [Skill reutilizável em ZIP](https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/video-2026-10-14-em-partes-e5fc9397/videos/whatsapp-2026-10-14/exports/skill-recriar-animacao-por-codigo.zip)
+
+Esta é uma reconstrução dirigida por código. Existem diferenças de poses, desenho, proporções e materiais em relação à referência; não é uma cópia idêntica de todos os frames. Os cinco MP4s individuais continuam disponíveis abaixo.
+
+A montagem foi decodificada integralmente e contém 5.676 frames. Os 4.074 pacotes AAC da trilha original foram preservados, com seu alinhamento. As verificações técnicas não substituem a revisão visual dos movimentos.
+
+A skill está em `.agents/skills/recriar-animacao-por-codigo/SKILL.md` na raiz do repositório, nesta branch. Para outro chat no Codex, selecione o repositório e a branch ou forneça o arquivo da skill. Anexar o ZIP em um chat comum não instala automaticamente uma skill. O pacote contém instruções de uso.
+
 ## Primeira prévia
 
 **Parte 01 — abertura e primeira luta, 0:00–0:15,05.** **Revisão R2 para revisão**, com a marca de corte no rosto após o golpe.
@@ -62,7 +77,7 @@ Inclui a chegada do azul, a pose com as mãos atrás da cabeça, os detalhes da 
 | 04 | 1:02,08–1:21,75 | Luta em close e movimentos da câmera | Prévia R1 para revisão |
 | 05 | 1:21,75–1:34,60 | Chegada do azul e desfecho | Prévia R1 para revisão |
 
-Cada etapa terá um MP4 próprio. A montagem final será feita depois da revisão das partes. Os intervalos são contíguos e cobrem a referência inteira.
+Cada etapa terá um MP4 próprio. A montagem completa para revisão está disponível acima. Os intervalos são contíguos e cobrem a referência inteira.
 
 ## Método e limites
 
@@ -111,3 +126,13 @@ O arquivo de referência completo não está no pacote. A versão da biblioteca 
 R2 acrescenta a marca do corte no rosto do laranja. Os movimentos da R1 foram preservados. A mudança foi conferida nos quadros antes e depois do golpe.
 
 [Prévia R1 anterior](https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/cf1b648c92a447cacecbe4c699bdb1fbda224286/videos/whatsapp-2026-10-14/exports/parte-01-previa-r1-720p60.mp4).
+
+## Reproduzir a montagem
+
+Depois de renderizar as cinco partes, forneça o arquivo original à montagem:
+
+```bash
+python scripts/assemble.py /caminho/para/referencia.mp4
+```
+
+O script confere o SHA-256 da referência no manifesto, concatena as faixas visuais com limites por frame e copia a trilha original uma única vez. Os relatórios ficam em `exports/`. Para conferir outra parte: `node scripts/inspect-part.mjs 04`.

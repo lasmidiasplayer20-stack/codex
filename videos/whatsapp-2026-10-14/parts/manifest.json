@@ -66,5 +66,16 @@
       ]
     }
   ],
-  "audio_policy": "Prévia com trecho da trilha; montagem final deve unir apenas os vídeos e aplicar a trilha original uma vez."
+  "audio_policy": "Prévia com trecho da trilha; montagem final deve unir apenas os vídeos e aplicar a trilha original uma vez.",
+  "complete_export": {
+    "status": "preview_for_review",
+    "fps": 60,
+    "frames": 5676,
+    "video_duration": 94.6,
+    "exports": [
+      "exports/video-completo-previa-r1-720p60.mp4",
+      "exports/video-completo-previa-r1-1080p60.mp4"
+    ],
+    "audio": "Original AAC copied once and packet hashes verified."
+  }
 }

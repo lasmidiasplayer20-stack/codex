@@ -1,0 +1,166 @@
+{
+  "passed": true,
+  "method": "First and last decoded frame of every part compared with the corresponding frame in the assembled export.",
+  "results": [
+    {
+      "size": 1080,
+      "part": "01",
+      "samples": [
+        {
+          "local_frame": 0,
+          "global_frame": 0,
+          "identical": true
+        },
+        {
+          "local_frame": 902,
+          "global_frame": 902,
+          "identical": true
+        }
+      ]
+    },
+    {
+      "size": 1080,
+      "part": "02",
+      "samples": [
+        {
+          "local_frame": 0,
+          "global_frame": 903,
+          "identical": true
+        },
+        {
+          "local_frame": 1736,
+          "global_frame": 2639,
+          "identical": true
+        }
+      ]
+    },
+    {
+      "size": 1080,
+      "part": "03",
+      "samples": [
+        {
+          "local_frame": 0,
+          "global_frame": 2640,
+          "identical": true
+        },
+        {
+          "local_frame": 1084,
+          "global_frame": 3724,
+          "identical": true
+        }
+      ]
+    },
+    {
+      "size": 1080,
+      "part": "04",
+      "samples": [
+        {
+          "local_frame": 0,
+          "global_frame": 3725,
+          "identical": true
+        },
+        {
+          "local_frame": 1179,
+          "global_frame": 4904,
+          "identical": true
+        }
+      ]
+    },
+    {
+      "size": 1080,
+      "part": "05",
+      "samples": [
+        {
+          "local_frame": 0,
+          "global_frame": 4905,
+          "identical": true
+        },
+        {
+          "local_frame": 770,
+          "global_frame": 5675,
+          "identical": true
+        }
+      ]
+    },
+    {
+      "size": 720,
+      "part": "01",
+      "samples": [
+        {
+          "local_frame": 0,
+          "global_frame": 0,
+          "identical": true
+        },
+        {
+          "local_frame": 902,
+          "global_frame": 902,
+          "identical": true
+        }
+      ]
+    },
+    {
+      "size": 720,
+      "part": "02",
+      "samples": [
+        {
+          "local_frame": 0,
+          "global_frame": 903,
+          "identical": true
+        },
+        {
+          "local_frame": 1736,
+          "global_frame": 2639,
+          "identical": true
+        }
+      ]
+    },
+    {
+      "size": 720,
+      "part": "03",
+      "samples": [
+        {
+          "local_frame": 0,
+          "global_frame": 2640,
+          "identical": true
+        },
+        {
+          "local_frame": 1084,
+          "global_frame": 3724,
+          "identical": true
+        }
+      ]
+    },
+    {
+      "size": 720,
+      "part": "04",
+      "samples": [
+        {
+          "local_frame": 0,
+          "global_frame": 3725,
+          "identical": true
+        },
+        {
+          "local_frame": 1179,
+          "global_frame": 4904,
+          "identical": true
+        }
+      ]
+    },
+    {
+      "size": 720,
+      "part": "05",
+      "samples": [
+        {
+          "local_frame": 0,
+          "global_frame": 4905,
+          "identical": true
+        },
+        {
+          "local_frame": 770,
+          "global_frame": 5675,
+          "identical": true
+        }
+      ]
+    }
+  ]
+}
