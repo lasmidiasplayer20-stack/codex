@@ -1,0 +1,22 @@
+{
+  "codigo-rig-v4.zip": {
+    "bytes": 1635865,
+    "sha256": "f41a0de8949b272211bf65aee523dc8f1126849e1f5ea559c9ca0d819d57b8f7"
+  },
+  "README.md": {
+    "bytes": 1828,
+    "sha256": "59e8e43acc8e016d30f02166ceea1b46f51dc94b3b0ef8caa6ea826ee4b9a8b2"
+  },
+  "recriacao-codigo-v4-1080p60.mp4": {
+    "bytes": 18799343,
+    "sha256": "f34b20baa54965d4b02ae8740ae7f3d19427da68a75ab2ae62f2de6455caddbf"
+  },
+  "skill-reference-animation-v4.zip": {
+    "bytes": 70922,
+    "sha256": "7a27791370a505c481d1a6d450379815a440e530266cd6feb1f528111d9d75eb"
+  },
+  "previa-rig-v4.gif": {
+    "bytes": 1372349,
+    "sha256": "21f965a21ffd59089ddae899578806243624fc447b79d1f8aee04a21696294f8"
+  }
+}
