@@ -46,7 +46,12 @@
       "folder": "04-luta-close",
       "start": 62.083333,
       "end": 81.75,
-      "status": "planned"
+      "status": "preview_for_review",
+      "revision": "r1",
+      "exports": [
+        "exports/parte-04-previa-r1-720p60.mp4",
+        "exports/parte-04-previa-r1-1080p60.mp4"
+      ]
     },
     {
       "id": "05",

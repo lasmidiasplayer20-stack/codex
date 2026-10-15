@@ -38,7 +38,7 @@ ffArgs.push('-t',String(duration),'-movflags','+faststart','-y',output);
 const ffmpeg=spawn('ffmpeg',ffArgs,{stdio:['pipe','ignore','pipe']});
 let stderr='';ffmpeg.stderr.on('data',d=>stderr+=d);let encoderError=null;ffmpeg.stdin.on('error',e=>encoderError=e);
 const completion=new Promise(r=>ffmpeg.on('close',code=>r(code)));
-const frames=Math.ceil(duration*fps),sampleTimes=start?[]:[0,3,6,12,18,26,34,40,48,56,66,76,84,91];
+const frames=Math.ceil(duration*fps-1e-4),sampleTimes=start?[]:[0,3,6,12,18,26,34,40,48,56,66,76,84,91];
 for(let frame=0;frame<frames;frame++){
  if(encoderError)throw encoderError;
  const t=start+frame/fps;

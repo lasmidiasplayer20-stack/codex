@@ -8,7 +8,7 @@ def probe(path,*args):
 def packets(path):
     return probe(path,'-select_streams','a','-show_packets','-show_data_hash','sha256','-show_entries','packet=data_hash,pts_time')['packets']
 parser=argparse.ArgumentParser();parser.add_argument('--part',default='01');parser.add_argument('--revision',default='r1');args=parser.parse_args()
-entry=next(p for p in json.loads((ROOT/'parts/manifest.json').read_text())['parts'] if p['id']==args.part);duration=entry['end']-entry['start'];frames=math.ceil(duration*60)
+entry=next(p for p in json.loads((ROOT/'parts/manifest.json').read_text())['parts'] if p['id']==args.part);duration=entry['end']-entry['start'];frames=math.ceil(duration*60-1e-4)
 audio=packets(ROOT/'parts'/entry['folder']/'soundtrack.m4a')
 results=[]
 for name,width,height in [(f'parte-{args.part}-previa-{args.revision}-1080p60.mp4',1920,1080),(f'parte-{args.part}-previa-{args.revision}-720p60.mp4',1280,720)]:

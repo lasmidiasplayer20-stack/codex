@@ -1,0 +1,22 @@
+{
+  "index.html": "3bf3d68f6d8fc4e1f1a60b3400733c9cb7e600a8715d0ccfd85c96897e4c07c3",
+  "render.mjs": "b9503b28b66ec3a944d82115f0814dd31aede16cb8f09d1b290101f7d453a61a",
+  "core/battle.js": "25fb4fb40377f2a79abeed04816881fff2677509196cd5272328ae375230d1d1",
+  "core/bootstrap.js": "dd3df5fa1dc00978d9566296795b80f830cdde20b3c357b4197362f7432312f5",
+  "core/clinic.js": "a83c1cb1482c2ae39d7d6240ad2a80e2ba313e96e60fa8b0d2bc66ddbd9e989a",
+  "core/draw.js": "1b5e2ec56e1385ef955f46888136b0bea7346758a6b7500faa29a84d30706da6",
+  "core/rig.js": "a2d0f3c27c0976eaad7b26471bbfa64fe3374b3a4f232b6cacbe5eb18c8f8f70",
+  "core/damage.js": "df1977404f5c9e7a14447a4f12727f88c598b6f940850bba656bdc1f9153c323",
+  "core/player.js": "225e677963cc5be642d99bfe13682cef19f462c2da44173d1a34cb94c5ce531e",
+  "vendor/motion.js": "1efa29adbb0d9a4452592adf84eb819ef05616e25a830c85ab8965bcbba79efa",
+  "scripts/inspect-part.mjs": "f577c0fea9c9c71d7e3a93992e8463924c6b7d53a7d64f6442b6403b98973903",
+  "scripts/inspect.mjs": "106de268436b2f4b15d0ab6188c8c33e47270e0e28f4faa9e52ffed9f0594554",
+  "parts/01-abertura-primeira-luta/choreography.js": "ce1a20c7d46a79392a66873e9573c3edcb8052d23d443097b9305d69227da724",
+  "parts/01-abertura-primeira-luta/director.js": "b1357bf63aaae0a15518d2b150a19f53d1fe9198d754b48d2bc0e01c9310671b",
+  "parts/02-medico-confronto/choreography.js": "d069da8aa22925a2905fe361bab0fae728fc299911f2c88ebe7878bff7b2fa27",
+  "parts/02-medico-confronto/director.js": "cb54d6dcc554e0761ea4f92985d746521c9b9c2b5417d55a09ceb7e99a8658c4",
+  "parts/03-retorno-vermelho/choreography.js": "920d19bf184777374016586cfbec3572ead7be5967bcb2e1992e510cae3dc3a1",
+  "parts/03-retorno-vermelho/director.js": "f0973eb58bcf7f3f411a89fbba974ae7fbb614f49e9822fea3e32e889aa37013",
+  "parts/04-luta-close/choreography.js": "8e5f81410d2e6e2f1b649b6270e8c4d8692c4c6888b0f990405e6f290469d5a3",
+  "parts/04-luta-close/director.js": "f0973eb58bcf7f3f411a89fbba974ae7fbb614f49e9822fea3e32e889aa37013"
+}
