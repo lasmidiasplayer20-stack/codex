@@ -1,0 +1,4 @@
+/* Local/cloud preview server; no external services, credentials, or uploads. */
+import{createServer}from'node:http';import{readFile}from'node:fs/promises';import{resolve,extname}from'node:path';import{root}from'./browser.mjs';
+const port=Number(process.argv[2]||4173),types={'.html':'text/html; charset=utf-8','.js':'text/javascript','.m4a':'audio/mp4','.mp4':'video/mp4'};
+createServer(async(req,res)=>{try{const p=resolve(root,'.'+(decodeURIComponent(req.url.split('?')[0])==='/'?'/index.html':decodeURIComponent(req.url.split('?')[0])));if(!p.startsWith(root+'/')){res.writeHead(403);res.end();return;}const d=await readFile(p);res.writeHead(200,{'Content-Type':types[extname(p)]||'application/octet-stream','Accept-Ranges':'none'});res.end(d);}catch{res.writeHead(404);res.end();}}).listen(port,'0.0.0.0',()=>console.log('Preview server listening on port '+port));

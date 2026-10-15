@@ -1,0 +1,45 @@
+{
+  "duration": 125.0,
+  "sample_rate": 48000,
+  "channels": 2,
+  "samples_per_channel": 6000000,
+  "voices": false,
+  "recorded_assets": false,
+  "seed": 20261015,
+  "score": "Original synthesized dramatic/comic motif with bass, plucked strings, pads, percussion, risers, event SFX and room delays",
+  "peak": 0.821990966796875,
+  "mastering": "4x oversampling, lookahead limiter at 0.82, compensated latency",
+  "rms_dbfs_by_act": {
+    "0-30": -24.87,
+    "30-75": -19.7,
+    "75-95": -15.82,
+    "95-105": -26.03,
+    "105-125": -17.56
+  },
+  "silence_windows": [
+    [
+      4.2,
+      5
+    ],
+    [
+      26.48,
+      26.63
+    ],
+    [
+      59.08,
+      59.3
+    ],
+    [
+      102.45,
+      103.1
+    ],
+    [
+      112.41666666666667,
+      115.45
+    ],
+    [
+      124.85,
+      125
+    ]
+  ]
+}
