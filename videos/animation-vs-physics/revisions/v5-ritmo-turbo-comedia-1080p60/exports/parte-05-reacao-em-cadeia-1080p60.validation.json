@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "file": "parte-05-reacao-em-cadeia-1080p60.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 780,
+  "duration": 13.0,
+  "format_duration": 13.0,
+  "audio": "AAC stereo 48kHz, original procedural score/SFX",
+  "full_decode": "passed",
+  "bytes": 2994596,
+  "sha256": "3258984222bf80fdb8f5911e4fa9d72e439e0fd45c6fc88aa93f5b15d03ccd84"
+}

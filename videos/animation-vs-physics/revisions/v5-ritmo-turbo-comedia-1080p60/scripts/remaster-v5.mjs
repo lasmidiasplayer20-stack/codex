@@ -1,0 +1,5 @@
+/* Replace audio after choreography refinements while preserving every encoded video frame. */
+import{spawn}from'node:child_process';import{mkdir,rename}from'node:fs/promises';import{resolve}from'node:path';const root=resolve(import.meta.dirname,'..'),slugs=['descoberta','alavanca','carga-em-movimento','sem-gravidade','reacao-em-cadeia','juntos-na-passagem'];
+async function run(cmd,args){await new Promise((ok,no)=>{const p=spawn(cmd,args,{cwd:root,stdio:'inherit'});p.on('error',no);p.on('close',c=>c===0?ok():no(Error(cmd+' '+c)));});}
+await mkdir(root+'/.qa/remaster',{recursive:true});for(let i=0;i<6;i++){const name=`parte-0${i+1}-${slugs[i]}-1080p60.mp4`,temp='.qa/remaster/'+name;await run('ffmpeg',['-v','error','-y','-i','exports/'+name,'-ss',String(i*13),'-i','exports/master-v5.wav','-map','0:v:0','-map','1:a:0','-c:v','copy','-c:a','aac','-b:a','192k','-ar','48000','-t','13','-movflags','+faststart',temp]);await rename(root+'/'+temp,root+'/exports/'+name);await run('python3',['scripts/validate-export.py','exports/'+name,'--duration','13','--fps','60']);}
+await import('./assemble-v5.mjs');

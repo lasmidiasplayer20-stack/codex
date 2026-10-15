@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "file": "parte-01-descoberta-1080p60.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 780,
+  "duration": 13.0,
+  "format_duration": 13.0,
+  "audio": "AAC stereo 48kHz, original procedural score/SFX",
+  "full_decode": "passed",
+  "bytes": 2526492,
+  "sha256": "b2bf157ac6d5167bc48e6371a13bf0950f097c49a89645877220a27bc4d5e83e"
+}
