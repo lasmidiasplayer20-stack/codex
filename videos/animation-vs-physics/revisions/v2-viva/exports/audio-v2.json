@@ -41,5 +41,11 @@
       124.85,
       125
     ]
-  ]
+  ],
+  "aac_measurement": {
+    "integrated_lufs": -17.3,
+    "loudness_range_lu": 12.3,
+    "true_peak_dbfs": -1.1,
+    "measurement": "FFmpeg ebur128=peak=true, decoded soundtrack-v2.m4a"
+  }
 }

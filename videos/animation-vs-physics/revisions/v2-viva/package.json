@@ -4,7 +4,7 @@
   "private": true,
   "type": "module",
   "scripts": {
-    "render": "node render.mjs",
+    "render": "node render.mjs --duration 125 --audio exports/soundtrack-v2.m4a --output exports/animation-vs-physics-v2-1080p24.mp4",
     "inspect": "node scripts/inspect.mjs",
     "test": "node tests/run.mjs && node tests/story.mjs && node tests/direction.mjs",
     "serve": "node scripts/serve.mjs"
