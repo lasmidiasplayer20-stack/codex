@@ -4,7 +4,7 @@ Projeto original programado: 25 takes de cinco segundos, 1920×1080, 24 fps, 3.0
 
 ## Estado
 
-Takes 01–15 implementados e testados. Prévias: 01–06 (30 s) e 07–15 (45 s). O módulo dos takes finais está em desenvolvimento e ainda não está ativado nesta revisão.
+Os 25 takes estão implementados e testados. As prévias 01–06, 07–15 e 16–25 permitem revisar cada bloco. O filme completo está em exportação e validação final.
 
 ## Preservação não destrutiva
 

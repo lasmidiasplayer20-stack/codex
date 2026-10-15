@@ -1,0 +1,1122 @@
+{
+  "duration": 125,
+  "simulation_step": 0.008333333333333333,
+  "seed": 20261015,
+  "events": [
+    {
+      "t": 0,
+      "type": "beat",
+      "label": "walk-in"
+    },
+    {
+      "t": 0.7333333333333333,
+      "type": "footstep",
+      "leg": 0
+    },
+    {
+      "t": 1.125,
+      "type": "footstep",
+      "leg": 1
+    },
+    {
+      "t": 1.45,
+      "type": "footstep",
+      "leg": 0
+    },
+    {
+      "t": 1.7333333333333334,
+      "type": "footstep",
+      "leg": 1
+    },
+    {
+      "t": 2.0083333333333333,
+      "type": "footstep",
+      "leg": 0
+    },
+    {
+      "t": 2.283333333333333,
+      "type": "footstep",
+      "leg": 1
+    },
+    {
+      "t": 2.5666666666666664,
+      "type": "footstep",
+      "leg": 0
+    },
+    {
+      "t": 2.875,
+      "type": "footstep",
+      "leg": 1
+    },
+    {
+      "t": 3.2333333333333334,
+      "type": "footstep",
+      "leg": 0
+    },
+    {
+      "t": 3.8,
+      "type": "footstep",
+      "leg": 1
+    },
+    {
+      "t": 4.1,
+      "type": "beat",
+      "label": "stop"
+    },
+    {
+      "t": 5,
+      "type": "orb-drop"
+    },
+    {
+      "t": 5,
+      "type": "beat",
+      "label": "orb-enters"
+    },
+    {
+      "t": 6.2,
+      "type": "startle"
+    },
+    {
+      "t": 6.2,
+      "type": "beat",
+      "label": "startle"
+    },
+    {
+      "t": 6.35,
+      "type": "orb-impact",
+      "plane": "floor",
+      "incoming": 1222.5
+    },
+    {
+      "t": 7.3999999999999995,
+      "type": "beat",
+      "label": "inspect"
+    },
+    {
+      "t": 7.566666666666666,
+      "type": "orb-impact",
+      "plane": "floor",
+      "incoming": 544.875
+    },
+    {
+      "t": 8.108333333333333,
+      "type": "orb-impact",
+      "plane": "floor",
+      "incoming": 242.30624999999998
+    },
+    {
+      "t": 9,
+      "type": "beat",
+      "label": "kneel"
+    },
+    {
+      "t": 10.7,
+      "type": "beat",
+      "label": "reach"
+    },
+    {
+      "t": 11.1,
+      "type": "beat",
+      "label": "finger-contact"
+    },
+    {
+      "t": 11.25,
+      "type": "gravity",
+      "vector": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 11.25,
+      "type": "blue-pulse"
+    },
+    {
+      "t": 11.25,
+      "type": "beat",
+      "label": "gravity-off"
+    },
+    {
+      "t": 11.383333333333333,
+      "type": "beat",
+      "label": "finger-released"
+    },
+    {
+      "t": 15,
+      "type": "beat",
+      "label": "swim-no-propulsion"
+    },
+    {
+      "t": 18.5,
+      "type": "beat",
+      "label": "stop-swimming"
+    },
+    {
+      "t": 18.75,
+      "type": "beat",
+      "label": "reach-toward-floor"
+    },
+    {
+      "t": 19.5,
+      "type": "beat",
+      "label": "notice-orb"
+    },
+    {
+      "t": 19.7,
+      "type": "beat",
+      "label": "floor-out-of-reach"
+    },
+    {
+      "t": 20.55,
+      "type": "beat",
+      "label": "kick-contact"
+    },
+    {
+      "t": 21,
+      "type": "kick",
+      "impulse": 800,
+      "characterDeltaV": 11.428571428571429,
+      "orbDeltaV": -400
+    },
+    {
+      "t": 21,
+      "type": "beat",
+      "label": "reaction-impulse"
+    },
+    {
+      "t": 21.125,
+      "type": "beat",
+      "label": "kick-release"
+    },
+    {
+      "t": 25.1,
+      "type": "orb-return"
+    },
+    {
+      "t": 25.1,
+      "type": "beat",
+      "label": "orb-return"
+    },
+    {
+      "t": 26.28333333333333,
+      "type": "orb-impact",
+      "plane": "floor",
+      "incoming": 230
+    },
+    {
+      "t": 26.28333333333333,
+      "type": "gravity",
+      "vector": [
+        0,
+        900
+      ]
+    },
+    {
+      "t": 26.28333333333333,
+      "type": "red-flash"
+    },
+    {
+      "t": 27.15,
+      "type": "character-impact",
+      "plane": "floor",
+      "incoming": 768.203831463618
+    },
+    {
+      "t": 27.15,
+      "type": "back-landing"
+    },
+    {
+      "t": 27.525,
+      "type": "character-impact",
+      "plane": "floor",
+      "incoming": 168.495157078004
+    },
+    {
+      "t": 27.525,
+      "type": "back-landing"
+    },
+    {
+      "t": 28.5,
+      "type": "beat",
+      "label": "head-lift"
+    },
+    {
+      "t": 30,
+      "type": "beat",
+      "label": "get-up"
+    },
+    {
+      "t": 30.75,
+      "type": "beat",
+      "label": "stand-after-fall"
+    },
+    {
+      "t": 31.4,
+      "type": "beat",
+      "label": "careful-walk"
+    },
+    {
+      "t": 31.775,
+      "type": "footstep",
+      "leg": 1
+    },
+    {
+      "t": 31.891666666666666,
+      "type": "footstep",
+      "leg": 0
+    },
+    {
+      "t": 32.00833333333333,
+      "type": "footstep",
+      "leg": 1
+    },
+    {
+      "t": 32.15833333333333,
+      "type": "footstep",
+      "leg": 0
+    },
+    {
+      "t": 32.35,
+      "type": "ice-contact"
+    },
+    {
+      "t": 32.35,
+      "type": "beat",
+      "label": "friction-zero"
+    },
+    {
+      "t": 32.516666666666666,
+      "type": "character-impact",
+      "plane": "floor",
+      "incoming": 142.5
+    },
+    {
+      "t": 32.69166666666666,
+      "type": "character-impact",
+      "plane": "floor",
+      "incoming": 157.5
+    },
+    {
+      "t": 35,
+      "type": "beat",
+      "label": "invisible-wall-active"
+    },
+    {
+      "t": 37.7,
+      "type": "beat",
+      "label": "brace-wall"
+    },
+    {
+      "t": 38.725,
+      "type": "character-impact",
+      "plane": "iceWall",
+      "incoming": 473.4166666666806
+    },
+    {
+      "t": 38.725,
+      "type": "spring-wall",
+      "incoming": 473.4166666666806
+    },
+    {
+      "t": 40,
+      "type": "beat",
+      "label": "superelastic-floor"
+    },
+    {
+      "t": 40.6,
+      "type": "character-impact",
+      "plane": "floor",
+      "incoming": 867.5
+    },
+    {
+      "t": 40.6,
+      "type": "superelastic-bounce",
+      "index": 1,
+      "launchSpeed": 480
+    },
+    {
+      "t": 41.666666666666664,
+      "type": "character-impact",
+      "plane": "floor",
+      "incoming": 480
+    },
+    {
+      "t": 41.666666666666664,
+      "type": "superelastic-bounce",
+      "index": 2,
+      "launchSpeed": 690
+    },
+    {
+      "t": 43.2,
+      "type": "character-impact",
+      "plane": "floor",
+      "incoming": 690
+    },
+    {
+      "t": 43.2,
+      "type": "superelastic-bounce",
+      "index": 3,
+      "launchSpeed": 1100
+    },
+    {
+      "t": 44,
+      "type": "beat",
+      "label": "panic-at-apex"
+    },
+    {
+      "t": 45,
+      "type": "gravity",
+      "vector": [
+        900,
+        0
+      ]
+    },
+    {
+      "t": 45,
+      "type": "blue-pulse"
+    },
+    {
+      "t": 45,
+      "type": "beat",
+      "label": "lateral-gravity"
+    },
+    {
+      "t": 50,
+      "type": "beat",
+      "label": "reveal-right-wall"
+    },
+    {
+      "t": 50.8,
+      "type": "beat",
+      "label": "turn-feet-to-wall"
+    },
+    {
+      "t": 51.416666666666664,
+      "type": "character-impact",
+      "plane": "right",
+      "incoming": 1351.6026367166799
+    },
+    {
+      "t": 52,
+      "type": "beat",
+      "label": "orb-offscreen-route"
+    },
+    {
+      "t": 54.05,
+      "type": "beat",
+      "label": "confused-head-turn"
+    },
+    {
+      "t": 54.6,
+      "type": "beat",
+      "label": "look-the-other-way"
+    },
+    {
+      "t": 55,
+      "type": "coordinate-basis",
+      "worldPositionUnchanged": [
+        6415.65304,
+        256.5697066666676
+      ],
+      "gravityUnchanged": [
+        900,
+        0
+      ]
+    },
+    {
+      "t": 55,
+      "type": "beat",
+      "label": "same-world-new-stage-coordinates"
+    },
+    {
+      "t": 55.199999999999996,
+      "type": "cube-drop"
+    },
+    {
+      "t": 55.199999999999996,
+      "type": "beat",
+      "label": "cube-enters"
+    },
+    {
+      "t": 56,
+      "type": "beat",
+      "label": "orb-offscreen-high"
+    },
+    {
+      "t": 56.4,
+      "type": "beat",
+      "label": "approach-heavy-cube"
+    },
+    {
+      "t": 56.56666666666666,
+      "type": "cube-impact",
+      "plane": "right",
+      "incoming": 1237.5
+    },
+    {
+      "t": 56.69166666666666,
+      "type": "footstep",
+      "leg": 0
+    },
+    {
+      "t": 56.975,
+      "type": "cube-impact",
+      "plane": "right",
+      "incoming": 181.875
+    },
+    {
+      "t": 57,
+      "type": "beat",
+      "label": "kneel-to-push"
+    },
+    {
+      "t": 57.3,
+      "type": "heavy-push"
+    },
+    {
+      "t": 57.3,
+      "type": "beat",
+      "label": "first-heavy-push"
+    },
+    {
+      "t": 58,
+      "type": "beat",
+      "label": "relax-push"
+    },
+    {
+      "t": 58.5,
+      "type": "heavy-push"
+    },
+    {
+      "t": 58.5,
+      "type": "beat",
+      "label": "second-heavy-push"
+    },
+    {
+      "t": 59,
+      "type": "beat",
+      "label": "cannot-move-cube"
+    },
+    {
+      "t": 59.8,
+      "type": "beat",
+      "label": "orb-rolls-into-view"
+    },
+    {
+      "t": 60.4,
+      "type": "beat",
+      "label": "orb-behind-cube"
+    },
+    {
+      "t": 61,
+      "type": "purple-pulse"
+    },
+    {
+      "t": 61,
+      "type": "beat",
+      "label": "inverted-response"
+    },
+    {
+      "t": 61.4,
+      "type": "inverted-push",
+      "applied": [
+        8000,
+        0
+      ],
+      "actual": [
+        -8000,
+        0
+      ],
+      "mass": 80
+    },
+    {
+      "t": 61.4,
+      "type": "beat",
+      "label": "push-reverses"
+    },
+    {
+      "t": 61.9,
+      "type": "beat",
+      "label": "step-back"
+    },
+    {
+      "t": 62.50833333333333,
+      "type": "footstep",
+      "leg": 0
+    },
+    {
+      "t": 63.3,
+      "type": "beat",
+      "label": "finish-retreat"
+    },
+    {
+      "t": 64,
+      "type": "beat",
+      "label": "orb-settles"
+    },
+    {
+      "t": 65,
+      "type": "beat",
+      "label": "cube-chase"
+    },
+    {
+      "t": 65.38333333333333,
+      "type": "footstep",
+      "leg": 0
+    },
+    {
+      "t": 65.6,
+      "type": "footstep",
+      "leg": 1
+    },
+    {
+      "t": 65.775,
+      "type": "footstep",
+      "leg": 0
+    },
+    {
+      "t": 65.95,
+      "type": "footstep",
+      "leg": 1
+    },
+    {
+      "t": 66.13333333333333,
+      "type": "footstep",
+      "leg": 0
+    },
+    {
+      "t": 66.35833333333333,
+      "type": "footstep",
+      "leg": 1
+    },
+    {
+      "t": 66.75,
+      "type": "jump-over-cube"
+    },
+    {
+      "t": 66.75,
+      "type": "beat",
+      "label": "jump-and-change-sides"
+    },
+    {
+      "t": 67.4,
+      "type": "beat",
+      "label": "cube-brakes"
+    },
+    {
+      "t": 67.85,
+      "type": "character-impact",
+      "plane": "right",
+      "incoming": 497.5
+    },
+    {
+      "t": 68.3,
+      "type": "beat",
+      "label": "land-other-side"
+    },
+    {
+      "t": 69.30833333333334,
+      "type": "footstep",
+      "leg": 0
+    },
+    {
+      "t": 69.5,
+      "type": "beat",
+      "label": "recover-after-jump"
+    },
+    {
+      "t": 70,
+      "type": "beat",
+      "label": "approach-from-behind"
+    },
+    {
+      "t": 70.4,
+      "type": "footstep",
+      "leg": 0
+    },
+    {
+      "t": 70.85,
+      "type": "beat",
+      "label": "grip-from-behind"
+    },
+    {
+      "t": 71.25,
+      "type": "inverted-pull",
+      "applied": [
+        45000,
+        0
+      ],
+      "actual": [
+        -45000,
+        0
+      ],
+      "mass": 80
+    },
+    {
+      "t": 71.25,
+      "type": "beat",
+      "label": "pull-sends-cube-away"
+    },
+    {
+      "t": 71.5,
+      "type": "beat",
+      "label": "release-cube"
+    },
+    {
+      "t": 72.5,
+      "type": "discovery"
+    },
+    {
+      "t": 72.5,
+      "type": "beat",
+      "label": "idea-gesture"
+    },
+    {
+      "t": 75,
+      "type": "energy-build"
+    },
+    {
+      "t": 75,
+      "type": "beat",
+      "label": "orb-transformation"
+    },
+    {
+      "t": 75.625,
+      "type": "footstep",
+      "leg": 0
+    },
+    {
+      "t": 76.3,
+      "type": "beat",
+      "label": "back-away-from-energy"
+    },
+    {
+      "t": 76.79166666666667,
+      "type": "character-impact",
+      "plane": "right",
+      "incoming": 82.5
+    },
+    {
+      "t": 80.2,
+      "type": "gravity",
+      "vector": [
+        -900,
+        -5.510910596163089e-14
+      ]
+    },
+    {
+      "t": 80.2,
+      "type": "chaos-wave",
+      "rule": "inverted-gravity"
+    },
+    {
+      "t": 80.2,
+      "type": "beat",
+      "label": "first-chaos-wave"
+    },
+    {
+      "t": 80.85,
+      "type": "gravity",
+      "vector": [
+        900,
+        5.510910596163089e-14
+      ]
+    },
+    {
+      "t": 80.85,
+      "type": "beat",
+      "label": "gravity-wave-passes"
+    },
+    {
+      "t": 81.3,
+      "type": "chaos-wave",
+      "rule": "leftward-impulse"
+    },
+    {
+      "t": 81.3,
+      "type": "beat",
+      "label": "second-chaos-wave"
+    },
+    {
+      "t": 82.1,
+      "type": "chaos-wave",
+      "rule": "superelastic-floor"
+    },
+    {
+      "t": 82.1,
+      "type": "beat",
+      "label": "third-chaos-wave"
+    },
+    {
+      "t": 82.41666666666667,
+      "type": "cube-impact",
+      "plane": "right",
+      "incoming": 831.5217391304348
+    },
+    {
+      "t": 82.575,
+      "type": "character-impact",
+      "plane": "right",
+      "incoming": 915
+    },
+    {
+      "t": 82.575,
+      "type": "chaos-floor-bounce",
+      "launchSpeed": 615
+    },
+    {
+      "t": 82.69166666666666,
+      "type": "cube-impact",
+      "plane": "right",
+      "incoming": 122.77173913043487
+    },
+    {
+      "t": 83.1,
+      "type": "beat",
+      "label": "cube-passes-above-floor"
+    },
+    {
+      "t": 83.94166666666666,
+      "type": "character-impact",
+      "plane": "right",
+      "incoming": 615
+    },
+    {
+      "t": 84.6,
+      "type": "gravity",
+      "vector": [
+        0,
+        0
+      ]
+    },
+    {
+      "t": 84.6,
+      "type": "beat",
+      "label": "neutral-region"
+    },
+    {
+      "t": 85,
+      "type": "beat",
+      "label": "passing-cube"
+    },
+    {
+      "t": 85.55,
+      "type": "beat",
+      "label": "reach-passing-cube"
+    },
+    {
+      "t": 85.65,
+      "type": "inverted-tether",
+      "mass": 80,
+      "actualForce": 34908.335683972764
+    },
+    {
+      "t": 85.65,
+      "type": "beat",
+      "label": "grab-and-accelerate"
+    },
+    {
+      "t": 90,
+      "type": "inertia-release",
+      "velocity": [
+        216.3279627403015,
+        -0.026227214715568836
+      ]
+    },
+    {
+      "t": 90,
+      "type": "beat",
+      "label": "release-cube-inertia"
+    },
+    {
+      "t": 90.1,
+      "type": "beat",
+      "label": "feet-forward"
+    },
+    {
+      "t": 90.83333333333333,
+      "type": "cube-impact",
+      "plane": "right",
+      "incoming": 427.5417614875772
+    },
+    {
+      "t": 90.96666666666667,
+      "type": "cube-impact",
+      "plane": "right",
+      "incoming": 55.57696638630535
+    },
+    {
+      "t": 91.31666666666666,
+      "type": "double-kick-contact"
+    },
+    {
+      "t": 91.40833333333333,
+      "type": "double-kick"
+    },
+    {
+      "t": 95,
+      "type": "gravity",
+      "vector": [
+        18,
+        1.102182119232618e-15
+      ]
+    },
+    {
+      "t": 95,
+      "type": "time-scale",
+      "value": 0.15
+    },
+    {
+      "t": 95,
+      "type": "beat",
+      "label": "slow-motion"
+    },
+    {
+      "t": 100,
+      "type": "beat",
+      "label": "study-fragments"
+    },
+    {
+      "t": 101.85,
+      "type": "beat",
+      "label": "reach-particle"
+    },
+    {
+      "t": 102,
+      "type": "particle-touch"
+    },
+    {
+      "t": 102,
+      "type": "beat",
+      "label": "touch-particle"
+    },
+    {
+      "t": 102.2,
+      "type": "particle-deflected",
+      "deltaVelocity": [
+        145,
+        -95
+      ]
+    },
+    {
+      "t": 102.2,
+      "type": "beat",
+      "label": "deflect-particle"
+    },
+    {
+      "t": 105,
+      "type": "gravity",
+      "vector": [
+        900,
+        5.510910596163089e-14
+      ]
+    },
+    {
+      "t": 105,
+      "type": "time-scale",
+      "value": 1
+    },
+    {
+      "t": 105,
+      "type": "beat",
+      "label": "normal-speed-plan"
+    },
+    {
+      "t": 105.84166666666667,
+      "type": "character-impact",
+      "plane": "right",
+      "incoming": 762.0000000000008
+    },
+    {
+      "t": 105.98333333333333,
+      "type": "character-impact",
+      "plane": "planWall",
+      "incoming": 210
+    },
+    {
+      "t": 105.98333333333333,
+      "type": "plan-ricochet",
+      "incoming": 210,
+      "outgoing": 420
+    },
+    {
+      "t": 107.1,
+      "type": "beat",
+      "label": "aim-for-cube"
+    },
+    {
+      "t": 108.55,
+      "type": "beat",
+      "label": "brace-launch"
+    },
+    {
+      "t": 109.125,
+      "type": "beat",
+      "label": "grip-launch-edge"
+    },
+    {
+      "t": 109.64999999999999,
+      "type": "inverted-cube-launch",
+      "appliedImpulse": [
+        -8574.739108637203,
+        14500
+      ],
+      "actualImpulse": [
+        8574.739108637203,
+        -14500
+      ],
+      "mass": 80
+    },
+    {
+      "t": 109.64999999999999,
+      "type": "beat",
+      "label": "launch-at-orb"
+    },
+    {
+      "t": 110.51666666666667,
+      "type": "decisive-collision",
+      "cube": [
+        1141.1651223711615,
+        618.906249999968
+      ],
+      "orb": [
+        1176,
+        559.9999999999999
+      ],
+      "centerlineError": 1.6096177868219858e-11
+    },
+    {
+      "t": 110.95,
+      "type": "character-impact",
+      "plane": "right",
+      "incoming": 290
+    },
+    {
+      "t": 111.04166666666667,
+      "type": "character-impact",
+      "plane": "right",
+      "incoming": 82.5
+    },
+    {
+      "t": 114.84166666666667,
+      "type": "white-flash"
+    },
+    {
+      "t": 114.84166666666667,
+      "type": "beat",
+      "label": "brief-white-flash"
+    },
+    {
+      "t": 115,
+      "type": "explicit-reset-cut",
+      "gravity": [
+        0,
+        900
+      ]
+    },
+    {
+      "t": 115,
+      "type": "beat",
+      "label": "normal-world-revealed"
+    },
+    {
+      "t": 116,
+      "type": "beat",
+      "label": "sit-up"
+    },
+    {
+      "t": 117,
+      "type": "beat",
+      "label": "stand-calmly"
+    },
+    {
+      "t": 118.5,
+      "type": "test-jump"
+    },
+    {
+      "t": 118.5,
+      "type": "beat",
+      "label": "normal-test-jump"
+    },
+    {
+      "t": 119.01666666666667,
+      "type": "character-impact",
+      "plane": "floor",
+      "incoming": 242.5
+    },
+    {
+      "t": 119.14999999999999,
+      "type": "beat",
+      "label": "relief"
+    },
+    {
+      "t": 120,
+      "type": "beat",
+      "label": "three-last-steps"
+    },
+    {
+      "t": 120.55,
+      "type": "footstep",
+      "leg": 0
+    },
+    {
+      "t": 120.89999999999999,
+      "type": "footstep",
+      "leg": 1
+    },
+    {
+      "t": 121.27499999999999,
+      "type": "footstep",
+      "leg": 0
+    },
+    {
+      "t": 121.64999999999999,
+      "type": "green-pulse"
+    },
+    {
+      "t": 121.64999999999999,
+      "type": "beat",
+      "label": "green-flash-stop"
+    },
+    {
+      "t": 122.35,
+      "type": "apple-drop"
+    },
+    {
+      "t": 122.35,
+      "type": "beat",
+      "label": "apple-falls"
+    },
+    {
+      "t": 123.51666666666667,
+      "type": "apple-hit"
+    },
+    {
+      "t": 123.94166666666666,
+      "type": "character-impact",
+      "plane": "floor",
+      "incoming": 112.5
+    },
+    {
+      "t": 124.225,
+      "type": "apple-impact",
+      "plane": "floor",
+      "incoming": 557.5
+    },
+    {
+      "t": 124.46666666666667,
+      "type": "apple-impact",
+      "plane": "floor",
+      "incoming": 106
+    },
+    {
+      "t": 124.85,
+      "type": "black-cut"
+    },
+    {
+      "t": 124.85,
+      "type": "beat",
+      "label": "instant-black-ending"
+    }
+  ]
+}

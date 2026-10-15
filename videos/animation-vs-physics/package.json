@@ -6,7 +6,8 @@
   "scripts": {
     "render": "node render.mjs",
     "inspect": "node scripts/inspect.mjs",
-    "test": "node tests/run.mjs"
+    "test": "node tests/run.mjs && node tests/story.mjs",
+    "serve": "node scripts/serve.mjs"
   },
   "devDependencies": {
     "@playwright/test": "1.64.0"

@@ -13,14 +13,16 @@ window.Act02={extend(H){const{at,pose,goal,turn,walk,gravity}=H;const vel=(s,b,v
  at(50,s=>{s.planes.find(p=>p.id==='right').active=true;},'reveal-right-wall');
  at(50.8,s=>{turn(s,-90,.9);pose(s,'stand',.9);},'turn-feet-to-wall');
  at(52,s=>{P.drive(s,s.orb,[4200,-350],4);},'orb-offscreen-route');
+ at(54.05,s=>{pose(s,'notice',.25);},'confused-head-turn');
+ at(54.6,s=>{pose(s,'stand',.3);},'look-the-other-way');
  at(55,s=>{const old=[s.char.x,s.char.y];s.stage=P.stage(-Math.PI/2,[6500-810,s.char.y+960]);s.char.drag=0;s.char.omega=0;s.char.angle=-Math.PI/2;s.char.angularDrive=null;s.flags.ice=false;s.char.restitution=0;pose(s,'stand');s.flags.stageRotated=true;P.log(s,'coordinate-basis',{worldPositionUnchanged:old,gravityUnchanged:s.gravity.slice()});},'same-world-new-stage-coordinates');
  at(55.2,s=>{const q=s.stage.world([1160,-70]);Object.assign(s.cube,{x:q[0],y:q[1],vx:0,vy:0,visible:true,restitution:.15,response:'heavy',gravityScale:1});P.log(s,'cube-drop');},'cube-enters');
  at(56,s=>{P.drive(s,s.orb,[5200,-350],3.8);},'orb-offscreen-high');
  at(56.4,s=>{goal(s,[1060,732.15],.6);walk(s,true,1);pose(s,'stand',.2);},'approach-heavy-cube');
  at(57,s=>{walk(s,false);goal(s,[1080,771.5],.2);pose(s,'push',.2);},'kneel-to-push');
- at(57.3,s=>{s.char.handContact='cubeLeft';s.flags.heavyPush=true;P.log(s,'heavy-push');},'first-heavy-push');
+ at(57.3,s=>{s.char.handContact='cubeLeft';s.flags.heavyPush=true;s.flags.effortStart=s.t;s.flags.effortEnd=s.t+(s.t<58?.7:.5);P.log(s,'heavy-push');},'first-heavy-push');
  at(58.0,s=>{s.flags.heavyPush=false;},'relax-push');
- at(58.5,s=>{s.flags.heavyPush=true;P.log(s,'heavy-push');},'second-heavy-push');
+ at(58.5,s=>{s.flags.heavyPush=true;s.flags.effortStart=s.t;s.flags.effortEnd=s.t+(s.t<58?.7:.5);P.log(s,'heavy-push');},'second-heavy-push');
  at(59,s=>{s.flags.heavyPush=false;s.char.handContact=null;goal(s,[1080,725.65],.6);pose(s,'stand',.6);},'cannot-move-cube');
  at(59.8,s=>{P.drive(s,s.orb,s.stage.world([1480,801]),.6);},'orb-rolls-into-view');
  at(60.4,s=>{P.drive(s,s.orb,s.stage.world([1350,801]),3.6);},'orb-behind-cube');
