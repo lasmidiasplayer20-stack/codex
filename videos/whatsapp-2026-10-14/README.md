@@ -26,9 +26,9 @@ Inclui a entrada, o desequilíbrio e a pausa sentado, o exame com um dispositivo
 
 **Parte 03 — retorno do vermelho e golpes, 0:44–1:02,08.**
 
-- [MP4 720p / 60 fps](https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/video-2026-10-14-em-partes-e5fc9397/videos/whatsapp-2026-10-14/exports/parte-03-previa-r1-720p60.mp4)
-- [MP4 1080p / 60 fps](https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/video-2026-10-14-em-partes-e5fc9397/videos/whatsapp-2026-10-14/exports/parte-03-previa-r1-1080p60.mp4)
-- [Código em ZIP](https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/video-2026-10-14-em-partes-e5fc9397/videos/whatsapp-2026-10-14/exports/codigo-parte-03-r1.zip)
+- [MP4 720p / 60 fps](https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/video-2026-10-14-em-partes-e5fc9397/videos/whatsapp-2026-10-14/exports/parte-03-previa-r2-720p60.mp4)
+- [MP4 1080p / 60 fps](https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/video-2026-10-14-em-partes-e5fc9397/videos/whatsapp-2026-10-14/exports/parte-03-previa-r2-1080p60.mp4)
+- [Código em ZIP](https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/video-2026-10-14-em-partes-e5fc9397/videos/whatsapp-2026-10-14/exports/codigo-parte-03-r2.zip)
 
 Arma e tecido desenhados por código, com empunhadura ligada à mão. O tronco pode dobrar em dois segmentos de comprimento constante, sem escalar o personagem. As poses são aproximações dirigidas.
 
@@ -58,7 +58,7 @@ Inclui a chegada do azul, a pose com as mãos atrás da cabeça, os detalhes da 
 |---|---|---|---|
 | 01 | 0:00–0:15,05 | Abertura, saída da cama, espada, bloqueio, desarme e salto | Prévia R2 para revisão |
 | 02 | 0:15,05–0:44 | Médico, exame e confronto | Prévia R1 para revisão |
-| 03 | 0:44–1:02,08 | Retorno do vermelho e golpes | Prévia R1 para revisão |
+| 03 | 0:44–1:02,08 | Retorno do vermelho e golpes | Prévia R2 para revisão |
 | 04 | 1:02,08–1:21,75 | Luta em close e movimentos da câmera | Prévia R1 para revisão |
 | 05 | 1:21,75–1:34,60 | Chegada do azul e desfecho | Prévia R1 para revisão |
 
