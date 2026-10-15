@@ -1,2 +1,6 @@
 node_modules/
 .qa/
+__pycache__/
+.venv/
+exports/*.wav
+exports/coded-frame-*.png
