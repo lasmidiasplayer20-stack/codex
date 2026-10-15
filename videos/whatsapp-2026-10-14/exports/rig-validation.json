@@ -1,0 +1,129 @@
+{
+  "passed": true,
+  "checks": {
+    "finite": true,
+    "maxBoneError": 1.2079226507921703e-13,
+    "maxContactError": 0,
+    "contactTime": 0,
+    "maxLegTargetError": 0,
+    "footLocks": [
+      {
+        "name": "orange",
+        "leg": 1,
+        "start": 10.1,
+        "end": 12.05,
+        "drift": 0
+      },
+      {
+        "name": "orange",
+        "leg": 0,
+        "start": 10.6,
+        "end": 12.05,
+        "drift": 0
+      },
+      {
+        "name": "red",
+        "leg": 0,
+        "start": 7.1,
+        "end": 9.8,
+        "drift": 0
+      },
+      {
+        "name": "red",
+        "leg": 1,
+        "start": 7.1,
+        "end": 9.8,
+        "drift": 0
+      }
+    ],
+    "eventJumps": [
+      {
+        "t": 12.083,
+        "tip": 0.0006533836835521465,
+        "grip": 0.0006778053903692979
+      },
+      {
+        "t": 12.27,
+        "tip": 0.004455259948784792,
+        "grip": 0.006197316217960836
+      }
+    ],
+    "maxPunchGap": 0,
+    "contactDetails": [
+      {
+        "t": 10.6,
+        "d": 0
+      },
+      {
+        "t": 10.7,
+        "d": 0
+      },
+      {
+        "t": 10.8,
+        "d": 0
+      },
+      {
+        "t": 10.9,
+        "d": 0
+      },
+      {
+        "t": 11,
+        "d": 0
+      },
+      {
+        "t": 11.1,
+        "d": 0
+      },
+      {
+        "t": 11.2,
+        "d": 0
+      },
+      {
+        "t": 11.3,
+        "d": 0
+      },
+      {
+        "t": 11.4,
+        "d": 0
+      },
+      {
+        "t": 11.5,
+        "d": 0
+      },
+      {
+        "t": 11.6,
+        "d": 0
+      },
+      {
+        "t": 11.7,
+        "d": 0
+      },
+      {
+        "t": 11.8,
+        "d": 0
+      },
+      {
+        "t": 11.9,
+        "d": 0
+      },
+      {
+        "t": 12,
+        "d": 0
+      }
+    ]
+  },
+  "errors": [],
+  "requests": [
+    "/",
+    "/vendor/motion.js",
+    "/core/rig.js",
+    "/parts/01-abertura-primeira-luta/choreography.js",
+    "/core/draw.js",
+    "/core/player.js",
+    "/parts/01-abertura-primeira-luta/soundtrack.m4a"
+  ],
+  "player": {
+    "seek": "0:10 / 0:15",
+    "pauseButton": "Reproduzir"
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "passed": true,
+  "exports": [
+    {
+      "file": "parte-01-previa-r1-1080p60.mp4",
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 903,
+      "video_duration": 15.05,
+      "format_duration": 15.069751,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "audio_packets_identical": 649,
+      "full_decode": "passed",
+      "bytes": 2266459,
+      "sha256": "182c511fef088e0213c57459d4afa5322ff480630e75269da34d7697a0269538"
+    },
+    {
+      "file": "parte-01-previa-r1-720p60.mp4",
+      "width": 1280,
+      "height": 720,
+      "fps": 60,
+      "frames": 903,
+      "video_duration": 15.05,
+      "format_duration": 15.069751,
+      "video_codec": "h264",
+      "audio_codec": "aac",
+      "audio_packets_identical": 649,
+      "full_decode": "passed",
+      "bytes": 1034236,
+      "sha256": "33c5bd9d7c7ac6737e1b021a124dfc5dafba90a499416f317252dec3042e1f48"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+{
+  "core/rig.js": "1470a7369a08b4b48a9740111b7e0c31fe53d42c95ada0a1dcef9ee9ffe46b28",
+  "core/draw.js": "dd4ed779122ca8bf52309071b36443efee2a398605abb1a533220bd71b0c4054",
+  "core/player.js": "d8759ee76d269d884305fa758dd61b08f2737e7c0c7aabb786dd8309d11754e2",
+  "parts/01-abertura-primeira-luta/choreography.js": "306b6623ea0301afa8752506048d48a7358af5b334b80c6972d73788417ae1d0",
+  "vendor/motion.js": "1efa29adbb0d9a4452592adf84eb819ef05616e25a830c85ab8965bcbba79efa",
+  "index.html": "8e7b9670b6da0fce325650f1d0bb000bfe77938dd9309828d3c650a645a870f6"
+}

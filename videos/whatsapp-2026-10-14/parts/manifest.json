@@ -1,0 +1,49 @@
+{
+  "reference": "WhatsApp Video 2026-10-14 at 10.28.28.mp4",
+  "reference_sha256": "e2147274a9188c4d5ad9d420a0382c0c8ce509e00a6e00d05ebd03750866b866",
+  "duration": 94.598095,
+  "method": "Modelos, rig e keyframes criados por código; referência visual consultada manualmente.",
+  "parts": [
+    {
+      "id": "01",
+      "folder": "01-abertura-primeira-luta",
+      "start": 0,
+      "end": 15.05,
+      "status": "preview_for_review",
+      "revision": "r1",
+      "exports": [
+        "exports/parte-01-previa-r1-720p60.mp4",
+        "exports/parte-01-previa-r1-1080p60.mp4"
+      ]
+    },
+    {
+      "id": "02",
+      "folder": "02-medico-confronto",
+      "start": 15.05,
+      "end": 44,
+      "status": "planned"
+    },
+    {
+      "id": "03",
+      "folder": "03-retorno-vermelho",
+      "start": 44,
+      "end": 62.083333,
+      "status": "planned"
+    },
+    {
+      "id": "04",
+      "folder": "04-luta-close",
+      "start": 62.083333,
+      "end": 81.75,
+      "status": "planned"
+    },
+    {
+      "id": "05",
+      "folder": "05-chegada-azul-desfecho",
+      "start": 81.75,
+      "end": 94.598095,
+      "status": "planned"
+    }
+  ],
+  "audio_policy": "Prévia com trecho da trilha; montagem final deve unir apenas os vídeos e aplicar a trilha original uma vez."
+}
