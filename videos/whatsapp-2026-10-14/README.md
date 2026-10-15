@@ -2,11 +2,34 @@
 
 Referência: **WhatsApp Video 2026-10-14 at 10.28.28.mp4**, 1:34,60.
 
+## Revisão R3 — refino com a referência reenviada
+
+[**Abrir/baixar o vídeo completo R3 — 1080p / 60 fps**](exports/video-completo-previa-r3-1080p60.mp4?raw=true)
+
+A referência foi confirmada pelas cenas, duração e pelos 4.074 pacotes de áudio
+idênticos à montagem anterior. Esta revisão refina o bloqueio e o giro da parte 3,
+os floreios e a batida com o cabo na parte 4, a preparação dos dois golpes finais
+e o corte de câmera. Mantém a cabeça do laranja sem preenchimento indevido e o
+tronco do vermelho sem colapso da R2. As partes 1, 2 e 5 foram preservadas.
+
+- [Parte 3 R3](exports/parte-03-previa-r3-1080p60.mp4?raw=true)
+- [Parte 4 R3](exports/parte-04-previa-r3-1080p60.mp4?raw=true)
+- [Antes/depois: R2 e R3](exports/comparacao-refino-r3.jpg)
+- [Projeto editável R3](exports/codigo-completo-r3.zip?raw=true)
+- [Detalhes e limites da revisão](REFINO-R3.md)
+
+É uma reconstrução dirigida por modelos próprios. Poses intermediárias, proporções
+projetadas e materiais continuam aproximados. Os quadros e sequências foram
+conferidos; os testes não demonstram igualdade visual de todos os frames.
+A referência original não é publicada nem incluída no pacote.
+
+## Histórico R2
+
 ## Refino visual R2 — comparação com o original pendente
 
 Esta é uma prévia parcial do refino solicitado em 15/10/2026. As partes 4 e 5
 receberam correções locais; as partes 1, 2 e 3 e suas trilhas visuais foram preservadas.
-Os movimentos de luta ausentes ainda dependem do reenvio do MP4 original.
+Naquela etapa, os movimentos de luta dependiam do reenvio da referência; o refino com a referência está na R3 acima.
 
 - [Vídeo completo R2 — 1080p / 60 fps](exports/video-completo-previa-r2-1080p60.mp4?raw=true)
 - [Parte 4 R2 — golpes e câmera](exports/parte-04-previa-r2-1080p60.mp4?raw=true)

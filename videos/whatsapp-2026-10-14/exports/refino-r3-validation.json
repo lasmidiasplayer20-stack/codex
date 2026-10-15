@@ -1,0 +1,38 @@
+{
+  "passed": true,
+  "reports": [
+    {
+      "part": "03",
+      "checks": {
+        "blockHandDistance": 0,
+        "blockReachError": 0,
+        "guardHandHigherThanShoulder": true
+      }
+    },
+    {
+      "part": "04",
+      "checks": {
+        "pommelDistance": 0.16000000000008185,
+        "pommelHitsHead": true,
+        "metalHeadAbovePommel": true,
+        "cameraAt675": 1.11,
+        "cameraAt678": 1.7300000000000002,
+        "overheadPreparations": [
+          {
+            "t": 72.5,
+            "handsAboveHead": true
+          },
+          {
+            "t": 73.125,
+            "handsAboveHead": true
+          },
+          {
+            "t": 73.5,
+            "handsAboveHead": true
+          }
+        ]
+      }
+    }
+  ],
+  "scope": "Directed contacts, camera timing and visible preparation poses compared with manually reviewed reference sequences; not pixel equivalence."
+}

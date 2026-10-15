@@ -1,0 +1,44 @@
+{
+  "passed": true,
+  "scope": "Head silhouette, straight red trunk, limb lengths, grips and the two existing late impacts; not reference fidelity.",
+  "reports": [
+    {
+      "part": "04",
+      "frames": 1180,
+      "maxTrunkShortening": 2.220446049250313e-15,
+      "maxBoneError": 2.8421709430404007e-13,
+      "finite": true,
+      "gripError": 0,
+      "hits": [
+        {
+          "t": 72.583333,
+          "metalReachesHead": true,
+          "distance": 0
+        },
+        {
+          "t": 73.583333,
+          "metalReachesHead": true,
+          "distance": 0
+        }
+      ],
+      "firstSweep": {
+        "t": 66.63333300000001,
+        "metalReachesHead": false,
+        "distance": 76.82686212658139
+      },
+      "innerPixelsChanged": 0
+    },
+    {
+      "part": "05",
+      "frames": 771,
+      "maxTrunkShortening": 4.440892098500626e-16,
+      "maxBoneError": 2.4158453015843406e-13,
+      "finite": true,
+      "gripError": 0,
+      "hits": [],
+      "firstSweep": null,
+      "innerPixelsChanged": 0
+    }
+  ],
+  "referenceComparison": "Reference confirmed; the early flourish ends in a pommel impact, checked separately in refino-r3-validation.json."
+}

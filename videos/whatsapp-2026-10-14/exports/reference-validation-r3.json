@@ -1,0 +1,14 @@
+{
+  "reference_file": "YTDown.com_YouTube_Media_IsA2bXWLyxA_Animation-vs-math-6-alanbecker-Fan-made-by-Octovex_001_1080p.mp4",
+  "sha256": "d47ed48c136a8da85ea568f5cb540ab7fcd3d22beb605b6724ce799f89c1627e",
+  "bytes": 7346901,
+  "status": "confirmed",
+  "video_duration": 94.598095,
+  "native_fps": 24,
+  "native_frames": 2269,
+  "audio_packets_identical_to_baseline": 4074,
+  "audio_timestamps_identical": true,
+  "bytes_differ_from_whatsapp_copy": true,
+  "comparison": "Scenes and action order checked manually; audio packet hashes and timestamps match.",
+  "reference_visual_source": "Only manually consulted. No reference frames, masks, contours or original MP4 are included in the renderer or package."
+}
