@@ -1,0 +1,25 @@
+{
+  "passed": true,
+  "part": "02",
+  "checks": {
+    "frames": 1737,
+    "finite": true,
+    "maxBoneError": 1.2789769243681803e-13,
+    "maxLegTargetError": 0,
+    "gripError": 0
+  },
+  "errors": [],
+  "requests": [
+    "/",
+    "/vendor/motion.js",
+    "/core/rig.js",
+    "/core/bootstrap.js",
+    "/parts/manifest.json",
+    "/parts/02-medico-confronto/choreography.js",
+    "/core/draw.js",
+    "/core/clinic.js",
+    "/parts/02-medico-confronto/director.js",
+    "/core/player.js",
+    "/parts/02-medico-confronto/soundtrack.m4a"
+  ]
+}

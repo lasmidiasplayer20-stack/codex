@@ -22,7 +22,12 @@
       "folder": "02-medico-confronto",
       "start": 15.05,
       "end": 44,
-      "status": "planned"
+      "status": "preview_for_review",
+      "revision": "r1",
+      "exports": [
+        "exports/parte-02-previa-r1-720p60.mp4",
+        "exports/parte-02-previa-r1-1080p60.mp4"
+      ]
     },
     {
       "id": "03",
