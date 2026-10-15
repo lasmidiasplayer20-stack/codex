@@ -1,0 +1,197 @@
+{
+  "reference": "YTDown.com_YouTube_Media_IsA2bXWLyxA_Animation-vs-math-6-alanbecker-Fan-made-by-Octovex_001_1080p.mp4",
+  "reference_sha256": "d47ed48c136a8da85ea568f5cb540ab7fcd3d22beb605b6724ce799f89c1627e",
+  "duration": 94.598095,
+  "method": "Modelos, rig e keyframes criados por código; referência visual consultada manualmente.",
+  "parts": [
+    {
+      "id": "01",
+      "folder": "01-abertura-primeira-luta",
+      "start": 0,
+      "end": 15.05,
+      "status": "preview_for_review",
+      "revision": "r2",
+      "exports": [
+        "exports/parte-01-previa-r2-720p60.mp4",
+        "exports/parte-01-previa-r2-1080p60.mp4"
+      ],
+      "revision_notes": "Marca de corte no rosto aparece após o golpe e acompanha a cabeça."
+    },
+    {
+      "id": "02",
+      "folder": "02-medico-confronto",
+      "start": 15.05,
+      "end": 44,
+      "status": "preview_for_review",
+      "revision": "r1",
+      "exports": [
+        "exports/parte-02-previa-r1-720p60.mp4",
+        "exports/parte-02-previa-r1-1080p60.mp4"
+      ]
+    },
+    {
+      "id": "03",
+      "folder": "03-retorno-vermelho",
+      "start": 44,
+      "end": 62.083333,
+      "status": "preview_for_review",
+      "revision": "r4",
+      "exports": [
+        "exports/parte-03-previa-r4-1080p60.mp4"
+      ],
+      "revision_notes": "Pancada deforma intencionalmente a cabeça; cutucada em pé e reação do pescoço com contato contínuo."
+    },
+    {
+      "id": "04",
+      "folder": "04-luta-close",
+      "start": 62.083333,
+      "end": 81.75,
+      "status": "preview_for_review",
+      "revision": "r4",
+      "exports": [
+        "exports/parte-04-previa-r4-1080p60.mp4"
+      ],
+      "revision_notes": "Preservada a coreografia R3; mantida a deformação da cabeça recebida na parte 3."
+    },
+    {
+      "id": "05",
+      "folder": "05-chegada-azul-desfecho",
+      "start": 81.75,
+      "end": 94.598095,
+      "status": "preview_for_review",
+      "revision": "r5",
+      "exports": [
+        "exports/parte-05-previa-r5-1080p60.mp4"
+      ],
+      "revision_notes": "Aproximação do azul, mãos na cabeça, recusa repetida do vermelho e sequência de soltar a arma e baixar os braços."
+    }
+  ],
+  "audio_policy": "Prévia com trecho da trilha; montagem final deve unir apenas os vídeos e aplicar a trilha original uma vez.",
+  "complete_export": {
+    "status": "preview_for_review",
+    "fps": 60,
+    "frames": 5676,
+    "video_duration": 94.6,
+    "exports": [
+      "exports/video-completo-previa-r5-1080p60.mp4"
+    ],
+    "audio": "AAC copiado integralmente da montagem R1, com hashes e timestamps conferidos.",
+    "revision": "r5",
+    "reference_comparison": "manually_reviewed_directed_approximation"
+  },
+  "previous_complete_export": {
+    "status": "preview_for_review",
+    "fps": 60,
+    "frames": 5676,
+    "video_duration": 94.6,
+    "exports": [
+      "exports/video-completo-previa-r1-720p60.mp4",
+      "exports/video-completo-previa-r1-1080p60.mp4"
+    ],
+    "audio": "Original AAC copied once and packet hashes verified."
+  },
+  "refinement_r2": {
+    "scope": "Cabeça do laranja e tronco do vermelho nas partes 4 e 5.",
+    "preserved_parts": [
+      "01-r2",
+      "02-r1",
+      "03-r2"
+    ],
+    "pending": "Comparar todas as partes com o original e reconstruir movimentos de luta ausentes.",
+    "first_sweep_review_window": [
+      65.7,
+      67.5
+    ]
+  },
+  "previous_reference": {
+    "name": "WhatsApp Video 2026-10-14 at 10.28.28.mp4",
+    "sha256": "e2147274a9188c4d5ad9d420a0382c0c8ce509e00a6e00d05ebd03750866b866"
+  },
+  "reference_match": {
+    "status": "confirmed",
+    "video_duration": 94.598095,
+    "native_fps": 24,
+    "native_frames": 2269,
+    "audio_packets_identical_to_baseline": 4074,
+    "audio_timestamps_identical": true,
+    "bytes_differ_from_whatsapp_copy": true,
+    "comparison": "Scenes and action order checked manually; audio packet hashes and timestamps match."
+  },
+  "previous_r2_complete_export": {
+    "status": "preview_for_review",
+    "fps": 60,
+    "frames": 5676,
+    "video_duration": 94.6,
+    "exports": [
+      "exports/video-completo-previa-r2-1080p60.mp4"
+    ],
+    "audio": "AAC copiado integralmente da montagem R1, com hashes e timestamps conferidos.",
+    "revision": "r2",
+    "reference_comparison": "pending_original_mp4"
+  },
+  "refinement_r3": {
+    "scope": "Refino dirigido por quadros e sequências da referência: bloqueio na parte 3 e floreios, impacto com cabo, golpes e câmera na parte 4.",
+    "preserved_parts": [
+      "01-r2",
+      "02-r1",
+      "05-r2"
+    ],
+    "reference_included": false,
+    "status": "preview_for_review",
+    "limitations": "Cenário, poses intermediárias e projeção anatômica são aproximações do rig próprio."
+  },
+  "previous_r3_complete_export": {
+    "status": "preview_for_review",
+    "fps": 60,
+    "frames": 5676,
+    "video_duration": 94.6,
+    "exports": [
+      "exports/video-completo-previa-r3-1080p60.mp4"
+    ],
+    "audio": "AAC copiado integralmente da montagem R1, com hashes e timestamps conferidos.",
+    "revision": "r3",
+    "reference_comparison": "manually_reviewed_directed_approximation"
+  },
+  "refinement_r4": {
+    "status": "preview_for_review",
+    "scope": "Pancada de 48,833 s e cutucada em pé entre 55,333 e 55,833 s, com continuidade da cabeça amassada.",
+    "preserved_parts": [
+      "01-r2",
+      "02-r1"
+    ],
+    "changed_parts": [
+      "03-r4",
+      "04-r4",
+      "05-r4"
+    ],
+    "reference_included": false,
+    "method": "Contorno paramétrico para deformação localizada; IK para a perna levantada; alvos dirigidos manualmente pela referência."
+  },
+  "previous_r4_complete_export": {
+    "status": "preview_for_review",
+    "fps": 60,
+    "frames": 5676,
+    "video_duration": 94.6,
+    "exports": [
+      "exports/video-completo-previa-r4-1080p60.mp4"
+    ],
+    "audio": "AAC copiado integralmente da montagem R1, com hashes e timestamps conferidos.",
+    "revision": "r4",
+    "reference_comparison": "manually_reviewed_directed_approximation"
+  },
+  "refinement_r5": {
+    "status": "preview_for_review",
+    "scope": "Interação azul/vermelho na parte 5; gesto de não entre 90,5 e 91,6 s e desfecho até a cartela.",
+    "preserved_parts": [
+      "01-r2",
+      "02-r1",
+      "03-r4",
+      "04-r4"
+    ],
+    "changed_parts": [
+      "05-r5"
+    ],
+    "reference_included": false,
+    "method": "Poses e alvos escritos à mão; rotação do pescoço com tronco e apoios fixos; proporções constantes dentro da parte."
+  }
+}

@@ -1,0 +1,1 @@
+{"name":"reference-animation-2026-10-14-parts","version":"0.1.0","private":true,"type":"module","scripts":{"inspect":"node scripts/inspect.mjs","render":"node render.mjs"},"devDependencies":{"@playwright/test":"1.64.0"},"engines":{"node":">=22"}}

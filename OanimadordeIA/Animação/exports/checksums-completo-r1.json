@@ -1,0 +1,222 @@
+{
+  "videos/whatsapp-2026-10-14/README.md": {
+    "bytes": 10161,
+    "sha256": "27c46c69e7664f4898d5614d8ffa3f51ab20c482629819b0693f1327a47823e3"
+  },
+  "videos/whatsapp-2026-10-14/.gitignore": {
+    "bytes": 27,
+    "sha256": "6bd74b8b35c966be38bf5ea9c0c6de001d2e10b1866c41391e5f3df89863be77"
+  },
+  "videos/whatsapp-2026-10-14/index.html": {
+    "bytes": 1296,
+    "sha256": "3bf3d68f6d8fc4e1f1a60b3400733c9cb7e600a8715d0ccfd85c96897e4c07c3"
+  },
+  "videos/whatsapp-2026-10-14/package.json": {
+    "bytes": 247,
+    "sha256": "94eab0f414ad082347e4ebb680f341ca38e824ec14e2df7f400e12f232cc43fb"
+  },
+  "videos/whatsapp-2026-10-14/package-lock.json": {
+    "bytes": 1787,
+    "sha256": "7e7249cced169ed5328b701fc2f64238a11de36d8874d1684996b2a5edc142ba"
+  },
+  "videos/whatsapp-2026-10-14/render.mjs": {
+    "bytes": 4677,
+    "sha256": "b9503b28b66ec3a944d82115f0814dd31aede16cb8f09d1b290101f7d453a61a"
+  },
+  "videos/whatsapp-2026-10-14/parts/manifest.json": {
+    "bytes": 2353,
+    "sha256": "59ade6d44a2eab6bd20d4b009587cae0def3b48e01f34aa11be8ecfc13eab75d"
+  },
+  "videos/whatsapp-2026-10-14/core/battle.js": {
+    "bytes": 2987,
+    "sha256": "25fb4fb40377f2a79abeed04816881fff2677509196cd5272328ae375230d1d1"
+  },
+  "videos/whatsapp-2026-10-14/core/bootstrap.js": {
+    "bytes": 999,
+    "sha256": "dd3df5fa1dc00978d9566296795b80f830cdde20b3c357b4197362f7432312f5"
+  },
+  "videos/whatsapp-2026-10-14/core/clinic.js": {
+    "bytes": 5499,
+    "sha256": "a83c1cb1482c2ae39d7d6240ad2a80e2ba313e96e60fa8b0d2bc66ddbd9e989a"
+  },
+  "videos/whatsapp-2026-10-14/core/draw.js": {
+    "bytes": 7230,
+    "sha256": "1b5e2ec56e1385ef955f46888136b0bea7346758a6b7500faa29a84d30706da6"
+  },
+  "videos/whatsapp-2026-10-14/core/rig.js": {
+    "bytes": 6038,
+    "sha256": "a2d0f3c27c0976eaad7b26471bbfa64fe3374b3a4f232b6cacbe5eb18c8f8f70"
+  },
+  "videos/whatsapp-2026-10-14/core/damage.js": {
+    "bytes": 1585,
+    "sha256": "df1977404f5c9e7a14447a4f12727f88c598b6f940850bba656bdc1f9153c323"
+  },
+  "videos/whatsapp-2026-10-14/core/player.js": {
+    "bytes": 1579,
+    "sha256": "225e677963cc5be642d99bfe13682cef19f462c2da44173d1a34cb94c5ce531e"
+  },
+  "videos/whatsapp-2026-10-14/vendor/MOTION-LICENSE.md": {
+    "bytes": 1100,
+    "sha256": "1bf0dc3f7727723e5a032ed12164a47cf92c05204cb1a3485f123c24e2833ed1"
+  },
+  "videos/whatsapp-2026-10-14/vendor/motion.js": {
+    "bytes": 144870,
+    "sha256": "1efa29adbb0d9a4452592adf84eb819ef05616e25a830c85ab8965bcbba79efa"
+  },
+  "videos/whatsapp-2026-10-14/scripts/inspect-part.mjs": {
+    "bytes": 3918,
+    "sha256": "f577c0fea9c9c71d7e3a93992e8463924c6b7d53a7d64f6442b6403b98973903"
+  },
+  "videos/whatsapp-2026-10-14/scripts/validate-export.py": {
+    "bytes": 2813,
+    "sha256": "442c9331a43e2bf43ff89f18c0e33272e83a771d2db8c1b4c1322ebc7f93392d"
+  },
+  "videos/whatsapp-2026-10-14/scripts/assemble.py": {
+    "bytes": 3054,
+    "sha256": "c3b3f1b4176f1cd6e9036bbefa8c3f74919f39344a82eb52840b66833d1c6011"
+  },
+  "videos/whatsapp-2026-10-14/scripts/inspect.mjs": {
+    "bytes": 4963,
+    "sha256": "106de268436b2f4b15d0ab6188c8c33e47270e0e28f4faa9e52ffed9f0594554"
+  },
+  "videos/whatsapp-2026-10-14/parts/02-medico-confronto/README.md": {
+    "bytes": 1011,
+    "sha256": "bc25fd0c1cccd50e4249a386830f7a37130ebfd85fe3af7d8a6826fdad28fdff"
+  },
+  "videos/whatsapp-2026-10-14/parts/02-medico-confronto/choreography.js": {
+    "bytes": 7849,
+    "sha256": "d069da8aa22925a2905fe361bab0fae728fc299911f2c88ebe7878bff7b2fa27"
+  },
+  "videos/whatsapp-2026-10-14/parts/02-medico-confronto/soundtrack.m4a": {
+    "bytes": 470095,
+    "sha256": "6f5f65dd78aa54bd5caf142245d73ef0a58d1e26697fce62a0bebb4f4ee8cd6e"
+  },
+  "videos/whatsapp-2026-10-14/parts/02-medico-confronto/director.js": {
+    "bytes": 1252,
+    "sha256": "cb54d6dcc554e0761ea4f92985d746521c9b9c2b5417d55a09ceb7e99a8658c4"
+  },
+  "videos/whatsapp-2026-10-14/parts/05-chegada-azul-desfecho/README.md": {
+    "bytes": 687,
+    "sha256": "e139a9682fff880f33f9450b51486b1e3d2c2c68880c347883d06caee6cef0cd"
+  },
+  "videos/whatsapp-2026-10-14/parts/05-chegada-azul-desfecho/choreography.js": {
+    "bytes": 4198,
+    "sha256": "f5c0f2de6e5d10597158e5df1a103d51cdd1460ad865a93a476b0d15c31f2052"
+  },
+  "videos/whatsapp-2026-10-14/parts/05-chegada-azul-desfecho/soundtrack.m4a": {
+    "bytes": 277949,
+    "sha256": "87341162951925d5bbb7a9ffc9312fd624a7b0a2e9eceb8a32e37bfefc2c3403"
+  },
+  "videos/whatsapp-2026-10-14/parts/05-chegada-azul-desfecho/director.js": {
+    "bytes": 759,
+    "sha256": "6b0eaa6640ac54c79474661ffca0dbeeab833845fcf442f0c3db0e7ba82b2cb4"
+  },
+  "videos/whatsapp-2026-10-14/parts/03-retorno-vermelho/README.md": {
+    "bytes": 903,
+    "sha256": "0f070fef184a374e2c1f70f55a82906a2230fca0d6e86099c1414da41bfc4056"
+  },
+  "videos/whatsapp-2026-10-14/parts/03-retorno-vermelho/choreography.js": {
+    "bytes": 6108,
+    "sha256": "b300d0af452fdfcbe0386159485f68fc5e20702548dc07e317ad89d8c2818894"
+  },
+  "videos/whatsapp-2026-10-14/parts/03-retorno-vermelho/soundtrack.m4a": {
+    "bytes": 365702,
+    "sha256": "44e67a8ed5ef093e8abb770f6b8dac22d6114bf39841d948bb4360ed1eef635a"
+  },
+  "videos/whatsapp-2026-10-14/parts/03-retorno-vermelho/director.js": {
+    "bytes": 97,
+    "sha256": "f0973eb58bcf7f3f411a89fbba974ae7fbb614f49e9822fea3e32e889aa37013"
+  },
+  "videos/whatsapp-2026-10-14/parts/01-abertura-primeira-luta/README.md": {
+    "bytes": 906,
+    "sha256": "1602d837136595a9c539c0cf57f7869255c0405c8ef5569876ebde2aad655a4d"
+  },
+  "videos/whatsapp-2026-10-14/parts/01-abertura-primeira-luta/choreography.js": {
+    "bytes": 6687,
+    "sha256": "ce1a20c7d46a79392a66873e9573c3edcb8052d23d443097b9305d69227da724"
+  },
+  "videos/whatsapp-2026-10-14/parts/01-abertura-primeira-luta/soundtrack.m4a": {
+    "bytes": 244948,
+    "sha256": "0cbb113dd1dcb10a7b72591ab4c4abbd42bb9fdb2f4de70b6cb59cba4de32e13"
+  },
+  "videos/whatsapp-2026-10-14/parts/01-abertura-primeira-luta/director.js": {
+    "bytes": 2584,
+    "sha256": "b1357bf63aaae0a15518d2b150a19f53d1fe9198d754b48d2bc0e01c9310671b"
+  },
+  "videos/whatsapp-2026-10-14/parts/04-luta-close/README.md": {
+    "bytes": 738,
+    "sha256": "35ea396437638ca69f26e5f0c94f98025860e4c5f172296388eb379fcf76574a"
+  },
+  "videos/whatsapp-2026-10-14/parts/04-luta-close/choreography.js": {
+    "bytes": 6100,
+    "sha256": "8e5f81410d2e6e2f1b649b6270e8c4d8692c4c6888b0f990405e6f290469d5a3"
+  },
+  "videos/whatsapp-2026-10-14/parts/04-luta-close/soundtrack.m4a": {
+    "bytes": 320033,
+    "sha256": "729a1f867aaec6df3842f35a66137bf55edbe7042136f220610a672a57e342db"
+  },
+  "videos/whatsapp-2026-10-14/parts/04-luta-close/director.js": {
+    "bytes": 97,
+    "sha256": "f0973eb58bcf7f3f411a89fbba974ae7fbb614f49e9822fea3e32e889aa37013"
+  },
+  "videos/whatsapp-2026-10-14/exports/full-export-validation-r1.json": {
+    "bytes": 837,
+    "sha256": "0548be649667b5bb4da5937153657d284cc3a3c229537a93cf3e757fac327a60"
+  },
+  "videos/whatsapp-2026-10-14/exports/regression-validation-r1.json": {
+    "bytes": 187,
+    "sha256": "785a2eb91a3c9bfd5b7d3cc05f81afc35767b400ab04b061f9fdb0e5357a2ecc"
+  },
+  "videos/whatsapp-2026-10-14/exports/join-validation-r1.json": {
+    "bytes": 3142,
+    "sha256": "e87201244b11a183a0d111a04df94ec8578f5a3ebc5d9689c032ff311183445c"
+  },
+  ".agents/skills/recriar-animacao-por-codigo/README.md": {
+    "bytes": 1851,
+    "sha256": "8074bc359f919c0c1b42800846a9364b4d5174088c07a7d0d734023c2b2d7270"
+  },
+  ".agents/skills/recriar-animacao-por-codigo/SKILL.md": {
+    "bytes": 4743,
+    "sha256": "4f1029ba4f61f7aaca169b1bc25ecc284638d01682d33b59b8d326dcb6a2f5c9"
+  },
+  ".agents/skills/recriar-animacao-por-codigo/templates/MOTION-LICENSE.md": {
+    "bytes": 1100,
+    "sha256": "1bf0dc3f7727723e5a032ed12164a47cf92c05204cb1a3485f123c24e2833ed1"
+  },
+  ".agents/skills/recriar-animacao-por-codigo/templates/motion.js": {
+    "bytes": 144870,
+    "sha256": "1efa29adbb0d9a4452592adf84eb819ef05616e25a830c85ab8965bcbba79efa"
+  },
+  ".agents/skills/recriar-animacao-por-codigo/templates/draw.js": {
+    "bytes": 7230,
+    "sha256": "1b5e2ec56e1385ef955f46888136b0bea7346758a6b7500faa29a84d30706da6"
+  },
+  ".agents/skills/recriar-animacao-por-codigo/templates/rig.js": {
+    "bytes": 6038,
+    "sha256": "a2d0f3c27c0976eaad7b26471bbfa64fe3374b3a4f232b6cacbe5eb18c8f8f70"
+  },
+  ".agents/skills/recriar-animacao-por-codigo/references/model-contract.md": {
+    "bytes": 1900,
+    "sha256": "5c901c40dde7259f3fae45b83d0615f30bf148002a8cd6249af20bc0796283a4"
+  },
+  ".agents/skills/recriar-animacao-por-codigo/references/workflow.md": {
+    "bytes": 2334,
+    "sha256": "e7ae949e2eef01225a4d165a0741f2fc45c09a90f78dcc00b82a15aa62ea89db"
+  },
+  "videos/whatsapp-2026-10-14/exports/skill-recriar-animacao-por-codigo.zip": {
+    "bytes": 61030,
+    "sha256": "35f42694625b1fc918e669e86042ccb5ce4dab7a05a292f2ff4f2208a15b5569"
+  },
+  "videos/whatsapp-2026-10-14/exports/codigo-completo-r1.zip": {
+    "bytes": 1825996,
+    "sha256": "50fa28c84f1d9f1e783ac43804d291d0be20f891404c8f547efb0b469c4a0a66"
+  },
+  "videos/whatsapp-2026-10-14/exports/video-completo-previa-r1-720p60.mp4": {
+    "bytes": 8784915,
+    "sha256": "25ca56b769dcee5ad879306f600a58506153fe1dcfa30a056bc2f759568e5bb4"
+  },
+  "videos/whatsapp-2026-10-14/exports/video-completo-previa-r1-1080p60.mp4": {
+    "bytes": 18473883,
+    "sha256": "63ffe5101809045f19b9b3643ffc78f8583d3ebd79a5c93ef9b8fddbb6322d0f"
+  }
+}

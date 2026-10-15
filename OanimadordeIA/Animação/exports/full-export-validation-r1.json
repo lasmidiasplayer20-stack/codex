@@ -1,0 +1,28 @@
+{
+  "passed": true,
+  "method": "Video streams concatenated with explicit frame durations; original AAC muxed once, unchanged.",
+  "exports": [
+    {
+      "file": "video-completo-previa-r1-1080p60.mp4",
+      "frames": 5676,
+      "fps": 60,
+      "video_duration": 94.6,
+      "format_duration": 94.6,
+      "audio_packets_identical": 4074,
+      "full_decode": "passed",
+      "bytes": 18473883,
+      "sha256": "63ffe5101809045f19b9b3643ffc78f8583d3ebd79a5c93ef9b8fddbb6322d0f"
+    },
+    {
+      "file": "video-completo-previa-r1-720p60.mp4",
+      "frames": 5676,
+      "fps": 60,
+      "video_duration": 94.6,
+      "format_duration": 94.6,
+      "audio_packets_identical": 4074,
+      "full_decode": "passed",
+      "bytes": 8784915,
+      "sha256": "25ca56b769dcee5ad879306f600a58506153fe1dcfa30a056bc2f759568e5bb4"
+    }
+  ]
+}

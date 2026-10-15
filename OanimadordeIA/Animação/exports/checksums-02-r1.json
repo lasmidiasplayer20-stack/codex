@@ -1,0 +1,142 @@
+{
+  "README.md": {
+    "bytes": 5248,
+    "sha256": "06e8dfe690c743c35d35705cc900faa41c04c8a6561370414986ac89933f12fc"
+  },
+  ".gitignore": {
+    "bytes": 27,
+    "sha256": "6bd74b8b35c966be38bf5ea9c0c6de001d2e10b1866c41391e5f3df89863be77"
+  },
+  "index.html": {
+    "bytes": 1296,
+    "sha256": "3bf3d68f6d8fc4e1f1a60b3400733c9cb7e600a8715d0ccfd85c96897e4c07c3"
+  },
+  "package.json": {
+    "bytes": 247,
+    "sha256": "94eab0f414ad082347e4ebb680f341ca38e824ec14e2df7f400e12f232cc43fb"
+  },
+  "package-lock.json": {
+    "bytes": 1787,
+    "sha256": "7e7249cced169ed5328b701fc2f64238a11de36d8874d1684996b2a5edc142ba"
+  },
+  "render.mjs": {
+    "bytes": 4672,
+    "sha256": "7d2ea1ada328481dcccd862e8ade3d460497e4b2d2b28a59ef24e44bd40abd7e"
+  },
+  "core/bootstrap.js": {
+    "bytes": 999,
+    "sha256": "dd3df5fa1dc00978d9566296795b80f830cdde20b3c357b4197362f7432312f5"
+  },
+  "core/clinic.js": {
+    "bytes": 5499,
+    "sha256": "a83c1cb1482c2ae39d7d6240ad2a80e2ba313e96e60fa8b0d2bc66ddbd9e989a"
+  },
+  "core/draw.js": {
+    "bytes": 7138,
+    "sha256": "cc4545ba5ebd2727a0c099bbadb63c822e19e843e1ee6caad67b5e06fe3ce0e6"
+  },
+  "core/rig.js": {
+    "bytes": 5465,
+    "sha256": "61f7873cd9d776b265f195a9f4c85f5982c5fdfb0b2247f94a62b263f8847dce"
+  },
+  "core/player.js": {
+    "bytes": 1579,
+    "sha256": "225e677963cc5be642d99bfe13682cef19f462c2da44173d1a34cb94c5ce531e"
+  },
+  "vendor/MOTION-LICENSE.md": {
+    "bytes": 1100,
+    "sha256": "1bf0dc3f7727723e5a032ed12164a47cf92c05204cb1a3485f123c24e2833ed1"
+  },
+  "vendor/motion.js": {
+    "bytes": 144870,
+    "sha256": "1efa29adbb0d9a4452592adf84eb819ef05616e25a830c85ab8965bcbba79efa"
+  },
+  "scripts/inspect-part.mjs": {
+    "bytes": 3680,
+    "sha256": "7509cbdcd41f618512dbb5a6cd022d6e93555492de91035cfdfaac14efcabc6a"
+  },
+  "scripts/validate-export.py": {
+    "bytes": 2808,
+    "sha256": "3eb2f333601c4726d0056b32cc236995dd758305a4c62e696af9e5661776174e"
+  },
+  "scripts/inspect.mjs": {
+    "bytes": 4963,
+    "sha256": "106de268436b2f4b15d0ab6188c8c33e47270e0e28f4faa9e52ffed9f0594554"
+  },
+  "parts/manifest.json": {
+    "bytes": 1545,
+    "sha256": "d4d771dbfb8338186f92b2b9b946dbad6c5952b8d88199f05dd8aff517e26bce"
+  },
+  "parts/01-abertura-primeira-luta/README.md": {
+    "bytes": 906,
+    "sha256": "1602d837136595a9c539c0cf57f7869255c0405c8ef5569876ebde2aad655a4d"
+  },
+  "parts/01-abertura-primeira-luta/choreography.js": {
+    "bytes": 6687,
+    "sha256": "ce1a20c7d46a79392a66873e9573c3edcb8052d23d443097b9305d69227da724"
+  },
+  "parts/01-abertura-primeira-luta/soundtrack.m4a": {
+    "bytes": 244948,
+    "sha256": "0cbb113dd1dcb10a7b72591ab4c4abbd42bb9fdb2f4de70b6cb59cba4de32e13"
+  },
+  "parts/01-abertura-primeira-luta/director.js": {
+    "bytes": 2584,
+    "sha256": "b1357bf63aaae0a15518d2b150a19f53d1fe9198d754b48d2bc0e01c9310671b"
+  },
+  "parts/02-medico-confronto/README.md": {
+    "bytes": 1011,
+    "sha256": "bc25fd0c1cccd50e4249a386830f7a37130ebfd85fe3af7d8a6826fdad28fdff"
+  },
+  "parts/02-medico-confronto/choreography.js": {
+    "bytes": 7849,
+    "sha256": "d069da8aa22925a2905fe361bab0fae728fc299911f2c88ebe7878bff7b2fa27"
+  },
+  "parts/02-medico-confronto/soundtrack.m4a": {
+    "bytes": 470095,
+    "sha256": "6f5f65dd78aa54bd5caf142245d73ef0a58d1e26697fce62a0bebb4f4ee8cd6e"
+  },
+  "parts/02-medico-confronto/director.js": {
+    "bytes": 1252,
+    "sha256": "cb54d6dcc554e0761ea4f92985d746521c9b9c2b5417d55a09ceb7e99a8658c4"
+  },
+  "parts/03-retorno-vermelho/README.md": {
+    "bytes": 552,
+    "sha256": "aaa6ba2d1ed49af4823bc3196186727436ee9b4218980263581661835b90ced2"
+  },
+  "parts/04-luta-close/README.md": {
+    "bytes": 514,
+    "sha256": "e618d711d59cfcbd77cbd36433575dec79eefe1e80dfbd1989ed04a790211fdb"
+  },
+  "parts/05-chegada-azul-desfecho/README.md": {
+    "bytes": 541,
+    "sha256": "5f607da039514599fd1189b184c3c5190b72534c1d80202ec107dc100e75858c"
+  },
+  "exports/rig-validation-02-r1.json": {
+    "bytes": 543,
+    "sha256": "ff5f89eae915dc7dfb7dbcd68595056a4ac9bf08993f2e6c2f423835dc3fe4ab"
+  },
+  "exports/export-validation-02-r1.json": {
+    "bytes": 1026,
+    "sha256": "59870bc3e2d191ca672a81a5fbc71bb0f4074caaeaa571cfd469cfbdd67b8bdd"
+  },
+  "exports/render-input-checksums-02-r1.json": {
+    "bytes": 1354,
+    "sha256": "09daee086276d91fbae5c43511455e992c9a5d5fcb35d10be334e0d4de3e85b9"
+  },
+  "exports/codigo-parte-02-r1.zip": {
+    "bytes": 794719,
+    "sha256": "937b0fc350ea50ceb7b8aa89200f66067fd024219e45f3695d3d42f995e17183"
+  },
+  "exports/parte-02-previa-r1-720p60.mp4": {
+    "bytes": 3170533,
+    "sha256": "d32218a9bf12bee02b7aa1ae35d116f96a50cb5a809f3e38c09c753a4d68ff51"
+  },
+  "exports/parte-02-previa-r1-1080p60.mp4": {
+    "bytes": 6583899,
+    "sha256": "5c4f5f8170e4f0ead33be3f3d1ff0f4e6b5edd830cc857099aa816b5afe55b3e"
+  },
+  "exports/parte-02-previa-r1-1080p60.mp4.json": {
+    "bytes": 604,
+    "sha256": "e089c3c135bf8a546b06b1d5b14c264d88c3677aa30f94c1808acf4d801c9d50"
+  }
+}

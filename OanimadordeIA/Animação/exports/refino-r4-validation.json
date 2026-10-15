@@ -1,0 +1,36 @@
+{
+  "passed": true,
+  "reports": [
+    {
+      "part": "03",
+      "checks": {
+        "roundBeforeImpact": true,
+        "compressionAtImpact": 0.5199999999999997,
+        "compressionAfterImpact": 0.40000000000000047,
+        "metalHitsHead": true,
+        "maxContactGap": 0,
+        "maxSupportDrift": 0,
+        "maxPelvisY": 326.94659050383785,
+        "maxHeadY": 224.99999999999997,
+        "maxTrunkLean": 0,
+        "maxOrangePelvisDrift": 0,
+        "finite": true
+      }
+    },
+    {
+      "part": "04",
+      "checks": {
+        "deformationPersists": true,
+        "renderFinite": true
+      }
+    },
+    {
+      "part": "05",
+      "checks": {
+        "deformationPersists": true,
+        "renderFinite": true
+      }
+    }
+  ],
+  "scope": "Intentional post-impact head deformation and standing foot contact from the manually reviewed reference. No source imagery in the renderer."
+}

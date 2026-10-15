@@ -1,0 +1,34 @@
+{
+  "video-completo-previa-r3-1080p60.mp4": {
+    "bytes": 18570649,
+    "sha256": "338c1aead4f7a49f554aa741695d5e0caff6ee4ed6e44863982bad0144289698"
+  },
+  "parte-03-previa-r3-1080p60.mp4": {
+    "bytes": 3492046,
+    "sha256": "9c56a6e36d0885641839e70631d16cf7c1f5f4b9a0e8568d8470062581377e64"
+  },
+  "parte-04-previa-r3-1080p60.mp4": {
+    "bytes": 3827239,
+    "sha256": "3d2f29428d044294991858438abe9b8c8ac2416cfe1745421eca0cc8591a75b6"
+  },
+  "codigo-completo-r3.zip": {
+    "bytes": 1807947,
+    "sha256": "c25551e0686d4bd9b63b7b9a85906630b4f052e4feb1bf6bd81df63c97e1ac29"
+  },
+  "comparacao-refino-r3.jpg": {
+    "bytes": 262168,
+    "sha256": "be81afdfb25a8ef47296289714871eeebf478a803b709ec2f55cc8bcbde2518f"
+  },
+  "refino-r3-validation.json": {
+    "bytes": 899,
+    "sha256": "a4c7e3863a3e184e9d575e9b4433291bd84552600ff13181e3a7f69ff8769f5c"
+  },
+  "full-export-validation-r3.json": {
+    "bytes": 1083,
+    "sha256": "218e17d0b0e250a4670c65149e316cd7f5034c15e1dd04ba642ac97ca11644fe"
+  },
+  "reference-validation-r3.json": {
+    "bytes": 711,
+    "sha256": "557c37d72994ccc49bc0269e39c1957c7ef8f267b1073501229f9454d113b3e1"
+  }
+}

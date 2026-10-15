@@ -1,0 +1,10 @@
+{
+  "core/rig.js": "ae51a84bc3cc370190e031ff452f213063aab31147ccbfd191798f745276e42b",
+  "core/draw.js": "bf1225c648c2d2dc35aa46ea752872c33d441b4c26c279f902a485b0f0cb4f6e",
+  "core/player.js": "225e677963cc5be642d99bfe13682cef19f462c2da44173d1a34cb94c5ce531e",
+  "core/bootstrap.js": "01758d7af539c99e6dfb0918adff79b4ef829644b417c07221c7f3f00889f356",
+  "parts/01-abertura-primeira-luta/choreography.js": "ce1a20c7d46a79392a66873e9573c3edcb8052d23d443097b9305d69227da724",
+  "parts/01-abertura-primeira-luta/director.js": "b1357bf63aaae0a15518d2b150a19f53d1fe9198d754b48d2bc0e01c9310671b",
+  "vendor/motion.js": "1efa29adbb0d9a4452592adf84eb819ef05616e25a830c85ab8965bcbba79efa",
+  "index.html": "3bf3d68f6d8fc4e1f1a60b3400733c9cb7e600a8715d0ccfd85c96897e4c07c3"
+}

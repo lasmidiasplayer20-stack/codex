@@ -1,0 +1,158 @@
+{
+  "README.md": {
+    "bytes": 6111,
+    "sha256": "ce000fbea7e16d835b41038ae189bda52e9c2688d0ac513edfaa667decaba506"
+  },
+  ".gitignore": {
+    "bytes": 27,
+    "sha256": "6bd74b8b35c966be38bf5ea9c0c6de001d2e10b1866c41391e5f3df89863be77"
+  },
+  "index.html": {
+    "bytes": 1296,
+    "sha256": "3bf3d68f6d8fc4e1f1a60b3400733c9cb7e600a8715d0ccfd85c96897e4c07c3"
+  },
+  "package.json": {
+    "bytes": 247,
+    "sha256": "94eab0f414ad082347e4ebb680f341ca38e824ec14e2df7f400e12f232cc43fb"
+  },
+  "package-lock.json": {
+    "bytes": 1787,
+    "sha256": "7e7249cced169ed5328b701fc2f64238a11de36d8874d1684996b2a5edc142ba"
+  },
+  "render.mjs": {
+    "bytes": 4672,
+    "sha256": "7d2ea1ada328481dcccd862e8ade3d460497e4b2d2b28a59ef24e44bd40abd7e"
+  },
+  "core/battle.js": {
+    "bytes": 2927,
+    "sha256": "60d547cd58418ec50812a09dff90e850476811e7505d9c11512014d10de4ca09"
+  },
+  "core/bootstrap.js": {
+    "bytes": 999,
+    "sha256": "dd3df5fa1dc00978d9566296795b80f830cdde20b3c357b4197362f7432312f5"
+  },
+  "core/clinic.js": {
+    "bytes": 5499,
+    "sha256": "a83c1cb1482c2ae39d7d6240ad2a80e2ba313e96e60fa8b0d2bc66ddbd9e989a"
+  },
+  "core/draw.js": {
+    "bytes": 7230,
+    "sha256": "1b5e2ec56e1385ef955f46888136b0bea7346758a6b7500faa29a84d30706da6"
+  },
+  "core/rig.js": {
+    "bytes": 6038,
+    "sha256": "a2d0f3c27c0976eaad7b26471bbfa64fe3374b3a4f232b6cacbe5eb18c8f8f70"
+  },
+  "core/player.js": {
+    "bytes": 1579,
+    "sha256": "225e677963cc5be642d99bfe13682cef19f462c2da44173d1a34cb94c5ce531e"
+  },
+  "vendor/MOTION-LICENSE.md": {
+    "bytes": 1100,
+    "sha256": "1bf0dc3f7727723e5a032ed12164a47cf92c05204cb1a3485f123c24e2833ed1"
+  },
+  "vendor/motion.js": {
+    "bytes": 144870,
+    "sha256": "1efa29adbb0d9a4452592adf84eb819ef05616e25a830c85ab8965bcbba79efa"
+  },
+  "scripts/inspect-part.mjs": {
+    "bytes": 3913,
+    "sha256": "bccd9be2885c0e84624aa1bc0a86fe7f618e06f4be16ba01b47005514963ab17"
+  },
+  "scripts/validate-export.py": {
+    "bytes": 2808,
+    "sha256": "3eb2f333601c4726d0056b32cc236995dd758305a4c62e696af9e5661776174e"
+  },
+  "scripts/inspect.mjs": {
+    "bytes": 4963,
+    "sha256": "106de268436b2f4b15d0ab6188c8c33e47270e0e28f4faa9e52ffed9f0594554"
+  },
+  "parts/manifest.json": {
+    "bytes": 1706,
+    "sha256": "e8b2fc1c33f98efc98617b4612b412c921f43967222d385218812993f3d293a7"
+  },
+  "parts/01-abertura-primeira-luta/README.md": {
+    "bytes": 906,
+    "sha256": "1602d837136595a9c539c0cf57f7869255c0405c8ef5569876ebde2aad655a4d"
+  },
+  "parts/01-abertura-primeira-luta/choreography.js": {
+    "bytes": 6687,
+    "sha256": "ce1a20c7d46a79392a66873e9573c3edcb8052d23d443097b9305d69227da724"
+  },
+  "parts/01-abertura-primeira-luta/soundtrack.m4a": {
+    "bytes": 244948,
+    "sha256": "0cbb113dd1dcb10a7b72591ab4c4abbd42bb9fdb2f4de70b6cb59cba4de32e13"
+  },
+  "parts/01-abertura-primeira-luta/director.js": {
+    "bytes": 2584,
+    "sha256": "b1357bf63aaae0a15518d2b150a19f53d1fe9198d754b48d2bc0e01c9310671b"
+  },
+  "parts/02-medico-confronto/README.md": {
+    "bytes": 1011,
+    "sha256": "bc25fd0c1cccd50e4249a386830f7a37130ebfd85fe3af7d8a6826fdad28fdff"
+  },
+  "parts/02-medico-confronto/choreography.js": {
+    "bytes": 7849,
+    "sha256": "d069da8aa22925a2905fe361bab0fae728fc299911f2c88ebe7878bff7b2fa27"
+  },
+  "parts/02-medico-confronto/soundtrack.m4a": {
+    "bytes": 470095,
+    "sha256": "6f5f65dd78aa54bd5caf142245d73ef0a58d1e26697fce62a0bebb4f4ee8cd6e"
+  },
+  "parts/02-medico-confronto/director.js": {
+    "bytes": 1252,
+    "sha256": "cb54d6dcc554e0761ea4f92985d746521c9b9c2b5417d55a09ceb7e99a8658c4"
+  },
+  "parts/03-retorno-vermelho/README.md": {
+    "bytes": 777,
+    "sha256": "ec2dc52d110afa2eed29cce5dd5531fa4e626c0d9b4c1f1ef6e3bcc3a5d6d3f1"
+  },
+  "parts/03-retorno-vermelho/choreography.js": {
+    "bytes": 6101,
+    "sha256": "920d19bf184777374016586cfbec3572ead7be5967bcb2e1992e510cae3dc3a1"
+  },
+  "parts/03-retorno-vermelho/soundtrack.m4a": {
+    "bytes": 365702,
+    "sha256": "44e67a8ed5ef093e8abb770f6b8dac22d6114bf39841d948bb4360ed1eef635a"
+  },
+  "parts/03-retorno-vermelho/director.js": {
+    "bytes": 97,
+    "sha256": "f0973eb58bcf7f3f411a89fbba974ae7fbb614f49e9822fea3e32e889aa37013"
+  },
+  "parts/04-luta-close/README.md": {
+    "bytes": 514,
+    "sha256": "e618d711d59cfcbd77cbd36433575dec79eefe1e80dfbd1989ed04a790211fdb"
+  },
+  "parts/05-chegada-azul-desfecho/README.md": {
+    "bytes": 541,
+    "sha256": "5f607da039514599fd1189b184c3c5190b72534c1d80202ec107dc100e75858c"
+  },
+  "exports/rig-validation-03-r1.json": {
+    "bytes": 565,
+    "sha256": "e1e07c8141fcf1b97a2ae560e6aef123210fb5187a3c9b0538741ef79143ded9"
+  },
+  "exports/export-validation-03-r1.json": {
+    "bytes": 1026,
+    "sha256": "4a08697382d682c6373acfdbc213c21216d5671c96deab0285ca52ad11406381"
+  },
+  "exports/render-input-checksums-03-r1.json": {
+    "bytes": 1668,
+    "sha256": "578c90f4c9d396ec226ffa8a417b4aad56adf68a6203365805ae8994004b4401"
+  },
+  "exports/codigo-parte-03-r1.zip": {
+    "bytes": 1162970,
+    "sha256": "012400441e1795bf56aa666de3823ecc1046f28191b5cf2ad2b5b57aedb557cc"
+  },
+  "exports/parte-03-previa-r1-720p60.mp4": {
+    "bytes": 1674215,
+    "sha256": "6cdb665ee7696a4a9c72f7e36170e42eada5152780d53cbad8083593b36c02cc"
+  },
+  "exports/parte-03-previa-r1-1080p60.mp4": {
+    "bytes": 3631632,
+    "sha256": "70d73e88b4ead43f07f3f7968f4a6a92a6d8a1def6fe80cbbfd0cb440aee61fc"
+  },
+  "exports/parte-03-previa-r1-1080p60.mp4.json": {
+    "bytes": 680,
+    "sha256": "7c62d8f1c1c0e50ff86ab21b1c44dfc9082086165d36bc187beef9239ab95377"
+  }
+}

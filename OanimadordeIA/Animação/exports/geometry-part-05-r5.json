@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "part": "05",
+  "checks": {
+    "frames": 771,
+    "finite": true,
+    "maxBoneError": 2.8421709430404007e-13,
+    "maxLegTargetError": 0,
+    "gripError": 0
+  },
+  "errors": [],
+  "requests": [
+    "/",
+    "/vendor/motion.js",
+    "/core/rig.js",
+    "/core/bootstrap.js",
+    "/parts/manifest.json",
+    "/parts/05-chegada-azul-desfecho/choreography.js",
+    "/core/draw.js",
+    "/core/clinic.js",
+    "/core/battle.js",
+    "/core/damage.js",
+    "/parts/05-chegada-azul-desfecho/director.js",
+    "/core/player.js",
+    "/parts/05-chegada-azul-desfecho/soundtrack.m4a"
+  ]
+}

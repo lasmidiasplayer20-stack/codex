@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "checks": {
+    "leftExcursion": -14.079464819197256,
+    "rightExcursion": 15.166431119341723,
+    "alternations": 3,
+    "supportDrift": 0,
+    "shoulderDrift": 4.547473508864641e-13,
+    "pelvisDrift": 4.547473508864641e-13,
+    "gripDrift": 4.547473508864641e-13,
+    "maxKneeBend": 76.16173774539385,
+    "cyanApproaches": true,
+    "cyanHandsAtHead": true,
+    "weaponHeldBeforeRelease": true,
+    "weaponReleasedAfterGesture": true,
+    "armsLowered": true,
+    "originalHeadDamagePreserved": true,
+    "endCardStart": 93.708333
+  },
+  "scope": "Manually reviewed ending: approach, hands behind head, repeated refusal, weapon release and lowered arms. Geometry and gesture checks do not establish pixel equivalence."
+}

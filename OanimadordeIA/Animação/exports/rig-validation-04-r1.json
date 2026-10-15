@@ -1,0 +1,27 @@
+{
+  "passed": true,
+  "part": "04",
+  "checks": {
+    "frames": 1180,
+    "finite": true,
+    "maxBoneError": 6.536993168992922e-13,
+    "maxLegTargetError": 0,
+    "gripError": 0
+  },
+  "errors": [],
+  "requests": [
+    "/",
+    "/vendor/motion.js",
+    "/core/rig.js",
+    "/core/bootstrap.js",
+    "/parts/manifest.json",
+    "/parts/04-luta-close/choreography.js",
+    "/core/draw.js",
+    "/core/clinic.js",
+    "/core/battle.js",
+    "/core/damage.js",
+    "/parts/04-luta-close/director.js",
+    "/core/player.js",
+    "/parts/04-luta-close/soundtrack.m4a"
+  ]
+}

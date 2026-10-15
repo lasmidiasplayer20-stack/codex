@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "part": "03",
+  "checks": {
+    "frames": 1085,
+    "finite": true,
+    "maxBoneError": 3.623767952376511e-13,
+    "maxLegTargetError": 0,
+    "gripError": 0
+  },
+  "errors": [],
+  "requests": [
+    "/",
+    "/vendor/motion.js",
+    "/core/rig.js",
+    "/core/bootstrap.js",
+    "/parts/manifest.json",
+    "/parts/03-retorno-vermelho/choreography.js",
+    "/core/draw.js",
+    "/core/clinic.js",
+    "/core/battle.js",
+    "/parts/03-retorno-vermelho/director.js",
+    "/core/player.js",
+    "/parts/03-retorno-vermelho/soundtrack.m4a"
+  ]
+}
