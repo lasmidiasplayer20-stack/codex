@@ -1,0 +1,41 @@
+{
+  "passed": true,
+  "file": "video-completo-previa-r5-1080p60.mp4",
+  "fps": 60,
+  "frames": 5676,
+  "duration": 94.6,
+  "full_decode": "passed",
+  "audio_source": "video-completo-previa-r1-1080p60.mp4",
+  "audio_packets_identical_to_previous_preview": 4074,
+  "audio_timestamps_preserved": true,
+  "parts": [
+    {
+      "part": 1,
+      "frames": 903,
+      "all_decoded_frames_identical_to_part": true
+    },
+    {
+      "part": 2,
+      "frames": 1737,
+      "all_decoded_frames_identical_to_part": true
+    },
+    {
+      "part": 3,
+      "frames": 1085,
+      "all_decoded_frames_identical_to_part": true
+    },
+    {
+      "part": 4,
+      "frames": 1180,
+      "all_decoded_frames_identical_to_part": true
+    },
+    {
+      "part": 5,
+      "frames": 771,
+      "all_decoded_frames_identical_to_part": true
+    }
+  ],
+  "bytes": 18687747,
+  "sha256": "f90f17d43325b27408b98944f3664f10cd2aeeb1be6c8c528cee5c1d9f71dd9e",
+  "reference_comparison": "Reference confirmed by scenes, duration and identical original AAC packets; directed approximation, not pixel equivalence."
+}

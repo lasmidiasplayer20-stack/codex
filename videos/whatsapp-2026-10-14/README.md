@@ -2,6 +2,22 @@
 
 Referência: **WhatsApp Video 2026-10-14 at 10.28.28.mp4**, 1:34,60.
 
+## Revisão R5 — interação final entre azul e vermelho
+
+[**Abrir/baixar o vídeo completo R5 — 1080p / 60 fps**](exports/video-completo-previa-r5-1080p60.mp4?raw=true)
+
+O azul se aproxima e coloca as mãos na cabeça. No retorno da câmera, o vermelho
+balança a cabeça dizendo “não” entre aproximadamente 1:30,5 e 1:31,6, mantendo
+os pés e o tronco parados. Depois solta a arma e baixa os braços antes da cartela.
+As partes 1 a 4 e as correções
+da pancada e da cutucada da R4 permanecem na montagem.
+
+- [Parte 5 R5 — interação e desfecho](exports/parte-05-previa-r5-1080p60.mp4?raw=true)
+- [Comparação animada R4/R5 — gesto de não](exports/comparacao-refino-r5.gif)
+- [Comparação em quadros entre R4 e R5](exports/comparacao-refino-r5.jpg)
+- [Projeto editável R5](exports/codigo-completo-r5.zip?raw=true)
+- [Detalhes e verificações](REFINO-R5.md)
+
 ## Revisão R4 — pancada e cutucada em pé
 
 [**Abrir/baixar o vídeo completo R4 — 1080p / 60 fps**](exports/video-completo-previa-r4-1080p60.mp4?raw=true)

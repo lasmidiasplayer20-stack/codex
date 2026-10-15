@@ -1,0 +1,50 @@
+{
+  "revision": "r5",
+  "files": [
+    {
+      "file": "codigo-completo-r5.zip",
+      "bytes": 1790457,
+      "sha256": "b61f7d200296ba94300ed5321400bb8bd26e524319be310d32b413bdc05f1fe6"
+    },
+    {
+      "file": "comparacao-refino-r5.gif",
+      "bytes": 132231,
+      "sha256": "74b4bd8bccd23abcd53a71a7164e26a4b010bd636711571b0cfd57e21b4c8ff2"
+    },
+    {
+      "file": "comparacao-refino-r5.jpg",
+      "bytes": 245133,
+      "sha256": "93f739bf1f1878616bc33f8eefc4c63b27b433fec81b2e93613db14741dc51e4"
+    },
+    {
+      "file": "full-export-validation-r5.json",
+      "bytes": 1083,
+      "sha256": "41b1022eab17f60c36fdf65d13c1b255b79f0eb856895d91b92f00462d73ddd5"
+    },
+    {
+      "file": "geometry-part-05-r5.json",
+      "bytes": 603,
+      "sha256": "58310736f0a39b2df5f59618c3cd139e9cad684dc8fd200016a59199a89d6b13"
+    },
+    {
+      "file": "parte-05-previa-r5-1080p60.mp4",
+      "bytes": 2517835,
+      "sha256": "afc85f97496e685f708c560029de7dfd584ce0f55b624e480836bee047b49b9e"
+    },
+    {
+      "file": "parte-05-previa-r5-1080p60.mp4.json",
+      "bytes": 719,
+      "sha256": "37c41e1a606c3e8ca4cb4589601232d14a7c1e3b865e36419320d84b5a2a50fa"
+    },
+    {
+      "file": "refino-r5-validation.json",
+      "bytes": 747,
+      "sha256": "8d35bc5a5b56d48cfab50aeed52b9565eb5ed219acfad92ab99500df29a140d9"
+    },
+    {
+      "file": "video-completo-previa-r5-1080p60.mp4",
+      "bytes": 18687747,
+      "sha256": "f90f17d43325b27408b98944f3664f10cd2aeeb1be6c8c528cee5c1d9f71dd9e"
+    }
+  ]
+}
