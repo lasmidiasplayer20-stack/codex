@@ -1,0 +1,17 @@
+{
+  "name": "animation-vs-physics",
+  "version": "6.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node tests/story-v6.mjs && python3 tests/preservation.py",
+    "serve": "node scripts/serve.mjs",
+    "render:parts": "node scripts/render-v6.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
