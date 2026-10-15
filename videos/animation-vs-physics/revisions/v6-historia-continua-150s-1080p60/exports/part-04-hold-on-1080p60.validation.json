@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "file": "part-04-hold-on-1080p60.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 1500,
+  "duration": 25.0,
+  "format_duration": 25.0,
+  "audio": "AAC stereo 48kHz, original procedural score/SFX",
+  "full_decode": "passed",
+  "bytes": 5146190,
+  "sha256": "0ec49e262704186e229b3ba0e4aae93f276fa53db189cdf2115ed7135ce456b6"
+}

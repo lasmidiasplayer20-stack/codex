@@ -1,0 +1,21 @@
+{
+  "duration": 150,
+  "fps": 60,
+  "frames": 9000,
+  "actors": 3,
+  "nativeTimeline": true,
+  "samples": 27000,
+  "finite": true,
+  "maxBoneError": 1.9895196601282805e-13,
+  "maxContactError": 2.5421149729252077e-13,
+  "maxRootStep": 6.0819659502585175,
+  "maxJointStep": 20.769498078782988,
+  "contacts": 11231,
+  "chapterBoundaryMaxDistance": 0.010224188724340624,
+  "activeSeconds": 144.2833333333403,
+  "longestQuietSeconds": 1.3333333333333335,
+  "events": 45,
+  "footsteps": 111,
+  "errors": [],
+  "allCausesPrecedeConsequences": true
+}

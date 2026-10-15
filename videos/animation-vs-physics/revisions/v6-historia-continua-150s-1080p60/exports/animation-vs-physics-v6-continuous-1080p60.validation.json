@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "file": "animation-vs-physics-v6-continuous-1080p60.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 9000,
+  "duration": 150.0,
+  "format_duration": 150.0,
+  "audio": "AAC stereo 48kHz, original procedural score/SFX",
+  "full_decode": "passed",
+  "bytes": 26739684,
+  "sha256": "b9e83ff329e2ab1fde61210854d1ff0781bf4b40e260535838483068e28b0273"
+}

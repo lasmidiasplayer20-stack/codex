@@ -1,0 +1,15 @@
+{
+  "all_frames_identical_to_parts": true,
+  "full_frames": 9000,
+  "part_frames": 9000,
+  "encoded_frames_sampled": 195,
+  "sequences": 9,
+  "chapter_boundaries_sampled": [
+    25,
+    50,
+    75,
+    100,
+    125
+  ],
+  "visual_review": "Sheets generated for assistant inspection; see separate visual-review-v6.json for observations."
+}

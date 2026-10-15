@@ -1,0 +1,54 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "duration": 25,
+  "start": 25,
+  "silent": false,
+  "inputFrames": 1500,
+  "metrics": {
+    "finite": true,
+    "sourceVideoPixelsUsed": 0,
+    "simulationHz": 120,
+    "storyDuration": 150,
+    "globalTimeRemapping": false,
+    "actors": 3,
+    "persistentRoom": true
+  },
+  "stages": [
+    {
+      "start": 0,
+      "end": 25,
+      "mode": "continuous-directed"
+    },
+    {
+      "start": 25,
+      "end": 50,
+      "mode": "continuous-directed"
+    },
+    {
+      "start": 50,
+      "end": 75,
+      "mode": "continuous-directed"
+    },
+    {
+      "start": 75,
+      "end": 100,
+      "mode": "continuous-directed"
+    },
+    {
+      "start": 100,
+      "end": 125,
+      "mode": "continuous-directed"
+    },
+    {
+      "start": 125,
+      "end": 150,
+      "mode": "continuous-directed"
+    }
+  ],
+  "errors": [],
+  "nativeTimeSampling": true,
+  "simulationHz": 120,
+  "visualSource": "Canvas2D standard objects and an independently drawn FK rig driven by named 2D pose controls; no source images or source video in the renderer"
+}

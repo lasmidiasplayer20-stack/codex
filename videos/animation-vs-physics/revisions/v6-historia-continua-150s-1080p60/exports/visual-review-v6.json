@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "method": "Assistant visual inspection of decoded contact sheets, not manual viewing of all 9000 frames.",
+  "encoded_frames_reviewed": 195,
+  "sheets": [
+    "storyboard-v6.jpg",
+    "motion-review-01.jpg",
+    "motion-review-02.jpg",
+    "motion-review-03.jpg",
+    "motion-review-04.jpg",
+    "motion-review-05.jpg",
+    "motion-review-06.jpg",
+    "motion-review-07.jpg",
+    "motion-review-08.jpg",
+    "motion-review-09.jpg"
+  ],
+  "observations": [
+    "Core recovery, first failed launch, cart braking and ring capture retain visible spatial continuity.",
+    "Release and catch show the core travelling between amber and cyan; the rope remains linked to the black character.",
+    "The controlled launch reaches the same receiver; its power state persists into the bridge sequence.",
+    "The brake callback precedes the bridge sag; amber and the black character share a hand target while cyan returns the cart.",
+    "Chapter boundary pairs preserve positions without a scene reset; visible text is English."
+  ],
+  "limits": [
+    "The figures overlap briefly around the cart and during the final hand-stop gag; the three colors distinguish them, but these are tight compositions.",
+    "Review sampled temporal sequences and boundary frames. It does not certify every frame or subjective humor.",
+    "Audio review was technical; no human listening evaluation."
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "file": "part-05-one-more-try-1080p60.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 1500,
+  "duration": 25.0,
+  "format_duration": 25.0,
+  "audio": "AAC stereo 48kHz, original procedural score/SFX",
+  "full_decode": "passed",
+  "bytes": 4282690,
+  "sha256": "dfa645c8f88feea756a0b40511a5424075ad83493113778df5175a293d2db072"
+}
