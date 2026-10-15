@@ -23,7 +23,7 @@ function foot(keys,t){const i=interval(keys,t),a=keys[i],b=keys[Math.min(i+1,key
 function ik(root,target,l1,l2,side){const d=sub(target,root),distance=Math.hypot(...d),length=clamp(distance,Math.abs(l1-l2)+.00001,l1+l2-.00001),angle=Math.atan2(d[1],d[0]),alpha=Math.acos(clamp((l1*l1+length*length-l2*l2)/(2*l1*length),-1,1));
  return {joint:add(root,polar(angle+side*alpha,l1)),end:add(root,polar(angle,length)),error:Math.max(0,distance-length)};
 }
-function torso(root,body,neck,profile){const shoulder=add(root,polar(radians(body),profile.torso)),head=add(shoulder,polar(radians(neck),profile.neck));return {shoulder,head};}
+function torso(root,body,neck,profile,fold=0){const half=radians(fold)/2,chord=profile.torso*Math.cos(half),shoulder=add(root,polar(radians(body),chord)),head=add(shoulder,polar(radians(neck),profile.neck));const spinePoint=fold?add(add(root,polar(radians(body),chord/2)),polar(radians(body)-Math.PI/2,profile.torso/2*Math.sin(half))):null;return {shoulder,head,spinePoint};}
 function walkingFeet(track,walk,root,t){const origin=value(track.keys,walk.start,'root')[0],direction=walk.direction,stride=walk.stride||110,progress=(root[0]-origin)*direction/stride;
  return [0,.5].map(offset=>{const phase=progress+offset,cycle=Math.floor(phase),u=phase-cycle,reach=stride*.3,plant=origin+direction*((cycle+.4-offset)*stride+reach),previous=plant-direction*stride;
   if(u<.4){const swing=u/.4;return [mix(previous,plant,travelEase(swing)),walk.floor-Math.sin(Math.PI*swing)*(walk.lift||24)];}return [plant,walk.floor];});}
@@ -33,19 +33,22 @@ function at(track,t){if(t<track.start||t>=track.end)return null;
  let feet=track.feet.map(keys=>{if(!air)return foot(keys,t);const [a,b]=air,local=keys.filter(k=>a<k.t&&k.t<b).map(k=>({...k,p:sub(k.p,value(track.keys,k.t,'root'))}));
   local.unshift({t:a,p:sub(foot(keys,a),value(track.keys,a,'root')),lift:keys[interval(keys,a)].lift||0});local.push({t:b,p:sub(foot(keys,b),value(track.keys,b,'root'))});return add(root,foot(local,t));});
  const walk=track.walks?.find(w=>w.start<=t&&t<w.end);if(walk&&!air){const targets=walkingFeet(track,walk,root,t),fade=clamp(Math.min((t-walk.start)/.15,(walk.end-t)/.15),0,1),blend=travelEase(fade);feet=feet.map((p,i)=>p.map((x,j)=>mix(x,targets[i][j],blend)));}
+ // Airborne feet relax toward reachable offsets; no planted contact exists in flight.
+ if(air){feet=feet.map(p=>{const d=sub(p,root),len=Math.hypot(...d),limit=profile.leg[0]+profile.leg[1]-.00001;return len>limit?add(root,d.map(x=>x*limit/len)):p;});}
  // Move the pelvis inside the reach of both supporting legs, instead of
  // stretching a limb or scaling the character to reach the floor.
  if(!air){
   for(let pass=0;pass<4;pass++)for(const f of feet){const d=sub(f,root),distance=Math.hypot(...d),limit=profile.leg[0]+profile.leg[1]-.1;if(distance>limit){root[0]+=d[0]*(1-limit/distance);root[1]+=d[1]*(1-limit/distance);}}
  }
- const {shoulder,head}=torso(root,body,neck,profile),hands=[value(track.keys,t,'hand0'),value(track.keys,t,'hand1')];
+ const spineFold=track.keys[0].spineFold===undefined?0:value(track.keys,t,'spineFold');
+ const {shoulder,head,spinePoint}=torso(root,body,neck,profile,spineFold),hands=[value(track.keys,t,'hand0'),value(track.keys,t,'hand1')];
  const sides=track.armSidesAt?track.armSidesAt(t):track.armSides;
  if(track.armSwitch){const {time,duration,index}=track.armSwitch,u=(t-time)/duration;if(Math.abs(u)<1){const d=sub(hands[index],shoulder),len=Math.hypot(...d),reach=profile.arm[0]+profile.arm[1]-.00001,weight=(1-u*u)**2,targetLength=mix(Math.min(len,reach),reach,weight);hands[index]=add(shoulder,d.map(x=>x/Math.max(.001,len)*targetLength));}}
  const arms=hands.map((p,i)=>ik(shoulder,p,...profile.arm,sides[i]));
  const legs=feet.map((p,i)=>ik(root,p,...profile.leg,(track.kneeSides||[track.kneeSide,track.kneeSide])[i]));
  const nodes=[root,shoulder,head,arms[0].joint,arms[0].end,arms[1].joint,arms[1].end,legs[0].joint,legs[0].end,legs[1].joint,legs[1].end];
  const offset=track.stagingOffsets?.find(o=>o.start<=t&&t<o.end);if(offset){for(const p of nodes){p[0]+=offset.x;p[1]+=offset.y;}for(const p of [...feet,...hands]){p[0]+=offset.x;p[1]+=offset.y;}}
- return {nodes,root,shoulder,head,profile,r:profile.radius,color:track.color,hollow:track.hollow,damage:track.damage?.(t),faceRoll:track.faceRoll?.(t)||0,targets:{feet,hands},errors:[...arms,...legs].map(x=>x.error),t};
+ return {nodes,root,shoulder,head,spinePoint,profile,r:profile.radius,color:track.color,hollow:track.hollow,damage:track.damage?.(t),faceRoll:track.faceRoll?.(t)||0,targets:{feet,hands},errors:[...arms,...legs].map(x=>x.error),t};
 }
 function attachArm(actor,index,target,side){const p=actor.profile,j=index?5:3,result=ik(actor.shoulder,target,...p.arm,side);actor.nodes[j]=result.joint;actor.nodes[j+1]=result.end;actor.errors[index]=result.error;return result;}
 window.Rig={at,ik,attachArm,value,foot,interval,torso,radians,polar,add,sub,clamp,walkingFeet};

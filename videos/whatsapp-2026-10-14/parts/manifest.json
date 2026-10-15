@@ -34,7 +34,12 @@
       "folder": "03-retorno-vermelho",
       "start": 44,
       "end": 62.083333,
-      "status": "planned"
+      "status": "preview_for_review",
+      "revision": "r1",
+      "exports": [
+        "exports/parte-03-previa-r1-720p60.mp4",
+        "exports/parte-03-previa-r1-1080p60.mp4"
+      ]
     },
     {
       "id": "04",

@@ -1,7 +1,9 @@
-# Parte 03 — retorno do vermelho
+# Parte 03 — retorno do vermelho e golpes
 
-Intervalo: **44–62,083333 s**. Estado: **planejada; sem MP4 ainda**.
+Intervalo: **44–62,083333 s**. Estado: **prévia R1 para revisão**.
 
-Recriar a volta do vermelho com a arma, a aproximação, os golpes, a queda do laranja e as reações. Reutilizar o rig, os contatos e o exportador; escrever a coreografia desta parte.
+Inclui a arma rosa com quadrado metálico, retirada do tecido preto, investida, choque, recuo, queda do laranja e os golpes seguintes. Modelos e poses autorais dirigidos por keyframes e Motion; o vídeo original não é carregado pelo player.
 
-Prioridades de revisão: antecipação e recuperação dos golpes, caminho da arma, contato do impacto, apoio dos pés e proporções durante a queda. Efeitos de velocidade devem aparecer somente nos momentos que pedem isso. Exportar uma prévia individual.
+O tronco do laranja usa dois segmentos articulados durante as poses curvadas, com comprimento total constante. As mãos e os pés são resolvidos pelo rig compartilhado. A arma tem um ponto de empunhadura fixo em relação à mão. Texturas e detalhes são procedurais, com diferenças visuais em relação ao original.
+
+Prévia MP4 individual em `exports/`. Player: `?part=03`. Render: `node render.mjs --part 03`.

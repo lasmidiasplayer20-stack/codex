@@ -10,7 +10,7 @@ Referência: **WhatsApp Video 2026-10-14 at 10.28.28.mp4**, 1:34,60.
 - [Prévia 1080p / 60 fps](https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/video-2026-10-14-em-partes-e5fc9397/videos/whatsapp-2026-10-14/exports/parte-01-previa-r2-1080p60.mp4)
 - [Código desta etapa em ZIP](https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/video-2026-10-14-em-partes-e5fc9397/videos/whatsapp-2026-10-14/exports/codigo-parte-01-r2.zip)
 
-Os MP4s ficam em `exports/`. As partes 01 e 02 têm prévias; 03 a 05 continuam em produção.
+Os MP4s ficam em `exports/`. As partes 01, 02 e 03 têm prévias; 04 e 05 continuam em produção.
 
 ## Segunda prévia
 
@@ -22,13 +22,23 @@ Os MP4s ficam em `exports/`. As partes 01 e 02 têm prévias; 03 a 05 continuam 
 
 Inclui a entrada, o desequilíbrio e a pausa sentado, o exame com um dispositivo de luz, os closes, o feixe e a reação do verde. É uma reconstrução dirigida, com diferenças visuais e de poses em relação à referência.
 
+## Terceira prévia
+
+**Parte 03 — retorno do vermelho e golpes, 0:44–1:02,08.**
+
+- [MP4 720p / 60 fps](https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/video-2026-10-14-em-partes-e5fc9397/videos/whatsapp-2026-10-14/exports/parte-03-previa-r1-720p60.mp4)
+- [MP4 1080p / 60 fps](https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/video-2026-10-14-em-partes-e5fc9397/videos/whatsapp-2026-10-14/exports/parte-03-previa-r1-1080p60.mp4)
+- [Código em ZIP](https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/video-2026-10-14-em-partes-e5fc9397/videos/whatsapp-2026-10-14/exports/codigo-parte-03-r1.zip)
+
+Arma e tecido desenhados por código, com empunhadura ligada à mão. O tronco pode dobrar em dois segmentos de comprimento constante, sem escalar o personagem. As poses são aproximações dirigidas.
+
 ## Sequência de trabalho
 
 | Parte | Intervalo da referência | Conteúdo | Estado |
 |---|---|---|---|
 | 01 | 0:00–0:15,05 | Abertura, saída da cama, espada, bloqueio, desarme e salto | Prévia R2 para revisão |
 | 02 | 0:15,05–0:44 | Médico, exame e confronto | Prévia R1 para revisão |
-| 03 | 0:44–1:02,08 | Retorno do vermelho e golpes | Planejada |
+| 03 | 0:44–1:02,08 | Retorno do vermelho e golpes | Prévia R1 para revisão |
 | 04 | 1:02,08–1:21,75 | Luta em close e movimentos da câmera | Planejada |
 | 05 | 1:21,75–1:34,60 | Chegada do azul e desfecho | Planejada |
 

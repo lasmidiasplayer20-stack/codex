@@ -26,7 +26,7 @@ function viscera(){line([[0,443],[129,444],[226,445],[282,443],[348,445]],'#5909
 function actor(p){if(!p)return;const n=p.nodes,col=p.color,w=p.profile.width;
  // Far limbs are drawn before the trunk; shared node positions keep joints closed.
  soft(n[0],n[7],n[8],col,w);ctx.save();if(p.hollow){ctx.beginPath();ctx.rect(-2000,-2000,6000,6000);ctx.arc(...p.head,p.r-p.r*.17,0,TAU);ctx.clip('evenodd');}soft(n[1],n[3],n[4],col,w);ctx.restore();soft(n[0],n[9],n[10],col,w);
- ctx.save();if(p.hollow){ctx.beginPath();ctx.rect(-2000,-2000,6000,6000);ctx.arc(...p.head,p.r-p.r*.17,0,TAU);ctx.clip('evenodd');}soft(n[0],n[1],n[2],col,w*1.05);ctx.restore();soft(n[1],n[5],n[6],col,w);
+ ctx.save();if(p.hollow){ctx.beginPath();ctx.rect(-2000,-2000,6000,6000);ctx.arc(...p.head,p.r-p.r*.17,0,TAU);ctx.clip('evenodd');}if(p.spinePoint){soft(n[0],p.spinePoint,n[1],col,w*1.05);line([n[1],n[2]],col,w*1.05);}else soft(n[0],n[1],n[2],col,w*1.05);ctx.restore();soft(n[1],n[5],n[6],col,w);
  if(p.hollow){ctx.save();ctx.beginPath();ctx.arc(...p.head,p.r,0,TAU);ctx.strokeStyle=col;ctx.lineWidth=p.r*.33;ctx.stroke();ctx.restore();}
  else circle(...p.head,p.r,col);
  if(p.damage?.faceCut){const d=p.damage.faceCut;ctx.save();ctx.translate(...p.head);ctx.rotate(d.roll||0);ctx.beginPath();ctx.arc(0,0,p.r*.99,-.46,.83);ctx.strokeStyle='#76121c';ctx.lineWidth=p.r*.17;ctx.lineCap='round';ctx.stroke();ctx.beginPath();ctx.arc(0,0,p.r*1.02,-.37,.62);ctx.strokeStyle='#b41b28';ctx.lineWidth=p.r*.055;ctx.stroke();line([[p.r*.95,-p.r*.18],[p.r*.84,-p.r*.03],[p.r*.92,p.r*.10]],'#541417',p.r*.07);ctx.restore();}
