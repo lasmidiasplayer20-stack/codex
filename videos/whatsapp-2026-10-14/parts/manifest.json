@@ -58,7 +58,12 @@
       "folder": "05-chegada-azul-desfecho",
       "start": 81.75,
       "end": 94.598095,
-      "status": "planned"
+      "status": "preview_for_review",
+      "revision": "r1",
+      "exports": [
+        "exports/parte-05-previa-r1-720p60.mp4",
+        "exports/parte-05-previa-r1-1080p60.mp4"
+      ]
     }
   ],
   "audio_policy": "Prévia com trecho da trilha; montagem final deve unir apenas os vídeos e aplicar a trilha original uma vez."

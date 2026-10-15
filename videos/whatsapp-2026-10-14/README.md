@@ -10,7 +10,7 @@ Referência: **WhatsApp Video 2026-10-14 at 10.28.28.mp4**, 1:34,60.
 - [Prévia 1080p / 60 fps](https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/video-2026-10-14-em-partes-e5fc9397/videos/whatsapp-2026-10-14/exports/parte-01-previa-r2-1080p60.mp4)
 - [Código desta etapa em ZIP](https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/video-2026-10-14-em-partes-e5fc9397/videos/whatsapp-2026-10-14/exports/codigo-parte-01-r2.zip)
 
-Os MP4s ficam em `exports/`. As partes 01 a 04 têm prévias; a parte 05 está em produção.
+Os MP4s ficam em `exports/`. As cinco partes têm prévias individuais para revisão.
 
 ## Segunda prévia
 
@@ -42,6 +42,16 @@ Arma e tecido desenhados por código, com empunhadura ligada à mão. O tronco p
 
 Pé e mão se encontram no gesto de segurar a perna; a ponta e a cabeça metálica da arma alcançam o rosto nos golpes. O ferimento, os respingos e os closes são desenhados por código. As poses e texturas continuam sendo aproximações.
 
+## Quinta prévia
+
+**Parte 05 — chegada do azul e desfecho, 1:21,75–1:34,60.**
+
+- [MP4 720p / 60 fps](https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/video-2026-10-14-em-partes-e5fc9397/videos/whatsapp-2026-10-14/exports/parte-05-previa-r1-720p60.mp4)
+- [MP4 1080p / 60 fps](https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/video-2026-10-14-em-partes-e5fc9397/videos/whatsapp-2026-10-14/exports/parte-05-previa-r1-1080p60.mp4)
+- [Código das cinco partes em ZIP](https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/video-2026-10-14-em-partes-e5fc9397/videos/whatsapp-2026-10-14/exports/codigo-parte-05-r1.zip)
+
+Inclui a chegada do azul, a pose com as mãos atrás da cabeça, os detalhes da arma e do cenário, o retorno aos personagens e a cartela final. Tudo é desenhado por código, com diferenças de desenho, proporções e gestos em relação à referência.
+
 ## Sequência de trabalho
 
 | Parte | Intervalo da referência | Conteúdo | Estado |
@@ -50,7 +60,7 @@ Pé e mão se encontram no gesto de segurar a perna; a ponta e a cabeça metáli
 | 02 | 0:15,05–0:44 | Médico, exame e confronto | Prévia R1 para revisão |
 | 03 | 0:44–1:02,08 | Retorno do vermelho e golpes | Prévia R1 para revisão |
 | 04 | 1:02,08–1:21,75 | Luta em close e movimentos da câmera | Prévia R1 para revisão |
-| 05 | 1:21,75–1:34,60 | Chegada do azul e desfecho | Planejada |
+| 05 | 1:21,75–1:34,60 | Chegada do azul e desfecho | Prévia R1 para revisão |
 
 Cada etapa terá um MP4 próprio. A montagem final será feita depois da revisão das partes. Os intervalos são contíguos e cobrem a referência inteira.
 
