@@ -1,0 +1,42 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "duration": 30,
+  "start": 0,
+  "silent": false,
+  "inputFrames": 720,
+  "metrics": {
+    "finite": true,
+    "sourceVideoPixelsUsed": 0,
+    "method": "Unmodified original ElasticRig and actor; additive fixed-step physics and directed poses"
+  },
+  "stages": [
+    {
+      "start": 0,
+      "end": 5
+    },
+    {
+      "start": 5,
+      "end": 10
+    },
+    {
+      "start": 10,
+      "end": 15
+    },
+    {
+      "start": 15,
+      "end": 20
+    },
+    {
+      "start": 20,
+      "end": 25
+    },
+    {
+      "start": 25,
+      "end": 30
+    }
+  ],
+  "errors": [],
+  "visualSource": "Canvas2D standard objects and an independently drawn FK rig driven by named 2D pose controls; no source images or source video in the renderer"
+}

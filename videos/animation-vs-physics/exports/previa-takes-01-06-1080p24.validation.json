@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "file": "previa-takes-01-06-1080p24.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "frames": 720,
+  "duration": 30.0,
+  "format_duration": 30.0,
+  "audio": "AAC stereo 48kHz, original procedural score/SFX",
+  "full_decode": "passed",
+  "bytes": 1077228,
+  "sha256": "0c9f7b8382357107201de1babffcd35f399266d83529d397fbda1967e51ded52"
+}
