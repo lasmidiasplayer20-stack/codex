@@ -2,6 +2,24 @@
 
 Referência: **WhatsApp Video 2026-10-14 at 10.28.28.mp4**, 1:34,60.
 
+## Revisão R4 — pancada e cutucada em pé
+
+[**Abrir/baixar o vídeo completo R4 — 1080p / 60 fps**](exports/video-completo-previa-r4-1080p60.mp4?raw=true)
+
+O golpe de aproximadamente 48,8 s agora amassa intencionalmente o contorno da
+cabeça do laranja, conforme a referência. A deformação permanece após o impacto.
+Na cutucada de aproximadamente 55,3–55,9 s, o vermelho mantém o tronco em pé,
+a perna de apoio plantada e o pé levantado em contato com a cabeça enquanto ela
+reage pelo pescoço. A ação posterior de se abaixar permanece separada.
+
+- [Parte 3 R4 — pancada e cutucada](exports/parte-03-previa-r4-1080p60.mp4?raw=true)
+- [Comparação entre R3 e R4](exports/comparacao-refino-r4.jpg)
+- [Projeto editável R4](exports/codigo-completo-r4.zip?raw=true)
+- [Detalhes e verificações](REFINO-R4.md)
+
+As partes 4 e 5 mantêm a deformação da cabeça e a coreografia anterior.
+As partes 1 e 2 foram preservadas. Abaixo está o histórico das versões anteriores.
+
 ## Revisão R3 — refino com a referência reenviada
 
 [**Abrir/baixar o vídeo completo R3 — 1080p / 60 fps**](exports/video-completo-previa-r3-1080p60.mp4?raw=true)

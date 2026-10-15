@@ -4,8 +4,8 @@ function draw(t,f){const p=f.pair.orange;if(!p||t<67.5)return;const h=p.head,r=p
  // Keep impact marks on the circular rim. Filling the hollow centre made
  // the head look crushed long after the impact, including the final close-up.
  const rim=p.r*.165;
- ctx.beginPath();ctx.arc(0,0,r+rim,0,Math.PI*2);
- ctx.arc(0,0,r-rim,0,Math.PI*2,true);ctx.clip('evenodd');
+ ctx.beginPath();Art.headPath(p,r+rim,[0,0]);
+ Art.headPath(p,r-rim,[0,0],true);ctx.clip('evenodd');
  for(let i=0;i<6;i++){const angle=-2.18+i*.25,radial=Rig.polar(angle,r),tangent=Rig.polar(angle+Math.PI/2,r*.025);
   const inner=Rig.polar(angle,r-rim*.65),outer=Rig.polar(angle,r+rim*.7);
   line([outer,[radial[0]+tangent[0],radial[1]+tangent[1]],inner],'#771421',r*.025*level);

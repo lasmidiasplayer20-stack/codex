@@ -35,11 +35,11 @@
       "start": 44,
       "end": 62.083333,
       "status": "preview_for_review",
-      "revision": "r3",
+      "revision": "r4",
       "exports": [
-        "exports/parte-03-previa-r3-1080p60.mp4"
+        "exports/parte-03-previa-r4-1080p60.mp4"
       ],
-      "revision_notes": "Bloqueio, floreios, poses de preparação/recuperação e câmera refinados após consulta à referência reenviada."
+      "revision_notes": "Pancada deforma intencionalmente a cabeça; cutucada em pé e reação do pescoço com contato contínuo."
     },
     {
       "id": "04",
@@ -47,11 +47,11 @@
       "start": 62.083333,
       "end": 81.75,
       "status": "preview_for_review",
-      "revision": "r3",
+      "revision": "r4",
       "exports": [
-        "exports/parte-04-previa-r3-1080p60.mp4"
+        "exports/parte-04-previa-r4-1080p60.mp4"
       ],
-      "revision_notes": "Bloqueio, floreios, poses de preparação/recuperação e câmera refinados após consulta à referência reenviada."
+      "revision_notes": "Preservada a coreografia R3; mantida a deformação da cabeça recebida na parte 3."
     },
     {
       "id": "05",
@@ -59,11 +59,11 @@
       "start": 81.75,
       "end": 94.598095,
       "status": "preview_for_review",
-      "revision": "r2",
+      "revision": "r4",
       "exports": [
-        "exports/parte-05-previa-r2-1080p60.mp4"
+        "exports/parte-05-previa-r4-1080p60.mp4"
       ],
-      "revision_notes": "Refino local do tronco do vermelho e das marcas na cabeça do laranja. Lutas pendentes de comparação com o MP4 original."
+      "revision_notes": "Preservada a coreografia R3; mantida a deformação da cabeça recebida na parte 3."
     }
   ],
   "audio_policy": "Prévia com trecho da trilha; montagem final deve unir apenas os vídeos e aplicar a trilha original uma vez.",
@@ -73,10 +73,10 @@
     "frames": 5676,
     "video_duration": 94.6,
     "exports": [
-      "exports/video-completo-previa-r3-1080p60.mp4"
+      "exports/video-completo-previa-r4-1080p60.mp4"
     ],
     "audio": "AAC copiado integralmente da montagem R1, com hashes e timestamps conferidos.",
-    "revision": "r3",
+    "revision": "r4",
     "reference_comparison": "manually_reviewed_directed_approximation"
   },
   "previous_complete_export": {
@@ -139,5 +139,32 @@
     "reference_included": false,
     "status": "preview_for_review",
     "limitations": "Cenário, poses intermediárias e projeção anatômica são aproximações do rig próprio."
+  },
+  "previous_r3_complete_export": {
+    "status": "preview_for_review",
+    "fps": 60,
+    "frames": 5676,
+    "video_duration": 94.6,
+    "exports": [
+      "exports/video-completo-previa-r3-1080p60.mp4"
+    ],
+    "audio": "AAC copiado integralmente da montagem R1, com hashes e timestamps conferidos.",
+    "revision": "r3",
+    "reference_comparison": "manually_reviewed_directed_approximation"
+  },
+  "refinement_r4": {
+    "status": "preview_for_review",
+    "scope": "Pancada de 48,833 s e cutucada em pé entre 55,333 e 55,833 s, com continuidade da cabeça amassada.",
+    "preserved_parts": [
+      "01-r2",
+      "02-r1"
+    ],
+    "changed_parts": [
+      "03-r4",
+      "04-r4",
+      "05-r4"
+    ],
+    "reference_included": false,
+    "method": "Contorno paramétrico para deformação localizada; IK para a perna levantada; alvos dirigidos manualmente pela referência."
   }
 }

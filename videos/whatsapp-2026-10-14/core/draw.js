@@ -23,13 +23,29 @@ function viscera(){line([[0,443],[129,444],[226,445],[282,443],[348,445]],'#5909
  for(let i=0;i<4;i++){ctx.save();ctx.translate(588+i*14,436+(i%2)*2);ctx.rotate(.12*(i-1));ctx.beginPath();ctx.ellipse(0,0,11,9,0,0,TAU);ctx.fillStyle='#99071c';ctx.fill();ctx.strokeStyle='#f53a45';ctx.lineWidth=2;ctx.stroke();line([[-6,-4],[0,-5],[5,-1]],'#ff7880',1);ctx.restore();}
  const colors=['#382e0c','#5c450e','#746019','#433809','#805b15'];for(let i=0;i<65;i++){const x=665+rand(i*13)*64,y=419+rand(i*19)*31;rect(x,y,8+rand(i*23)*9,7+rand(i*29)*8,colors[i%5]);}for(let i=0;i<8;i++){rect(686+rand(i*31)*16,425+rand(i*43)*19,4,5,i%2?'#299b13':'#40b929');rect(670+rand(i*41)*11,432+rand(i*37)*8,3,3,i%2?'#f0780a':'#d5a634');}
 }
+// A local impact deformation changes only the head outline, never the rig.
+function headPoint(p,angle,radius=p.r){
+ const dent=p.headDent;if(!dent?.amount)return [p.head[0]+Math.cos(angle)*radius,p.head[1]+Math.sin(angle)*radius];
+ const roll=dent.roll||0,a=angle-roll,x=Math.cos(a),y=Math.sin(a),weight=Math.max(0,(-y-.28)/.72);
+ const yy=y+Rig.clamp(dent.amount,0,.6)*weight*weight*(1-.4*x*x),c=Math.cos(roll),s=Math.sin(roll);
+ return [p.head[0]+radius*(x*c-yy*s),p.head[1]+radius*(x*s+yy*c)];
+}
+function headPath(p,radius=p.r,center=p.head,reverse=false){
+ if(!p.headDent?.amount){ctx.arc(...center,radius,0,TAU,reverse);return;}
+ for(let i=0;i<=96;i++){const q=headPoint(p,(reverse?-1:1)*i*TAU/96,radius),x=q[0]-p.head[0]+center[0],y=q[1]-p.head[1]+center[1];if(i===0)ctx.moveTo(x,y);else ctx.lineTo(x,y);}ctx.closePath();
+}
+function dentScar(p,d){
+ const arc=(a,b,r,width,color)=>{ctx.beginPath();for(let i=0;i<=24;i++){const q=headPoint(p,a+(b-a)*i/24+(d.roll||0),r);ctx[i?'lineTo':'moveTo'](...q);}ctx.strokeStyle=color;ctx.lineWidth=width;ctx.lineCap='round';ctx.stroke();};
+ arc(-.46,.83,p.r*.99,p.r*.17,'#76121c');arc(-.37,.62,p.r*1.02,p.r*.055,'#b41b28');
+ const q=[[.95,-.18],[.84,-.03],[.92,.10]].map(([x,y])=>headPoint(p,Math.atan2(y,x)+(d.roll||0),Math.hypot(x,y)*p.r));line(q,'#541417',p.r*.07);
+}
 function actor(p){if(!p)return;const n=p.nodes,col=p.color,w=p.profile.width;
  // Far limbs are drawn before the trunk; shared node positions keep joints closed.
- soft(n[0],n[7],n[8],col,w);ctx.save();if(p.hollow){ctx.beginPath();ctx.rect(-2000,-2000,6000,6000);ctx.arc(...p.head,p.r-p.r*.17,0,TAU);ctx.clip('evenodd');}soft(n[1],n[3],n[4],col,w);ctx.restore();soft(n[0],n[9],n[10],col,w);
- ctx.save();if(p.hollow){ctx.beginPath();ctx.rect(-2000,-2000,6000,6000);ctx.arc(...p.head,p.r-p.r*.17,0,TAU);ctx.clip('evenodd');}if(p.spinePoint){soft(n[0],p.spinePoint,n[1],col,w*1.05);line([n[1],n[2]],col,w*1.05);}else soft(n[0],n[1],n[2],col,w*1.05);ctx.restore();soft(n[1],n[5],n[6],col,w);
- if(p.hollow){ctx.save();ctx.beginPath();ctx.arc(...p.head,p.r,0,TAU);ctx.strokeStyle=col;ctx.lineWidth=p.r*.33;ctx.stroke();ctx.restore();}
+ soft(n[0],n[7],n[8],col,w);ctx.save();if(p.hollow){ctx.beginPath();ctx.rect(-2000,-2000,6000,6000);headPath(p,p.r-p.r*.17);ctx.clip('evenodd');}soft(n[1],n[3],n[4],col,w);ctx.restore();soft(n[0],n[9],n[10],col,w);
+ ctx.save();if(p.hollow){ctx.beginPath();ctx.rect(-2000,-2000,6000,6000);headPath(p,p.r-p.r*.17);ctx.clip('evenodd');}if(p.spinePoint){soft(n[0],p.spinePoint,n[1],col,w*1.05);line([n[1],n[2]],col,w*1.05);}else soft(n[0],n[1],n[2],col,w*1.05);ctx.restore();soft(n[1],n[5],n[6],col,w);
+ if(p.hollow){ctx.save();ctx.beginPath();headPath(p);ctx.strokeStyle=col;ctx.lineWidth=p.r*.33;ctx.stroke();ctx.restore();}
  else circle(...p.head,p.r,col);
- if(p.damage?.faceCut){const d=p.damage.faceCut;ctx.save();ctx.translate(...p.head);ctx.rotate(d.roll||0);ctx.beginPath();ctx.arc(0,0,p.r*.99,-.46,.83);ctx.strokeStyle='#76121c';ctx.lineWidth=p.r*.17;ctx.lineCap='round';ctx.stroke();ctx.beginPath();ctx.arc(0,0,p.r*1.02,-.37,.62);ctx.strokeStyle='#b41b28';ctx.lineWidth=p.r*.055;ctx.stroke();line([[p.r*.95,-p.r*.18],[p.r*.84,-p.r*.03],[p.r*.92,p.r*.10]],'#541417',p.r*.07);ctx.restore();}
+ if(p.damage?.faceCut&&p.headDent?.amount){dentScar(p,p.damage.faceCut);}else if(p.damage?.faceCut){const d=p.damage.faceCut;ctx.save();ctx.translate(...p.head);ctx.rotate(d.roll||0);ctx.beginPath();ctx.arc(0,0,p.r*.99,-.46,.83);ctx.strokeStyle='#76121c';ctx.lineWidth=p.r*.17;ctx.lineCap='round';ctx.stroke();ctx.beginPath();ctx.arc(0,0,p.r*1.02,-.37,.62);ctx.strokeStyle='#b41b28';ctx.lineWidth=p.r*.055;ctx.stroke();line([[p.r*.95,-p.r*.18],[p.r*.84,-p.r*.03],[p.r*.92,p.r*.10]],'#541417',p.r*.07);ctx.restore();}
 }
 function star(p,t){if(!p||t>=9.80)return;const [x,y]=p.head,r=p.r;ctx.save();ctx.translate(x+r*.79,y+r*.24);ctx.rotate(-.12);ctx.shadowColor='#d4ffb4';ctx.shadowBlur=r*.32;ctx.beginPath();for(let i=0;i<8;i++){const a=i*TAU/8,d=i%2?r*.065:r*.35;ctx[i?'lineTo':'moveTo'](Math.cos(a)*d,Math.sin(a)*d);}ctx.closePath();ctx.fillStyle='#edffdd';ctx.fill();ctx.restore();}
 function sword(o){ctx.save();ctx.translate(...o.b);ctx.rotate(Math.atan2(o.a[1]-o.b[1],o.a[0]-o.b[0]));const l=Math.hypot(o.a[0]-o.b[0],o.a[1]-o.b[1]);
@@ -37,5 +53,5 @@ function sword(o){ctx.save();ctx.translate(...o.b);ctx.rotate(Math.atan2(o.a[1]-
  const unit=5;for(let i=0;i<Math.ceil((l-26)/unit);i++){const x=26+i*unit,dy=i%2?0:-2;rect(x,-4+dy,Math.min(unit,l-x),8,'#30d1ad');rect(x,-4+dy,Math.min(unit,l-x),3,i%2?'#b1ffe1':'#68fcd5');rect(x,3+dy,Math.min(unit,l-x),2,'#16907c');}ctx.restore();}
 function swordTrail(t,get){if(!(10.0<t&&t<10.68))return;const now=get(t);if(!now)return;ctx.save();const recent=[];for(let i=0;i<7;i++){const o=get(t-.045*i);if(o)recent.push(o);}if(recent.length>2){ctx.beginPath();ctx.moveTo(...recent[0].b);recent.forEach(o=>ctx.lineTo(...o.a));ctx.lineTo(...recent.at(-1).b);ctx.closePath();const gradient=ctx.createLinearGradient(...now.b,...now.a);gradient.addColorStop(0,'rgba(41,213,215,.02)');gradient.addColorStop(1,'rgba(48,217,214,.16)');ctx.fillStyle=gradient;ctx.fill();}ctx.restore();}
 function warning(t){rect(0,0,W,H,'#000');const s=.06+.94*Motion.cubicBezier(.2,0,.2,1)(Rig.clamp(t/.34,0,1));ctx.save();ctx.translate(480,156);ctx.scale(s,s);ctx.textAlign='center';ctx.textBaseline='middle';ctx.font='bold 111px sans-serif';ctx.fillStyle='#ed1922';ctx.fillText('WARNING',0,-65);ctx.font='24px sans-serif';ctx.fillStyle='#fff';['THE FOLLOWING VIDEO CONTAINS SCENES OF','VIOLENCE AND BRUTAL FIGHTS WITH EXPLICIT BLOOD CONTENT.','VIEWER DISCRETION IS ADVISED'].forEach((v,i)=>ctx.fillText(v,0,22+i*28));ctx.restore();}
-window.Art={canvas,ctx,W,H,background,bed,viscera,actor,star,sword,swordTrail,warning,rect,line,circle,soft,rand};
+window.Art={canvas,ctx,W,H,headPoint,headPath,background,bed,viscera,actor,star,sword,swordTrail,warning,rect,line,circle,soft,rand};
 })();

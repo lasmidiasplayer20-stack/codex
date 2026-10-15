@@ -16,7 +16,7 @@ const cyan={start:82.083333,end,color:'#12c1dc',hollow:false,profile:cyanProfile
  walks:[{start:82.083333,end:82.65,direction:-1,floor:435,stride:105,lift:18}],
  keys:[c(82.083333,[2480,222],[1.6,118],[1.6,118]),c(82.5,[2359,222],[1.6,118],[1.6,118]),c(83.25,[2359,222],[1.6,118],[1.6,118]),c(83.8,[2359,222],[10,0],[-10,0]),c(84.791667,[2359,222],[10,0],[-10,0]),c(85.3,[2290,237],[10,0],[-10,0],0),c(end,[2290,237],[10,0],[-10,0],0)],
  feet:[[f(82.083333,2490,435),f(82.5,2367,435),f(83.25,2335,435),f(84.791667,2335,435),f(85.3,2265,435),f(end,2265,435)],[f(82.083333,2530,420),f(82.5,2403,418),f(83.25,2397,435),f(84.791667,2397,435),f(85.3,2327,435),f(end,2327,435)]]};
-const orange={start,end,color:'#ff8527',hollow:true,profile:orangeProfile,armSides:[-1,1],kneeSide:-1,kneeSides:[1,-1],damage:t=>({faceCut:{roll:R.radians(90)}}),keys:[o(start,[1851,425],0,0,[-10,43],[-15,55]),o(end,[1851,425],0,0,[-10,43],[-15,55])],feet:[[f(start,1640,425),f(end,1640,425)],[f(start,1645,435),f(end,1645,435)]]};
+const orange={headDent:()=>({amount:.4,roll:Math.PI/2}),start,end,color:'#ff8527',hollow:true,profile:orangeProfile,armSides:[-1,1],kneeSide:-1,kneeSides:[1,-1],damage:t=>({faceCut:{roll:R.radians(90)}}),keys:[o(start,[1851,425],0,0,[-10,43],[-15,55]),o(end,[1851,425],0,0,[-10,43],[-15,55])],feet:[[f(start,1640,425),f(end,1640,425)],[f(start,1645,435),f(end,1645,435)]]};
 const corpse={start:44,end:94.7,color:'#35f226',hollow:false,profile:greenProfile,armSides:[1,1],kneeSide:-1,keys:[key(greenProfile,44,[1374,430],0,0,[6,-15],[-68,17]),key(greenProfile,94.7,[1374,430],0,0,[6,-15],[-68,17])],feet:[[f(44,1169,428),f(94.7,1169,428)],[f(44,1171,433),f(94.7,1171,433)]]};
 
 
