@@ -47,11 +47,11 @@
       "start": 62.083333,
       "end": 81.75,
       "status": "preview_for_review",
-      "revision": "r1",
+      "revision": "r2",
       "exports": [
-        "exports/parte-04-previa-r1-720p60.mp4",
-        "exports/parte-04-previa-r1-1080p60.mp4"
-      ]
+        "exports/parte-04-previa-r2-1080p60.mp4"
+      ],
+      "revision_notes": "Refino local do tronco do vermelho e das marcas na cabeça do laranja. Lutas pendentes de comparação com o MP4 original."
     },
     {
       "id": "05",
@@ -59,11 +59,11 @@
       "start": 81.75,
       "end": 94.598095,
       "status": "preview_for_review",
-      "revision": "r1",
+      "revision": "r2",
       "exports": [
-        "exports/parte-05-previa-r1-720p60.mp4",
-        "exports/parte-05-previa-r1-1080p60.mp4"
-      ]
+        "exports/parte-05-previa-r2-1080p60.mp4"
+      ],
+      "revision_notes": "Refino local do tronco do vermelho e das marcas na cabeça do laranja. Lutas pendentes de comparação com o MP4 original."
     }
   ],
   "audio_policy": "Prévia com trecho da trilha; montagem final deve unir apenas os vídeos e aplicar a trilha original uma vez.",
@@ -73,9 +73,34 @@
     "frames": 5676,
     "video_duration": 94.6,
     "exports": [
+      "exports/video-completo-previa-r2-1080p60.mp4"
+    ],
+    "audio": "AAC copiado integralmente da montagem R1, com hashes e timestamps conferidos.",
+    "revision": "r2",
+    "reference_comparison": "pending_original_mp4"
+  },
+  "previous_complete_export": {
+    "status": "preview_for_review",
+    "fps": 60,
+    "frames": 5676,
+    "video_duration": 94.6,
+    "exports": [
       "exports/video-completo-previa-r1-720p60.mp4",
       "exports/video-completo-previa-r1-1080p60.mp4"
     ],
     "audio": "Original AAC copied once and packet hashes verified."
+  },
+  "refinement_r2": {
+    "scope": "Cabeça do laranja e tronco do vermelho nas partes 4 e 5.",
+    "preserved_parts": [
+      "01-r2",
+      "02-r1",
+      "03-r2"
+    ],
+    "pending": "Comparar todas as partes com o original e reconstruir movimentos de luta ausentes.",
+    "first_sweep_review_window": [
+      65.7,
+      67.5
+    ]
   }
 }

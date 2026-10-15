@@ -3,10 +3,12 @@ const redProfile={radius:26.6,neck:36.176,torso:69.16,arm:[34.58,34.58],leg:[55.
 const orangeProfile={radius:31.8,neck:41.34,torso:63.6,arm:[41.34,41.34],leg:[53,53],width:13.3};
 const greenProfile={radius:27.4,neck:30.14,torso:61.65,arm:[35.62,35.62],leg:[57,57],width:12.4};
 function key(p,t,head,body,neck,h0,h1,spineFold=0){const v=R.add(R.polar(R.radians(body),p.torso*Math.cos(R.radians(spineFold)/2)),R.polar(R.radians(neck),p.neck));return{t,root:R.sub(head,v),body,neck,spineFold,hand0:R.add(head,h0),hand1:R.add(head,h1)};}
-const r=(t,h,b=-90,n=-90,h0=[66,46],h1=[-20,115],fold=0)=>key(redProfile,t,h,b,n,h0,h1,fold),o=(t,h,b=-90,n=-90,h0=[-35,90],h1=[30,90],fold=0)=>key(orangeProfile,t,h,b,n,h0,h1,fold),f=(t,x,y,lift=0)=>({t,p:[x,y],lift});
+// Red reactions lean through the authored body angle; keep the trunk uncreased.
+// Head targets, hand targets, feet and beat times remain authored below.
+const r=(t,h,b=-90,n=-90,h0=[66,46],h1=[-20,115])=>key(redProfile,t,h,b,n,h0,h1),o=(t,h,b=-90,n=-90,h0=[-35,90],h1=[30,90],fold=0)=>key(orangeProfile,t,h,b,n,h0,h1,fold),f=(t,x,y,lift=0)=>({t,p:[x,y],lift});
 const start=81.75,end=94.598095;
 const red={start,end,color:'#f10b14',hollow:false,profile:redProfile,armSides:[-1,1],kneeSide:1,
- keys:[r(start,[2200,245],-90,-94,[-30,90],[-28,97],65),r(82.25,[2200,234],-90,-90,[-44,72],[-42,79],80),r(90.083333,[2200,247],-90,-90,[-44,72],[-42,79],80),r(92.3,[2200,247],-90,-90,[-44,72],[-42,79],80),r(92.7,[2200,247],-90,-90,[-75,112],[-20,104],80),r(92.85,[2200,247],-90,-90,[-20,104],[20,104],80),r(end,[2200,247],-90,-90,[-20,104],[20,104],80)],
+ keys:[r(start,[2200,245],-90,-94,[-30,90],[-28,97]),r(82.25,[2200,234],-90,-90,[-44,72],[-42,79]),r(90.083333,[2200,247],-90,-90,[-44,72],[-42,79]),r(92.3,[2200,247],-90,-90,[-44,72],[-42,79]),r(92.7,[2200,247],-90,-90,[-75,112],[-20,104]),r(92.85,[2200,247],-90,-90,[-20,104],[20,104]),r(end,[2200,247],-90,-90,[-20,104],[20,104])],
  feet:[[f(start,2170,435),f(82.25,2170,435),f(end,2170,435)],[f(start,2240,435),f(82.25,2230,435),f(end,2230,435)]]};
 const cyanProfile={radius:27.4,neck:18,torso:72,arm:[50,50],leg:[57,57],width:12.4};
 const c=(t,h,h0,h1,fold=0)=>key(cyanProfile,t,h,-94,-95,h0,h1,fold);

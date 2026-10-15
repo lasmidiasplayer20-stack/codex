@@ -2,7 +2,22 @@
 
 Referência: **WhatsApp Video 2026-10-14 at 10.28.28.mp4**, 1:34,60.
 
-## Vídeo completo para revisão
+## Refino visual R2 — comparação com o original pendente
+
+Esta é uma prévia parcial do refino solicitado em 15/10/2026. As partes 4 e 5
+receberam correções locais; as partes 1, 2 e 3 e suas trilhas visuais foram preservadas.
+Os movimentos de luta ausentes ainda dependem do reenvio do MP4 original.
+
+- [Vídeo completo R2 — 1080p / 60 fps](exports/video-completo-previa-r2-1080p60.mp4?raw=true)
+- [Parte 4 R2 — golpes e câmera](exports/parte-04-previa-r2-1080p60.mp4?raw=true)
+- [Parte 5 R2 — azul e desfecho](exports/parte-05-previa-r2-1080p60.mp4?raw=true)
+- [Comparação visual antes e depois](exports/comparacao-refino-r2.jpg)
+- [Projeto editável R2](exports/codigo-completo-r2.zip?raw=true)
+- [Relatório de refino e pendências](REFINO-R2.md)
+
+O restante deste documento registra a entrega R1 anterior, que continua disponível.
+
+## Vídeo completo R1 para revisão
 
 **1:34,60 · 60 fps · cinco partes montadas · trilha original aplicada uma vez.** A primeira parte inclui a marca do corte no rosto; a terceira usa a revisão R2 de continuidade.
 
