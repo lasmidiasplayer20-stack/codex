@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "method": "Assistant visual inspection of six contact sheets decoded from the final MP4; sampled review, not manual inspection of every frame.",
+  "sheets": [
+    "exports/revisao-parte-01.jpg",
+    "exports/revisao-parte-02.jpg",
+    "exports/revisao-parte-03.jpg",
+    "exports/revisao-parte-04.jpg",
+    "exports/revisao-parte-05.jpg",
+    "exports/revisao-parte-06.jpg"
+  ],
+  "notes": [
+    "Close shot in chapter 1 reframed to exclude a cropped supporting actor.",
+    "Chapter 3 re-rendered with synchronized cube translation, fixed hand targets and clearance for legs/hips.",
+    "Flights and zero-gravity scenes keep the focal action visible.",
+    "All six station transitions use the intended pale fade; no unexpected blank frame in sampled action shots.",
+    "Chapter 6 includes bridge deployment, coordinated controls, final orb gag and fade."
+  ]
+}
