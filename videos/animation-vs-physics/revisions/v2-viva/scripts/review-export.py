@@ -7,7 +7,12 @@ p=argparse.ArgumentParser();p.add_argument('video',type=Path);p.add_argument('--
 cuts=json.loads(Path('exports/camera-cuts-v2.json').read_text())['cuts']
 cut_frames=sorted(set(n for t in cuts for n in [round(t*24)-1,round(t*24)] if 0<=n<3000))
 frames=sorted(set([0,119,120,719,720,1799,1800,2757,2999]+[i*120+60 for i in range(25)]+[i*120-1 for i in range(1,25)]+[i*120 for i in range(25)]+cut_frames))
-expr='+'.join('eq(n,%d)'%n for n in frames)
+def balanced_sum(items):
+ if len(items)==1:return items[0]
+ half=len(items)//2
+ return '('+balanced_sum(items[:half])+'+'+balanced_sum(items[half:])+')'
+# FFmpeg limits expression-parser recursion; balance the 150+ frame terms.
+expr=balanced_sum(['eq(n,%d)'%n for n in frames])
 subprocess.run(['ffmpeg','-hide_banner','-loglevel','error','-i',str(a.video),'-vf',f'select={expr.replace(",",chr(92)+",")},scale=480:270','-fps_mode','vfr','-y',str(a.out/'frame-%03d.png')],check=True)
 files={n:a.out/('frame-%03d.png'%(i+1)) for i,n in enumerate(frames)}
 labels=Path('src/takes.js').read_text().split('=',1)[1].strip().removesuffix(';');takes=json.loads(labels)

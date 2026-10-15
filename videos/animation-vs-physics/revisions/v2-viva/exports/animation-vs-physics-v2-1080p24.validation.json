@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "file": "animation-vs-physics-v2-1080p24.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 24,
+  "frames": 3000,
+  "duration": 125.0,
+  "format_duration": 125.0,
+  "audio": "AAC stereo 48kHz, original procedural score/SFX",
+  "full_decode": "passed",
+  "bytes": 44678765,
+  "sha256": "257d7b4ec8de23dbd56f77c31a52271aaa4ac87b1d805109e09ed49ad327030e"
+}

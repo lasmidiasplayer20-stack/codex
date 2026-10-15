@@ -6,7 +6,12 @@ A versão anterior continua intacta na pasta principal de `animation-vs-physics`
 
 ## Estado desta revisão
 
-A atuação e a direção estão implementadas. As exportações desta revisão estão em processamento. Cada prévia é publicada após validação; o relatório será atualizado com a validação do filme inteiro.
+Revisão renderizada e validada: 125 segundos, 3000 frames, 1920×1080 a 24 fps, H.264/AAC. Os três blocos também foram exportados e validados. Foram decodificados integralmente os MP4s e inspecionados 145 frames do arquivo final, incluindo os limites dos 25 takes e dos 37 cortes de câmera.
+
+- [Filme 1080p](exports/animation-vs-physics-v2-1080p24.mp4)
+- [Filme 720p](exports/animation-vs-physics-v2-720p24.mp4)
+- [Antes/depois: primeiros 30 segundos](exports/comparacao-v1-v2-720p24.mp4)
+- [Relatório de validação](RELATORIO.md)
 
 ## O que mudou
 
@@ -44,7 +49,7 @@ npm test
 npm run serve
 ```
 
-Para renderizar:
+O player já usa o AAC incluído. `npm run render` também utiliza esse áudio pronto. Para regenerar a trilha em PCM e renderizar a partir dela:
 
 ```bash
 node scripts/inspect.mjs .qa/inspection
