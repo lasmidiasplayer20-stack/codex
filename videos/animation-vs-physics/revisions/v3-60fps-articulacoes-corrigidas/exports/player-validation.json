@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "duration": 125,
+  "width": 1920,
+  "height": 1080,
+  "actSeeks": [
+    30,
+    75,
+    0
+  ],
+  "httpRangeStatus": 206,
+  "rangeBytes": 64,
+  "errors": []
+}

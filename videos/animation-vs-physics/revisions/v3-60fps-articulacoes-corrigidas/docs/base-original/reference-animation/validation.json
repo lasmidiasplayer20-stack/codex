@@ -1,0 +1,26 @@
+{
+  "template_files_match_final_source": [
+    ".gitignore",
+    "inspect.mjs",
+    "capture-rig.py",
+    "capture-effects.py",
+    "prepare-motion.py",
+    "validate-export.py",
+    "refine-scene.py",
+    "film.js",
+    "rig-controller.js",
+    "package.json",
+    "package-lock.json",
+    "render.mjs",
+    "capture-scene.py",
+    "index.html",
+    "requirements.txt",
+    "vendor/MOTION-LICENSE.md",
+    "vendor/motion.js"
+  ],
+  "python_syntax_verified": true,
+  "frontmatter_and_resources_verified": true,
+  "contains_source_video": false,
+  "contains_captured_motion_data": false,
+  "contains_audio": false
+}

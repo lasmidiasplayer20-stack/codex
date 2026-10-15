@@ -1,0 +1,46 @@
+{
+  "duration": 125,
+  "sample_rate": 48000,
+  "channels": 2,
+  "samples_per_channel": 6000000,
+  "seed": 20261015,
+  "voices": false,
+  "recorded_assets": false,
+  "source": "Original composition retimed to V3 physical events + procedural spatial textures",
+  "added_layers": [
+    "zero-gravity shimmer",
+    "ice scrape",
+    "lateral air rush",
+    "cube friction",
+    "field energy",
+    "inertial air rush"
+  ],
+  "silence_windows": [
+    [
+      4.2,
+      5
+    ],
+    [
+      26.48,
+      26.63
+    ],
+    [
+      59.08,
+      59.3
+    ],
+    [
+      102.45,
+      103.1
+    ],
+    [
+      112.8,
+      115.45
+    ],
+    [
+      124.85,
+      125
+    ]
+  ],
+  "mastering": "192kHz oversampled limiter, latency compensated",
+  "pcm_peak_dbfs": -1.693312329859284
+}

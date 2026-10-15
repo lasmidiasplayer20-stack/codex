@@ -1,0 +1,19 @@
+{
+  "name": "animation-vs-physics",
+  "version": "3.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs --duration 125 --fps 60 --audio exports/soundtrack-v3.m4a --output exports/animation-vs-physics-v3-1080p60.mp4",
+    "inspect": "node scripts/inspect.mjs",
+    "test": "node tests/run.mjs && node tests/story.mjs && node tests/direction.mjs && node tests/limbs-v3.mjs",
+    "serve": "node scripts/serve.mjs",
+    "render:parts": "node scripts/render-parts.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

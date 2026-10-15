@@ -1,0 +1,16 @@
+{
+  "name": "reference-elastic-multicast",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "render": "node render.mjs",
+    "inspect": "node inspect.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
