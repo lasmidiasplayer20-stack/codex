@@ -5,6 +5,10 @@ import numpy as np
 ROOT=Path(__file__).resolve().parent;SR=48000;DURATION=210
 rng=np.random.default_rng(2026101506);mix=np.zeros((SR*DURATION,2),np.float32)
 eleven_count=0
+eleven_placements=0
+used_assets=set()
+sound_events=[]
+audio_cache={}
 meta=json.loads((ROOT/'qa/story.json').read_text())
 def put(t,signal,x=800,gain=1):
  start=round(t*SR)
@@ -45,9 +49,24 @@ t=np.arange(len(mix),dtype=np.float32)/SR
 for side in range(2):mix[:,side]+=.002*(np.sin(t*2*np.pi*52+side*.2)+.22*np.sin(t*2*np.pi*104))*(.7+.3*np.sin(t*.18+side))
 # Event sound design. Pans follow the object; pitched motifs distinguish actions.
 for e in meta['events']:
- typ=e['type'];external={'switch':'button','gravity':'gravity','bounce':'bonk','whoosh':'whoosh','rope':'rope','metal':'crack','resolve':'chime','chime':'chime'}.get(typ);asset=ROOT.parent/'O-botao-proibido/audio'/str(external or '')
+ typ=e['type'];external={'step':'step','switch':'click','click':'click','gravity':'electric','bounce':'boing','whoosh':'whoosh','release':'whoosh','rope':'rope','metal':'clatter','bridge':'crash','heavy':'crash','land':'land','roll':'roll','catch':'catch','resolve':'chime','chime':'chime','tap':'tap'}.get(typ)
+ if external=='clatter':external='crash'
+ if e.get('id')=='high-five':external='clap'
+ asset=ROOT/'audio/elevenlabs'/str(external or '')
  if external and asset.with_suffix('.mp3').exists():
-  eleven_count+=1;raw=subprocess.check_output(['ffmpeg','-v','error','-i',str(asset.with_suffix('.mp3')),'-ac','1','-ar',str(SR),'-f','f32le','pipe:1']);sig=np.frombuffer(raw,dtype='<f4').copy();sig/=max(.2,float(np.max(np.abs(sig))));put(e['t'],sig,e['x'],.18*e.get('power',1));continue
+  if external not in audio_cache:
+   raw=subprocess.check_output(['ffmpeg','-v','error','-i',str(asset.with_suffix('.mp3')),'-ac','1','-ar',str(SR),'-f','f32le','pipe:1']);sig=np.frombuffer(raw,dtype='<f4').copy();peak=float(np.max(np.abs(sig)));active=np.flatnonzero(np.abs(sig)>max(.001,peak*.018));sig=sig[max(0,int(active[0])-int(.004*SR)):] if len(active) else sig
+   sig/=max(.05,float(np.max(np.abs(sig))))
+   if typ=='step':sig=sig[:int(.24*SR)]
+   tail=min(len(sig),int(.025*SR));sig[-tail:]*=np.linspace(1,0,tail)
+   audio_cache[external]=sig
+  sig=audio_cache[external];gain=(.045*max(.5,e.get('power',1))) if typ=='step' else .115*e.get('power',1)
+  put(e['t'],sig,e['x'],gain);eleven_count+=1;eleven_placements+=1;used_assets.add(external)
+  sound_events.append({'t':e['t'],'type':typ,'asset':external+'.mp3','provider':'ElevenLabs','reused':True})
+  if typ=='gravity':
+   raw=subprocess.check_output(['ffmpeg','-v','error','-i',str(ROOT/'audio/elevenlabs/whoosh.mp3'),'-ac','1','-ar',str(SR),'-f','f32le','pipe:1']);sweep=np.frombuffer(raw,dtype='<f4').copy();sweep/=max(.05,float(np.max(np.abs(sweep))));put(e['t']+.12,sweep,e['x'],.055);eleven_placements+=1;used_assets.add('whoosh')
+  continue
+ sound_events.append({'t':e['t'],'type':typ,'provider':'procedural supplementary tone'})
  dur={'step':.09,'bounce':.32,'land':.28,'pulse':1.2,'gravity':1.5,'spring':.8,'charge':1.4,'resolve':2.2,'bridge':1.5}.get(typ,.5)
  tt=np.arange(round(dur*SR),dtype=np.float32)/SR;noise=rng.normal(0,1,len(tt)).astype(np.float32);x=e['x'];sig=np.zeros(len(tt),np.float32);gain=.13
  if typ=='step':
@@ -94,4 +113,5 @@ subprocess.run(['ffmpeg','-v','error','-y','-i',str(out),'-af','loudnorm=I=-17:T
 subprocess.run(['ffmpeg','-v','error','-y','-i',str(ROOT/'audio/trilha-original.m4a'),'-t','210','-c:a','pcm_s16le',str(Path('/workspace/animation-production-r2/audio-master-decoded.wav'))],check=True)
 print(json.dumps({'duration':210,'sample_rate':SR,'channels':2,'events':len(meta['events']),'seed':2026101506,'raw_peak':peak,'score':'seven original instrumental chapters plus spatial event foley'}))
 
-(ROOT/'audio/generation.json').write_text(json.dumps({'duration':210,'events':len(meta['events']),'effectsFromElevenLabs':eleven_count,'networkBlocker':None if eleven_count else 'HTTPS proxy returned 403 before authentication','source':'Score and event synthesis adapted from Animation vs. Physics V6; new 210s cues and section pacing.'},indent=2))
+(ROOT/'audio/generation.json').write_text(json.dumps({'duration':210,'events':len(meta['events']),'effectsFromElevenLabs':eleven_count,'elevenLabsPlacements':eleven_placements,'assetsUsed':sorted(used_assets),'assetsAvailable':17,'assetOrigin':'Existing ElevenLabs Text to Sound v2 files reused from the repository, with provider manifest and SHA256 verification; no new API generation claimed.','liveGenerationAccess':'HTTPS proxy still returned 403 before authentication in this task.','source':'V6 scoring pipeline with newly timed 210s cues and licensed repository foley.','soundStatus':'ElevenLabs foley integrated','eventSources':sound_events},indent=2))
+print(json.dumps({'ElevenLabsEvents':eleven_count,'ElevenLabsPlacements':eleven_placements,'assetsUsed':sorted(used_assets)}))

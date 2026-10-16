@@ -1,0 +1,10 @@
+{
+  "videoPacketsUnchanged": true,
+  "videoPacketsCompared": 12600,
+  "ElevenLabsPrimaryEvents": 86,
+  "ElevenLabsPlacements": 89,
+  "distinctAssetsUsed": 13,
+  "assetProvenance": "Existing generated ElevenLabs library from source commit cc89f4b; all copied MP3s decoded and hashed.",
+  "newAPICallSucceeded": false,
+  "noHumanListeningClaimed": true
+}

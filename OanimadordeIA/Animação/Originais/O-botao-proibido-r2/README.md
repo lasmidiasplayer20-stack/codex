@@ -27,10 +27,10 @@ Run `node Originais/O-botao-proibido-r2/serve.mjs` from `Animação` to reuse th
 
 All delivered MP4 files belong in `../../Vídeos/`. Internal render intermediates stay outside the checkout. Preserve the first attempt as an earlier version.
 
-## Sound status
+## ElevenLabs sound integration
 
-ElevenLabs was retried with the authorized attachment, including after an additional network grant. The environment's HTTPS proxy returned 403 before authentication. No ElevenLabs sound was generated and the key was not validated by the service. No credential is stored in this project.
+The final mix uses verified ElevenLabs Text to Sound v2 assets from `Arckkiller/Animação/projetos/botao-desfazer/audio/elevenlabs`, added by a repository update during this task. Seventeen relevant assets were copied with their prompts, provider metadata, SHA256 and source commit; the event sheet records which files actually play. Footsteps, buttons, impacts, landings, rope, electrical effects and success chimes are synchronized to this story's own timestamps. Music, room tone, field hum and short count-in tones remain synthesized.
 
-The current internal master is provisional: original synthesized music and procedural foley derived from the V6 scoring pipeline, with new action and footstep timestamps. The sound stage is unfinished until ElevenLabs access works. The audio generator can consume generated ElevenLabs assets from the previous project's audio directory, and the movie can be remuxed without rendering its frames again.
+Fresh API generation from this execution still returned HTTPS proxy 403 before authentication. No successful new API call or new generation in this task is claimed. Reusing the already generated library resolves the sound requirement without exposing or republishing the key.
 
-The complete image revision must not be represented as a finished ElevenLabs soundtrack. See the validation and sound status in the output folder.
+`audio/elevenlabs/manifest.json` records provenance; `audio/generation.json` records the final event sources. The final movie is `../../Vídeos/The-Forbidden-Button-R2-1080p60.mp4`. The earlier `-preview` file is retained as the prior provisional mix. `video.html` and the player tests point to the final film.

@@ -94,6 +94,8 @@
   "limits": [
     "The first button and final group interaction have tight compositions with brief overlapping figures; the three colors separate them.",
     "Review used decoded temporal sequences and boundary samples, not human real-time playback of every frame.",
-    "No human listening review was performed. ElevenLabs effects remain required and blocked; sound is provisional."
-  ]
+    "No human listening review was performed. Final ElevenLabs asset provenance and technical validation are recorded separately in final-audio-integration.json."
+  ],
+  "reviewedImageSource": "The-Forbidden-Button-R2-1080p60-preview.mp4",
+  "finalVideoPacketIdentityVerified": true
 }
