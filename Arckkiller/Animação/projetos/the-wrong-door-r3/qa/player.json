@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "seek": true,
+  "playPause": true,
+  "seekAt86": 86.321982,
+  "audio": {
+    "duration": 118.75,
+    "readyState": 4,
+    "error": null,
+    "currentTime": 86.321982
+  },
+  "browserErrors": []
+}

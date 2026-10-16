@@ -1,0 +1,7 @@
+node_modules/
+production/
+qa/frames/
+__pycache__/
+audio/*.wav
+reference/*.mp4
+reference/work/

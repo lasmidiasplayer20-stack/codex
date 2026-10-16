@@ -1,0 +1,117 @@
+{
+  "samples": 11581,
+  "finite": true,
+  "maxBoneRatioError": 1.0436096431476471e-14,
+  "maxFloorPenetration": 0,
+  "maxPlantedFootSlide": 0,
+  "maxContactResidual": 5.684341886080801e-13,
+  "maxLegTargetError": 0,
+  "maxVisibleJointStep": 69.01570886357692,
+  "maxVisibleGaitStep": 52.84168275048814,
+  "plantedChecks": 5487,
+  "rapidGaitFrames": [
+    {
+      "name": "cyan",
+      "t": 87.4,
+      "step": 52.84168275048814
+    }
+  ],
+  "rapidActingFrames": [],
+  "repeat": [
+    {
+      "t": 6,
+      "equal": true
+    },
+    {
+      "t": 12,
+      "equal": true
+    },
+    {
+      "t": 28,
+      "equal": true
+    },
+    {
+      "t": 34,
+      "equal": true
+    },
+    {
+      "t": 40,
+      "equal": true
+    },
+    {
+      "t": 54,
+      "equal": true
+    },
+    {
+      "t": 62,
+      "equal": true
+    },
+    {
+      "t": 74,
+      "equal": true
+    },
+    {
+      "t": 80,
+      "equal": true
+    },
+    {
+      "t": 86,
+      "equal": true
+    },
+    {
+      "t": 104,
+      "equal": true
+    },
+    {
+      "t": 114,
+      "equal": true
+    }
+  ],
+  "pencils": [
+    {
+      "id": "door-first",
+      "maxTipToTraceGap": 0
+    },
+    {
+      "id": "door-lift",
+      "maxTipToTraceGap": 0
+    },
+    {
+      "id": "door-star",
+      "maxTipToTraceGap": 0
+    },
+    {
+      "id": "erase-handle",
+      "maxTipToTraceGap": 0
+    },
+    {
+      "id": "women",
+      "maxTipToTraceGap": 0
+    },
+    {
+      "id": "lift-seam",
+      "maxTipToTraceGap": 0
+    },
+    {
+      "id": "gauge",
+      "maxTipToTraceGap": 0
+    },
+    {
+      "id": "star",
+      "maxTipToTraceGap": 0
+    }
+  ],
+  "faces": false,
+  "motionBlur": false,
+  "rigSampleRate": 120,
+  "outputFrames": 7125,
+  "outputFps": 60,
+  "duration": 118.75,
+  "sourceAudioOffset": 0,
+  "playbackSpeed": 1,
+  "notes": [
+    "Explicitly hidden exits are excluded from visible motion-jump measurements.",
+    "Water and rear passerby occupy a background depth plane.",
+    "Falling-body floor response is solved before recording FK; ordinary walks have no post-FK floor projection."
+  ]
+}

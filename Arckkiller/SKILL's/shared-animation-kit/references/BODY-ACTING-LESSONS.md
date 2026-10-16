@@ -14,4 +14,12 @@ The user rejected The Wrong Door R1 for dull acting, rough walks/runs, blur, a r
 
 The new production checks 120 Hz poses, actual FK support positions, planted-foot drift, fixed bone ratios, drawn floor extrema and 60 fps visible joint changes. Review nearby frames and decoded output as well. A passing contact check does not prove artistic quality, perfect reference synchronization or every possible overlap.
 
-Use `project-archive/projetos/the-wrong-door-r2` as the current reference scaffold. Its soundtrack retains the authorized reference mix plus original quiet Python music at source time; no isolated-effects or human-listening claim is made. The historical first attempt remains for comparison.
+Use `project-archive/projetos/the-wrong-door-r3` as the current reference scaffold. Its soundtrack retains the authorized reference mix plus original quiet Python music at source time; no isolated-effects or human-listening claim is made. The historical first attempt remains for comparison.
+
+## Urgency refinement in R3
+
+R2 was accepted as a base but still looked relaxed while walking and running. Long strides, a near-upright torso and low arms can read as calm even at 60 fps. R3 uses short frequent steps, roughly 17–29 degrees of forward torso lean during travel, raised arm drive and 25% more corridor distance in the same source-time interval. The accepted props, faceless rig and native audio remain.
+
+Cadence must be separate from root speed for small urgent steps. Lock each stance foot in world space; predict and lock the next landing at lift-off, then interpolate the swing to that landing. Bound predictions at active-window ends and offscreen cuts. Blend startup/stop targets before final IK. Do not modify stride length halfway through a distance-based cycle or speed up the whole movie to fake urgency. Check camera-follow timing and secondary exits when increasing travel.
+
+The R2/R3 urgency comparison reports authored footfall counts, mean forward lean and actual travel speed over identical source-time spans. Those measurements explain the change; adjacent-frame review and decoded output remain necessary.

@@ -1,0 +1,18 @@
+{
+  "sourceOffset": 0,
+  "playbackSpeed": 1,
+  "files": {
+    "original-music.m4a": {
+      "sha256": "fcb746a5279e4c801bfdb317409176fcf1beedaa100257f57ac1583ac6698459",
+      "byteIdenticalToR2": true
+    },
+    "reference-track.m4a": {
+      "sha256": "7f1190d6d5328e911a984d162f3e94a485ccbcd9533cce303399e0192bce80a0",
+      "byteIdenticalToR2": true
+    },
+    "master.m4a": {
+      "sha256": "cb01d52cd9ace9545423c5828e9ed252df6f4a6026c3e19de4c1716f7917383b",
+      "byteIdenticalToR2": true
+    }
+  }
+}

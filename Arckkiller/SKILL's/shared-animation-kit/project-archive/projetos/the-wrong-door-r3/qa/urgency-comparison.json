@@ -1,0 +1,122 @@
+{
+  "r2": [
+    {
+      "from": 0.5,
+      "to": 5.3,
+      "footfalls": 6,
+      "meanForwardLeanDegrees": 1.6744832104203902,
+      "meanTravelPixelsPerSecond": 158.73876534273867
+    },
+    {
+      "from": 12.5,
+      "to": 13.8,
+      "footfalls": 3,
+      "meanForwardLeanDegrees": 6.58652079054649,
+      "meanTravelPixelsPerSecond": 548.323525204961
+    },
+    {
+      "from": 39.7,
+      "to": 41.1,
+      "footfalls": 2,
+      "meanForwardLeanDegrees": 3.380554355853578,
+      "meanTravelPixelsPerSecond": 281.4197690292932
+    },
+    {
+      "from": 53.9,
+      "to": 55.2,
+      "footfalls": 2,
+      "meanForwardLeanDegrees": 4.427439597264006,
+      "meanTravelPixelsPerSecond": 366.5479264472299
+    },
+    {
+      "from": 64,
+      "to": 66,
+      "footfalls": 4,
+      "meanForwardLeanDegrees": 5.541297133438495,
+      "meanTravelPixelsPerSecond": 458.5304702973698
+    },
+    {
+      "from": 66.4,
+      "to": 71.8,
+      "footfalls": 8,
+      "meanForwardLeanDegrees": 3.622586836724349,
+      "meanTravelPixelsPerSecond": 300.55761960943664
+    },
+    {
+      "from": 72.5,
+      "to": 84.1,
+      "footfalls": 29,
+      "meanForwardLeanDegrees": 4.068455401266356,
+      "meanTravelPixelsPerSecond": 338.0818566863652
+    },
+    {
+      "from": 87.5,
+      "to": 88.75,
+      "footfalls": 5,
+      "meanForwardLeanDegrees": 9.522712826250892,
+      "meanTravelPixelsPerSecond": 792.4731682067231
+    }
+  ],
+  "r3": [
+    {
+      "from": 0.5,
+      "to": 5.3,
+      "footfalls": 17,
+      "meanForwardLeanDegrees": 17.31698449957364,
+      "meanTravelPixelsPerSecond": 158.73876534273867
+    },
+    {
+      "from": 12.5,
+      "to": 13.8,
+      "footfalls": 7,
+      "meanForwardLeanDegrees": 25.82312282681059,
+      "meanTravelPixelsPerSecond": 548.323525204961
+    },
+    {
+      "from": 39.7,
+      "to": 41.1,
+      "footfalls": 5,
+      "meanForwardLeanDegrees": 21.316946572057525,
+      "meanTravelPixelsPerSecond": 286.93207906829656
+    },
+    {
+      "from": 53.9,
+      "to": 55.2,
+      "footfalls": 6,
+      "meanForwardLeanDegrees": 21.261749662346975,
+      "meanTravelPixelsPerSecond": 366.5479264472299
+    },
+    {
+      "from": 64,
+      "to": 66,
+      "footfalls": 9,
+      "meanForwardLeanDegrees": 25.02186216678437,
+      "meanTravelPixelsPerSecond": 458.5304702973698
+    },
+    {
+      "from": 66.4,
+      "to": 71.8,
+      "footfalls": 15,
+      "meanForwardLeanDegrees": 16.68052475824864,
+      "meanTravelPixelsPerSecond": 300.55761960943664
+    },
+    {
+      "from": 72.5,
+      "to": 84.1,
+      "footfalls": 45,
+      "meanForwardLeanDegrees": 21.13177738839315,
+      "meanTravelPixelsPerSecond": 422.89307183079256
+    },
+    {
+      "from": 87.5,
+      "to": 88.75,
+      "footfalls": 7,
+      "meanForwardLeanDegrees": 28.52344130108792,
+      "meanTravelPixelsPerSecond": 789.4069415642288
+    }
+  ],
+  "notes": [
+    "Footfalls are authored landings; source soundtrack is unchanged at native speed.",
+    "Intervals are fixed source-time spans; path distance changes only where directed."
+  ]
+}

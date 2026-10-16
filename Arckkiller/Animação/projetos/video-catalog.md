@@ -17,3 +17,9 @@ Cyan retains the preserved character proportions in a clean original studio/thea
 [Complete revised film · 1:58.75 · 1080p60](../Vídeos/The-Wrong-Door-R2/The-Wrong-Door-R2-1080p60.mp4) · [Source and validation](the-wrong-door-r2/REPORT.md)
 
 Faceless Cyan, authored planted walk/run cycles, body acting, coherent doorway depth, path-following pencil/eraser, readable symbols and rebuilt water scenery. Original-time audio and quiet Python music are retained. R1 is preserved for comparison.
+
+## The Wrong Door — R3 urgency
+
+[Complete revised film · 1:58.75 · 1080p60](../Vídeos/The-Wrong-Door-R3/The-Wrong-Door-R3-1080p60.mp4) · [Comparison and validation](the-wrong-door-r3/REPORT.md)
+
+Short frequent steps, forward body lean, higher arm drive and 25% more corridor distance at native source time. Accepted R2 designs, preserved rig proportions and soundtrack remain. Earlier complete versions are retained.

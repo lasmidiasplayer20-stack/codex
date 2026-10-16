@@ -1,0 +1,90 @@
+{
+  "complete": {
+    "file": "The-Wrong-Door-R3-1080p60.mp4",
+    "duration": 118.75,
+    "frames": 7125,
+    "fps": 60,
+    "width": 1920,
+    "height": 1080,
+    "audio": true,
+    "bytes": 38619040,
+    "sha256": "c38c45cc8ab2f82985f6a7aff90db9750105bc31e96978e364e87148254fc2cd",
+    "fullDecode": true
+  },
+  "internalSections": [
+    {
+      "file": "parte-01.mp4",
+      "duration": 20.0,
+      "frames": 1200,
+      "fps": 60,
+      "width": 1920,
+      "height": 1080,
+      "audio": false,
+      "bytes": 5353592,
+      "sha256": "41a2b4078cd3d6caea31b55ca1e9c19df411947d12d793b3a472918a7bf3a5ad",
+      "fullDecode": true
+    },
+    {
+      "file": "parte-02.mp4",
+      "duration": 20.0,
+      "frames": 1200,
+      "fps": 60,
+      "width": 1920,
+      "height": 1080,
+      "audio": false,
+      "bytes": 4117002,
+      "sha256": "ed0ac4f712c15d7a94cd490a22b0d369c8e45ca50022bf7de66139dcca101b3e",
+      "fullDecode": true
+    },
+    {
+      "file": "parte-03.mp4",
+      "duration": 20.0,
+      "frames": 1200,
+      "fps": 60,
+      "width": 1920,
+      "height": 1080,
+      "audio": false,
+      "bytes": 4827124,
+      "sha256": "b43ca742a3ce5c03d96d0f5fd70ecf059b2e9940da695f281258d384e8182a45",
+      "fullDecode": true
+    },
+    {
+      "file": "parte-04.mp4",
+      "duration": 20.0,
+      "frames": 1200,
+      "fps": 60,
+      "width": 1920,
+      "height": 1080,
+      "audio": false,
+      "bytes": 9310720,
+      "sha256": "7629437c37a52f4be8530dc3f726186e2ec43021bc85853c1a3d9d333ea79b69",
+      "fullDecode": true
+    },
+    {
+      "file": "parte-05.mp4",
+      "duration": 20.0,
+      "frames": 1200,
+      "fps": 60,
+      "width": 1920,
+      "height": 1080,
+      "audio": false,
+      "bytes": 5590664,
+      "sha256": "7c22929fcdc7728280d0958927714ff23924a3735fe6058d54b63bd60077cc7f",
+      "fullDecode": true
+    },
+    {
+      "file": "parte-06.mp4",
+      "duration": 18.75,
+      "frames": 1125,
+      "fps": 60,
+      "width": 1920,
+      "height": 1080,
+      "audio": false,
+      "bytes": 6749783,
+      "sha256": "04785f89ff257771e819233fb3d3806309dc937a59b5267ed0e6154b6e86762e",
+      "fullDecode": true
+    }
+  ],
+  "sourceAudioOffset": 0,
+  "playbackSpeed": 1
+}
