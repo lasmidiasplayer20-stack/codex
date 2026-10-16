@@ -1,0 +1,254 @@
+{
+  "file": "The-Forbidden-Button-R2-1080p60-preview.mp4",
+  "bytes": 72462143,
+  "sha256": "6ac440b8064102eb16dda5c6378340b6499ef7a9b79d354b2888405d892b8b33",
+  "duration": 210.0,
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 12600,
+  "audio": {
+    "codec": "aac",
+    "channels": 2,
+    "sample_rate": "48000",
+    "originalScore": true,
+    "referenceAudioUsed": false,
+    "effectsFromElevenLabs": 0
+  },
+  "fullDecodePassed": true,
+  "soundStatus": "ElevenLabs pending; provisional procedural mix",
+  "referenceComponents": [
+    {
+      "source": "Arckkiller/Animação/src/math.js",
+      "copy": "src/math.js",
+      "sha256": "e2c6bd18868dd1f4a011df1c2f8a421f19cc40854a2e1488cced1e8dbe4c609f",
+      "byteIdentical": true
+    },
+    {
+      "source": "Arckkiller/Animação/src/model.js",
+      "copy": "src/model.js",
+      "sha256": "a5f4fad71374fdaa6e403467aa6537aad0d38e8fd1dd9a3011dc27bb2d216501",
+      "byteIdentical": true
+    },
+    {
+      "source": "Arckkiller/Animação/src/rig-adapter.js",
+      "copy": "src/rig-adapter.js",
+      "sha256": "7b3f929539363892772ec83f94e334af2dc16f0036b1a4ada464f794247e70a3",
+      "byteIdentical": true
+    },
+    {
+      "source": "Arckkiller/Animação/src/legacy-renderer.js",
+      "copy": "src/legacy-renderer.js",
+      "sha256": "50ca1a691c32da960486f14eec04ab7e34f07e03622fc4764239084643cf091f",
+      "byteIdentical": true
+    },
+    {
+      "source": "Arckkiller/Animação/vendor/rig-controller.js",
+      "copy": "vendor/rig-controller.js",
+      "sha256": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db",
+      "byteIdentical": true
+    },
+    {
+      "source": "Arckkiller/Animação/scripts/http-files.mjs",
+      "copy": "http-files.mjs",
+      "sha256": "0d44f792c177534a745809934e6747cbbee9209b356adcf418afa6c12ae9acb9",
+      "byteIdentical": false,
+      "referenceSha256": "f9f19a518ce40f8d2effb49236dd74c0a35108c896af57a46e8ab9ef80497bda",
+      "adaptation": "Add text/css MIME type for the reused player stylesheet; byte-range streaming logic is unchanged."
+    }
+  ],
+  "sourceHash": "b79cdef9397827c3078f24077b0a5ca4e5242a1a5cdf29575b6744cefcbf6aa7",
+  "parts": [
+    {
+      "part": 1,
+      "start": 0,
+      "duration": 30,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 1800,
+      "errors": [],
+      "sourceHash": "4929a0ce5deaff95915fa7eb38f17306a9658d6041844925ebd7793ab388f4fa",
+      "reuseValidation": {
+        "method": "Compare every reconstructed FK joint and visible prop at 60fps outside the revised 30-60s ceiling sequence.",
+        "samples": 32400,
+        "maxJointDifference": 0,
+        "oldSourceHash": "4929a0ce5deaff95915fa7eb38f17306a9658d6041844925ebd7793ab388f4fa",
+        "validatedAgainstSourceHash": "b79cdef9397827c3078f24077b0a5ca4e5242a1a5cdf29575b6744cefcbf6aa7",
+        "unaffectedParts": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "part": 1
+      }
+    },
+    {
+      "part": 2,
+      "start": 30,
+      "duration": 30,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 1800,
+      "errors": [],
+      "sourceHash": "b79cdef9397827c3078f24077b0a5ca4e5242a1a5cdf29575b6744cefcbf6aa7"
+    },
+    {
+      "part": 3,
+      "start": 60,
+      "duration": 30,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 1800,
+      "errors": [],
+      "sourceHash": "4929a0ce5deaff95915fa7eb38f17306a9658d6041844925ebd7793ab388f4fa",
+      "reuseValidation": {
+        "method": "Compare every reconstructed FK joint and visible prop at 60fps outside the revised 30-60s ceiling sequence.",
+        "samples": 32400,
+        "maxJointDifference": 0,
+        "oldSourceHash": "4929a0ce5deaff95915fa7eb38f17306a9658d6041844925ebd7793ab388f4fa",
+        "validatedAgainstSourceHash": "b79cdef9397827c3078f24077b0a5ca4e5242a1a5cdf29575b6744cefcbf6aa7",
+        "unaffectedParts": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "part": 3
+      }
+    },
+    {
+      "part": 4,
+      "start": 90,
+      "duration": 30,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 1800,
+      "errors": [],
+      "sourceHash": "4929a0ce5deaff95915fa7eb38f17306a9658d6041844925ebd7793ab388f4fa",
+      "reuseValidation": {
+        "method": "Compare every reconstructed FK joint and visible prop at 60fps outside the revised 30-60s ceiling sequence.",
+        "samples": 32400,
+        "maxJointDifference": 0,
+        "oldSourceHash": "4929a0ce5deaff95915fa7eb38f17306a9658d6041844925ebd7793ab388f4fa",
+        "validatedAgainstSourceHash": "b79cdef9397827c3078f24077b0a5ca4e5242a1a5cdf29575b6744cefcbf6aa7",
+        "unaffectedParts": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "part": 4
+      }
+    },
+    {
+      "part": 5,
+      "start": 120,
+      "duration": 30,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 1800,
+      "errors": [],
+      "sourceHash": "4929a0ce5deaff95915fa7eb38f17306a9658d6041844925ebd7793ab388f4fa",
+      "reuseValidation": {
+        "method": "Compare every reconstructed FK joint and visible prop at 60fps outside the revised 30-60s ceiling sequence.",
+        "samples": 32400,
+        "maxJointDifference": 0,
+        "oldSourceHash": "4929a0ce5deaff95915fa7eb38f17306a9658d6041844925ebd7793ab388f4fa",
+        "validatedAgainstSourceHash": "b79cdef9397827c3078f24077b0a5ca4e5242a1a5cdf29575b6744cefcbf6aa7",
+        "unaffectedParts": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "part": 5
+      }
+    },
+    {
+      "part": 6,
+      "start": 150,
+      "duration": 30,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 1800,
+      "errors": [],
+      "sourceHash": "4929a0ce5deaff95915fa7eb38f17306a9658d6041844925ebd7793ab388f4fa",
+      "reuseValidation": {
+        "method": "Compare every reconstructed FK joint and visible prop at 60fps outside the revised 30-60s ceiling sequence.",
+        "samples": 32400,
+        "maxJointDifference": 0,
+        "oldSourceHash": "4929a0ce5deaff95915fa7eb38f17306a9658d6041844925ebd7793ab388f4fa",
+        "validatedAgainstSourceHash": "b79cdef9397827c3078f24077b0a5ca4e5242a1a5cdf29575b6744cefcbf6aa7",
+        "unaffectedParts": [
+          1,
+          3,
+          4,
+          5,
+          6,
+          7
+        ],
+        "part": 6
+      }
+    },
+    {
+      "part": 7,
+      "start": 180,
+      "duration": 30,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 1800,
+      "errors": [],
+      "sourceHash": "b79cdef9397827c3078f24077b0a5ca4e5242a1a5cdf29575b6744cefcbf6aa7"
+    }
+  ],
+  "animationQA": {
+    "duration": 210,
+    "fps": 60,
+    "frames": 12600,
+    "actors": 3,
+    "samples": 37800,
+    "finite": true,
+    "maxBoneError": 2.1671553440683056e-13,
+    "maxContactError": 2.5421149729252077e-13,
+    "maxRootStep": 6.6300145727521205,
+    "maxJointStep": 30.577041734338017,
+    "contacts": 7925,
+    "chapterBoundaryMaxDistance": 0.0025301941087596926,
+    "events": 38,
+    "footsteps": 51,
+    "errors": [],
+    "longestQuietSeconds": 3.016666666666661,
+    "activeSeconds": 184.3833333333722,
+    "worstJointStep": {
+      "n": "amber",
+      "t": 108.8,
+      "j": 4,
+      "d": 30.577041734338017
+    },
+    "worstRootStep": {
+      "n": "hero",
+      "t": 135.75,
+      "d": 6.6300145727521205
+    },
+    "causal": true,
+    "deterministic": true,
+    "sourceHash": "b79cdef9397827c3078f24077b0a5ca4e5242a1a5cdf29575b6744cefcbf6aa7",
+    "pageErrors": []
+  }
+}

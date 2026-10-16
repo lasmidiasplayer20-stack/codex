@@ -23,7 +23,7 @@ node Originais/O-botao-proibido-r2/render.mjs --part 0 --output /tmp/button-r2-p
 python3 Originais/O-botao-proibido-r2/assemble.py --parts /tmp/button-r2-parts
 ```
 
-Serve `Animação` using a static HTTP server, then open `Originais/O-botao-proibido-r2/index.html` for the code player. Rendering uses absolute `frame/60`; performance is sampled at 120Hz. The final movie concatenates video only, then applies one continuous 210-second stereo AAC master.
+Run `node Originais/O-botao-proibido-r2/serve.mjs` from `Animação` to reuse the reference HTTP server with byte-range seeking. Then open `Originais/O-botao-proibido-r2/index.html` for the code player, or `Originais/O-botao-proibido-r2/video.html` for the encoded preview. Run `node Originais/O-botao-proibido-r2/check-player.mjs` after assembly to verify both players, all chapter seeks and HTTP 206 media requests. Rendering uses absolute `frame/60`; performance is sampled at 120Hz. The final movie concatenates video only, then applies one continuous 210-second stereo AAC master.
 
 All delivered MP4 files belong in `../../Vídeos/`. Internal render intermediates stay outside the checkout. Preserve the first attempt as an earlier version.
 

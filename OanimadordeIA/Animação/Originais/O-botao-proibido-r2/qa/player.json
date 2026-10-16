@@ -1,0 +1,22 @@
+{
+  "passed": true,
+  "duration": 210,
+  "width": 1920,
+  "height": 1080,
+  "chapters": 7,
+  "lang": "en",
+  "seeks": [
+    0,
+    30,
+    60,
+    90,
+    120,
+    150,
+    180
+  ],
+  "rangeStatus": 206,
+  "animationPlayerSeek": 129.5,
+  "audioPlaybackStarted": true,
+  "playPause": true,
+  "pageErrors": []
+}

@@ -28,5 +28,13 @@
     "copy": "vendor/rig-controller.js",
     "sha256": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db",
     "byteIdentical": true
+  },
+  {
+    "source": "Arckkiller/Anima\u00e7\u00e3o/scripts/http-files.mjs",
+    "copy": "http-files.mjs",
+    "sha256": "0d44f792c177534a745809934e6747cbbee9209b356adcf418afa6c12ae9acb9",
+    "byteIdentical": false,
+    "referenceSha256": "f9f19a518ce40f8d2effb49236dd74c0a35108c896af57a46e8ab9ef80497bda",
+    "adaptation": "Add text/css MIME type for the reused player stylesheet; byte-range streaming logic is unchanged."
   }
 ]
