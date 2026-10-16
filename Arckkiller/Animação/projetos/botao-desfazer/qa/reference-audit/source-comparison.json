@@ -1,0 +1,214 @@
+{
+  "source_commit": "1c6dce3d232179e41629414db70513dc69205853",
+  "versions": [
+    {
+      "version": "original",
+      "repository_path": "videos/animation-vs-physics",
+      "duration": 125.0,
+      "fps": "24/1",
+      "frames": 3000,
+      "source_modules": [
+        "src/act-02.js",
+        "src/act-03.js",
+        "src/bootstrap.js",
+        "src/camera.js",
+        "src/collisions.js",
+        "src/director.js",
+        "src/effects.js",
+        "src/legacy-renderer.js",
+        "src/math.js",
+        "src/model.js",
+        "src/physics.js",
+        "src/player.js",
+        "src/render.js",
+        "src/rig-adapter.js",
+        "src/shutter.js",
+        "src/takes.js"
+      ],
+      "tests": [
+        "tests/preservation.py",
+        "tests/run.mjs",
+        "tests/story.mjs"
+      ],
+      "hashes": {
+        "src/model.js": "a5f4fad71374fdaa6e403467aa6537aad0d38e8fd1dd9a3011dc27bb2d216501",
+        "src/legacy-renderer.js": "50ca1a691c32da960486f14eec04ab7e34f07e03622fc4764239084643cf091f",
+        "vendor/rig-controller.js": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db",
+        "src/physics.js": "8890d81d867e0a2101f1b1f8f0462919a5a0223c1d55f7ca032ab23fd311eb51",
+        "src/collisions.js": "c7af6dae1ea5f9fd978b89381ca09f85eaf1f6efd6daec24e11b3cf4544f7a47",
+        "src/rig-adapter.js": "3a909cbccd201a750f0ebd3b0bdd186890c99a3302741a7f31c380657198ce9e"
+      }
+    },
+    {
+      "version": "v2-viva",
+      "repository_path": "videos/animation-vs-physics/revisions/v2-viva",
+      "duration": 125.0,
+      "fps": "24/1",
+      "frames": 3000,
+      "source_modules": [
+        "src/act-02.js",
+        "src/act-03.js",
+        "src/bootstrap.js",
+        "src/camera.js",
+        "src/cinematic.js",
+        "src/collisions.js",
+        "src/director.js",
+        "src/effects.js",
+        "src/legacy-renderer.js",
+        "src/living-world.js",
+        "src/math.js",
+        "src/model.js",
+        "src/performance.js",
+        "src/physics.js",
+        "src/player.js",
+        "src/render.js",
+        "src/rig-adapter.js",
+        "src/shutter.js",
+        "src/takes.js"
+      ],
+      "tests": [
+        "tests/direction.mjs",
+        "tests/preservation.py",
+        "tests/run.mjs",
+        "tests/story.mjs"
+      ],
+      "hashes": {
+        "src/model.js": "a5f4fad71374fdaa6e403467aa6537aad0d38e8fd1dd9a3011dc27bb2d216501",
+        "src/legacy-renderer.js": "50ca1a691c32da960486f14eec04ab7e34f07e03622fc4764239084643cf091f",
+        "vendor/rig-controller.js": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db",
+        "src/physics.js": "8890d81d867e0a2101f1b1f8f0462919a5a0223c1d55f7ca032ab23fd311eb51",
+        "src/collisions.js": "c7af6dae1ea5f9fd978b89381ca09f85eaf1f6efd6daec24e11b3cf4544f7a47",
+        "src/rig-adapter.js": "c0f33b38052b64fd07868e34b310db4c1583d0cf0376d533a5cc276aab810235"
+      }
+    },
+    {
+      "version": "v3-60fps-articulacoes-corrigidas",
+      "repository_path": "videos/animation-vs-physics/revisions/v3-60fps-articulacoes-corrigidas",
+      "duration": 125.0,
+      "fps": "60/1",
+      "frames": 7500,
+      "source_modules": [
+        "src/act-02.js",
+        "src/act-03.js",
+        "src/acting-v3.js",
+        "src/bootstrap.js",
+        "src/camera.js",
+        "src/cinematic.js",
+        "src/collisions.js",
+        "src/director.js",
+        "src/effects.js",
+        "src/legacy-renderer.js",
+        "src/living-world.js",
+        "src/material-v3.js",
+        "src/math.js",
+        "src/model.js",
+        "src/performance.js",
+        "src/physics.js",
+        "src/player.js",
+        "src/render.js",
+        "src/rig-adapter.js",
+        "src/shutter.js",
+        "src/takes.js",
+        "src/world-v3.js"
+      ],
+      "tests": [
+        "tests/direction.mjs",
+        "tests/limbs-v3.mjs",
+        "tests/player-v3.mjs",
+        "tests/preservation.py",
+        "tests/run.mjs",
+        "tests/story.mjs"
+      ],
+      "hashes": {
+        "src/model.js": "a5f4fad71374fdaa6e403467aa6537aad0d38e8fd1dd9a3011dc27bb2d216501",
+        "src/legacy-renderer.js": "50ca1a691c32da960486f14eec04ab7e34f07e03622fc4764239084643cf091f",
+        "vendor/rig-controller.js": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db",
+        "src/physics.js": "8890d81d867e0a2101f1b1f8f0462919a5a0223c1d55f7ca032ab23fd311eb51",
+        "src/collisions.js": "c7af6dae1ea5f9fd978b89381ca09f85eaf1f6efd6daec24e11b3cf4544f7a47",
+        "src/rig-adapter.js": "7b3f929539363892772ec83f94e334af2dc16f0036b1a4ada464f794247e70a3"
+      }
+    },
+    {
+      "version": "v4-trio-6-partes-1080p60",
+      "repository_path": "videos/animation-vs-physics/revisions/v4-trio-6-partes-1080p60",
+      "duration": 150.0,
+      "fps": "60/1",
+      "frames": 9000,
+      "source_modules": [
+        "src/legacy-renderer.js",
+        "src/math.js",
+        "src/model.js",
+        "src/rig-adapter.js",
+        "src/trio-player.js",
+        "src/trio-story.js",
+        "src/trio-world.js"
+      ],
+      "tests": [
+        "tests/player-v4.mjs",
+        "tests/preservation.py",
+        "tests/trio.mjs"
+      ],
+      "hashes": {
+        "src/model.js": "a5f4fad71374fdaa6e403467aa6537aad0d38e8fd1dd9a3011dc27bb2d216501",
+        "src/legacy-renderer.js": "50ca1a691c32da960486f14eec04ab7e34f07e03622fc4764239084643cf091f",
+        "vendor/rig-controller.js": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db",
+        "src/rig-adapter.js": "7b3f929539363892772ec83f94e334af2dc16f0036b1a4ada464f794247e70a3"
+      }
+    },
+    {
+      "version": "v5-ritmo-turbo-comedia-1080p60",
+      "repository_path": "videos/animation-vs-physics/revisions/v5-ritmo-turbo-comedia-1080p60",
+      "duration": 78.0,
+      "fps": "60/1",
+      "frames": 4680,
+      "source_modules": [
+        "src/legacy-renderer.js",
+        "src/math.js",
+        "src/model.js",
+        "src/rig-adapter.js",
+        "src/tempo-v5.js",
+        "src/trio-player.js",
+        "src/trio-story.js",
+        "src/trio-world.js"
+      ],
+      "tests": [
+        "tests/player-v5.mjs",
+        "tests/preservation.py",
+        "tests/tempo-v5.mjs"
+      ],
+      "hashes": {
+        "src/model.js": "a5f4fad71374fdaa6e403467aa6537aad0d38e8fd1dd9a3011dc27bb2d216501",
+        "src/legacy-renderer.js": "50ca1a691c32da960486f14eec04ab7e34f07e03622fc4764239084643cf091f",
+        "vendor/rig-controller.js": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db",
+        "src/rig-adapter.js": "7b3f929539363892772ec83f94e334af2dc16f0036b1a4ada464f794247e70a3"
+      }
+    },
+    {
+      "version": "v6-historia-continua-150s-1080p60",
+      "repository_path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60",
+      "duration": 150.0,
+      "fps": "60/1",
+      "frames": 9000,
+      "source_modules": [
+        "src/legacy-renderer.js",
+        "src/math.js",
+        "src/model.js",
+        "src/player-v6.js",
+        "src/rig-adapter.js",
+        "src/rig-v6.js",
+        "src/story-v6.js",
+        "src/world-v6.js"
+      ],
+      "tests": [
+        "tests/preservation.py",
+        "tests/story-v6.mjs"
+      ],
+      "hashes": {
+        "src/model.js": "a5f4fad71374fdaa6e403467aa6537aad0d38e8fd1dd9a3011dc27bb2d216501",
+        "src/legacy-renderer.js": "50ca1a691c32da960486f14eec04ab7e34f07e03622fc4764239084643cf091f",
+        "vendor/rig-controller.js": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db",
+        "src/rig-adapter.js": "7b3f929539363892772ec83f94e334af2dc16f0036b1a4ada464f794247e70a3"
+      }
+    }
+  ]
+}

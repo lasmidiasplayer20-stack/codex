@@ -1,0 +1,12 @@
+{
+  "src/math.js": "e2c6bd18868dd1f4a011df1c2f8a421f19cc40854a2e1488cced1e8dbe4c609f",
+  "src/story.js": "10d590cd345ade7a75994a0ebafebdc66bde60fcf728eb207ca3861d980649af",
+  "src/performance.js": "e24fb78c90662415a2141ab8244a70c168d0c125b050fa8860eff03e356dd86c",
+  "src/physics.js": "8890d81d867e0a2101f1b1f8f0462919a5a0223c1d55f7ca032ab23fd311eb51",
+  "src/model.js": "a5f4fad71374fdaa6e403467aa6537aad0d38e8fd1dd9a3011dc27bb2d216501",
+  "src/world.js": "6581c5275fe6feb6ca33007710f986babe9b482be3cf285e62b69793c37831f7",
+  "src/legacy-renderer.js": "50ca1a691c32da960486f14eec04ab7e34f07e03622fc4764239084643cf091f",
+  "vendor/rig-controller.js": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db",
+  "index.html": "d86d797e515bd799efb48ff8c891864fceb8436296e1214585c7e35097848b4f",
+  "render-parts.mjs": "fe9661db5a91a502911296459b9c005d5c780541a02a6af5bae36a5c0b806eca"
+}

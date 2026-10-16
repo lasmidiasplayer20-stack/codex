@@ -1,0 +1,36 @@
+{
+  "reference_branch": "animation-vs-physics-2026-10-15-758066",
+  "reference_commit": "1c6dce3d232179e41629414db70513dc69205853",
+  "components": [
+    {
+      "file": "src/model.js",
+      "sha256": "a5f4fad71374fdaa6e403467aa6537aad0d38e8fd1dd9a3011dc27bb2d216501",
+      "reference": "V6",
+      "byte_identical": true
+    },
+    {
+      "file": "src/legacy-renderer.js",
+      "sha256": "50ca1a691c32da960486f14eec04ab7e34f07e03622fc4764239084643cf091f",
+      "reference": "V6",
+      "byte_identical": true
+    },
+    {
+      "file": "vendor/rig-controller.js",
+      "sha256": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db",
+      "reference": "V6",
+      "byte_identical": true
+    },
+    {
+      "file": "src/math.js",
+      "sha256": "e2c6bd18868dd1f4a011df1c2f8a421f19cc40854a2e1488cced1e8dbe4c609f",
+      "reference": "V3",
+      "byte_identical": true
+    },
+    {
+      "file": "src/physics.js",
+      "sha256": "8890d81d867e0a2101f1b1f8f0462919a5a0223c1d55f7ca032ab23fd311eb51",
+      "reference": "V3",
+      "byte_identical": true
+    }
+  ]
+}

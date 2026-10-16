@@ -1,0 +1,175 @@
+{
+  "source": "O-bot\u00e3o-de-desfazer-1080p60.mp4",
+  "frames_reviewed": [
+    {
+      "time": 3,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 10,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 19,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 27,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 33,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 40,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 49,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 57,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 63,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 70,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 79,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 87,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 93,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 100,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 109,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 117,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 123,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 130,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 139,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 147,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 153,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 160,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 169,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 177,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 183,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 190,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 199,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 207,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "method": "28 decoded samples across all seven parts; complements temporal source-frame review and full decoding",
+  "human_listening": false
+}
