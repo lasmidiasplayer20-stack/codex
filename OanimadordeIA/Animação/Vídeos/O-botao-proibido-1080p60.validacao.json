@@ -1,0 +1,422 @@
+{
+  "file": "O-botao-proibido-1080p60.mp4",
+  "bytes": 85042910,
+  "sha256": "068db31af2617554541d47b1d7e646eaab1bef8f42b8e33d4081d903666dea8a",
+  "duration": 210.0,
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 12600,
+  "audio": {
+    "codec": "aac",
+    "channels": 2,
+    "sample_rate": "48000",
+    "originalScore": true,
+    "referenceAudioUsed": false,
+    "effectsFromElevenLabs": 0
+  },
+  "fullDecodePassed": true,
+  "sourceHash": "598758b3964d320baa22bf2410a33cbd1748729ac24df0f2848f260c017cd334",
+  "parts": [
+    {
+      "part": 1,
+      "start": 0,
+      "duration": 30,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 1800,
+      "errors": [],
+      "sourceHash": "34839f0033169bb7400a1bfb19b197800d4c67d17cf0cec0583eb0e07fba6c5f",
+      "reuseValidation": {
+        "validatedAgainstSourceHash": "598758b3964d320baa22bf2410a33cbd1748729ac24df0f2848f260c017cd334",
+        "renderSourceHash": "34839f0033169bb7400a1bfb19b197800d4c67d17cf0cec0583eb0e07fba6c5f",
+        "proof": "Source differs only in the fist pose branch; no shot intersecting this part uses that pose. All other source bytes are identical.",
+        "intersectingShots": [
+          "Uma tarde tranquila",
+          "Curiosidade",
+          "Nem pense nisso",
+          "Um clique só",
+          "Para cima!"
+        ]
+      }
+    },
+    {
+      "part": 2,
+      "start": 30,
+      "duration": 30,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 1800,
+      "errors": [],
+      "sourceHash": "34839f0033169bb7400a1bfb19b197800d4c67d17cf0cec0583eb0e07fba6c5f",
+      "reuseValidation": {
+        "validatedAgainstSourceHash": "598758b3964d320baa22bf2410a33cbd1748729ac24df0f2848f260c017cd334",
+        "renderSourceHash": "34839f0033169bb7400a1bfb19b197800d4c67d17cf0cec0583eb0e07fba6c5f",
+        "proof": "Source differs only in the fist pose branch; no shot intersecting this part uses that pose. All other source bytes are identical.",
+        "intersectingShots": [
+          "Para cima!",
+          "O teto é o novo chão",
+          "A caneca vingativa",
+          "Plano de resgate",
+          "Dois problemas"
+        ]
+      }
+    },
+    {
+      "part": 3,
+      "start": 60,
+      "duration": 30,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 1800,
+      "errors": [],
+      "sourceHash": "34839f0033169bb7400a1bfb19b197800d4c67d17cf0cec0583eb0e07fba6c5f",
+      "reuseValidation": {
+        "validatedAgainstSourceHash": "598758b3964d320baa22bf2410a33cbd1748729ac24df0f2848f260c017cd334",
+        "renderSourceHash": "34839f0033169bb7400a1bfb19b197800d4c67d17cf0cec0583eb0e07fba6c5f",
+        "proof": "Source differs only in the fist pose branch; no shot intersecting this part uses that pose. All other source bytes are identical.",
+        "intersectingShots": [
+          "Dois problemas",
+          "Sem freios",
+          "Piso móvel",
+          "Olho no drone",
+          "A porta não espera",
+          "O coração da máquina"
+        ]
+      }
+    },
+    {
+      "part": 4,
+      "start": 90,
+      "duration": 30,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 1800,
+      "errors": [],
+      "sourceHash": "34839f0033169bb7400a1bfb19b197800d4c67d17cf0cec0583eb0e07fba6c5f",
+      "reuseValidation": {
+        "validatedAgainstSourceHash": "598758b3964d320baa22bf2410a33cbd1748729ac24df0f2848f260c017cd334",
+        "renderSourceHash": "34839f0033169bb7400a1bfb19b197800d4c67d17cf0cec0583eb0e07fba6c5f",
+        "proof": "Source differs only in the fist pose branch; no shot intersecting this part uses that pose. All other source bytes are identical.",
+        "intersectingShots": [
+          "O coração da máquina",
+          "Isso é ruim",
+          "Mais um botão?",
+          "Queda lateral",
+          "O chão se abre"
+        ]
+      }
+    },
+    {
+      "part": 5,
+      "start": 120,
+      "duration": 30,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 1800,
+      "errors": [],
+      "sourceHash": "598758b3964d320baa22bf2410a33cbd1748729ac24df0f2848f260c017cd334"
+    },
+    {
+      "part": 6,
+      "start": 150,
+      "duration": 30,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 1800,
+      "errors": [],
+      "sourceHash": "598758b3964d320baa22bf2410a33cbd1748729ac24df0f2848f260c017cd334"
+    },
+    {
+      "part": 7,
+      "start": 180,
+      "duration": 30,
+      "width": 1920,
+      "height": 1080,
+      "fps": 60,
+      "frames": 1800,
+      "errors": [],
+      "sourceHash": "598758b3964d320baa22bf2410a33cbd1748729ac24df0f2848f260c017cd334"
+    }
+  ],
+  "animationQA": {
+    "finite": true,
+    "samples": 1680,
+    "actorSamples": 3360,
+    "maxBoneLengthDeviation": 3.055333763768431e-13,
+    "maxArmTargetError": 11.68770906191321,
+    "maxLegTargetError": 0,
+    "shots": [
+      {
+        "start": 0,
+        "end": 8,
+        "name": "Uma tarde tranquila",
+        "set": "lab",
+        "deterministic": true
+      },
+      {
+        "start": 8,
+        "end": 15,
+        "name": "Curiosidade",
+        "set": "lab",
+        "deterministic": true
+      },
+      {
+        "start": 15,
+        "end": 21,
+        "name": "Nem pense nisso",
+        "set": "lab",
+        "deterministic": true
+      },
+      {
+        "start": 21,
+        "end": 28,
+        "name": "Um clique só",
+        "set": "lab",
+        "deterministic": true
+      },
+      {
+        "start": 28,
+        "end": 35,
+        "name": "Para cima!",
+        "set": "lab",
+        "deterministic": true
+      },
+      {
+        "start": 35,
+        "end": 42,
+        "name": "O teto é o novo chão",
+        "set": "lab",
+        "deterministic": true
+      },
+      {
+        "start": 42,
+        "end": 49,
+        "name": "A caneca vingativa",
+        "set": "lab",
+        "deterministic": true
+      },
+      {
+        "start": 49,
+        "end": 56,
+        "name": "Plano de resgate",
+        "set": "lab",
+        "deterministic": true
+      },
+      {
+        "start": 56,
+        "end": 63,
+        "name": "Dois problemas",
+        "set": "lab",
+        "deterministic": true
+      },
+      {
+        "start": 63,
+        "end": 70,
+        "name": "Sem freios",
+        "set": "tunnel",
+        "deterministic": true
+      },
+      {
+        "start": 70,
+        "end": 76,
+        "name": "Piso móvel",
+        "set": "tunnel",
+        "deterministic": true
+      },
+      {
+        "start": 76,
+        "end": 82,
+        "name": "Olho no drone",
+        "set": "tunnel",
+        "deterministic": true
+      },
+      {
+        "start": 82,
+        "end": 89,
+        "name": "A porta não espera",
+        "set": "tunnel",
+        "deterministic": true
+      },
+      {
+        "start": 89,
+        "end": 96,
+        "name": "O coração da máquina",
+        "set": "reactor",
+        "deterministic": true
+      },
+      {
+        "start": 96,
+        "end": 103,
+        "name": "Isso é ruim",
+        "set": "reactor",
+        "deterministic": true
+      },
+      {
+        "start": 103,
+        "end": 110,
+        "name": "Mais um botão?",
+        "set": "reactor",
+        "deterministic": true
+      },
+      {
+        "start": 110,
+        "end": 117,
+        "name": "Queda lateral",
+        "set": "reactor",
+        "deterministic": true
+      },
+      {
+        "start": 117,
+        "end": 124,
+        "name": "O chão se abre",
+        "set": "reactor",
+        "deterministic": true
+      },
+      {
+        "start": 124,
+        "end": 132,
+        "name": "Não solta",
+        "set": "rescue",
+        "deterministic": true
+      },
+      {
+        "start": 132,
+        "end": 139,
+        "name": "O pequeno herói",
+        "set": "rescue",
+        "deterministic": true
+      },
+      {
+        "start": 139,
+        "end": 146,
+        "name": "Juntos",
+        "set": "rescue",
+        "deterministic": true
+      },
+      {
+        "start": 146,
+        "end": 153,
+        "name": "Uma chance",
+        "set": "reactor",
+        "deterministic": true
+      },
+      {
+        "start": 153,
+        "end": 160,
+        "name": "Dois lados",
+        "set": "reactor",
+        "deterministic": true
+      },
+      {
+        "start": 160,
+        "end": 166,
+        "name": "Sincronia",
+        "set": "reactor",
+        "deterministic": true
+      },
+      {
+        "start": 166,
+        "end": 173,
+        "name": "Último salto",
+        "set": "reactor",
+        "deterministic": true
+      },
+      {
+        "start": 173,
+        "end": 180,
+        "name": "Aguenta!",
+        "set": "reactor",
+        "deterministic": true
+      },
+      {
+        "start": 180,
+        "end": 187,
+        "name": "Soltar também é confiar",
+        "set": "reactor",
+        "deterministic": true
+      },
+      {
+        "start": 187,
+        "end": 194,
+        "name": "Tudo no lugar",
+        "set": "lab",
+        "deterministic": true
+      },
+      {
+        "start": 194,
+        "end": 201,
+        "name": "Desta vez, uma tampa",
+        "set": "lab",
+        "deterministic": true
+      },
+      {
+        "start": 201,
+        "end": 207,
+        "name": "Não foi ele",
+        "set": "lab",
+        "deterministic": true
+      },
+      {
+        "start": 207,
+        "end": 210,
+        "name": "Fim?",
+        "set": "lab",
+        "deterministic": true
+      }
+    ],
+    "contacts": [
+      {
+        "time": 24,
+        "kind": "button",
+        "error": 2.1043771043771358
+      },
+      {
+        "time": 169,
+        "kind": "orange button",
+        "error": 1
+      },
+      {
+        "time": 169,
+        "kind": "teal button",
+        "error": 1
+      },
+      {
+        "time": 151.2,
+        "kind": "fist",
+        "error": 0
+      },
+      {
+        "time": 185.5,
+        "kind": "fist",
+        "error": 0
+      }
+    ],
+    "metrics": {
+      "originalStory": true,
+      "fixedBoneIK": true,
+      "sourceVideoPixelsUsed": 0,
+      "characters": [
+        "Mimo",
+        "Teca",
+        "Pip"
+      ],
+      "sets": [
+        "lab",
+        "tunnel",
+        "reactor",
+        "rescue"
+      ]
+    },
+    "errors": [],
+    "sourceHash": "598758b3964d320baa22bf2410a33cbd1748729ac24df0f2848f260c017cd334",
+    "playerControlsVerified": true,
+    "localAssetsOnly": true
+  }
+}
