@@ -1,0 +1,15 @@
+{
+  "pose_samples": 37800,
+  "max_foot_stroke_below_floor": 16.39007844738842,
+  "arm_bend_samples_opposing_v3_convention": 37800,
+  "leg_bend_samples_opposing_v3_convention": 374,
+  "conservative_unrotated_cake_head_proximity_samples": 5819,
+  "two_actors_moving_above_40_units_per_second_fraction": 0.16992063492063492,
+  "longest_no_actor_above_40_units_per_second": 3.9999999999999907,
+  "scope": "Current One More Take export source, sampled at 60 Hz.",
+  "caveats": [
+    "Limb polarity is a convention-specific diagnostic; special poses may deliberately depart from it.",
+    "Cake/head test uses a conservative axis-aligned bound only when cake rotation is small. It does not prove that every flagged sample is a visible collision.",
+    "Movement threshold measures action concurrency, not subjective quality."
+  ]
+}

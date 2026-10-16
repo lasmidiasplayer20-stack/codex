@@ -1,0 +1,387 @@
+{
+  "version": "v4-trio-6-partes-1080p60",
+  "path": "videos/animation-vs-physics/revisions/v4-trio-6-partes-1080p60",
+  "sources": [
+    "src/legacy-renderer.js",
+    "src/math.js",
+    "src/model.js",
+    "src/rig-adapter.js",
+    "src/trio-player.js",
+    "src/trio-story.js",
+    "src/trio-world.js"
+  ],
+  "tests": [
+    "tests/player-v4.mjs",
+    "tests/preservation.py",
+    "tests/trio.mjs"
+  ],
+  "videos": [
+    {
+      "file": "exports/animation-vs-physics-v4-trio-1080p60.mp4",
+      "blob": "3688e5e4ff0dac8876361bed8fba5300cbd997d7",
+      "bytes": 25392879
+    }
+  ],
+  "files": [
+    {
+      "file": ".gitignore",
+      "blob": "2e2d0c9d039250c00dc34ab4f92b233d636effc5",
+      "bytes": 51
+    },
+    {
+      "file": "AGENTS.md",
+      "blob": "e3cc2e7416d4cb56b2f9bb8f8c1d732698b1fa04",
+      "bytes": 659
+    },
+    {
+      "file": "README.md",
+      "blob": "78d682380497a166f52979d8cddf060062d6503e",
+      "bytes": 3656
+    },
+    {
+      "file": "RELATORIO.md",
+      "blob": "82a1bfd851b02b3d3663f5725d8248592a9ec621",
+      "bytes": 4545
+    },
+    {
+      "file": "assistir.html",
+      "blob": "1dab753d7a22fec3b8a6449e0df78c482cf332b5",
+      "bytes": 1340
+    },
+    {
+      "file": "docs/ROTEIRO-V4.md",
+      "blob": "732b499c0e6c43aef8c67687ec5be339a5328b47",
+      "bytes": 4038
+    },
+    {
+      "file": "exports/SHA256SUMS-v4.txt",
+      "blob": "2363445a40d80f9edbde884fae0c400bcd1fe46f",
+      "bytes": 7488
+    },
+    {
+      "file": "exports/ZIP-SHA256.txt",
+      "blob": "e3ac28925e64a71873b0b00e447f54bed5d2e692",
+      "bytes": 100
+    },
+    {
+      "file": "exports/animation-vs-physics-v4-trio-1080p60.mp4",
+      "blob": "3688e5e4ff0dac8876361bed8fba5300cbd997d7",
+      "bytes": 25392879
+    },
+    {
+      "file": "exports/animation-vs-physics-v4-trio-1080p60.validation.json",
+      "blob": "e0927ac7f84ed92310d16eab6c38a341f17ff4d3",
+      "bytes": 380
+    },
+    {
+      "file": "exports/audio-medicao-v4.txt",
+      "blob": "a8259073503b668fbfff0c75d3d7df2e9db3f4af",
+      "bytes": 422
+    },
+    {
+      "file": "exports/audio-v4.wav",
+      "blob": "34b36c0968416657fac5ff04baef1dd849586d56",
+      "bytes": 28800044
+    },
+    {
+      "file": "exports/eventos-e-coreografia-v4.json",
+      "blob": "ddf5ebcb2e6ec211e54e82399257a8c998d3381b",
+      "bytes": 65150
+    },
+    {
+      "file": "exports/master-v4.wav",
+      "blob": "610ca12aedc77a9ed075e7e23d81a325a1cea848",
+      "bytes": 28800078
+    },
+    {
+      "file": "exports/parte-01-descoberta-1080p60.mp4",
+      "blob": "7d940a02f1b2cf1060d826fc2c1c1c0e162aa6d3",
+      "bytes": 3551365
+    },
+    {
+      "file": "exports/parte-01-descoberta-1080p60.mp4.json",
+      "blob": "b53ea6f352f3c244607e418e4740d532508d1dac",
+      "bytes": 1085
+    },
+    {
+      "file": "exports/parte-01-descoberta-1080p60.validation.json",
+      "blob": "e535cb036bdc0ce927f6075562d352a727c112a8",
+      "bytes": 368
+    },
+    {
+      "file": "exports/parte-02-alavanca-1080p60.mp4",
+      "blob": "2c07b475cbce9f9bb760b6e9d094d0b7ffcebdf7",
+      "bytes": 3726401
+    },
+    {
+      "file": "exports/parte-02-alavanca-1080p60.mp4.json",
+      "blob": "b031b5afe791bc24d9b3af62574d012d31be9d1a",
+      "bytes": 1086
+    },
+    {
+      "file": "exports/parte-02-alavanca-1080p60.validation.json",
+      "blob": "8feb36be21c028824aea5a14250278c73edb26e9",
+      "bytes": 366
+    },
+    {
+      "file": "exports/parte-03-carga-em-movimento-1080p60.mp4",
+      "blob": "6b7084fa26c231a4423961c9ce38b161395c7b4c",
+      "bytes": 4504866
+    },
+    {
+      "file": "exports/parte-03-carga-em-movimento-1080p60.mp4.json",
+      "blob": "bcf9a6f814fd3439cb5229e5eade9fe61f0bf626",
+      "bytes": 1086
+    },
+    {
+      "file": "exports/parte-03-carga-em-movimento-1080p60.validation.json",
+      "blob": "e34ba7fbbc72ff483a4aaf28acd02bbe95f52494",
+      "bytes": 376
+    },
+    {
+      "file": "exports/parte-04-sem-gravidade-1080p60.mp4",
+      "blob": "af2dc738cf95294855c29cd934053208da198257",
+      "bytes": 4068825
+    },
+    {
+      "file": "exports/parte-04-sem-gravidade-1080p60.mp4.json",
+      "blob": "57178cb826da383be8e533358f1c87a05a7b9519",
+      "bytes": 1086
+    },
+    {
+      "file": "exports/parte-04-sem-gravidade-1080p60.validation.json",
+      "blob": "ae7ddc2559279bf663db039046f1424b5314b3ae",
+      "bytes": 371
+    },
+    {
+      "file": "exports/parte-05-reacao-em-cadeia-1080p60.mp4",
+      "blob": "781b0e0fc9afd46ae109b242b7ce9552de5c24bc",
+      "bytes": 4451654
+    },
+    {
+      "file": "exports/parte-05-reacao-em-cadeia-1080p60.mp4.json",
+      "blob": "b6e5c3a8d7574db1b5ff0f3fffa22c4d45b97bc2",
+      "bytes": 1087
+    },
+    {
+      "file": "exports/parte-05-reacao-em-cadeia-1080p60.validation.json",
+      "blob": "754019e470ca7949cf62f6726bd7ea5e90b8e0c8",
+      "bytes": 374
+    },
+    {
+      "file": "exports/parte-06-juntos-na-passagem-1080p60.mp4",
+      "blob": "b2d6db6ec9391259ecfbf83f73ab3e9838ac7545",
+      "bytes": 4018269
+    },
+    {
+      "file": "exports/parte-06-juntos-na-passagem-1080p60.mp4.json",
+      "blob": "ffbf0345ceb922bd3cee51ec59d4b468ce2f3a7e",
+      "bytes": 1087
+    },
+    {
+      "file": "exports/parte-06-juntos-na-passagem-1080p60.validation.json",
+      "blob": "6a24f72b284725ebe864308a99a8268ff7dc2f3d",
+      "bytes": 376
+    },
+    {
+      "file": "exports/projeto-editavel-v4-com-filme.zip",
+      "blob": "5dd70d1dc49d34d738f1b20abb84f95dc7fe320d",
+      "bytes": 55845195
+    },
+    {
+      "file": "exports/revisao-codificada-v4.json",
+      "blob": "fff45e3a54d8c0282b3350ba53db46674df5924f",
+      "bytes": 17010
+    },
+    {
+      "file": "exports/revisao-parte-01.jpg",
+      "blob": "53036468997e99d871914b333ae88b7c269c29e5",
+      "bytes": 229844
+    },
+    {
+      "file": "exports/revisao-parte-02.jpg",
+      "blob": "0dd091f7b412f1918e6345dd8aeead7eec15f0ca",
+      "bytes": 230749
+    },
+    {
+      "file": "exports/revisao-parte-03.jpg",
+      "blob": "380fa8e815799099b0632fde8040b1749c17872b",
+      "bytes": 254923
+    },
+    {
+      "file": "exports/revisao-parte-04.jpg",
+      "blob": "31e4303b3f6014a7bbf22546ded2272dfd1834fb",
+      "bytes": 232700
+    },
+    {
+      "file": "exports/revisao-parte-05.jpg",
+      "blob": "4927dfeaa638e7d243005a39dcb3d69562fce38e",
+      "bytes": 259926
+    },
+    {
+      "file": "exports/revisao-parte-06.jpg",
+      "blob": "6f0f2263093ed6deee65ec643d57a6b25237d99b",
+      "bytes": 228501
+    },
+    {
+      "file": "exports/revisao-visual-v4.json",
+      "blob": "9e6f1e258af09336ffaf61308ab2159a9caeba91",
+      "bytes": 885
+    },
+    {
+      "file": "exports/seis-capitulos-v4.jpg",
+      "blob": "6c11d6e2cf11644ae834fc605bf2fbacbb333317",
+      "bytes": 310976
+    },
+    {
+      "file": "exports/soundtrack-v4.m4a",
+      "blob": "1dc6c3f6086ffe2f59dce198debb6b91edf5e989",
+      "bytes": 4920583
+    },
+    {
+      "file": "exports/validacao-player-v4.json",
+      "blob": "b7d638a3884503d73b63231622a967e5ad76a199",
+      "bytes": 209
+    },
+    {
+      "file": "exports/validacao-rig-v4.json",
+      "blob": "5f3da0fd0509dc3d028033c14f58d34617d1b5fb",
+      "bytes": 5092
+    },
+    {
+      "file": "index.html",
+      "blob": "75c2ea6db663af0dbe08685bb7924f767f2f100a",
+      "bytes": 1470
+    },
+    {
+      "file": "package-lock.json",
+      "blob": "82c4011eec8f5db1491fbc0648f56494f7422528",
+      "bytes": 1755
+    },
+    {
+      "file": "package.json",
+      "blob": "90cf715fa3fdc06765010c12e9b54a595b0b15c6",
+      "bytes": 513
+    },
+    {
+      "file": "render.mjs",
+      "blob": "884529b671457591491b45916313e20da93149c2",
+      "bytes": 4616
+    },
+    {
+      "file": "scripts/assemble-v4.mjs",
+      "blob": "e00684f6feb64c25bb7f3f1951d044c6d63eb974",
+      "bytes": 1296
+    },
+    {
+      "file": "scripts/browser.mjs",
+      "blob": "e275a49e4de2b6ed62d5cb7442e8a5ad18fbce8e",
+      "bytes": 978
+    },
+    {
+      "file": "scripts/http-files.mjs",
+      "blob": "1004ce391fbc2faa9205430551ec09d163244394",
+      "bytes": 1804
+    },
+    {
+      "file": "scripts/package-v4.py",
+      "blob": "06e88797595d77075d99c8614eea39c05dbfc106",
+      "bytes": 7121
+    },
+    {
+      "file": "scripts/preview-v4.mjs",
+      "blob": "a0dddec01c73d9a7e63c00886c4b6bae4a5289b7",
+      "bytes": 765
+    },
+    {
+      "file": "scripts/remaster-v4.mjs",
+      "blob": "e764e6197e11134caba47080acef7e6a357ed754",
+      "bytes": 1110
+    },
+    {
+      "file": "scripts/render-v4.mjs",
+      "blob": "3f68d1f12d933f8249a40c93f433f1ec40e98cbe",
+      "bytes": 1037
+    },
+    {
+      "file": "scripts/review-v4.py",
+      "blob": "507887b3edb7e41a3b504614525e39eb51622d37",
+      "bytes": 3360
+    },
+    {
+      "file": "scripts/score-v4.py",
+      "blob": "1dabb512027638ffa8df80b481616ee9f8191c64",
+      "bytes": 5481
+    },
+    {
+      "file": "scripts/serve.mjs",
+      "blob": "8718242b0dcc9fd8cde83bf177a029d3e01f4d96",
+      "bytes": 320
+    },
+    {
+      "file": "scripts/validate-export.py",
+      "blob": "79f6e8348fbef201ab9204cb2027ac083f58dd56",
+      "bytes": 1602
+    },
+    {
+      "file": "src/legacy-renderer.js",
+      "blob": "0a218714a6a9c415b27687637a2a4bab519308fb",
+      "bytes": 2298
+    },
+    {
+      "file": "src/math.js",
+      "blob": "0ef9c43e5b102bea4f6be57327dd268a56d65740",
+      "bytes": 466
+    },
+    {
+      "file": "src/model.js",
+      "blob": "fa97c0c0ff4ab41c70f51ebdd80cd3799719e574",
+      "bytes": 199
+    },
+    {
+      "file": "src/rig-adapter.js",
+      "blob": "6e80835b0cf72a5bdb95afab9d127211b4b4c8d2",
+      "bytes": 7668
+    },
+    {
+      "file": "src/trio-player.js",
+      "blob": "3c8bff45311dbf60ac5a9a4a9d32a36d4e440c02",
+      "bytes": 1614
+    },
+    {
+      "file": "src/trio-story.js",
+      "blob": "e098d3b6d43df41cbe05e9005c2e3464dda8f5c0",
+      "bytes": 17112
+    },
+    {
+      "file": "src/trio-world.js",
+      "blob": "dc7546752e404afe87a4f192fd9c38edc094b5a2",
+      "bytes": 12332
+    },
+    {
+      "file": "tests/player-v4.mjs",
+      "blob": "67b4a66a2fe75ab9471d95a5ef15eca86572a619",
+      "bytes": 1567
+    },
+    {
+      "file": "tests/preservation.py",
+      "blob": "158ceccdf0f3827686581ddda70392681fb4c500",
+      "bytes": 559
+    },
+    {
+      "file": "tests/trio.mjs",
+      "blob": "5b5ac9a1548b32b38856f0c8fbf83aa4772e2af0",
+      "bytes": 3960
+    },
+    {
+      "file": "vendor/motion.js",
+      "blob": "d0104815bc812e9f8c935df02ee70caf61b95e44",
+      "bytes": 144870
+    },
+    {
+      "file": "vendor/rig-controller.js",
+      "blob": "602810856a3f297225392606a23ccfe5a792104e",
+      "bytes": 2212
+    }
+  ]
+}

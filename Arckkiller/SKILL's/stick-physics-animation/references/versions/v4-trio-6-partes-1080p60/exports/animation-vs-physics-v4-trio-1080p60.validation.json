@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "file": "animation-vs-physics-v4-trio-1080p60.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 9000,
+  "duration": 150.0,
+  "format_duration": 150.0,
+  "audio": "AAC stereo 48kHz, original procedural score/SFX",
+  "full_decode": "passed",
+  "bytes": 25392879,
+  "sha256": "2c9a5d462ffeb4a0208ec3aafca922fcb0cde5cca81e7ce052015d3c5f5399a5"
+}

@@ -1,0 +1,328 @@
+{
+  "transportMinClearance": 6.179062873152134,
+  "maxFootY": 808.1606740604052,
+  "worstJoint": {
+    "n": "amber",
+    "t": 17.266666666666666,
+    "j": 6,
+    "a": 0.8796404847369246,
+    "b": 1.1921063068565516
+  },
+  "finite": true,
+  "maxBoneError": 2.1316282072803006e-13,
+  "maxContactError": 1.6077746776921858e-13,
+  "contacts": 1764,
+  "maxWithinShotDisplacement": 4.616969541667241,
+  "maxJointStep": 17.902972849540152,
+  "checked": 27000,
+  "perActor": {
+    "hero": {
+      "minX": 332.67080888177253,
+      "maxX": 1069.3163272770405,
+      "minY": 393.4802357682505,
+      "maxY": 807.6052897554788
+    },
+    "cyan": {
+      "minX": 693.2062300380214,
+      "maxX": 1197.7575313788939,
+      "minY": 434.7287499660506,
+      "maxY": 807.9110184495129
+    },
+    "amber": {
+      "minX": 392.67080888177253,
+      "maxX": 1357.8591718031025,
+      "minY": 302.9595157307826,
+      "maxY": 808.1606740604052
+    }
+  },
+  "cameraBounds": [
+    {
+      "t": 0.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 4.5,
+      "visible": [
+        "hero"
+      ]
+    },
+    {
+      "t": 11.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 17.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 22.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 25.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 31.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 38.1,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 41.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 46.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 50.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 53.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 59.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 66.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 71.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 75.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 79.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 84.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 91.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 97.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 100.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 103.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 107.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 114.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 118.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 125.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 129.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 134.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 141.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    },
+    {
+      "t": 145.5,
+      "visible": [
+        "hero",
+        "cyan",
+        "amber"
+      ]
+    }
+  ],
+  "clippedFocus": 0,
+  "events": 306,
+  "chapters": [
+    {
+      "start": 0,
+      "end": 25,
+      "mode": "directed",
+      "title": "A descoberta"
+    },
+    {
+      "start": 25,
+      "end": 50,
+      "mode": "directed",
+      "title": "A alavanca"
+    },
+    {
+      "start": 50,
+      "end": 75,
+      "mode": "directed",
+      "title": "Carga em movimento"
+    },
+    {
+      "start": 75,
+      "end": 100,
+      "mode": "directed",
+      "title": "Sem gravidade"
+    },
+    {
+      "start": 100,
+      "end": 125,
+      "mode": "directed",
+      "title": "Reação em cadeia"
+    },
+    {
+      "start": 125,
+      "end": 150,
+      "mode": "directed",
+      "title": "Juntos na passagem"
+    }
+  ],
+  "duration": 150,
+  "frames": 9000,
+  "metrics": {
+    "finite": true,
+    "sourceVideoPixelsUsed": 0,
+    "characters": 3,
+    "simulationHz": 120,
+    "native60fps": true,
+    "method": "Original fixed-bone FK; deterministic authored 120Hz tracks, procedural scenery and synchronized sound"
+  }
+}

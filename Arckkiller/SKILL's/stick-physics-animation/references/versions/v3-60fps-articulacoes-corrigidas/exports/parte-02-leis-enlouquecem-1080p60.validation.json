@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "file": "parte-02-leis-enlouquecem-1080p60.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 2700,
+  "duration": 45.0,
+  "format_duration": 45.0,
+  "audio": "AAC stereo 48kHz, original procedural score/SFX",
+  "full_decode": "passed",
+  "bytes": 28287946,
+  "sha256": "ef2fa4283f8f9a174629f614c0a9bc660dd0274a43d3ba204964f2289918390a"
+}

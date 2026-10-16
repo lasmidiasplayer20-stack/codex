@@ -1,0 +1,7 @@
+# V6 — continuidade e atuação natural
+Pedido de 15/10/2026: refazer a narrativa em 150s, sem acelerar a animação. Mais acontecimentos conectados, interações, movimentos naturais e correção de poses travadas. Três personagens, seis partes de 25s, 1080p60, 9000 frames. Todos os textos visíveis em inglês.
+Use estado e posições persistentes em toda a história, inclusive nos limites de 25s. Preserve FK, perfil e funções de desenho originais. As fontes anteriores estão preservadas em preserved/ e nas pastas irmãs.
+Execute npm test, revise sequências temporais e contatos, valide os sete MP4 e publique somente esta nova pasta V6 no branch já autorizado. Não alegue avaliação auditiva humana sem realizá-la.
+
+## Current export organization
+The latest user instruction supersedes the earlier all-MP4 rule: Vídeos contains only complete final MP4 films. Keep intermediate parts, previews, raw streams and reports in each project's production/ or qa/ directories. Preserve completed films and their existing URLs.

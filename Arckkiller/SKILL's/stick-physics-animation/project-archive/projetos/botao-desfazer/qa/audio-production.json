@@ -1,0 +1,777 @@
+{
+  "seconds": 210,
+  "sample_rate": 48000,
+  "channels": 2,
+  "original_music": true,
+  "event_count": 68,
+  "footsteps": 85,
+  "generated_elevenlabs_assets": 24,
+  "events": [
+    {
+      "t": 2,
+      "type": "land",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 4,
+      "type": "land",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 8,
+      "type": "tap",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 10,
+      "type": "spring",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 14,
+      "type": "catch",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 16,
+      "type": "land",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 18,
+      "type": "clatter",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 21,
+      "type": "click",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 24,
+      "type": "chime",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 28,
+      "type": "roll",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 30,
+      "type": "spring",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 35,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 37,
+      "type": "crash",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 42,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 44,
+      "type": "spring",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 46,
+      "type": "crash",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 50,
+      "type": "bounce",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 54,
+      "type": "catch",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 56,
+      "type": "boing",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 63,
+      "type": "click",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 66,
+      "type": "motor",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 69,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 72,
+      "type": "spring",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 76,
+      "type": "crash",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 80,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 84,
+      "type": "catch",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 87,
+      "type": "clatter",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 93,
+      "type": "click",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 96,
+      "type": "spring",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 98,
+      "type": "electric",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 100,
+      "type": "crash",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 105,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 108,
+      "type": "electric",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 111,
+      "type": "boing",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 114,
+      "type": "electric",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 116,
+      "type": "crash",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 118,
+      "type": "break",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 120,
+      "type": "electric",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 123,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 125,
+      "type": "bounce",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 129,
+      "type": "catch",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 132,
+      "type": "deadclick",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 134,
+      "type": "deadclick",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 137,
+      "type": "tap",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 140,
+      "type": "chime",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 144,
+      "type": "rope",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 150,
+      "type": "rope",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 153,
+      "type": "rope",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 156,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 159,
+      "type": "spring",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 162,
+      "type": "catch",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 168,
+      "type": "land",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 171,
+      "type": "catch",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 177,
+      "type": "tap",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 183,
+      "type": "cloth",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 186,
+      "type": "celebrate",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 189,
+      "type": "clap",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 192,
+      "type": "chime",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 198,
+      "type": "clap",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 201,
+      "type": "splat",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 203,
+      "type": "deadclick",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 205,
+      "type": "laugh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 207,
+      "type": "chime",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 38,
+      "type": "rewind",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 46,
+      "type": "rewind",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 76,
+      "type": "rewind",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 100,
+      "type": "rewind",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 116,
+      "type": "rewind",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 7.458333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 10.2,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 18.091666666666665,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 31.6,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 33.99166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 36.733333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 39.141666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 40.55833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 43.375,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 46.575,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 47.625,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 54.675,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 64.00833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 67.04166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 68.475,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 70.4,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 71.66666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 77.66666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 88.86666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 93.5,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 96.45,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 100.65,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 101.74166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 106.175,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 107.275,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 143.175,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 147.99166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 154.59166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 169,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 7.95,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 18.975,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 20.05,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 22.583333333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 38.9,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 42.225,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 47.708333333333336,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 58.50833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 61.983333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 68.20833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 79.9,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 85.88333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 90.81666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 94.00833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 97.98333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 101.16666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 104.33333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 142.95,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 158.05833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 160,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 160.73333333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 161.68333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 169.25833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 173.1,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 181.88333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 6.891666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 9.091666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 10.95,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 16.8,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 28.558333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 31.5,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 40.75833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 42.31666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 43.666666666666664,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 46.983333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 47.36666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 48.43333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 49.05,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 49.71666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 56.733333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 61.2,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 64.03333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 67.80833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 81.49166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 84.60833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 91.025,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 101.63333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 104.53333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 133.01666666666668,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 136.48333333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 143.88333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 169.71666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 174.94166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 175.68333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 176.575,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 179.08333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    }
+  ],
+  "no_human_listening_claimed": true
+}

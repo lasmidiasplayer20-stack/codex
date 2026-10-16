@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "controller_byte_identical": true,
+  "actor_functions_byte_identical": [
+    "line",
+    "circle",
+    "curve",
+    "actor"
+  ],
+  "preserved_template_files": 22,
+  "previous_source_files": 34,
+  "live_previous_checked": true,
+  "originals_modified": false
+}

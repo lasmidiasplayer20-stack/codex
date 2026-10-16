@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "file": "parte-02-alavanca-1080p60.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 1500,
+  "duration": 25.0,
+  "format_duration": 25.0,
+  "audio": "AAC stereo 48kHz, original procedural score/SFX",
+  "full_decode": "passed",
+  "bytes": 3726401,
+  "sha256": "9b98345e8e4b00bd5b1cf2932a21fa7bb011dae77b9efdda2dc3feca2b529d4d"
+}

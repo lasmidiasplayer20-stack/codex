@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "file": "parte-03-carga-em-movimento-1080p60.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 780,
+  "duration": 13.0,
+  "format_duration": 13.0,
+  "audio": "AAC stereo 48kHz, original procedural score/SFX",
+  "full_decode": "passed",
+  "bytes": 2992211,
+  "sha256": "1740b04566ed6f5fe94b1878bb5a1d544cd46c7a715afbb8be3dbbce9d4b0eb2"
+}

@@ -1,0 +1,23 @@
+{
+  "baseline": {
+    "version": "V4",
+    "duration": 150,
+    "frames": 9000,
+    "meanJointSpeed": 34.21897579013086,
+    "activeFraction": 0.6383333333333333,
+    "longestQuietSeconds": 6.133333333333317,
+    "metric": "Mean world-units/second across root, head, wrists and ankles of three actors; scene changes excluded. Quiet threshold:20."
+  },
+  "v5": {
+    "duration": 78,
+    "frames": 4680,
+    "meanJointSpeed": 114.53541381295251,
+    "activeFraction": 0.911965811965812,
+    "longestQuietSeconds": 0.8333333333333343
+  },
+  "mean_joint_speed_ratio": 3.347131559851824,
+  "duration_reduction_percent": 48,
+  "new_gag_seconds": 26.4,
+  "new_gag_events": 36,
+  "note": "World-space joint displacement is an objective motion/quiet measure, not a guarantee of perceived humor. Both versions measured at 60Hz, scene discontinuities excluded."
+}

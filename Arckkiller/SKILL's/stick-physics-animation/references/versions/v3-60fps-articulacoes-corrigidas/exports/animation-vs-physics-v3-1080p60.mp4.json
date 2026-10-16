@@ -1,0 +1,26 @@
+{
+  "revision": "V3",
+  "source_commit": "64dd15ad0e84a5c5ccd702fe0d07e6c5e7c54ec7",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "duration": 125,
+  "nativeFrames": 7500,
+  "simulationHz": 120,
+  "sourceVideoPixelsUsed": 0,
+  "assembly": "Video-only packet copy from three native 60fps renders; one continuous AAC track, zero start timestamp",
+  "parts": [
+    {
+      "file": "parte-01-descoberta-1080p60.mp4",
+      "sha256": "6feccf9057d685efefc44814aceb6686faf487ac3c874007fc3907e50dad7203"
+    },
+    {
+      "file": "parte-02-leis-enlouquecem-1080p60.mp4",
+      "sha256": "ef2fa4283f8f9a174629f614c0a9bc660dd0274a43d3ba204964f2289918390a"
+    },
+    {
+      "file": "parte-03-confronto-final-1080p60.mp4",
+      "sha256": "60c0ca82af9aeec1862380ae471b1dd12d42b73becf38ac9ffec586f1fca4e0f"
+    }
+  ]
+}

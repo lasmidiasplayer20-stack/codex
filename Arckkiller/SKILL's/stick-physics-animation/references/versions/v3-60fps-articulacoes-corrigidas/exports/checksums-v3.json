@@ -1,0 +1,22 @@
+{
+  "animation-vs-physics-v3-1080p60.mp4": {
+    "bytes": 74378552,
+    "sha256": "0b4cc387f708dd2145a55f5bf96818db5983ae20e673460270cdb30724656492"
+  },
+  "parte-01-descoberta-1080p60.mp4": {
+    "bytes": 13566628,
+    "sha256": "6feccf9057d685efefc44814aceb6686faf487ac3c874007fc3907e50dad7203"
+  },
+  "parte-02-leis-enlouquecem-1080p60.mp4": {
+    "bytes": 28287946,
+    "sha256": "ef2fa4283f8f9a174629f614c0a9bc660dd0274a43d3ba204964f2289918390a"
+  },
+  "parte-03-confronto-final-1080p60.mp4": {
+    "bytes": 31620988,
+    "sha256": "60c0ca82af9aeec1862380ae471b1dd12d42b73becf38ac9ffec586f1fca4e0f"
+  },
+  "projeto-editavel-v3-com-filme.zip": {
+    "bytes": 91511967,
+    "sha256": "d2d6eeb85e32c7b869ee97e73aff05fbd57ad3d9d6ba16ac68b30e0c7ca5065b"
+  }
+}

@@ -1,0 +1,525 @@
+{
+  "version": "v2-viva",
+  "path": "videos/animation-vs-physics/revisions/v2-viva",
+  "sources": [
+    "src/act-02.js",
+    "src/act-03.js",
+    "src/bootstrap.js",
+    "src/camera.js",
+    "src/cinematic.js",
+    "src/collisions.js",
+    "src/director.js",
+    "src/effects.js",
+    "src/legacy-renderer.js",
+    "src/living-world.js",
+    "src/math.js",
+    "src/model.js",
+    "src/performance.js",
+    "src/physics.js",
+    "src/player.js",
+    "src/render.js",
+    "src/rig-adapter.js",
+    "src/shutter.js",
+    "src/takes.js"
+  ],
+  "tests": [
+    "tests/direction.mjs",
+    "tests/preservation.py",
+    "tests/run.mjs",
+    "tests/story.mjs"
+  ],
+  "videos": [
+    {
+      "file": "exports/animation-vs-physics-v2-1080p24.mp4",
+      "blob": "b1599c751047685aab811acc28a6fe8e12c05ad9",
+      "bytes": 44678765
+    }
+  ],
+  "files": [
+    {
+      "file": ".gitignore",
+      "blob": "1dae4396c10e6c222ea369d14ab22e5d7f33120a",
+      "bytes": 79
+    },
+    {
+      "file": "AGENTS.md",
+      "blob": "199cdad4b8ff5b2fa42a715b60a75e6976796778",
+      "bytes": 1331
+    },
+    {
+      "file": "README.md",
+      "blob": "c4a8fc9b570552850403d6fa6a1ab9cb19e6c6e2",
+      "bytes": 3819
+    },
+    {
+      "file": "RELATORIO.md",
+      "blob": "a4970378d4a7c1c8d3aa9f090e8c306297b313c1",
+      "bytes": 5508
+    },
+    {
+      "file": "docs/LEIA_PRIMEIRO.md",
+      "blob": "35779a3a372363ede7e2589a2aa968e3211bb99c",
+      "bytes": 1064
+    },
+    {
+      "file": "docs/ROTEIRO_ORIGINAL.md",
+      "blob": "bc5797b65c632e99b7d6f09d695d2c4ebe41b276",
+      "bytes": 13380
+    },
+    {
+      "file": "docs/ROTEIRO_TECNICO.md",
+      "blob": "f528c3f84472870b852a10d1de330226c4309745",
+      "bytes": 20384
+    },
+    {
+      "file": "docs/SKILL.md",
+      "blob": "822f467297d161d2a2e261c92557cf72d09518a7",
+      "bytes": 6093
+    },
+    {
+      "file": "exports/animation-vs-physics-v2-1080p24.mp4",
+      "blob": "b1599c751047685aab811acc28a6fe8e12c05ad9",
+      "bytes": 44678765
+    },
+    {
+      "file": "exports/animation-vs-physics-v2-1080p24.mp4.json",
+      "blob": "2c731b7ca51105e9f7203d7a80fa40b138ec455e",
+      "bytes": 1708
+    },
+    {
+      "file": "exports/animation-vs-physics-v2-1080p24.validation.json",
+      "blob": "7d42da9182c7941855d3747be0204e57fb4ece74",
+      "bytes": 375
+    },
+    {
+      "file": "exports/animation-vs-physics-v2-720p24.mp4",
+      "blob": "5566f0b97be5ce1264bfa31347358a33ac4a437f",
+      "bytes": 19751685
+    },
+    {
+      "file": "exports/animation-vs-physics-v2-720p24.validation.json",
+      "blob": "2c8b23c0bab648e47f0c3101eb7a1aac9d07d4c0",
+      "bytes": 373
+    },
+    {
+      "file": "exports/audio-v2.json",
+      "blob": "29c6656e3907bf8646ca0913a5096a5bd4ab3def",
+      "bytes": 998
+    },
+    {
+      "file": "exports/camera-cuts-v2.json",
+      "blob": "5543c85a1230d06d6db1cb8f1cce04cb87b24fbb",
+      "bytes": 3533
+    },
+    {
+      "file": "exports/checksums-act01.json",
+      "blob": "0995e3eda4625bec50fdd19d38388e8a87c0ac77",
+      "bytes": 27398
+    },
+    {
+      "file": "exports/checksums-act02.json",
+      "blob": "047f7e169223d92c2146d69054c6f1567321467f",
+      "bytes": 28802
+    },
+    {
+      "file": "exports/checksums-act03.json",
+      "blob": "7dfa98572b71744a9c8bc87cc285198870cfa2d7",
+      "bytes": 29256
+    },
+    {
+      "file": "exports/checksums-final.json",
+      "blob": "5de4b15cbc2cbf43e3df9eee41ac8f50cf25872a",
+      "bytes": 30804
+    },
+    {
+      "file": "exports/codigo-animation-vs-physics-v2-act01.zip",
+      "blob": "d74ef58d59502cab215e401bcbc9090836b7e222",
+      "bytes": 4932586
+    },
+    {
+      "file": "exports/codigo-animation-vs-physics-v2-act02.zip",
+      "blob": "eb978ef4d77948f747d6fa9913746338057075d3",
+      "bytes": 4940563
+    },
+    {
+      "file": "exports/codigo-animation-vs-physics-v2-act03.zip",
+      "blob": "c64359753c4567b5c59f3344cd911809f7370b80",
+      "bytes": 4944199
+    },
+    {
+      "file": "exports/codigo-animation-vs-physics-v2-final.zip",
+      "blob": "f4b050690065e58cd013a4cd110137feb4f74a67",
+      "bytes": 4952224
+    },
+    {
+      "file": "exports/comparacao-v1-v2-720p24.mp4",
+      "blob": "3ab491e37505e43bac986d38db95ae8502cb72f1",
+      "bytes": 1793384
+    },
+    {
+      "file": "exports/comparacao-v1-v2-720p24.validation.json",
+      "blob": "e887ab9f6bc4d1f253348fcffba8fb476ec39d07",
+      "bytes": 362
+    },
+    {
+      "file": "exports/contact-sheet-act01.jpg",
+      "blob": "fd2ffd200a3249c41ca13d5d122cb815b988c0e7",
+      "bytes": 77265
+    },
+    {
+      "file": "exports/contact-sheet-act02.jpg",
+      "blob": "83c9d5005fb16b37eea2e81cdaecb78da01a1186",
+      "bytes": 70457
+    },
+    {
+      "file": "exports/contact-sheet-act03.jpg",
+      "blob": "9c02fb3c639628c4a1fe0e6561446c3edbb54a91",
+      "bytes": 86748
+    },
+    {
+      "file": "exports/contact-sheet-camera-cuts.jpg",
+      "blob": "709c888cc4186bb8b40121de927b69b78759ab53",
+      "bytes": 920600
+    },
+    {
+      "file": "exports/contact-sheet-final-takes.jpg",
+      "blob": "3e5fb837d761b08dff7477d3a6d700bfc324def0",
+      "bytes": 296129
+    },
+    {
+      "file": "exports/contact-sheet-final-transitions.jpg",
+      "blob": "62a84470799fb0c6d84cd214ed908ae5e4bb5a56",
+      "bytes": 484503
+    },
+    {
+      "file": "exports/direction-validation.json",
+      "blob": "5477d5c7254d108bf5faae293d811b10963de6dd",
+      "bytes": 2295
+    },
+    {
+      "file": "exports/encoded-review.json",
+      "blob": "b39b017fa8bfd042e936723929379d1621415cc1",
+      "bytes": 2663
+    },
+    {
+      "file": "exports/preservation-validation.json",
+      "blob": "060292b6272abea177fa5e6328e1d5cae77d8fbd",
+      "bytes": 281
+    },
+    {
+      "file": "exports/previa-v2-takes-01-06-1080p24.mp4",
+      "blob": "5d88e0e29d54016202ab67555849c66922fad31b",
+      "bytes": 7669933
+    },
+    {
+      "file": "exports/previa-v2-takes-01-06-1080p24.mp4.json",
+      "blob": "a5b3ba670638e2b7d07dc9ad43544417dc568b90",
+      "bytes": 1706
+    },
+    {
+      "file": "exports/previa-v2-takes-01-06-1080p24.validation.json",
+      "blob": "47214372f876d109fde3236afbb047f95ebc642f",
+      "bytes": 369
+    },
+    {
+      "file": "exports/previa-v2-takes-01-06-720p24.mp4",
+      "blob": "b1bce1e07b17747f4ac991c5bd724881a10f7040",
+      "bytes": 3582906
+    },
+    {
+      "file": "exports/previa-v2-takes-01-06-720p24.validation.json",
+      "blob": "83a05977496fb9e190151c91c90bfa8c61786af8",
+      "bytes": 367
+    },
+    {
+      "file": "exports/previa-v2-takes-07-15-1080p24.mp4",
+      "blob": "6cce90d69eda6f0fcc71ea1fc75f6c819961a896",
+      "bytes": 15009680
+    },
+    {
+      "file": "exports/previa-v2-takes-07-15-1080p24.mp4.json",
+      "blob": "c94930361a67feea671e44f205c2a1b926f69ebe",
+      "bytes": 1708
+    },
+    {
+      "file": "exports/previa-v2-takes-07-15-1080p24.validation.json",
+      "blob": "facf70050c91324a87e2f88db8e77451ddf1f402",
+      "bytes": 371
+    },
+    {
+      "file": "exports/previa-v2-takes-07-15-720p24.mp4",
+      "blob": "135b036983efcd05a2b4da5866da2c9bf0bc7914",
+      "bytes": 6758157
+    },
+    {
+      "file": "exports/previa-v2-takes-07-15-720p24.validation.json",
+      "blob": "c190685229d6d9599f5106b6e5549b0fd6728b31",
+      "bytes": 368
+    },
+    {
+      "file": "exports/previa-v2-takes-16-25-1080p24.mp4",
+      "blob": "fc3e80521f896ae48d9695e233197b6ac402d37e",
+      "bytes": 21988011
+    },
+    {
+      "file": "exports/previa-v2-takes-16-25-1080p24.mp4.json",
+      "blob": "b8bb303cefaae50f31f155898ec2dec33e3518c8",
+      "bytes": 1708
+    },
+    {
+      "file": "exports/previa-v2-takes-16-25-1080p24.validation.json",
+      "blob": "05a6a0e23644dabf4beef2f49534eada4e367646",
+      "bytes": 371
+    },
+    {
+      "file": "exports/previa-v2-takes-16-25-720p24.mp4",
+      "blob": "f7b2eb72e606b038f16abb3c95087b7165696c5e",
+      "bytes": 9389086
+    },
+    {
+      "file": "exports/previa-v2-takes-16-25-720p24.validation.json",
+      "blob": "08630a0d54444bbb1df8c7d56327ed4be064c457",
+      "bytes": 368
+    },
+    {
+      "file": "exports/render-freeze-v2.json",
+      "blob": "6a687c792c567c2926f5399a5da3bf8f51c86e1f",
+      "bytes": 2290
+    },
+    {
+      "file": "exports/render-inputs-act01.json",
+      "blob": "b6ee636422540130a3b3d45bdbf186fcce1603e4",
+      "bytes": 9558
+    },
+    {
+      "file": "exports/render-inputs-act02.json",
+      "blob": "b6ee636422540130a3b3d45bdbf186fcce1603e4",
+      "bytes": 9558
+    },
+    {
+      "file": "exports/render-inputs-act03.json",
+      "blob": "b6ee636422540130a3b3d45bdbf186fcce1603e4",
+      "bytes": 9558
+    },
+    {
+      "file": "exports/render-inputs-final.json",
+      "blob": "b6ee636422540130a3b3d45bdbf186fcce1603e4",
+      "bytes": 9558
+    },
+    {
+      "file": "exports/simulation-validation.json",
+      "blob": "6a029baa7764dc6006ee3cc6cde12ed85d4d287c",
+      "bytes": 532
+    },
+    {
+      "file": "exports/soundtrack-v2.m4a",
+      "blob": "c886079da4959aa90db2bdc83d9b660e75cea704",
+      "bytes": 2828703
+    },
+    {
+      "file": "exports/story-validation.json",
+      "blob": "8463a33004678e1ca02e8406c8966901083d50e0",
+      "bytes": 2839
+    },
+    {
+      "file": "exports/timeline-events-v2.json",
+      "blob": "30f9c7c656c3ddb744b76772d66e340fd2491c73",
+      "bytes": 19722
+    },
+    {
+      "file": "exports/v1-preservation-validation.json",
+      "blob": "78bb6b46378ee9c5c73ceec90559ff0ed4ad1608",
+      "bytes": 178
+    },
+    {
+      "file": "index.html",
+      "blob": "153a343f64e2da77be167109f82add38bce78958",
+      "bytes": 1590
+    },
+    {
+      "file": "package-lock.json",
+      "blob": "255540b37137f93d3099a46e85ed3d32a1a4793e",
+      "bytes": 1755
+    },
+    {
+      "file": "package.json",
+      "blob": "7f1f6ea0297106ddc123a63132168a37a7c00307",
+      "bytes": 520
+    },
+    {
+      "file": "render.mjs",
+      "blob": "ace914882c9595b09d21c416d53df40bf4895771",
+      "bytes": 4451
+    },
+    {
+      "file": "requirements.txt",
+      "blob": "ac83e6f849ef9833cae715b2c8c71f681fe69783",
+      "bytes": 30
+    },
+    {
+      "file": "scripts/audio.py",
+      "blob": "1623bb8ca1bfa7cd8848f6abb80acfbb788fb25f",
+      "bytes": 3532
+    },
+    {
+      "file": "scripts/browser.mjs",
+      "blob": "a08e2e28d15945464d220b78b7c97610cae78247",
+      "bytes": 1338
+    },
+    {
+      "file": "scripts/inspect.mjs",
+      "blob": "4a88af4a929f480c05fe70958254fb1e0ef50db7",
+      "bytes": 2347
+    },
+    {
+      "file": "scripts/review-export.py",
+      "blob": "4370bbf11b614289a1473f318c88cd78fa727e08",
+      "bytes": 3526
+    },
+    {
+      "file": "scripts/score-v2.py",
+      "blob": "5387dc712acaeb403c10aaa42ad0bd40ce766a0a",
+      "bytes": 11545
+    },
+    {
+      "file": "scripts/serve.mjs",
+      "blob": "c870b842a71eee46064d1bd5c7540ab8348e5f8f",
+      "bytes": 870
+    },
+    {
+      "file": "scripts/validate-export.py",
+      "blob": "5c53e276f8f9953f5dfbe2ea40278eb339b49d45",
+      "bytes": 1456
+    },
+    {
+      "file": "src/act-02.js",
+      "blob": "289cd6f0dd5c8cd5ff2c997c17ffb79a262d2fd9",
+      "bytes": 6372
+    },
+    {
+      "file": "src/act-03.js",
+      "blob": "0f0d1e5bd6bcc10f9640055d63cf11538baea59e",
+      "bytes": 9274
+    },
+    {
+      "file": "src/bootstrap.js",
+      "blob": "cace13424aa0860e58b221df32763c4e60be46c3",
+      "bytes": 324
+    },
+    {
+      "file": "src/camera.js",
+      "blob": "97b56716ddb3160067a515cad6ce58a0dd326db2",
+      "bytes": 1851
+    },
+    {
+      "file": "src/cinematic.js",
+      "blob": "5311f820e9f6c00a1df04f0ad018c62c438662a9",
+      "bytes": 7612
+    },
+    {
+      "file": "src/collisions.js",
+      "blob": "05a4ba8a8caeab7ce93d0b29767342c4b2a23690",
+      "bytes": 1474
+    },
+    {
+      "file": "src/director.js",
+      "blob": "af0546b303b9d33b2e354322f9006e6d7d069778",
+      "bytes": 5229
+    },
+    {
+      "file": "src/effects.js",
+      "blob": "6a28ff1b8b117c84592fd0ed5587a0edb2e50369",
+      "bytes": 5007
+    },
+    {
+      "file": "src/legacy-renderer.js",
+      "blob": "0a218714a6a9c415b27687637a2a4bab519308fb",
+      "bytes": 2298
+    },
+    {
+      "file": "src/living-world.js",
+      "blob": "1c54853e3bcd45951e37c9a4e641f6db695a9d91",
+      "bytes": 14302
+    },
+    {
+      "file": "src/math.js",
+      "blob": "0ef9c43e5b102bea4f6be57327dd268a56d65740",
+      "bytes": 466
+    },
+    {
+      "file": "src/model.js",
+      "blob": "fa97c0c0ff4ab41c70f51ebdd80cd3799719e574",
+      "bytes": 199
+    },
+    {
+      "file": "src/performance.js",
+      "blob": "e84c049de78eb034e98b0a3148a7dc05cd6bba95",
+      "bytes": 5784
+    },
+    {
+      "file": "src/physics.js",
+      "blob": "8a5bfd18fe80aff3d359e9b2bc596c6da3031949",
+      "bytes": 5489
+    },
+    {
+      "file": "src/player.js",
+      "blob": "97e0722a8bd3955c870fb4582e6b4b9c47c722ca",
+      "bytes": 1426
+    },
+    {
+      "file": "src/render.js",
+      "blob": "88c1611355cbb27a1f6613fc80ab0a52bae8dd0b",
+      "bytes": 3017
+    },
+    {
+      "file": "src/rig-adapter.js",
+      "blob": "576398b971f20dc44789d7ac093edcd47a763a5b",
+      "bytes": 7515
+    },
+    {
+      "file": "src/shutter.js",
+      "blob": "c5225ef481d1e1859e26ffa0fa57619c36a969d3",
+      "bytes": 1269
+    },
+    {
+      "file": "src/takes.js",
+      "blob": "481cc293bea8ac629346325dae5defeb093b49ff",
+      "bytes": 2234
+    },
+    {
+      "file": "tests/direction.mjs",
+      "blob": "275f0ac842df1619d0e9702108ddd8e68091043a",
+      "bytes": 2324
+    },
+    {
+      "file": "tests/preservation.py",
+      "blob": "03f6b200c2a9c8feeeff6ca44ae88f5ef83ff09a",
+      "bytes": 2276
+    },
+    {
+      "file": "tests/run.mjs",
+      "blob": "2ccc32302681a8da6927f1cd2cdc2c842a76ec5c",
+      "bytes": 2747
+    },
+    {
+      "file": "tests/story.mjs",
+      "blob": "8d7f6279ff474dec2358cab8f7444043acfbc1c7",
+      "bytes": 4585
+    },
+    {
+      "file": "vendor/MOTION-LICENSE.md",
+      "blob": "81110442c72270dd317667cc52181522647401f2",
+      "bytes": 1100
+    },
+    {
+      "file": "vendor/motion.js",
+      "blob": "d0104815bc812e9f8c935df02ee70caf61b95e44",
+      "bytes": 144870
+    },
+    {
+      "file": "vendor/rig-controller.js",
+      "blob": "602810856a3f297225392606a23ccfe5a792104e",
+      "bytes": 2212
+    }
+  ]
+}

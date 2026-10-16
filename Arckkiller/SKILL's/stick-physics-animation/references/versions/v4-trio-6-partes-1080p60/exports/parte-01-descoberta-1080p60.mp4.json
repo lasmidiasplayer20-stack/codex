@@ -1,0 +1,53 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "duration": 25,
+  "start": 0,
+  "silent": false,
+  "inputFrames": 1500,
+  "metrics": {
+    "finite": true,
+    "sourceVideoPixelsUsed": 0,
+    "characters": 3,
+    "simulationHz": 120,
+    "native60fps": true,
+    "method": "Original fixed-bone FK; deterministic authored 120Hz tracks, procedural scenery and synchronized sound"
+  },
+  "stages": [
+    {
+      "start": 0,
+      "end": 25,
+      "mode": "directed"
+    },
+    {
+      "start": 25,
+      "end": 50,
+      "mode": "directed"
+    },
+    {
+      "start": 50,
+      "end": 75,
+      "mode": "directed"
+    },
+    {
+      "start": 75,
+      "end": 100,
+      "mode": "directed"
+    },
+    {
+      "start": 100,
+      "end": 125,
+      "mode": "directed"
+    },
+    {
+      "start": 125,
+      "end": 150,
+      "mode": "directed"
+    }
+  ],
+  "errors": [],
+  "nativeTimeSampling": true,
+  "simulationHz": 120,
+  "visualSource": "Canvas2D standard objects and an independently drawn FK rig driven by named 2D pose controls; no source images or source video in the renderer"
+}

@@ -1,0 +1,29 @@
+{
+  "source_temporal_samples": 44,
+  "decoded_film_samples": 28,
+  "source_sheet": "motion-review.jpg",
+  "decoded_sheet": "decoded-overview.jpg",
+  "reviewed_sequences": [
+    "takeoff and landing",
+    "cake launch and return",
+    "full-state rewind",
+    "tray handoff and placement",
+    "curtain lift"
+  ],
+  "scene_corrections": [
+    "unused workbench removed from walking route",
+    "plant removed from walking route",
+    "birthday table assigned to rear floor line",
+    "camera lag and bounded lens changes"
+  ],
+  "mathematical_checks": [
+    "fixed lengths",
+    "hand targets",
+    "floor stroke clearance",
+    "head separation",
+    "conservative cake/head clearance",
+    "rewind boundaries",
+    "framing"
+  ],
+  "human_listening": false
+}

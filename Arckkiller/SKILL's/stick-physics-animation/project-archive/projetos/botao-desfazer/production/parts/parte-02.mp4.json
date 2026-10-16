@@ -1,0 +1,25 @@
+{
+  "frames": 1800,
+  "start": 30,
+  "duration": 30,
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "chunks": 1800,
+  "renderSeconds": 31.3535,
+  "config": {
+    "codec": "avc1.64002a",
+    "width": 1920,
+    "height": 1080,
+    "bitrate": 3200000,
+    "framerate": 60,
+    "hardwareAcceleration": "prefer-software",
+    "latencyMode": "quality",
+    "avc": {
+      "format": "annexb"
+    }
+  },
+  "browserErrors": [],
+  "originalArtwork": true,
+  "preservedRig": true
+}

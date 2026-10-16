@@ -1,0 +1,47 @@
+{
+  "duration": 210,
+  "fps": 60,
+  "frames": 12600,
+  "samples": 37800,
+  "finite": true,
+  "maxBoneError": 2.877698079828406e-13,
+  "maxJointStep": 13.295066331057876,
+  "deterministic": true,
+  "rewinds": [
+    {
+      "start": 38,
+      "end": 40,
+      "back": 5,
+      "charge": 4
+    },
+    {
+      "start": 46,
+      "end": 48,
+      "back": 5,
+      "charge": 3
+    },
+    {
+      "start": 76,
+      "end": 78,
+      "back": 5,
+      "charge": 2
+    },
+    {
+      "start": 100,
+      "end": 102,
+      "back": 5,
+      "charge": 1
+    },
+    {
+      "start": 116,
+      "end": 118,
+      "back": 5,
+      "charge": 0
+    }
+  ],
+  "events": 68,
+  "footsteps": 85,
+  "originalStory": true,
+  "color": true,
+  "browserErrors": []
+}

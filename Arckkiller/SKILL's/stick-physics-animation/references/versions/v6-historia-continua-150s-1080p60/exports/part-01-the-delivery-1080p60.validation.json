@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "file": "part-01-the-delivery-1080p60.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 1500,
+  "duration": 25.0,
+  "format_duration": 25.0,
+  "audio": "AAC stereo 48kHz, original procedural score/SFX",
+  "full_decode": "passed",
+  "bytes": 3587765,
+  "sha256": "883692ddbb39a37363cc824216b29dab4ab32e84e9f596a1a2f9f6658791f6e5"
+}

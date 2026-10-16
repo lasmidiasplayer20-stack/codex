@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "duration": 150,
+  "width": 1920,
+  "height": 1080,
+  "chapters": 6,
+  "seekTests": 6,
+  "range": {
+    "status": 206,
+    "contentRange": "bytes 0-1023/25392879",
+    "bytes": 1024
+  }
+}

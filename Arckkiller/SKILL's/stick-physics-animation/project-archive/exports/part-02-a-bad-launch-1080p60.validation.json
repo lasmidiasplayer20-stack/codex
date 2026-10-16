@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "file": "part-02-a-bad-launch-1080p60.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 1500,
+  "duration": 25.0,
+  "format_duration": 25.0,
+  "audio": "AAC stereo 48kHz, original procedural score/SFX",
+  "full_decode": "passed",
+  "bytes": 4504227,
+  "sha256": "7d063e7ad30a547d44cc75462b510261e640bf29fe23764581eac0e7c3938d0a"
+}

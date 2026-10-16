@@ -1,0 +1,26 @@
+{
+  "finite": true,
+  "samples": 37800,
+  "maxBoneError": 2.5579538487363607e-13,
+  "maxJointStep": 27.117244025693015,
+  "maxStepAt": {
+    "t": 122.91666666666667,
+    "n": "amber",
+    "j": 4
+  },
+  "maxContactError": 0.014849592052754403,
+  "contactAt": {
+    "t": 55.68333333333333,
+    "n": "ink",
+    "kind": "cart"
+  },
+  "contacts": 18046,
+  "maxFootPenetration": 0,
+  "minHeadDistance": 48.34558538202259,
+  "minCakeHeadClearance": 10.90038937933475,
+  "concurrentMotionFraction": 0.20436507936507936,
+  "rewindBoundaryMax": 0.001263793392265132,
+  "sourcePhysics": "V3 advanceBody",
+  "simulationHz": 120,
+  "duration": 210
+}

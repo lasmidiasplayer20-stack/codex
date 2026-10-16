@@ -1,0 +1,13 @@
+FFmpeg EBU R128 — decoded AAC
+Integrated loudness:
+    I:         -17.1 LUFS
+    Threshold: -27.1 LUFS
+
+  Loudness range:
+    LRA:         2.7 LU
+    Threshold: -37.1 LUFS
+    LRA low:   -18.3 LUFS
+    LRA high:  -15.6 LUFS
+
+  True peak:
+    Peak:       -1.6 dBFS

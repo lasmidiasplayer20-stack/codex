@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "file": "comparacao-v1-v2-720p24.mp4",
+  "width": 1280,
+  "height": 720,
+  "fps": 24,
+  "frames": 720,
+  "duration": 30.0,
+  "format_duration": 30.0,
+  "audio": "AAC stereo 48kHz, original procedural score/SFX",
+  "full_decode": "passed",
+  "bytes": 1793384,
+  "sha256": "ef7b1e251f688119aa52aa3588da936b7ff70b3fd17efadb1c11b252f968d9ba"
+}

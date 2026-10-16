@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "file": "parte-06-juntos-na-passagem-1080p60.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 1500,
+  "duration": 25.0,
+  "format_duration": 25.0,
+  "audio": "AAC stereo 48kHz, original procedural score/SFX",
+  "full_decode": "passed",
+  "bytes": 4018269,
+  "sha256": "f2a8de92d30b9c789eace1d63ff9b2c62c0367239c53089e08238efee4993653"
+}

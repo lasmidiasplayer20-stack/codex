@@ -1,0 +1,6222 @@
+{
+  "seconds": 210,
+  "sample_rate": 48000,
+  "channels": 2,
+  "original_music": true,
+  "event_count": 455,
+  "footsteps": 787,
+  "generated_elevenlabs_assets": 28,
+  "events": [
+    {
+      "t": 6,
+      "type": "click",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 6.15,
+      "type": "machine",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 8.55,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 8.716666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 8.875,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 9.458333333333334,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 9.616666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 9.775,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 10.066666666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 10.383333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 12,
+      "type": "shutter",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 12.008333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 12.3,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 12.375,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 12.466666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 12.625,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 13.091666666666667,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 13.208333333333334,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 13.366666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 13.525,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 13.816666666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 14.133333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 14.566666666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 16.05,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 16.216666666666665,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 16.333333333333332,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 16.375,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 16.95,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 17.116666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 17.275,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 17.558333333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 17.725,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 18.15,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 18.525,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 19.308333333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 19.8,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 19.825,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 19.966666666666665,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 20.125,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 20.7,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 20.866666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 21.025,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 21.308333333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 21.475,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 23.55,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 23.716666666666665,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 23.875,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 24.45,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 24.616666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 24.775,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 24.95,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 25.225,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 26.016666666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 26.7,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 27.05,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 27.3,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 27.466666666666665,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 27.625,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 27.766666666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 28.2,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 28.366666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 28.525,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 28.541666666666668,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 28.808333333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 28.975,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 29.933333333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 30.808333333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 31.05,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 31.216666666666665,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 31.375,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 31.616666666666667,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 31.95,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 32.11666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 32.275,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 32.55833333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 32.725,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 34,
+      "type": "electric",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 34.19166666666667,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 34.8,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 34.96666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 35.125,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 35.7,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 35.86666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 36.025,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 36.03333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 36.225,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 36.475,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 37.825,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 38.28333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 38.55,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 38.71666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 38.875,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 39.45,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 39.61666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 39.775,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 40.05833333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 40.225,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 40.875,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 42.3,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 42.46666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 42.6,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 42.625,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 43.2,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 43.36666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 43.43333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 43.525,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 43.80833333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 44.13333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 44.458333333333336,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 44.65833333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 44.86666666666667,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 45.55833333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 46.05,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 46.21666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 46.375,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 46.95,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 47.11666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 47.275,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 47.55833333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 47.725,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 49.8,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 49.96666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 50.125,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 50.7,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 50.86666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 51.025,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 51.30833333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 51.475,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 51.85,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 52.891666666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 53.38333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 53.55,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 53.71666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 53.875,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 54.45,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 54.61666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 54.69166666666667,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 54.775,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 55.05833333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 55.225,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 56.65,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 57.3,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 57.46666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 57.625,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 58.2,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 58.31666666666667,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 58.36666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 58.525,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 58.666666666666664,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 58.975,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 59.38333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 59.775,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 61.05,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 61.21666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 61.375,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 61.38333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 61.725,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 61.95,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 62,
+      "type": "spring",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 62.11666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 62.275,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 62.43333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 62.725,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 63.68333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 64.8,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 64.96666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 65.125,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 65.7,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 65.86666666666666,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 66.025,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 66.30833333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 66.475,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 66.9,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 68.55,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 68.71666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 68.74166666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 68.875,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 69.45,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 69.61666666666666,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 69.775,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 69.86666666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 70.05833333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 70.375,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 70.58333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 71.45,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 72.3,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 72.46666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 72.625,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 73.2,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 73.36666666666666,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 73.525,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 73.80833333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 73.975,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 76.05,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 76.21666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 76.375,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 76.95,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 77.09166666666667,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 77.11666666666666,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 77.275,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 77.475,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 77.725,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 78.19166666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 78.83333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 79.025,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 79.8,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 79.96666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 80.125,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 80.7,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 80.79166666666667,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 80.86666666666666,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 81.025,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 81.30833333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 81.475,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 82.53333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 83.55,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 83.71666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 83.875,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 84.45,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 84.59166666666667,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 84.61666666666666,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 84.775,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 85.05833333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 85.225,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 86.60833333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 87.3,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 87.46666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 87.625,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 88.2,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 88.36666666666666,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 88.525,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 88.80833333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 88.975,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 89.34166666666667,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 89.66666666666667,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 91.05,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 91.21666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 91.375,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 91.95,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 92.11666666666666,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 92.225,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 92.275,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 92.55833333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 92.725,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 94,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 94.8,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 94.96666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 95.125,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 95.4,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 95.7,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 95.86666666666666,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 96.025,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 96.2,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 96.54166666666667,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 96.78333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 97.40833333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 97.69166666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 98.40833333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 98.55,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 98.71666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 98.74166666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 98.875,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 99.45,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 99.61666666666666,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 99.775,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 99.80833333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 100.05833333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 100.225,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 102.3,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 102.46666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 102.625,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 103.2,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 103.36666666666666,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 103.525,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 103.80833333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 103.975,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 104.4,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 105.525,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 106.03333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 106.05,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 106.21666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 106.375,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 106.95,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 107.11666666666666,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 107.275,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 107.34166666666667,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 107.55833333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 107.725,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 109.19166666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 109.8,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 109.96666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 110.125,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 110.7,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 110.86666666666666,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 111.025,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 111.15,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 111.475,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 112.23333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 112.75833333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 113.11666666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 113.55,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 113.71666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 113.83333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 113.875,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 114.45,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 114.61666666666666,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 114.775,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 115.05833333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 115.225,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 116.05833333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 117.3,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 117.46666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 117.625,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 117.78333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 118.2,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 118.36666666666666,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 118.525,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 118.725,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 118.975,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 119.23333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 120.85,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 121.05,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 121.21666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 121.375,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 121.76666666666667,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 121.95,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 122.11666666666666,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 122.275,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 122.28333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 122.55833333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 122.725,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 123.525,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 124,
+      "type": "rope",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 124.225,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 124.74166666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 124.8,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 124.96666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 125.125,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 125.7,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 125.86666666666666,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 126.025,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 126.30833333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 126.475,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 128.55,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 128.71666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 128.875,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 129.45833333333334,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 129.61666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 129.775,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 129.79166666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 130.06666666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 130.38333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 130.88333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 131.475,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 131.825,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 132.3,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 132.46666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 132.53333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 132.625,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 133.20833333333334,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 133.36666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 133.38333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 133.525,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 133.81666666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 134.13333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 135.24166666666667,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 136.05,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 136.21666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 136.375,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 136.95833333333334,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 137.11666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 137.275,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 137.28333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 137.45833333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 137.725,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 139.05833333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 139.8,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 139.96666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 140.125,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 140.70833333333334,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 140.86666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 141.025,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 141.31666666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 141.63333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 142.125,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 143.55,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 143.71666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 143.85,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 143.875,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 144.45833333333334,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 144.61666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 144.73333333333332,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 144.775,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 145.06666666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 145.25,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 145.64166666666668,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 146.025,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 146.40833333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 146.775,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 147.3,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 147.46666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 147.625,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 147.63333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 147.98333333333332,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 148.20833333333334,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 148.36666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 148.525,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 148.81666666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 149.13333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 149.33333333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 149.93333333333334,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 150,
+      "type": "chime",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 151.05,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 151.21666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 151.375,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 151.95833333333334,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 152.11666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 152.275,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 152.56666666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 152.88333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 154.05,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 154.21666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 154.375,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 154.95833333333334,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 155.11666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 155.275,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 155.55,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 155.725,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 156.05,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 157.05,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 157.21666666666667,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 157.375,
+      "type": "printer",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 157.375,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 157.95833333333334,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 158.11666666666667,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 158.275,
+      "type": "whoosh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 158.56666666666666,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 158.88333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 159.99166666666667,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 161.575,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 161.925,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 162.63333333333333,
+      "type": "parcel",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 168,
+      "type": "break",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 173,
+      "type": "deadclick",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 183,
+      "type": "clatter",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 183,
+      "type": "clatter",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 183.94166666666666,
+      "type": "crash",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 184.85,
+      "type": "crash",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 185.25,
+      "type": "crash",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 190.125,
+      "type": "crash",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 197,
+      "type": "catch",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 200,
+      "type": "celebrate",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 202.56666666666666,
+      "type": "crash",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 207,
+      "type": "click",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 208,
+      "type": "laugh",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 1.5083333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 2.5416666666666665,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 3.4,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 4.141666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 4.775,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 5.35,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 5.9,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 6.45,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 7.016666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 7.616666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 8.166666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 8.675,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 9.183333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 9.741666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 10.466666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 12.525,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 13.15,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 13.691666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 14.233333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 14.825,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 15.525,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 16.241666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 16.95,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 17.658333333333335,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 18.975,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 19.566666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 20.1,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 20.65,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 21.283333333333335,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 23.541666666666668,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 24.066666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 24.533333333333335,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 24.991666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 25.508333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 30.858333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 31.475,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 32.025,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 32.55,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 33.075,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 33.641666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 34.21666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 34.725,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 35.208333333333336,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 35.71666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 36.3,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 38.69166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 39.275,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 39.766666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 40.24166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 40.725,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 41.25833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 41.833333333333336,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 42.38333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 42.925,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 43.46666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 44.00833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 44.575,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 45.166666666666664,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 45.708333333333336,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 46.208333333333336,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 46.71666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 47.28333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 48.05,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 50.025,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 50.63333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 51.166666666666664,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 51.68333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 52.233333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 52.84166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 53.4,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 53.916666666666664,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 54.44166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 55.00833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 55.666666666666664,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 60.825,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 61.38333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 61.9,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 62.44166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 63.19166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 64.98333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 65.58333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 66.10833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 66.60833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 67.13333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 67.73333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 68.325,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 68.90833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 69.475,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 70.05,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 70.63333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 71.25833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 71.85,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 72.38333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 72.925,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 73.525,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 74.36666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 76.125,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 76.7,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 77.18333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 77.65,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 78.125,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 78.65,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 79.24166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 79.81666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 80.39166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 80.975,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 81.875,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 82.49166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 83.1,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 83.69166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 84.29166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 84.94166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 85.73333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 90.84166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 91.45,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 91.98333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 92.49166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 93,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 93.54166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 94.13333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 94.725,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 95.325,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 95.925,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 96.53333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 97.15833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 97.78333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 98.325,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 98.85,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 99.375,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 99.99166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 102.46666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 103.05833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 103.575,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 104.05833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 104.55833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 105.11666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 105.675,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 106.21666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 106.74166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 107.26666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 107.79166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 108.85,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 109.38333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 109.86666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 110.35833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 110.88333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 111.53333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 113.56666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 114.08333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 114.55,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 115,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 115.50833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 120.8,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 121.36666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 121.875,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 122.35,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 122.83333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 123.34166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 123.91666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 124.45,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 124.95,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 125.45833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 128.65,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 129.20833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 129.7,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 130.15833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 130.63333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 131.15,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 131.74166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 132.325,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 132.90833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 133.49166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 134.075,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 134.675,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 135.275,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 135.79166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 136.275,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 136.775,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 137.31666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 138.05833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 139.875,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 140.425,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 140.9,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 141.35,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 141.80833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 142.3,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 142.86666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 143.39166666666668,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 143.9,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 144.40833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 144.95833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 145.60833333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 150.6,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 151.00833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 151.375,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 151.75,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 152.16666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 153.98333333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 154.45,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 154.86666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 155.26666666666668,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 155.69166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 156.2,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 156.7,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 157.19166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 157.7,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 158.25,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 158.93333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 160.225,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 171.76666666666668,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 172.31666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 172.8,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 173.26666666666668,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 173.73333333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 174.23333333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 174.71666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 175.19166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 175.65833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 176.125,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 176.58333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 177.05,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 177.5,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 177.94166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 178.38333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 178.825,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 179.28333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 179.775,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 180.28333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 180.75833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 181.23333333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 181.75,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 182.45,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 184.04166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 184.60833333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 185.20833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 186.90833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 187.4,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 187.875,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 188.46666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 189.89166666666668,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 190.35,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 190.78333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 191.28333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 192.95833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 193.46666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 193.95833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 194.63333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 195.96666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 196.46666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 196.95,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 197.55833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 199.29166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 200.11666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 202.29166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 203.11666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 205.34166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 206.19166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 209.08333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 1.0333333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 1.7666666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 2.4166666666666665,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 3.05,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 3.691666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 4.291666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 4.791666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 5.258333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 5.75,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 6.3,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 7.2,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 8.741666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 9.341666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 9.858333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 10.358333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 10.883333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 11.491666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 12.091666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 12.683333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 13.266666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 13.858333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 14.475,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 15.133333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 15.733333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 16.308333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 16.908333333333335,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 17.625,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 19.883333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 20.466666666666665,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 20.975,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 21.458333333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 21.95,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 22.508333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 23.083333333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 23.608333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 24.133333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 24.675,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 25.275,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 26.058333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 30.808333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 31.35,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 31.841666666666665,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 32.36666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 33.025,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 34.916666666666664,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 35.5,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 36,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 36.475,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 36.958333333333336,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 37.50833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 38.1,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 38.68333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 39.25,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 39.825,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 40.416666666666664,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 41.025,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 41.641666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 42.19166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 42.725,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 43.291666666666664,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 46.125,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 46.69166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 47.18333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 47.65,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 48.125,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 48.65,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 49.25,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 49.85,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 50.44166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 51.041666666666664,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 51.65,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 52.275,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 52.9,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 53.5,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 54.09166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 54.71666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 55.43333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 60.916666666666664,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 61.56666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 62.15,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 62.708333333333336,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 63.266666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 63.86666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 64.48333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 65.08333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 65.68333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 66.28333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 66.88333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 67.5,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 68.06666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 68.55833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 69.05,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 69.55833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 70.175,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 72.475,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 73.05833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 73.56666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 74.05,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 74.55,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 75.11666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 75.70833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 76.275,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 76.83333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 77.39166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 77.95833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 78.54166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 79.11666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 79.625,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 80.10833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 80.60833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 81.175,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 82.025,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 83.49166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 83.98333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 84.41666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 84.84166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 85.28333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 85.81666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 90.85833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 91.46666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 92.00833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 92.53333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 93.05833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 93.64166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 94.24166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 94.76666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 95.28333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 95.83333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 96.51666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 98.63333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 99.2,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 99.68333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 100.15,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 100.625,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 101.15,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 101.75,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 102.35,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 102.94166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 103.54166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 104.15,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 104.775,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 105.39166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 105.925,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 106.44166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 106.98333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 107.625,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 109.95,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 110.53333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 111.04166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 111.53333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 112.04166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 112.61666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 113.19166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 113.71666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 114.24166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 114.78333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 115.4,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 120.78333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 121.31666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 121.8,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 122.29166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 122.9,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 124.89166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 125.45833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 125.94166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 126.4,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 126.875,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 127.4,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 128,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 128.59166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 129.18333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 129.78333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 130.39166666666668,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 131.025,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 131.65,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 132.2,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 132.73333333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 133.3,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 136.125,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 136.69166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 137.18333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 137.65,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 138.125,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 138.65,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 139.25,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 139.84166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 140.43333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 141.03333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 141.64166666666668,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 142.26666666666668,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 142.90833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 143.525,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 144.13333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 144.79166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 145.56666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 150.75,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 151.28333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 151.75,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 152.20833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 152.68333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 153.2,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 153.725,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 154.25833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 154.79166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 155.31666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 155.85833333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 156.38333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 156.86666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 157.35,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 157.85833333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 158.44166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 159.53333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 171.775,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 172.33333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 172.825,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 173.30833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 173.80833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 174.325,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 174.76666666666668,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 175.175,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 175.60833333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 176.11666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 178.00833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 178.49166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 178.91666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 179.33333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 179.775,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 180.275,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 180.70833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 181.10833333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 181.525,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 181.98333333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 182.74166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 183.99166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 184.46666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 184.88333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 185.28333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 185.7,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 186.18333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 186.60833333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 186.98333333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 187.36666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 187.76666666666668,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 188.275,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 189.94166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 190.4,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 190.78333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 191.16666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 191.55,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 192.00833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 192.46666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 192.875,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 193.28333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 193.71666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 194.25,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 195.84166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 196.26666666666668,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 196.64166666666668,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 197.03333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 197.525,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 199.01666666666668,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 199.55,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 200.08333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 202.24166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 202.99166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 205.29166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 206.075,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 209.08333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 2.775,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 7.758333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 8.183333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 8.533333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 8.85,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 9.15,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 9.458333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 9.775,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 10.116666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 10.533333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 11.25,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 12.516666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 13.125,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 13.658333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 14.175,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 14.725,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 15.341666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 15.858333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 16.341666666666665,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 16.825,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 17.35,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 18.041666666666668,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 20.05,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 20.683333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 21.225,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 21.766666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 22.333333333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 22.95,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 23.5,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 24.025,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 24.55,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 25.116666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 25.816666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 30.933333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 31.6,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 32.2,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 32.766666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 33.358333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 33.975,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 34.516666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 35.00833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 35.5,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 36.03333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 36.725,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 38.71666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 39.3,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 39.8,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 40.291666666666664,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 40.791666666666664,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 41.36666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 41.9,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 42.375,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 42.833333333333336,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 43.31666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 43.875,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 46.21666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 46.8,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 47.3,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 47.791666666666664,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 48.291666666666664,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 48.86666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 49.4,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 49.875,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 50.333333333333336,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 50.81666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 51.375,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 53.59166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 54.125,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 54.59166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 55.06666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 55.6,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 60.733333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 61.233333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 61.675,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 62.125,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 62.625,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 63.35,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 64.975,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 65.55833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 66.05833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 66.54166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 67.05,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 67.61666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 68.14166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 68.60833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 69.05833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 69.525,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 70.05833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 70.85833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 72.525,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 73.13333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 73.66666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 74.18333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 74.73333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 75.33333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 75.83333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 76.3,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 76.76666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 77.26666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 77.88333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 79.95833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 80.54166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 81.04166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 81.525,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 82.03333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 82.625,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 83.21666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 83.775,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 84.33333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 84.925,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 85.63333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 90.96666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 91.66666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 92.275,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 92.86666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 93.46666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 94.075,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 94.58333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 95.05,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 95.51666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 96.025,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 98.775,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 99.38333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 99.91666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 100.43333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 100.98333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 101.58333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 102.08333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 102.55,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 103.01666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 103.51666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 104.13333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 106.21666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 106.79166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 107.3,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 107.78333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 108.29166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 108.875,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 109.40833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 109.89166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 110.36666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 110.86666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 111.46666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 113.59166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 114.125,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 114.59166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 115.06666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 115.6,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 120.775,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 121.29166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 121.76666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 122.25,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 122.80833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 125.05,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 125.675,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 126.225,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 126.75833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 127.33333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 127.94166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 128.45,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 128.91666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 129.4,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 129.93333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 130.69166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 132.45833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 133.03333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 133.53333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 134.01666666666668,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 134.525,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 135.125,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 135.68333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 136.19166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 136.7,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 137.25,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 137.95833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 139.95,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 140.53333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 141.03333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 142.74166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 143.325,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 143.88333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 144.44166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 145.05,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 145.8,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 150.75,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 151.28333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 151.75833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 152.21666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 152.68333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 153.18333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 153.625,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 154.025,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 154.425,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 154.86666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 155.44166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 157.05,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 157.575,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 158.06666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 158.61666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 159.45,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 160.7,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 171.66666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 172.125,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 172.54166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 172.99166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 173.63333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 174.95833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 175.44166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 175.85833333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 176.25833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 176.69166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 177.19166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 177.64166666666668,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 178.05833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 178.48333333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 178.95833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 179.725,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 181.01666666666668,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 181.50833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 181.93333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 182.35,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 182.78333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 183.26666666666668,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 183.675,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 184.04166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 184.41666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 184.81666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 185.31666666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 186.99166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 187.46666666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 187.88333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 188.28333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 188.7,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 189.18333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 189.60833333333332,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 189.99166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 190.375,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 190.78333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 191.3,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 193.01666666666668,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 193.5,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 193.925,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 194.34166666666667,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 194.78333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 195.275,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 195.69166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 196.08333333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 196.475,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 196.90833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 197.475,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 198.95,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 199.44166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 199.90833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 200.5,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 202.025,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 202.575,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 203.13333333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 205.15,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 205.79166666666666,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 206.55833333333334,
+      "type": "step",
+      "provider": "ElevenLabs"
+    },
+    {
+      "t": 208.65833333333333,
+      "type": "step",
+      "provider": "ElevenLabs"
+    }
+  ],
+  "no_human_listening_claimed": true
+}

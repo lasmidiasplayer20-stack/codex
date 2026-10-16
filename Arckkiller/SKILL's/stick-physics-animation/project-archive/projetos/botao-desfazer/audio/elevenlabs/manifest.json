@@ -1,0 +1,170 @@
+[
+  {
+    "file": "rewind.mp3",
+    "prompt": "A playful cinematic time rewind: a tiny mechanical button click followed by a rising reversed tape swoosh, little clock gears rushing backwards, ending with a crisp magical pop. No music, no speech.",
+    "requested_seconds": 2.0,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "spring.mp3",
+    "prompt": "Single cartoon spring catapult launch, a short wooden clack and elastic resonant boing, bright whimsical family animation sound design. Isolated sound effect, no music, no speech.",
+    "requested_seconds": 1.5,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "catch.mp3",
+    "prompt": "Gentle hands catching a cake on a metal tray, soft cloth contact and a tiny ceramic rattle. Whimsical detailed Foley. Isolated, no music or speech.",
+    "requested_seconds": 1.0,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "clatter.mp3",
+    "prompt": "Brief funny clatter of lightweight baking utensils and a rolling metal tray, harmless kitchen slapstick. Isolated sound, no music or speech.",
+    "requested_seconds": 2.0,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "whoosh.mp3",
+    "prompt": "One quick airy cartoon swish as a character leaps through the air, soft and detailed, short clean tail. Isolated, no music, no speech.",
+    "requested_seconds": 1.0,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "break.mp3",
+    "prompt": "A tiny futuristic remote control runs out of power: electrical sputter, three descending digital blips, one little spring snapping and a sad final click. No music or voice.",
+    "requested_seconds": 2.0,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "splat.mp3",
+    "prompt": "Small comical whipped cream splat followed by a soft wet plop. Friendly light cartoon Foley, not gross. No music, no speech.",
+    "requested_seconds": 1.0,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "rope.mp3",
+    "prompt": "Hands pulling a coarse rope through a small wooden pulley, subtle creaks and tension, cartoon adventure Foley. No music, no speech.",
+    "requested_seconds": 2.0,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "celebrate.mp3",
+    "prompt": "One party popper bursting with a crisp pop followed by light paper confetti fluttering down. Cheerful isolated Foley, no crowd, no speech, no music.",
+    "requested_seconds": 2.0,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "bounce.mp3",
+    "prompt": "One soft elastic trampoline bounce, fabric stretch, spring squeak and a short rubbery boing. Whimsical detailed Foley, no music or voice.",
+    "requested_seconds": 1.3,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "step.mp3",
+    "prompt": "One single light rubber shoe footstep on a wooden bakery floor, crisp friendly cartoon Foley, isolated. No voice or music.",
+    "requested_seconds": 1.0,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "click.mp3",
+    "prompt": "One tiny tactile plastic remote button click with a short clean electronic confirmation tick. Isolated, no music, no voice.",
+    "requested_seconds": 1.0,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "tap.mp3",
+    "prompt": "One gentle metal cake tray being set on a wooden table, soft contact with a brief bright rattle. Isolated Foley, no voice or music.",
+    "requested_seconds": 1.0,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "land.mp3",
+    "prompt": "One cartoon character landing on a wooden floor, soft low thump and shoe scuff, harmless and light, no music, no voice.",
+    "requested_seconds": 1.0,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "crash.mp3",
+    "prompt": "Short harmless cartoon kitchen collision: metal tray wobble, light wooden knock and a little rattling tail. No breaking glass, no voice or music.",
+    "requested_seconds": 1.5,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "electric.mp3",
+    "prompt": "A short magical clockwork device sputter, playful bright electric crackles and rising zaps, whimsical family animation, no music or voice.",
+    "requested_seconds": 1.5,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "deadclick.mp3",
+    "prompt": "Two tiny plastic button clicks on an unpowered remote control. Dry intimate Foley, no confirmation beep, no voice or music.",
+    "requested_seconds": 1.0,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "roll.mp3",
+    "prompt": "Small trolley wheels rolling briskly over wood with a little friendly mechanical rattle. Short isolated Foley, no music or voice.",
+    "requested_seconds": 2.0,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "motor.mp3",
+    "prompt": "A small old kitchen fan motor starts with a switch and spins up, gentle mechanical whirr, no music, no voice.",
+    "requested_seconds": 2.0,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "cloth.mp3",
+    "prompt": "A fabric curtain being whisked upwards, a soft airy cloth swish with one small pulley click. Isolated, no music or voice.",
+    "requested_seconds": 1.5,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "clap.mp3",
+    "prompt": "Two cheerful light hand claps, one person, clean close Foley without a crowd or room noise, no voice or music.",
+    "requested_seconds": 1.0,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "chime.mp3",
+    "prompt": "One delicate magical success chime, three soft ascending bell tones, short and warm rather than piercing, isolated sound effect, no background music or voice.",
+    "requested_seconds": 1.5,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "boing.mp3",
+    "prompt": "One funny soft rubber wobble and a short descending boing, playful harmless cartoon reaction, no voice or music.",
+    "requested_seconds": 1.0,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "laugh.mp3",
+    "prompt": "A brief happy cartoon rubber squeak and a playful bubbling pop, a light nonverbal comic reaction sound, no human voice, no speech or music.",
+    "requested_seconds": 1.0,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  }
+]

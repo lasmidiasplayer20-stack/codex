@@ -1,0 +1,179 @@
+{
+  "passed": true,
+  "duration": 125,
+  "takes": [
+    {
+      "id": 1,
+      "start": 0,
+      "end": 5
+    },
+    {
+      "id": 2,
+      "start": 5,
+      "end": 10
+    },
+    {
+      "id": 3,
+      "start": 10,
+      "end": 15
+    },
+    {
+      "id": 4,
+      "start": 15,
+      "end": 20
+    },
+    {
+      "id": 5,
+      "start": 20,
+      "end": 25
+    },
+    {
+      "id": 6,
+      "start": 25,
+      "end": 30
+    },
+    {
+      "id": 7,
+      "start": 30,
+      "end": 35
+    },
+    {
+      "id": 8,
+      "start": 35,
+      "end": 40
+    },
+    {
+      "id": 9,
+      "start": 40,
+      "end": 45
+    },
+    {
+      "id": 10,
+      "start": 45,
+      "end": 50
+    },
+    {
+      "id": 11,
+      "start": 50,
+      "end": 55
+    },
+    {
+      "id": 12,
+      "start": 55,
+      "end": 60
+    },
+    {
+      "id": 13,
+      "start": 60,
+      "end": 65
+    },
+    {
+      "id": 14,
+      "start": 65,
+      "end": 70
+    },
+    {
+      "id": 15,
+      "start": 70,
+      "end": 75
+    },
+    {
+      "id": 16,
+      "start": 75,
+      "end": 80
+    },
+    {
+      "id": 17,
+      "start": 80,
+      "end": 85
+    },
+    {
+      "id": 18,
+      "start": 85,
+      "end": 90
+    },
+    {
+      "id": 19,
+      "start": 90,
+      "end": 95
+    },
+    {
+      "id": 20,
+      "start": 95,
+      "end": 100
+    },
+    {
+      "id": 21,
+      "start": 100,
+      "end": 105
+    },
+    {
+      "id": 22,
+      "start": 105,
+      "end": 110
+    },
+    {
+      "id": 23,
+      "start": 110,
+      "end": 115
+    },
+    {
+      "id": 24,
+      "start": 115,
+      "end": 120
+    },
+    {
+      "id": 25,
+      "start": 120,
+      "end": 125
+    }
+  ],
+  "finiteBodies": true,
+  "positiveCubeMass": true,
+  "heavyCubeMotion": 0,
+  "heavyAttempts": 2,
+  "superelasticLaunches": [
+    480,
+    690,
+    1100
+  ],
+  "cameraDoesNotRotateGravity": true,
+  "coordinateChangeStep": 0,
+  "jumpChangesSides": true,
+  "chaosWaves": [
+    "inverted-gravity",
+    "leftward-impulse",
+    "superelastic-floor"
+  ],
+  "chaosFloorBounce": true,
+  "tetherContact": 522,
+  "releaseAndKick": [
+    {
+      "t": 90,
+      "type": "inertia-release"
+    },
+    {
+      "t": 91.31666666666666,
+      "type": "double-kick-contact"
+    },
+    {
+      "t": 91.40833333333333,
+      "type": "double-kick"
+    }
+  ],
+  "slowMotionPositionError": 4.568210020964422e-13,
+  "particleDeflected": true,
+  "ricochetTime": 105.98333333333333,
+  "launchImpulseReversed": true,
+  "decisiveCollisionTime": 110.51666666666667,
+  "centerlineError": 1.6096177868219858e-11,
+  "normalReset": true,
+  "testJump": true,
+  "lastWalkSteps": 3,
+  "appleHitTime": 123.51666666666667,
+  "blackCut": true,
+  "maxBodyStepExcludingExplicitCut": 20.993242391487183,
+  "maxCameraStepExcludingExplicitCut": 21.82948224823583,
+  "maxCameraTurnPerStep": 0.0065449173597449395,
+  "jumps": []
+}

@@ -1,0 +1,29 @@
+{
+  "duration": 78,
+  "frames": 4680,
+  "characters": 3,
+  "chapters": 6,
+  "finite": true,
+  "maxBoneError": 2.3447910280083306e-13,
+  "maxContactError": 1.6077746776921858e-13,
+  "contacts": 630,
+  "maxFootY": 810.5215524654552,
+  "maxRootStep": 16.587801021275883,
+  "maxAngleStep": 54.790714296239436,
+  "worst": {
+    "angle": {
+      "name": "cyan",
+      "t": 53.05,
+      "j": 5,
+      "delta": 54.790714296239436
+    }
+  },
+  "meanJointSpeed": 114.53541381295251,
+  "activeFraction": 0.911965811965812,
+  "longestQuietSeconds": 0.8333333333333343,
+  "rootTravel": 19657.53850328589,
+  "gagEvents": 36,
+  "totalEvents": 374,
+  "baseActionSeconds": 51.599999999999994,
+  "newGagSeconds": 26.400000000000002
+}

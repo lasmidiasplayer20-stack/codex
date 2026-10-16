@@ -1,0 +1,30 @@
+[
+  {
+    "file": "machine.mp3",
+    "prompt": "A playful automated gift factory starting up: conveyor motor whirr, clockwork gears engaging and light rubber rollers spinning. Detailed cartoon industrial Foley, no speech, no music.",
+    "requested_seconds": 3.0,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "parcel.mp3",
+    "prompt": "One small wrapped cardboard gift box tumbling onto a rubber conveyor: papery rustle, soft hollow cardboard knock and a ribbon flutter. Clean isolated Foley, no voice, no music.",
+    "requested_seconds": 1.0,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "shutter.mp3",
+    "prompt": "A small industrial safety shutter sliding shut with a quick metal rattle and a firm mechanical latch. Friendly animation Foley, no voice or music.",
+    "requested_seconds": 1.4,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  },
+  {
+    "file": "printer.mp3",
+    "prompt": "A whimsical pneumatic gift wrapping machine releases one parcel: short air hiss, rapid paper fold and a soft bright pop. Isolated cartoon Foley, no voice or music.",
+    "requested_seconds": 1.0,
+    "provider": "ElevenLabs",
+    "model": "eleven_text_to_sound_v2"
+  }
+]

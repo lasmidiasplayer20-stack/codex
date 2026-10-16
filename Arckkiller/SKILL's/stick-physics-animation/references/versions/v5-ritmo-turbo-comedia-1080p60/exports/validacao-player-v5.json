@@ -1,0 +1,21 @@
+{
+  "passed": true,
+  "duration": 78,
+  "width": 1920,
+  "height": 1080,
+  "chapters": 6,
+  "visibleLabels": [
+    "1. Don't touch that!",
+    "2. Wrong way up",
+    "3. No brakes!",
+    "4. Zero gravity, big sneeze",
+    "5. Multiball trouble",
+    "6. Perfectly normal."
+  ],
+  "seekTests": 6,
+  "range": {
+    "status": 206,
+    "contentRange": "bytes 0-1023/16900055",
+    "bytes": 1024
+  }
+}

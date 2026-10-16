@@ -1,0 +1,494 @@
+{
+  "README.md": {
+    "bytes": 2544,
+    "sha256": "ecccaf867b24c30eb54572529025303c19374af53c552aba3c79b04e629b8cbd"
+  },
+  "package-lock.json": {
+    "bytes": 1755,
+    "sha256": "27fb3fb0f4aad5d02bf1efe00267132551db1fce3133250fced7a9b56392a900"
+  },
+  "package.json": {
+    "bytes": 327,
+    "sha256": "9c7e7e84e131b400c7a0ff0bbdcb4bbfb4e2385a653eecfc72381570b626cea5"
+  },
+  "render.mjs": {
+    "bytes": 4451,
+    "sha256": "cf134cbf97b469d2e9853cda56f1d664e803c4b5ea9e8ef28bb5d9d26c4c9798"
+  },
+  "requirements.txt": {
+    "bytes": 61,
+    "sha256": "baf914a3ddcc55e777dd6ba101e90b51741fddf800980688a05a0e14e056c3bf"
+  },
+  ".gitignore": {
+    "bytes": 19,
+    "sha256": "8f6ba6f1a2d1387dab26aff3f45325c6ceb7e1d1777612ef8c08f233d6f41e97"
+  },
+  "RELATORIO.md": {
+    "bytes": 1821,
+    "sha256": "f346661c328ceabe0fafb7aa80b397594a4cab816b82163a3fa635b287bb61e9"
+  },
+  "index.html": {
+    "bytes": 1242,
+    "sha256": "6e8a77e61b0883d257b5c50caa922fe2f9d6c84348ae3983a092ab93589cb63a"
+  },
+  "preserved/previous-system-sha256.json": {
+    "bytes": 3547,
+    "sha256": "a27de4c6daaa7d765ec1cc15a34be67d5e173972ecb9f4e45bf6d217ba0d7c25"
+  },
+  "preserved/compatibility-baseline.json": {
+    "bytes": 3547,
+    "sha256": "301d201b9c8aa2f558fef7c043eaa87a6e6da34830839a3a098500d17cc92dd7"
+  },
+  "src/takes.js": {
+    "bytes": 2234,
+    "sha256": "17e5b6e868c32ef23fe59b1390173dccf3b3984b59e58bc8b85e38a8724fa562"
+  },
+  "src/model.js": {
+    "bytes": 199,
+    "sha256": "a5f4fad71374fdaa6e403467aa6537aad0d38e8fd1dd9a3011dc27bb2d216501"
+  },
+  "src/camera.js": {
+    "bytes": 383,
+    "sha256": "bd3b6988a1a0d337b32d873b20f2337e0229177ea2f83bb35285c873d60338ae"
+  },
+  "src/bootstrap.js": {
+    "bytes": 324,
+    "sha256": "6eb960964bad79f5a0a7c629bc66078a6286fc3184ef49617c67102978f0f2ee"
+  },
+  "src/render.js": {
+    "bytes": 1838,
+    "sha256": "a58a23976f50c0eb0d535a9981579b2b460b51b1f043a414d76f2a99827b5cc2"
+  },
+  "src/math.js": {
+    "bytes": 466,
+    "sha256": "e2c6bd18868dd1f4a011df1c2f8a421f19cc40854a2e1488cced1e8dbe4c609f"
+  },
+  "src/rig-adapter.js": {
+    "bytes": 6215,
+    "sha256": "5c08de122077ca42cc26b744dd389ae6e4451f06da65ab9e41ff51ea7fa6bc73"
+  },
+  "src/physics.js": {
+    "bytes": 4945,
+    "sha256": "16036a461e517518726f00d8263bb61095a0ab9c75921e46a2af11c43b529808"
+  },
+  "src/legacy-renderer.js": {
+    "bytes": 2298,
+    "sha256": "50ca1a691c32da960486f14eec04ab7e34f07e03622fc4764239084643cf091f"
+  },
+  "src/director.js": {
+    "bytes": 4619,
+    "sha256": "f87ab85478cd07e3b68a599b806089013718fca686a0d9e6e0e51fbc4df9b65e"
+  },
+  "src/player.js": {
+    "bytes": 1404,
+    "sha256": "e33261193bd066abf4b0eb493f81e967380a9c358964fca43f1fc0151e97c33b"
+  },
+  "vendor/MOTION-LICENSE.md": {
+    "bytes": 1100,
+    "sha256": "1bf0dc3f7727723e5a032ed12164a47cf92c05204cb1a3485f123c24e2833ed1"
+  },
+  "vendor/motion.js": {
+    "bytes": 144870,
+    "sha256": "1efa29adbb0d9a4452592adf84eb819ef05616e25a830c85ab8965bcbba79efa"
+  },
+  "vendor/rig-controller.js": {
+    "bytes": 2212,
+    "sha256": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db"
+  },
+  "scripts/browser.mjs": {
+    "bytes": 1338,
+    "sha256": "64ac95d32b1db28126bd2abee57302b386ed3c52895b89831f2bf721579d0ba9"
+  },
+  "scripts/audio.py": {
+    "bytes": 3052,
+    "sha256": "eac1f1df56ca0553dc4fea94e5094b280acfe65501e9fb27d6186ef3a4e83b67"
+  },
+  "scripts/validate-export.py": {
+    "bytes": 1456,
+    "sha256": "dff27068daaf8a5a1e61d10fc6fbbbf234612511d1188dd6962daa14adf0c950"
+  },
+  "scripts/inspect.mjs": {
+    "bytes": 1819,
+    "sha256": "157ee441917cba43d5c450174344e104ee8e7299ae919b639ea6e1cb33eeaa49"
+  },
+  "docs/SKILL.md": {
+    "bytes": 6093,
+    "sha256": "4190f7940583eb0e78fadf8897bdd0d94fdab052e9e1e2820e52a2ff437f36b9"
+  },
+  "docs/LEIA_PRIMEIRO.md": {
+    "bytes": 1064,
+    "sha256": "4d24e3a585d1cf638adea30ae126031438cb3afc90f1fa2dfbf56a9bd7c8b7aa"
+  },
+  "docs/ROTEIRO_ORIGINAL.md": {
+    "bytes": 13380,
+    "sha256": "fa7d3ffbf5ad6fccc8224e5dffdd17e3eafd2e7d5cd1e58fc03d98c45c58e5da"
+  },
+  "docs/ROTEIRO_TECNICO.md": {
+    "bytes": 20384,
+    "sha256": "20d9f984208558df671b9c8f12e858b77d7a348665aa9b16433b331aa6fbcd94"
+  },
+  "tests/preservation.py": {
+    "bytes": 1679,
+    "sha256": "b21bcb15bf596823e7f5fd35407bf35284dc163495ceb212c5496ff2bd1ca363"
+  },
+  "tests/run.mjs": {
+    "bytes": 2528,
+    "sha256": "455d3905c9bd2549eb0e567860ac697e0784ee0eac266bd91017646348d2449e"
+  },
+  "preserved/base-original/reference-animation/README.md": {
+    "bytes": 1247,
+    "sha256": "0b7a0ab4e654c8594895feef4daadc1fb029210074973287004a6e49682d0f61"
+  },
+  "preserved/base-original/reference-animation/validation.json": {
+    "bytes": 614,
+    "sha256": "ba1e3611f3eac67b9beabf5a0a3c0995236635fc1a2c377f26a3de094cb7024f"
+  },
+  "preserved/base-original/reference-animation/SKILL.md": {
+    "bytes": 7291,
+    "sha256": "43ffac279703da98650b64a4038eaa3f20e0617c6b507168b4a2ef27c3a69e5d"
+  },
+  "preserved/base-original/reference-animation/template/README.md": {
+    "bytes": 282,
+    "sha256": "24c53169a7f6ad73d1c661147bc0dc4504d0f021166526de58c74c10c0a0d9d0"
+  },
+  "preserved/base-original/reference-animation/template/package-lock.json": {
+    "bytes": 1769,
+    "sha256": "1026744ea2ede5d59c1f84c1725509b5590075df86fae0e96b519459a5cd2a55"
+  },
+  "preserved/base-original/reference-animation/template/capture-scene.py": {
+    "bytes": 17066,
+    "sha256": "06da0bb8cc85abacb114b8916b84506ce71a62d23bb619993fdbf5240db7d6cc"
+  },
+  "preserved/base-original/reference-animation/template/package.json": {
+    "bytes": 292,
+    "sha256": "86625174a7cb80065b78ca40effb6a7b67a9d6cf7ffc83a50efbb080623cc723"
+  },
+  "preserved/base-original/reference-animation/template/capture-rig.py": {
+    "bytes": 10818,
+    "sha256": "7b8a229cf81f177cc8e235cd4fbcae123ce1537d49e8a026014fe6846599a336"
+  },
+  "preserved/base-original/reference-animation/template/render.mjs": {
+    "bytes": 4332,
+    "sha256": "a4f3564a2e615efedd84a121692c7b88358fdc7f705e7c486e4cb2315f746511"
+  },
+  "preserved/base-original/reference-animation/template/capture-effects.py": {
+    "bytes": 2863,
+    "sha256": "940a5c241229a954bbecf9431e0ab028930e11ce3b25324383204588303ab0d3"
+  },
+  "preserved/base-original/reference-animation/template/validate-export.py": {
+    "bytes": 2728,
+    "sha256": "640a0c0533a772cf4b00031418014be0bac96bc1a375ba19e9218a87ee4a64a4"
+  },
+  "preserved/base-original/reference-animation/template/prepare-motion.py": {
+    "bytes": 4601,
+    "sha256": "8f85d32f21347b6ee9440d82bf7277d80f287a363dd7f953749972d88aa5c102"
+  },
+  "preserved/base-original/reference-animation/template/requirements.txt": {
+    "bytes": 47,
+    "sha256": "9d374d79842d3720c2a232c22a27b2f92db88c46d479dd9bc7616300a52abfe1"
+  },
+  "preserved/base-original/reference-animation/template/.gitignore": {
+    "bytes": 50,
+    "sha256": "5b5d77f1b094070b9f2580e58f0f15e4f73c0c2aedf49480c7a152d81940c142"
+  },
+  "preserved/base-original/reference-animation/template/rig-controller.js": {
+    "bytes": 2212,
+    "sha256": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db"
+  },
+  "preserved/base-original/reference-animation/template/index.html": {
+    "bytes": 1184,
+    "sha256": "9852ac5a08442c10c1c72dce67fcb7efc0de5b66c36a7efba6abac75ef1a7392"
+  },
+  "preserved/base-original/reference-animation/template/inspect.mjs": {
+    "bytes": 4416,
+    "sha256": "a71a66b4b34c36e6cf79efd64b0fc3c561ebcdd99b0cabb84fedc09c6d79b658"
+  },
+  "preserved/base-original/reference-animation/template/refine-scene.py": {
+    "bytes": 3466,
+    "sha256": "034bedd556148f7f18ddf556c5bcbd5df91c67339e8d9893c06b7c02bdc8979c"
+  },
+  "preserved/base-original/reference-animation/template/film.js": {
+    "bytes": 14333,
+    "sha256": "772d68b13fae4f170a67d386d1c9ed654287014af95463875bb6fff4a97b0688"
+  },
+  "preserved/base-original/reference-animation/references/workflow.md": {
+    "bytes": 2081,
+    "sha256": "a3cd47e7bde3ea8613b7abb029d4a6537279088aff663fc815560dbebbf6f365"
+  },
+  "preserved/base-original/reference-animation/template/vendor/MOTION-LICENSE.md": {
+    "bytes": 1100,
+    "sha256": "1bf0dc3f7727723e5a032ed12164a47cf92c05204cb1a3485f123c24e2833ed1"
+  },
+  "preserved/base-original/reference-animation/template/vendor/motion.js": {
+    "bytes": 144870,
+    "sha256": "1efa29adbb0d9a4452592adf84eb819ef05616e25a830c85ab8965bcbba79efa"
+  },
+  "preserved/previous-system/core/battle.js": {
+    "bytes": 2987,
+    "sha256": "25fb4fb40377f2a79abeed04816881fff2677509196cd5272328ae375230d1d1"
+  },
+  "preserved/previous-system/core/bootstrap.js": {
+    "bytes": 999,
+    "sha256": "dd3df5fa1dc00978d9566296795b80f830cdde20b3c357b4197362f7432312f5"
+  },
+  "preserved/previous-system/core/clinic.js": {
+    "bytes": 5499,
+    "sha256": "a83c1cb1482c2ae39d7d6240ad2a80e2ba313e96e60fa8b0d2bc66ddbd9e989a"
+  },
+  "preserved/previous-system/core/draw.js": {
+    "bytes": 7230,
+    "sha256": "1b5e2ec56e1385ef955f46888136b0bea7346758a6b7500faa29a84d30706da6"
+  },
+  "preserved/previous-system/core/rig.js": {
+    "bytes": 6038,
+    "sha256": "a2d0f3c27c0976eaad7b26471bbfa64fe3374b3a4f232b6cacbe5eb18c8f8f70"
+  },
+  "preserved/previous-system/core/damage.js": {
+    "bytes": 1585,
+    "sha256": "df1977404f5c9e7a14447a4f12727f88c598b6f940850bba656bdc1f9153c323"
+  },
+  "preserved/previous-system/core/player.js": {
+    "bytes": 1579,
+    "sha256": "225e677963cc5be642d99bfe13682cef19f462c2da44173d1a34cb94c5ce531e"
+  },
+  "preserved/previous-system/vendor/MOTION-LICENSE.md": {
+    "bytes": 1100,
+    "sha256": "1bf0dc3f7727723e5a032ed12164a47cf92c05204cb1a3485f123c24e2833ed1"
+  },
+  "preserved/previous-system/vendor/motion.js": {
+    "bytes": 144870,
+    "sha256": "1efa29adbb0d9a4452592adf84eb819ef05616e25a830c85ab8965bcbba79efa"
+  },
+  "preserved/previous-system/scripts/inspect-part.mjs": {
+    "bytes": 3918,
+    "sha256": "f577c0fea9c9c71d7e3a93992e8463924c6b7d53a7d64f6442b6403b98973903"
+  },
+  "preserved/previous-system/scripts/validate-export.py": {
+    "bytes": 2813,
+    "sha256": "442c9331a43e2bf43ff89f18c0e33272e83a771d2db8c1b4c1322ebc7f93392d"
+  },
+  "preserved/previous-system/scripts/assemble.py": {
+    "bytes": 3054,
+    "sha256": "c3b3f1b4176f1cd6e9036bbefa8c3f74919f39344a82eb52840b66833d1c6011"
+  },
+  "preserved/previous-system/scripts/inspect.mjs": {
+    "bytes": 4963,
+    "sha256": "106de268436b2f4b15d0ab6188c8c33e47270e0e28f4faa9e52ffed9f0594554"
+  },
+  "preserved/previous-system/parts/manifest.json": {
+    "bytes": 2353,
+    "sha256": "59ade6d44a2eab6bd20d4b009587cae0def3b48e01f34aa11be8ecfc13eab75d"
+  },
+  "preserved/previous-system/parts/02-medico-confronto/README.md": {
+    "bytes": 1011,
+    "sha256": "bc25fd0c1cccd50e4249a386830f7a37130ebfd85fe3af7d8a6826fdad28fdff"
+  },
+  "preserved/previous-system/parts/02-medico-confronto/choreography.js": {
+    "bytes": 7849,
+    "sha256": "d069da8aa22925a2905fe361bab0fae728fc299911f2c88ebe7878bff7b2fa27"
+  },
+  "preserved/previous-system/parts/02-medico-confronto/soundtrack.m4a": {
+    "bytes": 470095,
+    "sha256": "6f5f65dd78aa54bd5caf142245d73ef0a58d1e26697fce62a0bebb4f4ee8cd6e"
+  },
+  "preserved/previous-system/parts/02-medico-confronto/director.js": {
+    "bytes": 1252,
+    "sha256": "cb54d6dcc554e0761ea4f92985d746521c9b9c2b5417d55a09ceb7e99a8658c4"
+  },
+  "preserved/previous-system/parts/05-chegada-azul-desfecho/README.md": {
+    "bytes": 687,
+    "sha256": "e139a9682fff880f33f9450b51486b1e3d2c2c68880c347883d06caee6cef0cd"
+  },
+  "preserved/previous-system/parts/05-chegada-azul-desfecho/choreography.js": {
+    "bytes": 4198,
+    "sha256": "f5c0f2de6e5d10597158e5df1a103d51cdd1460ad865a93a476b0d15c31f2052"
+  },
+  "preserved/previous-system/parts/05-chegada-azul-desfecho/soundtrack.m4a": {
+    "bytes": 277949,
+    "sha256": "87341162951925d5bbb7a9ffc9312fd624a7b0a2e9eceb8a32e37bfefc2c3403"
+  },
+  "preserved/previous-system/parts/05-chegada-azul-desfecho/director.js": {
+    "bytes": 759,
+    "sha256": "6b0eaa6640ac54c79474661ffca0dbeeab833845fcf442f0c3db0e7ba82b2cb4"
+  },
+  "preserved/previous-system/parts/03-retorno-vermelho/README.md": {
+    "bytes": 903,
+    "sha256": "0f070fef184a374e2c1f70f55a82906a2230fca0d6e86099c1414da41bfc4056"
+  },
+  "preserved/previous-system/parts/03-retorno-vermelho/choreography.js": {
+    "bytes": 6108,
+    "sha256": "b300d0af452fdfcbe0386159485f68fc5e20702548dc07e317ad89d8c2818894"
+  },
+  "preserved/previous-system/parts/03-retorno-vermelho/soundtrack.m4a": {
+    "bytes": 365702,
+    "sha256": "44e67a8ed5ef093e8abb770f6b8dac22d6114bf39841d948bb4360ed1eef635a"
+  },
+  "preserved/previous-system/parts/03-retorno-vermelho/director.js": {
+    "bytes": 97,
+    "sha256": "f0973eb58bcf7f3f411a89fbba974ae7fbb614f49e9822fea3e32e889aa37013"
+  },
+  "preserved/previous-system/parts/01-abertura-primeira-luta/README.md": {
+    "bytes": 906,
+    "sha256": "1602d837136595a9c539c0cf57f7869255c0405c8ef5569876ebde2aad655a4d"
+  },
+  "preserved/previous-system/parts/01-abertura-primeira-luta/choreography.js": {
+    "bytes": 6687,
+    "sha256": "ce1a20c7d46a79392a66873e9573c3edcb8052d23d443097b9305d69227da724"
+  },
+  "preserved/previous-system/parts/01-abertura-primeira-luta/soundtrack.m4a": {
+    "bytes": 244948,
+    "sha256": "0cbb113dd1dcb10a7b72591ab4c4abbd42bb9fdb2f4de70b6cb59cba4de32e13"
+  },
+  "preserved/previous-system/parts/01-abertura-primeira-luta/director.js": {
+    "bytes": 2584,
+    "sha256": "b1357bf63aaae0a15518d2b150a19f53d1fe9198d754b48d2bc0e01c9310671b"
+  },
+  "preserved/previous-system/parts/04-luta-close/README.md": {
+    "bytes": 738,
+    "sha256": "35ea396437638ca69f26e5f0c94f98025860e4c5f172296388eb379fcf76574a"
+  },
+  "preserved/previous-system/parts/04-luta-close/choreography.js": {
+    "bytes": 6100,
+    "sha256": "8e5f81410d2e6e2f1b649b6270e8c4d8692c4c6888b0f990405e6f290469d5a3"
+  },
+  "preserved/previous-system/parts/04-luta-close/soundtrack.m4a": {
+    "bytes": 320033,
+    "sha256": "729a1f867aaec6df3842f35a66137bf55edbe7042136f220610a672a57e342db"
+  },
+  "preserved/previous-system/parts/04-luta-close/director.js": {
+    "bytes": 97,
+    "sha256": "f0973eb58bcf7f3f411a89fbba974ae7fbb614f49e9822fea3e32e889aa37013"
+  },
+  "docs/base-original/reference-animation/README.md": {
+    "bytes": 1247,
+    "sha256": "0b7a0ab4e654c8594895feef4daadc1fb029210074973287004a6e49682d0f61"
+  },
+  "docs/base-original/reference-animation/validation.json": {
+    "bytes": 614,
+    "sha256": "ba1e3611f3eac67b9beabf5a0a3c0995236635fc1a2c377f26a3de094cb7024f"
+  },
+  "docs/base-original/reference-animation/SKILL.md": {
+    "bytes": 7291,
+    "sha256": "43ffac279703da98650b64a4038eaa3f20e0617c6b507168b4a2ef27c3a69e5d"
+  },
+  "docs/base-original/reference-animation/template/README.md": {
+    "bytes": 282,
+    "sha256": "24c53169a7f6ad73d1c661147bc0dc4504d0f021166526de58c74c10c0a0d9d0"
+  },
+  "docs/base-original/reference-animation/template/package-lock.json": {
+    "bytes": 1769,
+    "sha256": "1026744ea2ede5d59c1f84c1725509b5590075df86fae0e96b519459a5cd2a55"
+  },
+  "docs/base-original/reference-animation/template/capture-scene.py": {
+    "bytes": 17066,
+    "sha256": "06da0bb8cc85abacb114b8916b84506ce71a62d23bb619993fdbf5240db7d6cc"
+  },
+  "docs/base-original/reference-animation/template/package.json": {
+    "bytes": 292,
+    "sha256": "86625174a7cb80065b78ca40effb6a7b67a9d6cf7ffc83a50efbb080623cc723"
+  },
+  "docs/base-original/reference-animation/template/capture-rig.py": {
+    "bytes": 10818,
+    "sha256": "7b8a229cf81f177cc8e235cd4fbcae123ce1537d49e8a026014fe6846599a336"
+  },
+  "docs/base-original/reference-animation/template/render.mjs": {
+    "bytes": 4332,
+    "sha256": "a4f3564a2e615efedd84a121692c7b88358fdc7f705e7c486e4cb2315f746511"
+  },
+  "docs/base-original/reference-animation/template/capture-effects.py": {
+    "bytes": 2863,
+    "sha256": "940a5c241229a954bbecf9431e0ab028930e11ce3b25324383204588303ab0d3"
+  },
+  "docs/base-original/reference-animation/template/validate-export.py": {
+    "bytes": 2728,
+    "sha256": "640a0c0533a772cf4b00031418014be0bac96bc1a375ba19e9218a87ee4a64a4"
+  },
+  "docs/base-original/reference-animation/template/prepare-motion.py": {
+    "bytes": 4601,
+    "sha256": "8f85d32f21347b6ee9440d82bf7277d80f287a363dd7f953749972d88aa5c102"
+  },
+  "docs/base-original/reference-animation/template/requirements.txt": {
+    "bytes": 47,
+    "sha256": "9d374d79842d3720c2a232c22a27b2f92db88c46d479dd9bc7616300a52abfe1"
+  },
+  "docs/base-original/reference-animation/template/.gitignore": {
+    "bytes": 50,
+    "sha256": "5b5d77f1b094070b9f2580e58f0f15e4f73c0c2aedf49480c7a152d81940c142"
+  },
+  "docs/base-original/reference-animation/template/rig-controller.js": {
+    "bytes": 2212,
+    "sha256": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db"
+  },
+  "docs/base-original/reference-animation/template/index.html": {
+    "bytes": 1184,
+    "sha256": "9852ac5a08442c10c1c72dce67fcb7efc0de5b66c36a7efba6abac75ef1a7392"
+  },
+  "docs/base-original/reference-animation/template/inspect.mjs": {
+    "bytes": 4416,
+    "sha256": "a71a66b4b34c36e6cf79efd64b0fc3c561ebcdd99b0cabb84fedc09c6d79b658"
+  },
+  "docs/base-original/reference-animation/template/refine-scene.py": {
+    "bytes": 3466,
+    "sha256": "034bedd556148f7f18ddf556c5bcbd5df91c67339e8d9893c06b7c02bdc8979c"
+  },
+  "docs/base-original/reference-animation/template/film.js": {
+    "bytes": 14333,
+    "sha256": "772d68b13fae4f170a67d386d1c9ed654287014af95463875bb6fff4a97b0688"
+  },
+  "docs/base-original/reference-animation/references/workflow.md": {
+    "bytes": 2081,
+    "sha256": "a3cd47e7bde3ea8613b7abb029d4a6537279088aff663fc815560dbebbf6f365"
+  },
+  "docs/base-original/reference-animation/template/vendor/MOTION-LICENSE.md": {
+    "bytes": 1100,
+    "sha256": "1bf0dc3f7727723e5a032ed12164a47cf92c05204cb1a3485f123c24e2833ed1"
+  },
+  "docs/base-original/reference-animation/template/vendor/motion.js": {
+    "bytes": 144870,
+    "sha256": "1efa29adbb0d9a4452592adf84eb819ef05616e25a830c85ab8965bcbba79efa"
+  },
+  "exports/simulation-validation.json": {
+    "bytes": 508,
+    "sha256": "3d93e768b8d4ea0d3af3a88593f7506c599ab7f48ce38b05aefac16eb6e3f6a8"
+  },
+  "exports/audio-act-01.json": {
+    "bytes": 215,
+    "sha256": "bf77a5e4eb242ad761ed2c49444f3707a4ac82626181d724e1834aa24def4a71"
+  },
+  "exports/preservation-validation.json": {
+    "bytes": 281,
+    "sha256": "8b9e08c2af107c82596538f81b97fe3a5e0fa8db319f9d8bada20c1f7a6537f0"
+  },
+  "exports/previa-takes-01-06-720p24.validation.json": {
+    "bytes": 363,
+    "sha256": "a567f9c77fd89fafe8aab046f52c07ba2f178aadf31a76348b189601b18ef973"
+  },
+  "exports/previa-takes-01-06-1080p24.validation.json": {
+    "bytes": 366,
+    "sha256": "e787aef9303bf4f28b5245e1b4f281ea9d81ef9ee5f4f1e179946a17316ef14e"
+  },
+  "exports/previa-takes-01-06-1080p24.mp4.json": {
+    "bytes": 783,
+    "sha256": "8305fa0357a23eef0ee308f309b6c6f9a4762c66b88ec606adb5394719a513a3"
+  },
+  "exports/render-inputs-act01.json": {
+    "bytes": 5796,
+    "sha256": "5b0ccc4025701f0a0fa268d4e04b8f8155cb99eb2771ade3e3b1c943ac0a4ce1"
+  },
+  "exports/codigo-animation-vs-physics-act01.zip": {
+    "bytes": 2035590,
+    "sha256": "0c638eca5f96a596a07ab9ed88dbeb41e9463dde9f963981db3a63e4e4de58bb"
+  },
+  "exports/previa-takes-01-06-1080p24.mp4": {
+    "bytes": 1077228,
+    "sha256": "0c9f7b8382357107201de1babffcd35f399266d83529d397fbda1967e51ded52"
+  },
+  "exports/previa-takes-01-06-720p24.mp4": {
+    "bytes": 880743,
+    "sha256": "811abcbb23707a8dcf4c063872857b5c0f788a82c7d2c6326ed94185974cb735"
+  },
+  "exports/contact-sheet-act01.jpg": {
+    "bytes": 28706,
+    "sha256": "2e8a4e65d9095a283007b3eb76eb71407cee963bb90b0a0a6c13bc04fda77527"
+  }
+}

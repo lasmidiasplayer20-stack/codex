@@ -1,0 +1,19 @@
+{
+  "passed": true,
+  "duration": 150,
+  "width": 1920,
+  "height": 1080,
+  "chapters": 6,
+  "lang": "en",
+  "seeks": [
+    25,
+    50,
+    75,
+    100,
+    125,
+    0
+  ],
+  "range": 206,
+  "deterministic": true,
+  "consoleErrors": []
+}

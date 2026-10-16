@@ -1,0 +1,38 @@
+;FFMETADATA1
+title=One More Take - The Undo Button
+artist=Arckkiller
+[CHAPTER]
+TIMEBASE=1/1000
+START=0
+END=30000
+title=A little shortcut
+[CHAPTER]
+TIMEBASE=1/1000
+START=30000
+END=60000
+title=Five seconds back
+[CHAPTER]
+TIMEBASE=1/1000
+START=60000
+END=90000
+title=The better plan
+[CHAPTER]
+TIMEBASE=1/1000
+START=90000
+END=120000
+title=Too many second chances
+[CHAPTER]
+TIMEBASE=1/1000
+START=120000
+END=150000
+title=No more batteries
+[CHAPTER]
+TIMEBASE=1/1000
+START=150000
+END=180000
+title=One good take
+[CHAPTER]
+TIMEBASE=1/1000
+START=180000
+END=210000
+title=For you, actually
