@@ -1,3 +1,11 @@
+# Current original film — The Forbidden Button R4
+
+[Complete R4 film · 2:30 · 1080p60](Vídeos/The-Forbidden-Button-R4-1080p60.mp4?raw=true) · [Editable project and report](Originais/O-botao-proibido-r4/README.md)
+
+R4 keeps the Forbidden Button story and reuses the original Animation vs. Physics V6 characters, model/bones, FK and drawing. It has new choreography for gravity inversion, the rope attempt, collapsing bridge, rescue chain and coordinated controls. Only full-film MP4 exports belong in [Vídeos](Vídeos/). Earlier part renders, provisional previews and validation files are retained in [the archive](Originais/Arquivo-de-exportacoes/).
+
+---
+
 # Vídeo de 14/10 — reconstrução por código, em cinco partes
 
 Referência: **WhatsApp Video 2026-10-14 at 10.28.28.mp4**, 1:34,60.

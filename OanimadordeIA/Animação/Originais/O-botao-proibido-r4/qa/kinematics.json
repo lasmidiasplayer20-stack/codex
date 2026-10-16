@@ -1,0 +1,58 @@
+{
+  "duration": 150,
+  "fps": 60,
+  "frames": 9000,
+  "samples": 27000,
+  "contacts": 37685,
+  "maxBoneError": 2.2026824808563106e-13,
+  "maxContactError": 2.5421149729252077e-13,
+  "maxJointStep": 23.39298930887346,
+  "maxRootStep": 3.1894534537920936,
+  "maxLegTargetError": 0,
+  "finite": true,
+  "contactErrors": [],
+  "headCollisions": [],
+  "minHeadDistance": 44.767912209102064,
+  "worstFraming": [],
+  "activeSeconds": 139.03333333333612,
+  "longestQuietSeconds": 2.2333333333333303,
+  "chapterBoundaryMaxDistance": 0.00768362563880745,
+  "physics": {
+    "hz": 120,
+    "gravity": "explicit normal, inverted and unstable field vectors",
+    "integrator": "semi-implicit Euler, drag and restitution",
+    "surfaceY": [
+      325,
+      806
+    ],
+    "frames": 18001
+  },
+  "worstContact": {
+    "n": "cyan",
+    "t": 41.38333333333333,
+    "kind": "floor-support",
+    "d": 2.5421149729252077e-13,
+    "target": [
+      907.1764639395254,
+      806
+    ],
+    "actual": [
+      907.1764639395255,
+      806.0000000000002
+    ]
+  },
+  "closestHeads": {
+    "n": "hero",
+    "m": "cyan",
+    "t": 105,
+    "d": 44.767912209102064
+  },
+  "worstJoint": {
+    "n": "cyan",
+    "t": 106.9,
+    "j": 8,
+    "d": 23.39298930887346
+  },
+  "causal": true,
+  "pageErrors": []
+}

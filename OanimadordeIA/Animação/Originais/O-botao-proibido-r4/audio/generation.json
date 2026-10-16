@@ -1,0 +1,1034 @@
+{
+  "duration": 150,
+  "events": 144,
+  "effectsFromElevenLabs": 144,
+  "elevenLabsPlacements": 147,
+  "assetsUsed": [
+    "boing",
+    "catch",
+    "chime",
+    "click",
+    "crash",
+    "electric",
+    "land",
+    "rope",
+    "step",
+    "tap",
+    "whoosh"
+  ],
+  "assetsAvailable": 17,
+  "assetOrigin": "Existing ElevenLabs Text to Sound v2 files reused from the repository, with provider manifest and SHA256 verification; no new API generation claimed.",
+  "liveGenerationAccess": "No new API request made for R4; reused existing assets. Earlier attempts were blocked before authentication.",
+  "source": "V6 scoring pipeline with new Forbidden Button 150s cues and existing repository foley.",
+  "soundStatus": "ElevenLabs foley integrated",
+  "eventSources": [
+    {
+      "t": 2.275,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 3.8,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 4.975,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 5,
+      "type": "tap",
+      "asset": "tap.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 6.158333333333333,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 6.416666666666667,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 7.95,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 9.491666666666667,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 10.35,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 11,
+      "type": "tap",
+      "asset": "tap.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 11.358333333333333,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 14.241666666666667,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 16.158333333333335,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 17.041666666666668,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 18.4,
+      "type": "whoosh",
+      "asset": "whoosh.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 21.8,
+      "type": "click",
+      "asset": "click.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 22,
+      "type": "gravity",
+      "asset": "electric.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 26.908333333333335,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 27,
+      "type": "land",
+      "asset": "land.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 27.041666666666668,
+      "type": "tap",
+      "asset": "tap.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 27.175,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 31.983333333333334,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 32.13333333333333,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 33.2,
+      "type": "tap",
+      "asset": "tap.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 33.45,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 34.7,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 38.833333333333336,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 39,
+      "type": "rope",
+      "asset": "rope.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 39.333333333333336,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 40.96666666666667,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 41.291666666666664,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 42.075,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 43.166666666666664,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 43.6,
+      "type": "whoosh",
+      "asset": "whoosh.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 45.2,
+      "type": "catch",
+      "asset": "catch.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 48.5,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 49.8,
+      "type": "rope",
+      "asset": "rope.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 50.2,
+      "type": "whoosh",
+      "asset": "whoosh.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 56,
+      "type": "catch",
+      "asset": "catch.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 66,
+      "type": "click",
+      "asset": "click.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 68.5,
+      "type": "gravity",
+      "asset": "electric.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 69.86666666666666,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 69.88333333333334,
+      "type": "tap",
+      "asset": "tap.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 69.90833333333333,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 70.34166666666667,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 70.36666666666666,
+      "type": "tap",
+      "asset": "tap.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 70.39166666666667,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 70.45833333333333,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 70.48333333333333,
+      "type": "tap",
+      "asset": "tap.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 70.50833333333334,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 72.4,
+      "type": "land",
+      "asset": "land.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 72.5,
+      "type": "land",
+      "asset": "land.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 74,
+      "type": "tap",
+      "asset": "tap.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 79.6,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 83.4,
+      "type": "click",
+      "asset": "click.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 83.6,
+      "type": "gravity",
+      "asset": "electric.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 84.44166666666666,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 85.16666666666667,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 85.23333333333333,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 85.98333333333333,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 86.74166666666666,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 87.04166666666667,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 87.56666666666666,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 87.65833333333333,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 88.16666666666667,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 88.45833333333333,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 89.6,
+      "type": "crack",
+      "asset": "crash.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 90.025,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 90.78333333333333,
+      "type": "tap",
+      "asset": "tap.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 90.78333333333333,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 90.78333333333333,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 91.2,
+      "type": "bridge",
+      "asset": "crash.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 91.4,
+      "type": "whoosh",
+      "asset": "whoosh.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 93.4,
+      "type": "catch",
+      "asset": "catch.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 94,
+      "type": "catch",
+      "asset": "catch.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 96.025,
+      "type": "tap",
+      "asset": "tap.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 96.025,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 96.025,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 100,
+      "type": "rope",
+      "asset": "rope.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 101.25833333333334,
+      "type": "tap",
+      "asset": "tap.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 101.25833333333334,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 101.25833333333334,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 104.96666666666667,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 106.13333333333334,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 106.15833333333333,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 106.49166666666666,
+      "type": "tap",
+      "asset": "tap.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 106.49166666666666,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 106.49166666666666,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 107.5,
+      "type": "land",
+      "asset": "land.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 109.50833333333334,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 109.61666666666666,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 110,
+      "type": "chime",
+      "asset": "chime.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 110.55,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 111.38333333333334,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 111.73333333333333,
+      "type": "tap",
+      "asset": "tap.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 111.73333333333333,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 111.73333333333333,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 112.06666666666666,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 112.60833333333333,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 113.1,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 113.4,
+      "type": "whoosh",
+      "asset": "whoosh.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 113.58333333333333,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 114,
+      "type": "click",
+      "asset": "click.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 114.1,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 114.61666666666666,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 115.15,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 115.6,
+      "type": "land",
+      "asset": "land.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 115.83333333333333,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 116,
+      "type": "click",
+      "asset": "click.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 116.96666666666667,
+      "type": "tap",
+      "asset": "tap.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 116.96666666666667,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 116.96666666666667,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 117.2,
+      "type": "tap",
+      "asset": "tap.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 118.2,
+      "type": "tap",
+      "asset": "tap.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 119.2,
+      "type": "tap",
+      "asset": "tap.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 121.2,
+      "type": "electric",
+      "asset": "electric.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 122.2,
+      "type": "tap",
+      "asset": "tap.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 122.2,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 122.2,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 127.4,
+      "type": "resolve",
+      "asset": "chime.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 127.43333333333334,
+      "type": "tap",
+      "asset": "tap.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 127.43333333333334,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 127.43333333333334,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 127.51666666666667,
+      "type": "tap",
+      "asset": "tap.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 127.51666666666667,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 127.51666666666667,
+      "type": "bounce",
+      "asset": "boing.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 129.4,
+      "type": "bridge",
+      "asset": "crash.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 130.8,
+      "type": "land",
+      "asset": "land.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 133.79166666666666,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 135.01666666666668,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 135.375,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 136.3,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 136.49166666666667,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 137.38333333333333,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 137.56666666666666,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 138.275,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 138.65833333333333,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 142,
+      "type": "whoosh",
+      "asset": "whoosh.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 143.5,
+      "type": "catch",
+      "asset": "catch.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 146.6,
+      "type": "click",
+      "asset": "click.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 148,
+      "type": "chime",
+      "asset": "chime.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 148.85833333333332,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 149.125,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    },
+    {
+      "t": 149.575,
+      "type": "step",
+      "asset": "step.mp3",
+      "provider": "ElevenLabs",
+      "reused": true
+    }
+  ]
+}

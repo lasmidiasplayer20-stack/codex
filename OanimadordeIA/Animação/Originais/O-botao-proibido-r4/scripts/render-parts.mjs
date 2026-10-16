@@ -1,0 +1,7 @@
+import{spawn}from'node:child_process';import{mkdir,readFile,writeFile}from'node:fs/promises';import{resolve}from'node:path';import{createHash}from'node:crypto';
+const root=resolve(import.meta.dirname,'..'),scratch=process.env.ANIMATION_SCRATCH||'/workspace/animation-production-r4';
+const files=['src/story.js','src/performance.js','src/physics.js','src/world.js','src/model.js','src/rig-adapter.js','src/legacy-renderer.js','vendor/rig-controller.js'];
+const hashes=Object.fromEntries(await Promise.all(files.map(async f=>[f,createHash('sha256').update(await readFile(root+'/'+f)).digest('hex')])));
+await mkdir(scratch+'/parts',{recursive:true});await writeFile(root+'/qa/render-sources.json',JSON.stringify({files:hashes,parts:6,partDuration:25,fps:60,width:1920,height:1080,absoluteTimeSampling:true},null,2)+'\n');let next=0;
+async function worker(){while(next<6){const i=next++,file=`${scratch}/parts/part-${i+1}.mp4`;await new Promise((ok,no)=>{const p=spawn('node',['render.mjs','--start',String(i*25),'--duration','25','--fps','60','--width','1920','--crf','19','--threads','2','--silent','true','--output',file],{cwd:root,stdio:'inherit'});p.on('error',no);p.on('close',c=>c===0?ok():no(Error('render part '+i+' exit '+c)));});const meta=JSON.parse(await readFile(file+'.json','utf8'));meta.sourceHashes=hashes;await writeFile(file+'.json',JSON.stringify(meta,null,2)+'\n');}}
+await Promise.all([worker(),worker()]);

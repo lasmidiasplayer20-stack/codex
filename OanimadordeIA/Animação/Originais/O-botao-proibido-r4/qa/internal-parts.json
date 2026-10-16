@@ -1,0 +1,56 @@
+[
+  {
+    "part": 1,
+    "frames": 1500,
+    "duration": 25,
+    "fps": 60,
+    "width": 1920,
+    "height": 1080,
+    "bytes": 5021359
+  },
+  {
+    "part": 2,
+    "frames": 1500,
+    "duration": 25,
+    "fps": 60,
+    "width": 1920,
+    "height": 1080,
+    "bytes": 4166961
+  },
+  {
+    "part": 3,
+    "frames": 1500,
+    "duration": 25,
+    "fps": 60,
+    "width": 1920,
+    "height": 1080,
+    "bytes": 5354580
+  },
+  {
+    "part": 4,
+    "frames": 1500,
+    "duration": 25,
+    "fps": 60,
+    "width": 1920,
+    "height": 1080,
+    "bytes": 4397586
+  },
+  {
+    "part": 5,
+    "frames": 1500,
+    "duration": 25,
+    "fps": 60,
+    "width": 1920,
+    "height": 1080,
+    "bytes": 5734024
+  },
+  {
+    "part": 6,
+    "frames": 1500,
+    "duration": 25,
+    "fps": 60,
+    "width": 1920,
+    "height": 1080,
+    "bytes": 4654606
+  }
+]

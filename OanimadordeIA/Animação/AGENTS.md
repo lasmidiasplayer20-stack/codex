@@ -1,0 +1,3 @@
+# Animation delivery rules
+
+The user requires the Vídeos folder to contain only completed full-film MP4 exports. Keep part renders, previews, JSON validation, README files, sound assets and review sheets in the relevant source project or an archive, outside Vídeos. Preserve previous complete films and keep internal production parts outside the checkout when practical. Always link the GitHub Vídeos folder when delivering a complete export. All visible movie/player text must be English. Reuse the original reference characters, model/bones, FK and drawing for The Forbidden Button; preserve its own screenplay rather than recoloring the reference delivery story. Never print or commit credentials.

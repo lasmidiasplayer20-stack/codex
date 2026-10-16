@@ -1,0 +1,4 @@
+import{serveFile}from'./http-files.mjs';
+import{chromium}from'@playwright/test';import{createServer}from'node:http';import{readFile}from'node:fs/promises';import{resolve,extname}from'node:path';import{once}from'node:events';import{existsSync}from'node:fs';
+export const root=resolve(import.meta.dirname,'..');
+export async function open(){const server=createServer((req,res)=>serveFile(req,res,root));server.listen(0,'127.0.0.1');await once(server,'listening');const browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||(existsSync('/usr/bin/chromium')?'/usr/bin/chromium':undefined),args:['--no-sandbox','--disable-dev-shm-usage']});const page=await browser.newPage(),errors=[];page.on('pageerror',e=>errors.push(String(e)));await page.goto(`http://127.0.0.1:${server.address().port}/`);await page.waitForFunction(()=>typeof window.film?.draw==='function');return{page,errors,close:async()=>{await browser.close();await new Promise(r=>server.close(r));}};}

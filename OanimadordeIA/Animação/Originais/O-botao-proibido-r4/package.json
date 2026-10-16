@@ -1,0 +1,16 @@
+{
+  "name": "the-forbidden-button-r4",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node scripts/inspect.mjs --verify",
+    "serve": "node scripts/serve.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "version": "4.0.0"
+}
