@@ -2,7 +2,7 @@
 
 Curta original de **3min30s · 1080p · 60 fps · colorido**. Sete partes produzidas separadamente e montadas em tempo próprio. O roteiro, o cenário e a atuação são novos; o perfil, o FK e o desenho-base dos personagens são preservados da entrega V6.
 
-Os MP4 ficam em [Vídeos/O-botão-de-desfazer](../../Vídeos/O-botão-de-desfazer/). O roteiro está em `ROTEIRO.md`; relatórios atuais em `qa/`.
+O filme completo fica em [Vídeos/O-botão-de-desfazer](../../Vídeos/O-botão-de-desfazer/). O roteiro está em `ROTEIRO.md`; relatórios atuais em `qa/`.
 
 ## Reproduzir
 
@@ -35,3 +35,7 @@ python3 assemble.py
 O gerador procura a chave abaixo de `lasmidiasplayer20`, não imprime o valor e não copia o anexo. Ele gera apenas efeitos, sem voz e sem música. O manifesto registra os prompts e o fornecedor. Os scripts não alegam avaliação auditiva humana; a validação sonora automatizada verifica duração, níveis e decodificação.
 
 Os WAVs regeneráveis e os quadros individuais de revisão são ignorados pelo Git. A trilha AAC, o código, os relatórios, as folhas de revisão e os MP4 finais são entregues. Não sobrescreva os MP4 da V6 em `exports/`.
+
+## Export organization
+
+Only the complete film remains in the video delivery folder. Rendered parts and their metadata are preserved in `production/parts/`. Rendering and assembly now use this location.

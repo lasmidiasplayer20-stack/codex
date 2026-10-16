@@ -6,7 +6,7 @@ The previous film remains in `../botao-desfazer/`. This is a separate rebuild of
 
 ## Deliverables
 
-The final film and seven 30-second parts are in [the R2 video folder](../../Vídeos/O-botão-de-desfazer-R2/). The final MP4 is `O-botão-de-desfazer-1080p60.mp4`: 1920×1080, 60 fps, 12,600 frames, stereo AAC. All visible text is English.
+The complete final film is in [the R2 video folder](../../Vídeos/O-botão-de-desfazer-R2/). The final MP4 is `O-botão-de-desfazer-1080p60.mp4`: 1920×1080, 60 fps, 12,600 frames, stereo AAC. All visible text is English.
 
 Open `index.html` through a local server for the interactive player, or use the delivered MP4. Run `npm test`, `node review.mjs` and `node check-player.mjs` for the pose, continuity, temporal-frame and player checks. `node render-parts.mjs` renders seven parts; `score.py` creates the synchronized soundtrack; `assemble.py` assembles and fully decodes all eight deliverables for verification. Install Node dependencies with `npm install` and Python dependencies with `python3 -m pip install -r requirements.txt`. Chromium and FFmpeg must also be available. Python dependencies are NumPy for the soundtrack and Pillow/OpenCV for decoded-frame review.
 
@@ -31,3 +31,7 @@ The original `src/model.js`, `src/legacy-renderer.js` and `vendor/rig-controller
 `qa/performance.json` reports checks of the actual FK playback over all 37,800 actor poses: fixed bone lengths, finite coordinates, final hand targets, floor clearance, pairwise head separation, conservative cake/head clearance and rewind boundaries. `qa/continuity.json` checks flight endpoints, native motion and quiet intervals. `qa/player.json` checks seek and play/pause synchronization. `qa/framing.json` checks 226,800 projected actor landmarks and cake bounds across the full timeline. `qa/export-validation.json` records dimensions, frame counts, audio streams, full decoding and SHA-256 for every delivered MP4.
 
 This combines directed animation, constraints and free-flight integration. It is not a general rigid-body simulation of every character and prop. The head and cake clearance checks do not establish that every possible silhouette intersection has been mathematically excluded; temporal review complements them.
+
+## Export organization
+
+Only the complete film remains in the video delivery folder. Rendered parts and their metadata are preserved in `production/parts/`. Rendering and assembly now use this location.

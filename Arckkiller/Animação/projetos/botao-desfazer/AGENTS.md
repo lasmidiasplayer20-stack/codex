@@ -7,3 +7,6 @@ Preserve `vendor/rig-controller.js`, `src/model.js` e `src/legacy-renderer.js`, 
 Todos os MP4, inclusive testes e intermediários de montagem, ficam em `../../Vídeos/O-botão-de-desfazer/`. Revise as sete partes antes da montagem. Execute `npm test`, revise quadros temporais e rode `assemble.py` para validação completa.
 
 Chaves de API vêm de arquivos fora do checkout. Nunca registre valores nos fontes, logs, commits ou relatórios. `generate-elevenlabs.py` lê somente a chave da conta solicitada no arquivo de credenciais. Diferencie efeitos ElevenLabs de síntese local; não alegue uso do serviço sem arquivos de áudio gerados. Não alegue escuta humana que não ocorreu.
+
+## Current export layout
+Only complete final MP4 films belong in Vídeos. Intermediate MP4 parts, smoke tests, raw streams and their metadata belong in this project’s production/parts/ directory. This user-requested layout supersedes the earlier all-MP4 delivery rule. Preserve the completed film and its URL.

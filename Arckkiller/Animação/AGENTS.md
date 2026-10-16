@@ -3,5 +3,5 @@ Pedido de 15/10/2026: refazer a narrativa em 150s, sem acelerar a animação. Ma
 Use estado e posições persistentes em toda a história, inclusive nos limites de 25s. Preserve FK, perfil e funções de desenho originais. As fontes anteriores estão preservadas em preserved/ e nas pastas irmãs.
 Execute npm test, revise sequências temporais e contatos, valide os sete MP4 e publique somente esta nova pasta V6 no branch já autorizado. Não alegue avaliação auditiva humana sem realizá-la.
 
-## Destino das novas entregas
-Toda nova entrega em `.mp4`, incluindo prévias, partes e filme final, deve ser salva em `Arckkiller/Animação/Vídeos/` (caminho relativo ao repositório). Preserve as entregas anteriores em `exports/`; esta regra vale para as próximas entregas.
+## Current export organization
+The latest user instruction supersedes the earlier all-MP4 rule: Vídeos contains only complete final MP4 films. Keep intermediate parts, previews, raw streams and reports in each project's production/ or qa/ directories. Preserve completed films and their existing URLs.

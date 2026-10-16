@@ -13,7 +13,7 @@ def validate(p,seconds,frames,audio=True):
  run(['ffmpeg','-hide_banner','-v','error','-xerror','-i',str(p),'-map','0:v:0','-map','0:a:0?','-f','null','-'])
  with p.open('rb')as f:digest=hashlib.file_digest(f,'sha256').hexdigest()
  return {'file':p.name,'passed':True,'duration':float(info['format']['duration']),'frames':int(v['nb_frames']),'fps':'60/1','width':1920,'height':1080,'audio':bool(a),'bytes':p.stat().st_size,'sha256':digest,'full_decode':True}
-parts=[DEST/f'parte-{i+1:02d}.mp4'for i in range(7)]
+parts=[ROOT/'production/parts'/f'parte-{i+1:02d}.mp4'for i in range(7)]
 for p in parts:
  info=probe(p);v=next(s for s in info['streams']if s['codec_type']=='video');assert int(v['nb_frames'])==1800 and v['avg_frame_rate']=='60/1'
 # Strip chapter AAC before concatenating: its priming must not shift video timestamps.
