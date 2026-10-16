@@ -1,0 +1,17 @@
+{
+  "name": "one-more-take-original",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node inspect.mjs",
+    "render:parts": "node render-parts.mjs",
+    "score": "python3 score.py"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}

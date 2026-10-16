@@ -1,0 +1,30 @@
+{
+  "reviewed_by": "assistant",
+  "method": "Visual inspection of seven contact sheets sampled from the encoded film, including short temporal sequences. Not manual viewing of every frame.",
+  "sheets": [
+    "encoded-motion-01.jpg",
+    "encoded-motion-02.jpg",
+    "encoded-motion-03.jpg",
+    "encoded-motion-04.jpg",
+    "encoded-motion-05.jpg",
+    "encoded-motion-06.jpg",
+    "encoded-motion-07.jpg",
+    "encoded-boundaries.jpg"
+  ],
+  "observations": [
+    "Three separate character colors, a multicolored bakery set, and colored party props remain visible.",
+    "The rewind overlays coincide with reversed cake and character travel; remaining-charge indicators decrease.",
+    "The high-air balloon sequence, trampoline recovery, pulley lift and birthday reveal are distinct sequences.",
+    "The final blocking puts the three faces beside the cake instead of behind it.",
+    "The birthday balloons were lowered after review to avoid covering the banner text."
+  ],
+  "limits": [
+    "Some brief silhouette overlaps remain near the trolley and during the handoff.",
+    "Contacts and trajectories are authored for cartoon staging, not a general physical simulation.",
+    "Audio assessment is technical; no claim of human listening."
+  ],
+  "latest_banner_refinement_pending_recheck": false,
+  "visible_language": "English",
+  "birthday_banner_legible_after_refinement": true,
+  "chapter_boundaries_visually_checked": true
+}

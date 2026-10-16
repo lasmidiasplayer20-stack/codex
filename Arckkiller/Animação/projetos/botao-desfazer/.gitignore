@@ -1,0 +1,7 @@
+node_modules/
+.cache/
+qa/frames/
+audio/*.wav
+*.h264
+__pycache__/
+qa/concat.txt
