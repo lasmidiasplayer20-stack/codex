@@ -1,0 +1,1447 @@
+{
+  "duration": 150,
+  "chapters": [
+    {
+      "start": 0,
+      "end": 25,
+      "title": "The delivery",
+      "mode": "continuous-directed"
+    },
+    {
+      "start": 25,
+      "end": 50,
+      "title": "A bad launch",
+      "mode": "continuous-directed"
+    },
+    {
+      "start": 50,
+      "end": 75,
+      "title": "Catch the cart",
+      "mode": "continuous-directed"
+    },
+    {
+      "start": 75,
+      "end": 100,
+      "title": "Hold on",
+      "mode": "continuous-directed"
+    },
+    {
+      "start": 100,
+      "end": 125,
+      "title": "One more try",
+      "mode": "continuous-directed"
+    },
+    {
+      "start": 125,
+      "end": 150,
+      "title": "Leave it alone",
+      "mode": "continuous-directed"
+    }
+  ],
+  "events": [
+    {
+      "id": "step-amber-312-1",
+      "t": 2.6,
+      "type": "step",
+      "x": 562.2010995370371,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-hero-383-1",
+      "t": 3.191666666666667,
+      "type": "step",
+      "x": 832.0422573061344,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "delivery-bump",
+      "t": 4.8,
+      "type": "heavy",
+      "x": 680,
+      "y": 765,
+      "cause": null,
+      "power": 1
+    },
+    {
+      "id": "first-bounce",
+      "t": 6,
+      "type": "bounce",
+      "x": 820,
+      "y": 795,
+      "cause": "delivery-bump",
+      "power": 1
+    },
+    {
+      "id": "second-bounce",
+      "t": 6.65,
+      "type": "bounce",
+      "x": 890,
+      "y": 795,
+      "cause": "first-bounce",
+      "power": 1
+    },
+    {
+      "id": "third-bounce",
+      "t": 7.05,
+      "type": "bounce",
+      "x": 930,
+      "y": 795,
+      "cause": "second-bounce",
+      "power": 1
+    },
+    {
+      "id": "step-amber-872-1",
+      "t": 7.266666666666667,
+      "type": "step",
+      "x": 664.9247376057571,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-hero-910-1",
+      "t": 7.583333333333333,
+      "type": "step",
+      "x": 862.131521133402,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "switch-hit",
+      "t": 7.65,
+      "type": "switch",
+      "x": 1080,
+      "y": 748,
+      "cause": "third-bounce",
+      "power": 1
+    },
+    {
+      "id": "belt-start",
+      "t": 7.7,
+      "type": "motor",
+      "x": 900,
+      "y": 805,
+      "cause": "switch-hit",
+      "power": 1
+    },
+    {
+      "id": "step-amber-980-0",
+      "t": 8.166666666666666,
+      "type": "step",
+      "x": 719.5642014159725,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-amber-1083-1",
+      "t": 9.025,
+      "type": "step",
+      "x": 774.8213810935274,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "core-caught",
+      "t": 10.8,
+      "type": "catch",
+      "x": 925,
+      "y": 704,
+      "cause": "switch-hit",
+      "power": 1
+    },
+    {
+      "id": "step-amber-1333-1",
+      "t": 11.108333333333333,
+      "type": "step",
+      "x": 707.5157194412294,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "amber-slip",
+      "t": 11.2,
+      "type": "slip",
+      "x": 730,
+      "y": 800,
+      "cause": "belt-start",
+      "power": 1
+    },
+    {
+      "id": "step-amber-1759-1",
+      "t": 14.658333333333333,
+      "type": "step",
+      "x": 772.0060189848949,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-amber-1906-0",
+      "t": 15.883333333333333,
+      "type": "step",
+      "x": 827.1792618312757,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-amber-2055-1",
+      "t": 17.125,
+      "type": "step",
+      "x": 882.0758493682484,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "amber-stop",
+      "t": 18.2,
+      "type": "step",
+      "x": 890,
+      "y": 806,
+      "cause": "amber-slip",
+      "power": 1
+    },
+    {
+      "id": "step-amber-2460-1",
+      "t": 20.5,
+      "type": "step",
+      "x": 806.7244444444444,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-cyan-2461-1",
+      "t": 20.508333333333333,
+      "type": "step",
+      "x": 917.4094048996914,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-hero-2519-1",
+      "t": 20.991666666666667,
+      "type": "step",
+      "x": 817.9306328232169,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-amber-2633-0",
+      "t": 21.941666666666666,
+      "type": "step",
+      "x": 751.7464042386831,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-cyan-2642-0",
+      "t": 22.016666666666666,
+      "type": "step",
+      "x": 862.4044347565159,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-amber-2837-1",
+      "t": 23.641666666666666,
+      "type": "step",
+      "x": 696.779255,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-cyan-2850-1",
+      "t": 23.75,
+      "type": "step",
+      "x": 807.4516782407408,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-cyan-3001-0",
+      "t": 25.008333333333333,
+      "type": "step",
+      "x": 752.5281820370371,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-cyan-3088-1",
+      "t": 25.733333333333334,
+      "type": "step",
+      "x": 697.425588148148,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-hero-3109-1",
+      "t": 25.908333333333335,
+      "type": "step",
+      "x": 730.1811114728008,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-cyan-3160-0",
+      "t": 26.333333333333332,
+      "type": "step",
+      "x": 642.0014814814816,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-amber-3176-1",
+      "t": 26.466666666666665,
+      "type": "step",
+      "x": 782.3291851851851,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-hero-3233-0",
+      "t": 26.941666666666666,
+      "type": "step",
+      "x": 675.2624497251157,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-cyan-3241-1",
+      "t": 27.008333333333333,
+      "type": "step",
+      "x": 587.1930264814815,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-amber-3331-0",
+      "t": 27.758333333333333,
+      "type": "step",
+      "x": 837.1845740499615,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "place-first",
+      "t": 28.8,
+      "type": "catch",
+      "x": 710,
+      "y": 759,
+      "cause": "core-caught",
+      "power": 1
+    },
+    {
+      "id": "step-amber-3495-1",
+      "t": 29.125,
+      "type": "step",
+      "x": 892.2780212228455,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-cyan-3565-1",
+      "t": 29.708333333333332,
+      "type": "step",
+      "x": 672.1116661942555,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-cyan-3708-0",
+      "t": 30.9,
+      "type": "step",
+      "x": 727.1763265306122,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "lever-first",
+      "t": 31.5,
+      "type": "spring",
+      "x": 930,
+      "y": 775,
+      "cause": "place-first",
+      "power": 1
+    },
+    {
+      "id": "step-cyan-3841-1",
+      "t": 32.00833333333333,
+      "type": "step",
+      "x": 782.3094383030991,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-cyan-3982-0",
+      "t": 33.18333333333333,
+      "type": "step",
+      "x": 837.2728609221465,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "rail-hit",
+      "t": 33.2,
+      "type": "metal",
+      "x": 1100,
+      "y": 580,
+      "cause": "lever-first",
+      "power": 1
+    },
+    {
+      "id": "step-hero-4013-1",
+      "t": 33.44166666666667,
+      "type": "step",
+      "x": 712.5102885462222,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-hero-4112-0",
+      "t": 34.266666666666666,
+      "type": "step",
+      "x": 767.6550970017635,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "cart-catch",
+      "t": 34.3,
+      "type": "heavy",
+      "x": 942.08,
+      "y": 719,
+      "cause": "rail-hit",
+      "power": 1
+    },
+    {
+      "id": "step-cyan-4173-1",
+      "t": 34.775,
+      "type": "step",
+      "x": 892.0753698979591,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-amber-4174-1",
+      "t": 34.78333333333333,
+      "type": "step",
+      "x": 1012.0281157671203,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-hero-4191-1",
+      "t": 34.925,
+      "type": "step",
+      "x": 822.4285881696426,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-hero-4383-0",
+      "t": 36.525,
+      "type": "step",
+      "x": 877.5757523148148,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-cyan-4648-1",
+      "t": 38.733333333333334,
+      "type": "step",
+      "x": 956.2073456790124,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "brake-released",
+      "t": 39,
+      "type": "click",
+      "x": 1030,
+      "y": 750,
+      "cause": "cart-catch",
+      "power": 1
+    },
+    {
+      "id": "step-cyan-4723-0",
+      "t": 39.358333333333334,
+      "type": "step",
+      "x": 1011.4973576147763,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-cyan-4782-1",
+      "t": 39.85,
+      "type": "step",
+      "x": 1066.1602711486819,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "buffer-hit",
+      "t": 43,
+      "type": "heavy",
+      "x": 1050,
+      "y": 770,
+      "cause": "brake-released",
+      "power": 1
+    },
+    {
+      "id": "step-amber-5185-1",
+      "t": 43.208333333333336,
+      "type": "step",
+      "x": 964.7152687355324,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "rebound-left",
+      "t": 44,
+      "type": "roll",
+      "x": 970,
+      "y": 800,
+      "cause": "buffer-hit",
+      "power": 1
+    },
+    {
+      "id": "step-cyan-5290-1",
+      "t": 44.083333333333336,
+      "type": "step",
+      "x": 997.657841435185,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-amber-5352-0",
+      "t": 44.6,
+      "type": "step",
+      "x": 909.64,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-hero-5384-1",
+      "t": 44.86666666666667,
+      "type": "step",
+      "x": 817.4596982167352,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-cyan-5400-0",
+      "t": 45,
+      "type": "step",
+      "x": 943,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-hero-5476-0",
+      "t": 45.63333333333333,
+      "type": "step",
+      "x": 762.4198542524006,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-amber-5496-1",
+      "t": 45.8,
+      "type": "step",
+      "x": 854.6800000000002,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-cyan-5545-1",
+      "t": 46.208333333333336,
+      "type": "step",
+      "x": 887.9488962432484,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-hero-5574-1",
+      "t": 46.45,
+      "type": "step",
+      "x": 707.7683969907407,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-amber-5653-0",
+      "t": 47.108333333333334,
+      "type": "step",
+      "x": 799.9116452867798,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-hero-6175-1",
+      "t": 51.458333333333336,
+      "type": "step",
+      "x": 618.6573109567901,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-amber-6188-1",
+      "t": 51.56666666666667,
+      "type": "step",
+      "x": 872.050200617284,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-cyan-6191-1",
+      "t": 51.59166666666667,
+      "type": "step",
+      "x": 797.8556755461515,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-hero-6320-0",
+      "t": 52.666666666666664,
+      "type": "step",
+      "x": 563.476910340856,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-cyan-6342-0",
+      "t": 52.85,
+      "type": "step",
+      "x": 742.7773632812499,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "hero-braces",
+      "t": 54,
+      "type": "skid",
+      "x": 565,
+      "y": 806,
+      "cause": "rebound-left",
+      "power": 1
+    },
+    {
+      "id": "step-amber-6480-0",
+      "t": 54,
+      "type": "step",
+      "x": 927,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-amber-6629-1",
+      "t": 55.24166666666667,
+      "type": "step",
+      "x": 982.1050481047453,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-amber-6779-0",
+      "t": 56.49166666666667,
+      "type": "step",
+      "x": 1037.2017596209494,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-hero-6788-1",
+      "t": 56.56666666666667,
+      "type": "step",
+      "x": 647.8698746141977,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-cyan-6793-1",
+      "t": 56.608333333333334,
+      "type": "step",
+      "x": 825.0973936330538,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-hero-6896-0",
+      "t": 57.46666666666667,
+      "type": "step",
+      "x": 703.0075308641977,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-cyan-6900-0",
+      "t": 57.5,
+      "type": "step",
+      "x": 880.26171875,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-hero-6990-1",
+      "t": 58.25,
+      "type": "step",
+      "x": 757.46142578125,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-cyan-6995-1",
+      "t": 58.291666666666664,
+      "type": "step",
+      "x": 935.3750821337286,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-hero-7089-0",
+      "t": 59.075,
+      "type": "step",
+      "x": 812.822067871094,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-cyan-7094-0",
+      "t": 59.11666666666667,
+      "type": "step",
+      "x": 990.4118472704477,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-hero-7217-1",
+      "t": 60.141666666666666,
+      "type": "step",
+      "x": 867.7376384602195,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-cyan-7225-1",
+      "t": 60.208333333333336,
+      "type": "step",
+      "x": 1045.3255637002744,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-hero-7474-0",
+      "t": 62.28333333333333,
+      "type": "step",
+      "x": 922.5102126200275,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-cyan-7495-0",
+      "t": 62.458333333333336,
+      "type": "step",
+      "x": 1100.073827589163,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "brake-held",
+      "t": 62.8,
+      "type": "switch",
+      "x": 1100,
+      "y": 725,
+      "cause": "hero-braces",
+      "power": 1
+    },
+    {
+      "id": "cart-stop",
+      "t": 63,
+      "type": "heavy",
+      "x": 1000,
+      "y": 780,
+      "cause": "brake-held",
+      "power": 1
+    },
+    {
+      "id": "ring-capture",
+      "t": 64.2,
+      "type": "magnet",
+      "x": 1090,
+      "y": 540,
+      "cause": "cart-stop",
+      "power": 1
+    },
+    {
+      "id": "step-amber-7883-1",
+      "t": 65.69166666666666,
+      "type": "step",
+      "x": 976.4593530574846,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-amber-8019-0",
+      "t": 66.825,
+      "type": "step",
+      "x": 921.4372330729166,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-amber-8146-1",
+      "t": 67.88333333333334,
+      "type": "step",
+      "x": 866.254337384259,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "field-rises",
+      "t": 69,
+      "type": "gravity",
+      "x": 1090,
+      "y": 540,
+      "cause": "ring-capture",
+      "power": 1
+    },
+    {
+      "id": "step-amber-8286-0",
+      "t": 69.05,
+      "type": "step",
+      "x": 811.2809375,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "safety-line",
+      "t": 77,
+      "type": "rope",
+      "x": 800,
+      "y": 560,
+      "cause": "field-rises",
+      "power": 1
+    },
+    {
+      "id": "amber-push",
+      "t": 79.6,
+      "type": "whoosh",
+      "x": 790,
+      "y": 450,
+      "cause": "safety-line",
+      "power": 1
+    },
+    {
+      "id": "core-released",
+      "t": 87.4,
+      "type": "release",
+      "x": 1090,
+      "y": 540,
+      "cause": "amber-push",
+      "power": 1
+    },
+    {
+      "id": "cyan-catch",
+      "t": 88.4,
+      "type": "catch",
+      "x": 935,
+      "y": 566,
+      "cause": "core-released",
+      "power": 1
+    },
+    {
+      "id": "amber-land",
+      "t": 93.5,
+      "type": "land",
+      "x": 1040,
+      "y": 806,
+      "cause": "core-released",
+      "power": 1
+    },
+    {
+      "id": "cyan-land",
+      "t": 94.2,
+      "type": "land",
+      "x": 970,
+      "y": 806,
+      "cause": "cyan-catch",
+      "power": 1
+    },
+    {
+      "id": "hero-land",
+      "t": 94.5,
+      "type": "land",
+      "x": 850,
+      "y": 806,
+      "cause": "safety-line",
+      "power": 1
+    },
+    {
+      "id": "step-cyan-12297-1",
+      "t": 102.475,
+      "type": "step",
+      "x": 887.9209375,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-cyan-12504-0",
+      "t": 104.2,
+      "type": "step",
+      "x": 832.8349999999998,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-hero-12557-1",
+      "t": 104.64166666666667,
+      "type": "step",
+      "x": 991.9744406240957,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-cyan-12698-1",
+      "t": 105.81666666666666,
+      "type": "step",
+      "x": 777.8590373960478,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "plate-on",
+      "t": 108,
+      "type": "click",
+      "x": 1100,
+      "y": 805,
+      "cause": "cyan-catch",
+      "power": 1
+    },
+    {
+      "id": "step-cyan-13045-0",
+      "t": 108.70833333333333,
+      "type": "step",
+      "x": 722.9077539385103,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-amber-13073-1",
+      "t": 108.94166666666666,
+      "type": "step",
+      "x": 1012.2487392403982,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-amber-13188-0",
+      "t": 109.9,
+      "type": "step",
+      "x": 957.2154074074072,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-hero-13233-1",
+      "t": 110.275,
+      "type": "step",
+      "x": 919.5911162499997,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "place-second",
+      "t": 110.5,
+      "type": "catch",
+      "x": 710,
+      "y": 759,
+      "cause": "plate-on",
+      "power": 1
+    },
+    {
+      "id": "step-hero-13336-0",
+      "t": 111.13333333333334,
+      "type": "step",
+      "x": 864.7279071604934,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "lever-ready",
+      "t": 115,
+      "type": "spring",
+      "x": 930,
+      "y": 775,
+      "cause": "place-second",
+      "power": 1
+    },
+    {
+      "id": "launch-controlled",
+      "t": 116,
+      "type": "whoosh",
+      "x": 710,
+      "y": 740,
+      "cause": "lever-ready",
+      "power": 1
+    },
+    {
+      "id": "step-amber-14215-1",
+      "t": 118.45833333333333,
+      "type": "step",
+      "x": 1015.4667031035664,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "core-docked",
+      "t": 118.6,
+      "type": "resolve",
+      "x": 1370,
+      "y": 630,
+      "cause": "launch-controlled",
+      "power": 1
+    },
+    {
+      "id": "step-cyan-14253-1",
+      "t": 118.775,
+      "type": "step",
+      "x": 775.226746961806,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "bridge-unlocks",
+      "t": 119,
+      "type": "bridge",
+      "x": 1260,
+      "y": 810,
+      "cause": "core-docked",
+      "power": 1
+    },
+    {
+      "id": "step-hero-14355-1",
+      "t": 119.625,
+      "type": "step",
+      "x": 927.0351709855107,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-cyan-14361-0",
+      "t": 119.675,
+      "type": "step",
+      "x": 830.5029188368055,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-amber-14385-0",
+      "t": 119.875,
+      "type": "step",
+      "x": 1070.392650462963,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-cyan-14457-1",
+      "t": 120.475,
+      "type": "step",
+      "x": 885.4692382812497,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-hero-14467-0",
+      "t": 120.55833333333334,
+      "type": "step",
+      "x": 981.912186525571,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-amber-14477-1",
+      "t": 120.64166666666667,
+      "type": "step",
+      "x": 1125.8446469907408,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-cyan-14573-0",
+      "t": 121.44166666666666,
+      "type": "step",
+      "x": 940.1878038503085,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-hero-14584-1",
+      "t": 121.53333333333333,
+      "type": "step",
+      "x": 1036.8100411522632,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "hero-stops-amber",
+      "t": 122,
+      "type": "skid",
+      "x": 1120,
+      "y": 806,
+      "cause": "bridge-unlocks",
+      "power": 1
+    },
+    {
+      "id": "step-hero-14709-0",
+      "t": 122.575,
+      "type": "step",
+      "x": 1091.877802734375,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-cyan-14713-1",
+      "t": 122.60833333333333,
+      "type": "step",
+      "x": 995.3178259182099,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-hero-15083-1",
+      "t": 125.69166666666666,
+      "type": "step",
+      "x": 1169.4007547260799,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "brake-kicked",
+      "t": 125.8,
+      "type": "click",
+      "x": 1110,
+      "y": 760,
+      "cause": "bridge-unlocks",
+      "power": 1
+    },
+    {
+      "id": "step-hero-15201-0",
+      "t": 126.675,
+      "type": "step",
+      "x": 1224.56171875,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "plate-off",
+      "t": 126.8,
+      "type": "ratchet",
+      "x": 1100,
+      "y": 805,
+      "cause": "brake-kicked",
+      "power": 1
+    },
+    {
+      "id": "bridge-wobbles",
+      "t": 127.5,
+      "type": "bridge",
+      "x": 1250,
+      "y": 810,
+      "cause": "plate-off",
+      "power": 1
+    },
+    {
+      "id": "step-cyan-15308-1",
+      "t": 127.56666666666666,
+      "type": "step",
+      "x": 957.8656623746145,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "hands-help",
+      "t": 128.5,
+      "type": "rope",
+      "x": 1170,
+      "y": 710,
+      "cause": "bridge-wobbles",
+      "power": 1
+    },
+    {
+      "id": "cart-returned",
+      "t": 132,
+      "type": "click",
+      "x": 1100,
+      "y": 805,
+      "cause": "plate-off",
+      "power": 1
+    },
+    {
+      "id": "brake-latched",
+      "t": 133,
+      "type": "metal",
+      "x": 1060,
+      "y": 800,
+      "cause": "cart-returned",
+      "power": 1
+    },
+    {
+      "id": "bridge-secure",
+      "t": 133.5,
+      "type": "chime",
+      "x": 1260,
+      "y": 810,
+      "cause": "brake-latched",
+      "power": 1
+    },
+    {
+      "id": "step-amber-16041-1",
+      "t": 133.675,
+      "type": "step",
+      "x": 1215.461784166667,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-hero-16099-1",
+      "t": 134.15833333333333,
+      "type": "step",
+      "x": 1296.2044329012344,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-cyan-16114-1",
+      "t": 134.28333333333333,
+      "type": "step",
+      "x": 1087.5268972908095,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-amber-16211-0",
+      "t": 135.09166666666667,
+      "type": "step",
+      "x": 1270.3278687414268,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-hero-16270-0",
+      "t": 135.58333333333334,
+      "type": "step",
+      "x": 1351.1711998456792,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-cyan-16278-0",
+      "t": 135.65,
+      "type": "step",
+      "x": 1142.8693750000002,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-amber-16394-1",
+      "t": 136.61666666666667,
+      "type": "step",
+      "x": 1325.4936611796984,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-cyan-16418-1",
+      "t": 136.81666666666666,
+      "type": "step",
+      "x": 1197.6386736968448,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-hero-16436-1",
+      "t": 136.96666666666667,
+      "type": "step",
+      "x": 1406.201672839506,
+      "y": 806,
+      "power": 0.25,
+      "name": "hero"
+    },
+    {
+      "id": "step-cyan-16530-0",
+      "t": 137.75,
+      "type": "step",
+      "x": 1252.634765625,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-amber-16571-0",
+      "t": 138.09166666666667,
+      "type": "step",
+      "x": 1380.5977270206408,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-cyan-16634-1",
+      "t": 138.61666666666667,
+      "type": "step",
+      "x": 1307.8883265817906,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "step-amber-16721-1",
+      "t": 139.34166666666667,
+      "type": "step",
+      "x": 1435.6089574893904,
+      "y": 806,
+      "power": 0.25,
+      "name": "amber"
+    },
+    {
+      "id": "step-cyan-16819-0",
+      "t": 140.15833333333333,
+      "type": "step",
+      "x": 1362.5127102141203,
+      "y": 806,
+      "power": 0.25,
+      "name": "cyan"
+    },
+    {
+      "id": "amber-reaches",
+      "t": 144,
+      "type": "click",
+      "x": 1400,
+      "y": 650,
+      "cause": "core-docked",
+      "power": 1
+    },
+    {
+      "id": "hands-stop",
+      "t": 145,
+      "type": "tap",
+      "x": 1400,
+      "y": 690,
+      "cause": "amber-reaches",
+      "power": 1
+    },
+    {
+      "id": "surrender",
+      "t": 148,
+      "type": "chime",
+      "x": 1430,
+      "y": 690,
+      "cause": "hands-stop",
+      "power": 1
+    }
+  ]
+}

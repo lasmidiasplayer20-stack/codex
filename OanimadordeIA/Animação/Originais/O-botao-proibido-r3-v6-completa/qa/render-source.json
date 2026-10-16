@@ -1,0 +1,13 @@
+{
+  "files": {
+    "src/story-v6.js": "fafb461a04edf39277e7ac04a83a2596ac4d9b95903a4a471a7328a63d91acdd",
+    "src/rig-v6.js": "7e2ef325d58efbde27039ac83655a919f1b7bbc277ebd1df582c23f17e40cca2",
+    "src/model.js": "a5f4fad71374fdaa6e403467aa6537aad0d38e8fd1dd9a3011dc27bb2d216501",
+    "src/rig-adapter.js": "7b3f929539363892772ec83f94e334af2dc16f0036b1a4ada464f794247e70a3",
+    "src/legacy-renderer.js": "50ca1a691c32da960486f14eec04ab7e34f07e03622fc4764239084643cf091f",
+    "src/math.js": "e2c6bd18868dd1f4a011df1c2f8a421f19cc40854a2e1488cced1e8dbe4c609f",
+    "vendor/rig-controller.js": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db",
+    "src/world-v6.js": "264a6cc3bc5b6fdc181ab40c5131405def55c729ba47477c20ee0d21b99a55da"
+  },
+  "sampling": "six 25-second sections sampled at absolute frame/60; original render.mjs; CRF19; no time remapping"
+}

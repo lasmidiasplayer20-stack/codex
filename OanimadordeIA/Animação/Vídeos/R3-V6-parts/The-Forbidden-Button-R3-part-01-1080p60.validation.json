@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "file": "The-Forbidden-Button-R3-part-01-1080p60.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 1500,
+  "duration": 25,
+  "format_duration": 25,
+  "audio": "AAC stereo 48kHz; reused authentic ElevenLabs event effects plus procedural score and supplementary tones",
+  "full_decode": "passed",
+  "bytes": 5661844,
+  "sha256": "f12135332054bd2c348e7e197ab41e084392e6cb78efbbc4b767edd673c30a9b"
+}

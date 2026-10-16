@@ -1,0 +1,7 @@
+# V6 — continuidade e atuação natural
+Pedido de 15/10/2026: refazer a narrativa em 150s, sem acelerar a animação. Mais acontecimentos conectados, interações, movimentos naturais e correção de poses travadas. Três personagens, seis partes de 25s, 1080p60, 9000 frames. Todos os textos visíveis em inglês.
+Use estado e posições persistentes em toda a história, inclusive nos limites de 25s. Preserve FK, perfil e funções de desenho originais. As fontes anteriores estão preservadas em preserved/ e nas pastas irmãs.
+Execute npm test, revise sequências temporais e contatos, valide os sete MP4 e publique somente esta nova pasta V6 no branch já autorizado. Não alegue avaliação auditiva humana sem realizá-la.
+
+## Current adaptation — user requirements
+This folder is the complete V6 project, adapted only through scenery/editorial changes and soundtrack. Preserve the original story timeline, characters, poses, contacts, camera, rig, physics choreography and drawing byte for byte. The user explicitly confirmed retaining the original 150s timing for this scenery-only revision; do not speed up or pad it. All new visible text and documentation must be English. Deliver every new MP4 into ../../Vídeos, using revision names; historical exports are retained as reference and must not be presented as this revision. Keep internal renders outside the checkout. Always link the GitHub Vídeos folder when delivering the complete export. Reuse authentic ElevenLabs assets with provenance; never claim a new API generation without evidence. Never print or commit credentials.
