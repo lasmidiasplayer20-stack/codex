@@ -1,0 +1,34 @@
+{
+  "duration": 210,
+  "fps": 60,
+  "frames": 12600,
+  "actors": 3,
+  "samples": 37800,
+  "finite": true,
+  "maxBoneError": 2.1671553440683056e-13,
+  "maxContactError": 2.5421149729252077e-13,
+  "maxRootStep": 6.6300145727521205,
+  "maxJointStep": 30.577041734338017,
+  "contacts": 7925,
+  "chapterBoundaryMaxDistance": 0.0025301941087596926,
+  "events": 38,
+  "footsteps": 51,
+  "errors": [],
+  "longestQuietSeconds": 3.016666666666661,
+  "activeSeconds": 184.3833333333722,
+  "worstJointStep": {
+    "n": "amber",
+    "t": 108.8,
+    "j": 4,
+    "d": 30.577041734338017
+  },
+  "worstRootStep": {
+    "n": "hero",
+    "t": 135.75,
+    "d": 6.6300145727521205
+  },
+  "causal": true,
+  "deterministic": true,
+  "sourceHash": "4929a0ce5deaff95915fa7eb38f17306a9658d6041844925ebd7793ab388f4fa",
+  "pageErrors": []
+}

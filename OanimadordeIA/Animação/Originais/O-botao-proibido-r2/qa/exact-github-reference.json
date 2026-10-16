@@ -1,0 +1,108 @@
+{
+  "commit": "1c6dce3d232179e41629414db70513dc69205853",
+  "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/",
+  "files": [
+    {
+      "file": "AGENTS.md",
+      "bytes": 733,
+      "sha256": "02265ee44d7c1e17c0f7850635fd214f0f2fcbb865406853efbbcc1c1a7516fd",
+      "sameAsLocalReference": false
+    },
+    {
+      "file": "README.md",
+      "bytes": 2038,
+      "sha256": "bc5b4b6a3ddc6c3b995f81b6802366bd8d8f43106759af27c2ec04e6f117c5ae",
+      "sameAsLocalReference": true
+    },
+    {
+      "file": "RELATORIO.md",
+      "bytes": 3914,
+      "sha256": "f22008e4de00e59c3cfc15555b202efa4d3765f69f580bc0bd645ead24e42791",
+      "sameAsLocalReference": true
+    },
+    {
+      "file": "docs/ROTEIRO-V6.md",
+      "bytes": 3048,
+      "sha256": "7cfe78fa926b59ad012a47f3d8bb4bdff6ac221bde55dcf5a8ca4d4429981dc1",
+      "sameAsLocalReference": true
+    },
+    {
+      "file": "exports/audio-generation-v6.json",
+      "bytes": 195,
+      "sha256": "a1e4357d9e69ec00a7f3e1c9bceee5fa8129964a9c264af98946bda7425177a3",
+      "sameAsLocalReference": true
+    },
+    {
+      "file": "exports/rig-and-continuity-v6.json",
+      "bytes": 543,
+      "sha256": "6a7a98cfdfe41eaa05916b3fc75d9efca058a4ded4d8de2c5f76ff4581f22617",
+      "sameAsLocalReference": true
+    },
+    {
+      "file": "exports/story-and-events-v6.json",
+      "bytes": 28165,
+      "sha256": "940b14eb51771560bb5726f5e793c075a8e9012e7e0c5b04d3d262558604dc8b",
+      "sameAsLocalReference": true
+    },
+    {
+      "file": "exports/visual-review-v6.json",
+      "bytes": 1402,
+      "sha256": "6a1474ffe6c57134a0cf22662b185cbccf821a7a3028ddb66a13901da2077475",
+      "sameAsLocalReference": true
+    },
+    {
+      "file": "src/legacy-renderer.js",
+      "bytes": 2298,
+      "sha256": "50ca1a691c32da960486f14eec04ab7e34f07e03622fc4764239084643cf091f",
+      "sameAsLocalReference": true
+    },
+    {
+      "file": "src/math.js",
+      "bytes": 466,
+      "sha256": "e2c6bd18868dd1f4a011df1c2f8a421f19cc40854a2e1488cced1e8dbe4c609f",
+      "sameAsLocalReference": true
+    },
+    {
+      "file": "src/model.js",
+      "bytes": 199,
+      "sha256": "a5f4fad71374fdaa6e403467aa6537aad0d38e8fd1dd9a3011dc27bb2d216501",
+      "sameAsLocalReference": true
+    },
+    {
+      "file": "src/player-v6.js",
+      "bytes": 1207,
+      "sha256": "c38660076db2170093353db8accc73f6e104652e2da0b738ea2761e3f2fd4f8c",
+      "sameAsLocalReference": true
+    },
+    {
+      "file": "src/rig-adapter.js",
+      "bytes": 7668,
+      "sha256": "7b3f929539363892772ec83f94e334af2dc16f0036b1a4ada464f794247e70a3",
+      "sameAsLocalReference": true
+    },
+    {
+      "file": "src/rig-v6.js",
+      "bytes": 10160,
+      "sha256": "7e2ef325d58efbde27039ac83655a919f1b7bbc277ebd1df582c23f17e40cca2",
+      "sameAsLocalReference": true
+    },
+    {
+      "file": "src/story-v6.js",
+      "bytes": 13719,
+      "sha256": "fafb461a04edf39277e7ac04a83a2596ac4d9b95903a4a471a7328a63d91acdd",
+      "sameAsLocalReference": true
+    },
+    {
+      "file": "src/world-v6.js",
+      "bytes": 9317,
+      "sha256": "be11ca7a328f83a8911942594769fb8126e29b8f33046e9d3a3f0f25ee1cb0e5",
+      "sameAsLocalReference": true
+    },
+    {
+      "file": "tests/story-v6.mjs",
+      "bytes": 3016,
+      "sha256": "de417436d46484c9127f884759c763e488a6192f241081cf47b9057d7d15b84d",
+      "sameAsLocalReference": true
+    }
+  ]
+}
