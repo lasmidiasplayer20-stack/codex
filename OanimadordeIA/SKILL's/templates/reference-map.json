@@ -1,0 +1,24 @@
+{
+  "reference": {
+    "file": "",
+    "duration": null,
+    "fps": null,
+    "role": "characters-and-motion-only"
+  },
+  "newStory": "",
+  "shots": [
+    {
+      "start": 0,
+      "end": 5,
+      "action": "",
+      "anticipation": "",
+      "contacts": [],
+      "rootTrajectory": [],
+      "camera": {},
+      "propsPersistentState": {},
+      "soundEvents": [],
+      "referenceTimes": []
+    }
+  ],
+  "notes": "Replace placeholder actions; never inherit the example screenplay by accident."
+}

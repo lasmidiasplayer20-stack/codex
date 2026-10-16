@@ -1,0 +1,1898 @@
+{
+  "formatVersion": 1,
+  "skill": "animacao-personagens-fisica",
+  "sourceCommits": {
+    "buttonR4": "0590992d69661f0e42ad9d86320b229f96f776f4",
+    "referenceV6": "1c6dce3d232179e41629414db70513dc69205853"
+  },
+  "scope": "Complete R4 project, original V6 source/review/configuration, original character and audio assets, both full reference films, reusable workflow and portable project tools. Regenerable WAVs, duplicate old ZIPs and individual reference MP4 parts are omitted.",
+  "files": [
+    {
+      "path": ".gitignore",
+      "bytes": 26,
+      "sha256": "2e475f45b3852561e462487d4a8a6f3aba376a2812ed28dde63da9a0a6b8d9b5",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "README.md",
+      "bytes": 4017,
+      "sha256": "229b139c47cbae67c2c072ba411d7bc1f46a22627e8357da61e90feb3ced7ce5",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "SKILL.md",
+      "bytes": 6310,
+      "sha256": "6a599d4a6dabad147e13569bce9f3bfdb61599c9e22e83e36970d41691cda842",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "VALIDACAO.md",
+      "bytes": 2859,
+      "sha256": "e1b238cddc3c18f229ac9dee1249fb18497535ec8a7f3f053e3dcdefce9ab689",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "assets/button-r4/.gitignore",
+      "bytes": 38,
+      "sha256": "d695de42016cb1983b9c5cf268875fdf9fd1171af43d967b90535474c840e6a6",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/.gitignore"
+      }
+    },
+    {
+      "path": "assets/button-r4/AGENTS.md",
+      "bytes": 1085,
+      "sha256": "2898d71932e7cc90b5cf5250b50b6b0e51299a5273013f738aa71ddf3e82b533",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/AGENTS.md"
+      }
+    },
+    {
+      "path": "assets/button-r4/README.md",
+      "bytes": 3332,
+      "sha256": "63cc3bf3dabbd70d847dffeaa3eb30f6a59dc11d89fb9fab6683d9962ed1a9fe",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/README.md"
+      }
+    },
+    {
+      "path": "assets/button-r4/REPORT.md",
+      "bytes": 4556,
+      "sha256": "954236c6bc8f1dccd443acd7d70d109972e45a0aec9c12141ca24a38ef43de9c",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/REPORT.md"
+      }
+    },
+    {
+      "path": "assets/button-r4/audio/elevenlabs/boing.mp3",
+      "bytes": 17179,
+      "sha256": "f9bd0a6871ea38b544ce91f3ff9abe0dff4cffb91661280fe44f9cdc264079c3",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/audio/elevenlabs/boing.mp3"
+      }
+    },
+    {
+      "path": "assets/button-r4/audio/elevenlabs/bounce.mp3",
+      "bytes": 21358,
+      "sha256": "731d4f54a2b174a13be0ca32a8e95dc36fe5a9f7a46aa7af46069f559f1446fe",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/audio/elevenlabs/bounce.mp3"
+      }
+    },
+    {
+      "path": "assets/button-r4/audio/elevenlabs/catch.mp3",
+      "bytes": 17179,
+      "sha256": "4b856026099dcb8a0d4bc274e4d1c90f68669a82b2d9c0d3b01f0487cad6ad07",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/audio/elevenlabs/catch.mp3"
+      }
+    },
+    {
+      "path": "assets/button-r4/audio/elevenlabs/chime.mp3",
+      "bytes": 24702,
+      "sha256": "949881b8f60a0c057115e28812e17d0dccdde873f1875f792cb3e006884318ff",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/audio/elevenlabs/chime.mp3"
+      }
+    },
+    {
+      "path": "assets/button-r4/audio/elevenlabs/clap.mp3",
+      "bytes": 17179,
+      "sha256": "ad0a883de78842dafd3b9968d215b62048b7fb4a41298cbe8518b9d540579d66",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/audio/elevenlabs/clap.mp3"
+      }
+    },
+    {
+      "path": "assets/button-r4/audio/elevenlabs/click.mp3",
+      "bytes": 17179,
+      "sha256": "18145498d6cfacc43eccf69e00836a58138164e668bc78c6565d21895e834a7c",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/audio/elevenlabs/click.mp3"
+      }
+    },
+    {
+      "path": "assets/button-r4/audio/elevenlabs/crash.mp3",
+      "bytes": 24702,
+      "sha256": "2eed5507b20b2e1b93da8affb109365493c9010cd08a26920d174c30874ee169",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/audio/elevenlabs/crash.mp3"
+      }
+    },
+    {
+      "path": "assets/button-r4/audio/elevenlabs/electric.mp3",
+      "bytes": 24702,
+      "sha256": "4a457ffb5697880559a14fb4e5931f17ce6361f0b8e4afc6de023bfd1e470424",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/audio/elevenlabs/electric.mp3"
+      }
+    },
+    {
+      "path": "assets/button-r4/audio/elevenlabs/land.mp3",
+      "bytes": 17179,
+      "sha256": "520c3dd8879c7c71de3f2031f63a2b038bac1906e814b183339f0fc984711619",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/audio/elevenlabs/land.mp3"
+      }
+    },
+    {
+      "path": "assets/button-r4/audio/elevenlabs/manifest.json",
+      "bytes": 9107,
+      "sha256": "b8c7b5618c680f8f0f3c9776975441573caea450a2c67c1f9fa10b4ccf58b1eb",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/audio/elevenlabs/manifest.json"
+      }
+    },
+    {
+      "path": "assets/button-r4/audio/elevenlabs/motor.mp3",
+      "bytes": 33061,
+      "sha256": "de3dbd0a168802982f2b54cc8440d36a05dbcd28563602a39ec02d989a2aa5d7",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/audio/elevenlabs/motor.mp3"
+      }
+    },
+    {
+      "path": "assets/button-r4/audio/elevenlabs/rewind.mp3",
+      "bytes": 33061,
+      "sha256": "ca521f791bdba7c5e14b5d6a745620e4c719c6822e56b1e28310e356e151e205",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/audio/elevenlabs/rewind.mp3"
+      }
+    },
+    {
+      "path": "assets/button-r4/audio/elevenlabs/roll.mp3",
+      "bytes": 33061,
+      "sha256": "c272b11e016e916eb69d91c9a01029c35f6caf0fbcad6c8708edbe099086c081",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/audio/elevenlabs/roll.mp3"
+      }
+    },
+    {
+      "path": "assets/button-r4/audio/elevenlabs/rope.mp3",
+      "bytes": 33061,
+      "sha256": "c2c9487f6032d71250881098a35a156e41efb56c99d802428f4519243ef0e2d7",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/audio/elevenlabs/rope.mp3"
+      }
+    },
+    {
+      "path": "assets/button-r4/audio/elevenlabs/spring.mp3",
+      "bytes": 24702,
+      "sha256": "7efb67309b1731aa30b0db36742852a7970df0192a27226cc930b297aff76355",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/audio/elevenlabs/spring.mp3"
+      }
+    },
+    {
+      "path": "assets/button-r4/audio/elevenlabs/step.mp3",
+      "bytes": 17179,
+      "sha256": "76e33c0c206eba15aae9b2c2ec7357bea4bb8981a89c7ae88b8566fc1223f5bb",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/audio/elevenlabs/step.mp3"
+      }
+    },
+    {
+      "path": "assets/button-r4/audio/elevenlabs/tap.mp3",
+      "bytes": 17179,
+      "sha256": "347371d87c622b8a1418fe20c05f9e6fbb8624dc92edc6e5d6202a95490f2000",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/audio/elevenlabs/tap.mp3"
+      }
+    },
+    {
+      "path": "assets/button-r4/audio/elevenlabs/whoosh.mp3",
+      "bytes": 17179,
+      "sha256": "315edccb739a1de123d03081cc9dd15dad6a02369eb7959d5d658a6872295b70",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/audio/elevenlabs/whoosh.mp3"
+      }
+    },
+    {
+      "path": "assets/button-r4/audio/generation.json",
+      "bytes": 20942,
+      "sha256": "bb07573873bec5c6dd759fa5f03742a33bd313a2dae6070b70e6b777f4dfa75a",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/audio/generation.json"
+      }
+    },
+    {
+      "path": "assets/button-r4/audio/trilha-original.m4a",
+      "bytes": 4820828,
+      "sha256": "5f44f5ecead6eba6d03041c124430fdbd1de06169c4411914fff87e555952386",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/audio/trilha-original.m4a"
+      }
+    },
+    {
+      "path": "assets/button-r4/index.html",
+      "bytes": 1268,
+      "sha256": "2ba52aaea846e968ee6946f8182a39e1c950402df09a0964f76dda155ce39864",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/index.html"
+      }
+    },
+    {
+      "path": "assets/button-r4/package-lock.json",
+      "bytes": 1761,
+      "sha256": "e59a8d488c46b77b056d627c031a388506dc21316b5a0f06f1f5406bc14a5111",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/package-lock.json"
+      }
+    },
+    {
+      "path": "assets/button-r4/package.json",
+      "bytes": 308,
+      "sha256": "e016ac951b40f7a27ff9afb3fa544b4e44ca5c640d81af2cf92e756e0b3a0b08",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/package.json"
+      }
+    },
+    {
+      "path": "assets/button-r4/preserved/reference-rig-and-continuity.json",
+      "bytes": 543,
+      "sha256": "6a7a98cfdfe41eaa05916b3fc75d9efca058a4ded4d8de2c5f76ff4581f22617",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/preserved/reference-rig-and-continuity.json"
+      }
+    },
+    {
+      "path": "assets/button-r4/preserved/rig-v6-source.js",
+      "bytes": 10160,
+      "sha256": "7e2ef325d58efbde27039ac83655a919f1b7bbc277ebd1df582c23f17e40cca2",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/preserved/rig-v6-source.js"
+      }
+    },
+    {
+      "path": "assets/button-r4/qa/audio-analysis.json",
+      "bytes": 263,
+      "sha256": "f71c5505039846a3324e233326f54f7153d5ff4eadb1f3b7936af7e4814e9cf9",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/qa/audio-analysis.json"
+      }
+    },
+    {
+      "path": "assets/button-r4/qa/boundary-100s.jpg",
+      "bytes": 72888,
+      "sha256": "4784ceec92f72e9446611416245cacc40eda724bebe5c8748a4d247fee61fe97",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/qa/boundary-100s.jpg"
+      }
+    },
+    {
+      "path": "assets/button-r4/qa/boundary-125s.jpg",
+      "bytes": 87691,
+      "sha256": "6e0fca4c6f45b3141c32776800c5d363c4fccceb448d2e04df201fa2237e8a30",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/qa/boundary-125s.jpg"
+      }
+    },
+    {
+      "path": "assets/button-r4/qa/boundary-25s.jpg",
+      "bytes": 93468,
+      "sha256": "526385c6bb3bda949279470f77bbfc19c17d327808600c0bb39e29dd5369b8ad",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/qa/boundary-25s.jpg"
+      }
+    },
+    {
+      "path": "assets/button-r4/qa/boundary-50s.jpg",
+      "bytes": 95200,
+      "sha256": "537c9fd9d9ce9880d71cd600a7f742028f12835b36c1f0740f9e7de4de5f8bc9",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/qa/boundary-50s.jpg"
+      }
+    },
+    {
+      "path": "assets/button-r4/qa/boundary-75s.jpg",
+      "bytes": 85905,
+      "sha256": "fe292a7c42a2e4a5148d5960bf886c8fc1dddd127f697948c60636bd66440dfe",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/qa/boundary-75s.jpg"
+      }
+    },
+    {
+      "path": "assets/button-r4/qa/character-provenance.json",
+      "bytes": 839,
+      "sha256": "22b82657bebd42c9bd081a71fe137a1f315d2223ecfb2a1f175de75f2e1457f5",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/qa/character-provenance.json"
+      }
+    },
+    {
+      "path": "assets/button-r4/qa/encoded-motion-01.jpg",
+      "bytes": 395116,
+      "sha256": "9bf2012ad19051895d84187dc3c315e8a13443a6900ba6ff529df99b705f10a0",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/qa/encoded-motion-01.jpg"
+      }
+    },
+    {
+      "path": "assets/button-r4/qa/encoded-motion-02.jpg",
+      "bytes": 400213,
+      "sha256": "4f2cffea3c704e056f7cccd0db1b4debb5e8c1112d3fcc1879172565ca708c1f",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/qa/encoded-motion-02.jpg"
+      }
+    },
+    {
+      "path": "assets/button-r4/qa/encoded-motion-03.jpg",
+      "bytes": 360757,
+      "sha256": "2aef624616e3cb5266c59914387f8f435e283e5ed035c59a7f98cac559a2a7f6",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/qa/encoded-motion-03.jpg"
+      }
+    },
+    {
+      "path": "assets/button-r4/qa/encoded-review.json",
+      "bytes": 3959,
+      "sha256": "46a98d3a019683db91b08eafc819505b03880467784397406157b14394e3b383",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/qa/encoded-review.json"
+      }
+    },
+    {
+      "path": "assets/button-r4/qa/exports/The-Forbidden-Button-R4-1080p60.validation.json",
+      "bytes": 427,
+      "sha256": "52c9be7b181fe280f4c55bb3a7f6b55ee890088cf3c269b3732207ff2714e4d7",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/qa/exports/The-Forbidden-Button-R4-1080p60.validation.json"
+      }
+    },
+    {
+      "path": "assets/button-r4/qa/internal-parts.json",
+      "bytes": 837,
+      "sha256": "32621673c3f128e183abd705a5c9c3c1234e903a9aa0ea46631212f45e38e130",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/qa/internal-parts.json"
+      }
+    },
+    {
+      "path": "assets/button-r4/qa/kinematics.json",
+      "bytes": 1275,
+      "sha256": "cd060d579e5ef07e8cd451e5845d02bb859b40505c7285921738a1d28a582978",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/qa/kinematics.json"
+      }
+    },
+    {
+      "path": "assets/button-r4/qa/player.json",
+      "bytes": 347,
+      "sha256": "3c06b92f3e1e74b022265fbbc464bda6558f91d58b93c1f1f5b350631e2fbd14",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/qa/player.json"
+      }
+    },
+    {
+      "path": "assets/button-r4/qa/render-sources.json",
+      "bytes": 876,
+      "sha256": "70b541818c33e5dd25e590bab6354a23682a5d2f82d03f67ac897f32106c0cbd",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/qa/render-sources.json"
+      }
+    },
+    {
+      "path": "assets/button-r4/qa/story-overview-1.jpg",
+      "bytes": 299723,
+      "sha256": "89b46f194294e6773bf1ef3e74217917b3e9a4b9a7c6a9b1c3d2205a8e4610fc",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/qa/story-overview-1.jpg"
+      }
+    },
+    {
+      "path": "assets/button-r4/qa/story-overview-2.jpg",
+      "bytes": 291787,
+      "sha256": "0d8a71ff90b505a7f0164b9ed3853fcf12bb4fd2280eb57f83ad07d81931cf79",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/qa/story-overview-2.jpg"
+      }
+    },
+    {
+      "path": "assets/button-r4/qa/story-overview-3.jpg",
+      "bytes": 287254,
+      "sha256": "8a4f1e3c599c504966221e4941648b2532523671c3e9d242e226071159400819",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/qa/story-overview-3.jpg"
+      }
+    },
+    {
+      "path": "assets/button-r4/qa/story.json",
+      "bytes": 25231,
+      "sha256": "c5f3445f275eca7972aa19be0c83ace785d06aaaf3ca94d4abc30492212ccdee",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/qa/story.json"
+      }
+    },
+    {
+      "path": "assets/button-r4/render.mjs",
+      "bytes": 4723,
+      "sha256": "8b84af36bb77b252febfea11063298adec95f7033b4fcc3b88616ee2426dafe9",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/render.mjs"
+      }
+    },
+    {
+      "path": "assets/button-r4/score.py",
+      "bytes": 9230,
+      "sha256": "59022515c6cc898b2cd8b9c9b33ce90cfe9638aa1ddf56f450ab6a66d7ee5973",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/score.py"
+      }
+    },
+    {
+      "path": "assets/button-r4/scripts/assemble.mjs",
+      "bytes": 1607,
+      "sha256": "999a271fff4e423cfa75cf4b9195f0c2ce7480f1942f9f045d2501ef61f1c51a",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/scripts/assemble.mjs"
+      }
+    },
+    {
+      "path": "assets/button-r4/scripts/browser.mjs",
+      "bytes": 978,
+      "sha256": "ecc97ba2a10c8f1c5132ac5b7d544752e5b71501685c86477bcb06256bbeb98f",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/scripts/browser.mjs"
+      }
+    },
+    {
+      "path": "assets/button-r4/scripts/check-player.mjs",
+      "bytes": 1995,
+      "sha256": "ad1f059b6743ab65f949c35530491aed406b92dacb54406fe21b1425453af33b",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/scripts/check-player.mjs"
+      }
+    },
+    {
+      "path": "assets/button-r4/scripts/http-files.mjs",
+      "bytes": 1972,
+      "sha256": "560f6f09699ca82ab86935d4315ba09d449b054c7548409d8d19d3d297c70e87",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/scripts/http-files.mjs"
+      }
+    },
+    {
+      "path": "assets/button-r4/scripts/inspect.mjs",
+      "bytes": 3995,
+      "sha256": "66fecdc4b3e1d217f32e75f5544b8ebcd98f3f5eba610e8a9e3010b40ed59936",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/scripts/inspect.mjs"
+      }
+    },
+    {
+      "path": "assets/button-r4/scripts/render-parts.mjs",
+      "bytes": 1427,
+      "sha256": "0e5aa07fa131d5031b3d03fea8d65dc3a5407f4381ca61f2dcb896e03dcfcc2b",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/scripts/render-parts.mjs"
+      }
+    },
+    {
+      "path": "assets/button-r4/scripts/review-encoded.py",
+      "bytes": 1629,
+      "sha256": "5278eb8810d2949ddfbbad4c0046edc8e6551f08e0d483cb3783f1b4f82ccd22",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/scripts/review-encoded.py"
+      }
+    },
+    {
+      "path": "assets/button-r4/scripts/serve.mjs",
+      "bytes": 320,
+      "sha256": "952137815dfa35e6edb8528573c7a6555dd6c01127b276814921d397548781a7",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/scripts/serve.mjs"
+      }
+    },
+    {
+      "path": "assets/button-r4/scripts/validate-export.py",
+      "bytes": 1766,
+      "sha256": "4c48112e933df350cc63fbad7b8f802e18c863cf57d273c91a4cbcbdbc67b325",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/scripts/validate-export.py"
+      }
+    },
+    {
+      "path": "assets/button-r4/src/legacy-renderer.js",
+      "bytes": 2298,
+      "sha256": "50ca1a691c32da960486f14eec04ab7e34f07e03622fc4764239084643cf091f",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/src/legacy-renderer.js"
+      }
+    },
+    {
+      "path": "assets/button-r4/src/math.js",
+      "bytes": 466,
+      "sha256": "e2c6bd18868dd1f4a011df1c2f8a421f19cc40854a2e1488cced1e8dbe4c609f",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/src/math.js"
+      }
+    },
+    {
+      "path": "assets/button-r4/src/model.js",
+      "bytes": 199,
+      "sha256": "a5f4fad71374fdaa6e403467aa6537aad0d38e8fd1dd9a3011dc27bb2d216501",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/src/model.js"
+      }
+    },
+    {
+      "path": "assets/button-r4/src/performance.js",
+      "bytes": 10058,
+      "sha256": "70897698df9b0438301c4fa80e420772e9e8086e6b715420e85467c88d15bb4e",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/src/performance.js"
+      }
+    },
+    {
+      "path": "assets/button-r4/src/physics.js",
+      "bytes": 1500,
+      "sha256": "70b09b530b3f77f13145da88b629836b7f2c16b1d0bc73af1e46a564fc16708c",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/src/physics.js"
+      }
+    },
+    {
+      "path": "assets/button-r4/src/player.js",
+      "bytes": 1207,
+      "sha256": "c38660076db2170093353db8accc73f6e104652e2da0b738ea2761e3f2fd4f8c",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/src/player.js"
+      }
+    },
+    {
+      "path": "assets/button-r4/src/rig-adapter.js",
+      "bytes": 7668,
+      "sha256": "7b3f929539363892772ec83f94e334af2dc16f0036b1a4ada464f794247e70a3",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/src/rig-adapter.js"
+      }
+    },
+    {
+      "path": "assets/button-r4/src/story.js",
+      "bytes": 12471,
+      "sha256": "f5e1db2e07a5bfeb62e0bf6f731693d593d1691e25b229503976394651c9f4c1",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/src/story.js"
+      }
+    },
+    {
+      "path": "assets/button-r4/src/world.js",
+      "bytes": 8969,
+      "sha256": "1a07048a58b85b796f7db7d55cf98b098f02ee785813fb14f33f0a8ab8f86a94",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/src/world.js"
+      }
+    },
+    {
+      "path": "assets/button-r4/style.css",
+      "bytes": 809,
+      "sha256": "f7e6b5fc653239be6a85442b211aa4a315e5e12b77914207056f30d341afa4ee",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/style.css"
+      }
+    },
+    {
+      "path": "assets/button-r4/vendor/rig-controller.js",
+      "bytes": 2212,
+      "sha256": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/vendor/rig-controller.js"
+      }
+    },
+    {
+      "path": "assets/button-r4/video.html",
+      "bytes": 885,
+      "sha256": "111e9567dff135cce346a99a4455b39878146e84202e36635be4efccf4093071",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Originais/O-botao-proibido-r4/video.html"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/LEIA_PRIMEIRO.md",
+      "bytes": 1064,
+      "sha256": "4d24e3a585d1cf638adea30ae126031438cb3afc90f1fa2dfbf56a9bd7c8b7aa",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/LEIA_PRIMEIRO.md"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/ROTEIRO_ORIGINAL.md",
+      "bytes": 13380,
+      "sha256": "fa7d3ffbf5ad6fccc8224e5dffdd17e3eafd2e7d5cd1e58fc03d98c45c58e5da",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/ROTEIRO_ORIGINAL.md"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/ROTEIRO_TECNICO.md",
+      "bytes": 20384,
+      "sha256": "20d9f984208558df671b9c8f12e858b77d7a348665aa9b16433b331aa6fbcd94",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/ROTEIRO_TECNICO.md"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/SKILL.md",
+      "bytes": 6093,
+      "sha256": "4190f7940583eb0e78fadf8897bdd0d94fdab052e9e1e2820e52a2ff437f36b9",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/SKILL.md"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/README.md",
+      "bytes": 1247,
+      "sha256": "0b7a0ab4e654c8594895feef4daadc1fb029210074973287004a6e49682d0f61",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/README.md"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/SKILL.md",
+      "bytes": 7291,
+      "sha256": "43ffac279703da98650b64a4038eaa3f20e0617c6b507168b4a2ef27c3a69e5d",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/SKILL.md"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/references/workflow.md",
+      "bytes": 2081,
+      "sha256": "a3cd47e7bde3ea8613b7abb029d4a6537279088aff663fc815560dbebbf6f365",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/references/workflow.md"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/template/.gitignore",
+      "bytes": 50,
+      "sha256": "5b5d77f1b094070b9f2580e58f0f15e4f73c0c2aedf49480c7a152d81940c142",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/template/.gitignore"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/template/README.md",
+      "bytes": 282,
+      "sha256": "24c53169a7f6ad73d1c661147bc0dc4504d0f021166526de58c74c10c0a0d9d0",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/template/README.md"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/template/capture-effects.py",
+      "bytes": 2863,
+      "sha256": "940a5c241229a954bbecf9431e0ab028930e11ce3b25324383204588303ab0d3",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/template/capture-effects.py"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/template/capture-rig.py",
+      "bytes": 10818,
+      "sha256": "7b8a229cf81f177cc8e235cd4fbcae123ce1537d49e8a026014fe6846599a336",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/template/capture-rig.py"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/template/capture-scene.py",
+      "bytes": 17066,
+      "sha256": "06da0bb8cc85abacb114b8916b84506ce71a62d23bb619993fdbf5240db7d6cc",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/template/capture-scene.py"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/template/film.js",
+      "bytes": 14333,
+      "sha256": "772d68b13fae4f170a67d386d1c9ed654287014af95463875bb6fff4a97b0688",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/template/film.js"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/template/index.html",
+      "bytes": 1184,
+      "sha256": "9852ac5a08442c10c1c72dce67fcb7efc0de5b66c36a7efba6abac75ef1a7392",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/template/index.html"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/template/inspect.mjs",
+      "bytes": 4416,
+      "sha256": "a71a66b4b34c36e6cf79efd64b0fc3c561ebcdd99b0cabb84fedc09c6d79b658",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/template/inspect.mjs"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/template/package-lock.json",
+      "bytes": 1769,
+      "sha256": "1026744ea2ede5d59c1f84c1725509b5590075df86fae0e96b519459a5cd2a55",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/template/package-lock.json"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/template/package.json",
+      "bytes": 292,
+      "sha256": "86625174a7cb80065b78ca40effb6a7b67a9d6cf7ffc83a50efbb080623cc723",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/template/package.json"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/template/prepare-motion.py",
+      "bytes": 4601,
+      "sha256": "8f85d32f21347b6ee9440d82bf7277d80f287a363dd7f953749972d88aa5c102",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/template/prepare-motion.py"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/template/refine-scene.py",
+      "bytes": 3466,
+      "sha256": "034bedd556148f7f18ddf556c5bcbd5df91c67339e8d9893c06b7c02bdc8979c",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/template/refine-scene.py"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/template/render.mjs",
+      "bytes": 4332,
+      "sha256": "a4f3564a2e615efedd84a121692c7b88358fdc7f705e7c486e4cb2315f746511",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/template/render.mjs"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/template/requirements.txt",
+      "bytes": 47,
+      "sha256": "9d374d79842d3720c2a232c22a27b2f92db88c46d479dd9bc7616300a52abfe1",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/template/requirements.txt"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/template/rig-controller.js",
+      "bytes": 2212,
+      "sha256": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/template/rig-controller.js"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/template/validate-export.py",
+      "bytes": 2728,
+      "sha256": "640a0c0533a772cf4b00031418014be0bac96bc1a375ba19e9218a87ee4a64a4",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/template/validate-export.py"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/template/vendor/MOTION-LICENSE.md",
+      "bytes": 1100,
+      "sha256": "1bf0dc3f7727723e5a032ed12164a47cf92c05204cb1a3485f123c24e2833ed1",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/template/vendor/MOTION-LICENSE.md"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/template/vendor/motion.js",
+      "bytes": 144870,
+      "sha256": "1efa29adbb0d9a4452592adf84eb819ef05616e25a830c85ab8965bcbba79efa",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/template/vendor/motion.js"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-docs/base-original/reference-animation/validation.json",
+      "bytes": 614,
+      "sha256": "ba1e3611f3eac67b9beabf5a0a3c0995236635fc1a2c377f26a3de094cb7024f",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/docs/base-original/reference-animation/validation.json"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-skill/README.md",
+      "bytes": 1851,
+      "sha256": "8074bc359f919c0c1b42800846a9364b4d5174088c07a7d0d734023c2b2d7270",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": ".agents/skills/recriar-animacao-por-codigo/README.md"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-skill/SKILL.md",
+      "bytes": 4743,
+      "sha256": "4f1029ba4f61f7aaca169b1bc25ecc284638d01682d33b59b8d326dcb6a2f5c9",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": ".agents/skills/recriar-animacao-por-codigo/SKILL.md"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-skill/references/model-contract.md",
+      "bytes": 1900,
+      "sha256": "5c901c40dde7259f3fae45b83d0615f30bf148002a8cd6249af20bc0796283a4",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": ".agents/skills/recriar-animacao-por-codigo/references/model-contract.md"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-skill/references/workflow.md",
+      "bytes": 2334,
+      "sha256": "e7ae949e2eef01225a4d165a0741f2fc45c09a90f78dcc00b82a15aa62ea89db",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": ".agents/skills/recriar-animacao-por-codigo/references/workflow.md"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-skill/templates/MOTION-LICENSE.md",
+      "bytes": 1100,
+      "sha256": "1bf0dc3f7727723e5a032ed12164a47cf92c05204cb1a3485f123c24e2833ed1",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": ".agents/skills/recriar-animacao-por-codigo/templates/MOTION-LICENSE.md"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-skill/templates/draw.js",
+      "bytes": 7230,
+      "sha256": "1b5e2ec56e1385ef955f46888136b0bea7346758a6b7500faa29a84d30706da6",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": ".agents/skills/recriar-animacao-por-codigo/templates/draw.js"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-skill/templates/motion.js",
+      "bytes": 144870,
+      "sha256": "1efa29adbb0d9a4452592adf84eb819ef05616e25a830c85ab8965bcbba79efa",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": ".agents/skills/recriar-animacao-por-codigo/templates/motion.js"
+      }
+    },
+    {
+      "path": "assets/legacy-reference-skill/templates/rig.js",
+      "bytes": 6038,
+      "sha256": "a2d0f3c27c0976eaad7b26471bbfa64fe3374b3a4f232b6cacbe5eb18c8f8f70",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": ".agents/skills/recriar-animacao-por-codigo/templates/rig.js"
+      }
+    },
+    {
+      "path": "assets/reference-v6/.gitignore",
+      "bytes": 51,
+      "sha256": "1adf4a702e538dc78294b703c0bc9c2f2c047c9c9242b943f64481773d18dbf1",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/.gitignore"
+      }
+    },
+    {
+      "path": "assets/reference-v6/AGENTS.md",
+      "bytes": 733,
+      "sha256": "02265ee44d7c1e17c0f7850635fd214f0f2fcbb865406853efbbcc1c1a7516fd",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/AGENTS.md"
+      }
+    },
+    {
+      "path": "assets/reference-v6/README.md",
+      "bytes": 2038,
+      "sha256": "bc5b4b6a3ddc6c3b995f81b6802366bd8d8f43106759af27c2ec04e6f117c5ae",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/README.md"
+      }
+    },
+    {
+      "path": "assets/reference-v6/RELATORIO.md",
+      "bytes": 3914,
+      "sha256": "f22008e4de00e59c3cfc15555b202efa4d3765f69f580bc0bd645ead24e42791",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/RELATORIO.md"
+      }
+    },
+    {
+      "path": "assets/reference-v6/docs/ROTEIRO-V6.md",
+      "bytes": 3048,
+      "sha256": "7cfe78fa926b59ad012a47f3d8bb4bdff6ac221bde55dcf5a8ca4d4429981dc1",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/docs/ROTEIRO-V6.md"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/SHA256SUMS-v6.txt",
+      "bytes": 8250,
+      "sha256": "6231de66c3498cb9cc30001634c00249867dd02cfe55d6de8d3b41ca36a5f521",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/SHA256SUMS-v6.txt"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/ZIP-SHA256.txt",
+      "bytes": 100,
+      "sha256": "75eac4efb8057f4f587739cf2ef6a814c03961aa09e7f930fb97e241535622f9",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/ZIP-SHA256.txt"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/animation-vs-physics-v6-continuous-1080p60.validation.json",
+      "bytes": 386,
+      "sha256": "e1d2254d386eace338d4170b4bdca907a5b536bafc65b1d2da88b4f3a9c315e7",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/animation-vs-physics-v6-continuous-1080p60.validation.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/audio-analysis-v6.txt",
+      "bytes": 266,
+      "sha256": "79048d240aa3687f30f03c0c966459267bf8bb8d47d669b268f7721898f22356",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/audio-analysis-v6.txt"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/audio-generation-v6.json",
+      "bytes": 195,
+      "sha256": "a1e4357d9e69ec00a7f3e1c9bceee5fa8129964a9c264af98946bda7425177a3",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/audio-generation-v6.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/encoded-review-v6.json",
+      "bytes": 339,
+      "sha256": "1aaa23ff3cfe01fb552541ab13a4ba52cdafaeb97573a907865b9dd4c5f7bf01",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/encoded-review-v6.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/motion-review-01.jpg",
+      "bytes": 240908,
+      "sha256": "e56cfa20300e335deed5172fb57572de164a4280ede6e0f07f9ce838c8a429b6",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/motion-review-01.jpg"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/motion-review-02.jpg",
+      "bytes": 339921,
+      "sha256": "c0de2e37b22abcb4d395ff739b0058363772049144536be2c0666c5d2b14536c",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/motion-review-02.jpg"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/motion-review-03.jpg",
+      "bytes": 218542,
+      "sha256": "7ba911ec68a076c0f1f15be8c48bad073285cff56005dc6ac9f65b779ef94bd2",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/motion-review-03.jpg"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/motion-review-04.jpg",
+      "bytes": 268544,
+      "sha256": "4360a067080623fa5d40e8f16ba691c7c18fd02273e5c969d4762ae04b2b173c",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/motion-review-04.jpg"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/motion-review-05.jpg",
+      "bytes": 298488,
+      "sha256": "9c32d03aeef2bb233b673fe79670fa1a721ac757555638a4d03729e06febcff3",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/motion-review-05.jpg"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/motion-review-06.jpg",
+      "bytes": 327428,
+      "sha256": "c710d71c9e94a04e12c60e4cc1995941e64cbb1c3cafe115553ae9edf153898e",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/motion-review-06.jpg"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/motion-review-07.jpg",
+      "bytes": 245666,
+      "sha256": "510539912d7ed9432df749a88012243c6104be6c37cfb0dc360cf3973ddcc309",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/motion-review-07.jpg"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/motion-review-08.jpg",
+      "bytes": 338810,
+      "sha256": "1f50e8ba6b9dc7fe540e178f27d7656455420e278ca687150662c8c7c99b8e9c",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/motion-review-08.jpg"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/motion-review-09.jpg",
+      "bytes": 269782,
+      "sha256": "dc5036e8c5cbe2eacfbbe8f4017cf05db75d95fcb13d557e99b9cf5d4698e62c",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/motion-review-09.jpg"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/part-01-the-delivery-1080p60.mp4.json",
+      "bytes": 1090,
+      "sha256": "7971d6d140dbfcd8e6767f837c4feddd6489596e6f68f849776b47343d43beca",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/part-01-the-delivery-1080p60.mp4.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/part-01-the-delivery-1080p60.validation.json",
+      "bytes": 369,
+      "sha256": "ac167f8537204633c8430c3430c33dbbac69114cb78f0cd0f9e89799a9ff3ce9",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/part-01-the-delivery-1080p60.validation.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/part-02-a-bad-launch-1080p60.mp4.json",
+      "bytes": 1091,
+      "sha256": "da80fc965d87054037c6556c0471ee2a6a0655c0918ea650071764dec2c3fe34",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/part-02-a-bad-launch-1080p60.mp4.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/part-02-a-bad-launch-1080p60.validation.json",
+      "bytes": 369,
+      "sha256": "7c5b8abbc015e8afbc28542861a73db5cb6211ef3b424a20a442c865d5be221d",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/part-02-a-bad-launch-1080p60.validation.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/part-03-catch-the-cart-1080p60.mp4.json",
+      "bytes": 1091,
+      "sha256": "ca0e46bd5551d61105c4e2956bcd25c75ffd8ea7d0f85bf8dc018c8d874f42c9",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/part-03-catch-the-cart-1080p60.mp4.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/part-03-catch-the-cart-1080p60.validation.json",
+      "bytes": 371,
+      "sha256": "ba5b2145212818c3cb1495ccdcd9836b34614bcebb2fa7182b6e58ea7a1ab04f",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/part-03-catch-the-cart-1080p60.validation.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/part-04-hold-on-1080p60.mp4.json",
+      "bytes": 1091,
+      "sha256": "5f92f3615d00c90a34a1115c462be0507bedad053357d7b131b643d14aab03f5",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/part-04-hold-on-1080p60.mp4.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/part-04-hold-on-1080p60.validation.json",
+      "bytes": 364,
+      "sha256": "e8f26a704166651f16ffa58713bf26942bd056eea487509d76f7026a7583e91e",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/part-04-hold-on-1080p60.validation.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/part-05-one-more-try-1080p60.mp4.json",
+      "bytes": 1092,
+      "sha256": "7269f5c1250b1b85b251c0b9d20f086d7fa86f70bf40c245e8104f3e8be031ad",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/part-05-one-more-try-1080p60.mp4.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/part-05-one-more-try-1080p60.validation.json",
+      "bytes": 369,
+      "sha256": "789561c429344b11ba1482389214a9742a840d953aaa8dab936b14b6209d1a0e",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/part-05-one-more-try-1080p60.validation.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/part-06-leave-it-alone-1080p60.mp4.json",
+      "bytes": 1092,
+      "sha256": "6beec00977d56b0f07cd06df9912174ea16ffadd85d50c55c80b2c9f197d3c28",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/part-06-leave-it-alone-1080p60.mp4.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/part-06-leave-it-alone-1080p60.validation.json",
+      "bytes": 371,
+      "sha256": "9de3dd0b953de96c625d31b7b0c6f736d2149ef3f2c8681a805051e7aff7c926",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/part-06-leave-it-alone-1080p60.validation.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/player-validation-v6.json",
+      "bytes": 237,
+      "sha256": "2ede45c72e6383a65b02874c9625940df1a1e238184a61146a656e98bee15680",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/player-validation-v6.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/rig-and-continuity-v6.json",
+      "bytes": 543,
+      "sha256": "6a7a98cfdfe41eaa05916b3fc75d9efca058a4ded4d8de2c5f76ff4581f22617",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/rig-and-continuity-v6.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/soundtrack-v6.m4a",
+      "bytes": 4859775,
+      "sha256": "6b0881e339232edee3ac2c2a1117e9b4bf68a5d1149f19f9ae3b81d9d2ac07f9",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/soundtrack-v6.m4a"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/story-and-events-v6.json",
+      "bytes": 28165,
+      "sha256": "940b14eb51771560bb5726f5e793c075a8e9012e7e0c5b04d3d262558604dc8b",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/story-and-events-v6.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/storyboard-v6.jpg",
+      "bytes": 667005,
+      "sha256": "615bbec77fd7d61bcb30cbc454a5a4e151b44e2040712eb318f5c678defebb82",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/storyboard-v6.jpg"
+      }
+    },
+    {
+      "path": "assets/reference-v6/exports/visual-review-v6.json",
+      "bytes": 1402,
+      "sha256": "6a1474ffe6c57134a0cf22662b185cbccf821a7a3028ddb66a13901da2077475",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/visual-review-v6.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/index.html",
+      "bytes": 1286,
+      "sha256": "77c71e067e88872f98d14941f3c2de053885e37b2278e9e747a3e968ee8ad86e",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/index.html"
+      }
+    },
+    {
+      "path": "assets/reference-v6/package-lock.json",
+      "bytes": 1755,
+      "sha256": "b1728cb1b3047524478732d09a0183038bbaa5774b7ef864acfe289318856e20",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/package-lock.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/package.json",
+      "bytes": 378,
+      "sha256": "26fe728a53b979074e3a2340765f33cb1be4ca7c0aedda601b451d88dd090ba5",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/package.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/preserved/hashes.json",
+      "bytes": 933,
+      "sha256": "93cd8168d80ac58d68936fd305d67ecb28d9b8dd284b6c14650bf2794dc4d6de",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/preserved/hashes.json"
+      }
+    },
+    {
+      "path": "assets/reference-v6/preserved/v5/AGENTS.md",
+      "bytes": 576,
+      "sha256": "cce355f34f1e40143d82e43b829c0f23898d63d8124ac0d22e5c122096d087e3",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/preserved/v5/AGENTS.md"
+      }
+    },
+    {
+      "path": "assets/reference-v6/preserved/v5/README.md",
+      "bytes": 3137,
+      "sha256": "4e15ebfe2fabef766487adfdd036ec826d326e1e16869bdd31ba59c5fa5bec33",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/preserved/v5/README.md"
+      }
+    },
+    {
+      "path": "assets/reference-v6/preserved/v5/docs/ROTEIRO-V5.md",
+      "bytes": 2931,
+      "sha256": "56aa2f47027b133404c8c415e886eec0b631327dbff898fa83a5011e2c3f1f17",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/preserved/v5/docs/ROTEIRO-V5.md"
+      }
+    },
+    {
+      "path": "assets/reference-v6/preserved/v5/src/legacy-renderer.js",
+      "bytes": 2298,
+      "sha256": "50ca1a691c32da960486f14eec04ab7e34f07e03622fc4764239084643cf091f",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/preserved/v5/src/legacy-renderer.js"
+      }
+    },
+    {
+      "path": "assets/reference-v6/preserved/v5/src/model.js",
+      "bytes": 199,
+      "sha256": "a5f4fad71374fdaa6e403467aa6537aad0d38e8fd1dd9a3011dc27bb2d216501",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/preserved/v5/src/model.js"
+      }
+    },
+    {
+      "path": "assets/reference-v6/preserved/v5/src/rig-adapter.js",
+      "bytes": 7668,
+      "sha256": "7b3f929539363892772ec83f94e334af2dc16f0036b1a4ada464f794247e70a3",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/preserved/v5/src/rig-adapter.js"
+      }
+    },
+    {
+      "path": "assets/reference-v6/preserved/v5/src/tempo-v5.js",
+      "bytes": 7969,
+      "sha256": "10afb6c9a800184bd4517298e899ee71ee793a57021550bf5e98c78a91ea47b7",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/preserved/v5/src/tempo-v5.js"
+      }
+    },
+    {
+      "path": "assets/reference-v6/preserved/v5/src/trio-story.js",
+      "bytes": 18428,
+      "sha256": "d11700e0706450ab29cef96e65ee37450fd3a77798b77b73f173ffa0b8f7f8c5",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/preserved/v5/src/trio-story.js"
+      }
+    },
+    {
+      "path": "assets/reference-v6/preserved/v5/src/trio-world.js",
+      "bytes": 15949,
+      "sha256": "c5361eefc079ab1d5d10b2a725ec102333ab9bee7ac7fdc7bed3280641bac346",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/preserved/v5/src/trio-world.js"
+      }
+    },
+    {
+      "path": "assets/reference-v6/preserved/v5/vendor/rig-controller.js",
+      "bytes": 2212,
+      "sha256": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/preserved/v5/vendor/rig-controller.js"
+      }
+    },
+    {
+      "path": "assets/reference-v6/render.mjs",
+      "bytes": 4723,
+      "sha256": "8b84af36bb77b252febfea11063298adec95f7033b4fcc3b88616ee2426dafe9",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/render.mjs"
+      }
+    },
+    {
+      "path": "assets/reference-v6/scripts/assemble-v6.mjs",
+      "bytes": 1215,
+      "sha256": "aad6d9edd8508a1e7831b47965679ecf7a8d227e46993375427da5aac64becca",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/scripts/assemble-v6.mjs"
+      }
+    },
+    {
+      "path": "assets/reference-v6/scripts/browser.mjs",
+      "bytes": 978,
+      "sha256": "ecc97ba2a10c8f1c5132ac5b7d544752e5b71501685c86477bcb06256bbeb98f",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/scripts/browser.mjs"
+      }
+    },
+    {
+      "path": "assets/reference-v6/scripts/check-player-v6.mjs",
+      "bytes": 1652,
+      "sha256": "e052e7e88cb64fa3aa9df3bc078f4c963d57a0debffaa267b6cdf516a636182f",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/scripts/check-player-v6.mjs"
+      }
+    },
+    {
+      "path": "assets/reference-v6/scripts/diagnose-v6.mjs",
+      "bytes": 991,
+      "sha256": "59c0840b1454d4f9ec8449073e1c1946451ff8050b47f304eced99e3730c424f",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/scripts/diagnose-v6.mjs"
+      }
+    },
+    {
+      "path": "assets/reference-v6/scripts/http-files.mjs",
+      "bytes": 1804,
+      "sha256": "f9f19a518ce40f8d2effb49236dd74c0a35108c896af57a46e8ab9ef80497bda",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/scripts/http-files.mjs"
+      }
+    },
+    {
+      "path": "assets/reference-v6/scripts/inspect-v6.mjs",
+      "bytes": 1366,
+      "sha256": "f1d28054613d257d7161f230c6e29ceedade34cb319e96b35ac83d28809891a0",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/scripts/inspect-v6.mjs"
+      }
+    },
+    {
+      "path": "assets/reference-v6/scripts/package-v6.py",
+      "bytes": 6457,
+      "sha256": "fc7765965087ece689b2a65092459d08cd34d852a2b220520388d6549acb07f6",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/scripts/package-v6.py"
+      }
+    },
+    {
+      "path": "assets/reference-v6/scripts/refine-v6.mjs",
+      "bytes": 880,
+      "sha256": "f8d214fe446c42f76984949463597a348fa625c1167f955be7566dd3eb554338",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/scripts/refine-v6.mjs"
+      }
+    },
+    {
+      "path": "assets/reference-v6/scripts/render-v6.mjs",
+      "bytes": 960,
+      "sha256": "09f1879f15c34c87bcc85d592ca77e699b988328cf39d90f24a9c985d85226f2",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/scripts/render-v6.mjs"
+      }
+    },
+    {
+      "path": "assets/reference-v6/scripts/review-v6.py",
+      "bytes": 2651,
+      "sha256": "e782c21c11cb480a435ac184546ab172fca04d3efad77f7cadd02e96afcd54f2",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/scripts/review-v6.py"
+      }
+    },
+    {
+      "path": "assets/reference-v6/scripts/score-v6.py",
+      "bytes": 6324,
+      "sha256": "cc3ad2c78d47a48c24a107673b0bff65fe92730e4190e906f8520a49a155dbe7",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/scripts/score-v6.py"
+      }
+    },
+    {
+      "path": "assets/reference-v6/scripts/serve.mjs",
+      "bytes": 320,
+      "sha256": "952137815dfa35e6edb8528573c7a6555dd6c01127b276814921d397548781a7",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/scripts/serve.mjs"
+      }
+    },
+    {
+      "path": "assets/reference-v6/scripts/validate-export.py",
+      "bytes": 1602,
+      "sha256": "8c4c52e42033c4d545eab4df0d03dd4c7c980226f95d0a3ba804dea4ba12a27c",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/scripts/validate-export.py"
+      }
+    },
+    {
+      "path": "assets/reference-v6/src/legacy-renderer.js",
+      "bytes": 2298,
+      "sha256": "50ca1a691c32da960486f14eec04ab7e34f07e03622fc4764239084643cf091f",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/src/legacy-renderer.js"
+      }
+    },
+    {
+      "path": "assets/reference-v6/src/math.js",
+      "bytes": 466,
+      "sha256": "e2c6bd18868dd1f4a011df1c2f8a421f19cc40854a2e1488cced1e8dbe4c609f",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/src/math.js"
+      }
+    },
+    {
+      "path": "assets/reference-v6/src/model.js",
+      "bytes": 199,
+      "sha256": "a5f4fad71374fdaa6e403467aa6537aad0d38e8fd1dd9a3011dc27bb2d216501",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/src/model.js"
+      }
+    },
+    {
+      "path": "assets/reference-v6/src/player-v6.js",
+      "bytes": 1207,
+      "sha256": "c38660076db2170093353db8accc73f6e104652e2da0b738ea2761e3f2fd4f8c",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/src/player-v6.js"
+      }
+    },
+    {
+      "path": "assets/reference-v6/src/rig-adapter.js",
+      "bytes": 7668,
+      "sha256": "7b3f929539363892772ec83f94e334af2dc16f0036b1a4ada464f794247e70a3",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/src/rig-adapter.js"
+      }
+    },
+    {
+      "path": "assets/reference-v6/src/rig-v6.js",
+      "bytes": 10160,
+      "sha256": "7e2ef325d58efbde27039ac83655a919f1b7bbc277ebd1df582c23f17e40cca2",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/src/rig-v6.js"
+      }
+    },
+    {
+      "path": "assets/reference-v6/src/story-v6.js",
+      "bytes": 13719,
+      "sha256": "fafb461a04edf39277e7ac04a83a2596ac4d9b95903a4a471a7328a63d91acdd",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/src/story-v6.js"
+      }
+    },
+    {
+      "path": "assets/reference-v6/src/world-v6.js",
+      "bytes": 9317,
+      "sha256": "be11ca7a328f83a8911942594769fb8126e29b8f33046e9d3a3f0f25ee1cb0e5",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/src/world-v6.js"
+      }
+    },
+    {
+      "path": "assets/reference-v6/style.css",
+      "bytes": 809,
+      "sha256": "f7e6b5fc653239be6a85442b211aa4a315e5e12b77914207056f30d341afa4ee",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/style.css"
+      }
+    },
+    {
+      "path": "assets/reference-v6/tests/preservation.py",
+      "bytes": 548,
+      "sha256": "5cd1c0260f9438eeac9fe6a6b6deb31fedceb958cad249171cb97068ea9ffa21",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/tests/preservation.py"
+      }
+    },
+    {
+      "path": "assets/reference-v6/tests/story-v6.mjs",
+      "bytes": 3016,
+      "sha256": "de417436d46484c9127f884759c763e488a6192f241081cf47b9057d7d15b84d",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/tests/story-v6.mjs"
+      }
+    },
+    {
+      "path": "assets/reference-v6/vendor/motion.js",
+      "bytes": 144870,
+      "sha256": "1efa29adbb0d9a4452592adf84eb819ef05616e25a830c85ab8965bcbba79efa",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/vendor/motion.js"
+      }
+    },
+    {
+      "path": "assets/reference-v6/vendor/rig-controller.js",
+      "bytes": 2212,
+      "sha256": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/vendor/rig-controller.js"
+      }
+    },
+    {
+      "path": "assets/reference-v6/video.html",
+      "bytes": 982,
+      "sha256": "38c40a5eb5885a2061f06e9ca4a3e0408f508e5b515f7f2ed5335bfc365ed02e",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/video.html"
+      }
+    },
+    {
+      "path": "media/animation-vs-physics-v6-1080p60.mp4",
+      "bytes": 26739684,
+      "sha256": "b9e83ff329e2ab1fde61210854d1ff0781bf4b40e260535838483068e28b0273",
+      "origin": {
+        "commit": "1c6dce3d232179e41629414db70513dc69205853",
+        "path": "videos/animation-vs-physics/revisions/v6-historia-continua-150s-1080p60/exports/animation-vs-physics-v6-continuous-1080p60.mp4",
+        "role": "complete-example-reference-film"
+      }
+    },
+    {
+      "path": "media/the-forbidden-button-r4-1080p60.mp4",
+      "bytes": 34247537,
+      "sha256": "17e9c39bbc7eac31213c654630f66ab035d6ac99861ff4cd2a8be9e5c8f8007b",
+      "origin": {
+        "commit": "0590992d69661f0e42ad9d86320b229f96f776f4",
+        "path": "OanimadordeIA/Animação/Vídeos/The-Forbidden-Button-R4-1080p60.mp4",
+        "role": "complete-example-reference-film"
+      }
+    },
+    {
+      "path": "references/audio.md",
+      "bytes": 1596,
+      "sha256": "d084aa703c77fef041971015e4dcd8713975ac7990fbc6346d6c0df4b3b57b6b",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "references/contrato-personagens.md",
+      "bytes": 1948,
+      "sha256": "5cb44bce7d7fe9e92e9325617c34145c9f60a71ef24272370aee09d2d2c110b2",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "references/erros-a-evitar.md",
+      "bytes": 1468,
+      "sha256": "d13bd86082bc6ecea888e73a73b97c70773b68ca0f93f1ab19301ba33bee8037",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "references/fluxo-original.md",
+      "bytes": 1582,
+      "sha256": "66b9bdb1671ac0413a25d6fe7262e7cb72317e323bf3f61292ef0afee981e92c",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "references/fluxo-referencia.md",
+      "bytes": 1808,
+      "sha256": "89923a51dd55248a9005276977ce4ae050aa04e263ea05446998aeaeccb0031a",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "references/inventario.md",
+      "bytes": 1539,
+      "sha256": "09a4a896e00a3df65a965cb69ec48d2b840d49b997314307a379f2ea015eb470",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "references/movimento-fisica.md",
+      "bytes": 2068,
+      "sha256": "ccc9edb42693b068b079d61163d897cd98eac998c28b4faf5a8040a3eee115e8",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "references/validacao-entrega.md",
+      "bytes": 2177,
+      "sha256": "a3fd982320023fee9062ed4fcf7ed7a02342524a360eb3761eeef9178185037d",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "templates/assemble.mjs",
+      "bytes": 1789,
+      "sha256": "ed9e2ae5853b94a7b45afbaa0a580c7c6a8f2856975068a71e4582b7a3115f4a",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "templates/brief.md",
+      "bytes": 844,
+      "sha256": "3f24a6519d6b44c27ec8b6da7287a63ef235ac0b51d693245d6b550894bfe43d",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "templates/check-player.mjs",
+      "bytes": 1564,
+      "sha256": "f3409b03999f279082564e2a91e5860ed712163f1b931881721fc7e6f60bfff5",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "templates/reference-map.json",
+      "bytes": 498,
+      "sha256": "50efd6bea493300cddef8645350e597eabb517210aee742eaf02c7462374c5c4",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "templates/render-parts.mjs",
+      "bytes": 1933,
+      "sha256": "95e9740e655b42bbe10b9e3e76b60ce4f88542d80f191e523bd52ce702220c95",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "templates/requirements.txt",
+      "bytes": 47,
+      "sha256": "9d374d79842d3720c2a232c22a27b2f92db88c46d479dd9bc7616300a52abfe1",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "templates/review-encoded.py",
+      "bytes": 2417,
+      "sha256": "88e4d8d6d6472d087b77fe498f101c6750577e86ec9ec75db24fb9484418517f",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "templates/verify-character-files.py",
+      "bytes": 362,
+      "sha256": "d752b2e9d9b142615c30ec0646652915d6e4dfedbc314aa231253ce1d8b5c23d",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "tools/build-kit.py",
+      "bytes": 4768,
+      "sha256": "2f5b198ee3969a47d311cb256bac8295680afd4416d34ecf8d0c629bf6c830a4",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "tools/create-project.py",
+      "bytes": 9779,
+      "sha256": "64e38fd6c5366f6655db746166c23cbd3e088b50913da537c0946c16c2fa03e5",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "tools/sample-reference.py",
+      "bytes": 1639,
+      "sha256": "2370ba9fb4e437a0e8fe01120e54363029fd90c2657691c4f178e934b064079a",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    },
+    {
+      "path": "tools/verify-kit.py",
+      "bytes": 1427,
+      "sha256": "9c7147ce110841f34642dd82ffd81406b523c87798509c267938bfb31d0d7acc",
+      "origin": {
+        "type": "reusable-skill-instructions-or-tool"
+      }
+    }
+  ],
+  "edition": "complete"
+}
