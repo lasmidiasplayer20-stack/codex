@@ -7849,6 +7849,406 @@
         "revision": "The Wrong Door delivery; see qa/export-validation.json for movie SHA-256"
       },
       "sha256": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/.gitignore",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/.gitignore",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "e51f6bee158f6be59c19f1ef0f5b0b84abec4535c9f61f36e6bf504d77767106"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/SOURCE-INSTRUCTIONS.md",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/AGENTS.md",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "91a209d8c1e43488c5c380b27855368f85e47cae32e8dea72fc2ec1f97ec59c8"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/README.md",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/README.md",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "aec3fb866e00df68b1b5ec10a6a603fccfe49585f1313384d6d2610ea28078c7"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/REPORT.md",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/REPORT.md",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "ca3f93cb307f96ce413de3ec28f3cda31276626027e78dd9cd260bda097f9cf6"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/STORY.md",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/STORY.md",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "47f0dff65e4909f73a8891cc9f543d67be4f73bbaafb501e002f682521beb8cb"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/assemble.py",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/assemble.py",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "3660c21e0ef3d7d09cbaee3c67bbf83f5fe83033c6f6f84811b9067dc5c0cea7"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/audio/master.m4a",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/audio/master.m4a",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "cb01d52cd9ace9545423c5828e9ed252df6f4a6026c3e19de4c1716f7917383b"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/audio/original-music.m4a",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/audio/original-music.m4a",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "fcb746a5279e4c801bfdb317409176fcf1beedaa100257f57ac1583ac6698459"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/audio/reference-track.m4a",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/audio/reference-track.m4a",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "7f1190d6d5328e911a984d162f3e94a485ccbcd9533cce303399e0192bce80a0"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/check-player.mjs",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/check-player.mjs",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "4257e62365709a48aafb2db16ff2cb612bf4afd291544f67f6daf9decb8179a1"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/http-files.mjs",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/http-files.mjs",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "f9f19a518ce40f8d2effb49236dd74c0a35108c896af57a46e8ab9ef80497bda"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/index.html",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/index.html",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "6d202a465cb72bfba64ec04631a3fc38e37f9c37551a4c9b02a9d1ea2263dc25"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/inspect.mjs",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/inspect.mjs",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "da7d9e6e9e934fa6fc968aef26b5bf2a8a4d90fe1197972b80fb59d0d0bef058"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/package.json",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/package.json",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "54c26770dfc06b0f783ca571f0340c3c4f8cffc744b3c2cc7a535744d361e712"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/qa/audio-production.json",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/qa/audio-production.json",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "d894a12833bacb0fe7a2546ab322ffb1b2e30e2ad86022013df03ff896f4c06f"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/qa/audio-reuse.json",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/qa/audio-reuse.json",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "595109a3ab2608cadbc69bb8fe017d1a5a726ed353ff2086b16217ca7feb7e22"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/qa/chapters.ffmeta",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/qa/chapters.ffmeta",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "839b3271f988d4c06b9450057f8dcff188c19989358fe12115bdd438ad038386"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/qa/decoded-overview.jpg",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/qa/decoded-overview.jpg",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "2a1ccb8a07a13dca6c45a3c9d40b4ce4ff94732dc7fb0d62615e70f6a729fb81"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/qa/decoded-review.json",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/qa/decoded-review.json",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "3eedc386ebbbe4710c58858f8a85ac1dd03e7b4eadf2a8c9cf31e639f60fc2be"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/qa/design-and-acting.jpg",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/qa/design-and-acting.jpg",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "41e1d03e254dabb5bdd4b299370cf61dff85a11ed0a03aaedb0f16bb73dc0c3d"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/qa/export-validation.json",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/qa/export-validation.json",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "7253f791262661bb9427825d1c5173798add2be48d80a07f7b0c7722c94bd012"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/qa/loudness.json",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/qa/loudness.json",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "17515096c4d112d26a587b42b37cd715c296db63171d73dd22e83894280e68a9"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/qa/movement-review-01.jpg",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/qa/movement-review-01.jpg",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "7de12b2157f1d59e69c787fc5472ce2be6a650c7025d908e4a65e9eb06d598b7"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/qa/movement-review-02.jpg",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/qa/movement-review-02.jpg",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "652e45664833f60ffed810e1491c950fd07f35499199a20e8f7ebc3f09e1dd8a"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/qa/movement-review-03.jpg",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/qa/movement-review-03.jpg",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "267fb65414c01021a758eab984315461cb3540e7b9f1fa80f31e3f10825d579f"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/qa/movement-review-04.jpg",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/qa/movement-review-04.jpg",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "963ae59bff908d8d92552bcdd1fca510ffdccc9ca054c61151787eaa3c93234f"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/qa/overview.jpg",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/qa/overview.jpg",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "8f8f2169f06fcd31264207ba8e4f137030f2396af4f69fd6f5d843590e81a494"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/qa/performance.json",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/qa/performance.json",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "01abb8961a3ba2d2ff611ee24bd7bd04b5ce3e63e924f0da9236858e6cc84547"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/qa/player.json",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/qa/player.json",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "a6c79fc235c5678a157a9afd71533674c8180022d4a62f0d9eec79729941043a"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/qa/preservation.json",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/qa/preservation.json",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "a249eaa4da974090e72d590e886ea06e2edc0bafbfa56cad8319633dfcf8eb4b"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/qa/render-sources.json",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/qa/render-sources.json",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "482ae2f18189b209b60ca0ab9837980d57344d945776793256fba4dd34b10f8d"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/qa/source-audio-preservation.json",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/qa/source-audio-preservation.json",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "9137d3059d4fa10e4b227f1f17f88644bc151e2379ca630c4f22456083cefc68"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/qa/temporal-crops.json",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/qa/temporal-crops.json",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "9388355815b4bec72805fd08610f6929b2854f8694ea6b6f4ab1a8d84adac085"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/qa/temporal-review.json",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/qa/temporal-review.json",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "8a09be4425f3ff5dec7e702f12c9e539e9eac09d5d43400a6d1631c7278734d7"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/reference/source.json",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/reference/source.json",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "c8e35d2ad9cae703db7d071d4e3b449aec64fac7ff9f3ee830be944b6eb85237"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/render-parts.mjs",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/render-parts.mjs",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "b85625a23b25cb83716924648eb2def26cd41397d59548860393517285b3cbf8"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/requirements.txt",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/requirements.txt",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "80dbb26ba1fd1d18cbb0d33ca78e9760786286b48837e288737a06caa4f600d4"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/review-decoded.py",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/review-decoded.py",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "7f56905be4fad2d1a03a4f1764fb0da00641262f68b3ce3998a17dff2a65b66b"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/review-temporal.mjs",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/review-temporal.mjs",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "37dd940917b16eb9dddd9e48f4956eb7bd24f648455791fcbb4c1473979373f9"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/review.mjs",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/review.mjs",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "6a1143a37550b1fc851aab84f9f1c7653ed1e0006e208725fc802d79b2f2f541"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/rig-preservation.json",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/rig-preservation.json",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "00204c3296cbe810e1c808d8f65be2222053bbc3ce06a5bc3bc6b29b9be6488a"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/score.py",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/score.py",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "0c42ca1f2e995935baffc0bdea6444d48eaf75c05531a72a57c8bccfa9a9fc4c"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/src/legacy-renderer.js",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/src/legacy-renderer.js",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "50ca1a691c32da960486f14eec04ab7e34f07e03622fc4764239084643cf091f"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/src/model.js",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/src/model.js",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "a5f4fad71374fdaa6e403467aa6537aad0d38e8fd1dd9a3011dc27bb2d216501"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/src/performance.js",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/src/performance.js",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "d44d5e4413e12f2dfda574cfbdf1f1ec9f8037bf0130ead9c3d66b93781c90f6"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/src/story.js",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/src/story.js",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "098214382d6a6f26d2070aca47871550877c7d5d84eaa70b7d104d778db96a68"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/src/visibility.js",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/src/visibility.js",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "26f5cc66849cbe9c39cf5dc89c40d8a30ac2fc76165b35503f65e78c415453d2"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/src/world.js",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/src/world.js",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "f3db5e91a12528d70e140da41fc39f6bb71a88866f92c1bc7732e62ddb9ddb67"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/tools.mjs",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/tools.mjs",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "92473d8e522bdea631e042b821ac00922a4c0ec23249b2aa5e55526e53bd43f6"
+    },
+    {
+      "file": "project-archive/projetos/the-wrong-door-r2/vendor/rig-controller.js",
+      "source": {
+        "repository_path": "Arckkiller/Animação/projetos/the-wrong-door-r2/vendor/rig-controller.js",
+        "revision": "The Wrong Door R2 body-acting revision; see qa/export-validation.json for movie SHA-256"
+      },
+      "sha256": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db"
     }
   ]
 }

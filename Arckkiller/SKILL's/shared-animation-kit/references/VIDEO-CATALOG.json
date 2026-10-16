@@ -99,6 +99,15 @@
       "download_url": "https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/entrega-animacao-20261014-caf07810/Arckkiller/Anima%C3%A7%C3%A3o/V%C3%ADdeos/The-Wrong-Door/The-Wrong-Door-1080p60.mp4",
       "bytes": 33396401,
       "sha256": "3c63b9ba9178da49ff2d5dc4e2dd4738f85368df1cd1a9da6e8129f7d68171cb"
+    },
+    {
+      "id": "arckkiller-The-Wrong-Door-R2",
+      "filename": "The-Wrong-Door-R2-1080p60.mp4",
+      "repository_path": "Arckkiller/Animação/Vídeos/The-Wrong-Door-R2/The-Wrong-Door-R2-1080p60.mp4",
+      "url": "https://github.com/lasmidiasplayer20-stack/codex/blob/entrega-animacao-20261014-caf07810/Arckkiller/Anima%C3%A7%C3%A3o/V%C3%ADdeos/The-Wrong-Door-R2/The-Wrong-Door-R2-1080p60.mp4",
+      "download_url": "https://raw.githubusercontent.com/lasmidiasplayer20-stack/codex/entrega-animacao-20261014-caf07810/Arckkiller/Anima%C3%A7%C3%A3o/V%C3%ADdeos/The-Wrong-Door-R2/The-Wrong-Door-R2-1080p60.mp4",
+      "bytes": 39063813,
+      "sha256": "100d842c7cdeb63808ff00f0fb17a4b5f32180b62ef44f8999b42e95c769c036"
     }
   ]
 }

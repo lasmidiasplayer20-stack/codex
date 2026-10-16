@@ -1,0 +1,16 @@
+{
+  "duration": 118.75,
+  "sampleRate": 48000,
+  "sourceTrack": "audio/reference-track.m4a",
+  "sourceAudioOffsetSeconds": 0,
+  "sourceAudioSpeed": 1,
+  "music": "Original Python/NumPy score",
+  "musicBpm": 112,
+  "seed": 7186,
+  "musicPeakBeforeMix": 0.053098373115062714,
+  "musicMixGain": 0.55,
+  "masterGain": 0.78,
+  "limiterCeiling": 0.9,
+  "originalAudioSeparatedIntoStems": false,
+  "note": "The complete supplied reference soundtrack, including any existing music, is preserved. New quiet music is mixed underneath. No claim of human listening."
+}

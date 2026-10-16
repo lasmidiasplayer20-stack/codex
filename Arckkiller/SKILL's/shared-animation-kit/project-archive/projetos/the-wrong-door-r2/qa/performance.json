@@ -1,0 +1,127 @@
+{
+  "samples": 11581,
+  "finite": true,
+  "maxBoneRatioError": 5.995204332975845e-15,
+  "maxFloorPenetration": 0,
+  "maxPlantedFootSlide": 0,
+  "maxContactResidual": 4.687428401686771e-13,
+  "maxLegTargetError": 0,
+  "maxVisibleJointStep": 59.03024274160669,
+  "maxVisibleGaitStep": 54.853612635267716,
+  "plantedChecks": 5655,
+  "rapidGaitFrames": [
+    {
+      "name": "cyan",
+      "t": 67.11666666666666,
+      "step": 50.26901571075946
+    },
+    {
+      "name": "cyan",
+      "t": 67.28333333333333,
+      "step": 50.62308155836294
+    },
+    {
+      "name": "cyan",
+      "t": 87.4,
+      "step": 54.853612635267716
+    }
+  ],
+  "rapidActingFrames": [],
+  "repeat": [
+    {
+      "t": 6,
+      "equal": true
+    },
+    {
+      "t": 12,
+      "equal": true
+    },
+    {
+      "t": 28,
+      "equal": true
+    },
+    {
+      "t": 34,
+      "equal": true
+    },
+    {
+      "t": 40,
+      "equal": true
+    },
+    {
+      "t": 54,
+      "equal": true
+    },
+    {
+      "t": 62,
+      "equal": true
+    },
+    {
+      "t": 74,
+      "equal": true
+    },
+    {
+      "t": 80,
+      "equal": true
+    },
+    {
+      "t": 86,
+      "equal": true
+    },
+    {
+      "t": 104,
+      "equal": true
+    },
+    {
+      "t": 114,
+      "equal": true
+    }
+  ],
+  "pencils": [
+    {
+      "id": "door-first",
+      "maxTipToTraceGap": 0
+    },
+    {
+      "id": "door-lift",
+      "maxTipToTraceGap": 0
+    },
+    {
+      "id": "door-star",
+      "maxTipToTraceGap": 0
+    },
+    {
+      "id": "erase-handle",
+      "maxTipToTraceGap": 0
+    },
+    {
+      "id": "women",
+      "maxTipToTraceGap": 0
+    },
+    {
+      "id": "lift-seam",
+      "maxTipToTraceGap": 0
+    },
+    {
+      "id": "gauge",
+      "maxTipToTraceGap": 0
+    },
+    {
+      "id": "star",
+      "maxTipToTraceGap": 0
+    }
+  ],
+  "faces": false,
+  "motionBlur": false,
+  "rigSampleRate": 120,
+  "outputFrames": 7125,
+  "outputFps": 60,
+  "duration": 118.75,
+  "sourceAudioOffset": 0,
+  "playbackSpeed": 1,
+  "notes": [
+    "Explicitly hidden exits are excluded from visible motion-jump measurements.",
+    "Water and rear passerby occupy a background depth plane.",
+    "Falling-body floor response is solved before recording FK; ordinary walks have no post-FK floor projection."
+  ]
+}

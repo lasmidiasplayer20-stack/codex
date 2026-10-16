@@ -47,3 +47,7 @@ The shared factory example is fixed at 210 seconds in seven parts. If changing d
 Run meaningful current-scene checks for finite FK poses, bone ratios, hand/foot errors, floor/overhead penetration, curved silhouettes, prop/actor/prop contacts, camera bounds, native-time concurrency and deterministic seeking. Inspect temporal image sequences at high-risk actions; numerical bounds do not establish every visual overlap correct. Do not present historical reports as new test results.
 
 Verify the complete MP4's exact duration and frame count, resolution, 60 fps, H.264, AAC stereo, complete decode and audio gain/timing. Keep only complete final MP4s inside the user's `Vídeos` folder. Keep intermediate parts, previews, raw streams and QA elsewhere, and preserve previous films and URLs. Publish within the authorized repository/branch. Report the delivered links, actual checks and remaining limitations in plain language. Do not claim human listening unless performed.
+
+## Body acting and current visual defaults
+
+Keep the normal preserved rig and use posture, hands, neck direction, anticipation, weight and recovery to communicate emotion. Characters are faceless unless requested otherwise. Read [body-acting lessons](../shared-animation-kit/references/BODY-ACTING-LESSONS.md). Never copy noisy captured reference limb endpoints into an original production.

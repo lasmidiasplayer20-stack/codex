@@ -3,38 +3,43 @@
     "animation-from-reference",
     "original-stick-animation"
   ],
-  "sharedFiles": 994,
-  "sourceFilesWithProvenance": 981,
-  "completeMoviesLinked": 10,
+  "sharedFiles": 1045,
+  "sourceFilesWithProvenance": 1031,
+  "completeMoviesLinked": 11,
   "reusableElevenLabsEffects": 28,
   "credentialsDetected": 0,
   "packages": {
     "animation-skills.zip": {
-      "bytes": 68662951,
-      "sha256": "0c4d8c479f1a63ad5abc9985ecdaf2a695ead9fdac4c0a121a2258d0222f1d3a",
-      "files": 999,
+      "bytes": 77939014,
+      "sha256": "e458706ed3df883850b1c6a6381d657aeead16f696b82cc372c728d88ffd9f74",
+      "files": 1050,
       "zipCRC": "passed"
     },
     "animation-from-reference.zip": {
-      "bytes": 19419294,
-      "sha256": "582c68f1ff27d4be9b68ead9ed9fbdc87090255c33537c3aab6f81f5248d127a",
-      "files": 720,
+      "bytes": 21263495,
+      "sha256": "48795a026096d6873b8d2cf50c59b4b4072491d538aeec6c459c9b62347d82fb",
+      "files": 768,
       "zipCRC": "passed"
     },
     "original-stick-animation.zip": {
-      "bytes": 19419088,
-      "sha256": "871e7c39bb1df20c4f6e0e8d0f1c084187afb91b4d7de3deda82a3efd577cdc5",
-      "files": 720,
+      "bytes": 21263331,
+      "sha256": "cba3e207e6a3d6b7eb32cc9e2eaf47e85f7663442aebc75e90731f9b7d483e24",
+      "files": 768,
       "zipCRC": "passed"
     }
   },
   "checks": {
     "exactlyTwoActiveSkills": true,
-    "extractedArchives": "passed: all three bundle and shared manifests",
-    "originalProjectInitialization": "passed: extracted portable ZIP, 37800 factory poses and physical contacts",
-    "referenceProjectInitialization": "passed: extracted portable ZIP, 5459 actor poses, fixed ratios and drawn-curve support",
-    "completeMovie": "passed: 7125 frames at 1080p60, AAC stereo, all six internal sections and full movie decode",
-    "sourceAudio": "passed: identical AAC payload in the copied reference track",
-    "finalAudio": "measured -17.26 LUFS and -2.20 dBTP"
+    "extractedBundleAndSharedManifestsPassed": true,
+    "referenceR2InitializerPassed": true,
+    "referenceR2FreshRuntimePassed": true,
+    "originalInitializerPassed": true
+  },
+  "latestReferenceExample": {
+    "project": "the-wrong-door-r2",
+    "facialFeatures": false,
+    "freshPoseChecks": 11581,
+    "plantedFootChecks": 5655,
+    "completeFilmFullDecode": true
   }
 }

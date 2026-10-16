@@ -6,24 +6,24 @@
       "sha256": "ac1e866bb9da15f4cf2d7ef56e5f80d3ce7de219815db0a661371ee76e1c81d2"
     },
     "animation-from-reference/SKILL.md": {
-      "bytes": 7019,
-      "sha256": "99e5acd541225a5d42bd032888e14e03d901b2155ac7ee35b7c96b0bfe89c5cf"
+      "bytes": 7293,
+      "sha256": "68bf1794f3ba9faa815cb88838974c933ec1acfbb387c5f4cb905ba14a6a97ec"
     },
     "original-stick-animation/SKILL.md": {
-      "bytes": 6243,
-      "sha256": "923b0ed8a931b26b3fc6490f7f54b0ca3f4f307bbaba03616407a7fb8d461933"
+      "bytes": 6635,
+      "sha256": "5fd6368dbbf57ee27e00e62256c18cd46f543859ae9416cf895a420bc11b098e"
     },
     "shared-animation-kit/MANIFEST.json": {
-      "bytes": 184972,
-      "sha256": "dd0847fce2309a4070a51227231a643aee55099ddab8b6510925ac76cd78d55b"
+      "bytes": 194221,
+      "sha256": "118fdeac0d0f9be38113ca1f39ce0f76359bd5d9eb0aa3a7fc98a5a95c222996"
     },
     "shared-animation-kit/PROVENANCE.json": {
-      "bytes": 351805,
-      "sha256": "86aaa3f6020cc89290b5180c79c628619941d7c88fc4a7a5a212d4feb1708195"
+      "bytes": 372272,
+      "sha256": "f1cdc13a664748d1c96a47ac248dfae1326089c5dc1773f34c33a1ebbb816306"
     },
     "shared-animation-kit/README.md": {
-      "bytes": 892,
-      "sha256": "737cfde224e6a308a8ea75eaa891b2f856a8870b156bdc998636a0bf3c990333"
+      "bytes": 1008,
+      "sha256": "bdb6b24d008b8ca907386217277272df1f6ce4e661102f7e76af455f14511c2a"
     },
     "shared-animation-kit/WORKFLOW.md": {
       "bytes": 6126,
@@ -1197,6 +1197,206 @@
       "bytes": 2212,
       "sha256": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db"
     },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/.gitignore": {
+      "bytes": 94,
+      "sha256": "e51f6bee158f6be59c19f1ef0f5b0b84abec4535c9f61f36e6bf504d77767106"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/README.md": {
+      "bytes": 1691,
+      "sha256": "aec3fb866e00df68b1b5ec10a6a603fccfe49585f1313384d6d2610ea28078c7"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/REPORT.md": {
+      "bytes": 2485,
+      "sha256": "ca3f93cb307f96ce413de3ec28f3cda31276626027e78dd9cd260bda097f9cf6"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/SOURCE-INSTRUCTIONS.md": {
+      "bytes": 626,
+      "sha256": "91a209d8c1e43488c5c380b27855368f85e47cae32e8dea72fc2ec1f97ec59c8"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/STORY.md": {
+      "bytes": 1030,
+      "sha256": "47f0dff65e4909f73a8891cc9f543d67be4f73bbaafb501e002f682521beb8cb"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/assemble.py": {
+      "bytes": 2821,
+      "sha256": "3660c21e0ef3d7d09cbaee3c67bbf83f5fe83033c6f6f84811b9067dc5c0cea7"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/audio/master.m4a": {
+      "bytes": 2666744,
+      "sha256": "cb01d52cd9ace9545423c5828e9ed252df6f4a6026c3e19de4c1716f7917383b"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/audio/original-music.m4a": {
+      "bytes": 2969654,
+      "sha256": "fcb746a5279e4c801bfdb317409176fcf1beedaa100257f57ac1583ac6698459"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/audio/reference-track.m4a": {
+      "bytes": 1921489,
+      "sha256": "7f1190d6d5328e911a984d162f3e94a485ccbcd9533cce303399e0192bce80a0"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/check-player.mjs": {
+      "bytes": 1092,
+      "sha256": "4257e62365709a48aafb2db16ff2cb612bf4afd291544f67f6daf9decb8179a1"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/http-files.mjs": {
+      "bytes": 1804,
+      "sha256": "f9f19a518ce40f8d2effb49236dd74c0a35108c896af57a46e8ab9ef80497bda"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/index.html": {
+      "bytes": 1915,
+      "sha256": "6d202a465cb72bfba64ec04631a3fc38e37f9c37551a4c9b02a9d1ea2263dc25"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/inspect.mjs": {
+      "bytes": 4625,
+      "sha256": "da7d9e6e9e934fa6fc968aef26b5bf2a8a4d90fe1197972b80fb59d0d0bef058"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/package.json": {
+      "bytes": 246,
+      "sha256": "54c26770dfc06b0f783ca571f0340c3c4f8cffc744b3c2cc7a535744d361e712"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/qa/audio-production.json": {
+      "bytes": 556,
+      "sha256": "d894a12833bacb0fe7a2546ab322ffb1b2e30e2ad86022013df03ff896f4c06f"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/qa/audio-reuse.json": {
+      "bytes": 508,
+      "sha256": "595109a3ab2608cadbc69bb8fe017d1a5a726ed353ff2086b16217ca7feb7e22"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/qa/chapters.ffmeta": {
+      "bytes": 464,
+      "sha256": "839b3271f988d4c06b9450057f8dcff188c19989358fe12115bdd438ad038386"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/qa/decoded-overview.jpg": {
+      "bytes": 498559,
+      "sha256": "2a1ccb8a07a13dca6c45a3c9d40b4ce4ff94732dc7fb0d62615e70f6a729fb81"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/qa/decoded-review.json": {
+      "bytes": 3745,
+      "sha256": "3eedc386ebbbe4710c58858f8a85ac1dd03e7b4eadf2a8c9cf31e639f60fc2be"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/qa/design-and-acting.jpg": {
+      "bytes": 296488,
+      "sha256": "41e1d03e254dabb5bdd4b299370cf61dff85a11ed0a03aaedb0f16bb73dc0c3d"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/qa/export-validation.json": {
+      "bytes": 2214,
+      "sha256": "7253f791262661bb9427825d1c5173798add2be48d80a07f7b0c7722c94bd012"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/qa/loudness.json": {
+      "bytes": 329,
+      "sha256": "17515096c4d112d26a587b42b37cd715c296db63171d73dd22e83894280e68a9"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/qa/movement-review-01.jpg": {
+      "bytes": 285280,
+      "sha256": "7de12b2157f1d59e69c787fc5472ce2be6a650c7025d908e4a65e9eb06d598b7"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/qa/movement-review-02.jpg": {
+      "bytes": 284633,
+      "sha256": "652e45664833f60ffed810e1491c950fd07f35499199a20e8f7ebc3f09e1dd8a"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/qa/movement-review-03.jpg": {
+      "bytes": 277581,
+      "sha256": "267fb65414c01021a758eab984315461cb3540e7b9f1fa80f31e3f10825d579f"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/qa/movement-review-04.jpg": {
+      "bytes": 324045,
+      "sha256": "963ae59bff908d8d92552bcdd1fca510ffdccc9ca054c61151787eaa3c93234f"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/qa/overview.jpg": {
+      "bytes": 786262,
+      "sha256": "8f8f2169f06fcd31264207ba8e4f137030f2396af4f69fd6f5d843590e81a494"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/qa/performance.json": {
+      "bytes": 2251,
+      "sha256": "01abb8961a3ba2d2ff611ee24bd7bd04b5ce3e63e924f0da9236858e6cc84547"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/qa/player.json": {
+      "bytes": 216,
+      "sha256": "a6c79fc235c5678a157a9afd71533674c8180022d4a62f0d9eec79729941043a"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/qa/preservation.json": {
+      "bytes": 423,
+      "sha256": "a249eaa4da974090e72d590e886ea06e2edc0bafbfa56cad8319633dfcf8eb4b"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/qa/render-sources.json": {
+      "bytes": 637,
+      "sha256": "482ae2f18189b209b60ca0ab9837980d57344d945776793256fba4dd34b10f8d"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/qa/source-audio-preservation.json": {
+      "bytes": 250,
+      "sha256": "9137d3059d4fa10e4b227f1f17f88644bc151e2379ca630c4f22456083cefc68"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/qa/temporal-crops.json": {
+      "bytes": 11109,
+      "sha256": "9388355815b4bec72805fd08610f6929b2854f8694ea6b6f4ab1a8d84adac085"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/qa/temporal-review.json": {
+      "bytes": 370,
+      "sha256": "8a09be4425f3ff5dec7e702f12c9e539e9eac09d5d43400a6d1631c7278734d7"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/reference/source.json": {
+      "bytes": 397,
+      "sha256": "c8e35d2ad9cae703db7d071d4e3b449aec64fac7ff9f3ee830be944b6eb85237"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/render-parts.mjs": {
+      "bytes": 2980,
+      "sha256": "b85625a23b25cb83716924648eb2def26cd41397d59548860393517285b3cbf8"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/requirements.txt": {
+      "bytes": 62,
+      "sha256": "80dbb26ba1fd1d18cbb0d33ca78e9760786286b48837e288737a06caa4f600d4"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/review-decoded.py": {
+      "bytes": 1131,
+      "sha256": "7f56905be4fad2d1a03a4f1764fb0da00641262f68b3ce3998a17dff2a65b66b"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/review-temporal.mjs": {
+      "bytes": 836,
+      "sha256": "37dd940917b16eb9dddd9e48f4956eb7bd24f648455791fcbb4c1473979373f9"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/review.mjs": {
+      "bytes": 735,
+      "sha256": "6a1143a37550b1fc851aab84f9f1c7653ed1e0006e208725fc802d79b2f2f541"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/rig-preservation.json": {
+      "bytes": 282,
+      "sha256": "00204c3296cbe810e1c808d8f65be2222053bbc3ce06a5bc3bc6b29b9be6488a"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/score.py": {
+      "bytes": 3457,
+      "sha256": "0c42ca1f2e995935baffc0bdea6444d48eaf75c05531a72a57c8bccfa9a9fc4c"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/src/legacy-renderer.js": {
+      "bytes": 2298,
+      "sha256": "50ca1a691c32da960486f14eec04ab7e34f07e03622fc4764239084643cf091f"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/src/model.js": {
+      "bytes": 199,
+      "sha256": "a5f4fad71374fdaa6e403467aa6537aad0d38e8fd1dd9a3011dc27bb2d216501"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/src/performance.js": {
+      "bytes": 11465,
+      "sha256": "d44d5e4413e12f2dfda574cfbdf1f1ec9f8037bf0130ead9c3d66b93781c90f6"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/src/story.js": {
+      "bytes": 2267,
+      "sha256": "098214382d6a6f26d2070aca47871550877c7d5d84eaa70b7d104d778db96a68"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/src/visibility.js": {
+      "bytes": 196,
+      "sha256": "26f5cc66849cbe9c39cf5dc89c40d8a30ac2fc76165b35503f65e78c415453d2"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/src/world.js": {
+      "bytes": 15061,
+      "sha256": "f3db5e91a12528d70e140da41fc39f6bb71a88866f92c1bc7732e62ddb9ddb67"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/tools.mjs": {
+      "bytes": 981,
+      "sha256": "92473d8e522bdea631e042b821ac00922a4c0ec23249b2aa5e55526e53bd43f6"
+    },
+    "shared-animation-kit/project-archive/projetos/the-wrong-door-r2/vendor/rig-controller.js": {
+      "bytes": 2212,
+      "sha256": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db"
+    },
     "shared-animation-kit/project-archive/projetos/the-wrong-door/.gitignore": {
       "bytes": 94,
       "sha256": "e51f6bee158f6be59c19f1ef0f5b0b84abec4535c9f61f36e6bf504d77767106"
@@ -1545,6 +1745,10 @@
       "bytes": 982,
       "sha256": "38c40a5eb5885a2061f06e9ca4a3e0408f508e5b515f7f2ed5335bfc365ed02e"
     },
+    "shared-animation-kit/references/BODY-ACTING-LESSONS.md": {
+      "bytes": 2831,
+      "sha256": "4ee539951280181874d988991817013d00493697bc9cc494f63cf981f0641637"
+    },
     "shared-animation-kit/references/PRODUCTION.md": {
       "bytes": 3924,
       "sha256": "bdf919b2bd0def7389f7ff9ac42499a39baba128bd0f2f31acc5c4ec8979ce0c"
@@ -1554,16 +1758,16 @@
       "sha256": "a0fcaef5cf4d2fa6c20725eae93d940a58b5fdf8360eced93eb8cab4449488c7"
     },
     "shared-animation-kit/references/REFERENCE-MAP.md": {
-      "bytes": 2407,
-      "sha256": "51d06c4faab39dd86da4229ecc08b7325a0eb5aa9b3eb37ff451eb0d9b4ba906"
+      "bytes": 2758,
+      "sha256": "08858de0aae04392cab628febefd094209b5b3741f844cf8ca71d5c5e6e64ca9"
     },
     "shared-animation-kit/references/VALIDATION.md": {
       "bytes": 2288,
       "sha256": "a65779a1fe8f7078af9b98b1e0aaf77d7cd48e3217e6ba00fbc68cbb7799da53"
     },
     "shared-animation-kit/references/VIDEO-CATALOG.json": {
-      "bytes": 8740,
-      "sha256": "8b3ccf685e306b39714054c396d22d727b1d36dc5da325f82e31bb71c570136f"
+      "bytes": 9471,
+      "sha256": "2232f8cd623d6a8ea9a041c69ac6004c544f1465ffb552a868de99584633a10f"
     },
     "shared-animation-kit/references/original-docs/LEIA_PRIMEIRO.md": {
       "bytes": 1064,
@@ -3982,8 +4186,8 @@
       "sha256": "3aadc2cd4e9a614f1b6065b406a5458cae2c588bd11433b24101eabe205cd6eb"
     },
     "shared-animation-kit/scripts/init-project.py": {
-      "bytes": 2626,
-      "sha256": "4ea3fc7e0fdc085cc293d3421d4dd8e6bd89731763b3a9f4b575fe67a37c8946"
+      "bytes": 2890,
+      "sha256": "6dd2d722877e79f95d25002b049cca6fed98972f26e3d971caab3b2a1051d072"
     },
     "shared-animation-kit/scripts/verify-package.py": {
       "bytes": 705,

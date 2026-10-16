@@ -1,0 +1,9 @@
+{
+  "src/story.js": "098214382d6a6f26d2070aca47871550877c7d5d84eaa70b7d104d778db96a68",
+  "src/model.js": "a5f4fad71374fdaa6e403467aa6537aad0d38e8fd1dd9a3011dc27bb2d216501",
+  "src/performance.js": "d44d5e4413e12f2dfda574cfbdf1f1ec9f8037bf0130ead9c3d66b93781c90f6",
+  "src/visibility.js": "26f5cc66849cbe9c39cf5dc89c40d8a30ac2fc76165b35503f65e78c415453d2",
+  "src/legacy-renderer.js": "50ca1a691c32da960486f14eec04ab7e34f07e03622fc4764239084643cf091f",
+  "src/world.js": "f3db5e91a12528d70e140da41fc39f6bb71a88866f92c1bc7732e62ddb9ddb67",
+  "vendor/rig-controller.js": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db"
+}
