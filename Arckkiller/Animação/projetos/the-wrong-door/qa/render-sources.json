@@ -1,0 +1,8 @@
+{
+  "src/visibility.js": "f549c4c872e087e5da67585a86d50f366f4587bfe686d65834da270849c49e9f",
+  "src/model.js": "a5f4fad71374fdaa6e403467aa6537aad0d38e8fd1dd9a3011dc27bb2d216501",
+  "src/motion-data.js": "388fda4f87e656211db3987395f4cdb119684f787ae3abf0f622184e4822969a",
+  "src/world.js": "f9fbcf2b34a85d3f4b10228c3c93c139193d146e5a7d016f379f5dde836e0fe1",
+  "src/legacy-renderer.js": "50ca1a691c32da960486f14eec04ab7e34f07e03622fc4764239084643cf091f",
+  "vendor/rig-controller.js": "2a6813eae859d6e79a3c73c87714bb4b42af25022692036f995a4f5e70e553db"
+}

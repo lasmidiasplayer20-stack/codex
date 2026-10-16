@@ -1,0 +1,15 @@
+{
+  "analysisOnly": true,
+  "measurement": {
+    "input_i": "-17.26",
+    "input_tp": "-2.20",
+    "input_lra": "8.80",
+    "input_thresh": "-27.80",
+    "output_i": "-17.06",
+    "output_tp": "-1.84",
+    "output_lra": "7.70",
+    "output_thresh": "-27.51",
+    "normalization_type": "dynamic",
+    "target_offset": "0.06"
+  }
+}

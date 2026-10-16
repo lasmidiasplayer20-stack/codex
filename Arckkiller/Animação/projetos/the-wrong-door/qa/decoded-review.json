@@ -1,0 +1,234 @@
+{
+  "file": "The-Wrong-Door-1080p60.mp4",
+  "samples": [
+    {
+      "time": 0.5,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 2,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 6,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 10,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 12,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 13.5,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 20,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 22,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 26.5,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 28,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 30,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 34,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 38,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 40,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 41,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 48,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 52,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 54,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 56,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 60,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 62,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 68,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 70,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 74,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 78,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 80,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 84,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 86,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 90,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 94,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 96,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 99,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 102,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 104,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 108,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 110,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 114,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    },
+    {
+      "time": 118,
+      "decoded": true,
+      "width": 1920,
+      "height": 1080
+    }
+  ],
+  "framesReviewed": 38
+}

@@ -1,0 +1,21 @@
+{
+  "referenceFrames": 2850,
+  "sourceFps": 24,
+  "deliveryFps": 60,
+  "duration": 118.75,
+  "mainPoseMeasurements": 1896,
+  "extraTracks": {
+    "violet0": 53,
+    "amber0": 42,
+    "gold0": 63,
+    "gold1": 63,
+    "gold2": 63
+  },
+  "boneRatiosPreserved": true,
+  "headRadiusRetargetFactor": 0.3,
+  "radiusPolicy": "Fixed model scale between actual camera zooms; source facial deformation does not resize the whole character",
+  "isolatedAngularRepairs": 0,
+  "method": "Measured head/body/limb endpoints retargeted through fixed-proportion two-link IK; normalized vector facial features; original FK and drawing functions. Kinematic reference adaptation, not pixel-identical motion capture.",
+  "unreachableSourceTargets": 3544.0,
+  "maxSourceTargetReachResidual": 473.636159728431
+}

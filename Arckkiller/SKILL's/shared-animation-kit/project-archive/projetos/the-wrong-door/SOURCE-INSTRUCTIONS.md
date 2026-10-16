@@ -1,0 +1,2 @@
+# The Wrong Door
+Recreate the supplied 118.75-second reference choreography using the preserved programmed character and original clean stage environment. Match the original timestamps and source audio, with newly composed Python music. Six internal sections; export one complete 1920x1080 60fps movie into ../../Vídeos/The-Wrong-Door/. Parts and QA remain outside Vídeos. No source video pixels are used in the animated image. Keep model, FK and original drawing code unchanged. Report measured deviations honestly rather than promising perfect capture.

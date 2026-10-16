@@ -1,0 +1,13 @@
+{
+  "name": "the-wrong-door",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "test": "node inspect.mjs",
+    "render": "node render-parts.mjs"
+  },
+  "devDependencies": {
+    "@playwright/test": "1.64.0"
+  }
+}

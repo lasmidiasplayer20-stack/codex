@@ -1,54 +1,40 @@
 {
-  "package": "stick-physics-animation",
-  "packaged_files": 934,
-  "zip_bytes": 55830711,
-  "zip_sha256": "0c0afc27efd549c9d9b8b7b875f0d918eb19d9da2a4739dce5a92499dece4720",
-  "source_files_with_provenance": 923,
-  "complete_films_linked": 9,
-  "reusable_elevenlabs_effects": 28,
-  "credentials_detected": 0,
-  "checks": {
-    "python_script_parsing": "passed",
-    "initializer": "passed",
-    "initialized_example_geometry": "passed: 37800 poses, 16581 contacts",
-    "reference_extraction": "passed: 3 timed samples, contact sheet, metadata",
-    "zip_crc": "passed",
-    "extracted_manifest": "passed: 933 files",
-    "repository_manifest": "passed: 933 files"
-  },
-  "geometry": {
-    "finite": true,
-    "poseSamples": 37800,
-    "contacts": 16581,
-    "maxBoneError": 1.8118839761882555e-13,
-    "maxContactError": 0.04995133527339705,
-    "maxJointStep": 24.771828361908153,
-    "jointAt": {
-      "t": 81.03333333333333,
-      "n": "ink",
-      "j": 10
-    },
-    "maxFootPenetration": 0,
-    "maxParcelActorPenetration": 0,
-    "parcelActorAt": null,
-    "maxParcelPairPenetration": 0,
-    "maxParcelSlabPenetration": 0.22603742648061598,
-    "minHeadClearance": 131.99767477441117,
-    "concurrentMotionFraction": 0.8448412698412698,
-    "maxFramingOverflow": 0,
-    "maxActorSilhouettePenetration": 0,
-    "maxHeldHeadPenetration": 0,
-    "maxActorPlatformPenetration": 0,
-    "maxActiveParcels": 6,
-    "simulationHz": 120,
-    "duration": 210,
-    "nativeTimeline": true
-  },
-  "exclusions": [
-    "Full MP4s linked with hashes rather than duplicated",
-    "Installed dependencies and browser binaries",
-    "Credentials",
-    "Temporary parts, raw streams and uncompressed working audio"
+  "activeSkills": [
+    "animation-from-reference",
+    "original-stick-animation"
   ],
-  "historical_quality_notes": "Earlier bakery films retain known issues; latest factory example is the default."
+  "sharedFiles": 994,
+  "sourceFilesWithProvenance": 981,
+  "completeMoviesLinked": 10,
+  "reusableElevenLabsEffects": 28,
+  "credentialsDetected": 0,
+  "packages": {
+    "animation-skills.zip": {
+      "bytes": 68662951,
+      "sha256": "0c4d8c479f1a63ad5abc9985ecdaf2a695ead9fdac4c0a121a2258d0222f1d3a",
+      "files": 999,
+      "zipCRC": "passed"
+    },
+    "animation-from-reference.zip": {
+      "bytes": 19419294,
+      "sha256": "582c68f1ff27d4be9b68ead9ed9fbdc87090255c33537c3aab6f81f5248d127a",
+      "files": 720,
+      "zipCRC": "passed"
+    },
+    "original-stick-animation.zip": {
+      "bytes": 19419088,
+      "sha256": "871e7c39bb1df20c4f6e0e8d0f1c084187afb91b4d7de3deda82a3efd577cdc5",
+      "files": 720,
+      "zipCRC": "passed"
+    }
+  },
+  "checks": {
+    "exactlyTwoActiveSkills": true,
+    "extractedArchives": "passed: all three bundle and shared manifests",
+    "originalProjectInitialization": "passed: extracted portable ZIP, 37800 factory poses and physical contacts",
+    "referenceProjectInitialization": "passed: extracted portable ZIP, 5459 actor poses, fixed ratios and drawn-curve support",
+    "completeMovie": "passed: 7125 frames at 1080p60, AAC stereo, all six internal sections and full movie decode",
+    "sourceAudio": "passed: identical AAC payload in the copied reference track",
+    "finalAudio": "measured -17.26 LUFS and -2.20 dBTP"
+  }
 }
