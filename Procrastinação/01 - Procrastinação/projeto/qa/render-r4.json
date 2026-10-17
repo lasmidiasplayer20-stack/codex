@@ -1,0 +1,17 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 3128,
+  "duration": 52.13333333333333,
+  "audioDuration": 52.12,
+  "output": "/workspace/work/codex-full/Procrastinação/01 - Procrastinação/vídeo/procrastinacao-articulacoes-camadas-r4-1080p60.mp4",
+  "stats": {
+    "frames": 3128,
+    "maxBoneError": 7.105427357601002e-14,
+    "maxLegContactError": 0,
+    "maxReachExcess": 0,
+    "finite": true,
+    "sourcePixelsUsed": 0
+  }
+}

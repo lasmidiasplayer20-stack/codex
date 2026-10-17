@@ -1,0 +1,32 @@
+{
+  "passed": true,
+  "reports": [
+    {
+      "kind": "desk",
+      "maxSupportDrift": 0,
+      "maxJointStep": 9.951191450193738,
+      "minPoleProduct": 345340.04484463733,
+      "maxPushGap": 0
+    },
+    {
+      "kind": "steps",
+      "maxSupportDrift": 0,
+      "maxJointStep": 10.462441344294744,
+      "minPoleProduct": 353266.96902881993,
+      "maxPushGap": 0
+    },
+    {
+      "kind": "push",
+      "maxSupportDrift": 0,
+      "maxJointStep": 7.619511089943002,
+      "minPoleProduct": 386761.11826735357,
+      "maxPushGap": 0
+    }
+  ],
+  "monitorContact": true,
+  "monitorPalm": [
+    559,
+    293.3923141121613
+  ],
+  "scope": "World-space stance, consistent knee bend, joint continuity and authored hand contacts; geometry is separate from visual review."
+}

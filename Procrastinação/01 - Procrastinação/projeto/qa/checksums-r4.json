@@ -1,0 +1,20 @@
+{
+  "revision": "r4",
+  "files": [
+    {
+      "file": "vídeo/procrastinacao-articulacoes-camadas-r4-1080p60.mp4",
+      "bytes": 12335396,
+      "sha256": "162bde2c513deedd37c7b602ff73ba8cc10f1ebde552ba4dd3f987c31d2be6ac"
+    },
+    {
+      "file": "vídeo/capa-r4.jpg",
+      "bytes": 144127,
+      "sha256": "3d0ede43530ec36151191fa66d79d940072410b3d9adbff11b65c15c08ce18c2"
+    },
+    {
+      "file": "projeto/codigo-procrastinacao-r4.zip",
+      "bytes": 2129422,
+      "sha256": "2039b09cf5683f8bd1e1f46f3b9ce143a4e70cf7db1d3b6d508b472d4273353a"
+    }
+  ]
+}

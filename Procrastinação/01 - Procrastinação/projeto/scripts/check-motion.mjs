@@ -9,7 +9,7 @@ for(const kind of ['desk','steps','push']){
   const t=i/60,opt={...locomotion(kind,t),floor:442,...(kind==='push'?{gesture:'push',body:.15}:{})},p=poseAt(t,opt);
   if(previous){for(let j=0;j<2;j++)if(p.contacts[j]&&previous.contacts[j])maxSupportDrift=Math.max(maxSupportDrift,Math.hypot(p.feet[j][0]-previous.feet[j][0],p.feet[j][1]-previous.feet[j][1]));
    for(let j=0;j<p.nodes.length;j++)maxJointStep=Math.max(maxJointStep,Math.hypot(p.nodes[j][0]-previous.nodes[j][0],p.nodes[j][1]-previous.nodes[j][1]));}
-  const poles=p.legs.map(l=>(l.end[0]-p.pelvis[0])*(l.joint[1]-p.pelvis[1])-(l.end[1]-p.pelvis[1])*(l.joint[0]-p.pelvis[0]));
+  const poles=p.legs.map((l,i)=>(l.end[0]-p.hips[i][0])*(l.joint[1]-p.hips[i][1])-(l.end[1]-p.hips[i][1])*(l.joint[0]-p.hips[i][0]));
   minPoleProduct=Math.min(minPoleProduct,poles[0]*poles[1]);
   if(kind==='push')maxPushGap=Math.max(maxPushGap,Math.abs(p.hands[0][0]-p.hands[1][0]));previous=p;
  }

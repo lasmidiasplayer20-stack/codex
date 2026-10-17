@@ -1,0 +1,91 @@
+{
+  "passed": true,
+  "frames": 3128,
+  "minElbowInteriorDegrees": 47.95535771398508,
+  "minKneeInteriorDegrees": 113.10005287887589,
+  "minShoulderSeparation": 15.1327459504215,
+  "minHipSeparation": 11.999999999999943,
+  "maxJointStep": 10.462441344294861,
+  "maxStanceDrift": 0,
+  "elbowBranchFlips": 0,
+  "depthPassed": true,
+  "probes": [
+    {
+      "part": "sleeves",
+      "at": [
+        150,
+        149
+      ],
+      "expected": [
+        97,
+        154,
+        147
+      ],
+      "actual": [
+        97,
+        154,
+        147
+      ]
+    },
+    {
+      "part": "trousers",
+      "at": [
+        150,
+        309
+      ],
+      "expected": [
+        178,
+        180,
+        169
+      ],
+      "actual": [
+        178,
+        180,
+        169
+      ]
+    },
+    {
+      "part": "hands",
+      "at": [
+        250,
+        145
+      ],
+      "expected": [
+        238,
+        230,
+        209
+      ],
+      "actual": [
+        238,
+        230,
+        209
+      ]
+    },
+    {
+      "part": "shoes",
+      "at": [
+        250,
+        313
+      ],
+      "expected": [
+        201,
+        199,
+        185
+      ],
+      "actual": [
+        201,
+        199,
+        185
+      ]
+    }
+  ],
+  "stats": {
+    "frames": 3128,
+    "maxBoneError": 7.105427357601002e-14,
+    "maxLegContactError": 0,
+    "maxReachExcess": 0,
+    "finite": true,
+    "sourcePixelsUsed": 0
+  },
+  "scope": "Actual film poses at every frame, separate limb roots, fold limits, continuity and support; production renderer pixel tests at forced crossings for light-over-dark sleeves, trousers, hands and shoes. Visual sequence review is still required."
+}

@@ -1,8 +1,9 @@
-# Procrastinação — o primeiro passo / R3
+# Procrastinação — o primeiro passo / R4
 
 Vídeo completo de 52,12 s com a narração original, 1920×1080 a 60 fps.
-A R3 usa o protagonista de touca de `day-three-editavel.zip` e acrescenta atuação
-e contatos nas 13 cenas. A R2 e a prévia inicial permanecem disponíveis.
+A R4 corrige as dobras e os cruzamentos dos membros do protagonista de touca.
+Os membros escuros ficam atrás; os claros, na frente, inclusive mãos e sapatos.
+As 13 cenas e a narração integral permanecem. R2, R3 e a prévia foram preservadas.
 
 ## Personagem
 
@@ -11,13 +12,20 @@ e os sapatos vêm do componente `character.js` do projeto enviado pelo usuário.
 `src/day-three-character.js` contém esse desenho e um adaptador que o liga ao
 rig de Procrastinação. O personagem não foi extraído de uma imagem.
 
-As poses mantêm os comprimentos do rig existente: tronco 55, pescoço 18,
-braços 33+32 e pernas 50+50. As mangas e as calças têm espessura próxima de
-10,5 unidades; o corpo passa a ser a peça preenchida da blusa do personagem.
-O traje acompanha o tronco e a touca acompanha a cabeça. O solver da caminhada
-preserva os pés de apoio e a direção dos joelhos corrigidos na R2.
-A adaptação preserva a identidade visual; as proporções são retargeteadas ao
-rig deste vídeo e não reproduzem literalmente toda a anatomia do Day Three.
+O rig agora tem encaixes próprios para os dois ombros e os dois quadris.
+O tronco mede 55, o pescoço 26, os braços 33+32 e as pernas 50+50 unidades.
+O pescoço foi ajustado ao desenho preenchido para evitar que a manga comece
+sobre a boca. A espessura próxima continua em 10,5 unidades.
+
+Os joelhos dobram para a frente, com apoio travado, e as pernas ficam separadas
+na postura parada. A caminhada tem passada mais curta e menor elevação do pé.
+Os alcances mantêm o cotovelo abaixo do braço; a comemoração levanta as mãos
+em arcos em torno dos ombros. Não há troca de ramo do cotovelo dentro da cena.
+A adaptação preserva a identidade visual e usa proporções próprias deste vídeo.
+
+A profundidade é fixa: perna, sapato, braço e mão escuros são pintados antes
+dos membros claros. Não se ordenam membros pela posição na tela. No celular,
+a mão escura sustenta o aparelho e a clara toca a tela, redesenhada à frente.
 
 ## Atuação e interações
 
@@ -55,6 +63,7 @@ npm ci
 npm run qa
 npm run motion
 npm run interactions
+npm run anatomy
 npm run render
 npm run validate
 npm run preview
@@ -73,8 +82,11 @@ conforme a estrutura do repositório.
 - `SKILL.md`: fluxo para continuar a série.
 - `scripts/check-interactions.mjs`: presença e atuação em todas as cenas,
   toques nos botões, celular, cartões e contatos com monitor e caixa.
-- `qa/character-provenance-r3.json`: hashes da origem e do componente adaptado.
-- `qa/interacoes-r3.jpg`: sequência de poses; `qa/contato-r3.jpg`: visão das cenas.
+- `qa/character-provenance-r4.json`: hashes da origem e do componente adaptado.
+- `qa/poses-r4.jpg`: sequência de poses; `qa/contato-r4.jpg`: visão das cenas.
+- `scripts/check-anatomy.mjs`: poses nos 3.128 quadros, limites de dobra,
+  continuidade, apoios e testes de pixels nos cruzamentos de membros.
+- `qa/comparacao-r3-r4.jpg`: quadros dos MP4s antes/depois.
 - `qa/validation.json`: validação do MP4 atual; `qa/validation-r2.json`: histórico.
 
 A auditoria cobre os 3.128 tempos de quadro e verifica geometria finita,

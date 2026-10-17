@@ -1,0 +1,28 @@
+{
+  "revision": "r4",
+  "reviewed": "native pose sequences and decoded MP4 scene/gesture sequences",
+  "changes": [
+    "separate shoulder and hip attachments",
+    "head-to-shoulder clearance matched to filled character",
+    "consistent forward knee flexion with planted stance",
+    "shorter step and smaller swing height",
+    "elbows remain on a consistent branch",
+    "celebration wrist arcs around shoulders",
+    "dark far sleeves, trousers, palms and shoes behind light near members",
+    "phone held by far dark hand; near light hand taps in front"
+  ],
+  "evidence": [
+    "anatomy-r4.json",
+    "depth-crossings-r4.png",
+    "poses-r4.jpg",
+    "mp4-contato-r4.jpg",
+    "mp4-sequencias-r4.jpg",
+    "comparacao-r3-r4.jpg",
+    "motion-r4.json",
+    "interactions-r4.json",
+    "validation-r4.json",
+    "browser-r4.json",
+    "audio-continuity-r4.json"
+  ],
+  "limits": "Frame/sequence inspection, not a claim of having watched real-time playback or matched source pixels. Editorial titles, not literal transcription."
+}

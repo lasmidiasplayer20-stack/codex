@@ -1,0 +1,18 @@
+{
+  "revision": "r4",
+  "sourceArchive": "day-three-editavel.zip",
+  "sourceArchiveSha256": "a8f5946ef7808f0e85af8fb4ee38024fb2169449b6fcfdee0ce06041dc395246",
+  "sourceCharacter": "day-three/projeto/character.js",
+  "originalCharacterSha256": "ceee636e12b889486e05b0b14db4324c3ff28fe6a6f4cca3ead0af4ca456fddc",
+  "adaptedCharacterSha256": "b724de31ce1ea6ff8cf74b24a52663832ec10a1a6e15b665fc63bfee041dc053",
+  "reused": [
+    "face and beanie drawing",
+    "hoodie palette and garment paths",
+    "hands and shoes",
+    "backpack palette"
+  ],
+  "adaptation": "Visual parts retargeted with separate shoulder/hip roots, fixed dark-far/light-near depth order and locally authored limb arcs.",
+  "sourceImagesUsed": false,
+  "sourceAudioUsed": false,
+  "voice": "Same already authorized teste1.wav as R2."
+}

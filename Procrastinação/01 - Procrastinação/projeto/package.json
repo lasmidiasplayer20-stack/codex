@@ -8,7 +8,8 @@
     "render": "node scripts/render.mjs render",
     "validate": "python scripts/validate.py",
     "motion": "node scripts/check-motion.mjs",
-    "interactions": "node scripts/check-interactions.mjs"
+    "interactions": "node scripts/check-interactions.mjs",
+    "anatomy": "node scripts/check-anatomy.mjs"
   },
   "dependencies": {
     "@napi-rs/canvas": "0.1.100"

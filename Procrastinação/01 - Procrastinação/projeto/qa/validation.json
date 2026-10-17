@@ -1,6 +1,6 @@
 {
   "passed": true,
-  "file": "procrastinacao-personagem-touca-r3-1080p60.mp4",
+  "file": "procrastinacao-articulacoes-camadas-r4-1080p60.mp4",
   "frames": 3128,
   "fps": 60,
   "width": 1920,
@@ -8,8 +8,8 @@
   "duration": 52.133333,
   "audio_duration": 52.12,
   "full_decode": "passed",
-  "bytes": 12252407,
-  "sha256": "0953f7f8f52ec5ce7e74dbf87546fa7046065942c97f350844baa54935cb8afd",
+  "bytes": 12335396,
+  "sha256": "162bde2c513deedd37c7b602ff73ba8cc10f1ebde552ba4dd3f987c31d2be6ac",
   "audio_source_sha256": "86091197083ebe2101a4a1d408bf3a947c03bb0ac57c8e5e884b8629f9ecf03e",
   "voice_waveform_comparison": {
     "correlation": 0.9997999166897067,

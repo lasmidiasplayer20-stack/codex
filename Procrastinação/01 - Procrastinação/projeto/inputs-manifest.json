@@ -15,8 +15,9 @@
       "sha256": "ff4c40f8800d7ea271efe93a50a629e8de4652fd16a49e057331d2391d35a0ce"
     }
   },
-  "revision": "r3",
+  "revision": "r4",
   "narration_handling": "Local WAV included once in the exported MP4 at original speed and gain; raw WAV excluded from Git.",
   "character_reference": "day-three-editavel.zip / projeto/character.js",
-  "source_episode_audio_used": false
+  "source_episode_audio_used": false,
+  "limb_refinement": "Separate shoulder and hip attachments; consistent joint bend and dark-far/light-near depth."
 }

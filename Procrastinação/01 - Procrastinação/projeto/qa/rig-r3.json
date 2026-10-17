@@ -1,0 +1,11 @@
+{
+  "frames": 3167,
+  "maxBoneError": 7.460698725481052e-14,
+  "maxLegContactError": 0,
+  "maxReachExcess": 0,
+  "finite": true,
+  "sourcePixelsUsed": 0,
+  "expectedFrames": 3128,
+  "passed": true,
+  "scope": "Rig geometry and finite rendering; not a claim of reference pixel equivalence."
+}

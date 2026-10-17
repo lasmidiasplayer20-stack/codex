@@ -1,0 +1,7 @@
+{
+  "passed": true,
+  "comparison": "R3 versus R4 audio packets and timestamps",
+  "packets": 1223,
+  "identicalAACPacketsAndTiming": true,
+  "sourceRawWavPublished": false
+}

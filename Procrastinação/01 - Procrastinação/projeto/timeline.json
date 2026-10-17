@@ -165,8 +165,8 @@
     }
   ],
   "captions": [],
-  "output": "procrastinacao-personagem-touca-r3-1080p60.mp4",
-  "revision": "r3",
+  "output": "procrastinacao-articulacoes-camadas-r4-1080p60.mp4",
+  "revision": "r4",
   "timing_method": "Editorial sequence, scene cuts nudged to local waveform pauses; no transcription or word alignment.",
   "tapeEvents": [
     0,
@@ -183,13 +183,14 @@
     43.68,
     48.37
   ],
-  "playback": "export/procrastinacao-personagem-touca-r3-1080p60.mp4",
+  "playback": "export/procrastinacao-articulacoes-camadas-r4-1080p60.mp4",
   "character": {
     "style": "day-three-beanie",
     "source": "day-three-editavel.zip / projeto/character.js",
     "sourceSha256": "ceee636e12b889486e05b0b14db4324c3ff28fe6a6f4cca3ead0af4ca456fddc",
     "retargetedToExistingRig": true,
-    "bag": true
+    "bag": true,
+    "depthOrder": "dark_far_then_light_near"
   },
   "interaction": "continuous_authored_actions"
 }

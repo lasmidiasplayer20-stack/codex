@@ -168,16 +168,18 @@ function renderActor(ctx,x,y,s,t,mode='idle',opts={}){C=ctx;return actor(x,y,s,t
 // No source image, source audio or episode staging is used here.
 function renderRetargeted(ctx,p,t,opts={}){
  C=ctx;
+ // Fixed depth passes: all dark far limbs first; light near limbs last.
+ // Never sort by screen x, gait phase, hand height or facing.
  const width=opts.width||10.5,bodyAngle=Math.atan2(p.shoulder[0]-p.pelvis[0],p.pelvis[1]-p.shoulder[1]);
  const costume=q=>[q[0]*.6,(q[1]+126)*59/80];
  C.save();C.translate(...p.pelvis);C.rotate(bodyAngle);
  if(opts.bag!==false){const q=costume([-48,-188]);rr(q[0],q[1],33*.6,70*59/80,5,'#9b7854',colors.ink,1.5);line([[q[0]+6,q[1]+8],[q[0]+14,q[1]+1]],'#ceb58f',2.5);}
  C.restore();
- member(p.pelvis,p.legs[0].joint,p.legs[0].end,width*.905,rig.farTrouser);
+ member(p.hips[0],p.legs[0].joint,p.legs[0].end,width*.905,rig.farTrouser);
  C.save();C.translate(p.feet[0][0],p.feet[0][1]-5.2);C.scale(.65,.65);shoe([0,0],true);C.restore();
- member(p.shoulder,p.arms[0].joint,p.arms[0].end,width*.86,rig.farSleeve);
+ member(p.shoulders[0],p.arms[0].joint,p.arms[0].end,width*.86,rig.farSleeve);
  C.save();C.translate(...p.hands[0]);C.scale(.68,.68);hand([0,0],-.3,true);C.restore();
- member(p.pelvis,p.legs[1].joint,p.legs[1].end,width,'#b2b4a9');
+ member(p.hips[1],p.legs[1].joint,p.legs[1].end,width,'#b2b4a9');
  C.save();C.translate(p.feet[1][0],p.feet[1][1]-5.2);C.scale(.65,.65);shoe([0,0]);C.restore();
  C.save();C.translate(...p.pelvis);C.rotate(bodyAngle);
  const T=costume;
@@ -186,10 +188,10 @@ function renderRetargeted(ctx,p,t,opts={}){
  line([T([-19,-132]),T([21,-132])],'#35615e',1.8);
  line([T([6,-198]),T([6,-176])],'#94b5a5',1.1);line([T([15,-198]),T([15,-179])],'#94b5a5',1.1);
  C.restore();
- member(p.shoulder,p.arms[1].joint,p.arms[1].end,width,rig.nearSleeve);
  const angle=Math.atan2(p.head[0]-p.shoulder[0],p.shoulder[1]-p.head[1]);
  C.save();C.translate(...p.head);C.rotate(angle);C.scale((opts.faceFacing||1)*.55,.55);
  face(0,0,t,opts.mood||'worried',0,{variant:'hero',look:opts.look??1,lookY:opts.lookY??0,headTilt:opts.headTilt??0,mouthOpen:opts.mouthOpen??0});C.restore();
+ member(p.shoulders[1],p.arms[1].joint,p.arms[1].end,width,rig.nearSleeve);
  C.save();C.translate(...p.hands[1]);C.scale(.7,.7);hand([0,0],opts.handAngle??.3);C.restore();
 }
 function renderPalm(ctx,p,far=false){C=ctx;C.save();C.translate(...p);C.scale(.68,.68);hand([0,0],-.3,far);C.restore();}
