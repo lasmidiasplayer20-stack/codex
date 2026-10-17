@@ -1,0 +1,20 @@
+{
+  "file": "day-three-someone-was-listening-1080p60.mp4",
+  "bytes": 100740272,
+  "sha256": "0beaf7b33972e7b3f3d816558cace54ee6b96b3fcfe4d39bf5e8f335b3e0385b",
+  "duration_seconds": 692.166667,
+  "width": 1920,
+  "height": 1080,
+  "fps": "60/1",
+  "frames": 41530,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "audio_channels": 2,
+  "audio_sample_rate": 48000,
+  "audio_integrated_lufs": -16.06,
+  "audio_true_peak_dbtp": -2.96,
+  "audio_loudness_range_lu": 3.6,
+  "video_start": "0.000000",
+  "audio_start": "0.000000",
+  "complete_decode_passed": true
+}

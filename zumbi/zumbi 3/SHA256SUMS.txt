@@ -1,0 +1,5 @@
+0beaf7b33972e7b3f3d816558cace54ee6b96b3fcfe4d39bf5e8f335b3e0385b  Vídeos/day-three-someone-was-listening-1080p60.mp4
+a8f5946ef7808f0e85af8fb4ee38024fb2169449b6fcfdee0ce06041dc395246  day-three-editavel.zip
+593ec797534a01bb8dbb3227781e493a90b29e0039871245be23870fdeeb8514  day-three-en.srt
+deb58729417e102adf796db1b95aaa2e43bb8159c5cdaccc284f04b880e672c9  capa/day-three-thumbnail.jpg
+23591347898aa7f569ec766e0f4a3c70b237b5a2668e49f1f684dd1714ea5f75  youtube-metadata.md

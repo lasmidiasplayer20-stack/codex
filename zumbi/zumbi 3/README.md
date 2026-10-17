@@ -1,7 +1,5 @@
 # Day Three — The Other Side
 
-**Exportação em andamento:** o MP4 completo e o ZIP serão incluídos depois da validação final. Capa, metadados, roteiro, áudio tratado e projeto já estão nesta pasta.
-
 Parte 3 da série do surto zumbi, continuando diretamente da voz de Rosa no fim do Day 2. Narração, legendas e textos visíveis em inglês. A história acompanha os quatro sobreviventes na travessia do canal e desenvolve o mistério das transmissões.
 
 ## Entrega
@@ -16,6 +14,8 @@ Parte 3 da série do surto zumbi, continuando diretamente da voz de Rosa no fim 
 Título: **Day 3 of the Zombie Outbreak — Someone Was Listening**.
 
 A montagem tem **11min32,167s**, incluindo abertura de 3 segundos e encerramento de 3 segundos. São 32 cenas, 129 planos e 210 legendas. Os CTAs discretos duram cinco segundos, aos **00:45**, **05:46,083** e **10:57,167**, acima das legendas e próximos à borda direita.
+
+O MP4 final passou pela decodificação completa de **41.530 quadros**. O áudio AAC estéreo a 48 kHz mediu **-16.06 LUFS**, pico verdadeiro de **-2.96 dBTP** e faixa de sonoridade de **3.60 LU**. Vídeo e áudio começam em 0,000s. O vídeo já inclui as legendas em inglês; o SRT também é fornecido para edição. Veja [a validação final](qa/final-validation.json) e [os checksums](SHA256SUMS.txt).
 
 ## Animação e continuidade
 
