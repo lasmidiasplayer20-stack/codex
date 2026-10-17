@@ -1,0 +1,8 @@
+projeto/node_modules
+projeto/__pycache__/
+projeto/tools/__pycache__/
+projeto/*.wav
+projeto/assets/*.wav
+projeto/assets/mix-preview.mp3
+rendered/
+*.tmp
