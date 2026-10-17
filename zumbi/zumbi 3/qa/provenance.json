@@ -1,0 +1,28 @@
+{
+  "episode": 3,
+  "source_audio_name": "Generated Audio October 17, 2026 - 5_52PM.wav",
+  "source_audio_sha256": "27368359dce766e898e10b935c4ccb20cfa6ed1862c6a04482e28962ad7218a4",
+  "source_audio_seconds": 686.16,
+  "script_source": "Original Day 3 script authored in the conversation; continuity from complete Day 2 story.json and available Day 1 visual references. Full Day 1 transcript was not supplied.",
+  "new_work": "32 authored scenes, 129 shots, original canal/pump/relay environments, authored choreography, 210 English captions, original synthesized music and Foley, Day 3 cover",
+  "asr": "Local sherpa-onnx Whisper base.en, int8; no remote transcription upload",
+  "applied_skills": [
+    "Arckkiller/SKILL's/original-stick-animation/SKILL.md",
+    "vidIQ packaging studio"
+  ],
+  "preserved_modules": {
+    "character.js": {
+      "sha256": "ceee636e12b889486e05b0b14db4324c3ff28fe6a6f4cca3ead0af4ca456fddc",
+      "unchanged_from_episode_2": true
+    },
+    "chaos.js": {
+      "sha256": "8804905a46b3fcc9f6002e1514f69545d429639ddfd951ced2cb877ccacdb64b",
+      "unchanged_from_episode_2": true
+    }
+  },
+  "speech_cuts": [],
+  "speech_cut_reason": "No spoken production headings or time markers identified in local transcription.",
+  "credentials_packaged": false,
+  "thumbnail": "Original image generation from the creator episode 2 cover; cast corrected to hero, elderly woman, officer and maintenance worker on the walkway; Rosa remains at far-side shelter. Promotional illustration, not a film frame.",
+  "scope": "Directed Canvas rig animation with authored water/VFX; not a general humanoid physics simulation. Automated transcription, measurements and visual frame inspection; no human listening claim."
+}

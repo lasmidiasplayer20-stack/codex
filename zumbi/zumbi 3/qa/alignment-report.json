@@ -1,0 +1,12 @@
+{
+  "method": "Local Whisper base.en segments, canonical-word sequence alignment, interpolation within segments",
+  "canonical_words": 1793,
+  "matched_words": 1715,
+  "match_ratio": 0.9565,
+  "caption_cues": 210,
+  "scenes": 32,
+  "duration": 692.1666666666666,
+  "source_audio_duration": 686.16,
+  "intro_offset": 3,
+  "scope": "Segment-based synchronization, not phoneme-level alignment. No headings or numeric production timestamps found in local transcript; no speech cuts applied."
+}

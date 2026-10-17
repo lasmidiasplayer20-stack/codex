@@ -1,0 +1,20 @@
+{
+  "duration": 692.1666666666666,
+  "fps": 60,
+  "frames": 41530,
+  "scenes": 32,
+  "captions": 210,
+  "shots": 129,
+  "deterministic_seeking": true,
+  "sampled_frames": 693,
+  "actual_director_actor_poses": 9769,
+  "nonfinite": 0,
+  "bone_length_max_error": 5.684341886080802e-14,
+  "max_sole_below_actor_root": 3.2785511262510454,
+  "cta_starts": [
+    45,
+    346.0833333333333,
+    657.1666666666666
+  ],
+  "scope": "Actual drawn director poses sampled each second, bone ratios, finite coordinates and repeat seeks; scene contact sheet and adjacent-frame strips at gate/chain/rescue/crossing/reunion. Slope-adapted foot targets. Directed kinematic animation, not a general physical humanoid simulation or exhaustive silhouette collision proof."
+}

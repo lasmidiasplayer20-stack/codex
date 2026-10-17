@@ -1,0 +1,15 @@
+{
+  "input_sample_peak_dbfs": -0.5877603772593677,
+  "input_samples_near_fullscale": 0,
+  "input_active_100ms_rms_dbfs_percentiles": [
+    -35.284536681753956,
+    -20.392842342726112,
+    -12.849477466514216
+  ],
+  "level_rider_gain_db_range": [
+    -7.000000000000001,
+    9.0
+  ],
+  "level_rider": "100 ms RMS analysis, robust median and Gaussian smoothing, bounded -7/+9 dB, no silence boosting",
+  "processing": "80 Hz high-pass, 10 kHz low-pass, mild 2.5:1 compression, two-pass -17 LUFS voice normalization, -2 dBTP ceiling"
+}

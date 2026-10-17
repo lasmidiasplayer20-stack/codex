@@ -1,0 +1,5 @@
+projeto/node_modules
+projeto/__pycache__/
+projeto/assets/*.wav
+rendered/
+*.tmp
