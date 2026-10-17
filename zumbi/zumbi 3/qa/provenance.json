@@ -24,5 +24,7 @@
   "speech_cut_reason": "No spoken production headings or time markers identified in local transcription.",
   "credentials_packaged": false,
   "thumbnail": "Original image generation from the creator episode 2 cover; cast corrected to hero, elderly woman, officer and maintenance worker on the walkway; Rosa remains at far-side shelter. Promotional illustration, not a film frame.",
-  "scope": "Directed Canvas rig animation with authored water/VFX; not a general humanoid physics simulation. Automated transcription, measurements and visual frame inspection; no human listening claim."
+  "scope": "Directed Canvas rig animation with authored water/VFX; not a general humanoid physics simulation. Automated transcription, measurements and visual frame inspection; no human listening claim.",
+  "director_sha256": "1df10b645b4e53e5e55c0e2fc551d003cc39083344b208c2acf36e60ea2d491f",
+  "source_review": "Current director sampled every second after direction/ground support corrections; unchanged rig modules, finite poses, fixed bone lengths and repeat-seek checks passed."
 }
