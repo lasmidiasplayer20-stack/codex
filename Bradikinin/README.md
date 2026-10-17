@@ -9,3 +9,13 @@
 - Includes original local music and cached ElevenLabs effects; no new paid generations.
 - SHA-256: `c7011a0e054596f6391b0b036b0e6e1164b129f353e0b2dadc42895ef78dc955`.
 - Captions are burned in; geometric rig checks and full MP4 decode passed. Review used sampled temporal strips; subtitle phrase timing is approximate.
+
+## If a Wi-Fi Network Knows Your Name
+
+- File: [If a Wi-Fi Network Knows Your Name.mp4](<If a Wi-Fi Network Knows Your Name.mp4>) — download with GitHub's **Download raw file** button.
+- Duration: 291.718 s audio; 291.733 s video coverage.
+- Format: 1920×1080, 60 fps, H.264/yuv420p, AAC stereo, fast start.
+- Original narration is complete at native speed; reference soundtrack is excluded.
+- Includes original local music and cached ElevenLabs effects; no new paid generations.
+- SHA-256: `bc673af3612accc517dad794801c057cd81cc9ce880c722d62d83ac7555c5498`.
+- Captions are burned in; geometric rig checks and full MP4 decode passed. Review used sampled temporal strips; subtitle phrase timing is approximate.
