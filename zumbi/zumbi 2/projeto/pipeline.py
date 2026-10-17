@@ -18,7 +18,7 @@ def run(args):
   subprocess.run(['node',str(P/'render.cjs'),str(a),str(b),str(part)],cwd=P,check=True);print('Completed part',i,flush=True);return part
  with concurrent.futures.ThreadPoolExecutor(max_workers=args.workers) as pool:parts=list(pool.map(job,enumerate(ranges)))
  concat=tmp/'concat.txt';concat.write_text(''.join("file '"+x.name+"'\n" for x in parts))
- subprocess.run(['ffmpeg','-y','-v','error','-f','concat','-safe','0','-i',str(concat),'-i',str(P/'assets/mix-final.mp3'),'-map','0:v:0','-map','1:a:0','-c:v','copy','-c:a','aac','-b:a','192k','-ar','48000','-ac','2','-t',str(duration),'-movflags','+faststart',str(dest)],check=True)
+ subprocess.run(['ffmpeg','-y','-v','error','-f','concat','-safe','0','-i',str(concat),'-i',str(P/'assets/mix-final.mp3'),'-map','0:v:0','-map','1:a:0','-c:v','copy','-c:a','aac','-b:a','160k','-ar','48000','-ac','2','-t',str(duration),'-movflags','+faststart',str(dest)],check=True)
  print('Final export:',dest,flush=True)
 if __name__=='__main__':
  p=argparse.ArgumentParser();p.add_argument('--workers',type=int,default=2,choices=range(1,4));p.add_argument('--resume',action='store_true');p.add_argument('--output');run(p.parse_args())
