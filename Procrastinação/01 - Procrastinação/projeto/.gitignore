@@ -3,3 +3,5 @@ cache/
 renders/
 __pycache__/
 audio/narracao.wav
+qa/scene-*.png
+node_modules

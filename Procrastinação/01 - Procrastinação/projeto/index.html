@@ -6,11 +6,13 @@
 <canvas id="film" width="1920" height="1080" aria-label="Animação da narração"></canvas>
 <div class="transport"><button id="play" class="primary" aria-label="Reproduzir">Reproduzir</button><input id="seek" type="range" min="0" max="1" value="0" step=".01" aria-label="Posição do vídeo"><span id="time" class="time">00:00 / 00:00</span></div>
 <div class="options"><label><input id="vhs" type="checkbox" checked> VHS leve</label><label><input id="captions" type="checkbox" checked> Legendas</label><label>Carregar narração <input id="audiofile" type="file" accept="audio/*" style="max-width:180px;font-size:11px"></label></div><nav class="chapters" id="chapters" aria-label="Cenas"></nav>
-<footer>Use os capítulos para rever um trecho. Espaço para reproduzir ou pausar; setas para avançar ou voltar.</footer><audio id="audio" preload="metadata"></audio></main>
+<footer>Use os capítulos para rever um trecho. Espaço para reproduzir ou pausar; setas para avançar ou voltar. <a id="download" style="color:#ef4c50" hidden>Abrir o MP4 completo</a></footer><audio id="audio" preload="metadata"></audio></main>
 <script src="src/film.js"></script><script>
 (async()=>{
 const plan=await(await fetch('timeline.json')).json(),canvas=document.querySelector('#film'),film=ProcrastinacaoFilm.makeFilm(canvas.getContext('2d'),plan),audio=document.querySelector('#audio'),seek=document.querySelector('#seek'),play=document.querySelector('#play');
-audio.src=plan.audio;seek.max=plan.duration;document.querySelector('#title').textContent=plan.title;document.title=plan.title+' — Procrastinação';
+audio.src=plan.playback??plan.audio;seek.max=plan.duration;document.querySelector('#title').textContent=plan.title;document.title=plan.title+' — Procrastinação';
+if(plan.playback){const a=document.querySelector('#download');a.hidden=false;a.href=plan.playback;a.target='_blank';}
+if(!plan.captions?.length)document.querySelector('#captions').closest('label').hidden=true;
 const fmt=t=>String(Math.floor(t/60)).padStart(2,'0')+':'+String(Math.floor(t%60)).padStart(2,'0');let pendingSeek=null;
 function show(t){film.frame(t,{captions:document.querySelector('#captions').checked});seek.value=t;document.querySelector('#time').textContent=fmt(t)+' / '+fmt(plan.duration);for(const b of document.querySelectorAll('#chapters button'))b.setAttribute('aria-current',Number(b.dataset.start)<=t&&t<Number(b.dataset.end));}
 function toggle(){if(audio.paused)audio.play().then(()=>play.textContent='Pausar').catch(()=>play.textContent='Reproduzir');else{audio.pause();play.textContent='Reproduzir';}}

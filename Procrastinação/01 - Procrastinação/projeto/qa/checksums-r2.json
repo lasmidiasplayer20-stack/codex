@@ -1,0 +1,20 @@
+{
+  "revision": "r2",
+  "files": [
+    {
+      "file": "vídeo/procrastinacao-completo-r2-1080p60.mp4",
+      "bytes": 13548734,
+      "sha256": "f15ad964086b99970be6981ba1a202d4ad762901179cc8609247ee1295de61f2"
+    },
+    {
+      "file": "vídeo/capa-r2.jpg",
+      "bytes": 40761,
+      "sha256": "be3caa2d50ff471aeec9e3eba5ba0689df278f9fdf5ade10afd135775ac84f0e"
+    },
+    {
+      "file": "projeto/codigo-procrastinacao-r2.zip",
+      "bytes": 681007,
+      "sha256": "a26ebef93a4e7deb8758b9986909bb69f8629a457c37bd9f74ff30767f4922ad"
+    }
+  ]
+}

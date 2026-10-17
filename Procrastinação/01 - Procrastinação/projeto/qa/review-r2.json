@@ -1,0 +1,13 @@
+{
+  "revision": "r2",
+  "completed": true,
+  "voice": {
+    "sourceDuration": 52.12,
+    "completeTrackIncluded": true,
+    "waveformCorrelation": 0.9997999166897067,
+    "tailCorrelation": 0.999749575197976
+  },
+  "visualReview": "Contact sheet across all 13 scenes, dense walking sequence and final encoded walking frames examined.",
+  "motion": "Fixed lengths, planted feet, consistent knee direction, improved elbow targets and thicker soft strokes.",
+  "limitations": "Editorial titles; no speech transcript, literal subtitles or word-by-word alignment. Visual style is a directed approximation of the supplied project."
+}

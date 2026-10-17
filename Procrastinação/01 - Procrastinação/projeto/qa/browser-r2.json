@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "chapterCount": 13,
+  "selectedTime": 19.39,
+  "state": {
+    "duration": 52.133333,
+    "paused": true,
+    "src": "http://127.0.0.1:33813/export/procrastinacao-completo-r2-1080p60.mp4",
+    "readyState": 4
+  },
+  "errors": [],
+  "rawWavRequired": false,
+  "scope": "Actual final MP4 supplies the player narration; chapter seek, playback and VHS controls checked."
+}

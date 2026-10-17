@@ -1,0 +1,18 @@
+{
+  "width": 1920,
+  "height": 1080,
+  "fps": 60,
+  "frames": 3128,
+  "duration": 52.13333333333333,
+  "audioDuration": 52.12,
+  "output": "/workspace/work/codex-full/Procrastina\u00e7\u00e3o/01 - Procrastina\u00e7\u00e3o/v\u00eddeo/procrastinacao-completo-r2-1080p60.mp4",
+  "stats": {
+    "frames": 3128,
+    "maxBoneError": 6.394884621840902e-14,
+    "maxLegContactError": 0,
+    "maxReachExcess": 0,
+    "finite": true,
+    "sourcePixelsUsed": 0
+  },
+  "color_export": "Converted JPEG full range to limited-range BT.709 H.264 yuv420p for the final MP4. AAC copied unchanged during the color conversion."
+}

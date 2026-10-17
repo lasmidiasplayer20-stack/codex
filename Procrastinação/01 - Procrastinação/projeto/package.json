@@ -6,8 +6,13 @@
     "preview": "node scripts/serve.mjs",
     "qa": "node scripts/render.mjs qa",
     "render": "node scripts/render.mjs render",
-    "validate": "python scripts/validate.py"
+    "validate": "python scripts/validate.py",
+    "motion": "node scripts/check-motion.mjs"
   },
-  "dependencies": { "@napi-rs/canvas": "0.1.100" },
-  "engines": { "node": ">=22" }
+  "dependencies": {
+    "@napi-rs/canvas": "0.1.100"
+  },
+  "engines": {
+    "node": ">=22"
+  }
 }

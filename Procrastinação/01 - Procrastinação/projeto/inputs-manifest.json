@@ -1,5 +1,5 @@
 {
-  "status": "awaiting_user_narration_text",
+  "status": "complete_with_original_narration",
   "narration_duration": 52.12,
   "transcription_service_used": false,
   "raw_audio_published": false,
@@ -14,5 +14,7 @@
       "bytes": 32175601,
       "sha256": "ff4c40f8800d7ea271efe93a50a629e8de4652fd16a49e057331d2391d35a0ce"
     }
-  }
+  },
+  "revision": "r2",
+  "narration_handling": "Local WAV included once in the exported MP4 at original speed and gain; raw WAV excluded from Git."
 }

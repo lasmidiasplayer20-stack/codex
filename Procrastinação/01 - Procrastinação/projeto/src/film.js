@@ -16,33 +16,47 @@ function ik(root,target,a,b,side){
 }
 function poseAt(t,opt={}){
  const x=opt.x??360,floor=opt.floor??442,body=opt.body??0,neck=opt.neck??0;
- let pelvis=[x,floor-96],feet=[[x-20,floor],[x+20,floor]];
+ let pelvis=[x,floor-96],feet=[[x-20,floor],[x+20,floor]],phase=0,contacts=[true,true];
  if(opt.walk){
-  const speed=opt.speed??55,g=opt.gait??t,origin=x-speed*g,T=1.02,stride=speed*T;
-  feet=[0,.5].map(offset=>{
-   const phase=g/T+offset,cycle=Math.floor(phase),u=phase-cycle,plant=origin+stride*(cycle-offset+.26);
-   if(u<.6)return [plant,floor];
-   const v=(u-.6)/.4;return [plant+stride*ease(v),floor-14*Math.sin(Math.PI*v)];
-  });pelvis[1]+=5;
+  // Travel, not elapsed time, drives the gait. A stance foot stays at one
+  // world coordinate even while the root accelerates or slows down.
+  const origin=opt.walkOrigin??x-(opt.speed??55)*(opt.gait??t),stride=72,settle=opt.settle??0;
+  phase=(x-origin)/stride;
+  feet=[0,.5].map((offset,i)=>{
+   const p=phase+offset,cycle=Math.floor(p),u=p-cycle,plant=origin+stride*(cycle-offset+.35);
+   contacts[i]=u<.62||settle>=1;
+   if(u<.62)return [plant,floor];
+   const v=(u-.62)/.38;return [plant+stride*ease(v),floor-17*Math.sin(Math.PI*v)*(1-settle)];
+  });pelvis[1]=floor-94+.55*Math.sin(phase*TAU*2);
  }
  if(opt.sit){pelvis=[x,floor-52];feet=[[x+28,floor],[x+56,floor]];}
  for(let pass=0;pass<4;pass++)for(const foot of feet){const d=sub(foot,pelvis),l=Math.hypot(...d);if(l>99.7){pelvis[0]+=d[0]*(1-99.7/l);pelvis[1]+=d[1]*(1-99.7/l);}}
  const shoulder=add(pelvis,polar(-Math.PI/2+body,55)),head=add(shoulder,polar(-Math.PI/2+body+neck,18));
  let h0=[shoulder[0]-20,shoulder[1]+57],h1=[shoulder[0]+20,shoulder[1]+57];
- if(opt.walk){const swing=Math.sin((opt.gait??t)/1.02*TAU);h0=[shoulder[0]-10-18*swing,shoulder[1]+55];h1=[shoulder[0]+10+18*swing,shoulder[1]+55];}
- if(opt.gesture==='think'){h0=[shoulder[0]-15,shoulder[1]+49];h1=[head[0]+24,head[1]+9];}
+ if(opt.walk){const swing=Math.sin(phase*TAU);h0=[shoulder[0]-12-16*swing,shoulder[1]+55];h1=[shoulder[0]+12+16*swing,shoulder[1]+55];}
+ if(opt.gesture==='think'){h0=[shoulder[0]-15,shoulder[1]+49];h1=[head[0]+30,head[1]+9];}
  if(opt.gesture==='point'){h1=[shoulder[0]+59,shoulder[1]-2-4*Math.sin(t*2)];}
  if(opt.gesture==='reach'){const q=opt.amount??1;h1=[shoulder[0]+lerp(20,59,q),shoulder[1]+lerp(57,0,q)];}
  if(opt.gesture==='phone'){h1=[shoulder[0]+36,shoulder[1]+30];h0=[shoulder[0]+20,shoulder[1]+35];}
- if(opt.gesture==='push'){h0=[shoulder[0]+53,shoulder[1]-10];h1=[shoulder[0]+59,shoulder[1]+11];}
+ if(opt.gesture==='push'){h0=[shoulder[0]+59,shoulder[1]-10];h1=[shoulder[0]+59,shoulder[1]+11];}
  if(opt.gesture==='celebrate'){const q=opt.amount??1;h0=[shoulder[0]-lerp(20,39,q),shoulder[1]+lerp(57,-45,q)];h1=[shoulder[0]+lerp(20,39,q),shoulder[1]+lerp(57,-45,q)];}
  if(opt.hand0)h0=opt.hand0;if(opt.hand1)h1=opt.hand1;
- const a0=ik(shoulder,h0,33,32,1),a1=ik(shoulder,h1,33,32,-1),l0=ik(pelvis,feet[0],50,50,-1),l1=ik(pelvis,feet[1],50,50,1);
- return {pelvis,shoulder,head,feet,hands:[a0.end,a1.end],arms:[a0,a1],legs:[l0,l1],targets:[h0,h1],nodes:[pelvis,shoulder,head,a0.joint,a0.end,a1.joint,a1.end,l0.joint,l0.end,l1.joint,l1.end],errors:[a0.excess,a1.excess,l0.excess,l1.excess]};
+ const sides=opt.gesture==='celebrate'?[-1,1]:opt.gesture==='think'?[1,1]:[1,-1];
+ const a0=ik(shoulder,h0,33,32,sides[0]),a1=ik(shoulder,h1,33,32,sides[1]),l0=ik(pelvis,feet[0],50,50,-1),l1=ik(pelvis,feet[1],50,50,opt.walk?-1:1);
+ return {pelvis,shoulder,head,feet,contacts,phase,hands:[a0.end,a1.end],arms:[a0,a1],legs:[l0,l1],targets:[h0,h1],nodes:[pelvis,shoulder,head,a0.joint,a0.end,a1.joint,a1.end,l0.joint,l0.end,l1.joint,l1.end],errors:[a0.excess,a1.excess,l0.excess,l1.excess]};
+}
+function locomotion(kind,t){
+ const settings={desk:[235,500,2.6,0],steps:[220,560,3.4,0],push:[315,450,1.7,.7]};
+ const [a,b,d,start]=settings[kind],u=clamp((t-start)/d),x=lerp(a,b,ease(u));
+ return {x,walk:true,walkOrigin:a,settle:smooth(t,start+d,start+d+.4)};
 }
 function makeFilm(ctx,plan){
  let now=0,vhs=true;const stats={frames:0,maxBoneError:0,maxLegContactError:0,maxReachExcess:0,finite:true,sourcePixelsUsed:0};
  const line=(points,color=C.paper,width=3)=>{ctx.beginPath();points.forEach((p,i)=>ctx[i?'lineTo':'moveTo'](...p));ctx.strokeStyle=color;ctx.lineWidth=width;ctx.lineCap='round';ctx.lineJoin='round';ctx.stroke();};
+ function soft(a,b,c,color,width){
+  const u=sub(b,a),v=sub(c,b),l0=Math.hypot(...u),l1=Math.hypot(...v),tangent=add(u.map(x=>x/Math.max(l0,1e-6)),v.map(x=>x/Math.max(l1,1e-6))),n=Math.hypot(...tangent),handle=Math.min(l0,l1)*.17,h=tangent.map(x=>x/Math.max(n,1e-6)*handle);
+  ctx.beginPath();ctx.moveTo(...a);ctx.bezierCurveTo(a[0]+u[0]/3,a[1]+u[1]/3,b[0]-h[0],b[1]-h[1],...b);ctx.bezierCurveTo(b[0]+h[0],b[1]+h[1],c[0]-v[0]/3,c[1]-v[1]/3,...c);ctx.strokeStyle=color;ctx.lineWidth=width;ctx.lineCap=ctx.lineJoin='round';ctx.stroke();
+ }
  function rect(x,y,w,h,fill=C.panel,r=0,stroke=null,lw=1){ctx.beginPath();ctx.roundRect(x,y,w,h,r);if(fill){ctx.fillStyle=fill;ctx.fill();}if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=lw;ctx.stroke();}}
  function circle(x,y,r,fill=C.paper,stroke=null,lw=1){ctx.beginPath();ctx.arc(x,y,r,0,TAU);if(fill){ctx.fillStyle=fill;ctx.fill();}if(stroke){ctx.strokeStyle=stroke;ctx.lineWidth=lw;ctx.stroke();}}
  function text(s,x,y,size=20,col=C.paper,align='left',weight=500){ctx.font=`${weight} ${size}px DejaVu Sans`;ctx.fillStyle=col;ctx.textAlign=align;ctx.textBaseline='middle';ctx.fillText(String(s),x,y);}
@@ -53,13 +67,15 @@ function makeFilm(ctx,plan){
   const p=poseAt(t,opt),color=opt.color??C.paper,alpha=opt.alpha??1;
   ctx.save();ctx.globalAlpha*=alpha;
   if(opt.ghost){ctx.shadowColor=C.red;ctx.shadowBlur=9;}
-  for(const l of p.legs)line([p.pelvis,l.joint,l.end],color,6.5);
-  line([p.shoulder,p.arms[0].joint,p.arms[0].end],opt.ghost?color:C.muted,5);
-  line([p.pelvis,p.shoulder,p.head],color,9);
-  line([p.shoulder,p.arms[1].joint,p.arms[1].end],color,6.5);
+  const far=opt.ghost?color:'#a6b0b1';
+  soft(p.pelvis,p.legs[0].joint,p.legs[0].end,far,9.5);
+  soft(p.shoulder,p.arms[0].joint,p.arms[0].end,far,9);
+  soft(p.pelvis,p.legs[1].joint,p.legs[1].end,color,10.5);
+  soft(p.pelvis,p.shoulder,p.head,color,13.5);
+  soft(p.shoulder,p.arms[1].joint,p.arms[1].end,color,10.5);
   circle(...p.head,20,color);
   if(!opt.ghost){circle(p.head[0]+7,p.head[1]+1,1.7,C.bg);line([[p.head[0]+4,p.head[1]+9],[p.head[0]+8,p.head[1]+9]],C.bg,1.2);}
-  for(const f of p.feet)line([[f[0]-3,f[1]],[f[0]+7,f[1]]],color,6);
+  p.feet.forEach((f,i)=>line([[f[0]-2,f[1]],[f[0]+7,f[1]]],i?color:far,9.5));
   ctx.restore();
   const n=p.nodes,parent=[-1,0,1,1,3,1,5,0,7,0,9],lengths=[0,55,18,33,32,33,32,50,50,50,50];
   for(let i=0;i<n.length;i++){stats.finite&&=n[i].every(Number.isFinite);if(i)stats.maxBoneError=Math.max(stats.maxBoneError,Math.abs(dist(n[i],n[parent[i]])-lengths[i]));}
@@ -89,7 +105,7 @@ function makeFilm(ctx,plan){
    for(let i=0;i<4;i++){const q=smooth(t,i*.35,.8+i*.35),x=lerp(470,560+(i%2)*135,q),y=170+i*54;ctx.save();ctx.globalAlpha=q*.9;task(x,y,172,44,(s.cards??['SÓ MAIS UM','NOVA MENSAGEM','UM MINUTINHO','DEPOIS EU FAÇO'])[i%4],0,i===0);ctx.restore();}
    line([[220,444],[825,444]],C.line,1);
   }else if(kind==='desk'){
-   desk(t,{x:535});const walkTime=Math.min(t,2.2),x=lerp(235,455,smooth(t,0,2.2));actor(t,{x,floor:442,walk:t<2.2,speed:100,gait:walkTime,gesture:t>2.6?'reach':undefined,amount:smooth(t,2.6,3.3)});
+   desk(t,{x:535});actor(t,{...locomotion('desk',t),floor:442,gesture:t>3?'reach':undefined,amount:smooth(t,3,3.7)});
    circle(615,295,42+4*Math.sin(t*2),null,C.redDim,1);
   }else if(kind==='choice'){
    task(170,203,270,105,s.cards?.[0]??'ADIAR',0,false);task(520,203,270,105,s.cards?.[1]??'COMEÇAR',smooth(t,1.2,2.2),t>1.2);
@@ -107,12 +123,12 @@ function makeFilm(ctx,plan){
    for(let i=0;i<5;i++){const a=i*1.5+t*.45,p=[625+Math.cos(a)*125,270+Math.sin(a)*87];circle(...p,4,i%2?C.muted:C.red);}
    line([[400,290],[485,265]],C.red,2);
   }else if(kind==='steps'){
-   const q=smooth(t,0,3.2),x=lerp(220,640,q);actor(t,{x,floor:439,walk:t<3.2,speed:131.25,gait:Math.min(t,3.2)});
+   const q=smooth(t,0,3.4);actor(t,{...locomotion('steps',t),floor:439});
    for(let i=0;i<5;i++){const xx=265+i*100;rect(xx,457,70,3,i/5<q?C.red:C.line,1.5);text(String(i+1).padStart(2,'0'),xx+35,478,10,i/5<q?C.paper:C.muted,'center');}
    arrow([260,190],[710,190],C.line,1);
   }else if(kind==='push'){
-   const q=smooth(t,.7,2.4),x=lerp(315,450,q);actor(t,{x,floor:442,gesture:'push',body:.15,walk:t>.7&&t<2.4,speed:79,gait:Math.max(0,Math.min(t-.7,1.7))});
-   const p=poseAt(t,{x,floor:442,gesture:'push',body:.15,walk:t>.7&&t<2.4,speed:79,gait:Math.max(0,Math.min(t-.7,1.7))});
+   const options={...locomotion('push',t),floor:442,gesture:'push',body:.15};actor(t,options);
+   const p=poseAt(t,options);
    const wall=p.hands[1][0];rect(wall,222,168,218,C.panel,5,C.paper,2);fit(s.object??'TAREFA',wall+84,297,145,23,C.paper,'center',700);for(let i=0;i<3;i++)line([[wall+25,335+i*20],[wall+130,335+i*20]],C.line,2);
    line([[wall-7,232],[wall-18,220]],C.red,2);
   }else if(kind==='progress'){
@@ -161,5 +177,5 @@ function makeFilm(ctx,plan){
  }
  return {frame,stats,poseAt,plan,setVhs:value=>vhs=!!value};
 }
-return {makeFilm,poseAt,C,W,H};
+return {makeFilm,poseAt,locomotion,C,W,H};
 });

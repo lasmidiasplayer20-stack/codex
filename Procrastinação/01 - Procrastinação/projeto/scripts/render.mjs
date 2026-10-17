@@ -1,5 +1,5 @@
 import {createRequire} from 'node:module';
-import {readFileSync,writeFileSync,mkdirSync} from 'node:fs';
+import {readFileSync,writeFileSync,mkdirSync,existsSync} from 'node:fs';
 import {resolve} from 'node:path';
 import {spawn} from 'node:child_process';
 import {once} from 'node:events';
@@ -17,12 +17,14 @@ if(mode==='qa'){
  const report={...film.stats,expectedFrames:frames,passed:film.stats.finite&&film.stats.maxBoneError<1e-6&&film.stats.maxLegContactError<.01,scope:'Rig geometry and finite rendering; not a claim of reference pixel equivalence.'};
  writeFileSync(resolve(root,'qa/rig.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report));if(!report.passed)process.exitCode=1;
 }else{
- const output=resolve(root,process.env.FILM_OUTPUT??'../vídeo/video-1080p60.mp4');mkdirSync(resolve(output,'..'),{recursive:true});
+ const output=resolve(root,process.env.FILM_OUTPUT??`../vídeo/${plan.output??'video-1080p60.mp4'}`);mkdirSync(resolve(output,'..'),{recursive:true});
  const audio=resolve(root,plan.audio??'audio/narracao.wav'),silent=process.env.FILM_SILENT==='1';
+ if(silent&&plan.status==='complete_with_original_narration')throw Error('A montagem completa exige a narração. Use um plano de estudo para exportar sem voz.');
+ if(!silent&&!existsSync(audio))throw Error('Narração não encontrada: coloque o WAV original em audio/narracao.wav.');
  const args=['-hide_banner','-loglevel','error','-f','image2pipe','-vcodec','mjpeg','-framerate','60','-i','pipe:0'];
  if(!silent)args.push('-i',audio);
  args.push('-map','0:v:0');if(!silent)args.push('-map','1:a:0');
- args.push('-c:v','libx264','-threads','2','-preset','fast','-crf','19','-pix_fmt','yuv420p');if(!silent)args.push('-c:a','aac','-b:a','192k');
+ args.push('-vf','scale=in_range=pc:out_range=tv:out_color_matrix=bt709,format=yuv420p','-c:v','libx264','-threads','2','-preset','fast','-crf','19','-pix_fmt','yuv420p','-color_range','tv','-colorspace','bt709','-color_primaries','bt709','-color_trc','bt709');if(!silent)args.push('-c:a','aac','-b:a','192k');
  args.push('-t',String(frames/60),'-movflags','+faststart','-y',output);
  const ff=spawn('ffmpeg',args,{stdio:['pipe','ignore','pipe']});
  let err='',pipeError;ff.stderr.on('data',d=>err+=d);ff.stdin.on('error',e=>pipeError=e);const complete=new Promise(r=>ff.on('close',r));

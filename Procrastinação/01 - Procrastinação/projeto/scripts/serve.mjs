@@ -8,7 +8,9 @@ export function mediaServer(root,options={}){
  return createServer(async(req,res)=>{try{
   let name=decodeURIComponent(new URL(req.url,'http://localhost').pathname);
   if(name==='/')name='/index.html';if(name==='/timeline.json'&&options.plan)name='/'+options.plan;
-  const p=resolve(root,'.'+name);if(!p.startsWith(root+'/')){res.writeHead(403);res.end();return;}
+  const base=name.startsWith('/export/')?resolve(root,'../vídeo'):root;
+  const relative=name.startsWith('/export/')?name.slice('/export'.length):name;
+  const p=resolve(base,'.'+relative);if(!p.startsWith(base+'/')){res.writeHead(403);res.end();return;}
   const info=await stat(p);if(!info.isFile())throw Error('not file');
   const type=({'.html':'text/html; charset=utf-8','.js':'text/javascript; charset=utf-8','.json':'application/json; charset=utf-8','.wav':'audio/wav','.mp4':'video/mp4','.png':'image/png','.jpg':'image/jpeg'})[extname(p)]??'application/octet-stream';
   res.setHeader('Content-Type',type);res.setHeader('Accept-Ranges','bytes');
