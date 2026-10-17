@@ -25,7 +25,9 @@ outros vídeos. Não inclua node_modules, segredos ou os áudios da referência.
 
 ## Direção visual
 
-- Fundo quase preto, figuras brancas, detalhes vermelhos e linhas de monitoramento.
+- Fundo quase preto, detalhes vermelhos e linhas de monitoramento. A R3 usa
+  o protagonista de touca laranja do Day Three, blusa verde-azulada e mochila.
+  Preserve o desenho em `src/day-three-character.js` e sua identidade visual.
 - Use o projeto fornecido como referência de linguagem; crie cenas relacionadas
   à nova narração. Não reutilize seu enredo nem a sua trilha.
 - Alterne planos gerais, detalhes de objetos, gestos e tipografia. Movimentos
@@ -35,6 +37,9 @@ outros vídeos. Não inclua node_modules, segredos ou os áudios da referência.
   Na R2, o traço próximo tem 10,5 unidades e o tronco 13,5; preserve a espessura
   solicitada. Use dobras consistentes dos joelhos e cotovelos em cada gesto.
 - Trave os pés em apoio. Contatos de mãos devem usar alvos explícitos.
+- Mantenha atuação e interação com objetos nas 13 cenas, inclusive abertura,
+  cartelas gráficas e encerramento. Confira `npm run interactions`; não troque
+  atuação por movimentos de câmera em uma pose estática.
 - VHS discreto: linhas de varredura, grão e pequenas interferências nas transições.
   Mantenha palavras e silhuetas legíveis. Evite distorção contínua intensa.
 - O MP4 é linear. A interação por capítulos, controles, legendas e intensidade

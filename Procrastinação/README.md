@@ -1,7 +1,8 @@
 # Procrastinação
 
 Cada vídeo fica em uma pasta própria, com `projeto/` para fontes, player,
-timeline, skill e verificações, e `vídeo/` para o MP4 exportado e a capa.
+timeline, skill e verificações, e `vídeo/` para os MP4s exportados e capas.
 
-- [01 — Procrastinação / R2](01%20-%20Procrastinação/): vídeo completo com
-  narração de 52,12 s, traço grosso, articulações refinadas e VHS leve, 1080p/60 fps.
+- [01 — Procrastinação / R3](01%20-%20Procrastinação/): protagonista de touca,
+  atuação nas 13 cenas, narração completa de 52,12 s e VHS leve, 1080p/60 fps.
+  A R2 e o estudo inicial permanecem no histórico.

@@ -1,0 +1,18 @@
+{
+  "node": "v24.19.0",
+  "canvas": "0.1.100",
+  "ffmpeg": "ffmpeg version 7.1.5-0+deb13u1 Copyright (c) 2000-2026 the FFmpeg developers",
+  "seed": 718.71,
+  "logicalResolution": [
+    960,
+    540
+  ],
+  "outputResolution": [
+    1920,
+    1080
+  ],
+  "fps": 60,
+  "revision": "r3",
+  "character": "day-three-beanie",
+  "sourceCharacter": "src/day-three-character.js"
+}

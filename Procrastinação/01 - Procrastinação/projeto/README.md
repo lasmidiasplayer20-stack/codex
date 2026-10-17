@@ -1,72 +1,85 @@
-# Procrastinação — o primeiro passo / R2
+# Procrastinação — o primeiro passo / R3
 
-Vídeo completo com os **52,12 segundos da narração fornecida**, em 1920×1080,
-60 fps. A R2 engrossa o personagem, refina articulações e caminhada e incorpora
-o WAV original ao MP4. A primeira prévia silenciosa de 12 s foi preservada como
-histórico; o arquivo completo é `../vídeo/procrastinacao-completo-r2-1080p60.mp4`.
+Vídeo completo de 52,12 s com a narração original, 1920×1080 a 60 fps.
+A R3 usa o protagonista de touca de `day-three-editavel.zip` e acrescenta atuação
+e contatos nas 13 cenas. A R2 e a prévia inicial permanecem disponíveis.
 
-## Imagem e movimento
+## Personagem
 
-Fundo quase preto, figura branca, detalhes vermelhos, interfaces animadas,
-movimentos de câmera e VHS leve seguem a linguagem do projeto de referência.
-O desenho e as cenas foram escritos novamente. Não se utilizam os frames,
-o enredo ou os áudios de `02-the-correct-reflection-project.zip` no render.
+O rosto, a touca laranja, a paleta da blusa verde-azulada, a mochila, as mãos
+e os sapatos vêm do componente `character.js` do projeto enviado pelo usuário.
+`src/day-three-character.js` contém esse desenho e um adaptador que o liga ao
+rig de Procrastinação. O personagem não foi extraído de uma imagem.
 
-Braços e pernas passaram de 6,5 para 10,5 unidades no plano próximo; o tronco
-passou de 9 para 13,5. O braço distante usa 9 unidades e a perna distante 9,5.
-Curvas curtas suavizam as juntas preservando seus centros e comprimentos.
-Os joelhos caminham na mesma direção, os apoios permanecem fixos no mundo
-e o balanço dos braços acompanha o avanço real. Os gestos de pensar e levantar
-os braços usam dobras de cotovelo próprias. O contato com o monitor e as duas
-mãos na caixa também foram ajustados.
+As poses mantêm os comprimentos do rig existente: tronco 55, pescoço 18,
+braços 33+32 e pernas 50+50. As mangas e as calças têm espessura próxima de
+10,5 unidades; o corpo passa a ser a peça preenchida da blusa do personagem.
+O traje acompanha o tronco e a touca acompanha a cabeça. O solver da caminhada
+preserva os pés de apoio e a direção dos joelhos corrigidos na R2.
+A adaptação preserva a identidade visual; as proporções são retargeteadas ao
+rig deste vídeo e não reproduzem literalmente toda a anatomia do Day Three.
 
-## Narração
+## Atuação e interações
 
-A narração é usada uma vez, inteira, com velocidade e ganho originais, codificada
-em AAC. Não há trilha ou efeito sonoro sobre a fala. Nenhum serviço de transcrição
-foi utilizado. O WAV foi processado localmente e não foi publicado separadamente.
+- Abertura e encerramento: personagem toca o botão gráfico ao lado do título.
+- Ciclo e pensamento: gestos junto ao rosto, olhos e expressões animados.
+- Celular: mão de apoio, toques sobre a tela e notificações que se alternam.
+- Escolhas: as mãos exploram as opções e selecionam “começar”.
+- Mesa: aproximação, alcance do monitor e reação ao toque.
+- Tarefas: cartões passam pela mão; os três checkboxes avançam em sequência.
+- Cronômetro: toque no botão antes da contagem.
+- Caixa e passos: esforço e deslocamento com os contatos mantidos.
+- Progresso e resultado: acompanha a barra, aproxima as mãos e comemora.
 
-A montagem gráfica foi ajustada às pausas por análise local de amplitude. Os
-títulos são editoriais sobre procrastinação; não são legendas literais da fala.
-Não foi realizado alinhamento de palavras nem transcrição do conteúdo.
-O efeito VHS altera a imagem, mantendo a voz limpa.
+Câmeras, interfaces, tipografia e VHS leve compartilham o mesmo renderizador
+no MP4 e no player. As cenas de Procrastinação continuam próprias; não são
+usados os cenários, o enredo, as imagens ou os áudios do Day Three.
 
-## Rodar e editar
+## Narração e som
+
+A narração continua sendo o teste1.wav completo, uma vez, na velocidade e ganho
+originais, codificado em AAC. O WAV fica local, fora do Git e do ZIP. Nenhum
+serviço de transcrição foi usado. O player usa a voz do próprio MP4 exportado.
+
+Os cortes foram ajustados às pausas por amplitude. Os títulos são editoriais
+sobre procrastinação, não legendas literais. Não foi realizado alinhamento de
+palavras. O VHS altera a imagem, mantendo a voz limpa.
+
+## Editar e reproduzir
 
 Requer Node.js 22+, Python 3, FFmpeg/FFprobe e DejaVu Sans.
 
 ```sh
 npm ci
-# Copie o teste1.wav fornecido para audio/narracao.wav.
+# Para renderizar novamente: coloque o WAV original em audio/narracao.wav.
 npm run qa
-node scripts/check-motion.mjs
+npm run motion
+npm run interactions
 npm run render
 npm run validate
 npm run preview
 ```
 
-Abra `http://127.0.0.1:8080`. O player oferece capítulos, navegação, play/pause, VHS e carregamento de
-áudio local pelo navegador. Ele reproduz a narração do próprio MP4 exportado,
-sem exigir o WAV para assistir. O link do MP4 completo abre o arquivo com som.
+Abra `http://127.0.0.1:8080`. O player tem capítulos, busca, play/pause e opção
+de VHS. Para assistir, não é necessário recolocar o WAV: o MP4 já tem a voz.
+Ao extrair apenas o ZIP de código, coloque o MP4 na pasta irmã `vídeo/`,
+conforme a estrutura do repositório.
 
-O WAV original está fora do Git. O render exige recolocá-lo no caminho indicado.
-Não remova nem substitua o arquivo de narração para simular uma exportação.
-
-## Arquivos e verificação
+## Arquivos e verificações
 
 - `src/film.js`: rig, direção, objetos, câmeras, tipografia e VHS.
+- `src/day-three-character.js`: personagem fornecido e adaptação visual.
 - `timeline.json`: 13 cenas cobrindo a gravação inteira, sem lacunas.
-- `SKILL.md`: fluxo para continuar esta série.
-- `scripts/render.mjs`: QA e exportação a 60 fps com áudio por padrão.
-- `scripts/check-motion.mjs`: apoios, dobras, continuidade e contatos.
-- `scripts/validate.py`: decodificação completa, duração, FPS e comparação da voz.
-- `qa/audio-analysis.json`: análise local de pausas e metadados da narração.
-- `qa/contato-r2.jpg`: quadros da revisão; `qa/walk-refino-r2.jpg`: sequência de passos.
-- `qa/validation.json`: resultado da validação final.
+- `SKILL.md`: fluxo para continuar a série.
+- `scripts/check-interactions.mjs`: presença e atuação em todas as cenas,
+  toques nos botões, celular, cartões e contatos com monitor e caixa.
+- `qa/character-provenance-r3.json`: hashes da origem e do componente adaptado.
+- `qa/interacoes-r3.jpg`: sequência de poses; `qa/contato-r3.jpg`: visão das cenas.
+- `qa/validation.json`: validação do MP4 atual; `qa/validation-r2.json`: histórico.
 
-Os testes geométricos verificam os 3.128 tempos de quadro. A validação da voz
-compara a forma de onda decodificada e os dois segundos finais com o WAV local,
-além de conferir cobertura temporal e áudio não silencioso. AAC é compressão
-com perdas: a validação não alega identidade binária com o WAV.
-Foram inspecionados quadros e sequências; isso não comprova equivalência visual
-com a referência nem alinhamento palavra por palavra.
+A auditoria cobre os 3.128 tempos de quadro e verifica geometria finita,
+comprimentos constantes e apoio. A validação final decodifica o vídeo inteiro,
+confere duração, 60 fps e voz até o fim, comparando a forma de onda com o WAV.
+AAC é compressão com perdas; não se alega identidade binária com o WAV.
+Foram inspecionados quadros e sequências, incluindo os do MP4 exportado.
+Os testes não demonstram cópia pixel a pixel do projeto de referência.

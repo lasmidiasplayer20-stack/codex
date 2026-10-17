@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "file": "procrastinacao-personagem-touca-r3-1080p60.mp4",
+  "frames": 3128,
+  "fps": 60,
+  "width": 1920,
+  "height": 1080,
+  "duration": 52.133333,
+  "audio_duration": 52.12,
+  "full_decode": "passed",
+  "bytes": 12252407,
+  "sha256": "0953f7f8f52ec5ce7e74dbf87546fa7046065942c97f350844baa54935cb8afd",
+  "audio_source_sha256": "86091197083ebe2101a4a1d408bf3a947c03bb0ac57c8e5e884b8629f9ecf03e",
+  "voice_waveform_comparison": {
+    "correlation": 0.9997999166897067,
+    "sourceRms": 0.13837001161189547,
+    "outputRms": 0.13803497915182203,
+    "gainRatio": 0.9975787205900284
+  },
+  "last_two_seconds_comparison": {
+    "correlation": 0.999749575197976,
+    "sourceRms": 0.10779988392662765,
+    "outputRms": 0.10730473375622655,
+    "gainRatio": 0.99540676527316
+  },
+  "source_audio_samples_24k": 1250880,
+  "output_audio_samples_24k": 1251328,
+  "audio_method": "Original voice once, original speed and gain, encoded as AAC; no transcription service used."
+}

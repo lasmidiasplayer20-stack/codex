@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "chapterCount": 13,
+  "selectedTime": 19.39,
+  "state": {
+    "duration": 52.133333,
+    "paused": true,
+    "src": "http://127.0.0.1:45033/export/procrastinacao-personagem-touca-r3-1080p60.mp4",
+    "readyState": 4
+  },
+  "errors": [],
+  "rawWavRequired": false,
+  "scope": "R3 character renderer and final MP4 supply the new animation and original narration; chapter seek, playback and VHS controls checked."
+}

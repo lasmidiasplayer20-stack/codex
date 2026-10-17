@@ -1,6 +1,6 @@
 /* Original authored animation. The supplied project informs the visual language;
    its frames, narration and soundtrack are not used by this renderer. */
-(function(root,factory){if(typeof module==='object'&&module.exports)module.exports=factory();else root.ProcrastinacaoFilm=factory();})(typeof globalThis!=='undefined'?globalThis:this,function(){
+(function(root,factory){if(typeof module==='object'&&module.exports)module.exports=factory(require('./day-three-character.js'));else root.ProcrastinacaoFilm=factory(root.CharacterRig);})(typeof globalThis!=='undefined'?globalThis:this,function(Character){
 'use strict';
 const W=960,H=540,TAU=Math.PI*2;
 const C={bg:'#080c0f',paper:'#f1f0e9',muted:'#7e898b',line:'#243037',red:'#ef4c50',redDim:'#6e252b',panel:'#11191d'};
@@ -41,7 +41,7 @@ function poseAt(t,opt={}){
  if(opt.gesture==='push'){h0=[shoulder[0]+59,shoulder[1]-10];h1=[shoulder[0]+59,shoulder[1]+11];}
  if(opt.gesture==='celebrate'){const q=opt.amount??1;h0=[shoulder[0]-lerp(20,39,q),shoulder[1]+lerp(57,-45,q)];h1=[shoulder[0]+lerp(20,39,q),shoulder[1]+lerp(57,-45,q)];}
  if(opt.hand0)h0=opt.hand0;if(opt.hand1)h1=opt.hand1;
- const sides=opt.gesture==='celebrate'?[-1,1]:opt.gesture==='think'?[1,1]:[1,-1];
+ const sides=opt.armSides??(opt.gesture==='celebrate'?[-1,1]:opt.gesture==='think'?[1,1]:[1,-1]);
  const a0=ik(shoulder,h0,33,32,sides[0]),a1=ik(shoulder,h1,33,32,sides[1]),l0=ik(pelvis,feet[0],50,50,-1),l1=ik(pelvis,feet[1],50,50,opt.walk?-1:1);
  return {pelvis,shoulder,head,feet,contacts,phase,hands:[a0.end,a1.end],arms:[a0,a1],legs:[l0,l1],targets:[h0,h1],nodes:[pelvis,shoulder,head,a0.joint,a0.end,a1.joint,a1.end,l0.joint,l0.end,l1.joint,l1.end],errors:[a0.excess,a1.excess,l0.excess,l1.excess]};
 }
@@ -51,7 +51,7 @@ function locomotion(kind,t){
  return {x,walk:true,walkOrigin:a,settle:smooth(t,start+d,start+d+.4)};
 }
 function makeFilm(ctx,plan){
- let now=0,vhs=true;const stats={frames:0,maxBoneError:0,maxLegContactError:0,maxReachExcess:0,finite:true,sourcePixelsUsed:0};
+ let now=0,vhs=true,lastActors=[];const stats={frames:0,maxBoneError:0,maxLegContactError:0,maxReachExcess:0,finite:true,sourcePixelsUsed:0};
  const line=(points,color=C.paper,width=3)=>{ctx.beginPath();points.forEach((p,i)=>ctx[i?'lineTo':'moveTo'](...p));ctx.strokeStyle=color;ctx.lineWidth=width;ctx.lineCap='round';ctx.lineJoin='round';ctx.stroke();};
  function soft(a,b,c,color,width){
   const u=sub(b,a),v=sub(c,b),l0=Math.hypot(...u),l1=Math.hypot(...v),tangent=add(u.map(x=>x/Math.max(l0,1e-6)),v.map(x=>x/Math.max(l1,1e-6))),n=Math.hypot(...tangent),handle=Math.min(l0,l1)*.17,h=tangent.map(x=>x/Math.max(n,1e-6)*handle);
@@ -65,8 +65,12 @@ function makeFilm(ctx,plan){
  function check(x,y,q=1,color=C.paper,size=15){const p=[[x-size*.7,y],[x-size*.12,y+size*.6],[x+size,y-size*.7]],len=[0,.42,1];if(q<=.42)line([p[0],[lerp(p[0][0],p[1][0],q/.42),lerp(p[0][1],p[1][1],q/.42)]],color,3);else line([p[0],p[1],[lerp(p[1][0],p[2][0],(q-.42)/.58),lerp(p[1][1],p[2][1],(q-.42)/.58)]],color,3);}
  function actor(t,opt={}){
   const p=poseAt(t,opt),color=opt.color??C.paper,alpha=opt.alpha??1;
+  lastActors.push(p);
   ctx.save();ctx.globalAlpha*=alpha;
   if(opt.ghost){ctx.shadowColor=C.red;ctx.shadowBlur=9;}
+  if(plan.character?.style==='day-three-beanie'){
+   Character.renderRetargeted(ctx,p,t,{bag:plan.character.bag!==false,width:10.5,mood:opt.mood??(opt.gesture==='celebrate'?'hope':opt.gesture==='phone'?'tired':'worried'),look:opt.look??1,lookY:opt.lookY??0,faceFacing:opt.faceFacing??1,mouthOpen:opt.mouthOpen??0});
+  }else{
   const far=opt.ghost?color:'#a6b0b1';
   soft(p.pelvis,p.legs[0].joint,p.legs[0].end,far,9.5);
   soft(p.shoulder,p.arms[0].joint,p.arms[0].end,far,9);
@@ -76,6 +80,7 @@ function makeFilm(ctx,plan){
   circle(...p.head,20,color);
   if(!opt.ghost){circle(p.head[0]+7,p.head[1]+1,1.7,C.bg);line([[p.head[0]+4,p.head[1]+9],[p.head[0]+8,p.head[1]+9]],C.bg,1.2);}
   p.feet.forEach((f,i)=>line([[f[0]-2,f[1]],[f[0]+7,f[1]]],i?color:far,9.5));
+  }
   ctx.restore();
   const n=p.nodes,parent=[-1,0,1,1,3,1,5,0,7,0,9],lengths=[0,55,18,33,32,33,32,50,50,50,50];
   for(let i=0;i<n.length;i++){stats.finite&&=n[i].every(Number.isFinite);if(i)stats.maxBoneError=Math.max(stats.maxBoneError,Math.abs(dist(n[i],n[parent[i]])-lengths[i]));}
@@ -93,33 +98,48 @@ function makeFilm(ctx,plan){
   const zoom=lerp(s.zoom?.[0]??1,s.zoom?.[1]??1.04,ease(u));
   ctx.save();ctx.translate(480,270);ctx.scale(zoom,zoom);ctx.translate(-480,-270);
   if(kind==='title'){
-   const y=lerp(300,245,enter);text('UM PEQUENO MOVIMENTO',480,165,12,C.muted,'center',600);fit(s.title??plan.title,480,y,800,62,C.paper,'center',800);rect(lerp(480,345,enter),y+52,270*enter,4,C.red,2);text(s.subtitle??'',480,345,19,C.muted,'center');
+   const y=lerp(300,245,enter),q=smooth(t,.3,1.25),base=poseAt(t,{x:755,floor:442});
+   text('UM PEQUENO MOVIMENTO',385,165,12,C.muted,'center',600);fit(s.title??plan.title,385,y,625,54,C.paper,'center',800);rect(lerp(385,250,enter),y+52,270*enter,4,C.red,2);text(s.subtitle??'',385,345,19,C.muted,'center');
+   const buttonY=292+Math.sin(t*5)*1.5*q;circle(700,buttonY,13,C.red);ctx.beginPath();ctx.moveTo(697,buttonY-5);ctx.lineTo(705,buttonY);ctx.lineTo(697,buttonY+5);ctx.closePath();ctx.fillStyle=C.paper;ctx.fill();
+   actor(t,{x:755,floor:442,alpha:enter,armSides:[-1,-1],faceFacing:-1,mood:s.id>1?'hope':'worried',hand0:[lerp(base.shoulder[0]-20,700,q),lerp(base.shoulder[1]+57,buttonY,q)]});
+   const pulse=(t*.85)%1;if(t>1.25)circle(700,buttonY,15+pulse*20,null,`rgba(239,76,80,${.35*(1-pulse)})`,1.5);
   }else if(kind==='loop'){
    const phase=t*.8;for(let i=0;i<3;i++){const a=phase+i*TAU/3;circle(480+155*Math.cos(a),300+80*Math.sin(a),7,i===0?C.red:C.muted);}
    ctx.beginPath();ctx.ellipse(480,300,155,80,0,0,TAU);ctx.strokeStyle=C.line;ctx.lineWidth=2;ctx.stroke();
-   actor(t,{x:480,floor:420,gesture:'think',neck:.06*Math.sin(t*1.4)});
+   const b=poseAt(t,{x:480,floor:420,neck:.06*Math.sin(t*1.4)});actor(t,{x:480,floor:420,gesture:'think',neck:.06*Math.sin(t*1.4),hand1:[b.head[0]+30,b.head[1]+9+1.5*Math.sin(t*5)],hand0:[b.shoulder[0]-18-4*Math.sin(t*2),b.shoulder[1]+45]});
    task(115,195,190,70,s.cards?.[0]??'DEPOIS',0);task(665,195,190,70,s.cards?.[1]??'AMANHÃ',0);
    arrow([320,285],[369,300],C.red);arrow([605,315],[650,290],C.red);
   }else if(kind==='phone'){
-   const p=actor(t,{x:355,floor:442,body:.15,neck:.1,gesture:'phone'}),h=p.hands[1];phone(h[0]+10,h[1]-8,.55,t);
-   for(let i=0;i<4;i++){const q=smooth(t,i*.35,.8+i*.35),x=lerp(470,560+(i%2)*135,q),y=170+i*54;ctx.save();ctx.globalAlpha=q*.9;task(x,y,172,44,(s.cards??['SÓ MAIS UM','NOVA MENSAGEM','UM MINUTINHO','DEPOIS EU FAÇO'])[i%4],0,i===0);ctx.restore();}
+   const b=poseAt(t,{x:355,floor:442,body:.15,neck:.1}),tap=(.5+.5*Math.sin(t*7));
+   const near=[b.shoulder[0]+36,b.shoulder[1]+30+2*Math.sin(t*2)],far=[near[0]+lerp(0,9,tap),near[1]-8];
+   const p=actor(t,{x:355,floor:442,body:.15,neck:.1,gesture:'phone',hand1:near,hand0:far,lookY:.6}),h=p.hands[1];phone(h[0]+10,h[1]-8,.55,t,true);
+   if(plan.character?.style==='day-three-beanie')Character.renderPalm(ctx,p.hands[0]);
+   for(let i=0;i<4;i++){const q=smooth(t,i*.35,.8+i*.35),x=lerp(470,560+(i%2)*135,q),y=170+i*54+2*Math.sin(t*1.7-i);ctx.save();ctx.globalAlpha=q*.9;task(x,y,172,44,(s.cards??['SÓ MAIS UM','NOVA MENSAGEM','UM MINUTINHO','DEPOIS EU FAÇO'])[i%4],0,i===Math.floor(t*1.2)%4);ctx.restore();}
    line([[220,444],[825,444]],C.line,1);
   }else if(kind==='desk'){
-   desk(t,{x:535});actor(t,{...locomotion('desk',t),floor:442,gesture:t>3?'reach':undefined,amount:smooth(t,3,3.7)});
+   desk(t,{x:535});const options={...locomotion('desk',t),floor:442,gesture:t>2.65?'reach':undefined,amount:smooth(t,2.65,3.3),mood:t>3.3?'hope':'worried'};
+   if(t>3.3){const b=poseAt(t,options);options.hand1=[b.hands[1][0],b.hands[1][1]+2*Math.sin(t*7)];}actor(t,options);
+   if(t>3.3){const q=(t*1.3)%1;circle(560,294,5+q*12,null,`rgba(239,76,80,${1-q})`,1.5);}
    circle(615,295,42+4*Math.sin(t*2),null,C.redDim,1);
   }else if(kind==='choice'){
    task(170,203,270,105,s.cards?.[0]??'ADIAR',0,false);task(520,203,270,105,s.cards?.[1]??'COMEÇAR',smooth(t,1.2,2.2),t>1.2);
    const q=smooth(t,.3,1.2);cursor(lerp(374,665,q),lerp(367,265,q),t>1.2&&t<1.8?(t-1.2)/.6:0);
    text('01',190,167,14,C.muted);text('02',540,167,14,C.red);line([[480,190],[480,330]],C.line,1);
+   const b=poseAt(t,{x:480,floor:442}),left=smooth(t,.15,.65)*(1-smooth(t,.85,1.3)),right=smooth(t,.8,1.5);
+   actor(t,{x:480,floor:442,armSides:[-1,1],look:t<1?-1:1,mood:t>1.5?'hope':'worried',hand0:[lerp(b.shoulder[0]-20,435,left),lerp(b.shoulder[1]+57,278,left)],hand1:[lerp(b.shoulder[0]+20,528,right),lerp(b.shoulder[1]+57,282+2*Math.sin(t*5),right)]});
   }else if(kind==='task'){
    const labels=s.cards??['ABRIR','FAZER O PRIMEIRO','CONTINUAR'];
-   for(let i=0;i<3;i++){const q=smooth(t,i*.7,.7+i*.7);task(lerp(220,280,q),180+i*80,400,64,labels[i%labels.length],smooth(t,1+i*.65,1.5+i*.65),i===Math.min(2,Math.floor(t/1.1)));}
-   cursor(715,280+50*Math.sin(t),0);
+   const cycle=t/.95,index=Math.floor(cycle),scroll=Math.min(2,index+smooth(cycle-index,.7,1)),focus=Math.min(2,Math.round(scroll));
+   for(let i=0;i<3;i++){const y=262+(i-scroll)*74;if(y<130||y>405)continue;ctx.save();ctx.globalAlpha=Math.max(.15,1-Math.abs(i-scroll)*.45);task(480,y,330,64,labels[i%labels.length],smooth(t,.2+i*.95,.55+i*.95),i===focus);ctx.restore();}
+   const b=poseAt(t,{x:450,floor:442}),q=smooth(t,0,.3);actor(t,{x:450,floor:442,mood:'hope',gesture:'reach',hand1:[lerp(b.shoulder[0]+20,506,q),lerp(b.shoulder[1]+57,291+2*Math.sin(t*7),q)]});
+   text(`${Math.min(3,Math.max(0,Math.floor((t-.55)/.95)+1))} / 3`,810,429,12,C.red,'right',600);
   }else if(kind==='timer'){
-   timer(610,285,108,t*(s.speed??6),s.seconds??120);actor(t,{x:315,floor:440,gesture:'point',neck:-.06});
-   const q=smooth(t,.3,1);rect(lerp(510,530,q),423,160,35,C.red,4);text(s.button??'COMEÇAR',610,441,13,C.paper,'center',700);
+   timer(690,285,108,Math.max(0,t-1)*(s.speed??6),s.seconds??120);
+   const b=poseAt(t,{x:440,floor:440}),q=smooth(t,.2,1),press=t>1?1.5*Math.sin(t*5):0;
+   rect(490,272+press,90,35,C.red,4);fit(t>1?'FOCO':s.button??'COMEÇAR',535,289+press,76,13,C.paper,'center',700);
+   actor(t,{x:440,floor:440,gesture:'reach',mood:t>1?'hope':'alert',hand1:[lerp(b.shoulder[0]+20,499,q),lerp(b.shoulder[1]+57,289+press,q)]});
   }else if(kind==='brain'){
-   brain(625,270,t);actor(t,{x:328,floor:440,gesture:'think',neck:.04*Math.sin(t)});
+   brain(625,270,t);const b=poseAt(t,{x:328,floor:440,neck:.04*Math.sin(t)});actor(t,{x:328,floor:440,gesture:'think',neck:.04*Math.sin(t),hand1:[b.head[0]+30,b.head[1]+9+1.5*Math.sin(t*4)],hand0:[b.shoulder[0]-18-5*Math.sin(t*2),b.shoulder[1]+43],look:Math.sin(t*2)});
    for(let i=0;i<5;i++){const a=i*1.5+t*.45,p=[625+Math.cos(a)*125,270+Math.sin(a)*87];circle(...p,4,i%2?C.muted:C.red);}
    line([[400,290],[485,265]],C.red,2);
   }else if(kind==='steps'){
@@ -127,14 +147,15 @@ function makeFilm(ctx,plan){
    for(let i=0;i<5;i++){const xx=265+i*100;rect(xx,457,70,3,i/5<q?C.red:C.line,1.5);text(String(i+1).padStart(2,'0'),xx+35,478,10,i/5<q?C.paper:C.muted,'center');}
    arrow([260,190],[710,190],C.line,1);
   }else if(kind==='push'){
-   const options={...locomotion('push',t),floor:442,gesture:'push',body:.15};actor(t,options);
+   const options={...locomotion('push',t),floor:442,gesture:'push',body:.15+.012*Math.sin(t*5),mood:'alert'};actor(t,options);
    const p=poseAt(t,options);
    const wall=p.hands[1][0];rect(wall,222,168,218,C.panel,5,C.paper,2);fit(s.object??'TAREFA',wall+84,297,145,23,C.paper,'center',700);for(let i=0;i<3;i++)line([[wall+25,335+i*20],[wall+130,335+i*20]],C.line,2);
    line([[wall-7,232],[wall-18,220]],C.red,2);
   }else if(kind==='progress'){
    const q=smooth(t,.2,3.2);text(`${Math.round(q*100)}%`,480,245,92,C.paper,'center',800);rect(240,324,480,9,C.line,4);rect(240,324,Math.max(2,480*q),9,C.red,4);for(let i=0;i<6;i++){const xx=240+i*96;line([[xx,347],[xx,354]],C.muted,1);}text(s.label??'UM PASSO DE CADA VEZ',480,387,17,C.muted,'center',600);
+   const b=poseAt(t,{x:755,floor:442}),reach=smooth(t,0,.7),clap=smooth(t,3.1,3.7);actor(t,{x:755,floor:442,faceFacing:-1,mood:q>.9?'hope':'alert',armSides:[-1,-1],hand0:[lerp(b.shoulder[0]-20,720,reach),lerp(b.shoulder[1]+57,324,reach)],hand1:[lerp(b.shoulder[0]+20,730,clap),lerp(b.shoulder[1]+57,324,clap)]});
   }else if(kind==='finish'){
-   actor(t,{x:315,floor:443,gesture:'celebrate',amount:smooth(t,.25,1.2)});circle(620,270,90,null,C.line,2);check(620,270,smooth(t,.35,1.3),C.red,48);for(let i=0;i<12;i++){const a=i/12*TAU,q=smooth(t,.8,1.8);circle(620+Math.cos(a)*(95+30*q),270+Math.sin(a)*(95+30*q),2*(1-q),C.paper);}
+   actor(t,{x:315,floor:443,gesture:'celebrate',amount:smooth(t,.25,1.2)*(1-.06*Math.max(0,Math.sin(t*5)))});circle(620,270,90,null,C.line,2);check(620,270,smooth(t,.35,1.3),C.red,48);for(let i=0;i<12;i++){const a=i/12*TAU,q=((Math.max(0,t-.8))%1.3)/1.3;circle(620+Math.cos(a)*(95+30*q),270+Math.sin(a)*(95+30*q),2*(1-q),C.paper);}
   }else{
    actor(t,{x:480,floor:442,gesture:s.gesture??'think',neck:.03*Math.sin(t)});
   }
@@ -169,13 +190,14 @@ function makeFilm(ctx,plan){
   ctx.globalAlpha=.08;const band=(t*42)%600-30;rect(0,band,W,20,'#243d42');ctx.restore();
  }
  function frame(t,opt={}){
+  lastActors=[];
   now=clamp(t,0,plan.duration-1/6000);const s=plan.scenes.find(s=>s.start<=now&&now<s.end)||plan.scenes.at(-1);if(!s)throw Error('No scenes');
   ctx.save();ctx.resetTransform();ctx.scale(ctx.canvas.width/W,ctx.canvas.height/H);ctx.globalAlpha=1;ctx.lineWidth=1;ctx.shadowBlur=0;
   background(now);scene(s,now-s.start,now);hud(now,s);if(opt.captions!==false)caption(now);tape(now);
   const cut=now-s.start;if(cut<.14&&s.id>1){ctx.globalAlpha=(1-cut/.14)*.12;rect(0,0,W,H,C.paper);}
   ctx.restore();stats.frames++;return s;
  }
- return {frame,stats,poseAt,plan,setVhs:value=>vhs=!!value};
+ return {frame,stats,poseAt,plan,lastActors:()=>lastActors,setVhs:value=>vhs=!!value};
 }
 return {makeFilm,poseAt,locomotion,C,W,H};
 });

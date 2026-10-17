@@ -1,0 +1,9 @@
+{
+  "revision": "r3",
+  "completed": true,
+  "character": "Day Three beanie protagonist, visual component retargeted to existing rig",
+  "voice": "Same authorized narration as R2; AAC packets and timestamps identical.",
+  "acting": "Character and changing hand poses in all 13 scenes; object contact checks passed.",
+  "visualReview": "13-scene contact sheet, sequences for phone/choice/cards/desk/celebration and encoded MP4 samples examined.",
+  "limitations": "Retargeted proportions; editorial screen titles, not literal subtitles; no claim of source-frame identity."
+}

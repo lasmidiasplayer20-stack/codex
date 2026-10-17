@@ -1,0 +1,141 @@
+{
+  "passed": true,
+  "scenes": [
+    {
+      "scene": 1,
+      "kind": "title",
+      "characterPresent": true,
+      "handTravelRanges": [
+        67.30239570235477,
+        0
+      ]
+    },
+    {
+      "scene": 2,
+      "kind": "loop",
+      "characterPresent": true,
+      "handTravelRanges": [
+        7.979687712426994,
+        3.6410723075534817
+      ]
+    },
+    {
+      "scene": 3,
+      "kind": "phone",
+      "characterPresent": true,
+      "handTravelRanges": [
+        9.843068003672967,
+        3.990840149735618
+      ]
+    },
+    {
+      "scene": 4,
+      "kind": "brain",
+      "characterPresent": true,
+      "handTravelRanges": [
+        9.974609640533743,
+        3.1522737855957903
+      ]
+    },
+    {
+      "scene": 5,
+      "kind": "choice",
+      "characterPresent": true,
+      "handTravelRanges": [
+        74.33034373659252,
+        73.51210431426611
+      ]
+    },
+    {
+      "scene": 6,
+      "kind": "desk",
+      "characterPresent": true,
+      "handTravelRanges": [
+        281.64091592028194,
+        311.2120501700271
+      ]
+    },
+    {
+      "scene": 7,
+      "kind": "task",
+      "characterPresent": true,
+      "handTravelRanges": [
+        0,
+        36.16438606908321
+      ]
+    },
+    {
+      "scene": 8,
+      "kind": "timer",
+      "characterPresent": true,
+      "handTravelRanges": [
+        0,
+        70.29640093859162
+      ]
+    },
+    {
+      "scene": 9,
+      "kind": "push",
+      "characterPresent": true,
+      "handTravelRanges": [
+        135.830535794185,
+        135.830535794185
+      ]
+    },
+    {
+      "scene": 10,
+      "kind": "steps",
+      "characterPresent": true,
+      "handTravelRanges": [
+        358.06046044444605,
+        321.5768689088619
+      ]
+    },
+    {
+      "scene": 11,
+      "kind": "progress",
+      "characterPresent": true,
+      "handTravelRanges": [
+        24.960168738604672,
+        51
+      ]
+    },
+    {
+      "scene": 12,
+      "kind": "finish",
+      "characterPresent": true,
+      "handTravelRanges": [
+        103.75451797391766,
+        103.75451797391766
+      ]
+    },
+    {
+      "scene": 13,
+      "kind": "title",
+      "characterPresent": true,
+      "handTravelRanges": [
+        67.30239570235469,
+        0
+      ]
+    }
+  ],
+  "contacts": {
+    "titleButton": true,
+    "choiceButton": true,
+    "taskCheckboxes": true,
+    "timerButton": true,
+    "phoneTaps": true,
+    "monitor": true,
+    "bothHandsOnBox": true,
+    "progressEnd": true
+  },
+  "stats": {
+    "frames": 659,
+    "maxBoneError": 6.750155989720952e-14,
+    "maxLegContactError": 0,
+    "maxReachExcess": 0,
+    "finite": true,
+    "sourcePixelsUsed": 0
+  },
+  "scope": "Every scene contains an acting character, with changing hand poses and authored object contacts. Separate visual review still required."
+}

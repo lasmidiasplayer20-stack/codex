@@ -7,7 +7,7 @@
 <div class="transport"><button id="play" class="primary" aria-label="Reproduzir">Reproduzir</button><input id="seek" type="range" min="0" max="1" value="0" step=".01" aria-label="Posição do vídeo"><span id="time" class="time">00:00 / 00:00</span></div>
 <div class="options"><label><input id="vhs" type="checkbox" checked> VHS leve</label><label><input id="captions" type="checkbox" checked> Legendas</label><label>Carregar narração <input id="audiofile" type="file" accept="audio/*" style="max-width:180px;font-size:11px"></label></div><nav class="chapters" id="chapters" aria-label="Cenas"></nav>
 <footer>Use os capítulos para rever um trecho. Espaço para reproduzir ou pausar; setas para avançar ou voltar. <a id="download" style="color:#ef4c50" hidden>Abrir o MP4 completo</a></footer><audio id="audio" preload="metadata"></audio></main>
-<script src="src/film.js"></script><script>
+<script src="src/day-three-character.js"></script><script src="src/film.js"></script><script>
 (async()=>{
 const plan=await(await fetch('timeline.json')).json(),canvas=document.querySelector('#film'),film=ProcrastinacaoFilm.makeFilm(canvas.getContext('2d'),plan),audio=document.querySelector('#audio'),seek=document.querySelector('#seek'),play=document.querySelector('#play');
 audio.src=plan.playback??plan.audio;seek.max=plan.duration;document.querySelector('#title').textContent=plan.title;document.title=plan.title+' — Procrastinação';

@@ -1,7 +1,7 @@
 import {createRequire} from 'node:module';
 import {writeFileSync,mkdirSync} from 'node:fs';
 import {resolve} from 'node:path';
-const require=createRequire(import.meta.url),{poseAt,locomotion}=require('../src/film.js');
+const require=createRequire(import.meta.url),{poseAt,locomotion}=require('../src/film.js'),plan=require('../timeline.json');
 const root=resolve(import.meta.dirname,'..'),reports=[];
 for(const kind of ['desk','steps','push']){
  let previous,maxSupportDrift=0,maxJointStep=0,minPoleProduct=Infinity,maxPushGap=0;
@@ -19,4 +19,4 @@ const desk=poseAt(4,{...locomotion('desk',4),floor:442,gesture:'reach',amount:1}
 const monitorContact=Math.abs(palm[0]-559)<.001&&palm[1]>=257&&palm[1]<=332;
 const passed=monitorContact&&reports.every(r=>r.maxSupportDrift<1e-8&&r.maxJointStep<12&&r.minPoleProduct>0&&r.maxPushGap<1e-6);
 const report={passed,reports,monitorContact,monitorPalm:palm,scope:'World-space stance, consistent knee bend, joint continuity and authored hand contacts; geometry is separate from visual review.'};
-mkdirSync(resolve(root,'qa'),{recursive:true});writeFileSync(resolve(root,'qa/motion-r2.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report));if(!passed)process.exitCode=1;
+mkdirSync(resolve(root,'qa'),{recursive:true});writeFileSync(resolve(root,`qa/motion-${plan.revision??'r2'}.json`),JSON.stringify(report,null,2));console.log(JSON.stringify(report));if(!passed)process.exitCode=1;

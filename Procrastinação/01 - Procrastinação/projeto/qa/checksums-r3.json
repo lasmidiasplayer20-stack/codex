@@ -1,0 +1,20 @@
+{
+  "revision": "r3",
+  "files": [
+    {
+      "file": "vídeo/procrastinacao-personagem-touca-r3-1080p60.mp4",
+      "bytes": 12252407,
+      "sha256": "0953f7f8f52ec5ce7e74dbf87546fa7046065942c97f350844baa54935cb8afd"
+    },
+    {
+      "file": "vídeo/capa-r3.jpg",
+      "bytes": 49466,
+      "sha256": "11b43b98ddcab1fbeec4ef714f3f8795662215314f4cd11a6a08d81f4ac7a85e"
+    },
+    {
+      "file": "projeto/codigo-procrastinacao-r3.zip",
+      "bytes": 1265406,
+      "sha256": "b4f244ded73056affc4314154e9af1896248aaa3c6313ff1603df591daa3f729"
+    }
+  ]
+}

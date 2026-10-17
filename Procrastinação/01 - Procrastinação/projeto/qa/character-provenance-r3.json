@@ -1,0 +1,18 @@
+{
+  "revision": "r3",
+  "sourceArchive": "day-three-editavel.zip",
+  "sourceArchiveSha256": "a8f5946ef7808f0e85af8fb4ee38024fb2169449b6fcfdee0ce06041dc395246",
+  "sourceCharacter": "day-three/projeto/character.js",
+  "originalCharacterSha256": "ceee636e12b889486e05b0b14db4324c3ff28fe6a6f4cca3ead0af4ca456fddc",
+  "adaptedCharacterSha256": "753899ad50058f53eb28502e7280fbafcc80552c99386fa7f264e8c4ca497517",
+  "reused": [
+    "face and beanie drawing",
+    "hoodie palette and garment paths",
+    "hands and shoes",
+    "backpack palette"
+  ],
+  "adaptation": "Original visual parts retargeted to the existing fixed-length Procrastina\u00e7\u00e3o rig.",
+  "sourceImagesUsed": false,
+  "sourceAudioUsed": false,
+  "voice": "Same already authorized teste1.wav as R2."
+}
