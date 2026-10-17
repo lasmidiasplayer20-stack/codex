@@ -1,0 +1,13 @@
+{
+  "passed": true,
+  "status": "visual_study_without_narration_not_final",
+  "frames": 720,
+  "fps": 60,
+  "width": 1920,
+  "height": 1080,
+  "duration": 12,
+  "audio": false,
+  "full_decode": "passed",
+  "bytes": 3389540,
+  "sha256": "2ac8c704653ba85c8c152e9b356533c134a0d6c413e689be191348f4767b8074"
+}

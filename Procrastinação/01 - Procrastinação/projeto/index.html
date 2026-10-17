@@ -1,0 +1,26 @@
+<!doctype html>
+<html lang="pt-BR"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Procrastinação — player</title>
+<style>
+:root{color-scheme:dark;font-family:Arial,sans-serif;background:#080c0f;color:#f1f0e9}*{box-sizing:border-box}body{margin:0}main{max-width:1100px;margin:auto;padding:30px 24px}header{display:flex;align-items:center;justify-content:space-between;margin-bottom:22px}.tag{color:#ef4c50;font-size:11px;font-weight:bold;letter-spacing:.18em}h1{font-size:22px;margin:10px 0}canvas{display:block;width:100%;aspect-ratio:16/9;background:#080c0f;border:1px solid #243037;border-radius:10px}.transport{display:flex;align-items:center;gap:15px;margin:18px 0}button{background:#11191d;color:#f1f0e9;border:1px solid #354047;border-radius:6px;padding:12px 18px;cursor:pointer}button.primary{background:#ef4c50;border-color:#ef4c50;color:white;font-weight:bold}button:hover{border-color:#ef4c50}button:focus-visible,input:focus-visible{outline:2px solid #ef4c50;outline-offset:3px}input[type=range]{flex:1;accent-color:#ef4c50}.time{font-variant-numeric:tabular-nums;color:#9aa3a5;font-size:12px}.options{display:flex;gap:24px;font-size:13px;color:#9aa3a5}.options input{accent-color:#ef4c50}.chapters{display:flex;gap:8px;flex-wrap:wrap;margin-top:20px}.chapters button{font-size:12px;padding:9px 12px}.chapters button[aria-current=true]{border-color:#ef4c50;color:#ef4c50}footer{margin-top:24px;color:#7e898b;font-size:12px}@media(max-width:650px){main{padding:20px 12px}.transport{gap:8px}h1{font-size:18px}.time{font-size:10px}button{padding:10px}}
+</style></head><body><main><header><div><span class="tag">PROCRASTINAÇÃO / 01</span><h1 id="title">Carregando…</h1></div><span class="time">60 FPS</span></header>
+<canvas id="film" width="1920" height="1080" aria-label="Animação da narração"></canvas>
+<div class="transport"><button id="play" class="primary" aria-label="Reproduzir">Reproduzir</button><input id="seek" type="range" min="0" max="1" value="0" step=".01" aria-label="Posição do vídeo"><span id="time" class="time">00:00 / 00:00</span></div>
+<div class="options"><label><input id="vhs" type="checkbox" checked> VHS leve</label><label><input id="captions" type="checkbox" checked> Legendas</label><label>Carregar narração <input id="audiofile" type="file" accept="audio/*" style="max-width:180px;font-size:11px"></label></div><nav class="chapters" id="chapters" aria-label="Cenas"></nav>
+<footer>Use os capítulos para rever um trecho. Espaço para reproduzir ou pausar; setas para avançar ou voltar.</footer><audio id="audio" preload="metadata"></audio></main>
+<script src="src/film.js"></script><script>
+(async()=>{
+const plan=await(await fetch('timeline.json')).json(),canvas=document.querySelector('#film'),film=ProcrastinacaoFilm.makeFilm(canvas.getContext('2d'),plan),audio=document.querySelector('#audio'),seek=document.querySelector('#seek'),play=document.querySelector('#play');
+audio.src=plan.audio;seek.max=plan.duration;document.querySelector('#title').textContent=plan.title;document.title=plan.title+' — Procrastinação';
+const fmt=t=>String(Math.floor(t/60)).padStart(2,'0')+':'+String(Math.floor(t%60)).padStart(2,'0');let pendingSeek=null;
+function show(t){film.frame(t,{captions:document.querySelector('#captions').checked});seek.value=t;document.querySelector('#time').textContent=fmt(t)+' / '+fmt(plan.duration);for(const b of document.querySelectorAll('#chapters button'))b.setAttribute('aria-current',Number(b.dataset.start)<=t&&t<Number(b.dataset.end));}
+function toggle(){if(audio.paused)audio.play().then(()=>play.textContent='Pausar').catch(()=>play.textContent='Reproduzir');else{audio.pause();play.textContent='Reproduzir';}}
+function go(t){t=Math.max(0,Math.min(plan.duration,t));if(audio.readyState>=1)audio.currentTime=t;else pendingSeek=t;show(t);}
+audio.onloadedmetadata=()=>{if(pendingSeek!==null){audio.currentTime=pendingSeek;pendingSeek=null;}};
+document.querySelector('#audiofile').onchange=e=>{const f=e.target.files[0];if(f){audio.pause();play.textContent='Reproduzir';audio.src=URL.createObjectURL(f);audio.load();go(0);}};
+play.onclick=toggle;seek.oninput=()=>go(Number(seek.value));audio.onended=()=>play.textContent='Reproduzir';
+document.querySelector('#vhs').onchange=e=>{film.setVhs(e.target.checked);show(audio.currentTime);};document.querySelector('#captions').onchange=()=>show(audio.currentTime);
+for(const s of plan.scenes){const b=document.createElement('button');b.textContent=String(s.id).padStart(2,'0')+' '+(s.short??s.title??'Cena');b.dataset.start=s.start;b.dataset.end=s.end;b.onclick=()=>go(s.start);document.querySelector('#chapters').append(b);}
+document.addEventListener('keydown',e=>{if(e.target.tagName==='INPUT')return;if(e.code==='Space'){e.preventDefault();toggle();}if(e.code==='ArrowRight'||e.code==='ArrowLeft')go((pendingSeek??audio.currentTime)+(e.code==='ArrowRight'?5:-5));});
+function tick(){if(!audio.paused)show(audio.currentTime);requestAnimationFrame(tick);}show(0);requestAnimationFrame(tick);
+})();
+</script></body></html>

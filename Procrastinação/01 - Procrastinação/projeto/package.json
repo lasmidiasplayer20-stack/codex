@@ -1,0 +1,13 @@
+{
+  "name": "procrastinacao-video",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "preview": "node scripts/serve.mjs",
+    "qa": "node scripts/render.mjs qa",
+    "render": "node scripts/render.mjs render",
+    "validate": "python scripts/validate.py"
+  },
+  "dependencies": { "@napi-rs/canvas": "0.1.100" },
+  "engines": { "node": ">=22" }
+}

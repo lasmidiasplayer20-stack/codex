@@ -1,0 +1,84 @@
+{
+  "title": "Estudo visual — sem narração",
+  "duration": 12,
+  "fps": 60,
+  "width": 1920,
+  "height": 1080,
+  "status": "visual_study_not_final",
+  "audio": "audio/narracao.wav",
+  "scenes": [
+    {
+      "id": 1,
+      "kind": "phone",
+      "start": 0,
+      "end": 2,
+      "title": "SÓ MAIS UM MINUTO",
+      "zoom": [
+        1,
+        1.07
+      ],
+      "short": "SÓ MAIS UM MINUTO"
+    },
+    {
+      "id": 2,
+      "kind": "choice",
+      "start": 2,
+      "end": 4,
+      "title": "ESCOLHA O PRIMEIRO PASSO",
+      "zoom": [
+        1,
+        1.07
+      ],
+      "short": "ESCOLHA O PRIMEIRO PASSO"
+    },
+    {
+      "id": 3,
+      "kind": "desk",
+      "start": 4,
+      "end": 6,
+      "title": "CHEGUE MAIS PERTO",
+      "zoom": [
+        1.02,
+        1.14
+      ],
+      "short": "CHEGUE MAIS PERTO"
+    },
+    {
+      "id": 4,
+      "kind": "timer",
+      "start": 6,
+      "end": 8,
+      "title": "UM TEMPO PARA COMEÇAR",
+      "zoom": [
+        1.02,
+        1.14
+      ],
+      "short": "UM TEMPO PARA COMEÇAR"
+    },
+    {
+      "id": 5,
+      "kind": "push",
+      "start": 8,
+      "end": 10,
+      "title": "TIRE DO CAMINHO",
+      "zoom": [
+        1.02,
+        1.14
+      ],
+      "short": "TIRE DO CAMINHO"
+    },
+    {
+      "id": 6,
+      "kind": "finish",
+      "start": 10,
+      "end": 12,
+      "title": "VOCÊ COMEÇOU",
+      "zoom": [
+        1.02,
+        1.14
+      ],
+      "short": "VOCÊ COMEÇOU"
+    }
+  ],
+  "captions": []
+}

@@ -1,0 +1,168 @@
+{
+  "title": "Procrastinação — estudo visual",
+  "duration": 52.12,
+  "fps": 60,
+  "width": 1920,
+  "height": 1080,
+  "status": "visual_study_awaiting_narration_text",
+  "audio": "audio/narracao.wav",
+  "scenes": [
+    {
+      "id": 1,
+      "kind": "title",
+      "start": 0,
+      "end": 4,
+      "title": "PROCRASTINAÇÃO",
+      "zoom": [
+        1,
+        1.07
+      ],
+      "short": "PROCRASTINAÇÃO"
+    },
+    {
+      "id": 2,
+      "kind": "loop",
+      "start": 4,
+      "end": 8,
+      "title": "PRESO NO MESMO CICLO",
+      "zoom": [
+        1,
+        1.07
+      ],
+      "short": "PRESO NO MESMO CICLO"
+    },
+    {
+      "id": 3,
+      "kind": "phone",
+      "start": 8,
+      "end": 12,
+      "title": "SÓ MAIS UM MINUTO",
+      "zoom": [
+        1,
+        1.07
+      ],
+      "short": "SÓ MAIS UM MINUTO"
+    },
+    {
+      "id": 4,
+      "kind": "brain",
+      "start": 12,
+      "end": 16,
+      "title": "O RUÍDO NA CABEÇA",
+      "zoom": [
+        1.02,
+        1.14
+      ],
+      "short": "O RUÍDO NA CABEÇA"
+    },
+    {
+      "id": 5,
+      "kind": "choice",
+      "start": 16,
+      "end": 20,
+      "title": "ESCOLHA O PRIMEIRO PASSO",
+      "zoom": [
+        1,
+        1.07
+      ],
+      "short": "ESCOLHA O PRIMEIRO PASSO"
+    },
+    {
+      "id": 6,
+      "kind": "desk",
+      "start": 20,
+      "end": 24,
+      "title": "CHEGUE MAIS PERTO",
+      "zoom": [
+        1.02,
+        1.14
+      ],
+      "short": "CHEGUE MAIS PERTO"
+    },
+    {
+      "id": 7,
+      "kind": "task",
+      "start": 24,
+      "end": 28,
+      "title": "DIVIDA EM PARTES",
+      "zoom": [
+        1,
+        1.07
+      ],
+      "short": "DIVIDA EM PARTES"
+    },
+    {
+      "id": 8,
+      "kind": "timer",
+      "start": 28,
+      "end": 32,
+      "title": "UM TEMPO PARA COMEÇAR",
+      "zoom": [
+        1.02,
+        1.14
+      ],
+      "short": "UM TEMPO PARA COMEÇAR"
+    },
+    {
+      "id": 9,
+      "kind": "push",
+      "start": 32,
+      "end": 36,
+      "title": "TIRE DO CAMINHO",
+      "zoom": [
+        1.02,
+        1.14
+      ],
+      "short": "TIRE DO CAMINHO"
+    },
+    {
+      "id": 10,
+      "kind": "steps",
+      "start": 36,
+      "end": 40,
+      "title": "UM PASSO DE CADA VEZ",
+      "zoom": [
+        1,
+        1.07
+      ],
+      "short": "UM PASSO DE CADA VEZ"
+    },
+    {
+      "id": 11,
+      "kind": "progress",
+      "start": 40,
+      "end": 44,
+      "title": "O MOVIMENTO CONTA",
+      "zoom": [
+        1,
+        1.07
+      ],
+      "short": "O MOVIMENTO CONTA"
+    },
+    {
+      "id": 12,
+      "kind": "finish",
+      "start": 44,
+      "end": 48,
+      "title": "VOCÊ COMEÇOU",
+      "zoom": [
+        1.02,
+        1.14
+      ],
+      "short": "VOCÊ COMEÇOU"
+    },
+    {
+      "id": 13,
+      "kind": "title",
+      "start": 48,
+      "end": 52.12,
+      "title": "COMECE AGORA",
+      "zoom": [
+        1,
+        1.07
+      ],
+      "short": "COMECE AGORA"
+    }
+  ],
+  "captions": []
+}

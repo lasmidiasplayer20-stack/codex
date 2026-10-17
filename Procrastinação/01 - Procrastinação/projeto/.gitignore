@@ -1,0 +1,5 @@
+node_modules/
+cache/
+renders/
+__pycache__/
+audio/narracao.wav

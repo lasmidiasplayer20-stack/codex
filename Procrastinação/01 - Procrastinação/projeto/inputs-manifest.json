@@ -1,0 +1,18 @@
+{
+  "status": "awaiting_user_narration_text",
+  "narration_duration": 52.12,
+  "transcription_service_used": false,
+  "raw_audio_published": false,
+  "files": {
+    "narration": {
+      "name": "teste1.wav",
+      "bytes": 2501804,
+      "sha256": "86091197083ebe2101a4a1d408bf3a947c03bb0ac57c8e5e884b8629f9ecf03e"
+    },
+    "visual_reference_project": {
+      "name": "02-the-correct-reflection-project.zip",
+      "bytes": 32175601,
+      "sha256": "ff4c40f8800d7ea271efe93a50a629e8de4652fd16a49e057331d2391d35a0ce"
+    }
+  }
+}
