@@ -19,6 +19,8 @@ with zipfile.ZipFile(dest) as z:
   assert 'day-two/'+required in names,required
  assert not any('/node_modules/' in x or x.endswith('.wav') or 'variavel' in x.lower() for x in names)
 targets=[ROOT/'Vídeos/day-two-the-signal-1080p60.mp4',dest,ROOT/'day-two-en.srt']
+for relative in ['capa/day-two-thumbnail.jpg','youtube-metadata.md']:
+ if (ROOT/relative).is_file():targets.append(ROOT/relative)
 checks=[]
 for p in targets:
  digest=hashlib.sha256(p.read_bytes()).hexdigest();checks.append(digest+'  '+p.relative_to(ROOT).as_posix())

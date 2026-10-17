@@ -7,10 +7,14 @@ Segundo episódio da história do surto zumbi. Narração, legendas e textos em 
 - [Filme completo para postar](Vídeos/day-two-the-signal-1080p60.mp4): 1920×1080, 60 fps, H.264 e AAC estéreo. Duração após os cortes: **8min30,800s**.
 - [ZIP editável](day-two-editavel.zip): projeto portátil, sem o MP4 e sem dependências instaladas.
 - [Legendas em inglês](day-two-en.srt).
+- [Capa para o YouTube](capa/day-two-thumbnail.jpg): JPG, 1280×720, com o rádio em 87.0 e a porta 17.
+- [Título e descrição em inglês](youtube-metadata.md), prontos para copiar na publicação.
 - [Projeto](projeto/): player HTML, código, roteiro, narração tratada, música e efeitos.
 - [Verificações](qa/): transcrição local, cortes, medições de áudio e verificações desta versão.
 
 CTAs pequenos, com entrada e saída suaves, em **00:45**, **04:15,4** e **07:55,8**, durante cinco segundos cada. Permanecem acima das legendas e junto à borda direita.
+
+Título da publicação: **Day 2 of the Zombie Outbreak — The Signal Was a Warning**. A capa mantém o gorro laranja, o moletom verde-azulado e a identidade da capa do Day 1. É uma ilustração promocional contextualizada com o episódio. A preparação de título e capa seguiu a skill vidIQ packaging studio, com as referências fornecidas pelo criador.
 
 O MP4 foi validado por decodificação completa: **30.648 quadros**, vídeo e áudio começando em 0,000s, H.264 e AAC estéreo de 160 kbps a 48 kHz. O áudio codificado mediu **−16,06 LUFS**, pico verdadeiro de **−3,17 dBTP** e faixa de sonoridade de **2,7 LU**. Veja [o relatório final](qa/final-validation.json) e [os checksums](SHA256SUMS.txt).
 
