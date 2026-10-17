@@ -1,0 +1,50 @@
+{
+  "resolution": [
+    1920,
+    1080
+  ],
+  "fps": "30/1",
+  "codec": "h264",
+  "pixelFormat": "yuv420p",
+  "audioCodec": "aac",
+  "audioStreams": 1,
+  "duration": 278.666667,
+  "originalDecodedAudioDuration": 278.5979591836735,
+  "narrationSpeed": 1,
+  "framesExpected": 8360,
+  "framesDecoded": 8360,
+  "allPngDimensionsVerified": true,
+  "noMissingCutFrames": true,
+  "minFramePeakLuma": 210.0,
+  "rig": {
+    "maxLengthError": 2.1316282072803006e-14,
+    "maxReachError": 3.552713678800501e-15,
+    "unreachableTargets": 0,
+    "mode": "render",
+    "fps": 30
+  },
+  "plantedFootPixelDifference": 0,
+  "voiceCorrelationSamples": [
+    0.991092450239345,
+    0.9910459132591105,
+    0.9936201868816764,
+    0.9502755645052534,
+    0.9951159370446859,
+    0.9958810066521937,
+    0.9903237231884685,
+    0.9989921526714267
+  ],
+  "voiceAlignmentLagSeconds": [
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "sha256": "c09734bd9e062110262b5e7389822c2ec731cf9b699a2f9ec030128878e5f95e",
+  "bytes": 9381261,
+  "inspection": "Visual contact sheet and dense gesture sequence inspected. Full real-time audiovisual playback was not performed. Captions are automatic local transcription + forced alignment."
+}

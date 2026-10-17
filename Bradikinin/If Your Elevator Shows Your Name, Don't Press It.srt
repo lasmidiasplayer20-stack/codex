@@ -1,0 +1,476 @@
+1
+00:00:00,160 --> 00:00:02,220
+if your elevator has a button with your full
+
+2
+00:00:02,220 --> 00:00:05,470
+name on it do not press it
+
+3
+00:00:05,470 --> 00:00:07,600
+do not photograph it
+
+4
+00:00:07,600 --> 00:00:10,690
+and do not confirm that the spelling is correct
+
+5
+00:00:10,690 --> 00:00:14,290
+the button will usually appear below the ground floor
+
+6
+00:00:14,290 --> 00:00:16,720
+there are seven rules
+
+7
+00:00:16,720 --> 00:00:18,800
+you will need the last one when the door
+
+8
+00:00:18,800 --> 00:00:19,960
+is open
+
+9
+00:00:19,960 --> 00:00:21,231
+rule one
+
+10
+00:00:21,231 --> 00:00:23,551
+keep your hands away from the panel
+
+11
+00:00:23,551 --> 00:00:26,251
+your name may already be illuminated
+
+12
+00:00:26,251 --> 00:00:28,211
+this does not mean you pressed it
+
+13
+00:00:28,211 --> 00:00:29,861
+look above the doors
+
+14
+00:00:29,861 --> 00:00:32,811
+the display will say collection accepted
+
+15
+00:00:32,811 --> 00:00:34,711
+do not press cancel
+
+16
+00:00:34,711 --> 00:00:36,641
+there is no cancel button
+
+17
+00:00:36,641 --> 00:00:39,641
+there is a button you have mistaken for one
+
+18
+00:00:39,641 --> 00:00:42,311
+the small symbol beneath it is a person lying
+
+19
+00:00:42,311 --> 00:00:43,539
+down
+
+20
+00:00:43,539 --> 00:00:44,699
+rule two
+
+21
+00:00:44,699 --> 00:00:47,599
+do not confirm your details
+
+22
+00:00:47,599 --> 00:00:50,099
+the screen may ask whether you are the person
+
+23
+00:00:50,099 --> 00:00:51,839
+listed do
+
+24
+00:00:51,839 --> 00:00:54,099
+not select yes
+
+25
+00:00:54,099 --> 00:00:56,979
+do not select no
+
+26
+00:00:56,979 --> 00:00:59,719
+the question is not testing your identity
+
+27
+00:00:59,719 --> 00:01:03,089
+it is checking whether the contents can respond
+
+28
+00:01:03,089 --> 00:01:05,279
+the wait display will update
+
+29
+00:01:05,279 --> 00:01:07,119
+do not remove your coat to see if it
+
+30
+00:01:07,119 --> 00:01:08,479
+changes
+
+31
+00:01:08,479 --> 00:01:12,199
+weight adjustments are processed as missing items
+
+32
+00:01:12,199 --> 00:01:16,189
+the elevator will wait for them to be returned
+
+33
+00:01:16,189 --> 00:01:17,459
+rule three
+
+34
+00:01:17,459 --> 00:01:18,759
+face the doors
+
+35
+00:01:18,759 --> 00:01:20,289
+not the mirror
+
+36
+00:01:20,289 --> 00:01:22,939
+the mirror will show the back of your head
+
+37
+00:01:22,939 --> 00:01:25,468
+this may take a moment to notice
+
+38
+00:01:25,468 --> 00:01:28,418
+do not turn around to correct it
+
+39
+00:01:28,418 --> 00:01:30,868
+a white rectangle may appear on the shoulder of
+
+40
+00:01:30,868 --> 00:01:32,458
+your reflection
+
+41
+00:01:32,458 --> 00:01:34,728
+the words will be backward
+
+42
+00:01:34,728 --> 00:01:37,148
+you do not need to read them
+
+43
+00:01:37,148 --> 00:01:39,658
+if you can make out this side up
+
+44
+00:01:39,658 --> 00:01:41,628
+remain standing
+
+45
+00:01:41,628 --> 00:01:44,788
+if the label changes to handle with care keep
+
+46
+00:01:44,788 --> 00:01:47,151
+your arms close to your body
+
+47
+00:01:47,151 --> 00:01:49,631
+someone has noticed you moving
+
+48
+00:01:49,631 --> 00:01:51,111
+rule four
+
+49
+00:01:51,111 --> 00:01:53,651
+do not ask which floor you are on
+
+50
+00:01:53,651 --> 00:01:56,241
+the elevator may travel longer than the height of
+
+51
+00:01:56,241 --> 00:01:58,261
+your building permits
+
+52
+00:01:58,261 --> 00:02:00,371
+you may feel it turn a corner
+
+53
+00:02:00,371 --> 00:02:02,001
+hold the rail
+
+54
+00:02:02,001 --> 00:02:04,431
+do not ask about the corner
+
+55
+00:02:04,431 --> 00:02:07,751
+the floor display will stop showing numbers
+
+56
+00:02:07,751 --> 00:02:09,909
+it will show surnames
+
+57
+00:02:09,909 --> 00:02:11,699
+some will be familiar
+
+58
+00:02:11,699 --> 00:02:14,449
+do not say that you know those people
+
+59
+00:02:14,449 --> 00:02:17,859
+that information would be useful to the route planner
+
+60
+00:02:17,859 --> 00:02:19,049
+rule five
+
+61
+00:02:19,049 --> 00:02:21,509
+do not help with the trolley
+
+62
+00:02:21,509 --> 00:02:24,079
+at the next opening a person in a uniform
+
+63
+00:02:24,079 --> 00:02:26,919
+may push an empty trolley inside
+
+64
+00:02:26,919 --> 00:02:28,649
+they will hold the door
+
+65
+00:02:28,649 --> 00:02:29,749
+they may say
+
+66
+00:02:29,749 --> 00:02:31,890
+just enough room for one
+
+67
+00:02:31,890 --> 00:02:33,680
+stay beside the panel
+
+68
+00:02:33,680 --> 00:02:36,670
+do not step onto the trolley
+
+69
+00:02:36,670 --> 00:02:38,540
+do not lean on it
+
+70
+00:02:38,540 --> 00:02:40,750
+if they ask you to hold the clipboard
+
+71
+00:02:40,750 --> 00:02:43,390
+keep your hands at your sides
+
+72
+00:02:43,390 --> 00:02:47,690
+you will notice the first signature is already yours
+
+73
+00:02:47,690 --> 00:02:51,020
+we have received several complaints about it
+
+74
+00:02:51,020 --> 00:02:52,320
+all were marked
+
+75
+00:02:52,320 --> 00:02:53,680
+delivered
+
+76
+00:02:53,680 --> 00:02:56,270
+rule six do not leave
+
+77
+00:02:56,270 --> 00:02:57,490
+when you hear
+
+78
+00:02:57,490 --> 00:02:58,850
+arrived
+
+79
+00:02:58,850 --> 00:03:02,650
+the doors may open onto a corridor you recognize
+
+80
+00:03:02,650 --> 00:03:04,710
+your door mat will be there
+
+81
+00:03:04,710 --> 00:03:07,190
+someone will be waiting at your door
+
+82
+00:03:07,190 --> 00:03:09,260
+they will be holding a pen
+
+83
+00:03:09,260 --> 00:03:11,170
+do not greet them
+
+84
+00:03:11,170 --> 00:03:14,010
+do not tell them they have the wrong apartment
+
+85
+00:03:14,010 --> 00:03:16,464
+look at the number beside the door
+
+86
+00:03:16,464 --> 00:03:18,184
+it will be your name
+
+87
+00:03:18,184 --> 00:03:20,794
+the person will look past your face toward the
+
+88
+00:03:20,794 --> 00:03:22,724
+label on your shoulder
+
+89
+00:03:22,724 --> 00:03:25,704
+they have been sent to photograph
+
+90
+00:03:25,704 --> 00:03:27,944
+you were not smiling in it
+
+91
+00:03:27,944 --> 00:03:29,364
+rule seven
+
+92
+00:03:29,364 --> 00:03:31,464
+say wrong address
+
+93
+00:03:31,464 --> 00:03:33,494
+only those two words
+
+94
+00:03:33,494 --> 00:03:35,334
+do not explain
+
+95
+00:03:35,334 --> 00:03:37,425
+do not apologize
+
+96
+00:03:37,425 --> 00:03:40,525
+do not provide the correct address
+
+97
+00:03:40,525 --> 00:03:43,875
+the person with a pen will check the clipboard
+
+98
+00:03:43,875 --> 00:03:46,265
+the elevator will remain open
+
+99
+00:03:46,265 --> 00:03:47,345
+wait
+
+100
+00:03:47,345 --> 00:03:50,885
+if they ask whether you are sure say nothing
+
+101
+00:03:50,885 --> 00:03:52,585
+if they ask who ordered you
+
+102
+00:03:52,585 --> 00:03:53,875
+say nothing
+
+103
+00:03:53,875 --> 00:03:57,829
+they will eventually draw a line through your name
+
+104
+00:03:57,829 --> 00:04:00,759
+only then may you press the ground floor
+
+105
+00:04:00,759 --> 00:04:03,039
+the numbers will have returned
+
+106
+00:04:03,039 --> 00:04:06,419
+leave the building by the nearest ordinary door
+
+107
+00:04:06,419 --> 00:04:08,089
+before going home
+
+108
+00:04:08,089 --> 00:04:10,029
+check the back of your coat
+
+109
+00:04:10,029 --> 00:04:13,009
+remove the white label without reading the address
+
+110
+00:04:13,009 --> 00:04:14,369
+fold it inward
+
+111
+00:04:14,369 --> 00:04:17,519
+place it beneath something too heavy for one person
+
+112
+00:04:17,519 --> 00:04:18,863
+to lift
+
+113
+00:04:18,863 --> 00:04:23,103
+the office of household continuity has confirmed your return
+
+114
+00:04:23,103 --> 00:04:26,443
+you may use the stairs until further notice
+
+115
+00:04:26,443 --> 00:04:28,323
+if someone knocks tonight
+
+116
+00:04:28,323 --> 00:04:30,623
+allow them to finish speaking
+
+117
+00:04:30,623 --> 00:04:34,043
+they will say a delivery was attempted
+
+118
+00:04:34,043 --> 00:04:37,043
+they will ask when you will be available
+
+119
+00:04:37,043 --> 00:04:38,648
+do not give them a time
+
