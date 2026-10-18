@@ -1,0 +1,13 @@
+{
+  "name": "clone-video-procedural-3d",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "node tools/serve.mjs",
+    "render": "node tools/render.mjs",
+    "check": "node tools/check.mjs"
+  },
+  "dependencies": { "three": "0.180.0" },
+  "devDependencies": { "playwright": "1.56.1" }
+}
