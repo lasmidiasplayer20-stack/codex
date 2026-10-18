@@ -16,20 +16,27 @@ export function solveIK(root,target,l1,l2,pole=V(0,0,1)) {
   return {joint,end:root.clone().addScaledVector(axis,distance),reachable:Math.abs(distance-target.distanceTo(root))<0.001};
 }
 export function toonMaterial(hex) {
-  const c=new THREE.Color(hex);
+  // The renderer writes display-referred cartoon colors directly. Convert the
+  // uniform once, rather than applying a transfer curve to every fragment.
+  const c=new THREE.Color(hex).convertLinearToSRGB();
   return new THREE.ShaderMaterial({uniforms:{color:{value:c}},vertexShader:`
     varying vec3 N; varying vec3 P;
-    void main(){N=normalize(normalMatrix*normal);vec4 p=modelViewMatrix*vec4(position,1.);P=p.xyz;gl_Position=projectionMatrix*p;}`,
+    void main(){vec3 n=normal;vec4 localPosition=vec4(position,1.);
+      #ifdef USE_INSTANCING
+        mat3 im=mat3(instanceMatrix);
+        n/=vec3(dot(im[0],im[0]),dot(im[1],im[1]),dot(im[2],im[2]));
+        n=im*n;localPosition=instanceMatrix*localPosition;
+      #endif
+      N=normalize(normalMatrix*n);vec4 p=modelViewMatrix*localPosition;P=p.xyz;gl_Position=projectionMatrix*p;}`,
     fragmentShader:`uniform vec3 color;varying vec3 N;varying vec3 P;
-    void main(){vec3 n=normalize(N);float d=dot(n,normalize(vec3(-.45,.8,1.)));
+    void main(){vec3 n=N;float d=dot(n,vec3(-.332,.590,.738));
       float band=d>.48?1.:d>-.08?.77:.48;
-      vec3 shadow=mix(vec3(.12,.08,.24),color,.64);
+      vec3 shadow=mix(vec3(.22,.17,.31),color,.64);
       vec3 col=mix(shadow,color,band);
-      float rim=pow(1.-max(0.,dot(n,normalize(-P))),4.);
-      col+=rim*.12*vec3(.54,.68,1.);
+      float r=1.-max(0.,n.z);float rim=r*r*r*r;
+      col+=rim*.08*vec3(.54,.68,1.);
       if(d<.12&&mod(floor(gl_FragCoord.x*.6)+floor(gl_FragCoord.y*.6),4.)<1.)col*=.95;
       gl_FragColor=vec4(col,1.);
-      #include <colorspace_fragment>
     }`});
 }
 const geo={sphere:new THREE.SphereGeometry(1,20,14),capsule:new THREE.CylinderGeometry(1,1,1,12,1),box:new THREE.BoxGeometry(1,1,1)};
@@ -82,28 +89,47 @@ export class Character {
     this.legs=[-1,1].map(()=>({upper:link(this.group,this.black,.045),lower:link(this.group,this.black,.038),foot:ball(this.group,V(),V(.105,.055,.18),this.shoes),target:V()}));
     this.prop=new THREE.Group();this.group.add(this.prop);this.prop.visible=false;
     this.pose({});
+    this.enableInstancing();
   }
-  pose({time=0,rootX=0,rootZ=0,facing=.1,action='stand',phase=0,energy=1,side=1,walkSpeed=.65}={}){
+  enableInstancing(){
+    this.sources=new THREE.Group();this.sources.visible=false;
+    for(const child of [...this.group.children])if(child!==this.prop)this.sources.add(child);
+    this.group.add(this.sources);this.batches=[];const groups=new Map();
+    this.sources.traverse(m=>{if(m.isMesh){const key=m.material.uuid+'|'+m.geometry.uuid;if(!groups.has(key))groups.set(key,[]);groups.get(key).push(m);}});
+    for(const meshes of groups.values()){
+      const inst=new THREE.InstancedMesh(meshes[0].geometry,meshes[0].material,meshes.length);inst.frustumCulled=false;inst.instanceMatrix.setUsage(THREE.DynamicDrawUsage);
+      this.group.add(inst);this.batches.push({inst,meshes});
+    }
+    this.updateInstances();
+  }
+  updateInstances(){
+    if(!this.batches)return;
+    this.sources.updateWorldMatrix(true,true);const inverse=this.group.matrixWorld.clone().invert(),matrix=new THREE.Matrix4();
+    for(const {inst,meshes} of this.batches){meshes.forEach((m,i)=>{matrix.multiplyMatrices(inverse,m.matrixWorld);inst.setMatrixAt(i,matrix);});inst.instanceMatrix.needsUpdate=true;}
+  }
+  pose({time=0,rootX=0,rootY=0,rootZ=0,facing=.1,action='stand',phase=0,energy=1,side=1,walkSpeed=.65,seatHeight=.65,rightHandWorld=null,leftHandWorld=null}={}){
     const local=time;const wave=Math.sin(local*2.3);const gait=local*5.7;
     let walk=action==='walk'||action==='stumble'||action==='confused';
     let seated=['write','exam','test','type','study','phoneSit','talkSit','sleep','wake'].includes(action);
     let bend=['pickup','place','build'].includes(action)?smooth(Math.sin(phase*Math.PI)*.9)*.58:0;
     const lying=action==='sleep';const rising=action==='wake'?smooth(phase):0;
-    const pelvis=V(0,seated?.64:1.18,0);
+    const pelvis=V(0,seated?seatHeight+.14:1.18,0);
     if(walk)pelvis.y=1.12+.025*Math.cos(gait*2);
     if(bend)pelvis.y-=bend*.8;
-    let chest=pelvis.clone().add(V(bend*side,.78-bend*.45,0));
-    if(action==='tired'||action==='confused')chest.x+=.13;
-    if(lying){pelvis.set(0,.72,0);chest.set(-.72,.83,0);}
-    if(action==='wake'){pelvis.set(0,.72,0);chest.set(-.72*(1-rising),.83+.57*rising,0);}
-    this.group.position.set(rootX,0,rootZ);this.group.rotation.y=facing;
+    let angle=-bend*side;
+    if(action==='tired'||action==='confused')angle=-.16;
+    if(lying){pelvis.set(0,1.03,0);angle=Math.PI/2;}
+    if(action==='wake'){pelvis.set(0,1.03*(1-rising)+.93*rising+.065*Math.sin(Math.PI*rising),.32*rising);angle=(1-rising)*Math.PI/2;}
+    const direction=V(-Math.sin(angle),Math.cos(angle),0);
+    const chest=pelvis.clone().addScaledVector(direction,.78);
+    this.group.position.set(rootX,rootY,rootZ);this.group.rotation.y=facing;
     this.pelvis.copy(pelvis);this.chest.copy(chest);
     const torsoAxis=chest.clone().sub(pelvis);
     this.torso.position.copy(pelvis).add(chest).multiplyScalar(.5);this.torso.quaternion.setFromUnitVectors(UP,torsoAxis.clone().normalize());
-    this.torso.scale.set(.23,torsoAxis.length()*.58,.165);this.hip.position.copy(pelvis);
-    const neckBase=chest.clone().addScaledVector(torsoAxis.clone().normalize(),.04);
-    const head=chest.clone().addScaledVector(torsoAxis.clone().normalize(),.49);
-    this.neck.userData.set(neckBase,head.clone().add(V(0,-.24,0)));
+    this.torso.scale.set(.23,.78*.58,.165);this.hip.position.copy(pelvis);
+    const headDirection=V(-Math.sin(angle*.62),Math.cos(angle*.62),0);
+    const head=chest.clone().addScaledVector(headDirection,.49);
+    this.neck.userData.set(chest,head.clone().addScaledVector(headDirection,-.24));
     this.head.position.copy(head);this.head.rotation.z=action==='think'?.05*Math.sin(local):action==='tired'?.15:0;
     this.head.rotation.y=Math.sin(local*.7)*.07;
     const blink=Math.pow(Math.max(0,Math.cos(local*1.2)),40);
@@ -112,23 +138,27 @@ export class Character {
     if(action==='surprise'||action==='confused'){this.mouth.scale.set(.035,.035,.01);this.eyes.forEach(e=>e.scale.y=.08);}
     if(this.tie){this.tie.position.copy(chest).add(V(0,-.18,.175));this.tie.rotation.z=-bend*.7;this.pocket.position.copy(chest).add(V(.13,-.15,.16));}
     if(this.hood){this.hood.position.copy(chest).add(V(0,.06,-.03));this.pouch.position.copy(pelvis).add(V(0,.17,.17));this.drawstrings.forEach((l,i)=>l.userData.set(chest.clone().add(V(i? .055:-.055,.015,.18)),chest.clone().add(V(i?.07:-.065,-.23,.19))));}
-    const shoulders=[-1,1].map(s=>chest.clone().add(V(s*.22,-.045,0)));
+    let lateral=V(Math.cos(angle),0,Math.sin(angle));lateral.addScaledVector(direction,-lateral.dot(direction)).normalize();
+    const shoulders=[-1,1].map(s=>chest.clone().addScaledVector(lateral,s*.22).addScaledVector(direction,-.045));
     let hands=shoulders.map((p,i)=>p.clone().add(V((i?1:-1)*.055,-.75,.02)));
     if(walk){hands=shoulders.map((p,i)=>p.clone().add(V((i?1:-1)*.04,-.64,Math.sin(gait+i*Math.PI)*.27)));}
-    if(seated&&!lying){hands=[V(-.10,chest.y-.28,.54),V(.25,chest.y-.28,.55)];}
+    if(seated&&!lying){hands=[V(-.10,1.27,.54),V(.25,1.27,.55)];}
     if(['talk','talkSit','explain','teach','answer','agents'].includes(action))hands[1]=chest.clone().add(V(.46,.04+wave*.13,.22));
     if(action==='answer'||action==='celebrate'){hands=shoulders.map((p,i)=>p.clone().add(V((i?1:-1)*.28,.63+wave*.035,.07)));}
     if(action==='think'||action==='tired'||action==='confused'){hands[1]=head.clone().add(V(.25,-.08,.11));hands[0]=pelvis.clone().add(V(-.18,.2,.15));}
     if(['phone','phoneSit','buy'].includes(action)){hands[1]=chest.clone().add(V(.40,.03,.24));hands[0]=pelvis.clone().add(V(-.22,.2,.08));}
-    if(['write','exam','study','test','type'].includes(action)){hands[1]=chest.clone().add(V(.38,-.24,.45));hands[1].x+=Math.sin(local*6)*.04;hands[0]=chest.clone().add(V(-.18,-.3,.42));}
+    if(['write','exam','study','test','type'].includes(action)){hands[1]=V(.38+Math.sin(local*6)*.04,1.27,.45);hands[0]=V(-.18,1.27,.42);}
     if(action==='handshake'){hands[1]=chest.clone().add(V(.47,-.25,.20));}
     if(['pickup','place','build'].includes(action)){hands[1]=chest.clone().add(V(.12,-.73,.15));hands[0]=chest.clone().add(V(-.12,-.62,.18));}
     if(action==='present')hands[1]=chest.clone().add(V(.66,-.06,.02));
     if(action==='surprise'){hands=shoulders.map((p,i)=>p.clone().add(V((i?1:-1)*.34,.3,.1)));}
-    if(lying){hands=[V(-.25,.81,.15),V(.2,.82,.15)];}
+    if(lying){hands=[V(-.12,1.08,-.28),V(-.12,1.08,.28)];}
+    if(action==='wake')hands=[V(-.12,1.08,-.28).lerp(V(-.12,1.3,.45),rising),V(-.12,1.08,.28).lerp(V(.26,1.3,.45),rising)];
+    for(const [i,target] of [[0,leftHandWorld],[1,rightHandWorld]])if(target){const d=V(...target).sub(V(rootX,rootY,rootZ));hands[i]=V(d.x*Math.cos(facing)-d.z*Math.sin(facing),d.y,d.x*Math.sin(facing)+d.z*Math.cos(facing));}
     this.arms.forEach((a,i)=>{
-      const p=shoulders[i];const ik=solveIK(p,hands[i],.39,.39,V(i?1:-1,-.3,-.3));
+      const p=shoulders[i];const pole=lying?V(0,1,i?1:-1):V(i?1:-1,.30,-.25);const ik=solveIK(p,hands[i],.39,.39,pole);
       a.upper.userData.set(p,ik.joint);a.lower.userData.set(ik.joint,ik.end);a.hand.position.copy(ik.end);a.target.copy(ik.end);
+      a.root=p.clone();a.joint=ik.joint.clone();
     });
     this.legs.forEach((leg,i)=>{
       const s=i?1:-1;const hip=pelvis.clone().add(V(s*.12,0,0));
@@ -143,11 +173,16 @@ export class Character {
         target.y+=p<stance?0:Math.sin(Math.PI*(p-stance)/(1-stance))*.18;
       }
       if(seated)target.set(s*.13,.075,.53);
-      if(lying)target.set(1.02,.78,s*.12);
-      if(action==='wake')target.set(1.02*(1-rising)+s*.13*rising,.78*(1-rising)+.075*rising,s*.12*(1-rising)+.53*rising);
+      if(lying)target.set(1.02,1.03,s*.12);
+      if(action==='wake'){
+        const swing=smooth(rising/.35),retract=smooth(rising/.8),lower=smooth((rising-.38)/.62);
+        target.set(1.02*(1-retract)+s*.13*retract,1.03*(1-lower)+.075*lower,s*.12*(1-swing)+.95*swing);
+      }
       const ik=solveIK(hip,target,.56,.56,V(0,.1,1));
       leg.upper.userData.set(hip,ik.joint);leg.lower.userData.set(ik.joint,ik.end);leg.foot.position.copy(ik.end).add(V(0,-.025,.055));leg.target.copy(ik.end);
+      leg.root=hip.clone();leg.joint=ik.joint.clone();
     });
     this.prop.position.copy(this.arms[1].target);this.prop.rotation.set(.05,0,-.15+Math.sin(local)*.02);
+    this.updateInstances();
   }
 }

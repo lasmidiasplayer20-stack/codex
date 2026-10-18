@@ -28,7 +28,7 @@ def samples(path, at):
 metadata = probe(MOVIE)
 video = next(x for x in metadata['streams'] if x['codec_type'] == 'video')
 audio = next(x for x in metadata['streams'] if x['codec_type'] == 'audio')
-assert video['width'] == 640 and video['height'] == 360, video
+assert video['width'] == 1920 and video['height'] == 1080, video
 assert video['r_frame_rate'] == '30/1', video
 assert int(video['nb_frames']) == 15762, video
 assert abs(float(metadata['format']['duration']) - 525.4) < .08, metadata['format']

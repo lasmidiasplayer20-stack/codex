@@ -1,6 +1,13 @@
 {
   "status": "passed",
+  "revision": 2,
   "ikCases": 2000,
+  "proportionAndContactPoses": 1206,
+  "torsoLength": 0.78,
+  "minimumWakeTorsoY": 0.7916428091388441,
+  "mattressTopY": 0.79,
+  "stanceFootDrift": 5.551115123125783e-17,
+  "vehicleVisibilityRegression": "passed",
   "contiguousShots": 131,
   "coverageSeconds": 525.4,
   "browserFrames": 393,
@@ -34,5 +41,5 @@
     525
   ],
   "browserErrors": [],
-  "limitation": "Technical checks do not establish frame-for-frame fidelity to the reference."
+  "limitation": "Technical checks do not establish frame-for-frame fidelity to the reference or absence of every possible collision."
 }

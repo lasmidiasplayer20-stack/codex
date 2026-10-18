@@ -5,7 +5,7 @@ import {SHOTS,DURATION,shotAt} from './timeline.js';
 import {mergeGeometries} from '/node_modules/three/examples/jsm/utils/BufferGeometryUtils.js';
 
 const params=new URLSearchParams(location.search),WIDTH=Number(params.get('width')||960),HEIGHT=Number(params.get('height')||540);
-const renderer=new THREE.WebGLRenderer({antialias:true,preserveDrawingBuffer:true,alpha:false,powerPreference:'high-performance'});
+const renderer=new THREE.WebGLRenderer({antialias:!params.has('render'),preserveDrawingBuffer:true,alpha:false,powerPreference:'high-performance'});
 renderer.setSize(WIDTH,HEIGHT);renderer.setPixelRatio(1);renderer.outputColorSpace=THREE.SRGBColorSpace;
 document.body.append(renderer.domElement);
 const scene=new THREE.Scene();scene.background=new THREE.Color(0x15182c);
@@ -21,11 +21,12 @@ const cast={hero:new Character(castGroup),doctor:new Character(castGroup,{role:'
 const shadows=Object.values(cast).map(()=>{const m=new THREE.Mesh(new THREE.CircleGeometry(.4,28),new THREE.MeshBasicMaterial({color:0x1d1732,transparent:true,opacity:.17,depthWrite:false}));m.rotation.x=-Math.PI/2;m.scale.set(1,.48,1);m.position.y=.013;scene.add(m);return m;});
 const props={};
 props.phone=new THREE.Group();box(props.phone,0,.10,0,.14,.28,.027,0x202a38);box(props.phone,0,.10,.019,.115,.23,.012,0x8bb3d0);
-props.pencil=new THREE.Group();rod(props.pencil,[0,0,0],[.03,.26,.02],.012,0xefca63);
+props.pencil=new THREE.Group();rod(props.pencil,[0,-.065,0],[.03,.20,.02],.012,0xefca63);
 props.paper=new THREE.Group();box(props.paper,0,.12,0,.29,.35,.009,0xf4f0de);for(let i=0;i<4;i++)box(props.paper,0,.03+i*.045,.008,.22,.006,.005,0x687786);
 props.cup=new THREE.Group();box(props.cup,0,.08,0,.15,.18,.15,0xe4e4dc);
 const apple=new THREE.Group();fx.add(apple);ball(apple,V(),V(.115,.105,.10),mat(0xbf4b52),false);rod(apple,[0,.08,0],[.01,.16,0],.013,0x76633c);ball(apple,V(.05,.13,0),V(.05,.018,.035),mat(0x77a067),false);
 const vehicle=car(fx,0,1,false),suv=car(fx,0,1,true,0x373b4a);
+for(const v of [vehicle,suv]){v.scale.set(2.4,2.05,2.6);v.rotation.y=-.12;}
 const beams=[-1.65,1.65].map(x=>{const m=new THREE.Mesh(new THREE.CylinderGeometry(.84,.86,2.7,40,1,true),new THREE.MeshBasicMaterial({color:0x75c6f5,transparent:true,opacity:.12,side:THREE.DoubleSide,depthWrite:false,blending:THREE.AdditiveBlending}));m.position.set(x,1.5,.55);fx.add(m);return m;});
 const halo=new THREE.Mesh(new THREE.TorusGeometry(.40,.017,8,64),new THREE.MeshBasicMaterial({color:0x8ddcff,transparent:true,opacity:.8}));fx.add(halo);
 const hologram=new THREE.Group();fx.add(hologram);for(let i=0;i<3;i++){const r=ring(hologram,0,.3+i*.55,0,.60+i*.10,0x79e5d9);r.rotation.x=Math.PI/2+i*.15;}
@@ -59,21 +60,23 @@ function setupCast(s,t){
   const u=clamp((t-s.start)/(s.end-s.start),0,1),time=t-s.start;
   for(const c of Object.values(cast)){c.group.visible=false;c.prop.visible=false;c.group.position.y=0;}
   let hero=cast.hero,action=s.action,rootX=-1.0,facing=.18,rootZ=.35;
-  cast.hero.cloth.uniforms.color.value.set(['hospital','scanner'].includes(s.set)?0xb5d4e5:0xf5be13);
+  const patient=['hospital','scanner'].includes(s.set);
+  cast.hero.cloth.uniforms.color.value.set(patient?0xb5d4e5:0xf5be13).convertLinearToSRGB();
+  cast.hero.pouch.material.uniforms.color.value.set(patient?0xa4c4d6:0xd9a824).convertLinearToSRGB();
   if(['brain','neuron','screens','document','equations','news','world','cables','black'].includes(s.set))return;
   if(s.set==='network'){
     if(s.action==='accept')show(cast.hero,{time,rootX:-2.7,rootZ:.2,action:'present',facing:.6});
     return;
   }
   if(s.set==='classroom'){
-    rootX=-1.30;facing=.95;rootZ=.10;
+    rootX=-1.25;facing=1.1;rootZ=.18;
     if(s.desk)action=['write','exam','think','test','fail'].includes(action)?action==='think'?'study':action==='fail'?'write':action:'write';
-    show(cast.friend,{time:t+2,rootX:-3,rootZ:-.7,action:'write',facing:1.2});
-    show(cast.friend2,{time:t+4,rootX:2.8,rootZ:-.7,action:'write',facing:.9});
+    show(cast.friend,{time:t+2,rootX:-3.45,rootZ:-.75,action:'write',facing:1.1});
+    show(cast.friend2,{time:t+4,rootX:2.2,rootZ:-.65,action:'write',facing:1.1});
     if(s.doctor)show(cast.doctor,{time:t,rootX:1.6,rootZ:.2,action:['teach','explain','surprise'].includes(s.action)?s.action:'explain',facing:-.5});
   }
   if(s.set==='office'){
-    rootX=-1.38;rootZ=.35;facing=1.0;action=s.action==='explain'?'talkSit':'test';
+    rootX=-1.48;rootZ=.4;facing=1.0;action=s.action==='explain'?'talkSit':'test';
     show(cast.doctor,{time:t,rootX:2,rootZ:.2,action:'explain',facing:-.5});give(cast.doctor,props.paper);
   }
   if(s.set==='hospital'||s.set==='scanner'){
@@ -83,7 +86,7 @@ function setupCast(s,t){
     if(s.action==='walk'){rootX=-.4+u*2;action='walk';}
   }
   if(s.set==='bedroom'){
-    if(['write','study','type'].includes(action)){rootX=1.25;rootZ=-.1;facing=.4;}
+    if(['write','study','type'].includes(action)){rootX=.45;rootZ=-.4;facing=1.1;}
     else{rootX=-.6;facing=.1;}
   }
   if(s.set==='lab'){
@@ -116,7 +119,8 @@ function setupCast(s,t){
   if(s.set==='mirror'){rootX=0;rootZ=0;facing=.0;action='think';}
   if(s.set==='money'){rootX=.5;rootZ=.4;}
   const walkSpeed=s.set==='campus'?4.7/(s.end-s.start):s.set==='street'?4.8/(s.end-s.start):s.set==='house'?1.8/(s.end-s.start):s.set==='rooftop'?4/(s.end-s.start):.65;
-  show(hero,{time:time,phase:u,rootX,rootZ,facing,action,side:1,walkSpeed});
+  const posePhase=s.set==='hospital'&&action==='wake'?clamp((t-48)/5,0,1):u;
+  show(hero,{time:time,phase:posePhase,rootX,rootZ,facing,action,side:1,walkSpeed,seatHeight:s.set==='living'?.60:.65});
   if(s.set==='graduation')hero.group.position.y=.3;
   if((s.set==='lab'&&['platform','teleport'].includes(s.action))||s.set==='rooftop'&&s.action==='teleport')hero.group.position.y=.16;
   if(s.action==='teleport'&&!s.apple){hero.group.visible=Math.sin(time*20)>-.6;hero.group.position.x+=(s.set==='rooftop'?0:(u>.52?3.3:0));}
@@ -137,9 +141,10 @@ export function renderAt(t){
   hologram.visible=!!s.hologram;hologram.position.set(s.set==='science'?1.3:-1,1.2,.5);hologram.rotation.y=t;
   halo.visible=!!s.hologram||s.action==='teleport';halo.position.set(cast.hero.group.position.x,2.48,cast.hero.group.position.z+.1);halo.rotation.z=t*.3;
   beams.forEach((m,i)=>{m.visible=s.action==='teleport';m.material.opacity=.08+.12*Math.pow(Math.sin(t*8+i),2);});
-  vehicle.visible=(s.set==='street'||s.set==='traffic')&&s.action==='car'&&!s.suv;suv.visible=s.set==='street'&&s.suv;
+  vehicle.visible=(s.set==='street'||s.set==='traffic')&&s.action==='car'&&!s.suv;suv.visible=s.set==='street'&&!!s.suv;
   if(vehicle.visible)vehicle.position.x=4.0-u*8;
   if(suv.visible)suv.position.x=3-u*6;
+  for(const v of [vehicle,suv])if(v.visible)for(const w of v.userData.wheels)w.quaternion.copy(w.userData.baseQuaternion).multiply(new THREE.Quaternion().setFromAxisAngle(V(0,1,0),u*(v===vehicle?8:6)/(.24*v.scale.y)));
   apple.visible=['pickup','place'].includes(s.action)||!!s.apple;
   if(apple.visible){
     if(['pickup','place'].includes(s.action)){cast.hero.group.updateMatrixWorld(true);apple.position.copy(cast.hero.arms[1].target).applyMatrix4(cast.hero.group.matrixWorld);apple.position.y-=.06;}
@@ -161,6 +166,7 @@ export function renderAt(t){
 }
 window.renderAt=renderAt;window.capture=(t)=>{renderAt(t);return renderer.domElement.toDataURL('image/jpeg',.94).split(',')[1];};window.ready=true;
 window.getRig=()=>Object.fromEntries(Object.entries(cast).map(([name,c])=>[name,{visible:c.group.visible,pelvis:c.pelvis.toArray(),chest:c.chest.toArray(),arms:c.arms.map(a=>a.target.toArray()),feet:c.legs.map(a=>a.target.toArray())}]));
+window.getSceneDiagnostics=()=>({vehicleVisible:vehicle.visible,suvVisible:suv.visible,vehicleSize:[2.2*vehicle.scale.x,1.075*vehicle.scale.y],renderSize:renderer.getSize(new THREE.Vector2()).toArray(),heroSeatBottom:cast.hero.pelvis.y-.13,spineLength:cast.hero.pelvis.distanceTo(cast.hero.chest)});
 let playing=!params.has('render'),offset=Number(params.get('time')||0),started=performance.now();
 if(params.has('render')){document.querySelector('#hud').remove();renderAt(offset);}else{
   function loop(now){const t=playing?((now-started)/1000+offset)%DURATION:offset;renderAt(t);document.querySelector('#hud').textContent=`${t.toFixed(2)}s / ${DURATION}s · ${active.set} · espaço: pausa · ←/→: 5s`;requestAnimationFrame(loop);}requestAnimationFrame(loop);

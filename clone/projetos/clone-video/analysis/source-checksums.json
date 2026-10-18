@@ -2,12 +2,13 @@
   "index.html": "655600cee84b478e0bcfd4a447173efd9b1c17d4043d82b368706c987c2623bc",
   "package.json": "372d5c710eabd4196535a40849c35ba05c81c53caf95f19792807c88923d4d5d",
   "package-lock.json": "e6ffd5c8634bbd7f835dfa867c5aedef9f39f7ea51654ea85521f07b83357a1f",
-  "src/main.js": "f559f18b453163193ed8088064e8bf53be2c93320383d1f8d2da34b9d3baf6db",
-  "src/rig.js": "2aa186e17be020876dd45b1bdef78a3379ece9999ce2b60f9664eb930be0e130",
+  "src/main.js": "f31debdeb2d2da15a46287d7b91366e1f9e9fb680f3e2dc8eb45ca68acff587a",
+  "src/rig.js": "5e1fc914df665cbc2fe7ddfc49e0b5d56bb84033a9b14277f0495afe829d6467",
   "src/timeline.js": "9393952f55360dae99765de4ad061d88bf5f074a8a1608565a2dea9dff560ead",
-  "src/world.js": "15989add1d9fd54ac4f93f54c6da89ab343cb60f02f4d91ddc9612c0a216ca54",
-  "tools/check.mjs": "67e3f770d53ca97de656fc8bdab83b0ea4d2a9e49ce055f8d00172b64bb37075",
-  "tools/render.mjs": "517aeeb33aeb2bbae0291fe93e3fea3f1b28671720ef4d1eab184f411b1af3c4",
+  "src/world.js": "b8ab6a79c01b39b3fe4a8825400931ac01af90c6324c4eace0a381ee8e1c979a",
+  "tools/check.mjs": "0fecba1799e6cab7211ad0fd0d27d100e9f5b5a54f3214700677a18a8fb9b351",
+  "tools/render.mjs": "ef758be225f6381f0bba96c21e76c174aa3a0cbbc2b723c619538d70d20f22de",
   "tools/serve.mjs": "d34ef693dbc2a9b806a4279105d85bc854f13718a1a46fa4a968960cb0101895",
+  "tools/verify-export.py": "fc649e286d1b371b43cf146d09f5d1b2d2e1b0d36cc561302d66fe47dcf99a8b",
   "audio/reference.m4a": "8fd19ac03d76a2aab86d757f1b9cf966fffa346ae94f8eb5591bbe907576427c"
 }
