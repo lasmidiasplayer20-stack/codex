@@ -1,0 +1,27 @@
+{
+  "output": "/workspace/codex/clone/v\u00eddeos/clone-3d-completo.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "duration": 525.4,
+  "frames": 15762,
+  "parts": [
+    {
+      "file": "/workspace/codex/clone/projetos/clone-video/analysis/previa-60s-1080p-r3.mp4",
+      "frames": 1800,
+      "duration": 60.0
+    },
+    {
+      "file": "/tmp/clone-analysis/1080-part-02.mp4",
+      "frames": 7200,
+      "duration": 240.0
+    },
+    {
+      "file": "/tmp/clone-analysis/1080-part-03.mp4",
+      "frames": 6762,
+      "duration": 225.4
+    }
+  ],
+  "method": "Native 3D parts joined at exact frame boundaries; original AAC copied once",
+  "upscaling": false
+}
