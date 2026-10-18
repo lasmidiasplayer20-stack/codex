@@ -1,0 +1,5 @@
+node_modules/
+silent.tmp.mp4
+qa/new-*.jpg
+qa/brain-mask.png
+qa/head-fit.jpg

@@ -5,7 +5,7 @@ description: Recriar o vídeo IQ 10 vezes maior em cenas 3D editáveis, usando a
 
 # Reconstrução por takes, com conferência ao original
 
-Use esta skill junto com os arquivos deste projeto. Leia o README e os relatórios de `tracking/` antes de alterar a animação. A prévia existente é preliminar e cobre somente os primeiros 60 segundos. Não descreva o rastreamento óptico como uma captura 3D completa, nem um teste de comprimentos de ossos como uma aprovação visual.
+Use esta skill junto com os arquivos deste projeto. Leia o README e os relatórios de `tracking/` antes de alterar a animação. A prévia antiga de 60 segundos foi reprovada visualmente. A revisão atual está em `revisoes/take-01-r2/` e refaz apenas os primeiros 4,067 segundos; leia também sua `SKILL.md`. Os demais takes precisam ser refeitos. Não descreva o rastreamento óptico como uma captura 3D completa, nem um teste de comprimentos de ossos como uma aprovação visual.
 
 ## Entradas e escopo
 

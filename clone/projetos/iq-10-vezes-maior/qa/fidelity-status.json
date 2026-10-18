@@ -15,13 +15,19 @@
     ],
     "fullMovieReconstructed": false,
     "exactCloneVerified": false,
-    "status": "Preliminary editable 3D reconstruction; fidelity refinement remains pending.",
+    "status": "The previous 60-second preview was visually rejected by the user. R2 rebuilds source frames 0\u2013121 only; the remaining takes are pending.",
     "unresolved": [
       "Exact 3D camera extrinsics",
       "Complete anatomical joint and contact validation",
       "Scenario detail, staging and gesture matching",
       "Editorial review and 3D reconstruction after 60 seconds"
-    ]
+    ],
+    "currentRevision": "revisoes/take-01-r2",
+    "currentRebuiltRangeSeconds": [
+      0,
+      4.066666666666666
+    ],
+    "visuallyApproved": false
   },
   "rigChecks": {
     "scope": "Finite coordinates, fixed bone lengths and unreachable-target checks. These do not certify resemblance or full object physics."

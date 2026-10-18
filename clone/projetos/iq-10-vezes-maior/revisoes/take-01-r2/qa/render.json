@@ -1,0 +1,10 @@
+{
+  "stats": {
+    "frames": 245,
+    "maxReachError": 0,
+    "maxBoneError": 3.885780586188048e-16,
+    "maxHeadErrorPx": 1.797546735911271e-13,
+    "finite": true
+  },
+  "errors": []
+}

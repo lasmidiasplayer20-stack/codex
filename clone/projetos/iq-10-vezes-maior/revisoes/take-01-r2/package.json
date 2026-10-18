@@ -1,0 +1,5 @@
+{
+  "name":"iq-take01-r2","private":true,"type":"module",
+  "scripts":{"serve":"node serve.mjs","audit":"node render.mjs audit","export":"node export.mjs"},
+  "devDependencies":{"playwright":"1.51.1"}
+}

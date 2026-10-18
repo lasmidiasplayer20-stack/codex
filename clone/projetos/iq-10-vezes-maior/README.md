@@ -1,8 +1,10 @@
 # IQ 10 vezes maior — reconstrução 3D e rastreamento
 
-[Assistir à prévia de 1 minuto](previas/preview-60s-720p60.mp4) · [Abrir o projeto](editor.html) · [Rastreamento completo](rastreamento.html) · [Skill de recriação](skill/SKILL.md)
+[Nova revisão do primeiro take R2](revisoes/take-01-r2/) · [Abrir a cena R2](revisoes/take-01-r2/index.html) · [Rastreamento completo](rastreamento.html) · [Skill de recriação R2](revisoes/take-01-r2/SKILL.md)
 
-**Estado:** o rastreamento automático cobre os **15.759 quadros do original**, de 8min45s. O primeiro minuto tem **36 takes com revisão editorial** e uma prévia 3D editável, com áudio original. A reconstrução ainda é preliminar: cenários, gestos, encenação e câmera precisam de comparação e refinamento para atingir a fidelidade solicitada. O teste do rig não equivale a aprovação de semelhança. Os 7min45s restantes ainda não foram reconstruídos em 3D.
+**Estado atual:** a prévia anterior de 60 segundos foi **reprovada visualmente pelo usuário**. A revisão R2 refaz apenas a abertura, com **4,067 segundos**, câmera contínua, trajetória da mão revisada, rig de dois ossos e áudio original. O restante dos 60 s precisa ser refeito; o filme completo ainda não foi exportado. Esta revisão não é uma reprodução exata aprovada.
+
+O rastreamento automático dos 15.759 quadros continua disponível. Os arquivos antigos abaixo são mantidos como histórico e não representam a revisão atual. O ZIP `projeto-editavel.zip` e o editor da raiz ainda contêm o modelo antigo; use a pasta e o ZIP da R2 para a nova abertura.
 
 A referência de conteúdo é `videoplayback (13).mp4`: 640×360, 30 fps, 525,300 s de imagem e 525,397914 s com o áudio. O ZIP `3d-cozy-snow-plow-game.zip` fornece o acabamento visual: cel shading, contornos, luz quente, sombras frias e retícula. Seus cenários, animais e movimentos de jogo não foram usados. O MP4 original e o ZIP não estão incluídos.
 

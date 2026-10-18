@@ -1,0 +1,112 @@
+<!doctype html>
+<html lang="pt-BR">
+  <meta charset="utf-8" /><meta
+    name="viewport"
+    content="width=device-width,initial-scale=1"
+  />
+  <title>Take 01 · revisão R2</title>
+  <style>
+    html,
+    body {
+      margin: 0;
+      background: #090b1d;
+      color: #eee;
+      font: 16px system-ui;
+    }
+    canvas {
+      display: block;
+      width: 100%;
+      height: auto;
+    }
+    #controls {
+      display: flex;
+      align-items: center;
+      gap: 14px;
+      padding: 16px;
+    }
+    button,
+    a {
+      color: inherit;
+    }
+    button {
+      background: #32384c;
+      border: 0;
+      border-radius: 5px;
+      padding: 9px 18px;
+    }
+    input {
+      flex: 1;
+    }
+    a {
+      font-size: 14px;
+    }
+  </style>
+  <body>
+    <div id="stage"></div>
+    <div id="controls">
+      <button id="play">Reproduzir</button
+      ><input
+        id="seek"
+        aria-label="Tempo"
+        type="range"
+        min="0"
+        max="4.0666667"
+        step="0.0166667"
+        value="0"
+      /><output id="time">0,00 s</output
+      ><a href="preview-take-01-r2.mp4">MP4</a>
+    </div>
+    <audio id="audio" src="audio-original.m4a" preload="metadata"></audio>
+    <script src="vendor/three.min.js"></script>
+    <script src="opening.js"></script>
+    <script>
+      const params = new URLSearchParams(location.search),
+        controls = document.getElementById("controls"),
+        audio = document.getElementById("audio"),
+        play = document.getElementById("play"),
+        seek = document.getElementById("seek"),
+        time = document.getElementById("time");
+      if (params.has("render")) controls.style.display = "none";
+      fetch("data.json")
+        .then((r) => r.json())
+        .then((data) => {
+          window.film = Opening.create(data, {
+            width: +(params.get("w") || 1280),
+          });
+          document.getElementById("stage").appendChild(film.canvas);
+          film.frame(0);
+          window.ready = true;
+          function show(t) {
+            film.frame(t);
+            seek.value = t;
+            time.textContent = t.toFixed(2).replace(".", ",") + " s";
+          }
+          function tick() {
+            if (!audio.paused) {
+              show(Math.min(audio.currentTime, 4.0666667));
+              requestAnimationFrame(tick);
+            }
+          }
+          play.onclick = async () => {
+            if (audio.paused) {
+              if (audio.currentTime >= 4.05) audio.currentTime = 0;
+              await audio.play();
+              play.textContent = "Pausar";
+              tick();
+            } else {
+              audio.pause();
+              play.textContent = "Reproduzir";
+            }
+          };
+          audio.onended = () => {
+            play.textContent = "Reproduzir";
+            show(4.05);
+          };
+          seek.oninput = () => {
+            audio.currentTime = +seek.value;
+            show(+seek.value);
+          };
+        });
+    </script>
+  </body>
+</html>

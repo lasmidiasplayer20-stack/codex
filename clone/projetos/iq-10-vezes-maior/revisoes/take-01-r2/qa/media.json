@@ -1,0 +1,20 @@
+{
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 60,
+    "frames": 244,
+    "duration": 4.066667
+  },
+  "audio": {
+    "codec": "aac",
+    "channels": 2,
+    "sampleRate": "44100",
+    "packetsCopiedFromOriginal": 176,
+    "originalPacketHashesMatch": true,
+    "rms": 0.0674872025847435
+  },
+  "fullDecodeErrors": 0,
+  "sha256": "07b0edd88d1f45405bd64e968df99c4f02b517501ed3bd35ac9ff4822c048703",
+  "scope": "Only source frames 0\u2013121 have been rebuilt; visual fidelity is not approved."
+}
