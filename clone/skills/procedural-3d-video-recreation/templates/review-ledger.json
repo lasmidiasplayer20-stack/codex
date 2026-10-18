@@ -1,0 +1,531 @@
+{
+  "version": 1,
+  "project": "REPLACE_WITH_PROJECT_NAME",
+  "reference_sha256": null,
+  "native_output": {
+    "width": null,
+    "height": null,
+    "fps": null,
+    "duration_seconds": null
+  },
+  "tolerance_policy": "Define from the current source, world scale, output resolution, and intended stylization.",
+  "status_values": [
+    "pending",
+    "failed",
+    "passed",
+    "not-applicable"
+  ],
+  "checks": [
+    {
+      "id": "R01",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "R02",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "R03",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "R04",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "R05",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "R06",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "R07",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "R08",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "R09",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "R10",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "R11",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "R12",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "R13",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "R14",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "R15",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "R16",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "P01",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "P02",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "P03",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "P04",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "P05",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "P06",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "P07",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    },
+    {
+      "id": "P08",
+      "applicability": "undetermined",
+      "status": "pending",
+      "reason": null,
+      "affected_shots": [],
+      "reproduction_times_seconds": [],
+      "expected_behavior": null,
+      "observed_behavior": null,
+      "root_cause": null,
+      "correction": null,
+      "verification": {
+        "method": null,
+        "command_or_review_record": null,
+        "measured_values": {},
+        "evidence_paths": [],
+        "result": null
+      },
+      "invalidated_by_changes": [],
+      "remaining_limits": []
+    }
+  ],
+  "new_failure_classes": [],
+  "publication": {
+    "authorized_destination": null,
+    "remote_commit": null,
+    "files_verified": []
+  },
+  "completion_note": "Pending entries are not passed tests; the supplied template does not establish collision-free or exact reconstruction."
+}

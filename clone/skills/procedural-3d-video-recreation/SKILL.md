@@ -22,6 +22,12 @@ Separate rig/materials, environment/props, shot timeline, camera direction, and 
 
 Respect the requested destination names. Without an existing convention, keep sources and diagnostics in `projects/<name>/` and complete exports in `videos/`. Exclude `node_modules`, caches, credentials, and temporary files from shared packages.
 
+## Failure prevention and feedback
+
+Read `references/failure-modes.md` before implementing the reconstruction. Apply all relevant failure classes to the current video and initialize `templates/review-ledger.json` in its project. This catalog generalizes the original corrections: proportions, penetrations, seating alignment, limb bending, foot support, bed transitions, hand/object contact, ghost objects, physics, clothing, source fidelity, audio, native resolution, preview access, and complete publication. It also covers determinism, visual optimization regressions, clipping, flicker, part joins, process failures, and stale renders.
+
+Every user-reported defect must become a reproducible issue plus a generalized prevention rule and verification record. Adapt checks to the new video, not to the original story. Mark absent situations inapplicable with a reason; do not skip relevant classes silently or treat this catalog as proof of execution. Preserve this learning in the project and update the reusable catalog when new failure classes arise.
+
 ## Reconstruction
 
 - Build a continuous shot timeline covering the full duration: scene, cast, actions, transitions, lenses, camera position/target, audio events, and contacts.
@@ -41,7 +47,7 @@ Generate a preview at the final resolution, including difficult contact transiti
 
 Render at the requested native resolution, such as 1920×1080 at 30 FPS. Upscaling a 640×360 preview does not meet that requirement. Benchmark a short interval and choose concurrency within CPU/RAM limits. For multipart exports, use exact frame ranges, verify total frame count, and apply the complete soundtrack once during assembly. Do not derive video joins from rounded AAC packet durations.
 
-Follow `references/validation.md` and run `scripts/validate_export.py`. Also visually review contact frames, each shot's start/middle/end, and assembly joins. Report fidelity differences and checks actually executed. Never announce a completed film when only a preview or an active rendering process exists.
+Resolve applicable failures in the review ledger, record actual evidence and remaining limits, then follow `references/validation.md` and run `scripts/validate_export.py`. Also visually review contact frames, each shot's start/middle/end, and assembly joins. Report fidelity differences and checks actually executed. Never announce a completed film when only a preview or an active rendering process exists.
 
 ## Shareable delivery
 

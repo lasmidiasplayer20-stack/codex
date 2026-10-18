@@ -1,5 +1,7 @@
 # Review criteria
 
+First apply `failure-modes.md` to the new source and initialize `../templates/review-ledger.json`. Maintain reproducing intervals and verification evidence for every user-reported correction. The catalog contains reusable rules; its checks are not automatically satisfied by importing the rig.
+
 Record measurements and visual evidence. Syntax checks do not establish a working renderer; IK tests do not establish artistic fidelity.
 
 1. **Timeline:** complete coverage, correct order, full duration, cuts and camera compared with the source. Use frame indices at segment boundaries.

@@ -9,7 +9,8 @@ Copy this entire folder into your assistant's skills directory, keeping `SKILL.m
 ## Included
 
 - `SKILL.md`: the workflow and completion criteria.
-- `references/`: visual-style guide, validation checklist, and provenance.
+- `references/`: visual-style guide, generalized failure-prevention catalog, validation checklist, and provenance.
+- `templates/review-ledger.json`: per-project tracking for 24 failure classes, reproducing times, corrections, and actual verification evidence.
 - `assets/reference/3d-cozy-snow-plow-game.zip`: the complete original visual reference, about 574 KiB. Its `index.html` is the main procedural visual source; its original contents are preserved unchanged.
 - `templates/three-rig/`: executable Three.js rig demonstration with a pinned lockfile and technical checks.
 - `scripts/inspect_reference.py`: source metadata and SHA-256.
