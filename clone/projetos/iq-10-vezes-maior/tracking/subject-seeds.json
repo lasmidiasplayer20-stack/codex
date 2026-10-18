@@ -1,0 +1,291 @@
+{
+  "supervision": "Approximate manually reviewed head boxes, locally tracked in 2D. These do not verify limb anatomy.",
+  "anchors": [
+    {
+      "take": 1,
+      "seedFrame": 0,
+      "box": [
+        308.0,
+        106.0,
+        38.0,
+        39.0
+      ],
+      "role": "hero"
+    },
+    {
+      "take": 2,
+      "seedFrame": 130,
+      "box": [
+        254.0,
+        111.0,
+        38.0,
+        41.0
+      ],
+      "role": "coat"
+    },
+    {
+      "take": 3,
+      "seedFrame": 166,
+      "box": [
+        144.0,
+        111.0,
+        26.0,
+        33.0
+      ],
+      "role": "hero"
+    },
+    {
+      "take": 4,
+      "seedFrame": 205,
+      "box": [
+        268.0,
+        116.0,
+        30.0,
+        28.0
+      ],
+      "role": "hero"
+    },
+    {
+      "take": 5,
+      "seedFrame": 247,
+      "box": [
+        158.0,
+        162.0,
+        18.0,
+        20.0
+      ],
+      "role": "hero"
+    },
+    {
+      "take": 6,
+      "seedFrame": 383,
+      "box": [
+        238.0,
+        106.0,
+        24.0,
+        32.0
+      ],
+      "role": "hero"
+    },
+    {
+      "take": 7,
+      "seedFrame": 453,
+      "box": [
+        212.0,
+        152.0,
+        32.0,
+        34.0
+      ],
+      "role": "hero"
+    },
+    {
+      "take": 9,
+      "seedFrame": 563,
+      "box": [
+        203.0,
+        141.0,
+        78.0,
+        80.0
+      ],
+      "role": "hero"
+    },
+    {
+      "take": 10,
+      "seedFrame": 600,
+      "box": [
+        179.0,
+        150.0,
+        37.0,
+        39.0
+      ],
+      "role": "hero"
+    },
+    {
+      "take": 11,
+      "seedFrame": 667,
+      "box": [
+        263.0,
+        102.0,
+        37.0,
+        37.0
+      ],
+      "role": "hero"
+    },
+    {
+      "take": 12,
+      "seedFrame": 725,
+      "box": [
+        227.0,
+        150.0,
+        39.0,
+        42.0
+      ],
+      "role": "hero"
+    },
+    {
+      "take": 13,
+      "seedFrame": 780,
+      "box": [
+        252.0,
+        162.0,
+        34.0,
+        32.0
+      ],
+      "role": "hero"
+    },
+    {
+      "take": 14,
+      "seedFrame": 847,
+      "box": [
+        250.0,
+        99.0,
+        34.0,
+        34.0
+      ],
+      "role": "hero"
+    },
+    {
+      "take": 15,
+      "seedFrame": 895,
+      "box": [
+        310.0,
+        81.0,
+        36.0,
+        36.0
+      ],
+      "role": "hero"
+    },
+    {
+      "take": 16,
+      "seedFrame": 930,
+      "box": [
+        212.0,
+        144.0,
+        46.0,
+        49.0
+      ],
+      "role": "hero"
+    },
+    {
+      "take": 20,
+      "seedFrame": 1140,
+      "box": [
+        241.0,
+        172.0,
+        39.0,
+        40.0
+      ],
+      "role": "driver"
+    },
+    {
+      "take": 23,
+      "seedFrame": 1208,
+      "box": [
+        300.0,
+        112.0,
+        66.0,
+        72.0
+      ],
+      "role": "hero"
+    },
+    {
+      "take": 28,
+      "seedFrame": 1345,
+      "box": [
+        178.0,
+        198.0,
+        37.0,
+        37.0
+      ],
+      "role": "patient"
+    },
+    {
+      "take": 29,
+      "seedFrame": 1385,
+      "box": [
+        161.0,
+        202.0,
+        37.0,
+        37.0
+      ],
+      "role": "patient"
+    },
+    {
+      "take": 30,
+      "seedFrame": 1470,
+      "box": [
+        170.0,
+        220.0,
+        56.0,
+        52.0
+      ],
+      "role": "patient"
+    },
+    {
+      "take": 31,
+      "seedFrame": 1560,
+      "box": [
+        317.0,
+        118.0,
+        72.0,
+        78.0
+      ],
+      "role": "coat"
+    },
+    {
+      "take": 32,
+      "seedFrame": 1605,
+      "box": [
+        227.0,
+        119.0,
+        78.0,
+        80.0
+      ],
+      "role": "patient"
+    },
+    {
+      "take": 33,
+      "seedFrame": 1680,
+      "box": [
+        328.0,
+        94.0,
+        37.0,
+        36.0
+      ],
+      "role": "hero"
+    },
+    {
+      "take": 34,
+      "seedFrame": 1741,
+      "box": [
+        246.0,
+        88.0,
+        38.0,
+        37.0
+      ],
+      "role": "hero"
+    },
+    {
+      "take": 35,
+      "seedFrame": 1769,
+      "box": [
+        216.0,
+        146.0,
+        46.0,
+        49.0
+      ],
+      "role": "hero"
+    },
+    {
+      "take": 36,
+      "seedFrame": 1796,
+      "box": [
+        266.0,
+        125.0,
+        57.0,
+        62.0
+      ],
+      "role": "hero"
+    }
+  ]
+}

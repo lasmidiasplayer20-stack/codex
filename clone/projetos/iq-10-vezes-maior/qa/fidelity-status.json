@@ -1,0 +1,35 @@
+{
+  "automaticTracking": {
+    "allFramesProcessed": true,
+    "frames": 15759,
+    "sourceVideoSeconds": 525.3,
+    "sourceAudioSeconds": 525.397914,
+    "candidateSegments": 355,
+    "manualEditorialReviewSeconds": 60,
+    "reviewedShotsFirstMinute": 36
+  },
+  "reconstruction": {
+    "renderedRangeSeconds": [
+      0,
+      60
+    ],
+    "fullMovieReconstructed": false,
+    "exactCloneVerified": false,
+    "status": "Preliminary editable 3D reconstruction; fidelity refinement remains pending.",
+    "unresolved": [
+      "Exact 3D camera extrinsics",
+      "Complete anatomical joint and contact validation",
+      "Scenario detail, staging and gesture matching",
+      "Editorial review and 3D reconstruction after 60 seconds"
+    ]
+  },
+  "rigChecks": {
+    "scope": "Finite coordinates, fixed bone lengths and unreachable-target checks. These do not certify resemblance or full object physics."
+  },
+  "cameraGaps": "Continue the measured background transform and hold the last valid subject residual during low-confidence gaps; this is prediction, not a new observation.",
+  "previewRepairs": {
+    "cameraConfidenceGapFrames": 162,
+    "streetShotsReframed": true,
+    "crosswalkCharacterIncluded": true
+  }
+}

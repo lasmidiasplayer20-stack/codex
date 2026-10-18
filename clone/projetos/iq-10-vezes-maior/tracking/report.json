@@ -1,0 +1,35 @@
+{
+  "allFramesProcessed": true,
+  "frames": 15759,
+  "expectedFrames": 15759,
+  "fps": 30.0,
+  "duration": 525.3,
+  "takes": 355,
+  "cameraReliableFrames": 15069,
+  "headObservedFrames": 6483,
+  "heroObservedFrames": 3837,
+  "audioOnsets": 1595,
+  "featureTrajectories": 335211,
+  "denseFlowGrid": {
+    "computedWidth": 320,
+    "computedHeight": 180,
+    "storedWidth": 40,
+    "storedHeight": 23,
+    "units": "source pixels / frame, quantized eighth-pixels"
+  },
+  "sourceSha256": "b59551464516ad17142246342999d19a05c120c6832aac335e014355067c6604",
+  "seconds": 768.07,
+  "limits": [
+    "Automatic take boundaries and actor labels require manual review.",
+    "Camera is a measured 2D background affine fit, not solved 3D camera extrinsics.",
+    "Head/torso/wrist/foot candidates do not constitute fully verified anatomical motion capture.",
+    "All frames are analysed; gaps and occlusions remain flagged rather than invented."
+  ],
+  "heroObservedFramesBeforeRefinement": 4080,
+  "semanticRefinement": {
+    "allFramesProcessed": true,
+    "frames": 15759,
+    "method": "Narrow yellow garment hue, sleeve-adjacent wrist candidates, filtered boot shapes. Observations remain unverified anatomical labels.",
+    "seconds": 415.27
+  }
+}

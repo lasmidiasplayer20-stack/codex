@@ -1,0 +1,339 @@
+<!doctype html>
+<html lang="pt-BR">
+  <meta charset="utf-8" /><meta
+    name="viewport"
+    content="width=device-width,initial-scale=1"
+  /><title>Rastreamento completo · IQ 10×</title
+  ><style>
+    :root {
+      color-scheme: dark;
+      font-family: system-ui;
+      background: #141725;
+      color: #f7efde;
+    }
+    body {
+      max-width: 1400px;
+      margin: auto;
+      padding: 24px;
+    }
+    header {
+      display: flex;
+      align-items: center;
+      gap: 16px;
+      flex-wrap: wrap;
+    }
+    h1 {
+      font-size: 24px;
+      margin: 0 auto 0 0;
+    }
+    p {
+      color: #bcc4d5;
+      line-height: 1.5;
+    }
+    button,
+    .button {
+      background: #c6ddb1;
+      color: #172031;
+      border: 0;
+      border-radius: 7px;
+      padding: 10px 16px;
+      cursor: pointer;
+      font: inherit;
+      text-decoration: none;
+    }
+    label {
+      cursor: pointer;
+    }
+    input[type="file"] {
+      max-width: 230px;
+    }
+    canvas {
+      display: block;
+      width: 100%;
+      background: #1f2637;
+      border-radius: 10px;
+    }
+    video {
+      display: none;
+    }
+    nav {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      margin: 15px 0;
+      flex-wrap: wrap;
+    }
+    input[type="range"] {
+      width: 100%;
+      accent-color: #d2dda7;
+    }
+    #readout {
+      font-variant-numeric: tabular-nums;
+      white-space: pre-wrap;
+      padding: 16px;
+      background: #242a3b;
+      border-radius: 8px;
+      color: #dfe8ee;
+    }
+    small {
+      color: #aeb9cd;
+    }
+    a {
+      color: #cbdeb3;
+    }
+    #error {
+      color: #f2b1a2;
+    }
+    footer {
+      margin-top: 24px;
+    }
+  </style>
+  <header>
+    <h1>Rastreamento · IQ 10×</h1>
+    <a class="button" href="previas/preview-60s-720p60.mp4">Prévia 3D · 1 min</a
+    ><a href="index.html">Projeto 3D</a>
+  </header>
+  <p>
+    15.759 quadros analisados. Abra o MP4 original do seu computador para
+    comparar as medições sobre o vídeo. O arquivo fica neste navegador.
+  </p>
+  <label
+    >Original local: <input id="file" type="file" accept="video/*"
+  /></label>
+  <span id="fileStatus"></span>
+  <p id="error" role="status"></p>
+  <video id="video" preload="metadata" playsinline></video
+  ><canvas id="stage" width="1280" height="720"></canvas>
+  <nav>
+    <button id="play">Reproduzir</button><button id="prev">− 1 quadro</button
+    ><button id="next">+ 1 quadro</button
+    ><label><input id="heads" type="checkbox" checked />Cabeças e mãos</label
+    ><label
+      ><input id="features" type="checkbox" checked />Pontos rastreados</label
+    ><label><input id="flow" type="checkbox" />Fluxo óptico</label>
+  </nav>
+  <input
+    id="seek"
+    aria-label="Quadro"
+    type="range"
+    min="0"
+    max="15758"
+    value="0"
+    step="1"
+  />
+  <div id="readout">Carregando índice…</div>
+  <footer>
+    <small
+      >Câmera: transformação afim do fundo em 2D. Os 355 segmentos automáticos e
+      as articulações ainda exigem revisão; os 36 takes do primeiro minuto têm
+      uma revisão editorial separada. A prévia 3D é uma reconstrução
+      preliminar.</small
+    >
+  </footer>
+  <script type="module">
+    const $ = (id) => document.getElementById(id),
+      canvas = $("stage"),
+      x = canvas.getContext("2d"),
+      video = $("video"),
+      cache = new Map(),
+      pending = new Map();
+    let index,
+      review,
+      frame = 0,
+      row,
+      playing = false,
+      start = 0,
+      sourceURL,
+      token = 0;
+    async function json(p) {
+      const r = await fetch(p);
+      if (!r.ok) throw Error("Não foi possível carregar " + p);
+      return r.json();
+    }
+    async function takeRows(t) {
+      if (cache.has(t.id)) return cache.get(t.id);
+      if (pending.has(t.id)) return pending.get(t.id);
+      const job = (async () => {
+        const r = await fetch("tracking/" + t.archive, {
+          headers: { Range: `bytes=${t.offset}-${t.offset + t.length - 1}` },
+        });
+        if (!r.ok)
+          throw Error("Arquivo de rastreamento indisponível: " + t.archive);
+        let a = await r.arrayBuffer();
+        if (r.status !== 206) a = a.slice(t.offset, t.offset + t.length);
+        const stream = new Blob([a])
+          .stream()
+          .pipeThrough(new DecompressionStream("gzip"));
+        const rows = JSON.parse(await new Response(stream).text());
+        cache.set(t.id, rows);
+        if (cache.size > 5) cache.delete(cache.keys().next().value);
+        return rows;
+      })().finally(() => pending.delete(t.id));
+      pending.set(t.id, job);
+      return job;
+    }
+    function line(ax, ay, bx, by, col, w = 1) {
+      x.strokeStyle = col;
+      x.lineWidth = w;
+      x.beginPath();
+      x.moveTo(ax, ay);
+      x.lineTo(bx, by);
+      x.stroke();
+    }
+    function box(b, col) {
+      x.strokeStyle = col;
+      x.lineWidth = 1;
+      x.strokeRect(...b);
+    }
+    function dot(p, col, r = 2) {
+      x.fillStyle = col;
+      x.beginPath();
+      x.arc(p[0], p[1], r, 0, Math.PI * 2);
+      x.fill();
+    }
+    function draw() {
+      x.setTransform(2, 0, 0, 2, 0, 0);
+      x.fillStyle = "#1c2434";
+      x.fillRect(0, 0, 640, 360);
+      if (sourceURL && video.readyState >= 2)
+        x.drawImage(video, 0, 0, 640, 360);
+      else {
+        for (let q = 0; q <= 640; q += 40) line(q, 0, q, 360, "#344052", 0.4);
+        for (let q = 0; q <= 360; q += 40) line(0, q, 640, q, "#344052", 0.4);
+      }
+      if (!row) return;
+      if ($("features").checked)
+        for (const p of row.features || []) {
+          dot([p[1], p[2]], "#c7dfaa", 1.2);
+          line(p[1], p[2], p[1] + p[3] * 4, p[2] + p[4] * 4, "#ffd792", 0.6);
+        }
+      if ($("flow").checked && row.flowGridQ8) {
+        for (let j = 1; j < 23; j += 2)
+          for (let i = 1; i < 40; i += 2) {
+            const a = (j * 40 + i) * 2,
+              px = (i + 0.5) * 16,
+              py = ((j + 0.5) * 360) / 23;
+            line(
+              px,
+              py,
+              px + (row.flowGridQ8[a] / 8) * 3,
+              py + (row.flowGridQ8[a + 1] / 8) * 3,
+              "#c7a9ea",
+              0.8,
+            );
+          }
+      }
+      if ($("heads").checked) {
+        for (const h of row.heads || []) {
+          box(h.box, "#aad8eb");
+          dot(h.center, "#aad8eb");
+        }
+        if (row.hero) {
+          box(row.hero.torso, "#ffde75");
+          for (const p of row.hero.wristCandidates || [])
+            dot(p.center, "#ed9ebf", 3);
+          for (const p of row.hero.footCandidates || [])
+            dot(p.center, "#b7dd9d", 3);
+        }
+      }
+      if (row.camera) {
+        const m = row.camera;
+        line(
+          320,
+          180,
+          m[0] * 320 + m[1] * 180 + m[2],
+          m[3] * 320 + m[4] * 180 + m[5],
+          "#ff9e7c",
+          2,
+        );
+      }
+    }
+    async function show(f, syncVideo = true) {
+      frame = Math.max(0, Math.min(15758, Math.round(f)));
+      $("seek").value = frame;
+      const own = ++token,
+        t = index.takes.find(
+          (t) => frame >= t.startFrame && frame < t.endFrame,
+        );
+      if (!t) return;
+      try {
+        const rs = await takeRows(t);
+        if (own !== token) return;
+        row = rs[frame - t.startFrame];
+        const verified = review.shots.find(
+          (s) => frame >= s.startFrame && frame < s.endFrameExclusive,
+        );
+        $("readout").textContent =
+          `${(frame / 30).toFixed(3)} s / 525.300 s · quadro ${frame + 1} / 15.759\nSegmento automático ${t.id} / 355 · confiança da câmera ${(100 * (row.cameraConfidence || 0)).toFixed(0)}%\n${verified ? "Take revisado " + verified.id + " / 36 · " + verified.kind + " · " + verified.action : "Revisão editorial: pendente neste trecho"}\nCabeças observadas: ${row.heads.length} · pontos: ${(row.features || []).length} · anatomia: ainda não validada`;
+        if (
+          sourceURL &&
+          syncVideo &&
+          Math.abs(video.currentTime - frame / 30) > 0.02
+        )
+          video.currentTime = frame / 30;
+        draw();
+      } catch (e) {
+        $("error").textContent = e.message;
+      }
+    }
+    $("seek").oninput = () => {
+      playing = false;
+      video.pause();
+      $("play").textContent = "Reproduzir";
+      show(+$("seek").value);
+    };
+    $("prev").onclick = () => show(frame - 1);
+    $("next").onclick = () => show(frame + 1);
+    for (const id of ["heads", "features", "flow"]) $(id).onchange = draw;
+    $("play").onclick = async () => {
+      playing = !playing;
+      $("play").textContent = playing ? "Pausar" : "Reproduzir";
+      start = performance.now() - (frame / 30) * 1000;
+      if (sourceURL) {
+        if (playing) await video.play();
+        else video.pause();
+      }
+    };
+    $("file").onchange = () => {
+      const f = $("file").files[0];
+      if (!f) return;
+      if (sourceURL) URL.revokeObjectURL(sourceURL);
+      sourceURL = URL.createObjectURL(f);
+      video.src = sourceURL;
+      video.onloadedmetadata = () => {
+        $("fileStatus").textContent =
+          f.name + " · " + video.duration.toFixed(2) + " s";
+        show(frame);
+      };
+    };
+    video.onseeked = draw;
+    let last = -1;
+    function tick(now) {
+      if (playing && index) {
+        const f = Math.floor(
+          (sourceURL ? video.currentTime : (now - start) / 1000) * 30,
+        );
+        if (f >= 15758) {
+          playing = false;
+          video.pause();
+          $("play").textContent = "Reproduzir";
+        }
+        if (f !== last) {
+          last = f;
+          show(f, false);
+        }
+      }
+      requestAnimationFrame(tick);
+    }
+    requestAnimationFrame(tick);
+    try {
+      [index, review] = await Promise.all([
+        json("tracking/full-index.json"),
+        json("tracking/reviewed-first-minute.json"),
+      ]);
+      await show(0);
+    } catch (e) {
+      $("error").textContent = e.message;
+    }
+  </script>
+</html>

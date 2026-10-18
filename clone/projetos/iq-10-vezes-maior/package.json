@@ -1,0 +1,17 @@
+{
+  "name": "iq-10-vezes-maior-clone",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "serve": "node scripts/serve.mjs",
+    "audit": "node scripts/render-preview.mjs audit",
+    "export": "node scripts/export.mjs"
+  },
+  "devDependencies": {
+    "playwright": "1.56.1"
+  },
+  "engines": {
+    "node": ">=22"
+  }
+}

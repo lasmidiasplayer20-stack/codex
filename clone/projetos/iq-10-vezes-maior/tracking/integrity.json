@@ -1,0 +1,9 @@
+{
+  "passed": true,
+  "frames": 15759,
+  "allFramesContiguous": true,
+  "takes": 355,
+  "parts": 7,
+  "bytes": 61029543,
+  "lossless": "Original per-take gzip bytes preserved; SHA-256 indexed for each member and archive."
+}

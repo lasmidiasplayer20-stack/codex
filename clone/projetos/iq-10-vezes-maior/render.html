@@ -1,0 +1,35 @@
+<!doctype html>
+<html>
+  <meta charset="utf-8" /><title>Render 3D determinístico</title
+  ><style>
+    html,
+    body {
+      margin: 0;
+      background: #111;
+      overflow: hidden;
+    }
+  </style>
+  <body>
+    <script src="vendor/three.min.js"></script>
+    <script src="src/materials.js"></script>
+    <script src="src/reference-fit.js"></script>
+    <script src="src/timeline.js"></script>
+    <script src="src/staging.js"></script>
+    <script src="src/compositor.js"></script>
+    <script src="src/scene.js"></script>
+    <script>
+      (async () => {
+        const width = +(
+          new URLSearchParams(location.search).get("width") || 1280
+        );
+        window.film = CloneFilm.create({ width, height: (width * 9) / 16 });
+        const rows = await (
+          await fetch("tracking/calibration-first-minute.json")
+        ).json();
+        film.useTracking(rows);
+        film.frame(0);
+        window.ready = true;
+      })();
+    </script>
+  </body>
+</html>

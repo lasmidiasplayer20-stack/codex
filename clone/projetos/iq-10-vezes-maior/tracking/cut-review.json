@@ -1,0 +1,3165 @@
+{
+  "frames": 15759,
+  "allFramesProcessed": true,
+  "candidates": [
+    {
+      "frame": 122,
+      "time": 4.066667,
+      "motionCompensatedDifference": 37.558,
+      "rawDifference": 37.558,
+      "confirmed": false
+    },
+    {
+      "frame": 158,
+      "time": 5.266667,
+      "motionCompensatedDifference": 23.976,
+      "rawDifference": 23.976,
+      "confirmed": false
+    },
+    {
+      "frame": 201,
+      "time": 6.7,
+      "motionCompensatedDifference": 60.187,
+      "rawDifference": 60.187,
+      "confirmed": false
+    },
+    {
+      "frame": 240,
+      "time": 8.0,
+      "motionCompensatedDifference": 11.897,
+      "rawDifference": 11.897,
+      "confirmed": false
+    },
+    {
+      "frame": 380,
+      "time": 12.666667,
+      "motionCompensatedDifference": 18.938,
+      "rawDifference": 18.938,
+      "confirmed": false
+    },
+    {
+      "frame": 450,
+      "time": 15.0,
+      "motionCompensatedDifference": 14.84,
+      "rawDifference": 14.84,
+      "confirmed": false
+    },
+    {
+      "frame": 540,
+      "time": 18.0,
+      "motionCompensatedDifference": 47.469,
+      "rawDifference": 47.469,
+      "confirmed": false
+    },
+    {
+      "frame": 563,
+      "time": 18.766667,
+      "motionCompensatedDifference": 50.223,
+      "rawDifference": 50.223,
+      "confirmed": false
+    },
+    {
+      "frame": 600,
+      "time": 20.0,
+      "motionCompensatedDifference": 17.955,
+      "rawDifference": 30.669,
+      "confirmed": false
+    },
+    {
+      "frame": 660,
+      "time": 22.0,
+      "motionCompensatedDifference": 68.37,
+      "rawDifference": 68.37,
+      "confirmed": false
+    },
+    {
+      "frame": 723,
+      "time": 24.1,
+      "motionCompensatedDifference": 9.094,
+      "rawDifference": 8.957,
+      "confirmed": false
+    },
+    {
+      "frame": 780,
+      "time": 26.0,
+      "motionCompensatedDifference": 37.466,
+      "rawDifference": 37.466,
+      "confirmed": false
+    },
+    {
+      "frame": 840,
+      "time": 28.0,
+      "motionCompensatedDifference": 60.58,
+      "rawDifference": 60.58,
+      "confirmed": false
+    },
+    {
+      "frame": 893,
+      "time": 29.766667,
+      "motionCompensatedDifference": 12.975,
+      "rawDifference": 13.059,
+      "confirmed": false
+    },
+    {
+      "frame": 930,
+      "time": 31.0,
+      "motionCompensatedDifference": 36.099,
+      "rawDifference": 36.099,
+      "confirmed": false
+    },
+    {
+      "frame": 1020,
+      "time": 34.0,
+      "motionCompensatedDifference": 48.353,
+      "rawDifference": 48.353,
+      "confirmed": false
+    },
+    {
+      "frame": 1066,
+      "time": 35.533333,
+      "motionCompensatedDifference": 17.425,
+      "rawDifference": 19.824,
+      "confirmed": false
+    },
+    {
+      "frame": 1095,
+      "time": 36.5,
+      "motionCompensatedDifference": 42.613,
+      "rawDifference": 42.613,
+      "confirmed": false
+    },
+    {
+      "frame": 1107,
+      "time": 36.9,
+      "motionCompensatedDifference": 89.829,
+      "rawDifference": 89.829,
+      "confirmed": false
+    },
+    {
+      "frame": 1140,
+      "time": 38.0,
+      "motionCompensatedDifference": 42.469,
+      "rawDifference": 42.469,
+      "confirmed": false
+    },
+    {
+      "frame": 1150,
+      "time": 38.333333,
+      "motionCompensatedDifference": 13.459,
+      "rawDifference": 15.297,
+      "confirmed": false
+    },
+    {
+      "frame": 1163,
+      "time": 38.766667,
+      "motionCompensatedDifference": 65.048,
+      "rawDifference": 65.048,
+      "confirmed": false
+    },
+    {
+      "frame": 1181,
+      "time": 39.366667,
+      "motionCompensatedDifference": 69.022,
+      "rawDifference": 69.022,
+      "confirmed": false
+    },
+    {
+      "frame": 1200,
+      "time": 40.0,
+      "motionCompensatedDifference": 42.014,
+      "rawDifference": 42.014,
+      "confirmed": false
+    },
+    {
+      "frame": 1226,
+      "time": 40.866667,
+      "motionCompensatedDifference": 45.862,
+      "rawDifference": 45.862,
+      "confirmed": false
+    },
+    {
+      "frame": 1245,
+      "time": 41.5,
+      "motionCompensatedDifference": 40.237,
+      "rawDifference": 40.237,
+      "confirmed": false
+    },
+    {
+      "frame": 1257,
+      "time": 41.9,
+      "motionCompensatedDifference": 180.877,
+      "rawDifference": 180.877,
+      "confirmed": false
+    },
+    {
+      "frame": 1306,
+      "time": 43.533333,
+      "motionCompensatedDifference": 12.376,
+      "rawDifference": 12.376,
+      "confirmed": false
+    },
+    {
+      "frame": 1319,
+      "time": 43.966667,
+      "motionCompensatedDifference": 53.328,
+      "rawDifference": 41.706,
+      "confirmed": false
+    },
+    {
+      "frame": 1329,
+      "time": 44.3,
+      "motionCompensatedDifference": 56.682,
+      "rawDifference": 56.682,
+      "confirmed": false
+    },
+    {
+      "frame": 1338,
+      "time": 44.6,
+      "motionCompensatedDifference": 44.806,
+      "rawDifference": 44.806,
+      "confirmed": false
+    },
+    {
+      "frame": 1380,
+      "time": 46.0,
+      "motionCompensatedDifference": 30.317,
+      "rawDifference": 30.317,
+      "confirmed": false
+    },
+    {
+      "frame": 1470,
+      "time": 49.0,
+      "motionCompensatedDifference": 37.093,
+      "rawDifference": 37.093,
+      "confirmed": false
+    },
+    {
+      "frame": 1560,
+      "time": 52.0,
+      "motionCompensatedDifference": 47.41,
+      "rawDifference": 47.41,
+      "confirmed": false
+    },
+    {
+      "frame": 1605,
+      "time": 53.5,
+      "motionCompensatedDifference": 52.575,
+      "rawDifference": 52.575,
+      "confirmed": false
+    },
+    {
+      "frame": 1653,
+      "time": 55.1,
+      "motionCompensatedDifference": 24.804,
+      "rawDifference": 24.804,
+      "confirmed": false
+    },
+    {
+      "frame": 1680,
+      "time": 56.0,
+      "motionCompensatedDifference": 51.075,
+      "rawDifference": 51.075,
+      "confirmed": false
+    },
+    {
+      "frame": 1740,
+      "time": 58.0,
+      "motionCompensatedDifference": 134.673,
+      "rawDifference": 134.673,
+      "confirmed": false
+    },
+    {
+      "frame": 1767,
+      "time": 58.9,
+      "motionCompensatedDifference": 54.993,
+      "rawDifference": 54.993,
+      "confirmed": false
+    },
+    {
+      "frame": 1794,
+      "time": 59.8,
+      "motionCompensatedDifference": 73.359,
+      "rawDifference": 73.359,
+      "confirmed": false
+    },
+    {
+      "frame": 1822,
+      "time": 60.733333,
+      "motionCompensatedDifference": 10.772,
+      "rawDifference": 11.017,
+      "confirmed": false
+    },
+    {
+      "frame": 1830,
+      "time": 61.0,
+      "motionCompensatedDifference": 19.295,
+      "rawDifference": 19.295,
+      "confirmed": false
+    },
+    {
+      "frame": 1925,
+      "time": 64.166667,
+      "motionCompensatedDifference": 18.927,
+      "rawDifference": 18.965,
+      "confirmed": false
+    },
+    {
+      "frame": 1969,
+      "time": 65.633333,
+      "motionCompensatedDifference": 67.974,
+      "rawDifference": 67.974,
+      "confirmed": false
+    },
+    {
+      "frame": 1980,
+      "time": 66.0,
+      "motionCompensatedDifference": 70.893,
+      "rawDifference": 70.893,
+      "confirmed": false
+    },
+    {
+      "frame": 1996,
+      "time": 66.533333,
+      "motionCompensatedDifference": 19.272,
+      "rawDifference": 34.775,
+      "confirmed": false
+    },
+    {
+      "frame": 2023,
+      "time": 67.433333,
+      "motionCompensatedDifference": 10.565,
+      "rawDifference": 22.309,
+      "confirmed": false
+    },
+    {
+      "frame": 2040,
+      "time": 68.0,
+      "motionCompensatedDifference": 37.632,
+      "rawDifference": 37.632,
+      "confirmed": false
+    },
+    {
+      "frame": 2130,
+      "time": 71.0,
+      "motionCompensatedDifference": 46.669,
+      "rawDifference": 46.669,
+      "confirmed": false
+    },
+    {
+      "frame": 2153,
+      "time": 71.766667,
+      "motionCompensatedDifference": 9.717,
+      "rawDifference": 9.677,
+      "confirmed": false
+    },
+    {
+      "frame": 2247,
+      "time": 74.9,
+      "motionCompensatedDifference": 9.265,
+      "rawDifference": 9.417,
+      "confirmed": false
+    },
+    {
+      "frame": 2268,
+      "time": 75.6,
+      "motionCompensatedDifference": 31.357,
+      "rawDifference": 31.357,
+      "confirmed": false
+    },
+    {
+      "frame": 2310,
+      "time": 77.0,
+      "motionCompensatedDifference": 14.506,
+      "rawDifference": 14.506,
+      "confirmed": false
+    },
+    {
+      "frame": 2370,
+      "time": 79.0,
+      "motionCompensatedDifference": 38.728,
+      "rawDifference": 38.728,
+      "confirmed": false
+    },
+    {
+      "frame": 2394,
+      "time": 79.8,
+      "motionCompensatedDifference": 43.465,
+      "rawDifference": 43.465,
+      "confirmed": false
+    },
+    {
+      "frame": 2435,
+      "time": 81.166667,
+      "motionCompensatedDifference": 22.782,
+      "rawDifference": 22.782,
+      "confirmed": false
+    },
+    {
+      "frame": 2460,
+      "time": 82.0,
+      "motionCompensatedDifference": 43.054,
+      "rawDifference": 43.054,
+      "confirmed": false
+    },
+    {
+      "frame": 2546,
+      "time": 84.866667,
+      "motionCompensatedDifference": 52.934,
+      "rawDifference": 52.934,
+      "confirmed": false
+    },
+    {
+      "frame": 2603,
+      "time": 86.766667,
+      "motionCompensatedDifference": 68.9,
+      "rawDifference": 68.9,
+      "confirmed": false
+    },
+    {
+      "frame": 2718,
+      "time": 90.6,
+      "motionCompensatedDifference": 54.242,
+      "rawDifference": 54.242,
+      "confirmed": false
+    },
+    {
+      "frame": 2739,
+      "time": 91.3,
+      "motionCompensatedDifference": 35.479,
+      "rawDifference": 35.479,
+      "confirmed": false
+    },
+    {
+      "frame": 2803,
+      "time": 93.433333,
+      "motionCompensatedDifference": 44.02,
+      "rawDifference": 44.02,
+      "confirmed": false
+    },
+    {
+      "frame": 2860,
+      "time": 95.333333,
+      "motionCompensatedDifference": 44.376,
+      "rawDifference": 44.376,
+      "confirmed": false
+    },
+    {
+      "frame": 2918,
+      "time": 97.266667,
+      "motionCompensatedDifference": 49.046,
+      "rawDifference": 49.046,
+      "confirmed": false
+    },
+    {
+      "frame": 2975,
+      "time": 99.166667,
+      "motionCompensatedDifference": 56.261,
+      "rawDifference": 56.261,
+      "confirmed": false
+    },
+    {
+      "frame": 3006,
+      "time": 100.2,
+      "motionCompensatedDifference": 12.586,
+      "rawDifference": 12.722,
+      "confirmed": false
+    },
+    {
+      "frame": 3038,
+      "time": 101.266667,
+      "motionCompensatedDifference": 37.25,
+      "rawDifference": 37.25,
+      "confirmed": false
+    },
+    {
+      "frame": 3045,
+      "time": 101.5,
+      "motionCompensatedDifference": 9.18,
+      "rawDifference": 9.17,
+      "confirmed": false
+    },
+    {
+      "frame": 3051,
+      "time": 101.7,
+      "motionCompensatedDifference": 10.284,
+      "rawDifference": 10.214,
+      "confirmed": false
+    },
+    {
+      "frame": 3063,
+      "time": 102.1,
+      "motionCompensatedDifference": 69.976,
+      "rawDifference": 69.976,
+      "confirmed": false
+    },
+    {
+      "frame": 3075,
+      "time": 102.5,
+      "motionCompensatedDifference": 42.563,
+      "rawDifference": 42.563,
+      "confirmed": false
+    },
+    {
+      "frame": 3121,
+      "time": 104.033333,
+      "motionCompensatedDifference": 32.441,
+      "rawDifference": 32.441,
+      "confirmed": false
+    },
+    {
+      "frame": 3141,
+      "time": 104.7,
+      "motionCompensatedDifference": 41.18,
+      "rawDifference": 41.18,
+      "confirmed": false
+    },
+    {
+      "frame": 3160,
+      "time": 105.333333,
+      "motionCompensatedDifference": 85.405,
+      "rawDifference": 85.405,
+      "confirmed": false
+    },
+    {
+      "frame": 3174,
+      "time": 105.8,
+      "motionCompensatedDifference": 36.202,
+      "rawDifference": 36.202,
+      "confirmed": false
+    },
+    {
+      "frame": 3201,
+      "time": 106.7,
+      "motionCompensatedDifference": 14.842,
+      "rawDifference": 14.842,
+      "confirmed": false
+    },
+    {
+      "frame": 3215,
+      "time": 107.166667,
+      "motionCompensatedDifference": 62.777,
+      "rawDifference": 62.777,
+      "confirmed": false
+    },
+    {
+      "frame": 3234,
+      "time": 107.8,
+      "motionCompensatedDifference": 86.009,
+      "rawDifference": 86.009,
+      "confirmed": false
+    },
+    {
+      "frame": 3244,
+      "time": 108.133333,
+      "motionCompensatedDifference": 86.031,
+      "rawDifference": 86.031,
+      "confirmed": false
+    },
+    {
+      "frame": 3254,
+      "time": 108.466667,
+      "motionCompensatedDifference": 86.205,
+      "rawDifference": 86.205,
+      "confirmed": false
+    },
+    {
+      "frame": 3264,
+      "time": 108.8,
+      "motionCompensatedDifference": 104.302,
+      "rawDifference": 104.302,
+      "confirmed": false
+    },
+    {
+      "frame": 3296,
+      "time": 109.866667,
+      "motionCompensatedDifference": 17.615,
+      "rawDifference": 17.615,
+      "confirmed": false
+    },
+    {
+      "frame": 3320,
+      "time": 110.666667,
+      "motionCompensatedDifference": 60.131,
+      "rawDifference": 60.131,
+      "confirmed": false
+    },
+    {
+      "frame": 3337,
+      "time": 111.233333,
+      "motionCompensatedDifference": 54.744,
+      "rawDifference": 54.744,
+      "confirmed": false
+    },
+    {
+      "frame": 3354,
+      "time": 111.8,
+      "motionCompensatedDifference": 52.171,
+      "rawDifference": 52.171,
+      "confirmed": false
+    },
+    {
+      "frame": 3371,
+      "time": 112.366667,
+      "motionCompensatedDifference": 52.815,
+      "rawDifference": 52.815,
+      "confirmed": false
+    },
+    {
+      "frame": 3400,
+      "time": 113.333333,
+      "motionCompensatedDifference": 32.619,
+      "rawDifference": 32.619,
+      "confirmed": false
+    },
+    {
+      "frame": 3414,
+      "time": 113.8,
+      "motionCompensatedDifference": 52.943,
+      "rawDifference": 52.943,
+      "confirmed": false
+    },
+    {
+      "frame": 3525,
+      "time": 117.5,
+      "motionCompensatedDifference": 36.429,
+      "rawDifference": 36.429,
+      "confirmed": false
+    },
+    {
+      "frame": 3569,
+      "time": 118.966667,
+      "motionCompensatedDifference": 62.867,
+      "rawDifference": 62.867,
+      "confirmed": false
+    },
+    {
+      "frame": 3608,
+      "time": 120.266667,
+      "motionCompensatedDifference": 108.374,
+      "rawDifference": 108.374,
+      "confirmed": false
+    },
+    {
+      "frame": 3615,
+      "time": 120.5,
+      "motionCompensatedDifference": 55.933,
+      "rawDifference": 55.933,
+      "confirmed": false
+    },
+    {
+      "frame": 3645,
+      "time": 121.5,
+      "motionCompensatedDifference": 23.297,
+      "rawDifference": 24.602,
+      "confirmed": false
+    },
+    {
+      "frame": 3672,
+      "time": 122.4,
+      "motionCompensatedDifference": 78.18,
+      "rawDifference": 78.18,
+      "confirmed": false
+    },
+    {
+      "frame": 3705,
+      "time": 123.5,
+      "motionCompensatedDifference": 44.77,
+      "rawDifference": 44.77,
+      "confirmed": false
+    },
+    {
+      "frame": 3712,
+      "time": 123.733333,
+      "motionCompensatedDifference": 29.571,
+      "rawDifference": 18.766,
+      "confirmed": false
+    },
+    {
+      "frame": 3718,
+      "time": 123.933333,
+      "motionCompensatedDifference": 66.472,
+      "rawDifference": 66.472,
+      "confirmed": false
+    },
+    {
+      "frame": 3735,
+      "time": 124.5,
+      "motionCompensatedDifference": 42.686,
+      "rawDifference": 42.686,
+      "confirmed": false
+    },
+    {
+      "frame": 3743,
+      "time": 124.766667,
+      "motionCompensatedDifference": 13.159,
+      "rawDifference": 13.159,
+      "confirmed": false
+    },
+    {
+      "frame": 3778,
+      "time": 125.933333,
+      "motionCompensatedDifference": 11.059,
+      "rawDifference": 13.682,
+      "confirmed": false
+    },
+    {
+      "frame": 3792,
+      "time": 126.4,
+      "motionCompensatedDifference": 20.056,
+      "rawDifference": 19.931,
+      "confirmed": false
+    },
+    {
+      "frame": 3798,
+      "time": 126.6,
+      "motionCompensatedDifference": 49.674,
+      "rawDifference": 49.674,
+      "confirmed": false
+    },
+    {
+      "frame": 3822,
+      "time": 127.4,
+      "motionCompensatedDifference": 84.33,
+      "rawDifference": 84.33,
+      "confirmed": false
+    },
+    {
+      "frame": 3855,
+      "time": 128.5,
+      "motionCompensatedDifference": 77.499,
+      "rawDifference": 77.499,
+      "confirmed": false
+    },
+    {
+      "frame": 3879,
+      "time": 129.3,
+      "motionCompensatedDifference": 82.184,
+      "rawDifference": 82.184,
+      "confirmed": false
+    },
+    {
+      "frame": 3888,
+      "time": 129.6,
+      "motionCompensatedDifference": 82.556,
+      "rawDifference": 82.556,
+      "confirmed": false
+    },
+    {
+      "frame": 3897,
+      "time": 129.9,
+      "motionCompensatedDifference": 16.926,
+      "rawDifference": 16.926,
+      "confirmed": false
+    },
+    {
+      "frame": 3912,
+      "time": 130.4,
+      "motionCompensatedDifference": 60.113,
+      "rawDifference": 60.113,
+      "confirmed": false
+    },
+    {
+      "frame": 3945,
+      "time": 131.5,
+      "motionCompensatedDifference": 88.988,
+      "rawDifference": 88.988,
+      "confirmed": false
+    },
+    {
+      "frame": 4005,
+      "time": 133.5,
+      "motionCompensatedDifference": 81.914,
+      "rawDifference": 81.914,
+      "confirmed": false
+    },
+    {
+      "frame": 4016,
+      "time": 133.866667,
+      "motionCompensatedDifference": 35.881,
+      "rawDifference": 24.334,
+      "confirmed": false
+    },
+    {
+      "frame": 4025,
+      "time": 134.166667,
+      "motionCompensatedDifference": 18.382,
+      "rawDifference": 12.69,
+      "confirmed": false
+    },
+    {
+      "frame": 4035,
+      "time": 134.5,
+      "motionCompensatedDifference": 86.372,
+      "rawDifference": 86.372,
+      "confirmed": false
+    },
+    {
+      "frame": 4065,
+      "time": 135.5,
+      "motionCompensatedDifference": 77.807,
+      "rawDifference": 77.807,
+      "confirmed": false
+    },
+    {
+      "frame": 4125,
+      "time": 137.5,
+      "motionCompensatedDifference": 71.219,
+      "rawDifference": 71.219,
+      "confirmed": false
+    },
+    {
+      "frame": 4146,
+      "time": 138.2,
+      "motionCompensatedDifference": 128.992,
+      "rawDifference": 128.992,
+      "confirmed": false
+    },
+    {
+      "frame": 4159,
+      "time": 138.633333,
+      "motionCompensatedDifference": 61.121,
+      "rawDifference": 61.121,
+      "confirmed": false
+    },
+    {
+      "frame": 4177,
+      "time": 139.233333,
+      "motionCompensatedDifference": 69.636,
+      "rawDifference": 69.636,
+      "confirmed": false
+    },
+    {
+      "frame": 4207,
+      "time": 140.233333,
+      "motionCompensatedDifference": 77.817,
+      "rawDifference": 77.817,
+      "confirmed": false
+    },
+    {
+      "frame": 4231,
+      "time": 141.033333,
+      "motionCompensatedDifference": 95.72,
+      "rawDifference": 95.72,
+      "confirmed": false
+    },
+    {
+      "frame": 4252,
+      "time": 141.733333,
+      "motionCompensatedDifference": 50.775,
+      "rawDifference": 50.443,
+      "confirmed": false
+    },
+    {
+      "frame": 4285,
+      "time": 142.833333,
+      "motionCompensatedDifference": 146.366,
+      "rawDifference": 146.366,
+      "confirmed": false
+    },
+    {
+      "frame": 4296,
+      "time": 143.2,
+      "motionCompensatedDifference": 9.319,
+      "rawDifference": 11.707,
+      "confirmed": false
+    },
+    {
+      "frame": 4305,
+      "time": 143.5,
+      "motionCompensatedDifference": 9.697,
+      "rawDifference": 12.874,
+      "confirmed": false
+    },
+    {
+      "frame": 4315,
+      "time": 143.833333,
+      "motionCompensatedDifference": 72.885,
+      "rawDifference": 72.885,
+      "confirmed": false
+    },
+    {
+      "frame": 4339,
+      "time": 144.633333,
+      "motionCompensatedDifference": 82.381,
+      "rawDifference": 82.381,
+      "confirmed": false
+    },
+    {
+      "frame": 4460,
+      "time": 148.666667,
+      "motionCompensatedDifference": 72.791,
+      "rawDifference": 72.791,
+      "confirmed": false
+    },
+    {
+      "frame": 4472,
+      "time": 149.066667,
+      "motionCompensatedDifference": 33.284,
+      "rawDifference": 33.284,
+      "confirmed": false
+    },
+    {
+      "frame": 4480,
+      "time": 149.333333,
+      "motionCompensatedDifference": 31.99,
+      "rawDifference": 31.99,
+      "confirmed": false
+    },
+    {
+      "frame": 4487,
+      "time": 149.566667,
+      "motionCompensatedDifference": 77.36,
+      "rawDifference": 77.36,
+      "confirmed": false
+    },
+    {
+      "frame": 4552,
+      "time": 151.733333,
+      "motionCompensatedDifference": 72.776,
+      "rawDifference": 72.776,
+      "confirmed": false
+    },
+    {
+      "frame": 4586,
+      "time": 152.866667,
+      "motionCompensatedDifference": 19.65,
+      "rawDifference": 36.826,
+      "confirmed": false
+    },
+    {
+      "frame": 4594,
+      "time": 153.133333,
+      "motionCompensatedDifference": 63.558,
+      "rawDifference": 63.558,
+      "confirmed": false
+    },
+    {
+      "frame": 4601,
+      "time": 153.366667,
+      "motionCompensatedDifference": 28.453,
+      "rawDifference": 28.453,
+      "confirmed": false
+    },
+    {
+      "frame": 4651,
+      "time": 155.033333,
+      "motionCompensatedDifference": 77.665,
+      "rawDifference": 77.665,
+      "confirmed": false
+    },
+    {
+      "frame": 4672,
+      "time": 155.733333,
+      "motionCompensatedDifference": 73.129,
+      "rawDifference": 73.129,
+      "confirmed": false
+    },
+    {
+      "frame": 4702,
+      "time": 156.733333,
+      "motionCompensatedDifference": 129.139,
+      "rawDifference": 129.139,
+      "confirmed": false
+    },
+    {
+      "frame": 4790,
+      "time": 159.666667,
+      "motionCompensatedDifference": 36.901,
+      "rawDifference": 36.901,
+      "confirmed": false
+    },
+    {
+      "frame": 4806,
+      "time": 160.2,
+      "motionCompensatedDifference": 21.797,
+      "rawDifference": 21.797,
+      "confirmed": false
+    },
+    {
+      "frame": 4822,
+      "time": 160.733333,
+      "motionCompensatedDifference": 56.746,
+      "rawDifference": 56.746,
+      "confirmed": false
+    },
+    {
+      "frame": 4860,
+      "time": 162.0,
+      "motionCompensatedDifference": 30.241,
+      "rawDifference": 30.241,
+      "confirmed": false
+    },
+    {
+      "frame": 4910,
+      "time": 163.666667,
+      "motionCompensatedDifference": 34.368,
+      "rawDifference": 34.368,
+      "confirmed": false
+    },
+    {
+      "frame": 5002,
+      "time": 166.733333,
+      "motionCompensatedDifference": 62.464,
+      "rawDifference": 62.464,
+      "confirmed": false
+    },
+    {
+      "frame": 5032,
+      "time": 167.733333,
+      "motionCompensatedDifference": 41.941,
+      "rawDifference": 41.941,
+      "confirmed": false
+    },
+    {
+      "frame": 5062,
+      "time": 168.733333,
+      "motionCompensatedDifference": 62.941,
+      "rawDifference": 62.941,
+      "confirmed": false
+    },
+    {
+      "frame": 5092,
+      "time": 169.733333,
+      "motionCompensatedDifference": 59.41,
+      "rawDifference": 59.41,
+      "confirmed": false
+    },
+    {
+      "frame": 5122,
+      "time": 170.733333,
+      "motionCompensatedDifference": 41.891,
+      "rawDifference": 41.891,
+      "confirmed": false
+    },
+    {
+      "frame": 5155,
+      "time": 171.833333,
+      "motionCompensatedDifference": 78.31,
+      "rawDifference": 78.31,
+      "confirmed": false
+    },
+    {
+      "frame": 5165,
+      "time": 172.166667,
+      "motionCompensatedDifference": 73.989,
+      "rawDifference": 73.989,
+      "confirmed": false
+    },
+    {
+      "frame": 5176,
+      "time": 172.533333,
+      "motionCompensatedDifference": 45.022,
+      "rawDifference": 45.022,
+      "confirmed": false
+    },
+    {
+      "frame": 5186,
+      "time": 172.866667,
+      "motionCompensatedDifference": 85.68,
+      "rawDifference": 85.68,
+      "confirmed": false
+    },
+    {
+      "frame": 5214,
+      "time": 173.8,
+      "motionCompensatedDifference": 27.171,
+      "rawDifference": 27.173,
+      "confirmed": false
+    },
+    {
+      "frame": 5304,
+      "time": 176.8,
+      "motionCompensatedDifference": 33.58,
+      "rawDifference": 33.58,
+      "confirmed": false
+    },
+    {
+      "frame": 5378,
+      "time": 179.266667,
+      "motionCompensatedDifference": 36.259,
+      "rawDifference": 36.259,
+      "confirmed": false
+    },
+    {
+      "frame": 5450,
+      "time": 181.666667,
+      "motionCompensatedDifference": 35.636,
+      "rawDifference": 32.975,
+      "confirmed": false
+    },
+    {
+      "frame": 5485,
+      "time": 182.833333,
+      "motionCompensatedDifference": 65.228,
+      "rawDifference": 65.228,
+      "confirmed": false
+    },
+    {
+      "frame": 5575,
+      "time": 185.833333,
+      "motionCompensatedDifference": 60.77,
+      "rawDifference": 60.77,
+      "confirmed": false
+    },
+    {
+      "frame": 5635,
+      "time": 187.833333,
+      "motionCompensatedDifference": 56.624,
+      "rawDifference": 56.624,
+      "confirmed": false
+    },
+    {
+      "frame": 5652,
+      "time": 188.4,
+      "motionCompensatedDifference": 15.557,
+      "rawDifference": 23.819,
+      "confirmed": false
+    },
+    {
+      "frame": 5676,
+      "time": 189.2,
+      "motionCompensatedDifference": 20.617,
+      "rawDifference": 30.423,
+      "confirmed": false
+    },
+    {
+      "frame": 5695,
+      "time": 189.833333,
+      "motionCompensatedDifference": 59.139,
+      "rawDifference": 59.139,
+      "confirmed": false
+    },
+    {
+      "frame": 5730,
+      "time": 191.0,
+      "motionCompensatedDifference": 14.069,
+      "rawDifference": 37.873,
+      "confirmed": false
+    },
+    {
+      "frame": 5736,
+      "time": 191.2,
+      "motionCompensatedDifference": 53.331,
+      "rawDifference": 53.331,
+      "confirmed": false
+    },
+    {
+      "frame": 5756,
+      "time": 191.866667,
+      "motionCompensatedDifference": 18.215,
+      "rawDifference": 18.291,
+      "confirmed": false
+    },
+    {
+      "frame": 5785,
+      "time": 192.833333,
+      "motionCompensatedDifference": 24.43,
+      "rawDifference": 24.43,
+      "confirmed": false
+    },
+    {
+      "frame": 5805,
+      "time": 193.5,
+      "motionCompensatedDifference": 29.092,
+      "rawDifference": 29.092,
+      "confirmed": false
+    },
+    {
+      "frame": 5824,
+      "time": 194.133333,
+      "motionCompensatedDifference": 25.577,
+      "rawDifference": 25.577,
+      "confirmed": false
+    },
+    {
+      "frame": 5845,
+      "time": 194.833333,
+      "motionCompensatedDifference": 31.526,
+      "rawDifference": 31.526,
+      "confirmed": false
+    },
+    {
+      "frame": 5905,
+      "time": 196.833333,
+      "motionCompensatedDifference": 27.65,
+      "rawDifference": 27.65,
+      "confirmed": false
+    },
+    {
+      "frame": 5995,
+      "time": 199.833333,
+      "motionCompensatedDifference": 23.79,
+      "rawDifference": 23.79,
+      "confirmed": false
+    },
+    {
+      "frame": 6055,
+      "time": 201.833333,
+      "motionCompensatedDifference": 34.571,
+      "rawDifference": 34.571,
+      "confirmed": false
+    },
+    {
+      "frame": 6115,
+      "time": 203.833333,
+      "motionCompensatedDifference": 34.345,
+      "rawDifference": 34.345,
+      "confirmed": false
+    },
+    {
+      "frame": 6205,
+      "time": 206.833333,
+      "motionCompensatedDifference": 33.271,
+      "rawDifference": 33.271,
+      "confirmed": false
+    },
+    {
+      "frame": 6355,
+      "time": 211.833333,
+      "motionCompensatedDifference": 28.023,
+      "rawDifference": 28.023,
+      "confirmed": false
+    },
+    {
+      "frame": 6476,
+      "time": 215.866667,
+      "motionCompensatedDifference": 28.095,
+      "rawDifference": 28.095,
+      "confirmed": false
+    },
+    {
+      "frame": 6511,
+      "time": 217.033333,
+      "motionCompensatedDifference": 33.824,
+      "rawDifference": 33.027,
+      "confirmed": false
+    },
+    {
+      "frame": 6517,
+      "time": 217.233333,
+      "motionCompensatedDifference": 36.72,
+      "rawDifference": 36.72,
+      "confirmed": false
+    },
+    {
+      "frame": 6554,
+      "time": 218.466667,
+      "motionCompensatedDifference": 33.688,
+      "rawDifference": 33.664,
+      "confirmed": false
+    },
+    {
+      "frame": 6560,
+      "time": 218.666667,
+      "motionCompensatedDifference": 14.571,
+      "rawDifference": 15.204,
+      "confirmed": false
+    },
+    {
+      "frame": 6582,
+      "time": 219.4,
+      "motionCompensatedDifference": 18.587,
+      "rawDifference": 18.587,
+      "confirmed": false
+    },
+    {
+      "frame": 6612,
+      "time": 220.4,
+      "motionCompensatedDifference": 30.181,
+      "rawDifference": 30.181,
+      "confirmed": false
+    },
+    {
+      "frame": 6632,
+      "time": 221.066667,
+      "motionCompensatedDifference": 28.18,
+      "rawDifference": 28.18,
+      "confirmed": false
+    },
+    {
+      "frame": 6663,
+      "time": 222.1,
+      "motionCompensatedDifference": 68.608,
+      "rawDifference": 68.608,
+      "confirmed": false
+    },
+    {
+      "frame": 6681,
+      "time": 222.7,
+      "motionCompensatedDifference": 86.703,
+      "rawDifference": 86.703,
+      "confirmed": false
+    },
+    {
+      "frame": 6705,
+      "time": 223.5,
+      "motionCompensatedDifference": 104.545,
+      "rawDifference": 104.545,
+      "confirmed": false
+    },
+    {
+      "frame": 6726,
+      "time": 224.2,
+      "motionCompensatedDifference": 46.286,
+      "rawDifference": 46.286,
+      "confirmed": false
+    },
+    {
+      "frame": 6753,
+      "time": 225.1,
+      "motionCompensatedDifference": 112.439,
+      "rawDifference": 112.439,
+      "confirmed": false
+    },
+    {
+      "frame": 6780,
+      "time": 226.0,
+      "motionCompensatedDifference": 73.76,
+      "rawDifference": 73.76,
+      "confirmed": false
+    },
+    {
+      "frame": 6794,
+      "time": 226.466667,
+      "motionCompensatedDifference": 19.181,
+      "rawDifference": 39.432,
+      "confirmed": false
+    },
+    {
+      "frame": 6831,
+      "time": 227.7,
+      "motionCompensatedDifference": 84.085,
+      "rawDifference": 84.085,
+      "confirmed": false
+    },
+    {
+      "frame": 6855,
+      "time": 228.5,
+      "motionCompensatedDifference": 59.774,
+      "rawDifference": 59.774,
+      "confirmed": false
+    },
+    {
+      "frame": 6871,
+      "time": 229.033333,
+      "motionCompensatedDifference": 34.342,
+      "rawDifference": 34.342,
+      "confirmed": false
+    },
+    {
+      "frame": 6940,
+      "time": 231.333333,
+      "motionCompensatedDifference": 32.78,
+      "rawDifference": 32.78,
+      "confirmed": false
+    },
+    {
+      "frame": 6954,
+      "time": 231.8,
+      "motionCompensatedDifference": 35.716,
+      "rawDifference": 35.716,
+      "confirmed": false
+    },
+    {
+      "frame": 7069,
+      "time": 235.633333,
+      "motionCompensatedDifference": 29.62,
+      "rawDifference": 29.62,
+      "confirmed": false
+    },
+    {
+      "frame": 7115,
+      "time": 237.166667,
+      "motionCompensatedDifference": 28.0,
+      "rawDifference": 28.0,
+      "confirmed": false
+    },
+    {
+      "frame": 7122,
+      "time": 237.4,
+      "motionCompensatedDifference": 29.428,
+      "rawDifference": 29.428,
+      "confirmed": false
+    },
+    {
+      "frame": 7188,
+      "time": 239.6,
+      "motionCompensatedDifference": 36.472,
+      "rawDifference": 36.472,
+      "confirmed": false
+    },
+    {
+      "frame": 7197,
+      "time": 239.9,
+      "motionCompensatedDifference": 34.343,
+      "rawDifference": 34.343,
+      "confirmed": false
+    },
+    {
+      "frame": 7214,
+      "time": 240.466667,
+      "motionCompensatedDifference": 52.023,
+      "rawDifference": 52.023,
+      "confirmed": false
+    },
+    {
+      "frame": 7242,
+      "time": 241.4,
+      "motionCompensatedDifference": 28.434,
+      "rawDifference": 28.434,
+      "confirmed": false
+    },
+    {
+      "frame": 7255,
+      "time": 241.833333,
+      "motionCompensatedDifference": 35.634,
+      "rawDifference": 35.634,
+      "confirmed": false
+    },
+    {
+      "frame": 7272,
+      "time": 242.4,
+      "motionCompensatedDifference": 29.74,
+      "rawDifference": 29.74,
+      "confirmed": false
+    },
+    {
+      "frame": 7452,
+      "time": 248.4,
+      "motionCompensatedDifference": 33.088,
+      "rawDifference": 33.088,
+      "confirmed": false
+    },
+    {
+      "frame": 7468,
+      "time": 248.933333,
+      "motionCompensatedDifference": 34.198,
+      "rawDifference": 34.198,
+      "confirmed": false
+    },
+    {
+      "frame": 7485,
+      "time": 249.5,
+      "motionCompensatedDifference": 40.22,
+      "rawDifference": 40.22,
+      "confirmed": false
+    },
+    {
+      "frame": 7498,
+      "time": 249.933333,
+      "motionCompensatedDifference": 37.264,
+      "rawDifference": 37.264,
+      "confirmed": false
+    },
+    {
+      "frame": 7512,
+      "time": 250.4,
+      "motionCompensatedDifference": 34.815,
+      "rawDifference": 34.815,
+      "confirmed": false
+    },
+    {
+      "frame": 7641,
+      "time": 254.7,
+      "motionCompensatedDifference": 30.435,
+      "rawDifference": 30.435,
+      "confirmed": false
+    },
+    {
+      "frame": 7709,
+      "time": 256.966667,
+      "motionCompensatedDifference": 28.248,
+      "rawDifference": 28.248,
+      "confirmed": false
+    },
+    {
+      "frame": 7725,
+      "time": 257.5,
+      "motionCompensatedDifference": 15.176,
+      "rawDifference": 23.7,
+      "confirmed": false
+    },
+    {
+      "frame": 7741,
+      "time": 258.033333,
+      "motionCompensatedDifference": 26.365,
+      "rawDifference": 28.259,
+      "confirmed": false
+    },
+    {
+      "frame": 7756,
+      "time": 258.533333,
+      "motionCompensatedDifference": 24.077,
+      "rawDifference": 28.337,
+      "confirmed": false
+    },
+    {
+      "frame": 7767,
+      "time": 258.9,
+      "motionCompensatedDifference": 11.189,
+      "rawDifference": 29.689,
+      "confirmed": false
+    },
+    {
+      "frame": 7901,
+      "time": 263.366667,
+      "motionCompensatedDifference": 33.636,
+      "rawDifference": 33.636,
+      "confirmed": false
+    },
+    {
+      "frame": 7962,
+      "time": 265.4,
+      "motionCompensatedDifference": 33.094,
+      "rawDifference": 33.094,
+      "confirmed": false
+    },
+    {
+      "frame": 7977,
+      "time": 265.9,
+      "motionCompensatedDifference": 48.066,
+      "rawDifference": 48.066,
+      "confirmed": false
+    },
+    {
+      "frame": 7992,
+      "time": 266.4,
+      "motionCompensatedDifference": 38.403,
+      "rawDifference": 38.403,
+      "confirmed": false
+    },
+    {
+      "frame": 8007,
+      "time": 266.9,
+      "motionCompensatedDifference": 34.348,
+      "rawDifference": 34.348,
+      "confirmed": false
+    },
+    {
+      "frame": 8022,
+      "time": 267.4,
+      "motionCompensatedDifference": 31.203,
+      "rawDifference": 31.203,
+      "confirmed": false
+    },
+    {
+      "frame": 8037,
+      "time": 267.9,
+      "motionCompensatedDifference": 31.814,
+      "rawDifference": 31.814,
+      "confirmed": false
+    },
+    {
+      "frame": 8087,
+      "time": 269.566667,
+      "motionCompensatedDifference": 66.507,
+      "rawDifference": 66.507,
+      "confirmed": false
+    },
+    {
+      "frame": 8100,
+      "time": 270.0,
+      "motionCompensatedDifference": 12.46,
+      "rawDifference": 12.586,
+      "confirmed": false
+    },
+    {
+      "frame": 8112,
+      "time": 270.4,
+      "motionCompensatedDifference": 33.086,
+      "rawDifference": 33.086,
+      "confirmed": false
+    },
+    {
+      "frame": 8202,
+      "time": 273.4,
+      "motionCompensatedDifference": 24.221,
+      "rawDifference": 27.952,
+      "confirmed": false
+    },
+    {
+      "frame": 8277,
+      "time": 275.9,
+      "motionCompensatedDifference": 30.996,
+      "rawDifference": 30.996,
+      "confirmed": false
+    },
+    {
+      "frame": 8301,
+      "time": 276.7,
+      "motionCompensatedDifference": 35.253,
+      "rawDifference": 35.253,
+      "confirmed": false
+    },
+    {
+      "frame": 8339,
+      "time": 277.966667,
+      "motionCompensatedDifference": 18.051,
+      "rawDifference": 18.017,
+      "confirmed": false
+    },
+    {
+      "frame": 8347,
+      "time": 278.233333,
+      "motionCompensatedDifference": 69.248,
+      "rawDifference": 69.248,
+      "confirmed": false
+    },
+    {
+      "frame": 8368,
+      "time": 278.933333,
+      "motionCompensatedDifference": 52.664,
+      "rawDifference": 52.664,
+      "confirmed": false
+    },
+    {
+      "frame": 8384,
+      "time": 279.466667,
+      "motionCompensatedDifference": 100.739,
+      "rawDifference": 100.739,
+      "confirmed": false
+    },
+    {
+      "frame": 8397,
+      "time": 279.9,
+      "motionCompensatedDifference": 97.442,
+      "rawDifference": 97.442,
+      "confirmed": false
+    },
+    {
+      "frame": 8414,
+      "time": 280.466667,
+      "motionCompensatedDifference": 32.103,
+      "rawDifference": 32.103,
+      "confirmed": false
+    },
+    {
+      "frame": 8428,
+      "time": 280.933333,
+      "motionCompensatedDifference": 76.891,
+      "rawDifference": 76.891,
+      "confirmed": false
+    },
+    {
+      "frame": 8458,
+      "time": 281.933333,
+      "motionCompensatedDifference": 81.628,
+      "rawDifference": 81.628,
+      "confirmed": false
+    },
+    {
+      "frame": 8464,
+      "time": 282.133333,
+      "motionCompensatedDifference": 11.973,
+      "rawDifference": 12.531,
+      "confirmed": false
+    },
+    {
+      "frame": 8480,
+      "time": 282.666667,
+      "motionCompensatedDifference": 34.325,
+      "rawDifference": 34.325,
+      "confirmed": false
+    },
+    {
+      "frame": 8507,
+      "time": 283.566667,
+      "motionCompensatedDifference": 42.93,
+      "rawDifference": 42.93,
+      "confirmed": false
+    },
+    {
+      "frame": 8535,
+      "time": 284.5,
+      "motionCompensatedDifference": 52.672,
+      "rawDifference": 52.672,
+      "confirmed": false
+    },
+    {
+      "frame": 8563,
+      "time": 285.433333,
+      "motionCompensatedDifference": 40.287,
+      "rawDifference": 40.287,
+      "confirmed": false
+    },
+    {
+      "frame": 8604,
+      "time": 286.8,
+      "motionCompensatedDifference": 29.006,
+      "rawDifference": 29.006,
+      "confirmed": false
+    },
+    {
+      "frame": 8641,
+      "time": 288.033333,
+      "motionCompensatedDifference": 62.403,
+      "rawDifference": 62.403,
+      "confirmed": false
+    },
+    {
+      "frame": 8731,
+      "time": 291.033333,
+      "motionCompensatedDifference": 86.254,
+      "rawDifference": 86.254,
+      "confirmed": false
+    },
+    {
+      "frame": 8752,
+      "time": 291.733333,
+      "motionCompensatedDifference": 83.481,
+      "rawDifference": 83.481,
+      "confirmed": false
+    },
+    {
+      "frame": 8819,
+      "time": 293.966667,
+      "motionCompensatedDifference": 85.891,
+      "rawDifference": 85.891,
+      "confirmed": false
+    },
+    {
+      "frame": 8833,
+      "time": 294.433333,
+      "motionCompensatedDifference": 37.851,
+      "rawDifference": 37.851,
+      "confirmed": false
+    },
+    {
+      "frame": 8848,
+      "time": 294.933333,
+      "motionCompensatedDifference": 38.703,
+      "rawDifference": 38.703,
+      "confirmed": false
+    },
+    {
+      "frame": 8858,
+      "time": 295.266667,
+      "motionCompensatedDifference": 37.593,
+      "rawDifference": 37.593,
+      "confirmed": false
+    },
+    {
+      "frame": 8872,
+      "time": 295.733333,
+      "motionCompensatedDifference": 21.585,
+      "rawDifference": 29.816,
+      "confirmed": false
+    },
+    {
+      "frame": 8925,
+      "time": 297.5,
+      "motionCompensatedDifference": 100.023,
+      "rawDifference": 100.023,
+      "confirmed": false
+    },
+    {
+      "frame": 8946,
+      "time": 298.2,
+      "motionCompensatedDifference": 88.411,
+      "rawDifference": 88.411,
+      "confirmed": false
+    },
+    {
+      "frame": 8978,
+      "time": 299.266667,
+      "motionCompensatedDifference": 94.748,
+      "rawDifference": 94.748,
+      "confirmed": false
+    },
+    {
+      "frame": 8987,
+      "time": 299.566667,
+      "motionCompensatedDifference": 23.026,
+      "rawDifference": 34.492,
+      "confirmed": false
+    },
+    {
+      "frame": 8994,
+      "time": 299.8,
+      "motionCompensatedDifference": 144.73,
+      "rawDifference": 144.73,
+      "confirmed": false
+    },
+    {
+      "frame": 9015,
+      "time": 300.5,
+      "motionCompensatedDifference": 33.471,
+      "rawDifference": 33.471,
+      "confirmed": false
+    },
+    {
+      "frame": 9038,
+      "time": 301.266667,
+      "motionCompensatedDifference": 40.354,
+      "rawDifference": 40.354,
+      "confirmed": false
+    },
+    {
+      "frame": 9101,
+      "time": 303.366667,
+      "motionCompensatedDifference": 23.538,
+      "rawDifference": 26.618,
+      "confirmed": false
+    },
+    {
+      "frame": 9128,
+      "time": 304.266667,
+      "motionCompensatedDifference": 37.263,
+      "rawDifference": 37.263,
+      "confirmed": false
+    },
+    {
+      "frame": 9162,
+      "time": 305.4,
+      "motionCompensatedDifference": 48.043,
+      "rawDifference": 48.043,
+      "confirmed": false
+    },
+    {
+      "frame": 9203,
+      "time": 306.766667,
+      "motionCompensatedDifference": 50.658,
+      "rawDifference": 50.658,
+      "confirmed": false
+    },
+    {
+      "frame": 9263,
+      "time": 308.766667,
+      "motionCompensatedDifference": 93.558,
+      "rawDifference": 93.558,
+      "confirmed": false
+    },
+    {
+      "frame": 9327,
+      "time": 310.9,
+      "motionCompensatedDifference": 10.226,
+      "rawDifference": 31.626,
+      "confirmed": false
+    },
+    {
+      "frame": 9338,
+      "time": 311.266667,
+      "motionCompensatedDifference": 59.824,
+      "rawDifference": 59.824,
+      "confirmed": false
+    },
+    {
+      "frame": 9413,
+      "time": 313.766667,
+      "motionCompensatedDifference": 82.76,
+      "rawDifference": 82.76,
+      "confirmed": false
+    },
+    {
+      "frame": 9429,
+      "time": 314.3,
+      "motionCompensatedDifference": 82.452,
+      "rawDifference": 82.452,
+      "confirmed": false
+    },
+    {
+      "frame": 9456,
+      "time": 315.2,
+      "motionCompensatedDifference": 27.144,
+      "rawDifference": 27.195,
+      "confirmed": false
+    },
+    {
+      "frame": 9462,
+      "time": 315.4,
+      "motionCompensatedDifference": 67.036,
+      "rawDifference": 67.036,
+      "confirmed": false
+    },
+    {
+      "frame": 9481,
+      "time": 316.033333,
+      "motionCompensatedDifference": 78.558,
+      "rawDifference": 78.558,
+      "confirmed": false
+    },
+    {
+      "frame": 9490,
+      "time": 316.333333,
+      "motionCompensatedDifference": 16.788,
+      "rawDifference": 16.692,
+      "confirmed": false
+    },
+    {
+      "frame": 9518,
+      "time": 317.266667,
+      "motionCompensatedDifference": 112.854,
+      "rawDifference": 112.854,
+      "confirmed": false
+    },
+    {
+      "frame": 9608,
+      "time": 320.266667,
+      "motionCompensatedDifference": 68.833,
+      "rawDifference": 68.833,
+      "confirmed": false
+    },
+    {
+      "frame": 9624,
+      "time": 320.8,
+      "motionCompensatedDifference": 9.256,
+      "rawDifference": 17.912,
+      "confirmed": false
+    },
+    {
+      "frame": 9638,
+      "time": 321.266667,
+      "motionCompensatedDifference": 9.863,
+      "rawDifference": 9.859,
+      "confirmed": false
+    },
+    {
+      "frame": 9648,
+      "time": 321.6,
+      "motionCompensatedDifference": 131.714,
+      "rawDifference": 131.714,
+      "confirmed": false
+    },
+    {
+      "frame": 9683,
+      "time": 322.766667,
+      "motionCompensatedDifference": 91.761,
+      "rawDifference": 91.761,
+      "confirmed": false
+    },
+    {
+      "frame": 9716,
+      "time": 323.866667,
+      "motionCompensatedDifference": 130.452,
+      "rawDifference": 130.452,
+      "confirmed": false
+    },
+    {
+      "frame": 9743,
+      "time": 324.766667,
+      "motionCompensatedDifference": 66.588,
+      "rawDifference": 66.588,
+      "confirmed": false
+    },
+    {
+      "frame": 9750,
+      "time": 325.0,
+      "motionCompensatedDifference": 72.105,
+      "rawDifference": 72.105,
+      "confirmed": false
+    },
+    {
+      "frame": 9785,
+      "time": 326.166667,
+      "motionCompensatedDifference": 35.554,
+      "rawDifference": 35.554,
+      "confirmed": false
+    },
+    {
+      "frame": 9802,
+      "time": 326.733333,
+      "motionCompensatedDifference": 37.93,
+      "rawDifference": 37.93,
+      "confirmed": false
+    },
+    {
+      "frame": 9838,
+      "time": 327.933333,
+      "motionCompensatedDifference": 117.698,
+      "rawDifference": 117.698,
+      "confirmed": false
+    },
+    {
+      "frame": 9890,
+      "time": 329.666667,
+      "motionCompensatedDifference": 116.683,
+      "rawDifference": 116.683,
+      "confirmed": false
+    },
+    {
+      "frame": 9902,
+      "time": 330.066667,
+      "motionCompensatedDifference": 44.907,
+      "rawDifference": 45.151,
+      "confirmed": false
+    },
+    {
+      "frame": 9911,
+      "time": 330.366667,
+      "motionCompensatedDifference": 36.964,
+      "rawDifference": 36.964,
+      "confirmed": false
+    },
+    {
+      "frame": 9920,
+      "time": 330.666667,
+      "motionCompensatedDifference": 107.73,
+      "rawDifference": 107.73,
+      "confirmed": false
+    },
+    {
+      "frame": 9929,
+      "time": 330.966667,
+      "motionCompensatedDifference": 47.234,
+      "rawDifference": 47.234,
+      "confirmed": false
+    },
+    {
+      "frame": 9938,
+      "time": 331.266667,
+      "motionCompensatedDifference": 80.103,
+      "rawDifference": 80.103,
+      "confirmed": false
+    },
+    {
+      "frame": 9997,
+      "time": 333.233333,
+      "motionCompensatedDifference": 13.921,
+      "rawDifference": 24.093,
+      "confirmed": false
+    },
+    {
+      "frame": 10030,
+      "time": 334.333333,
+      "motionCompensatedDifference": 46.186,
+      "rawDifference": 46.186,
+      "confirmed": false
+    },
+    {
+      "frame": 10055,
+      "time": 335.166667,
+      "motionCompensatedDifference": 23.473,
+      "rawDifference": 23.473,
+      "confirmed": false
+    },
+    {
+      "frame": 10066,
+      "time": 335.533333,
+      "motionCompensatedDifference": 22.092,
+      "rawDifference": 22.224,
+      "confirmed": false
+    },
+    {
+      "frame": 10078,
+      "time": 335.933333,
+      "motionCompensatedDifference": 47.824,
+      "rawDifference": 47.824,
+      "confirmed": false
+    },
+    {
+      "frame": 10086,
+      "time": 336.2,
+      "motionCompensatedDifference": 18.982,
+      "rawDifference": 23.624,
+      "confirmed": false
+    },
+    {
+      "frame": 10096,
+      "time": 336.533333,
+      "motionCompensatedDifference": 12.456,
+      "rawDifference": 12.905,
+      "confirmed": false
+    },
+    {
+      "frame": 10103,
+      "time": 336.766667,
+      "motionCompensatedDifference": 16.023,
+      "rawDifference": 17.933,
+      "confirmed": false
+    },
+    {
+      "frame": 10112,
+      "time": 337.066667,
+      "motionCompensatedDifference": 16.999,
+      "rawDifference": 22.88,
+      "confirmed": false
+    },
+    {
+      "frame": 10121,
+      "time": 337.366667,
+      "motionCompensatedDifference": 16.314,
+      "rawDifference": 16.457,
+      "confirmed": false
+    },
+    {
+      "frame": 10127,
+      "time": 337.566667,
+      "motionCompensatedDifference": 11.733,
+      "rawDifference": 11.819,
+      "confirmed": false
+    },
+    {
+      "frame": 10133,
+      "time": 337.766667,
+      "motionCompensatedDifference": 87.863,
+      "rawDifference": 87.863,
+      "confirmed": false
+    },
+    {
+      "frame": 10174,
+      "time": 339.133333,
+      "motionCompensatedDifference": 9.935,
+      "rawDifference": 21.945,
+      "confirmed": false
+    },
+    {
+      "frame": 10238,
+      "time": 341.266667,
+      "motionCompensatedDifference": 97.342,
+      "rawDifference": 97.342,
+      "confirmed": false
+    },
+    {
+      "frame": 10265,
+      "time": 342.166667,
+      "motionCompensatedDifference": 98.682,
+      "rawDifference": 98.682,
+      "confirmed": false
+    },
+    {
+      "frame": 10295,
+      "time": 343.166667,
+      "motionCompensatedDifference": 55.498,
+      "rawDifference": 55.498,
+      "confirmed": false
+    },
+    {
+      "frame": 10305,
+      "time": 343.5,
+      "motionCompensatedDifference": 63.09,
+      "rawDifference": 63.09,
+      "confirmed": false
+    },
+    {
+      "frame": 10313,
+      "time": 343.766667,
+      "motionCompensatedDifference": 44.903,
+      "rawDifference": 44.903,
+      "confirmed": false
+    },
+    {
+      "frame": 10352,
+      "time": 345.066667,
+      "motionCompensatedDifference": 48.938,
+      "rawDifference": 48.938,
+      "confirmed": false
+    },
+    {
+      "frame": 10373,
+      "time": 345.766667,
+      "motionCompensatedDifference": 37.362,
+      "rawDifference": 37.362,
+      "confirmed": false
+    },
+    {
+      "frame": 10388,
+      "time": 346.266667,
+      "motionCompensatedDifference": 47.264,
+      "rawDifference": 47.264,
+      "confirmed": false
+    },
+    {
+      "frame": 10478,
+      "time": 349.266667,
+      "motionCompensatedDifference": 87.339,
+      "rawDifference": 87.339,
+      "confirmed": false
+    },
+    {
+      "frame": 10505,
+      "time": 350.166667,
+      "motionCompensatedDifference": 30.752,
+      "rawDifference": 30.752,
+      "confirmed": false
+    },
+    {
+      "frame": 10598,
+      "time": 353.266667,
+      "motionCompensatedDifference": 35.704,
+      "rawDifference": 35.704,
+      "confirmed": false
+    },
+    {
+      "frame": 10608,
+      "time": 353.6,
+      "motionCompensatedDifference": 76.169,
+      "rawDifference": 76.169,
+      "confirmed": false
+    },
+    {
+      "frame": 10622,
+      "time": 354.066667,
+      "motionCompensatedDifference": 118.306,
+      "rawDifference": 118.306,
+      "confirmed": false
+    },
+    {
+      "frame": 10639,
+      "time": 354.633333,
+      "motionCompensatedDifference": 63.219,
+      "rawDifference": 63.219,
+      "confirmed": false
+    },
+    {
+      "frame": 10670,
+      "time": 355.666667,
+      "motionCompensatedDifference": 74.444,
+      "rawDifference": 74.444,
+      "confirmed": false
+    },
+    {
+      "frame": 10721,
+      "time": 357.366667,
+      "motionCompensatedDifference": 105.133,
+      "rawDifference": 105.133,
+      "confirmed": false
+    },
+    {
+      "frame": 10797,
+      "time": 359.9,
+      "motionCompensatedDifference": 29.592,
+      "rawDifference": 29.592,
+      "confirmed": false
+    },
+    {
+      "frame": 10813,
+      "time": 360.433333,
+      "motionCompensatedDifference": 41.281,
+      "rawDifference": 41.352,
+      "confirmed": false
+    },
+    {
+      "frame": 10890,
+      "time": 363.0,
+      "motionCompensatedDifference": 27.338,
+      "rawDifference": 28.633,
+      "confirmed": false
+    },
+    {
+      "frame": 10914,
+      "time": 363.8,
+      "motionCompensatedDifference": 132.074,
+      "rawDifference": 132.074,
+      "confirmed": false
+    },
+    {
+      "frame": 10947,
+      "time": 364.9,
+      "motionCompensatedDifference": 71.759,
+      "rawDifference": 71.759,
+      "confirmed": false
+    },
+    {
+      "frame": 10958,
+      "time": 365.266667,
+      "motionCompensatedDifference": 14.581,
+      "rawDifference": 19.388,
+      "confirmed": false
+    },
+    {
+      "frame": 10989,
+      "time": 366.3,
+      "motionCompensatedDifference": 51.429,
+      "rawDifference": 51.429,
+      "confirmed": false
+    },
+    {
+      "frame": 11007,
+      "time": 366.9,
+      "motionCompensatedDifference": 102.562,
+      "rawDifference": 102.562,
+      "confirmed": false
+    },
+    {
+      "frame": 11013,
+      "time": 367.1,
+      "motionCompensatedDifference": 67.846,
+      "rawDifference": 67.846,
+      "confirmed": false
+    },
+    {
+      "frame": 11020,
+      "time": 367.333333,
+      "motionCompensatedDifference": 39.224,
+      "rawDifference": 39.224,
+      "confirmed": false
+    },
+    {
+      "frame": 11173,
+      "time": 372.433333,
+      "motionCompensatedDifference": 34.008,
+      "rawDifference": 34.008,
+      "confirmed": false
+    },
+    {
+      "frame": 11188,
+      "time": 372.933333,
+      "motionCompensatedDifference": 33.984,
+      "rawDifference": 33.984,
+      "confirmed": false
+    },
+    {
+      "frame": 11202,
+      "time": 373.4,
+      "motionCompensatedDifference": 61.968,
+      "rawDifference": 61.968,
+      "confirmed": false
+    },
+    {
+      "frame": 11224,
+      "time": 374.133333,
+      "motionCompensatedDifference": 63.521,
+      "rawDifference": 63.521,
+      "confirmed": false
+    },
+    {
+      "frame": 11347,
+      "time": 378.233333,
+      "motionCompensatedDifference": 43.401,
+      "rawDifference": 43.401,
+      "confirmed": false
+    },
+    {
+      "frame": 11372,
+      "time": 379.066667,
+      "motionCompensatedDifference": 19.6,
+      "rawDifference": 32.604,
+      "confirmed": false
+    },
+    {
+      "frame": 11452,
+      "time": 381.733333,
+      "motionCompensatedDifference": 22.215,
+      "rawDifference": 22.215,
+      "confirmed": false
+    },
+    {
+      "frame": 11482,
+      "time": 382.733333,
+      "motionCompensatedDifference": 25.965,
+      "rawDifference": 25.965,
+      "confirmed": false
+    },
+    {
+      "frame": 11512,
+      "time": 383.733333,
+      "motionCompensatedDifference": 29.168,
+      "rawDifference": 29.168,
+      "confirmed": false
+    },
+    {
+      "frame": 11524,
+      "time": 384.133333,
+      "motionCompensatedDifference": 9.168,
+      "rawDifference": 12.352,
+      "confirmed": false
+    },
+    {
+      "frame": 11547,
+      "time": 384.9,
+      "motionCompensatedDifference": 12.727,
+      "rawDifference": 14.456,
+      "confirmed": false
+    },
+    {
+      "frame": 11557,
+      "time": 385.233333,
+      "motionCompensatedDifference": 30.75,
+      "rawDifference": 30.75,
+      "confirmed": false
+    },
+    {
+      "frame": 11565,
+      "time": 385.5,
+      "motionCompensatedDifference": 15.4,
+      "rawDifference": 16.872,
+      "confirmed": false
+    },
+    {
+      "frame": 11575,
+      "time": 385.833333,
+      "motionCompensatedDifference": 18.835,
+      "rawDifference": 18.835,
+      "confirmed": false
+    },
+    {
+      "frame": 11606,
+      "time": 386.866667,
+      "motionCompensatedDifference": 20.64,
+      "rawDifference": 20.477,
+      "confirmed": false
+    },
+    {
+      "frame": 11632,
+      "time": 387.733333,
+      "motionCompensatedDifference": 51.047,
+      "rawDifference": 51.047,
+      "confirmed": false
+    },
+    {
+      "frame": 11722,
+      "time": 390.733333,
+      "motionCompensatedDifference": 87.589,
+      "rawDifference": 87.589,
+      "confirmed": false
+    },
+    {
+      "frame": 11776,
+      "time": 392.533333,
+      "motionCompensatedDifference": 34.855,
+      "rawDifference": 34.855,
+      "confirmed": false
+    },
+    {
+      "frame": 11967,
+      "time": 398.9,
+      "motionCompensatedDifference": 31.414,
+      "rawDifference": 31.431,
+      "confirmed": false
+    },
+    {
+      "frame": 12024,
+      "time": 400.8,
+      "motionCompensatedDifference": 28.634,
+      "rawDifference": 28.634,
+      "confirmed": false
+    },
+    {
+      "frame": 12138,
+      "time": 404.6,
+      "motionCompensatedDifference": 29.073,
+      "rawDifference": 29.073,
+      "confirmed": false
+    },
+    {
+      "frame": 12182,
+      "time": 406.066667,
+      "motionCompensatedDifference": 26.646,
+      "rawDifference": 26.646,
+      "confirmed": false
+    },
+    {
+      "frame": 12231,
+      "time": 407.7,
+      "motionCompensatedDifference": 18.078,
+      "rawDifference": 21.851,
+      "confirmed": false
+    },
+    {
+      "frame": 12240,
+      "time": 408.0,
+      "motionCompensatedDifference": 22.501,
+      "rawDifference": 22.501,
+      "confirmed": false
+    },
+    {
+      "frame": 12251,
+      "time": 408.366667,
+      "motionCompensatedDifference": 23.941,
+      "rawDifference": 23.941,
+      "confirmed": false
+    },
+    {
+      "frame": 12303,
+      "time": 410.1,
+      "motionCompensatedDifference": 13.507,
+      "rawDifference": 14.183,
+      "confirmed": false
+    },
+    {
+      "frame": 12310,
+      "time": 410.333333,
+      "motionCompensatedDifference": 20.892,
+      "rawDifference": 21.305,
+      "confirmed": false
+    },
+    {
+      "frame": 12324,
+      "time": 410.8,
+      "motionCompensatedDifference": 35.674,
+      "rawDifference": 35.674,
+      "confirmed": false
+    },
+    {
+      "frame": 12342,
+      "time": 411.4,
+      "motionCompensatedDifference": 34.485,
+      "rawDifference": 34.485,
+      "confirmed": false
+    },
+    {
+      "frame": 12364,
+      "time": 412.133333,
+      "motionCompensatedDifference": 10.219,
+      "rawDifference": 18.033,
+      "confirmed": false
+    },
+    {
+      "frame": 12371,
+      "time": 412.366667,
+      "motionCompensatedDifference": 50.354,
+      "rawDifference": 50.354,
+      "confirmed": false
+    },
+    {
+      "frame": 12383,
+      "time": 412.766667,
+      "motionCompensatedDifference": 74.956,
+      "rawDifference": 74.956,
+      "confirmed": false
+    },
+    {
+      "frame": 12390,
+      "time": 413.0,
+      "motionCompensatedDifference": 35.165,
+      "rawDifference": 35.165,
+      "confirmed": false
+    },
+    {
+      "frame": 12407,
+      "time": 413.566667,
+      "motionCompensatedDifference": 11.99,
+      "rawDifference": 13.153,
+      "confirmed": false
+    },
+    {
+      "frame": 12435,
+      "time": 414.5,
+      "motionCompensatedDifference": 70.208,
+      "rawDifference": 70.208,
+      "confirmed": false
+    },
+    {
+      "frame": 12450,
+      "time": 415.0,
+      "motionCompensatedDifference": 57.175,
+      "rawDifference": 57.175,
+      "confirmed": false
+    },
+    {
+      "frame": 12459,
+      "time": 415.3,
+      "motionCompensatedDifference": 20.443,
+      "rawDifference": 20.443,
+      "confirmed": false
+    },
+    {
+      "frame": 12467,
+      "time": 415.566667,
+      "motionCompensatedDifference": 13.388,
+      "rawDifference": 13.388,
+      "confirmed": false
+    },
+    {
+      "frame": 12486,
+      "time": 416.2,
+      "motionCompensatedDifference": 15.121,
+      "rawDifference": 15.121,
+      "confirmed": false
+    },
+    {
+      "frame": 12504,
+      "time": 416.8,
+      "motionCompensatedDifference": 32.505,
+      "rawDifference": 32.505,
+      "confirmed": false
+    },
+    {
+      "frame": 12525,
+      "time": 417.5,
+      "motionCompensatedDifference": 20.453,
+      "rawDifference": 20.453,
+      "confirmed": false
+    },
+    {
+      "frame": 12533,
+      "time": 417.766667,
+      "motionCompensatedDifference": 24.646,
+      "rawDifference": 24.646,
+      "confirmed": false
+    },
+    {
+      "frame": 12605,
+      "time": 420.166667,
+      "motionCompensatedDifference": 16.083,
+      "rawDifference": 20.133,
+      "confirmed": false
+    },
+    {
+      "frame": 12617,
+      "time": 420.566667,
+      "motionCompensatedDifference": 18.116,
+      "rawDifference": 18.116,
+      "confirmed": false
+    },
+    {
+      "frame": 12632,
+      "time": 421.066667,
+      "motionCompensatedDifference": 38.838,
+      "rawDifference": 38.838,
+      "confirmed": false
+    },
+    {
+      "frame": 12662,
+      "time": 422.066667,
+      "motionCompensatedDifference": 65.424,
+      "rawDifference": 65.424,
+      "confirmed": false
+    },
+    {
+      "frame": 12737,
+      "time": 424.566667,
+      "motionCompensatedDifference": 18.314,
+      "rawDifference": 18.314,
+      "confirmed": false
+    },
+    {
+      "frame": 12797,
+      "time": 426.566667,
+      "motionCompensatedDifference": 29.015,
+      "rawDifference": 29.015,
+      "confirmed": false
+    },
+    {
+      "frame": 12804,
+      "time": 426.8,
+      "motionCompensatedDifference": 11.24,
+      "rawDifference": 12.154,
+      "confirmed": false
+    },
+    {
+      "frame": 12851,
+      "time": 428.366667,
+      "motionCompensatedDifference": 70.765,
+      "rawDifference": 70.765,
+      "confirmed": false
+    },
+    {
+      "frame": 12905,
+      "time": 430.166667,
+      "motionCompensatedDifference": 63.627,
+      "rawDifference": 63.627,
+      "confirmed": false
+    },
+    {
+      "frame": 12956,
+      "time": 431.866667,
+      "motionCompensatedDifference": 86.733,
+      "rawDifference": 86.733,
+      "confirmed": false
+    },
+    {
+      "frame": 12998,
+      "time": 433.266667,
+      "motionCompensatedDifference": 102.46,
+      "rawDifference": 102.46,
+      "confirmed": false
+    },
+    {
+      "frame": 13013,
+      "time": 433.766667,
+      "motionCompensatedDifference": 64.974,
+      "rawDifference": 64.974,
+      "confirmed": false
+    },
+    {
+      "frame": 13118,
+      "time": 437.266667,
+      "motionCompensatedDifference": 74.722,
+      "rawDifference": 74.722,
+      "confirmed": false
+    },
+    {
+      "frame": 13202,
+      "time": 440.066667,
+      "motionCompensatedDifference": 96.061,
+      "rawDifference": 96.061,
+      "confirmed": false
+    },
+    {
+      "frame": 13238,
+      "time": 441.266667,
+      "motionCompensatedDifference": 40.14,
+      "rawDifference": 40.14,
+      "confirmed": false
+    },
+    {
+      "frame": 13260,
+      "time": 442.0,
+      "motionCompensatedDifference": 44.037,
+      "rawDifference": 42.799,
+      "confirmed": false
+    },
+    {
+      "frame": 13293,
+      "time": 443.1,
+      "motionCompensatedDifference": 19.122,
+      "rawDifference": 19.108,
+      "confirmed": false
+    },
+    {
+      "frame": 13321,
+      "time": 444.033333,
+      "motionCompensatedDifference": 14.976,
+      "rawDifference": 15.055,
+      "confirmed": false
+    },
+    {
+      "frame": 13330,
+      "time": 444.333333,
+      "motionCompensatedDifference": 14.17,
+      "rawDifference": 14.091,
+      "confirmed": false
+    },
+    {
+      "frame": 13341,
+      "time": 444.7,
+      "motionCompensatedDifference": 45.414,
+      "rawDifference": 45.414,
+      "confirmed": false
+    },
+    {
+      "frame": 13382,
+      "time": 446.066667,
+      "motionCompensatedDifference": 37.875,
+      "rawDifference": 37.902,
+      "confirmed": false
+    },
+    {
+      "frame": 13398,
+      "time": 446.6,
+      "motionCompensatedDifference": 9.62,
+      "rawDifference": 9.62,
+      "confirmed": false
+    },
+    {
+      "frame": 13404,
+      "time": 446.8,
+      "motionCompensatedDifference": 31.706,
+      "rawDifference": 31.706,
+      "confirmed": false
+    },
+    {
+      "frame": 13463,
+      "time": 448.766667,
+      "motionCompensatedDifference": 17.685,
+      "rawDifference": 17.685,
+      "confirmed": false
+    },
+    {
+      "frame": 13481,
+      "time": 449.366667,
+      "motionCompensatedDifference": 28.558,
+      "rawDifference": 28.561,
+      "confirmed": false
+    },
+    {
+      "frame": 13519,
+      "time": 450.633333,
+      "motionCompensatedDifference": 27.791,
+      "rawDifference": 27.805,
+      "confirmed": false
+    },
+    {
+      "frame": 13542,
+      "time": 451.4,
+      "motionCompensatedDifference": 25.698,
+      "rawDifference": 25.715,
+      "confirmed": false
+    },
+    {
+      "frame": 13589,
+      "time": 452.966667,
+      "motionCompensatedDifference": 24.446,
+      "rawDifference": 24.446,
+      "confirmed": false
+    },
+    {
+      "frame": 13599,
+      "time": 453.3,
+      "motionCompensatedDifference": 13.544,
+      "rawDifference": 15.85,
+      "confirmed": false
+    },
+    {
+      "frame": 13609,
+      "time": 453.633333,
+      "motionCompensatedDifference": 13.983,
+      "rawDifference": 20.841,
+      "confirmed": false
+    },
+    {
+      "frame": 13623,
+      "time": 454.1,
+      "motionCompensatedDifference": 12.698,
+      "rawDifference": 13.999,
+      "confirmed": false
+    },
+    {
+      "frame": 13629,
+      "time": 454.3,
+      "motionCompensatedDifference": 10.987,
+      "rawDifference": 11.104,
+      "confirmed": false
+    },
+    {
+      "frame": 13638,
+      "time": 454.6,
+      "motionCompensatedDifference": 24.973,
+      "rawDifference": 24.98,
+      "confirmed": false
+    },
+    {
+      "frame": 13648,
+      "time": 454.933333,
+      "motionCompensatedDifference": 25.356,
+      "rawDifference": 25.507,
+      "confirmed": false
+    },
+    {
+      "frame": 13654,
+      "time": 455.133333,
+      "motionCompensatedDifference": 28.224,
+      "rawDifference": 28.224,
+      "confirmed": false
+    },
+    {
+      "frame": 13660,
+      "time": 455.333333,
+      "motionCompensatedDifference": 24.538,
+      "rawDifference": 24.538,
+      "confirmed": false
+    },
+    {
+      "frame": 13667,
+      "time": 455.566667,
+      "motionCompensatedDifference": 25.326,
+      "rawDifference": 25.402,
+      "confirmed": false
+    },
+    {
+      "frame": 13673,
+      "time": 455.766667,
+      "motionCompensatedDifference": 18.535,
+      "rawDifference": 18.615,
+      "confirmed": false
+    },
+    {
+      "frame": 13705,
+      "time": 456.833333,
+      "motionCompensatedDifference": 22.496,
+      "rawDifference": 22.496,
+      "confirmed": false
+    },
+    {
+      "frame": 13864,
+      "time": 462.133333,
+      "motionCompensatedDifference": 17.31,
+      "rawDifference": 17.31,
+      "confirmed": false
+    },
+    {
+      "frame": 13969,
+      "time": 465.633333,
+      "motionCompensatedDifference": 12.413,
+      "rawDifference": 12.413,
+      "confirmed": false
+    },
+    {
+      "frame": 14035,
+      "time": 467.833333,
+      "motionCompensatedDifference": 14.851,
+      "rawDifference": 19.919,
+      "confirmed": false
+    },
+    {
+      "frame": 14095,
+      "time": 469.833333,
+      "motionCompensatedDifference": 40.174,
+      "rawDifference": 40.174,
+      "confirmed": false
+    },
+    {
+      "frame": 14164,
+      "time": 472.133333,
+      "motionCompensatedDifference": 9.91,
+      "rawDifference": 15.442,
+      "confirmed": false
+    },
+    {
+      "frame": 14218,
+      "time": 473.933333,
+      "motionCompensatedDifference": 35.007,
+      "rawDifference": 35.007,
+      "confirmed": false
+    },
+    {
+      "frame": 14338,
+      "time": 477.933333,
+      "motionCompensatedDifference": 19.869,
+      "rawDifference": 19.489,
+      "confirmed": false
+    },
+    {
+      "frame": 14386,
+      "time": 479.533333,
+      "motionCompensatedDifference": 42.988,
+      "rawDifference": 42.988,
+      "confirmed": false
+    },
+    {
+      "frame": 14399,
+      "time": 479.966667,
+      "motionCompensatedDifference": 61.446,
+      "rawDifference": 61.446,
+      "confirmed": false
+    },
+    {
+      "frame": 14431,
+      "time": 481.033333,
+      "motionCompensatedDifference": 83.345,
+      "rawDifference": 83.345,
+      "confirmed": false
+    },
+    {
+      "frame": 14462,
+      "time": 482.066667,
+      "motionCompensatedDifference": 41.598,
+      "rawDifference": 41.849,
+      "confirmed": false
+    },
+    {
+      "frame": 14494,
+      "time": 483.133333,
+      "motionCompensatedDifference": 27.44,
+      "rawDifference": 27.44,
+      "confirmed": false
+    },
+    {
+      "frame": 14501,
+      "time": 483.366667,
+      "motionCompensatedDifference": 27.592,
+      "rawDifference": 27.837,
+      "confirmed": false
+    },
+    {
+      "frame": 14512,
+      "time": 483.733333,
+      "motionCompensatedDifference": 32.297,
+      "rawDifference": 33.808,
+      "confirmed": false
+    },
+    {
+      "frame": 14521,
+      "time": 484.033333,
+      "motionCompensatedDifference": 17.18,
+      "rawDifference": 21.809,
+      "confirmed": false
+    },
+    {
+      "frame": 14529,
+      "time": 484.3,
+      "motionCompensatedDifference": 15.42,
+      "rawDifference": 17.562,
+      "confirmed": false
+    },
+    {
+      "frame": 14541,
+      "time": 484.7,
+      "motionCompensatedDifference": 32.603,
+      "rawDifference": 32.695,
+      "confirmed": false
+    },
+    {
+      "frame": 14548,
+      "time": 484.933333,
+      "motionCompensatedDifference": 32.098,
+      "rawDifference": 32.098,
+      "confirmed": false
+    },
+    {
+      "frame": 14575,
+      "time": 485.833333,
+      "motionCompensatedDifference": 130.279,
+      "rawDifference": 130.279,
+      "confirmed": false
+    },
+    {
+      "frame": 14614,
+      "time": 487.133333,
+      "motionCompensatedDifference": 19.508,
+      "rawDifference": 19.508,
+      "confirmed": false
+    },
+    {
+      "frame": 14650,
+      "time": 488.333333,
+      "motionCompensatedDifference": 9.982,
+      "rawDifference": 10.08,
+      "confirmed": false
+    },
+    {
+      "frame": 14656,
+      "time": 488.533333,
+      "motionCompensatedDifference": 50.609,
+      "rawDifference": 50.609,
+      "confirmed": false
+    },
+    {
+      "frame": 14699,
+      "time": 489.966667,
+      "motionCompensatedDifference": 14.447,
+      "rawDifference": 14.484,
+      "confirmed": false
+    },
+    {
+      "frame": 14731,
+      "time": 491.033333,
+      "motionCompensatedDifference": 22.756,
+      "rawDifference": 22.756,
+      "confirmed": false
+    },
+    {
+      "frame": 14747,
+      "time": 491.566667,
+      "motionCompensatedDifference": 55.152,
+      "rawDifference": 55.152,
+      "confirmed": false
+    },
+    {
+      "frame": 14782,
+      "time": 492.733333,
+      "motionCompensatedDifference": 39.021,
+      "rawDifference": 39.021,
+      "confirmed": false
+    },
+    {
+      "frame": 14824,
+      "time": 494.133333,
+      "motionCompensatedDifference": 18.588,
+      "rawDifference": 18.588,
+      "confirmed": false
+    },
+    {
+      "frame": 14895,
+      "time": 496.5,
+      "motionCompensatedDifference": 14.353,
+      "rawDifference": 14.353,
+      "confirmed": false
+    },
+    {
+      "frame": 14935,
+      "time": 497.833333,
+      "motionCompensatedDifference": 15.984,
+      "rawDifference": 16.231,
+      "confirmed": false
+    },
+    {
+      "frame": 14944,
+      "time": 498.133333,
+      "motionCompensatedDifference": 17.339,
+      "rawDifference": 17.669,
+      "confirmed": false
+    },
+    {
+      "frame": 14979,
+      "time": 499.3,
+      "motionCompensatedDifference": 26.61,
+      "rawDifference": 26.61,
+      "confirmed": false
+    },
+    {
+      "frame": 15045,
+      "time": 501.5,
+      "motionCompensatedDifference": 32.316,
+      "rawDifference": 32.316,
+      "confirmed": false
+    },
+    {
+      "frame": 15056,
+      "time": 501.866667,
+      "motionCompensatedDifference": 9.291,
+      "rawDifference": 6.759,
+      "confirmed": false
+    },
+    {
+      "frame": 15076,
+      "time": 502.533333,
+      "motionCompensatedDifference": 15.023,
+      "rawDifference": 23.53,
+      "confirmed": false
+    },
+    {
+      "frame": 15104,
+      "time": 503.466667,
+      "motionCompensatedDifference": 29.142,
+      "rawDifference": 29.587,
+      "confirmed": false
+    },
+    {
+      "frame": 15111,
+      "time": 503.7,
+      "motionCompensatedDifference": 43.176,
+      "rawDifference": 43.176,
+      "confirmed": false
+    },
+    {
+      "frame": 15123,
+      "time": 504.1,
+      "motionCompensatedDifference": 10.218,
+      "rawDifference": 10.218,
+      "confirmed": false
+    },
+    {
+      "frame": 15213,
+      "time": 507.1,
+      "motionCompensatedDifference": 24.643,
+      "rawDifference": 24.643,
+      "confirmed": false
+    },
+    {
+      "frame": 15225,
+      "time": 507.5,
+      "motionCompensatedDifference": 10.226,
+      "rawDifference": 10.226,
+      "confirmed": false
+    },
+    {
+      "frame": 15234,
+      "time": 507.8,
+      "motionCompensatedDifference": 16.237,
+      "rawDifference": 16.237,
+      "confirmed": false
+    },
+    {
+      "frame": 15309,
+      "time": 510.3,
+      "motionCompensatedDifference": 16.476,
+      "rawDifference": 20.71,
+      "confirmed": false
+    },
+    {
+      "frame": 15316,
+      "time": 510.533333,
+      "motionCompensatedDifference": 17.901,
+      "rawDifference": 17.901,
+      "confirmed": false
+    },
+    {
+      "frame": 15369,
+      "time": 512.3,
+      "motionCompensatedDifference": 14.073,
+      "rawDifference": 14.073,
+      "confirmed": false
+    },
+    {
+      "frame": 15525,
+      "time": 517.5,
+      "motionCompensatedDifference": 71.889,
+      "rawDifference": 71.889,
+      "confirmed": false
+    }
+  ],
+  "source": "Motion-compensated photometric residuals over all frames. Requires visual editorial verification.",
+  "seconds": 48.55
+}

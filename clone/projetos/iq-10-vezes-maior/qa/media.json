@@ -1,0 +1,24 @@
+{
+  "passed": true,
+  "output": "preview-60s-720p60.mp4",
+  "sha256": "b9bbb0ef88ebeb5fba8dad49e021c62837ab71f40dddc10dffaf732711ff01d6",
+  "bytes": 10923161,
+  "video": {
+    "codec": "h264",
+    "frames": 3600,
+    "fps": "60/1",
+    "width": 1280,
+    "height": 720,
+    "duration": "60.000000"
+  },
+  "audio": {
+    "codec": "aac",
+    "sampleRate": "44100",
+    "channels": 2,
+    "packetsCompared": 2584,
+    "allPacketPayloadsIdenticalToOriginal": true,
+    "maximumTimestampDifferenceSeconds": 0.0
+  },
+  "fullDecodePassed": true,
+  "fidelityNote": "Media integrity and original audio are verified. Exact visual/motion fidelity is not certified."
+}

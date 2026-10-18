@@ -1,0 +1,11 @@
+node_modules/
+python-deps/
+__pycache__/
+*.tmp.mp4
+tracking/unpacked/
+tracking/annotated/
+tracking/audio-16k.f32
+tracking/take-*.json.gz
+tracking/first-minute.json
+tracking/observations.jsonl.gz
+.venv/

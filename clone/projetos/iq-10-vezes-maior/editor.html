@@ -1,0 +1,161 @@
+<!doctype html>
+<html lang="pt-BR">
+  <meta charset="utf-8" /><meta
+    name="viewport"
+    content="width=device-width,initial-scale=1"
+  /><title>Cena 3D editável · IQ 10×</title
+  ><style>
+    :root {
+      color-scheme: dark;
+      font-family: system-ui;
+      background: #161827;
+      color: #f4f1df;
+    }
+    body {
+      max-width: 1280px;
+      margin: 24px auto;
+      padding: 0 16px;
+    }
+    header {
+      display: flex;
+      gap: 20px;
+      align-items: center;
+      margin-bottom: 20px;
+    }
+    h1 {
+      font-size: 20px;
+      margin: 0 auto 0 0;
+    }
+    a {
+      color: #cadfb1;
+    }
+    #stage canvas {
+      width: 100%;
+      height: auto;
+      display: block;
+      border-radius: 10px;
+    }
+    #seek {
+      width: 100%;
+      margin: 16px 0;
+      accent-color: #c9dda8;
+    }
+    button {
+      background: #c9dda8;
+      color: #18232c;
+      border: 0;
+      padding: 8px 18px;
+      border-radius: 7px;
+      font: inherit;
+      margin-right: 15px;
+    }
+    p {
+      color: #b9c6d8;
+      font-size: 14px;
+      line-height: 1.6;
+    }
+    #status {
+      font-variant-numeric: tabular-nums;
+    }
+    audio {
+      display: none;
+    }
+  </style>
+  <body>
+    <header>
+      <h1>Cena 3D · primeiro minuto</h1>
+      <a href="index.html">MP4 exportado</a
+      ><a href="rastreamento.html">Rastreamento</a>
+    </header>
+    <div id="stage"></div>
+    <input
+      id="seek"
+      type="range"
+      min="0"
+      max="59.9833"
+      step="0.0166667"
+      value="0"
+      aria-label="Tempo da cena"
+    /><button id="play">Reproduzir</button
+    ><span id="status">Preparando cena…</span>
+    <p>
+      Rig, objetos, cenários e câmeras são criados por código em
+      <code>src/</code>. Esta é uma prévia de reconstrução em refinamento. A
+      reprodução ao vivo depende da GPU; o MP4 contém os 3.600 quadros
+      exportados.
+    </p>
+    <audio
+      id="audio"
+      preload="metadata"
+      src="previas/preview-60s-720p60.mp4"
+    ></audio>
+    <script src="vendor/three.min.js"></script>
+    <script src="src/materials.js"></script>
+    <script src="src/reference-fit.js"></script>
+    <script src="src/timeline.js"></script>
+    <script src="src/staging.js"></script>
+    <script src="src/compositor.js"></script>
+    <script src="src/scene.js"></script>
+    <script type="module">
+      const $ = (id) => document.getElementById(id),
+        film = (window.film = CloneFilm.create({ width: 1280, height: 720 })),
+        audio = $("audio");
+      $("stage").appendChild(film.canvas);
+      film.useTracking(
+        await (await fetch("tracking/calibration-first-minute.json")).json(),
+      );
+      let playing = false,
+        t = 0,
+        wall = 0,
+        last = -1;
+      function draw() {
+        const r = film.frame(t);
+        $("seek").value = t;
+        $("status").textContent =
+          t.toFixed(2) + " s / 60.00 s · take " + (r.shot + 1) + " / 36";
+      }
+      draw();
+      window.ready = true;
+      $("seek").oninput = () => {
+        audio.pause();
+        playing = false;
+        $("play").textContent = "Reproduzir";
+        t = +$("seek").value;
+        audio.currentTime = t;
+        draw();
+      };
+      $("play").onclick = async () => {
+        playing = !playing;
+        $("play").textContent = playing ? "Pausar" : "Reproduzir";
+        if (playing) {
+          wall = performance.now() - t * 1000;
+          audio.currentTime = t;
+          try {
+            await audio.play();
+          } catch {}
+        } else audio.pause();
+      };
+      function tick(now) {
+        if (playing) {
+          t =
+            audio.readyState >= 2 && !audio.paused
+              ? audio.currentTime
+              : (now - wall) / 1000;
+          if (t >= 60) {
+            t = 0;
+            playing = false;
+            audio.pause();
+            $("play").textContent = "Reproduzir";
+          }
+          const f = Math.floor(t * 60);
+          if (f !== last) {
+            last = f;
+            draw();
+          }
+        }
+        requestAnimationFrame(tick);
+      }
+      requestAnimationFrame(tick);
+    </script>
+  </body>
+</html>

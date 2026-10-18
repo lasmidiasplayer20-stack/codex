@@ -1,0 +1,22 @@
+{
+  "stats": {
+    "frames": 3601,
+    "finite": true,
+    "maxBoneError": 1.3322676295501878e-15,
+    "maxReachError": 0
+  },
+  "tracking": {
+    "frames": 3601,
+    "cameraAnchors": 26,
+    "headFits": 2839,
+    "wristFits": 567,
+    "unreachableWristTargets": 155,
+    "missingSubject": 762,
+    "predictedFrames": 162,
+    "maxHeadXErrorPx": 43.533422546603816,
+    "maxHeadYErrorPx": 16.527685700337543
+  },
+  "framesRepaired": 445,
+  "errors": [],
+  "passed": true
+}

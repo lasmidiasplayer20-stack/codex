@@ -1,0 +1,48 @@
+{
+  "frames": [
+    {
+      "f": 0,
+      "text": "0.000 s / 525.300 s · quadro 1 / 15.759\nSegmento automático 1 / 355 · confiança da câmera 0%\nTake revisado 1 / 36 · brain · hologram-intro\nCabeças observadas: 1 · pontos: 0 · anatomia: ainda não validada"
+    },
+    {
+      "f": 121,
+      "text": "4.033 s / 525.300 s · quadro 122 / 15.759\nSegmento automático 1 / 355 · confiança da câmera 0%\nTake revisado 1 / 36 · brain · hologram-intro\nCabeças observadas: 0 · pontos: 0 · anatomia: ainda não validada"
+    },
+    {
+      "f": 122,
+      "text": "4.067 s / 525.300 s · quadro 123 / 15.759\nSegmento automático 2 / 355 · confiança da câmera 0%\nTake revisado 2 / 36 · lab · molecule\nCabeças observadas: 0 · pontos: 0 · anatomia: ainda não validada"
+    },
+    {
+      "f": 200,
+      "text": "6.667 s / 525.300 s · quadro 201 / 15.759\nSegmento automático 4 / 355 · confiança da câmera 0%\nTake revisado 4 / 36 · wealth · wealth-visualisation\nCabeças observadas: 0 · pontos: 0 · anatomia: ainda não validada"
+    },
+    {
+      "f": 1799,
+      "text": "59.967 s / 525.300 s · quadro 1800 / 15.759\nSegmento automático 30 / 355 · confiança da câmera 90%\nTake revisado 36 / 36 · bedroom · phone-in-bed\nCabeças observadas: 0 · pontos: 199 · anatomia: ainda não validada"
+    },
+    {
+      "f": 1800,
+      "text": "60.000 s / 525.300 s · quadro 1801 / 15.759\nSegmento automático 30 / 355 · confiança da câmera 95%\nRevisão editorial: pendente neste trecho\nCabeças observadas: 0 · pontos: 200 · anatomia: ainda não validada"
+    },
+    {
+      "f": 5000,
+      "text": "166.667 s / 525.300 s · quadro 5001 / 15.759\nSegmento automático 112 / 355 · confiança da câmera 43%\nRevisão editorial: pendente neste trecho\nCabeças observadas: 0 · pontos: 134 · anatomia: ainda não validada"
+    },
+    {
+      "f": 9000,
+      "text": "300.000 s / 525.300 s · quadro 9001 / 15.759\nSegmento automático 216 / 355 · confiança da câmera 84%\nRevisão editorial: pendente neste trecho\nCabeças observadas: 0 · pontos: 198 · anatomia: ainda não validada"
+    },
+    {
+      "f": 15000,
+      "text": "500.000 s / 525.300 s · quadro 15001 / 15.759\nSegmento automático 346 / 355 · confiança da câmera 100%\nRevisão editorial: pendente neste trecho\nCabeças observadas: 0 · pontos: 297 · anatomia: ainda não validada"
+    },
+    {
+      "f": 15758,
+      "text": "525.267 s / 525.300 s · quadro 15759 / 15.759\nSegmento automático 355 / 355 · confiança da câmera 0%\nRevisão editorial: pendente neste trecho\nCabeças observadas: 0 · pontos: 0 · anatomia: ainda não validada"
+    }
+  ],
+  "errors": [],
+  "localSourceLoaded": true,
+  "editor": "52.30 s / 60.00 s · take 31 / 36",
+  "passed": true
+}

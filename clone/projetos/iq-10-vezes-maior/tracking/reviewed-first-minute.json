@@ -1,0 +1,470 @@
+{
+  "fps": 30,
+  "frames": 1800,
+  "sourcePixelDimensions": [
+    640,
+    360
+  ],
+  "reviewedRangeSeconds": [
+    0,
+    60
+  ],
+  "shots": [
+    {
+      "id": 1,
+      "startFrame": 0,
+      "endFrameExclusive": 122,
+      "start": 0.0,
+      "end": 4.066666666666666,
+      "kind": "brain",
+      "camera": "wide",
+      "action": "hologram-intro",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 2,
+      "startFrame": 122,
+      "endFrameExclusive": 160,
+      "start": 4.066666666666666,
+      "end": 5.333333333333333,
+      "kind": "lab",
+      "camera": "scientist",
+      "action": "molecule",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 3,
+      "startFrame": 160,
+      "endFrameExclusive": 200,
+      "start": 5.333333333333333,
+      "end": 6.666666666666667,
+      "kind": "lab",
+      "camera": "teleporter",
+      "action": "apple-teleport",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 4,
+      "startFrame": 200,
+      "endFrameExclusive": 240,
+      "start": 6.666666666666667,
+      "end": 8.0,
+      "kind": "wealth",
+      "camera": "wide",
+      "action": "wealth-visualisation",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 5,
+      "startFrame": 240,
+      "endFrameExclusive": 380,
+      "start": 8.0,
+      "end": 12.666666666666666,
+      "kind": "classroom",
+      "camera": "wide",
+      "action": "lesson",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 6,
+      "startFrame": 380,
+      "endFrameExclusive": 450,
+      "start": 12.666666666666666,
+      "end": 15.0,
+      "kind": "campus",
+      "camera": "wide",
+      "action": "walk",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 7,
+      "startFrame": 450,
+      "endFrameExclusive": 540,
+      "start": 15.0,
+      "end": 18.0,
+      "kind": "classroom",
+      "camera": "wide",
+      "action": "write",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 8,
+      "startFrame": 540,
+      "endFrameExclusive": 563,
+      "start": 18.0,
+      "end": 18.766666666666666,
+      "kind": "grade",
+      "camera": "insert",
+      "action": "iq-80",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 9,
+      "startFrame": 563,
+      "endFrameExclusive": 600,
+      "start": 18.766666666666666,
+      "end": 20.0,
+      "kind": "classroom",
+      "camera": "medium",
+      "action": "show-80",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 10,
+      "startFrame": 600,
+      "endFrameExclusive": 660,
+      "start": 20.0,
+      "end": 22.0,
+      "kind": "classroom",
+      "camera": "wide",
+      "action": "receive-f",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 11,
+      "startFrame": 660,
+      "endFrameExclusive": 723,
+      "start": 22.0,
+      "end": 24.1,
+      "kind": "atm",
+      "camera": "wide",
+      "action": "zero-balance",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 12,
+      "startFrame": 723,
+      "endFrameExclusive": 780,
+      "start": 24.1,
+      "end": 26.0,
+      "kind": "exam",
+      "camera": "wide",
+      "action": "write",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 13,
+      "startFrame": 780,
+      "endFrameExclusive": 840,
+      "start": 26.0,
+      "end": 28.0,
+      "kind": "exam",
+      "camera": "wide",
+      "action": "receive-51",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 14,
+      "startFrame": 840,
+      "endFrameExclusive": 893,
+      "start": 28.0,
+      "end": 29.766666666666666,
+      "kind": "friends",
+      "camera": "wide",
+      "action": "walk-talk",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 15,
+      "startFrame": 893,
+      "endFrameExclusive": 930,
+      "start": 29.766666666666666,
+      "end": 31.0,
+      "kind": "bedroom",
+      "camera": "wide",
+      "action": "fall-on-bed",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 16,
+      "startFrame": 930,
+      "endFrameExclusive": 1020,
+      "start": 31.0,
+      "end": 34.0,
+      "kind": "desk",
+      "camera": "medium",
+      "action": "study",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 17,
+      "startFrame": 1020,
+      "endFrameExclusive": 1095,
+      "start": 34.0,
+      "end": 36.5,
+      "kind": "city",
+      "camera": "driving",
+      "action": "windshield",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 18,
+      "startFrame": 1095,
+      "endFrameExclusive": 1107,
+      "start": 36.5,
+      "end": 36.9,
+      "kind": "city",
+      "camera": "roadside-low",
+      "action": "car-pass",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 19,
+      "startFrame": 1107,
+      "endFrameExclusive": 1140,
+      "start": 36.9,
+      "end": 38.0,
+      "kind": "city",
+      "camera": "roadside",
+      "action": "crossing",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 20,
+      "startFrame": 1140,
+      "endFrameExclusive": 1163,
+      "start": 38.0,
+      "end": 38.766666666666666,
+      "kind": "car",
+      "camera": "driver",
+      "action": "driving",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 21,
+      "startFrame": 1163,
+      "endFrameExclusive": 1181,
+      "start": 38.766666666666666,
+      "end": 39.36666666666667,
+      "kind": "pedal",
+      "camera": "insert",
+      "action": "brake",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 22,
+      "startFrame": 1181,
+      "endFrameExclusive": 1200,
+      "start": 39.36666666666667,
+      "end": 40.0,
+      "kind": "city",
+      "camera": "roadside",
+      "action": "approaching-car",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 23,
+      "startFrame": 1200,
+      "endFrameExclusive": 1226,
+      "start": 40.0,
+      "end": 40.86666666666667,
+      "kind": "street-hero",
+      "camera": "close",
+      "action": "look-at-car",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 24,
+      "startFrame": 1226,
+      "endFrameExclusive": 1245,
+      "start": 40.86666666666667,
+      "end": 41.5,
+      "kind": "city",
+      "camera": "front",
+      "action": "approaching-camera",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 25,
+      "startFrame": 1245,
+      "endFrameExclusive": 1257,
+      "start": 41.5,
+      "end": 41.9,
+      "kind": "city",
+      "camera": "crosswalk",
+      "action": "impact",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 26,
+      "startFrame": 1257,
+      "endFrameExclusive": 1329,
+      "start": 41.9,
+      "end": 44.3,
+      "kind": "ceiling",
+      "camera": "eyelids",
+      "action": "wake-up",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 27,
+      "startFrame": 1329,
+      "endFrameExclusive": 1338,
+      "start": 44.3,
+      "end": 44.6,
+      "kind": "ceiling",
+      "camera": "tilt",
+      "action": "ceiling-pan",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 28,
+      "startFrame": 1338,
+      "endFrameExclusive": 1380,
+      "start": 44.6,
+      "end": 46.0,
+      "kind": "hospital",
+      "camera": "wide",
+      "action": "patient-lying",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 29,
+      "startFrame": 1380,
+      "endFrameExclusive": 1470,
+      "start": 46.0,
+      "end": 49.0,
+      "kind": "hospital",
+      "camera": "wide",
+      "action": "doctor-enters",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 30,
+      "startFrame": 1470,
+      "endFrameExclusive": 1560,
+      "start": 49.0,
+      "end": 52.0,
+      "kind": "patient",
+      "camera": "medium",
+      "action": "sit-up",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 31,
+      "startFrame": 1560,
+      "endFrameExclusive": 1605,
+      "start": 52.0,
+      "end": 53.5,
+      "kind": "doctor",
+      "camera": "close",
+      "action": "explain",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 32,
+      "startFrame": 1605,
+      "endFrameExclusive": 1680,
+      "start": 53.5,
+      "end": 56.0,
+      "kind": "patient",
+      "camera": "medium",
+      "action": "lie-back",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 33,
+      "startFrame": 1680,
+      "endFrameExclusive": 1740,
+      "start": 56.0,
+      "end": 58.0,
+      "kind": "discharge",
+      "camera": "wide",
+      "action": "conversation",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 34,
+      "startFrame": 1740,
+      "endFrameExclusive": 1767,
+      "start": 58.0,
+      "end": 58.9,
+      "kind": "entrance",
+      "camera": "wide",
+      "action": "arrive-home",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 35,
+      "startFrame": 1767,
+      "endFrameExclusive": 1794,
+      "start": 58.9,
+      "end": 59.8,
+      "kind": "meal",
+      "camera": "medium",
+      "action": "eat",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    },
+    {
+      "id": 36,
+      "startFrame": 1794,
+      "endFrameExclusive": 1800,
+      "start": 59.8,
+      "end": 60.0,
+      "kind": "bedroom",
+      "camera": "medium",
+      "action": "phone-in-bed",
+      "review": "visual editorial review; 3D animation still requires comparison"
+    }
+  ],
+  "transitions": [
+    {
+      "startFrame": 155,
+      "endFrame": 163,
+      "type": "horizontal-whip-blur"
+    },
+    {
+      "startFrame": 236,
+      "endFrame": 245,
+      "type": "blur-dissolve"
+    },
+    {
+      "startFrame": 376,
+      "endFrame": 384,
+      "type": "warm-flash-dissolve"
+    },
+    {
+      "startFrame": 446,
+      "endFrame": 455,
+      "type": "blur-dissolve"
+    },
+    {
+      "startFrame": 719,
+      "endFrame": 726,
+      "type": "blur-dissolve"
+    },
+    {
+      "startFrame": 888,
+      "endFrame": 898,
+      "type": "blur-dissolve"
+    },
+    {
+      "startFrame": 1257,
+      "endFrame": 1329,
+      "type": "tracked-eyelid-matte"
+    }
+  ],
+  "rejectedCutCandidates": [
+    {
+      "frame": 1066,
+      "reason": "windshield wiper passing camera"
+    },
+    {
+      "frame": 1150,
+      "reason": "driver gesture within same shot"
+    },
+    {
+      "frame": 1306,
+      "reason": "continuous eyelid opening"
+    },
+    {
+      "frame": 1319,
+      "reason": "continuous eyelid opening"
+    },
+    {
+      "frame": 1653,
+      "reason": "patient lies back within same shot"
+    }
+  ],
+  "remainingVideo": "Automatic candidates only; not manually confirmed."
+}
