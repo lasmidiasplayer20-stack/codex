@@ -1,0 +1,12 @@
+{
+  "output": "/workspace/codex/clone/projetos/clone-video/analysis/previa-60s-1080p-r2.mp4",
+  "width": 1920,
+  "height": 1080,
+  "fps": 30,
+  "start": 0,
+  "duration": 60,
+  "frames": 1800,
+  "elapsed": 546.83,
+  "method": "Authored procedural 3D reconstruction; original audio",
+  "browserErrors": []
+}
