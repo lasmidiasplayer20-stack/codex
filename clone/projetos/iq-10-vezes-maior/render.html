@@ -11,6 +11,7 @@
   </style>
   <body>
     <script src="vendor/three.min.js"></script>
+    <script src="opening/opening.js"></script>
     <script src="src/materials.js"></script>
     <script src="src/reference-fit.js"></script>
     <script src="src/timeline.js"></script>
@@ -26,7 +27,25 @@
         const rows = await (
           await fetch("tracking/calibration-first-minute.json")
         ).json();
+        const refined = await (await fetch("tracking/refined-r3.json")).json();
+        rows.forEach((r, i) => (r.refined = refined[i]));
         film.useTracking(rows);
+        const opening = Opening.create(
+          await (await fetch("opening/data.json")).json(),
+          { width },
+        );
+        opening.canvas.style.display = "none";
+        const originalFrame = film.frame,
+          output = film.canvas,
+          ox = output.getContext("2d");
+        film.frame = (t, opt = {}) => {
+          if (t < 122 / 30) {
+            const r = opening.frame(t, opt);
+            if (opt.draw !== false) ox.drawImage(opening.canvas, 0, 0);
+            return { ...r, shot: 0, kind: "brain" };
+          }
+          return originalFrame(t, opt);
+        };
         film.frame(0);
         window.ready = true;
       })();

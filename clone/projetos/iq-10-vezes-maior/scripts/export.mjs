@@ -2,7 +2,7 @@ import { spawn } from "node:child_process";
 import { resolve } from "node:path";
 import { stat } from "node:fs/promises";
 const root = resolve(import.meta.dirname, ".."),
-  source = process.argv[2] || process.env.SOURCE_VIDEO;
+  source = process.argv[2] || process.env.SOURCE_VIDEO || resolve(root,"audio/preview-original.m4a");
 if (!source)
   throw Error(
     "Informe o MP4 original: npm run export -- /caminho/original.mp4",
@@ -37,6 +37,6 @@ await run("ffmpeg", [
   "-movflags",
   "+faststart",
   "-y",
-  "previas/preview-60s-720p60.mp4",
+  "previas/preview-60s-r3-720p60.mp4",
 ]);
-console.log("Prévia com áudio: previas/preview-60s-720p60.mp4");
+console.log("Prévia com áudio: previas/preview-60s-r3-720p60.mp4");

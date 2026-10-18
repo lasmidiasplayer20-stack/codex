@@ -5,7 +5,7 @@ description: Recriar o vídeo IQ 10 vezes maior em cenas 3D editáveis, usando a
 
 # Reconstrução por takes, com conferência ao original
 
-Use esta skill junto com os arquivos deste projeto. Leia o README e os relatórios de `tracking/` antes de alterar a animação. A prévia antiga de 60 segundos foi reprovada visualmente. A revisão atual está em `revisoes/take-01-r2/` e refaz apenas os primeiros 4,067 segundos; leia também sua `SKILL.md`. Os demais takes precisam ser refeitos. Não descreva o rastreamento óptico como uma captura 3D completa, nem um teste de comprimentos de ossos como uma aprovação visual.
+Use esta skill junto com os arquivos deste projeto. Leia o README e os relatórios de `tracking/` antes de alterar a animação. A prévia antiga de 60 segundos foi reprovada visualmente. A revisão atual R3 cobre novamente os primeiros 60 segundos e integra a abertura R2 de `opening/`. Leia o estado no README. O restante do filme não foi reconstruído. Não descreva o rastreamento óptico como uma captura 3D completa, nem um teste de comprimentos de ossos como uma aprovação visual.
 
 ## Entradas e escopo
 
@@ -41,3 +41,11 @@ Use esta skill junto com os arquivos deste projeto. Leia o README e os relatóri
 ## Organização da entrega
 
 Código, esta skill, dados, relatórios e prévias ficam em `clone/projetos/iq-10-vezes-maior/`. Somente o vídeo completo final deve ir para `clone/vídeos/`. Não publique o MP4 original bruto. Ao publicar, informe claramente o intervalo reconstruído e os pontos ainda pendentes de fidelidade.
+
+## Cuidados introduzidos na R3
+
+Separe câmera, escala e pose. Nunca acrescente à câmera um erro residual da cabeça. Use uma referência fixa por take e confira o render sequencial e a navegação no editor. Não interpole posições através de cortes. Trate quedas rápidas como trajetórias com supervisão quando o rastreador perder o personagem.
+
+Resolva vistas laterais com um plano de ajuste paralelo à câmera; intersectar um plano de Z constante pode levar um personagem para trás do cenário quando a câmera olha de lado. Revise também se a câmera está dentro de edifícios. Mantenha objetos nas mãos, retire acessórios ausentes e confira os apoios na cadeira e na cama. Compare cenários e movimentos visualmente depois dos testes do rig.
+
+No hospital, a referência da câmera deve ser calculada com a posição do paciente sobre a cama, e não com a posição padrão de um ator em pé no chão. Fixe a pelve no apoio e resolva a inclinação do tronco a partir da observação. Não ajuste livremente todo o corpo à cabeça quando isso deslocar a pelve para dentro do colchão. Preserve comprimentos de ossos, deixe a cama fixa no ambiente e meça separadamente o erro residual de enquadramento.

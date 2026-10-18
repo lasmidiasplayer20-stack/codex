@@ -206,16 +206,19 @@
       coat = false,
       facing = 1,
       glasses = false,
+      medical = false,
     } = {}) {
       const group = new T.Group();
       world.add(group);
       group.position.set(x, 0, z);
       group.scale.setScalar(scale);
-      const torsoLength = coat ? 1.3 : 1.65,
+      const torsoLength = coat ? (medical ? 2.0 : 1.3) : 1.65,
         headRadius = coat ? 0.39 : 0.35;
       const dark = coat
           ? 0x738692
           : new T.Color(color).multiplyScalar(0.64).getHex(),
+        armLengths = coat ? [1.1, 1.05] : [0.95, 0.9],
+        legLengths = medical ? [1.15, 1.15] : [0.96, 0.96],
         legs = [[], []],
         arms = [[], []];
       for (let j = 0; j < 2; j++) {
@@ -223,26 +226,52 @@
           legs[j].push(
             mesh(geo.cylinder, j ? 0x302a30 : 0x211b28, group, true),
           );
-          arms[j].push(mesh(geo.cylinder, j ? color : dark, group, true));
+          arms[j].push(mesh(geo.cylinder, j ? color : dark, group, false));
         }
       }
       const joints = Array.from({ length: 8 }, () =>
-        sphere(V(), V(0.105, 0.105, 0.105), color, group, false),
+        sphere(V(), V(0.085, 0.085, 0.085), color, group, false),
       );
-      const torso = box(
-          V(0, 2.05, 0),
-          V(0.63, torsoLength + 0.05, 0.39),
-          color,
-          group,
-          true,
-        ),
-        hood = sphere(
-          V(0, 2.65, -0.08),
-          V(0.34, 0.27, 0.25),
-          color,
-          group,
-          true,
+      const sh = new T.Shape();
+      sh.moveTo(-0.19, torsoLength * 0.5);
+      sh.quadraticCurveTo(0, torsoLength * 0.58, 0.22, torsoLength * 0.48);
+      sh.quadraticCurveTo(0.31, torsoLength * 0.4, 0.3, torsoLength * 0.25);
+      sh.lineTo(0.26, -torsoLength * 0.48);
+      sh.quadraticCurveTo(0, -torsoLength * 0.54, -0.27, -torsoLength * 0.48);
+      sh.lineTo(-0.29, torsoLength * 0.2);
+      sh.quadraticCurveTo(-0.28, torsoLength * 0.42, -0.19, torsoLength * 0.5);
+      const coatGeo = new T.ExtrudeGeometry(sh, {
+        depth: 0.28,
+        bevelEnabled: true,
+        bevelThickness: 0.035,
+        bevelSize: 0.04,
+        bevelSegments: 3,
+        curveSegments: 12,
+      });
+      coatGeo.translate(0, 0, -0.14);
+      const torso = mesh(coatGeo, color, group, true),
+        hood = sphere(V(), V(0.2, 0.25, 0.16), color, group, true);
+      const seams = new T.Group();
+      torso.add(seams);
+      if (color === 0xf2cb27) {
+        for (const x of [-0.06, 0.1])
+          segment(
+            V(x, torsoLength * 0.45, 0.2),
+            V(x + 0.02, torsoLength * 0.12, 0.2),
+            0.012,
+            0xffeb99,
+            seams,
+            false,
+          );
+        segment(
+          V(-0.15, -torsoLength * 0.2, 0.19),
+          V(0.14, -torsoLength * 0.2, 0.19),
+          0.01,
+          0xc69a22,
+          seams,
+          false,
         );
+      }
       const head = sphere(
           V(0, 3.13, 0.03),
           V(headRadius, headRadius, headRadius),
@@ -251,6 +280,10 @@
           true,
         ),
         face = new T.Group();
+      head.material = new T.MeshStandardMaterial({
+        color: 0x1b1a23,
+        roughness: 0.9,
+      });
       head.add(face);
       for (const xx of [-0.16, 0.16])
         sphere(
@@ -316,7 +349,7 @@
         a.lastOptions = { t, o: { ...o } };
         const contacts = [true, true],
           floor = 0.13,
-          pelvis = V(0, o.sit ? 1.02 : 2.01, 0),
+          pelvis = V(0, o.sit ? 1.02 : medical ? 2.35 : 2.01, 0),
           feet = [V(-0.14, floor, -0.13), V(0.14, floor, 0.13)];
         if (o.walk) {
           const travel = o.travel ?? t,
@@ -342,8 +375,11 @@
         if (o.pelvisY !== undefined) pelvis.y = o.pelvisY;
         if (o.recline !== undefined) {
           pelvis.set(0, 0, 0);
-          feet[0].set(1.77, -0.05, -0.13);
-          feet[1].set(1.83, -0.04, 0.13);
+          feet[0].set(1.77, 0.13, -0.13);
+          feet[1].set(1.83, 0.14, 0.13);
+        }
+        if (o.feet) {
+          for (let j = 0; j < 2; j++) feet[j].copy(o.feet[j]);
         }
         const hips = [
           pelvis.clone().add(V(-0.12, 0, -0.12)),
@@ -352,7 +388,9 @@
         for (let j = 0; j < 2; j++) {
           const dx = feet[j].x - hips[j].x,
             dz = feet[j].z - hips[j].z,
-            limit = Math.sqrt(Math.max(0.01, 1.9 ** 2 - dx * dx - dz * dz));
+            limit = Math.sqrt(
+              Math.max(0.01, (medical ? 2.28 : 1.9) ** 2 - dx * dx - dz * dz),
+            );
           if (hips[j].y - feet[j].y > limit) {
             const drop = hips[j].y - feet[j].y - limit;
             pelvis.y -= drop;
@@ -405,12 +443,26 @@
             .clone()
             .add(V(0.94 * faceDirection, -0.4 + Math.sin(t * 7) * 0.04, 0.16));
         }
+        if (o.press) wrists[0] = shoulder.clone().add(V(0.9, -1.2, -0.16));
+        if (o.point) {
+          wrists[1] = shoulder.clone().add(V(2.25 * faceDirection, 0.18, 0.16));
+        }
+        if (o.hold) {
+          wrists[1] = headPos.clone().add(V(1.05 * faceDirection, -0.35, 0.2));
+        }
         if (o.raise) {
-          wrists[1] = shoulder.clone().add(V(0.85 * faceDirection, 0.95, 0.1));
+          wrists[1] = shoulder
+            .clone()
+            .add(V(0.85 * faceDirection, o.high ? 1.6 : 0.95, 0.1));
         }
         if (bodyAngle !== null) {
           wrists = [V(-1, 0.55, -0.16), V(-0.35, -0.05, 0.16)];
-          if (o.think) wrists[0] = headPos.clone().add(V(0.2, 0.65, -0.16));
+          const q = clamp((bodyAngle - 0.35) / 0.5);
+          wrists = [
+            V(mix(-0.65, -0.9, q), mix(0.75, 0.1, q), -0.16),
+            V(mix(-0.55, -0.08, q), mix(0.72, 1.5, q), 0.16),
+          ];
+          if (o.restArms) wrists[1] = V(0.35, 0.13, 0.16);
         }
         if (o.hands)
           for (let j = 0; j < 2; j++)
@@ -420,22 +472,26 @@
           const leg = ik(
             hips[j],
             feet[j],
-            0.96,
-            0.96,
+            legLengths[0],
+            legLengths[1],
             V(0.8 * faceDirection, 0.05, 0.01),
           );
           const arm = ik(
             shoulders[j],
             wrists[j],
-            0.8,
-            0.78,
-            V(0.1 * faceDirection, -1, 0.3),
+            armLengths[0],
+            armLengths[1],
+            V(-0.6 * faceDirection, -0.6, 0.02),
           );
           chains.push(leg, arm);
           between(legs[j][0], leg.a, leg.q, 0.075);
           between(legs[j][1], leg.q, leg.b, 0.07);
-          between(arms[j][0], arm.a, arm.q, 0.115);
-          between(arms[j][1], arm.q, arm.b, 0.105);
+          if (a.isPatient) {
+            arms[j][0].material = mat(0x24232c);
+            arms[j][1].material = mat(0x24232c);
+          }
+          between(arms[j][0], arm.a, arm.q, a.isPatient ? 0.06 : 0.085);
+          between(arms[j][1], arm.q, arm.b, a.isPatient ? 0.055 : 0.078);
           hands[j].position.copy(arm.b);
           shoes[j].position
             .copy(leg.b)
@@ -444,9 +500,15 @@
             const node = [leg.q, leg.a, arm.q, arm.a][k];
             joints[j * 4 + k].position.copy(node);
             joints[j * 4 + k].material = mat(
-              k < 2 ? (j ? 0x302a30 : 0x211b28) : j ? color : dark,
+              k < 2 || a.isPatient
+                ? j
+                  ? 0x302a30
+                  : 0x211b28
+                : j
+                  ? color
+                  : dark,
             );
-            joints[j * 4 + k].scale.setScalar(k < 2 ? 0.076 : 0.11);
+            joints[j * 4 + k].scale.setScalar(k < 2 ? 0.076 : 0.085);
           }
         }
         torso.position.copy(pelvis).lerp(shoulder, 0.49);
@@ -459,9 +521,19 @@
           stats.finite &&= [c.a, c.q, c.b].every((v) =>
             [v.x, v.y, v.z].every(Number.isFinite),
           );
-          stats.maxReachError = Math.max(stats.maxReachError, c.excess);
+          if (c.excess > stats.maxReachError) {
+            stats.maxReachError = c.excess;
+            stats.worstReach = {
+              t,
+              options: o,
+              a: c.a.toArray(),
+              target: c.b.toArray(),
+              patient: a.isPatient,
+              scale: a.scale,
+            };
+          }
           const lens =
-            c === chains[0] || c === chains[2] ? [0.96, 0.96] : [0.8, 0.78];
+            c === chains[0] || c === chains[2] ? legLengths : armLengths;
           stats.maxBoneError = Math.max(
             stats.maxBoneError,
             Math.abs(c.a.distanceTo(c.q) - lens[0]),
@@ -567,7 +639,7 @@
       }
       desk(-5.5, -1.3, 3.25, 2.4);
     }
-    function lab() {
+    function lab(mode = "scientist") {
       room(0x19182f, 0x24223c);
       for (let i = -9; i < 10; i += 3) {
         box(V(i, 4.4, -2.25), V(0.025, 8, 0.04), 0x4c6b96);
@@ -603,7 +675,7 @@
             );
         }
       }
-      for (const x of [-5, 0, 5]) {
+      for (const x of mode === "teleporter" ? [2.2, 7.2] : [1.4]) {
         const ring = new T.Mesh(
           new T.TorusGeometry(1, 0.025, 6, 64),
           basic(0x87e4e2),
@@ -616,43 +688,120 @@
     }
     function hospital() {
       room(0x93a8bb, 0x9eacb5);
-      windowPane(-5.5, 4.5, -2.25, 2.5, 4.7, false);
-      box(V(-2.6, 1.05, 0.1), V(5.9, 0.2, 1.5), 0xd7e8eb);
-      box(V(-2.6, 1.24, 0.1), V(5.4, 0.3, 1.35), 0xf4f3ec);
+      box(V(-5.5, 4.5, -2.3), V(2.7, 4.9, 0.12), 0xc4d8dd);
+      box(V(-5.5, 4.5, -2.2), V(2.5, 4.7, 0.06), 0xe6ecdd);
+      for (let i = 0; i < 18; i++)
+        box(
+          V(-5.5, 2.2 + i * 0.25, -2.12),
+          V(2.5, 0.022, 0.02),
+          0xa6b8bd,
+          world,
+          false,
+        );
+      segment(V(-0.5, 0.2, 1), V(-0.5, 4.6, 1), 0.027, 0xb3c8cc);
+      segment(V(-0.8, 4.6, 1), V(-0.15, 4.6, 1), 0.025, 0xb3c8cc);
+      box(V(-0.5, 4.1, 1), V(0.35, 0.65, 0.16), 0xd0e7e4);
+      const bedStart = world.children.length;
+      box(V(-2.6, 1.05, 0.1), V(5.9, 0.13, 1.5), 0xd7e8eb);
+      box(V(-2.6, 1.24, 0.1), V(5.4, 0.23, 1.35), 0xf4f3ec);
       for (const x of [-5.3, 0.1]) {
         box(V(x, 0.7, 0.1), V(0.16, 1.5, 1.6), 0xb2cbd6);
         for (const z of [-0.65, 0.75])
           sphere(V(x, 0.15, z), V(0.12, 0.12, 0.08), 0x5a6876);
       }
+      box(V(-2.0, 1.42, 0.12), V(3.2, 0.12, 1.35), 0xd9e5ec);
+      sphere(V(-4.7, 1.51, 0.1), V(0.6, 0.13, 0.6), 0xf4f1e7);
+      for (let z of [-0.65, 0.75]) {
+        segment(V(-5.3, 1.2, z), V(-5.3, 2.0, z), 0.045, 0xd2e1df);
+        segment(V(0.1, 1.2, z), V(0.1, 2.0, z), 0.045, 0xd2e1df);
+        segment(V(-5.3, 2.0, z), V(-4.5, 2.0, z), 0.045, 0xd2e1df);
+      }
+      const bed = new T.Group(),
+        bedParts = world.children.slice(bedStart);
+      for (const o of bedParts) bed.add(o);
+      world.add(bed);
+      props.push({ bed, supportY: null });
       box(V(-6.4, 1.1, 0.2), V(1.1, 2.2, 1.1), 0xdce2df);
       box(V(-4.6, 5, -2), V(1.8, 1.25, 0.1), 0x234a52);
       text("72  ∿∿", V(-4.6, 5.05, -1.9), 1.6, 0.7, "#81e7b1");
       box(V(-3.5, 4, -2), V(8, 0.16, 0.13), 0xf3f1df);
       clock(5.5, 7);
     }
-    function bedRoom() {
-      room(0x51405b, 0x61516a);
-      windowPane(-1, 4.3, -2.3, 6.8, 5.1, false);
-      for (let j = 0; j < 18; j++) {
-        const x = -4 + j * 0.39;
+    function bedRoom(action = "study") {
+      room(0x312a43, 0x51404a);
+      const bx =
+          action === "study" ? -5.7 : action === "phone-in-bed" ? 1 : 1.4,
+        wx = action === "study" ? -0.7 : action === "phone-in-bed" ? 9 : 3.6,
+        wz = -2.3;
+      box(V(wx, 4.4, wz), V(7.5, 5.8, 0.12), 0x161b36);
+      box(V(wx, 4.4, wz + 0.09), V(7.3, 5.6, 0.03), 0x343451, world, false);
+      for (let j = 0; j < 24; j++) {
+        const h = 0.7 + ((j * 13) % 12) * 0.13,
+          x = wx - 3.5 + j * 0.3;
         box(
-          V(x, 1.6 + ((j * 13) % 7) * 0.1, -2.1),
-          V(0.3, 1.2 + ((j * 7) % 4) * 0.2, 0.1),
-          0x272943,
+          V(x, 1.8 + h * 0.5, wz + 0.13),
+          V(0.27, h, 0.025),
+          0x25233f,
           world,
           false,
         );
+        for (let y = 1.8; y < 1.8 + h; y += 0.22)
+          for (let q of [-0.065, 0.065])
+            box(
+              V(x + q, y, wz + 0.15),
+              V(0.025, 0.04, 0.015),
+              0xb39d78,
+              world,
+              false,
+            );
       }
-      box(V(-5.7, 1, 0.4), V(4.1, 0.4, 2), 0x807d9d);
-      box(V(-5.7, 1.25, 0.4), V(4.1, 0.2, 2), 0xa3a3bb);
-      for (const x of [-7.7, -3.7])
-        box(V(x, 0.7, 0.4), V(0.16, 1.6, 2.15), 0x51445d);
-      desk(3.5, 0.2, 2.45, 3);
-      chair(2.2, 0.2);
-      box(V(3.8, 3.6, -0.2), V(1.4, 1.1, 0.13), 0x8a90a2);
-      box(V(3.8, 3.6, -0.1), V(1.25, 0.95, 0.04), 0xcfdfdc);
-      text("01 02 03 04 05", V(3.8, 3.8, -0.05), 1.2, 0.22, "#668491");
-      box(V(6.8, 3.4, -2.25), V(2, 6.6, 0.15), 0xcca77d);
+      for (const x of [wx - 3.7, wx, wx + 3.7])
+        box(V(x, 4.4, wz + 0.2), V(0.06, 5.8, 0.03), 0x26243a);
+      for (const y of [3.1, 5.0, 7.25])
+        box(V(wx, y, wz + 0.22), V(7.5, 0.055, 0.03), 0x26243a);
+      sphere(
+        V(wx - 2.2, 6.4, wz + 0.17),
+        V(0.12, 0.22, 0.02),
+        0xf3ecd0,
+        world,
+        false,
+      );
+      for (const x of [wx - 3.9, wx + 3.9])
+        for (let j = 0; j < 5; j++)
+          box(
+            V(x + (j - 2) * 0.13, 4.2, -2.0),
+            V(0.2, 6.2, 0.15),
+            j % 2 ? 0x653a61 : 0x754968,
+            world,
+            false,
+          );
+      box(V(bx, 1.0, 0.4), V(7.3, 0.4, 2), 0x686179);
+      box(V(bx, 1.27, 0.4), V(7.3, 0.22, 2), 0x9e98b0);
+      box(V(bx + 2.7, 1.48, 0.4), V(1.8, 0.22, 2.05), 0x3b435a);
+      sphere(V(bx - 2.7, 1.48, 0.4), V(0.7, 0.15, 0.7), 0xd7d1df);
+      for (const x of [bx - 3.6, bx + 3.6])
+        box(V(x, 0.75, 0.4), V(0.14, 1.8, 2.1), 0x51445d);
+      const lamp = bx - 4.3;
+      box(V(lamp, 0.65, -0.2), V(0.8, 1.3, 0.65), 0x4d3f4e);
+      segment(V(lamp, 1.3, -0.2), V(lamp, 2.6, -0.2), 0.027, 0xbb9f83);
+      const shade = mesh(new T.CylinderGeometry(0.3, 0.42, 0.5, 20), 0xe7c490);
+      shade.position.set(lamp, 2.7, -0.2);
+      const painting = action === "phone-in-bed" ? bx + 0.3 : bx - 2.4;
+      box(V(painting, 5.0, -2.1), V(1.9, 1.5, 0.1), 0xc8b69c);
+      box(V(painting, 5, -2.02), V(1.65, 1.28, 0.03), 0x59516d, world, false);
+      sphere(
+        V(painting + 0.1, 5, -1.98),
+        V(0.22, 0.15, 0.02),
+        0xc6bdba,
+        world,
+        false,
+      );
+      desk(5.5, 0.2, 2.45, 3);
+      chair(4.2, 0.2);
+      box(V(5.8, 3.6, -0.2), V(1.4, 1.1, 0.13), 0x8a90a2);
+      box(V(5.8, 3.6, -0.1), V(1.25, 0.95, 0.04), 0xcfdfdc);
+      text("01 02 03 04 05", V(5.8, 3.8, -0.05), 1.2, 0.22, "#668491");
+      box(V(8, 3.4, -2.25), V(2, 6.6, 0.15), 0xb88f70);
     }
     function sky(top, bottom) {
       const c = document.createElement("canvas");
@@ -669,20 +818,54 @@
     function campus() {
       sky("#90a8bf", "#f2dfb9");
       box(V(0, -0.12, -8), V(34, 0.2, 40), 0xc1b495, world, false);
-      box(V(0, 1.6, -4), V(28, 3.2, 0.4), 0xb96f53);
+      box(V(0, 3.0, -4), V(28, 6, 0.5), 0xb96f53);
+      for (let y of [1.2, 3.0, 4.8])
+        for (let x = -12; x < 12; x += 1.4) {
+          box(V(x, y, -3.69), V(0.52, 0.92, 0.09), 0x3e4b66);
+          box(V(x, y - 0.5, -3.62), V(0.66, 0.055, 0.11), 0xdfc7a5);
+        }
+      box(V(0, 6.08, -4), V(28.4, 0.18, 0.7), 0xe7d7ba);
+      for (let x = -11; x < 12; x += 2.8)
+        box(V(x, 3, -3.59), V(0.13, 6, 0.11), 0xd8c5ac);
+      box(V(0, 0.025, 2), V(32, 0.05, 7), 0xa2b377);
+      box(V(0, 0.06, 1.5), V(32, 0.07, 1.5), 0xe0d5b7);
+      const rotunda = new T.Group();
+      world.add(rotunda);
+      const drum = mesh(
+        new T.CylinderGeometry(2.3, 2.3, 5.4, 36),
+        0xd9d7c0,
+        rotunda,
+      );
+      drum.position.set(-8, 2.7, -3.2);
+      sphere(V(-8, 5.5, -3.2), V(2.5, 0.8, 2.5), 0xe3dfc9, rotunda);
+      for (let i = 0; i < 8; i++) {
+        const a = (Math.PI * i) / 7;
+        segment(
+          V(-8 + Math.cos(a) * 2.32, 0.3, -3.2 + Math.sin(a) * 2.32),
+          V(-8 + Math.cos(a) * 2.32, 4.8, -3.2 + Math.sin(a) * 2.32),
+          0.11,
+          0xf0ead8,
+          rotunda,
+        );
+      }
+
       for (let j = 0; j < 18; j++)
         box(V(-12 + j * 1.4, 2, -3.75), V(0.48, 1, 0.1), 0x4e5269);
-      box(V(-2, 4.2, -3.8), V(1.7, 6, 0.6), 0xc8997e);
-      clock(-2, 6.3, -3.4);
+      box(V(6, 4.2, -3.8), V(2.4, 8.4, 0.8), 0xc8997e);
+      box(V(6, 8.5, -3.8), V(2.7, 0.15, 1), 0xe7d7ba);
+      clock(6, 7.0, -3.3);
       for (const x of [-6, 1.8, 6]) {
         box(V(x, 1.2, -1.8), V(0.09, 2.4, 0.09), 0x736347);
         sphere(V(x, 3, -1.8), V(0.8, 1, 0.6), 0x87ac65);
       }
     }
-    function city(interior = false) {
-      sky("#896b91", "#f8cba3");
+    function city(shot = {}) {
+      sky("#d9a68b", "#ffddab");
       box(V(0, -0.13, -20), V(14, 0.22, 90), 0x565967, world, false);
-      for (let side of [-1, 1]) {
+      const sideView = ["crosswalk", "roadside", "roadside-low"].includes(
+        shot.camera,
+      );
+      for (let side of sideView ? [-1] : [-1, 1]) {
         box(V(side * 7, 0.04, -23), V(3, 0.22, 90), 0xbbaf9f);
         for (let i = 0; i < 12; i++) {
           const z = -i * 5,
@@ -725,14 +908,44 @@
               world,
               false,
             );
-          for(let level=2.8;level<h;level+=1.5)for(const dz of [-1.5,0,1.5]) {
-          box(V(side*6.96,level,z+dz),V(.025,.95,.72),0x50566b,world,false);
-          box(V(side*6.93,level-.51,z+dz),V(.04,.055,.86),0xe0c9b4,world,false);
-        }
-        box(V(side*6.9,1.1,z),V(.04,1.8,4.65),0x484b5b,world,false);
-        box(V(side*6.6,2.15,z),V(.7,.25,4.95),i%2?0xc28d57:0x759c85);
-        for(let q=-2.2;q<2.5;q+=.6)box(V(side*6.6,2.17,z+q),V(.74,.26,.28),0xe7cd92,world,false);
-        if (i % 2 === 0) {
+          for (let level = 2.8; level < h; level += 1.5)
+            for (const dz of [-1.5, 0, 1.5]) {
+              box(
+                V(side * 6.96, level, z + dz),
+                V(0.025, 0.95, 0.72),
+                0x50566b,
+                world,
+                false,
+              );
+              box(
+                V(side * 6.93, level - 0.51, z + dz),
+                V(0.04, 0.055, 0.86),
+                0xe0c9b4,
+                world,
+                false,
+              );
+            }
+          box(
+            V(side * 6.9, 1.1, z),
+            V(0.04, 1.8, 4.65),
+            0x484b5b,
+            world,
+            false,
+          );
+          box(
+            V(side * 6.6, 2.15, z),
+            V(0.7, 0.25, 4.95),
+            i % 2 ? 0xc28d57 : 0x759c85,
+          );
+          for (let q = -2.2; q < 2.5; q += 0.6)
+            box(
+              V(side * 6.6, 2.17, z + q),
+              V(0.74, 0.26, 0.28),
+              0xe7cd92,
+              world,
+              false,
+            );
+          if (i % 2 === 0) {
             const xx = side * 6.2;
             segment(V(xx, 0.2, z), V(xx, 3.6, z), 0.07, 0x796b5a);
             for (let q = 0; q < 3; q++)
@@ -783,10 +996,44 @@
           world,
           false,
         );
+      for (const side of [-1, 1]) {
+        segment(
+          V(side * 5.7, 0, 0.6),
+          V(side * 5.7, 5.4, 0.6),
+          0.045,
+          0x343d49,
+        );
+        box(V(side * 5.7, 4.8, 0.6), V(0.32, 0.85, 0.3), 0x252c34);
+        sphere(V(side * 5.7, 5.0, 0.79), V(0.085, 0.085, 0.025), 0x63c68f);
+        sphere(V(side * 5.7, 4.65, 0.79), V(0.085, 0.085, 0.025), 0x883b45);
+      }
       const car = new T.Group();
       world.add(car);
-      box(V(0, 0.65, 0), V(1.85, 0.65, 3.5), 0x86a7a1, car);
-      box(V(0, 1.21, -0.25), V(1.65, 0.6, 1.8), 0x86a7a1, car);
+      const profile = new T.Shape();
+      [
+        [-1.8, 0.48],
+        [-1.8, 0.84],
+        [-1.2, 0.97],
+        [-0.65, 1.43],
+        [0.65, 1.43],
+        [1.15, 1.0],
+        [1.8, 0.88],
+        [1.8, 0.48],
+      ].forEach(([x, y], i) =>
+        i ? profile.lineTo(x, y) : profile.moveTo(x, y),
+      );
+      profile.closePath();
+      const bodyGeo = new T.ExtrudeGeometry(profile, {
+        depth: 1.8,
+        bevelEnabled: true,
+        bevelSize: 0.06,
+        bevelThickness: 0.03,
+        bevelSegments: 2,
+        steps: 1,
+      });
+      bodyGeo.translate(0, 0, -0.9);
+      bodyGeo.rotateY(Math.PI / 2);
+      mesh(bodyGeo, 0x888c8a, car, true);
       box(V(0, 1.27, 0.68), V(1.45, 0.46, 0.02), 0x323c4e, car, false);
       for (let x of [-0.82, 0.82]) {
         box(V(x, 1.27, -0.23), V(0.02, 0.4, 1.55), 0x3f4c5a, car, false);
@@ -920,8 +1167,8 @@
           );
       }
       box(V(0, 1, 1), V(12, 1.3, 2), 0x35323d);
-      box(V(-2.4, 2, 0.6), V(1.9, 3.9, 0.8), 0x282633);
-      box(V(-2.4, 3.7, 0.65), V(1.3, 1.1, 0.7), 0x2f2b38);
+      box(V(-2.4, 1.3, 0.6), V(1.6, 2.7, 0.8), 0x282633);
+      box(V(-2.4, 2.6, 0.65), V(1.2, 0.8, 0.7), 0x2f2b38);
       const steering = new T.Mesh(
         new T.TorusGeometry(0.65, 0.06, 8, 32),
         mat(0x252532),
@@ -960,7 +1207,7 @@
         classroom(kind === "exam");
       else if (kind === "brain") brain();
       else if (kind === "lab") {
-        lab();
+        lab(shot.camera);
         if (shot.camera === "scientist") {
           const holo = new T.Mesh(
             new T.CylinderGeometry(1.1, 0.62, 2.5, 32, 1, true),
@@ -976,6 +1223,17 @@
           world.add(holo);
           const m = new T.Group();
           m.position.set(1.4, 3.5, 0.2);
+          const holoRing = new T.Mesh(
+            new T.TorusGeometry(1.08, 0.035, 8, 96),
+            new T.MeshBasicMaterial({
+              color: 0x68f4ba,
+              transparent: true,
+              opacity: 0.8,
+            }),
+          );
+          holoRing.position.copy(m.position);
+          holoRing.position.z += 0.2;
+          world.add(holoRing);
           world.add(m);
           sphere(V(), V(0.13, 0.13, 0.13), 0xe77f93, m);
           for (let i = 0; i < 7; i++) {
@@ -989,10 +1247,60 @@
           }
           props.push({ molecule: m });
         } else {
-          box(V(-3.2, 1.25, 1), V(0.8, 2.5, 0.6), 0x66788f);
+          const portal = new T.Group();
+          world.add(portal);
+          for (let j = 0; j < 3; j++) {
+            const ring = new T.Mesh(
+              new T.TorusGeometry(1.45 + j * 0.12, 0.018, 6, 96),
+              new T.MeshBasicMaterial({
+                color: j % 2 ? 0x6278bc : 0x6bcce8,
+                transparent: true,
+                opacity: 0.5,
+              }),
+            );
+            ring.position.set(4.7, 4.0, -1.5);
+            portal.add(ring);
+          }
+          const beams = [];
+          for (const x of [2.2, 7.2]) {
+            const beam = new T.Mesh(
+              new T.CylinderGeometry(0.83, 0.83, 1.85, 32, 1, true),
+              new T.MeshBasicMaterial({
+                color: 0x9be6ff,
+                transparent: true,
+                opacity: 0,
+                side: T.DoubleSide,
+                depthWrite: false,
+                blending: T.AdditiveBlending,
+              }),
+            );
+            beam.position.set(x, 1.01, 0);
+            world.add(beam);
+            beams.push(beam);
+          }
+          const sparkles = [];
+          for (let j = 0; j < 28; j++) {
+            const q = sphere(
+              V(
+                2.2 + Math.sin(j * 2.4) * 0.5,
+                0.3 + (j % 8) * 0.2,
+                Math.cos(j * 2.4) * 0.3,
+              ),
+              V(0.025, 0.025, 0.025),
+              0xd4f6ff,
+            );
+            q.material = new T.MeshBasicMaterial({
+              color: 0xd5f6ff,
+              transparent: true,
+              opacity: 0,
+            });
+            sparkles.push(q);
+          }
+          props.push({ teleport: { beams, sparkles } });
+          box(V(0.4, 1.25, 1), V(0.8, 2.5, 0.6), 0x66788f);
           for (let i = 0; i < 4; i++)
             sphere(
-              V(-3.5 + i * 0.18, 2.5, 1.2),
+              V(0.1 + i * 0.18, 2.5, 1.2),
               V(0.06, 0.05, 0.06),
               i % 2 ? 0xf5cf7e : 0x84bda5,
             );
@@ -1001,10 +1309,15 @@
         hospital();
       else if (kind === "entrance") homeEntrance();
       else if (kind === "meal") mealRoom();
-      else if (["bedroom", "desk"].includes(kind)) bedRoom();
+      else if (["bedroom", "desk"].includes(kind)) bedRoom(shot.action);
       else if (kind === "campus" || kind === "friends") campus();
       else if (kind === "discharge") {
         room(0x9eaeba, 0xb2bec2);
+        box(V(-5.5, 1.4, -0.2), V(4, 2.8, 1.5), 0xc0d3d8);
+        box(V(-5.5, 2.85, -0.2), V(4.2, 0.15, 1.8), 0xe4e6d9);
+        box(V(-5.7, 3.4, -0.5), V(1.2, 0.8, 0.1), 0x434e64);
+        box(V(-5.7, 3.4, -0.42), V(1.07, 0.65, 0.04), 0x8aa7b3);
+        text("+ →", V(-4, 6.7, -2), 2, 0.6, "#f6f9ef", "#3b6f94");
         box(V(4.3, 3.4, -2.2), V(3.3, 6.8, 0.15), 0xe9e3c8);
         box(V(4.3, 3.3, -2.1), V(2.9, 6.3, 0.1), 0xf7eac7);
         text("EXIT →", V(4.3, 6.8, -2), 2, 0.4, "#418473");
@@ -1031,7 +1344,7 @@
         camera.lookAt(0, 8.7, -1);
       } else if (kind === "car") carInterior();
       else if (kind === "pedal") pedalScene();
-      else if (["city", "street-hero"].includes(kind)) city();
+      else if (["city", "street-hero"].includes(kind)) city(shot);
       else if (kind === "atm") {
         room();
         box(V(2, 2.25, 0), V(2.2, 4.5, 0.9), 0x697391);
@@ -1146,6 +1459,16 @@
         p.rotation.z = 0.1;
         text("IQ TEST RESULT", V(0, 6.15, 4.05), 3.8, 0.5, "#294568");
         text("80", V(0, 4.3, 4.08), 3, 1.8, "#be4746");
+        const ring = new T.Mesh(
+          new T.TorusGeometry(1.22, 0.025, 8, 96),
+          basic(0xbd383d),
+        );
+        ring.position.set(0, 4.3, 4.12);
+        ring.scale.y = 0.78;
+        world.add(ring);
+        sphere(V(2.0, 1.9, 4.2), V(0.3, 0.26, 0.17), 0x25222a);
+        segment(V(2.05, 1.73, 4.15), V(3.25, 0.55, 4.15), 0.16, 0xf2c830);
+        segment(V(-3.45, 3.0, 4.15), V(-1.3, 3.6, 4.15), 0.035, 0xe6ba64);
         text("SCORE CALCULATED BY AGE", V(0, 2.1, 4.05), 3.5, 0.3, "#6c625c");
         return;
       }
@@ -1156,11 +1479,11 @@
           2,
           s.start < 20 ? "80" : "F",
           "#bd4948",
-          s.start < 20 ? "hero" : "coat",
+          "hero",
         );
       }
       if (k === "exam" && s.start >= 26) {
-        paperCard(0.1, 3.5, 1.5, "51%", "#458a69", "coat");
+        paperCard(0.1, 3.5, 1.5, "51%", "#458a69", "hero");
       }
       if (k === "classroom" || k === "exam") {
         actor({ x: -2.8, z: 1, scale: 0.95 });
@@ -1189,14 +1512,27 @@
           scale: 1.05,
           color: 0xf0f3e9,
           coat: true,
+          medical: true,
           facing: -1,
         });
       } else if (k === "discharge") {
         actor({ x: 1, z: 1, scale: 1.08 });
-        actor({ x: -1.2, z: 1, scale: 1.05, color: 0xf1f1e8, coat: true });
+        actor({
+          x: -1.2,
+          z: 1,
+          scale: 1.05,
+          color: 0xf1f1e8,
+          coat: true,
+          medical: true,
+        });
         actor({ x: 5.2, z: -1, scale: 0.85, color: 0x72b8aa });
+        actor({ x: -5.6, z: -0.7, scale: 0.95, color: 0x788ab4 });
       } else if (k === "campus" || k === "friends") {
         actor({ x: 0, z: 1, scale: 1.12 });
+        if (k === "campus") {
+          actor({ x: -3, z: 0.7, scale: 0.95, color: 0x8d7bbe });
+          actor({ x: -5, z: 0.5, scale: 0.9, color: 0x71bca6 });
+        }
         if (k === "friends") {
           actor({ x: -1.5, z: 1.1, scale: 1.05, color: 0x68b7a7 });
           actor({ x: 1.5, z: 1, scale: 1.1, color: 0xe88b8b });
@@ -1204,15 +1540,23 @@
       } else if (k === "lab") {
         actor({ x: -1, z: 1, scale: 1.12, color: 0xeaece8, coat: true });
         actor({ x: -1, z: 1, scale: 1.12 });
-        sphere(V(5, 0.28, 1), V(0.17, 0.2, 0.17), 0xdf4b57);
+        if (s.camera === "teleporter") {
+          const apple = new T.Group();
+          world.add(apple);
+          apple.position.set(7.2, 0.28, 0);
+          sphere(V(), V(0.17, 0.2, 0.17), 0xdf4b57, apple);
+          segment(V(0, 0.19, 0), V(0.02, 0.3, 0), 0.015, 0x765332, apple);
+          props.push({ teleportApple: apple });
+        }
       } else if (["bedroom", "desk", "entrance", "meal"].includes(k)) {
         actor({ x: 2.1, z: 1, scale: 1.12 });
       } else if (k === "car") {
         const driver = actor({ x: -1.1, z: 1.2, scale: 0.78, color: 0x646579 });
         driver.isDriver = true;
       } else if (k === "city") {
-        if(s.camera === "crosswalk")actor({x:-5.2,z:1,scale:1});
-      } else if (k === "pedal") {} else
+        if (s.camera === "crosswalk") actor({ x: -5.2, z: 1, scale: 1 });
+      } else if (k === "pedal") {
+      } else
         actor({
           x:
             k === "atm"
@@ -1246,11 +1590,47 @@
               a.group,
             );
           }
+          if (s.action === "fall-on-bed") continue;
           const phone = new T.Group();
           world.add(phone);
           box(V(), V(0.3, 0.56, 0.045), 0x222b42, phone);
           box(V(0, 0.02, 0.03), V(0.24, 0.44, 0.015), 0xa7cccd, phone, false);
           props.push({ phone, owner: a });
+        }
+      for (const a of actors)
+        if (
+          a.isCoat &&
+          ["hospital", "patient", "doctor", "discharge"].includes(s.kind)
+        ) {
+          const g = new T.Group();
+          world.add(g);
+          box(V(), V(0.52, 0.76, 0.035), 0x9b7753, g);
+          box(V(0, 0, 0.025), V(0.44, 0.65, 0.015), 0xf0ead9, g);
+          for (let i = 0; i < 6; i++)
+            segment(
+              V(-0.16, 0.2 - i * 0.07, 0.04),
+              V(0.15, 0.2 - i * 0.07, 0.04),
+              0.006,
+              0x71839a,
+              g,
+              false,
+            );
+          box(V(0, 0.35, 0.05), V(0.17, 0.07, 0.03), 0xc3cbd0, g);
+          props.push({ clipboard: g, owner: a });
+          const steth = new T.Mesh(
+            new T.TorusGeometry(0.17, 0.018, 6, 32, Math.PI),
+            basic(0x33434d),
+          );
+          steth.position.set(0, 0.35, 0.2);
+          steth.rotation.z = Math.PI;
+          a.torso.add(steth);
+          sphere(
+            V(0.13, 0.09, 0.21),
+            V(0.07, 0.07, 0.02),
+            0x8897a3,
+            a.torso,
+            false,
+          );
         }
     }
     function frame(global, opt = {}) {
@@ -1293,9 +1673,16 @@
               : {
                   reach: s.start > 18,
                   walk: true,
-                  travel: (Math.sin(local * 0.6) * 1.2) / a.scale,
+                  travel: (local * 1.6) / a.scale,
                 };
           if (j === 3) a.group.position.x = 4.3 - Math.sin(local * 0.6) * 1.2;
+          if (
+            j === 0 &&
+            ["show-80", "receive-f", "receive-51"].includes(s.action)
+          ) {
+            o.write = false;
+            o.hold = true;
+          }
         } else if (k === "brain") {
           o = { reach: local > 1.4 };
           for (const n of brainNodes)
@@ -1305,7 +1692,12 @@
         } else if (k === "lab") {
           a.group.visible =
             j === 0 ? s.camera === "scientist" : s.camera === "teleporter";
-          o = { reach: j === 0, think: j === 1 && local > 0.3 };
+          o = {
+            point: j === 0,
+            raise: j === 1 && local > 0.3,
+            high: true,
+            press: j === 1 && local < 0.7,
+          };
         } else if (["bedroom", "desk", "entrance", "meal"].includes(k)) {
           if (j === 1) o = {};
           else if (s.action === "fall-on-bed") {
@@ -1315,7 +1707,7 @@
               mix(0, 1.6, smooth(local, 0.2, 0.9)),
               0.5,
             );
-            a.group.rotation.z = mix(0, PI / 2, smooth(local, 0.2, 1));
+            a.group.rotation.z = mix(0, PI / 2, smooth(local, 0.2, 0.65));
           } else if (k === "desk" || k === "meal") {
             a.group.position.x = k === "meal" ? -0.2 : 2.1;
             o = { sit: true, write: k === "desk", think: k === "meal" };
@@ -1327,7 +1719,7 @@
             a.facing = 1;
           } else {
             o = { sit: true, phone: true };
-            a.group.position.set(-6, 1.15, 0.5);
+            a.group.position.set(-1.5, 1.15, 0.5);
             a.facing = -1;
           }
         } else if (k === "hospital" || k === "patient" || k === "doctor") {
@@ -1348,7 +1740,7 @@
             o = {
               raise: k === "doctor",
               reach: k === "patient",
-              walk: k === "hospital",
+              walk: k === "hospital" && local < 1.8,
               travel: (2 * smooth(local, 0.1, 2)) / a.scale,
             };
             a.group.position.x = mix(4, 2, smooth(local, 0.1, 2));
@@ -1365,16 +1757,25 @@
               travel: (smooth(local, 0.5, 2) * 2) / a.scale,
               reach: local < 0.5,
             };
-          } else o = { reach: j === 1 };
+          } else o = { reach: j === 1, sit: j === 3 };
         } else if (k === "campus" || k === "friends") {
           o = {
             walk: true,
-            travel: (local * 0.18) / a.scale,
+            travel: (local * 1.35) / 0.9 + j * 0.17,
             phone: j === 0,
             reach: j > 0 && Math.sin(local * 3 + j) > 0.5,
           };
           a.group.position.x =
-            (j === 0 ? -0.6 : j === 1 ? -2 : 1) + local * 0.18;
+            (j === 0
+              ? -0.6
+              : j === 1
+                ? k === "campus"
+                  ? -3
+                  : -2
+                : k === "campus"
+                  ? -5
+                  : 1) +
+            local * 0.18;
         } else if (k === "car") {
           o = { sit: true, reach: true };
           a.group.position.set(-1.1, 0.1, 1.2);
@@ -1382,8 +1783,8 @@
           o = {};
           a.group.position.set(-3, 0, 0);
         } else if (k === "city") {
-          o = {walk:true,travel:local*1.2};
-          a.group.position.set(-5.2+local*1.2,0,1);
+          o = { walk: true, travel: local * 1.2 };
+          a.group.position.set(-5.2 + local * 1.2, 0, 1);
         } else if (k === "atm") o = { think: local > 1 };
         else o = { reach: true };
         a.pose(local, o);
@@ -1394,7 +1795,7 @@
             s.camera === "driving" ? -2.5 : 0,
             0,
             s.camera === "crosswalk"
-              ? mix(-7, 6, smooth(local, 0, 0.4))
+              ? mix(-5.8, -3.6, smooth(local, 0, 0.4))
               : s.camera === "front"
                 ? mix(-12, 4, smooth(local, 0, 0.7))
                 : s.camera === "roadside-low"
@@ -1403,6 +1804,22 @@
                     ? mix(6, -35, smooth(local, 0, 2.4))
                     : mix(-15, 5, smooth(local, 0, 1.1)),
           );
+        }
+        if (p.teleport) {
+          const power =
+            smooth(local, 0.15, 0.6) * (1 - smooth(local, 1.0, 1.28));
+          p.teleport.beams.forEach((b) => (b.material.opacity = 0.2 * power));
+          p.teleport.sparkles.forEach((q, i) => {
+            q.material.opacity =
+              power * (0.4 + 0.6 * Math.sin(local * 12 + i) ** 2);
+            q.position.y = 0.2 + ((i * 0.071 + local * 0.7) % 1.5);
+          });
+        }
+        if (p.teleportApple) {
+          p.teleportApple.position.x = local < 0.95 ? 7.2 : 2.2;
+          const fade =
+            1 - smooth(local, 0.75, 0.94) + smooth(local, 0.96, 1.16);
+          p.teleportApple.scale.setScalar(fade);
         }
         if (p.molecule) {
           p.molecule.rotation.y = local * 1.1;
@@ -1420,6 +1837,14 @@
       CloneStaging.camera(s, local, camera);
       if (fitter && trackingEnabled) fitter.fit(t, actors, world, s);
       world.updateMatrixWorld(true);
+      for (const p of props) if (p.bed) p.bed.position.y = 0;
+      for (const p of props)
+        if (p.clipboard) {
+          p.clipboard.position
+            .copy(p.owner.hands[0].getWorldPosition(V()))
+            .add(V(0.05, 0.25, 0.1));
+          p.clipboard.quaternion.copy(camera.quaternion);
+        }
       for (const p of props)
         if (p.phone) {
           p.phone.position

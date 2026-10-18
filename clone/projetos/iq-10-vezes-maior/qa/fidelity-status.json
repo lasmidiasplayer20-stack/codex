@@ -15,22 +15,25 @@
     ],
     "fullMovieReconstructed": false,
     "exactCloneVerified": false,
-    "status": "The previous 60-second preview was visually rejected by the user. R2 rebuilds source frames 0\u2013121 only; the remaining takes are pending.",
+    "status": "R3 rebuilds the 60-second preview after the user rejected the previous version. It remains an approximate reconstruction with outstanding visual differences.",
     "unresolved": [
       "Exact 3D camera extrinsics",
       "Complete anatomical joint and contact validation",
       "Scenario detail, staging and gesture matching",
       "Editorial review and 3D reconstruction after 60 seconds"
     ],
-    "currentRevision": "revisoes/take-01-r2",
+    "currentRevision": "R3",
     "currentRebuiltRangeSeconds": [
       0,
-      4.066666666666666
+      60
     ],
-    "visuallyApproved": false
+    "visuallyApproved": false,
+    "remainingSeconds": 465.397914,
+    "supportRevision": "Patient camera anchor uses the bed position; patient pelvis stays on the mattress and the torso rotates from that support."
   },
   "rigChecks": {
-    "scope": "Finite coordinates, fixed bone lengths and unreachable-target checks. These do not certify resemblance or full object physics."
+    "scope": "Finite coordinates, fixed bone lengths and unreachable-target checks. These do not certify resemblance or full object physics.",
+    "R3": "3600 frames checked. Bone length and reach checks passed; this does not certify visual fidelity."
   },
   "cameraGaps": "Continue the measured background transform and hold the last valid subject residual during low-confidence gaps; this is prediction, not a new observation.",
   "previewRepairs": {

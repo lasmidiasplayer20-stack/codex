@@ -1,0 +1,28 @@
+{
+  "video": {
+    "width": 1280,
+    "height": 720,
+    "fps": 60,
+    "frames": 3600,
+    "durationSeconds": 60.0,
+    "webglRenderSize": [
+      960,
+      540
+    ]
+  },
+  "audio": {
+    "codec": "aac",
+    "channels": 2,
+    "sampleRate": "44100",
+    "originalAACPacketHashesMatch": true,
+    "packetTimestampsMatch": true,
+    "packets": 2584,
+    "rms": 0.0478782132267952
+  },
+  "completeDecodeErrors": 0,
+  "sha256": "538de8685aa21f93f3e5b13fb1d52c81a84f11ab198de3c1ab7fc7ee00d6ba04",
+  "bytes": 11049776,
+  "visualApproval": false,
+  "fullMovie": false,
+  "remainingSeconds": 465.3
+}

@@ -9,7 +9,7 @@ import { spawn } from "node:child_process";
 import { server as makeServer } from "./serve.mjs";
 const root = resolve(import.meta.dirname, ".."),
   mode = process.argv[2] || "audit",
-  width = mode === "audit" ? 640 : 1280,
+  width = mode === "audit" ? 640 : 960,
   begin = Date.now();
 await mkdir(root + "/qa", { recursive: true });
 const server = makeServer(root);
@@ -61,7 +61,7 @@ try {
         "-i",
         "pipe:0",
         "-vf",
-        "scale=in_range=pc:out_range=tv:out_color_matrix=bt709,format=yuv420p",
+        "scale=1280:720:flags=lanczos:in_range=pc:out_range=tv:out_color_matrix=bt709,format=yuv420p",
         "-c:v",
         "libx264",
         "-threads",

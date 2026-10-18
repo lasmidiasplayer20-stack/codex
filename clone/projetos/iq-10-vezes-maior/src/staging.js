@@ -30,11 +30,11 @@ window.CloneStaging = {
         camera.fov = 65;
       }
       if (s.camera === "roadside-low") {
-        P(5.5, 0.45, 5, 0, 1.1, -10);
+        P(6.3, 0.45, -2, -6, 1.1, -2);
         camera.fov = 64;
       }
       if (s.camera === "roadside") {
-        P(5.8, 1.2, 7, 0, 1.6, -10);
+        P(6.3, 1.3, -2, -6, 1.6, -2);
         camera.fov = 64;
       }
       if (s.camera === "front") {
@@ -42,7 +42,7 @@ window.CloneStaging = {
         camera.fov = 62;
       }
       if (s.camera === "crosswalk") {
-        P(6, 2.7, 9, 0, 2, -4);
+        P(6.3, 2.3, -2, -6, 1.8, -2);
         camera.fov = 55;
       }
     } else if (s.kind === "desk" || s.kind === "meal") {

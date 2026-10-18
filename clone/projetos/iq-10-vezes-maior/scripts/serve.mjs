@@ -19,6 +19,7 @@ export function server(root) {
           ".js": "text/javascript",
           ".json": "application/json",
           ".mp4": "video/mp4",
+          ".m4a": "audio/mp4",
           ".gz": "application/gzip",
           ".jpg": "image/jpeg",
         };

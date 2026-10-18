@@ -87,9 +87,10 @@
     <audio
       id="audio"
       preload="metadata"
-      src="previas/preview-60s-720p60.mp4"
+      src="audio/preview-original.m4a"
     ></audio>
     <script src="vendor/three.min.js"></script>
+    <script src="opening/opening.js"></script>
     <script src="src/materials.js"></script>
     <script src="src/reference-fit.js"></script>
     <script src="src/timeline.js"></script>
@@ -101,9 +102,28 @@
         film = (window.film = CloneFilm.create({ width: 1280, height: 720 })),
         audio = $("audio");
       $("stage").appendChild(film.canvas);
-      film.useTracking(
-        await (await fetch("tracking/calibration-first-minute.json")).json(),
+      const rows = await (
+          await fetch("tracking/calibration-first-minute.json")
+        ).json(),
+        refined = await (await fetch("tracking/refined-r3.json")).json();
+      rows.forEach((r, i) => (r.refined = refined[i]));
+      film.useTracking(rows);
+      const opening = Opening.create(
+        await (await fetch("opening/data.json")).json(),
+        { width: 1280 },
       );
+      opening.canvas.style.display = "none";
+      const originalFrame = film.frame,
+        output = film.canvas,
+        ox = output.getContext("2d");
+      film.frame = (t, opt = {}) => {
+        if (t < 122 / 30) {
+          const r = opening.frame(t, opt);
+          if (opt.draw !== false) ox.drawImage(opening.canvas, 0, 0);
+          return { ...r, shot: 0, kind: "brain" };
+        }
+        return originalFrame(t, opt);
+      };
       let playing = false,
         t = 0,
         wall = 0,

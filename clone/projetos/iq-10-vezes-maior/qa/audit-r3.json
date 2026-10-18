@@ -1,0 +1,31 @@
+{
+  "stats": {
+    "frames": 3356,
+    "finite": true,
+    "maxBoneError": 2.4424906541753444e-15,
+    "maxReachError": 0
+  },
+  "tracking": {
+    "frames": 3356,
+    "cameraAnchors": 25,
+    "headFits": 2772,
+    "wristFits": 475,
+    "missingSubject": 560,
+    "maxHeadErrorPx": 16.05037031289055,
+    "independentCamera": true,
+    "worst": {
+      "frame": 1521,
+      "take": 30,
+      "kind": "patient"
+    }
+  },
+  "errors": [],
+  "rangeFrames": [
+    2676,
+    3599
+  ],
+  "mode": "all-frame structural audit with revised tail render",
+  "simulatedFrames": 3600,
+  "passed": true,
+  "visualApproval": false
+}
