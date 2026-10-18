@@ -107,7 +107,7 @@ export class Character {
     this.sources.updateWorldMatrix(true,true);const inverse=this.group.matrixWorld.clone().invert(),matrix=new THREE.Matrix4();
     for(const {inst,meshes} of this.batches){meshes.forEach((m,i)=>{matrix.multiplyMatrices(inverse,m.matrixWorld);inst.setMatrixAt(i,matrix);});inst.instanceMatrix.needsUpdate=true;}
   }
-  pose({time=0,rootX=0,rootY=0,rootZ=0,facing=.1,action='stand',phase=0,energy=1,side=1,walkSpeed=.65,seatHeight=.65,rightHandWorld=null,leftHandWorld=null}={}){
+  pose({time=0,rootX=0,rootY=0,rootZ=0,facing=.1,action='stand',phase=0,energy=1,side=1,walkSpeed=.65,seatHeight=.65,rightHandWorld=null,leftHandWorld=null,handTargetWeight=1}={}){
     const local=time;const wave=Math.sin(local*2.3);const gait=local*5.7;
     let walk=action==='walk'||action==='stumble'||action==='confused';
     let seated=['write','exam','test','type','study','phoneSit','talkSit','sleep','wake'].includes(action);
@@ -115,7 +115,7 @@ export class Character {
     const lying=action==='sleep';const rising=action==='wake'?smooth(phase):0;
     const pelvis=V(0,seated?seatHeight+.14:1.18,0);
     if(walk)pelvis.y=1.12+.025*Math.cos(gait*2);
-    if(bend)pelvis.y-=bend*.8;
+    if(bend)pelvis.y-=bend*(['pickup','place'].includes(action)?1.3:.8);
     let angle=-bend*side;
     if(action==='tired'||action==='confused')angle=-.16;
     if(lying){pelvis.set(0,1.03,0);angle=Math.PI/2;}
@@ -154,7 +154,7 @@ export class Character {
     if(action==='surprise'){hands=shoulders.map((p,i)=>p.clone().add(V((i?1:-1)*.34,.3,.1)));}
     if(lying){hands=[V(-.12,1.08,-.28),V(-.12,1.08,.28)];}
     if(action==='wake')hands=[V(-.12,1.08,-.28).lerp(V(-.12,1.3,.45),rising),V(-.12,1.08,.28).lerp(V(.26,1.3,.45),rising)];
-    for(const [i,target] of [[0,leftHandWorld],[1,rightHandWorld]])if(target){const d=V(...target).sub(V(rootX,rootY,rootZ));hands[i]=V(d.x*Math.cos(facing)-d.z*Math.sin(facing),d.y,d.x*Math.sin(facing)+d.z*Math.cos(facing));}
+    for(const [i,target] of [[0,leftHandWorld],[1,rightHandWorld]])if(target){const d=V(...target).sub(V(rootX,rootY,rootZ));hands[i].lerp(V(d.x*Math.cos(facing)-d.z*Math.sin(facing),d.y,d.x*Math.sin(facing)+d.z*Math.cos(facing)),handTargetWeight);}
     this.arms.forEach((a,i)=>{
       const p=shoulders[i];const pole=lying?V(0,1,i?1:-1):V(i?1:-1,.30,-.25);const ik=solveIK(p,hands[i],.39,.39,pole);
       a.upper.userData.set(p,ik.joint);a.lower.userData.set(ik.joint,ik.end);a.hand.position.copy(ik.end);a.target.copy(ik.end);

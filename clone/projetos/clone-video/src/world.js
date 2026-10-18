@@ -22,7 +22,7 @@ function window(g,x,y,w=2.2,h=2.5,night=false){
   else for(let i=0;i<16;i++)box(g,x-w*.45+(i%8)*w*.12,y-h*.35+Math.floor(i/8)*.25,-1.68,.035,.045,.015,0xc6a88a);
 }
 export function chair(g,x,z=.2,c=0x71544a,facing=0){const seat=new THREE.Group();seat.position.set(x,0,z);seat.rotation.y=facing;g.add(seat);box(seat,0,.61,0,.65,.08,.63,c);box(seat,0,.99,-.28,.65,.7,.065,c);for(const a of [-.26,.26])for(const b of [-.24,.24])box(seat,a,.30,b,.045,.60,.045,0x35313e);}
-export function desk(g,x,y=1.12,z=.38,w=2,c=0xb58b5f){box(g,x,y,z,w,.10,.85,c);for(const a of [-w*.43,w*.43])for(const b of [-.32,.32])box(g,x+a,y/2,z+b,.055,y,.055,0x4a414c);}
+export function desk(g,x,y=1.12,z=.38,w=2,c=0xb58b5f,facing=0){const frame=new THREE.Group();frame.position.set(x,0,z);frame.rotation.y=facing;g.add(frame);box(frame,0,y,0,w,.10,.85,c);for(const a of [-w*.43,w*.43])for(const b of [-.32,.32]){const leg=box(frame,a,y/2,b,.055,y,.055,0x4a414c);leg.name='desk-leg';}return frame;}
 export function book(g,x,y,z,c=0x4f8796,w=.35){box(g,x,y,z,w,.07,.23,c);box(g,x,y+.007,z+.003,w*.93,.04,.235,0xeee7d6);}
 function shelf(g,x){for(let j=0;j<5;j++){box(g,x,.35+j*.66,-1.35,1.05,.07,.4,0x8f6852);for(let i=0;i<6;i++)box(g,x-.4+i*.15,.59+j*.66,-1.35,.105,.40+Math.sin(i+j)*.07,.22,[0xc78b58,0x5d839b,0x8d738d,0x91a66b,0xc6b381][(i+j)%5]);}box(g,x-.53,1.7,-1.35,.06,3.4,.4,0x7d5d48);box(g,x+.53,1.7,-1.35,.06,3.4,.4,0x7d5d48);}
 function lamp(g,x,y,z){rod(g,[x,y,z],[x,y+.46,z],.018,0x666177);const shade=new THREE.Mesh(new THREE.ConeGeometry(.20,.28,16,1,true),mat(0xf6d59b));shade.position.set(x,y+.5,z);g.add(shade);}
@@ -97,7 +97,7 @@ export function buildSet(name,shot){
   sky(group,dark||['brain','network','neuron','lab','money','world','news'].includes(name));
   if(!outdoor&&!['brain','network','neuron','black','world','news','equations'].includes(name))room(group,['hospital','scanner','research'].includes(name)?0x8d9eae:name==='office'?0x9297a5:dark?0x373348:0x8b7682);
   switch(name){
-    case 'classroom':window(group,-3,2.1,1.65,2.5,false);board(group,shot.board);clock(group,-.7,3.5);for(const [x,z] of [[-3.45,-.75],[-1.25,.18],[2.2,-.65]]){desk(group,x+1.1,1.14,z,1.6);chair(group,x,z,0x71544a,1.1);}break;
+    case 'classroom':window(group,-3,2.1,1.65,2.5,false);board(group,shot.board);clock(group,-.7,3.5);for(const [x,z] of [[-3.45,-.75],[-1.25,.18],[2.2,-.65]]){desk(group,x+.87*Math.sin(1.1),1.14,z+.87*Math.cos(1.1),1.35,0xb58b5f,1.1);chair(group,x,z,0x71544a,1.1);}break;
     case 'campus':case 'graduation':campus(group,name==='graduation');break;
     case 'lab':lab(group);break;
     case 'science':for(let i=0;i<3;i++)monitor(group,-2.8+i*2.1,2.6,-1.5,1.8,['DNA · GENETICS','NEURAL CONNECTIVITY','PERFORMANCE'][i]);desk(group,0,1,-1.2,9);for(let i=0;i<8;i++)box(group,2.3+i*.22,1.25,-1.1,.10,.45,.10,[0x78a8b6,0xb17b9d,0x8cba98][i%3]);break;
@@ -109,7 +109,7 @@ export function buildSet(name,shot){
     case 'vending':window(group,-2.7,2,2,2.5,true);box(group,1,.0+1.55,-.7,1.45,3.0,.75,0x5b6b81);box(group,1,1.88,-.29,1.15,1.8,.025,0x192f43);label(group,'CAMPUS CREDIT UNION\n\n$0.00',1,2.2,-.25,1.0,.9,{size:70});for(let j=0;j<3;j++)for(let i=0;i<3;i++)box(group,.7+i*.25,1.3-j*.16,-.23,.15,.08,.02,0xa1b5ba);break;
     case 'document':makeDocument(group,shot.paper);break;
     case 'screens':for(let i=0;i<4;i++){monitor(group,-2.2+(i%2)*4.4,1.25+Math.floor(i/2)*1.8,-1,3.6,['PIPELINE EFFICIENCY','SUPERCOMPUTING','ADVANCED MANUFACTURING','LARGE-SCALE LABORATORIES'][i]);}break;
-    case 'meeting':window(group,0,2.2,8,2.6,true);desk(group,0,1.1,.0,5,0x6d5862);for(const x of [-2,0,2])chair(group,x,-.25);break;
+    case 'meeting':window(group,0,2.2,8,2.6,true);desk(group,0,1.1,.0,5,0x6d5862);for(const x of [-1.7,0,1.7])chair(group,x,-.9);break;
     case 'rooftop':for(let i=0;i<15;i++){const h=1+(i%4)*.5;box(group,-7+i,h/2,-4,1,h,.6,0x494362);for(let k=0;k<7;k++)box(group,-7+i-.25+(k%2)*.45,.25+Math.floor(k/2)*.42,-3.66,.08,.10,.02,0xbaabb7);}box(group,0,-.1,0,14,.20,7,0x8a8394);platform(group,0,.3);break;
     case 'living':window(group,2,2.2,3,2.4,true);box(group,0,.37,-.7,4.0,.45,1.0,0x6d7f99);box(group,0,.96,-1,4,1.0,.25,0x74869f);for(const x of [-2,2])box(group,x,.73,-.7,.25,.68,1.05,0x65758e);monitor(group,3.8,2,-1,2.2,'EXCLUSIVE INTERVIEW');break;
     case 'greenscreen':box(group,0,2,-1.5,12,4,.1,0x37c65a);box(group,0,-.02,0,15,.03,7,0x46ce63);break;

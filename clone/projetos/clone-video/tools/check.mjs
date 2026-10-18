@@ -5,6 +5,7 @@ import {chromium} from 'playwright';
 import {SHOTS,DURATION} from '../src/timeline.js';
 import {solveIK,V,Character} from '../src/rig.js';
 import * as THREE from 'three';
+import {desk} from '../src/world.js';
 import {serve,ROOT} from './serve.mjs';
 let cases=0;
 for(let i=0;i<2000;i++){
@@ -24,6 +25,11 @@ for(const action of ['stand','write','walk','sleep','wake','pickup'])for(let i=0
 }
 const stance=[];for(const time of [.10,.35]){actor.pose({action:'walk',time,rootX:time*.7,walkSpeed:.7,facing:1});actor.group.updateMatrixWorld(true);stance.push(actor.legs[0].foot.position.clone().applyMatrix4(actor.group.matrixWorld));}
 assert.ok(stance[0].distanceTo(stance[1])<1e-7,'Foot slides during stance');
+actor.pose({action:'pickup',phase:.5,rootX:-2.13,rootZ:.8,facing:.85,rightHandWorld:[-1.65,.38,.55]});actor.group.updateMatrixWorld(true);
+const propContactError=actor.arms[1].target.clone().applyMatrix4(actor.group.matrixWorld).distanceTo(V(-1.65,.38,.55));assert.ok(propContactError<1e-7,'Hand cannot reach platform prop');
+const furniture=new THREE.Group();desk(furniture,.87*Math.sin(1.1),1.14,.87*Math.cos(1.1),1.35,0xb58b5f,1.1);furniture.updateMatrixWorld(true);
+actor.pose({action:'write',facing:1.1});actor.group.updateMatrixWorld(true);const supports=[];furniture.traverse(o=>{if(o.name==='desk-leg')supports.push(new THREE.Box3().setFromObject(o));});
+for(const leg of actor.legs)for(const support of supports){assert.equal(new THREE.Box3().setFromObject(leg.foot).intersectsBox(support),false,'Foot intersects desk support');const knee=leg.joint.clone().applyMatrix4(actor.group.matrixWorld);assert.equal(support.clone().expandByScalar(.045).containsPoint(knee),false,'Knee intersects desk support');}
 const server=await serve(0),browser=await chromium.launch({executablePath:process.env.CHROMIUM_PATH||'/usr/bin/chromium',args:['--no-sandbox','--use-gl=angle','--use-angle=swiftshader','--enable-unsafe-swiftshader','--disable-dev-shm-usage']});
 const page=await browser.newPage({viewport:{width:640,height:360}}),errors=[];page.on('pageerror',e=>errors.push(String(e)));page.on('console',m=>{if(m.type()==='error')errors.push(m.text());});
 const captures=[0,5,10,15,45,55,65,85,105,125,135,155,175,185,205,245,249,261,285,305,315,345,375,425,465,495,525];
@@ -42,6 +48,6 @@ try{
  for(const t of [36.6,38,39,40]){await page.evaluate(t=>window.renderAt(t),t);const d=await page.evaluate(()=>window.getSceneDiagnostics());assert.equal(d.vehicleVisible,false);assert.equal(d.suvVisible,false);assert.ok(Math.abs(d.spineLength-.78)<1e-8);}
  await page.evaluate(()=>window.renderAt(35));const vehicle=await page.evaluate(()=>window.getSceneDiagnostics());assert.equal(vehicle.vehicleVisible,true);assert.equal(vehicle.suvVisible,false);assert.ok(vehicle.vehicleSize[0]>5&&vehicle.vehicleSize[1]>2);
  assert.deepEqual(errors,[]);
- const result={status:'passed',revision:2,ikCases:cases,proportionAndContactPoses:1206,torsoLength:.78,minimumWakeTorsoY:minWakeTorso,mattressTopY:.79,stanceFootDrift:stance[0].distanceTo(stance[1]),vehicleVisibilityRegression:'passed',contiguousShots:SHOTS.length,coverageSeconds:DURATION,browserFrames:rows.length,visualSamples:captures,browserErrors:errors,limitation:'Technical checks do not establish frame-for-frame fidelity to the reference or absence of every possible collision.'};
+ const result={status:'passed',revision:2,ikCases:cases,proportionAndContactPoses:1206,torsoLength:.78,minimumWakeTorsoY:minWakeTorso,mattressTopY:.79,stanceFootDrift:stance[0].distanceTo(stance[1]),propContactError,vehicleVisibilityRegression:'passed',contiguousShots:SHOTS.length,coverageSeconds:DURATION,browserFrames:rows.length,visualSamples:captures,browserErrors:errors,limitation:'Technical checks do not establish frame-for-frame fidelity to the reference or absence of every possible collision.'};
  fs.writeFileSync(path.join(ROOT,'analysis/validation.json'),JSON.stringify(result,null,2)+'\n');console.log(JSON.stringify(result));
 }finally{await browser.close();await new Promise(r=>server.close(r));}

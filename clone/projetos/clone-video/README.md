@@ -9,7 +9,7 @@ A faixa de áudio da referência foi preservada para manter a duração e a sinc
 ## Entrega
 
 - `../../vídeos/clone-3d-completo.mp4`: filme inteiro, H.264/AAC, 1920 × 1080 nativos, 30 fps, aproximadamente 525,4 s. As malhas são renderizadas em Full HD; não é ampliação dos quadros da referência.
-- `analysis/previa-60s-1080p-r2.mp4`: prévia corrigida de um minuto em Full HD. `analysis/previa-60s.mp4` é a prévia R1 anterior, de 640 × 360, preservada para comparação.
+- `analysis/previa-60s-1080p-r3.mp4`: prévia corrigida de um minuto em Full HD. `analysis/previa-60s.mp4` é a prévia R1 anterior, de 640 × 360, preservada para comparação.
 - `src/rig.js`: personagem, articulações, IK de dois segmentos, passos com fase de apoio, poses e shader cartoon.
 - `src/world.js`: cenários, móveis, máquina, veículos, documentos e textos procedurais.
 - `src/timeline.js`: roteiro de 131 planos cobrindo todo o intervalo.
@@ -58,7 +58,7 @@ O MP4 é codificado a partir dos quadros do WebGL; o comando retorna erro se o n
 
 `npm run check` verifica a cobertura contínua do roteiro, 2.000 casos de IK, 1.206 poses com comprimentos constantes do tronco e dos membros, apoio no assento, afastamento do colchão durante a transição, apoio fixo do pé e a regressão de visibilidade dos veículos. Também renderiza o início, meio e fim dos 131 planos e produz imagens locais de revisão em `analysis/review`, ignoradas pelo Git. O silêncio preto entre o acidente e o hospital faz parte do roteiro. Esses testes não cobrem todas as colisões possíveis.
 
-Na R2, a pelve respeita a superfície dos assentos, as cadeiras são orientadas com os personagens e afastadas das mesas, a transição da cama permanece contínua nos cortes de câmera, e os pés passam pela lateral antes de baixar. O veículo foi redimensionado e suas rodas giram de acordo com o deslocamento. O SUV não aparece em planos onde sua visibilidade não foi solicitada. As roupas mantêm os mesmos volumes nos movimentos. Textos são gerados com maior densidade de textura para Full HD.
+Na R3, mesas e cadeiras da sala também compartilham a orientação dos personagens, com verificações de afastamento dos pés e joelhos em relação aos suportes. A pelve respeita a superfície dos assentos, as cadeiras são orientadas com os personagens e afastadas das mesas, a transição da cama permanece contínua nos cortes de câmera, e os pés passam pela lateral antes de baixar. O veículo foi redimensionado e suas rodas giram de acordo com o deslocamento. O SUV não aparece em planos onde sua visibilidade não foi solicitada. As roupas mantêm os mesmos volumes nos movimentos. Textos são gerados com maior densidade de textura para Full HD.
 
 O renderizador agrupa as malhas estáticas e usa instâncias para as peças dos personagens. A exportação em 1080p usa uma amostra por pixel, sem MSAA, para limitar o custo do render por software; o player interativo usa MSAA. O áudio AAC é copiado da referência, sem nova compressão. A verificação final pode ser executada com `python tools/verify-export.py`.
 

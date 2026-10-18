@@ -1,0 +1,61 @@
+{
+  "status": "passed",
+  "language": "English; original reference archive unchanged",
+  "rig": {
+    "ik_cases": 2000,
+    "pose_cases": 1210,
+    "stance_samples": 4,
+    "passed": true
+  },
+  "browser": {
+    "native_width": 1920,
+    "native_height": 1080,
+    "errors": [],
+    "actual_canvas_capture": true
+  },
+  "exporter_smoke": {
+    "frames": 3,
+    "duration_seconds": 0.1,
+    "checks": {
+      "dimensions": true,
+      "fps": true,
+      "frames": true,
+      "duration": true,
+      "complete_decode": true
+    },
+    "passed": true
+  },
+  "validator_on_external_preview": {
+    "frames": 1800,
+    "duration_seconds": 60,
+    "checks": {
+      "dimensions": true,
+      "fps": true,
+      "frames": true,
+      "duration": true,
+      "complete_decode": true,
+      "audio_stream": true,
+      "audio_alignment": true
+    },
+    "audio_correlations": [
+      1.0,
+      0.9999969533243189,
+      1.0,
+      0.9999041154189054,
+      0.9999987020344298
+    ],
+    "passed": true
+  },
+  "reference_archive": {
+    "integrity": "passed",
+    "paths": "passed",
+    "original_sha256_verified": true,
+    "example_fields": "placeholders only"
+  },
+  "limitations": [
+    "No claim of scene-level collision coverage for future projects.",
+    "Numerical validation does not establish artistic fidelity.",
+    "Short exporter smoke is not a complete production."
+  ],
+  "bundled_media": "Only original visual-reference ZIP; no videos or soundtracks"
+}

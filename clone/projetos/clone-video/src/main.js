@@ -93,7 +93,7 @@ function setupCast(s,t){
     rootX=['platform','teleport'].includes(action)?-1.65:-.7;rootZ=.55;facing=.25;
     if(action==='platform')action='stand';
     if(action==='build'){rootX=.15;rootZ=-.15;facing=.8;}
-    if(action==='pickup'||action==='place'){rootX=-2.13;rootZ=.35;facing=.85;}
+    if(action==='pickup'||action==='place'){rootX=-2.13;rootZ=.80;facing=.85;}
     if(action==='study'){rootX=-.7;rootZ=-.2;facing=.7;}
     if(s.doctor)show(cast.doctor,{time:t,rootX:1.8,rootZ:.4,action:'surprise',facing:-.4});
     if(s.agents){rootX=2.4;facing=-.25;show(cast.agent,{time:t+2,rootX:-2.7,rootZ:.3,action:'talk',facing:.5});show(cast.agent2,{time:t+3,rootX:-1.5,rootZ:.1,action:'stand',facing:.3});}
@@ -110,17 +110,18 @@ function setupCast(s,t){
   if(s.set==='house'){rootX=-1+u*1.8;rootZ=.8;facing=.8;}
   if(s.set==='rooftop'){rootX=action==='walk'?-2+u*4:0;rootZ=.3;facing=action==='walk'?1.0:.15;}
   if(s.set==='vending'){rootX=-.35;rootZ=.2;facing=1.1;}
-  if(s.set==='living'){rootX=0;rootZ=.05;action='phoneSit';cast.hero.group.position.y=.1;if(s.crowd){show(cast.friend,{time:t,rootX:-1.4,rootZ:.1,action:'celebrate'});show(cast.friend2,{time:t+2,rootX:1.4,rootZ:.1,action:'talkSit'});}}
-  if(s.set==='meeting'){rootX=-2.9;rootZ=.8;action='explain';show(cast.agent,{time:t,rootX:0,rootZ:-.2,action:'talkSit'});show(cast.agent2,{time:t+2,rootX:2,rootZ:-.2,action:'talkSit'});}
+  if(s.set==='living'){rootX=0;rootZ=-.5;action='phoneSit';if(s.crowd){show(cast.friend,{time:t,rootX:-1.4,rootZ:.3,action:'celebrate'});show(cast.friend2,{time:t+2,rootX:1.4,rootZ:-.5,action:'talkSit',seatHeight:.60});}}
+  if(s.set==='meeting'){rootX=-2.9;rootZ=.8;action='explain';show(cast.agent,{time:t,rootX:0,rootZ:-.9,action:'talkSit'});show(cast.agent2,{time:t+2,rootX:1.7,rootZ:-.9,action:'talkSit'});}
   if(s.set==='research'){rootX=-1.5;rootZ=.7;action='present';show(cast.doctor,{time:t,rootX:1.3,rootZ:.7,action:s.action==='celebrate'?'celebrate':'explain',facing:-.5});show(cast.agent,{time:t+1,rootX:3,rootZ:.5,action:'stand',facing:-.4});}
   if(s.set==='cafe'){rootX=-1.4;rootZ=.5;facing=1.1;action='talkSit';show(cast.friend,{time:t+2,rootX:1.4,rootZ:.5,action:'talkSit',facing:-1});}
   if(s.set==='greenscreen'){rootX=1.2;rootZ=.5;facing=-.4;}
   if(s.set==='science'){show(cast.doctor,{time:t,rootX:0,rootZ:.5,action:'teach',facing:.25});return;}
-  if(s.set==='mirror'){rootX=0;rootZ=0;facing=.0;action='think';}
+  if(s.set==='mirror'){rootX=0;rootZ=.65;facing=.0;action='think';}
   if(s.set==='money'){rootX=.5;rootZ=.4;}
   const walkSpeed=s.set==='campus'?4.7/(s.end-s.start):s.set==='street'?4.8/(s.end-s.start):s.set==='house'?1.8/(s.end-s.start):s.set==='rooftop'?4/(s.end-s.start):.65;
   const posePhase=s.set==='hospital'&&action==='wake'?clamp((t-48)/5,0,1):u;
-  show(hero,{time:time,phase:posePhase,rootX,rootZ,facing,action,side:1,walkSpeed,seatHeight:s.set==='living'?.60:.65});
+  const itemContact=['pickup','place'].includes(action)?{rightHandWorld:[-1.65,.38,.55],handTargetWeight:1-smooth((u-.5)/.1)}:{};
+  show(hero,{time:time,phase:posePhase,rootX,rootZ,facing,action,side:1,walkSpeed,seatHeight:s.set==='living'?.60:.65,...itemContact});
   if(s.set==='graduation')hero.group.position.y=.3;
   if((s.set==='lab'&&['platform','teleport'].includes(s.action))||s.set==='rooftop'&&s.action==='teleport')hero.group.position.y=.16;
   if(s.action==='teleport'&&!s.apple){hero.group.visible=Math.sin(time*20)>-.6;hero.group.position.x+=(s.set==='rooftop'?0:(u>.52?3.3:0));}
@@ -147,7 +148,7 @@ export function renderAt(t){
   for(const v of [vehicle,suv])if(v.visible)for(const w of v.userData.wheels)w.quaternion.copy(w.userData.baseQuaternion).multiply(new THREE.Quaternion().setFromAxisAngle(V(0,1,0),u*(v===vehicle?8:6)/(.24*v.scale.y)));
   apple.visible=['pickup','place'].includes(s.action)||!!s.apple;
   if(apple.visible){
-    if(['pickup','place'].includes(s.action)){cast.hero.group.updateMatrixWorld(true);apple.position.copy(cast.hero.arms[1].target).applyMatrix4(cast.hero.group.matrixWorld);apple.position.y-=.06;}
+    if(s.action==='pickup'&&u>=.5||s.action==='place'&&u<.5){cast.hero.group.updateMatrixWorld(true);apple.position.copy(cast.hero.arms[1].target).applyMatrix4(cast.hero.group.matrixWorld);apple.position.y-=.06;}
     else apple.position.set(s.action==='teleport'&&u>.5?1.65:-1.65,.31,.55);
     apple.rotation.z=Math.sin(t)*.08;
   }
