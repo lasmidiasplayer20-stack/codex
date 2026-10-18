@@ -1,0 +1,1186 @@
+{
+  "title": "Day Two — The Signal",
+  "duration": 510.8,
+  "fps": 60,
+  "width": 1920,
+  "height": 1080,
+  "voice": "Charon",
+  "language": "en-US",
+  "narration_status": "user_supplied_cleaned",
+  "scenes": [
+    {
+      "id": 1,
+      "start": 3,
+      "end": 26.254521,
+      "environment": "room",
+      "action": "radio",
+      "title": "87.0",
+      "narration": "The second day began before the sun. The radio was still tuned to 87.0. Between bursts of static I heard it again. Block 17. Then three short knocks. I waited for an explanation. Only the hiss of static followed. Outside, screams cut across the street. A bus was burning at the intersection and people were running, not knowing where to hide."
+    },
+    {
+      "id": 2,
+      "start": 26.254521,
+      "end": 42.148562,
+      "environment": "room",
+      "action": "bandage",
+      "title": "The Mark",
+      "narration": "The bandage on my arm was damp. I replaced the fabric without looking too closely at the mark. It hadn't disappeared but it didn't seem any larger either. That brought me no comfort. On the first night I had learned that being on one's feet and being fine were two very different things."
+    },
+    {
+      "id": 3,
+      "start": 42.148562,
+      "end": 61.022458,
+      "environment": "hall",
+      "action": "elder",
+      "title": "Those Who Stay",
+      "narration": "The older woman was already awake in the hallway. When I mentioned the radio, she glanced toward the stairwell door. She didn't want to come along. She said she knew this building better than the streets outside. I left her some water, agreed on a signal of two knocks for when I returned, and promised not to turn hope into just another locked door."
+    },
+    {
+      "id": 4,
+      "start": 61.022458,
+      "end": 78.805729,
+      "environment": "hall",
+      "action": "worker",
+      "title": "The Way In",
+      "narration": "The maintenance worker appeared, carrying a ring of keys. He had heard the same broadcast. \"Block 17,\" he repeated. He pointed toward the school across the street. There was a service entrance beneath the courtyard. He knew how to open the first door. As for the second one, I knew nothing more."
+    },
+    {
+      "id": 5,
+      "start": 78.805729,
+      "end": 102.736396,
+      "environment": "street",
+      "action": "walk",
+      "title": "The Crossing",
+      "narration": "We set out just as the light began to touch the windows. The noise from the day before persisted. Sirens, shattering glass, people calling out for those left behind. A crowd came running down the road. We walked close to the walls, trying not to get swept up in the rush. A car was blocking the corner. Behind it, someone stood motionless, back turned, listening to something."
+    },
+    {
+      "id": 6,
+      "start": 102.736396,
+      "end": 124.215417,
+      "environment": "street",
+      "action": "hide",
+      "title": "They Listen",
+      "narration": "The worker stepped on a shard of glass. It was a faint sound, but the man's head snapped around instantly. I pulled my companion behind the car. Others emerged from between the buses, chasing a group that had broken through the evacuation barrier. None of them were searching with their eyes. They all stopped, tilted their heads, and waited for another sound."
+    },
+    {
+      "id": 7,
+      "start": 124.215417,
+      "end": 144.774542,
+      "environment": "street",
+      "action": "run",
+      "title": "An Opening",
+      "narration": "A car slammed into the side of an ambulance. The alarm went off and the infected rushed toward the crash while two survivors tried to climb out the window. We seized the opening and crossed without a word. My arm hit the fence and the pain made me stumble. The worker grabbed me by the coat. For the first time since it all began, someone turned back to help me."
+    },
+    {
+      "id": 8,
+      "start": 144.774542,
+      "end": 167.951438,
+      "environment": "school",
+      "action": "door",
+      "title": "The School",
+      "narration": "The school gate was open just wide enough for one person. In the courtyard, backpacks lay scattered beside overturned chairs. Behind the fence, people were pushing against the gate, while an infected individual advanced through the line. There was no one left waiting for rescue. The service door was located behind the electrical box. The key slid in, turned, and made a noise that sounded deafening."
+    },
+    {
+      "id": 9,
+      "start": 167.951438,
+      "end": 187.773917,
+      "environment": "school",
+      "action": "police",
+      "title": "On the Other Side",
+      "narration": "Before we could head down, a flashlight cut across the hallway. The officer ordered us to show our hands. I recognized the uniform, the same one I'd seen near the evacuation zone. He glanced at my bandage but didn't ask what had happened. Instead he asked if we had the radio. When I said yes, he lowered the light."
+    },
+    {
+      "id": 10,
+      "start": 187.773917,
+      "end": 208.964375,
+      "environment": "school",
+      "action": "map",
+      "title": "Three People",
+      "narration": "He too was looking for Block 17. He had found a record with that designation, filed four days before everything came to a halt. The man spread out an old blueprint of the school on a table. It showed a passageway beneath the sports court. Three people. Three fragments of the same story. None of them held the complete answer."
+    },
+    {
+      "id": 11,
+      "start": 208.964375,
+      "end": 229.136854,
+      "environment": "tunnel",
+      "action": "walk",
+      "title": "Beneath the Gym",
+      "narration": "We descended slowly. The officer’s light swept over pipes, puddles, and handprints on the walls. Down here, the sounds from the street grew muffled. I could hear the trickle of water in the sound of our own breathing. The radio crackled inside the backpack. I grabbed the volume knob before it could draw any attention."
+    },
+    {
+      "id": 12,
+      "start": 229.136854,
+      "end": 249.961875,
+      "environment": "tunnel",
+      "action": "listen",
+      "title": "Door Seventeen",
+      "narration": "Around the final bend a door appeared, marked with the number 17. From the other side came two knocks. I nearly responded with the signal I'd agreed upon back at the building, but the officer caught my wrist. We waited. The same two knocks came again, with the exact same interval. Whatever was on the other side wasn't responding to anyone."
+    },
+    {
+      "id": 13,
+      "start": 249.961875,
+      "end": 270.3355,
+      "environment": "tunnel",
+      "action": "radio",
+      "title": "The Warning",
+      "narration": "I turned the radio volume down low. The voice came through more clearly. Do not use the main entrance. The message repeated. This time I understood why the address stood alone amidst the static. It wasn't a promise of rescue. It was a warning that someone was trying to keep alive, even without being able to explain why."
+    },
+    {
+      "id": 14,
+      "start": 270.3355,
+      "end": 290.149771,
+      "environment": "tunnel",
+      "action": "lever",
+      "title": "Without a Sound",
+      "narration": "The side passage had a metal gate with a jammed latch. The employee wrapped a cloth around the metal before forcing it. The police officer kept his flashlight pointed toward the bend. I held the gate to keep it from falling. When the latch finally gave way, the three of us remained perfectly still, listening to see if anything had changed."
+    },
+    {
+      "id": 15,
+      "start": 290.149771,
+      "end": 310.614354,
+      "environment": "archive",
+      "action": "drawer",
+      "title": "The Archive",
+      "narration": "Behind the gate was a utility room. Batteries, papers, and an old receiver cluttered the tables. The log for Block 17 was in a drawer, along with some handwritten schedules. Dated four days prior. The date made no sense to me. But the paper was there. Someone had been listening before us."
+    },
+    {
+      "id": 16,
+      "start": 310.614354,
+      "end": 333.219729,
+      "environment": "archive",
+      "action": "note",
+      "title": "Rosa’s Name",
+      "narration": "On the back of one sheet, I found a name. Rosa. It was just a small signature, next to a transmission test. My phone still had no signal. Those five letters didn't prove she was alive. Even so, they were the first thing that morning to make me want to reach the next one."
+    },
+    {
+      "id": 17,
+      "start": 333.219729,
+      "end": 354.941875,
+      "environment": "archive",
+      "action": "power",
+      "title": "The Power Fails",
+      "narration": "The receiver went dark. The batteries had run out. The employee pointed to a cable that led up to the roof. The power came from a panel, but a connection had come loose. If we left everything as it was, the warning would disappear, and someone might enter through the very door we had just managed to bypass."
+    },
+    {
+      "id": 18,
+      "start": 354.941875,
+      "end": 378.540354,
+      "environment": "tunnel",
+      "action": "chase",
+      "title": "The Noise Returns",
+      "narration": "As we were leaving, my radio bumped against a shelf. A tin can fell, clattering loudly against the concrete. The knocking behind the door ceased. Then came a slow pressure against the metal. We didn't wait for a third strike. We ran toward the service stairs while the police officer pulled the security gate shut behind us."
+    },
+    {
+      "id": 19,
+      "start": 378.540354,
+      "end": 400.981937,
+      "environment": "stairs",
+      "action": "climb",
+      "title": "No One Left Behind",
+      "narration": "The staff member stumbled on the final flight of stairs. I had already reached the landing and could have kept going, but I turned back. He tried to get up on his own, but his leg wouldn't cooperate. I draped his arm over my shoulder. The officer followed, pushing the door until the latch clicked into place. We climbed together. One step at a time."
+    },
+    {
+      "id": 20,
+      "start": 400.981937,
+      "end": 431.802291,
+      "environment": "roof",
+      "action": "repair",
+      "title": "On the Roof",
+      "narration": "Up on the roof, the city opened up before us. Smoke rose from buses, cars lay abandoned across the road. Groups of people fled between the buildings. On the avenue, a barricade gave way, scattering people across the street. A cable hung loose near the control panel. The staff member, sitting on the ground, gave us instructions. The officer held the flashlight. I reconnected the cable and waited for the small light to flicker back on."
+    },
+    {
+      "id": 21,
+      "start": 431.802291,
+      "end": 449.658499,
+      "environment": "roof",
+      "action": "radio",
+      "title": "A Real Voice",
+      "narration": "The radio crackled to life. First came a recorded announcement. Then, a breath cut through the static. A voice asked if anyone was at the school. I pressed the button and said there were three of us. I didn't mention the mark. Not yet. On the other end, someone asked us to repeat our answer."
+    },
+    {
+      "id": 22,
+      "start": 449.658499,
+      "end": 468.79327,
+      "environment": "roof",
+      "action": "signal",
+      "title": "The Reply",
+      "narration": "I repeated it. The voice asked for three knocks on the handrail, a pause and then one more. We did as requested. They confirmed the sound. It was a conversation, at last. They said there was a shelter beyond the canal but that the main bridge was closed. Before explaining the route, he asked if we were capable of heading back through the building."
+    },
+    {
+      "id": 23,
+      "start": 468.79327,
+      "end": 484.145957,
+      "environment": "hall",
+      "action": "return",
+      "title": "The Promise",
+      "narration": "\"We went back to get the lady.\" I knocked twice, as promised. She opened the door, still holding the water. The staff member sat down near the window, and the police officer began sketching the route on a piece of paper. I didn't know if the shelter actually existed, but now we had someone who could hear our questions."
+    },
+    {
+      "id": 24,
+      "start": 484.145957,
+      "end": 508.79227,
+      "environment": "bridge",
+      "action": "end",
+      "title": "Beyond the Canal",
+      "narration": "The four of us set out, well away from the main bridge. The city remained in a state of collapse. Behind us a truck exploded. People were running along the bank, pursued amidst the wreckage, and my arm kept aching. Over the radio a voice guided us through smaller streets. When we reached the canal the voice stopped mid-sentence, the static grew louder. Then I heard my own name. In that voice I recognized Rosa."
+    }
+  ],
+  "intro_duration": 3,
+  "narration_source_sha256": "cee2116e7f172792c64004f2639ed04ff9c8dfcd989a2f4bf3468830dc9ced45",
+  "captions": [
+    {
+      "start": 3.0,
+      "end": 7.56,
+      "text": "The second day began before the sun. The radio was still tuned to 87.0.",
+      "scene": 1
+    },
+    {
+      "start": 8.12,
+      "end": 15.32,
+      "text": "Between bursts of static I heard it again. Block 17. Then three short knocks. I waited for an",
+      "scene": 1
+    },
+    {
+      "start": 15.32,
+      "end": 21.88,
+      "text": "explanation. Only the hiss of static followed. Outside, screams cut across the street. A bus",
+      "scene": 1
+    },
+    {
+      "start": 21.88,
+      "end": 25.72,
+      "text": "was burning at the intersection and people were running, not knowing where to hide.",
+      "scene": 1
+    },
+    {
+      "start": 26.255,
+      "end": 30.695,
+      "text": "The bandage on my arm was damp. I replaced the fabric without looking too",
+      "scene": 2
+    },
+    {
+      "start": 30.695,
+      "end": 33.975,
+      "text": "closely at the mark. It hadn't disappeared but it didn't seem any",
+      "scene": 2
+    },
+    {
+      "start": 33.975,
+      "end": 38.375,
+      "text": "larger either. That brought me no comfort. On the first night I had learned",
+      "scene": 2
+    },
+    {
+      "start": 38.375,
+      "end": 42.149,
+      "text": "that being on one's feet and being fine were two very different things.",
+      "scene": 2
+    },
+    {
+      "start": 42.149,
+      "end": 45.069,
+      "text": "The older woman was already awake in the hallway.",
+      "scene": 3
+    },
+    {
+      "start": 45.069,
+      "end": 49.029,
+      "text": "When I mentioned the radio, she glanced toward the stairwell door.",
+      "scene": 3
+    },
+    {
+      "start": 49.029,
+      "end": 50.589,
+      "text": "She didn't want to come along.",
+      "scene": 3
+    },
+    {
+      "start": 50.589,
+      "end": 54.029,
+      "text": "She said she knew this building better than the streets outside.",
+      "scene": 3
+    },
+    {
+      "start": 54.029,
+      "end": 58.269,
+      "text": "I left her some water, agreed on a signal of two knocks for when I returned, and promised",
+      "scene": 3
+    },
+    {
+      "start": 58.269,
+      "end": 61.022,
+      "text": "not to turn hope into just another locked door.",
+      "scene": 3
+    },
+    {
+      "start": 61.022,
+      "end": 65.022,
+      "text": "The maintenance worker appeared, carrying a ring of keys.",
+      "scene": 4
+    },
+    {
+      "start": 65.022,
+      "end": 67.022,
+      "text": "He had heard the same broadcast.",
+      "scene": 4
+    },
+    {
+      "start": 67.022,
+      "end": 69.462,
+      "text": "\"Block 17,\" he repeated.",
+      "scene": 4
+    },
+    {
+      "start": 69.462,
+      "end": 71.622,
+      "text": "He pointed toward the school across the street.",
+      "scene": 4
+    },
+    {
+      "start": 71.622,
+      "end": 74.262,
+      "text": "There was a service entrance beneath the courtyard.",
+      "scene": 4
+    },
+    {
+      "start": 74.262,
+      "end": 75.942,
+      "text": "He knew how to open the first door.",
+      "scene": 4
+    },
+    {
+      "start": 75.942,
+      "end": 78.102,
+      "text": "As for the second one, I knew nothing more.",
+      "scene": 4
+    },
+    {
+      "start": 78.806,
+      "end": 83.566,
+      "text": "We set out just as the light began to touch the windows. The noise from the day before",
+      "scene": 5
+    },
+    {
+      "start": 83.566,
+      "end": 89.966,
+      "text": "persisted. Sirens, shattering glass, people calling out for those left behind. A crowd",
+      "scene": 5
+    },
+    {
+      "start": 89.966,
+      "end": 94.486,
+      "text": "came running down the road. We walked close to the walls, trying not to get swept up in",
+      "scene": 5
+    },
+    {
+      "start": 94.486,
+      "end": 102.736,
+      "text": "the rush. A car was blocking the corner. Behind it, someone stood motionless, back turned, listening to something.",
+      "scene": 5
+    },
+    {
+      "start": 102.736,
+      "end": 108.096,
+      "text": "The worker stepped on a shard of glass. It was a faint sound, but the man's head snapped",
+      "scene": 6
+    },
+    {
+      "start": 108.096,
+      "end": 113.576,
+      "text": "around instantly. I pulled my companion behind the car. Others emerged from between",
+      "scene": 6
+    },
+    {
+      "start": 113.576,
+      "end": 118.176,
+      "text": "the buses, chasing a group that had broken through the evacuation barrier. None of them",
+      "scene": 6
+    },
+    {
+      "start": 118.176,
+      "end": 123.016,
+      "text": "were searching with their eyes. They all stopped, tilted their heads, and waited for",
+      "scene": 6
+    },
+    {
+      "start": 123.016,
+      "end": 123.816,
+      "text": "another sound.",
+      "scene": 6
+    },
+    {
+      "start": 124.215,
+      "end": 127.335,
+      "text": "A car slammed into the side of an ambulance.",
+      "scene": 7
+    },
+    {
+      "start": 127.335,
+      "end": 131.095,
+      "text": "The alarm went off and the infected rushed toward the crash while two survivors tried",
+      "scene": 7
+    },
+    {
+      "start": 131.095,
+      "end": 132.855,
+      "text": "to climb out the window.",
+      "scene": 7
+    },
+    {
+      "start": 132.855,
+      "end": 135.635,
+      "text": "We seized the opening and crossed without a word.",
+      "scene": 7
+    },
+    {
+      "start": 135.635,
+      "end": 138.975,
+      "text": "My arm hit the fence and the pain made me stumble.",
+      "scene": 7
+    },
+    {
+      "start": 138.975,
+      "end": 141.095,
+      "text": "The worker grabbed me by the coat.",
+      "scene": 7
+    },
+    {
+      "start": 141.095,
+      "end": 144.415,
+      "text": "For the first time since it all began, someone turned back to help me.",
+      "scene": 7
+    },
+    {
+      "start": 144.775,
+      "end": 148.015,
+      "text": "The school gate was open just wide enough for one person.",
+      "scene": 8
+    },
+    {
+      "start": 148.015,
+      "end": 152.135,
+      "text": "In the courtyard, backpacks lay scattered beside overturned chairs.",
+      "scene": 8
+    },
+    {
+      "start": 152.135,
+      "end": 157.015,
+      "text": "Behind the fence, people were pushing against the gate, while an infected individual advanced",
+      "scene": 8
+    },
+    {
+      "start": 157.015,
+      "end": 158.015,
+      "text": "through the line.",
+      "scene": 8
+    },
+    {
+      "start": 158.015,
+      "end": 160.695,
+      "text": "There was no one left waiting for rescue.",
+      "scene": 8
+    },
+    {
+      "start": 160.695,
+      "end": 163.895,
+      "text": "The service door was located behind the electrical box.",
+      "scene": 8
+    },
+    {
+      "start": 163.895,
+      "end": 167.655,
+      "text": "The key slid in, turned, and made a noise that sounded deafening.",
+      "scene": 8
+    },
+    {
+      "start": 167.951,
+      "end": 172.151,
+      "text": "Before we could head down, a flashlight cut across the hallway.",
+      "scene": 9
+    },
+    {
+      "start": 172.151,
+      "end": 174.551,
+      "text": "The officer ordered us to show our hands.",
+      "scene": 9
+    },
+    {
+      "start": 174.551,
+      "end": 179.311,
+      "text": "I recognized the uniform, the same one I'd seen near the evacuation zone.",
+      "scene": 9
+    },
+    {
+      "start": 179.311,
+      "end": 183.191,
+      "text": "He glanced at my bandage but didn't ask what had happened.",
+      "scene": 9
+    },
+    {
+      "start": 183.191,
+      "end": 185.591,
+      "text": "Instead he asked if we had the radio.",
+      "scene": 9
+    },
+    {
+      "start": 185.591,
+      "end": 187.391,
+      "text": "When I said yes, he lowered the light.",
+      "scene": 9
+    },
+    {
+      "start": 187.774,
+      "end": 190.454,
+      "text": "He too was looking for Block 17.",
+      "scene": 10
+    },
+    {
+      "start": 190.454,
+      "end": 192.774,
+      "text": "He had found a record with that designation,",
+      "scene": 10
+    },
+    {
+      "start": 192.774,
+      "end": 195.774,
+      "text": "filed four days before everything came to a halt.",
+      "scene": 10
+    },
+    {
+      "start": 195.774,
+      "end": 199.774,
+      "text": "The man spread out an old blueprint of the school on a table.",
+      "scene": 10
+    },
+    {
+      "start": 199.774,
+      "end": 202.774,
+      "text": "It showed a passageway beneath the sports court.",
+      "scene": 10
+    },
+    {
+      "start": 202.774,
+      "end": 204.174,
+      "text": "Three people.",
+      "scene": 10
+    },
+    {
+      "start": 204.174,
+      "end": 206.774,
+      "text": "Three fragments of the same story.",
+      "scene": 10
+    },
+    {
+      "start": 206.774,
+      "end": 208.774,
+      "text": "None of them held the complete answer.",
+      "scene": 10
+    },
+    {
+      "start": 208.964,
+      "end": 210.964,
+      "text": "We descended slowly.",
+      "scene": 11
+    },
+    {
+      "start": 210.964,
+      "end": 215.964,
+      "text": "The officer’s light swept over pipes, puddles, and handprints on the walls.",
+      "scene": 11
+    },
+    {
+      "start": 215.964,
+      "end": 219.964,
+      "text": "Down here, the sounds from the street grew muffled.",
+      "scene": 11
+    },
+    {
+      "start": 219.964,
+      "end": 222.964,
+      "text": "I could hear the trickle of water in the sound of our own breathing.",
+      "scene": 11
+    },
+    {
+      "start": 222.964,
+      "end": 225.964,
+      "text": "The radio crackled inside the backpack.",
+      "scene": 11
+    },
+    {
+      "start": 225.964,
+      "end": 228.964,
+      "text": "I grabbed the volume knob before it could draw any attention.",
+      "scene": 11
+    },
+    {
+      "start": 229.137,
+      "end": 234.137,
+      "text": "Around the final bend a door appeared, marked with the number 17.",
+      "scene": 12
+    },
+    {
+      "start": 234.137,
+      "end": 236.137,
+      "text": "From the other side came two knocks.",
+      "scene": 12
+    },
+    {
+      "start": 236.137,
+      "end": 241.137,
+      "text": "I nearly responded with the signal I'd agreed upon back at the building, but the officer caught my wrist.",
+      "scene": 12
+    },
+    {
+      "start": 241.137,
+      "end": 242.137,
+      "text": "We waited.",
+      "scene": 12
+    },
+    {
+      "start": 242.137,
+      "end": 246.137,
+      "text": "The same two knocks came again, with the exact same interval.",
+      "scene": 12
+    },
+    {
+      "start": 246.137,
+      "end": 249.962,
+      "text": "Whatever was on the other side wasn't responding to anyone.",
+      "scene": 12
+    },
+    {
+      "start": 249.962,
+      "end": 253.022,
+      "text": "I turned the radio volume down low.",
+      "scene": 13
+    },
+    {
+      "start": 253.022,
+      "end": 255.182,
+      "text": "The voice came through more clearly.",
+      "scene": 13
+    },
+    {
+      "start": 255.182,
+      "end": 257.582,
+      "text": "Do not use the main entrance.",
+      "scene": 13
+    },
+    {
+      "start": 257.582,
+      "end": 259.462,
+      "text": "The message repeated.",
+      "scene": 13
+    },
+    {
+      "start": 259.462,
+      "end": 262.862,
+      "text": "This time I understood why the address stood alone amidst the static.",
+      "scene": 13
+    },
+    {
+      "start": 262.862,
+      "end": 265.102,
+      "text": "It wasn't a promise of rescue.",
+      "scene": 13
+    },
+    {
+      "start": 265.102,
+      "end": 269.102,
+      "text": "It was a warning that someone was trying to keep alive, even without being able to",
+      "scene": 13
+    },
+    {
+      "start": 269.102,
+      "end": 269.942,
+      "text": "explain why.",
+      "scene": 13
+    },
+    {
+      "start": 270.336,
+      "end": 274.216,
+      "text": "The side passage had a metal gate with a jammed latch.",
+      "scene": 14
+    },
+    {
+      "start": 274.216,
+      "end": 277.615,
+      "text": "The employee wrapped a cloth around the metal before forcing it.",
+      "scene": 14
+    },
+    {
+      "start": 277.615,
+      "end": 280.495,
+      "text": "The police officer kept his flashlight pointed toward the bend.",
+      "scene": 14
+    },
+    {
+      "start": 280.496,
+      "end": 283.456,
+      "text": "I held the gate to keep it from falling.",
+      "scene": 14
+    },
+    {
+      "start": 283.456,
+      "end": 288.576,
+      "text": "When the latch finally gave way, the three of us remained perfectly still, listening",
+      "scene": 14
+    },
+    {
+      "start": 288.576,
+      "end": 289.776,
+      "text": "to see if anything had changed.",
+      "scene": 14
+    },
+    {
+      "start": 290.15,
+      "end": 292.55,
+      "text": "Behind the gate was a utility room.",
+      "scene": 15
+    },
+    {
+      "start": 292.55,
+      "end": 296.65,
+      "text": "Batteries, papers, and an old receiver cluttered the tables.",
+      "scene": 15
+    },
+    {
+      "start": 296.65,
+      "end": 299.15,
+      "text": "The log for Block 17 was in a drawer,",
+      "scene": 15
+    },
+    {
+      "start": 299.15,
+      "end": 301.15,
+      "text": "along with some handwritten schedules.",
+      "scene": 15
+    },
+    {
+      "start": 301.15,
+      "end": 303.15,
+      "text": "Dated four days prior.",
+      "scene": 15
+    },
+    {
+      "start": 303.15,
+      "end": 305.15,
+      "text": "The date made no sense to me.",
+      "scene": 15
+    },
+    {
+      "start": 305.15,
+      "end": 307.15,
+      "text": "But the paper was there.",
+      "scene": 15
+    },
+    {
+      "start": 307.15,
+      "end": 310.15,
+      "text": "Someone had been listening before us.",
+      "scene": 15
+    },
+    {
+      "start": 310.614,
+      "end": 314.214,
+      "text": "On the back of one sheet, I found a name.",
+      "scene": 16
+    },
+    {
+      "start": 314.214,
+      "end": 315.214,
+      "text": "Rosa.",
+      "scene": 16
+    },
+    {
+      "start": 315.214,
+      "end": 320.634,
+      "text": "It was just a small signature, next to a transmission test.",
+      "scene": 16
+    },
+    {
+      "start": 320.634,
+      "end": 323.414,
+      "text": "My phone still had no signal.",
+      "scene": 16
+    },
+    {
+      "start": 323.414,
+      "end": 326.814,
+      "text": "Those five letters didn't prove she was alive.",
+      "scene": 16
+    },
+    {
+      "start": 326.814,
+      "end": 332.414,
+      "text": "Even so, they were the first thing that morning to make me want to reach the next one.",
+      "scene": 16
+    },
+    {
+      "start": 333.22,
+      "end": 335.96,
+      "text": "The receiver went dark.",
+      "scene": 17
+    },
+    {
+      "start": 335.96,
+      "end": 338.06,
+      "text": "The batteries had run out.",
+      "scene": 17
+    },
+    {
+      "start": 338.06,
+      "end": 341.54,
+      "text": "The employee pointed to a cable that led up to the roof.",
+      "scene": 17
+    },
+    {
+      "start": 341.54,
+      "end": 346.18,
+      "text": "The power came from a panel, but a connection had come loose.",
+      "scene": 17
+    },
+    {
+      "start": 346.18,
+      "end": 351.42,
+      "text": "If we left everything as it was, the warning would disappear, and someone might enter through",
+      "scene": 17
+    },
+    {
+      "start": 351.42,
+      "end": 354.42,
+      "text": "the very door we had just managed to bypass.",
+      "scene": 17
+    },
+    {
+      "start": 354.942,
+      "end": 358.542,
+      "text": "As we were leaving, my radio bumped against a shelf.",
+      "scene": 18
+    },
+    {
+      "start": 358.542,
+      "end": 362.942,
+      "text": "A tin can fell, clattering loudly against the concrete.",
+      "scene": 18
+    },
+    {
+      "start": 362.942,
+      "end": 365.942,
+      "text": "The knocking behind the door ceased.",
+      "scene": 18
+    },
+    {
+      "start": 365.942,
+      "end": 369.942,
+      "text": "Then came a slow pressure against the metal.",
+      "scene": 18
+    },
+    {
+      "start": 369.942,
+      "end": 372.942,
+      "text": "We didn't wait for a third strike.",
+      "scene": 18
+    },
+    {
+      "start": 372.942,
+      "end": 377.942,
+      "text": "We ran toward the service stairs while the police officer pulled the security gate shut behind us.",
+      "scene": 18
+    },
+    {
+      "start": 378.54,
+      "end": 382.54,
+      "text": "The staff member stumbled on the final flight of stairs.",
+      "scene": 19
+    },
+    {
+      "start": 382.54,
+      "end": 387.14,
+      "text": "I had already reached the landing and could have kept going, but I turned back.",
+      "scene": 19
+    },
+    {
+      "start": 387.14,
+      "end": 390.78,
+      "text": "He tried to get up on his own, but his leg wouldn't cooperate.",
+      "scene": 19
+    },
+    {
+      "start": 390.78,
+      "end": 393.5,
+      "text": "I draped his arm over my shoulder.",
+      "scene": 19
+    },
+    {
+      "start": 393.5,
+      "end": 397.92,
+      "text": "The officer followed, pushing the door until the latch clicked into place.",
+      "scene": 19
+    },
+    {
+      "start": 397.92,
+      "end": 399.51,
+      "text": "We climbed together.",
+      "scene": 19
+    },
+    {
+      "start": 399.523,
+      "end": 400.55,
+      "text": "One step at a time.",
+      "scene": 19
+    },
+    {
+      "start": 400.982,
+      "end": 405.302,
+      "text": "Up on the roof, the city opened up before us.",
+      "scene": 20
+    },
+    {
+      "start": 405.302,
+      "end": 407.262,
+      "text": "Smoke rose from buses,",
+      "scene": 20
+    },
+    {
+      "start": 407.262,
+      "end": 409.782,
+      "text": "cars lay abandoned across the road.",
+      "scene": 20
+    },
+    {
+      "start": 409.782,
+      "end": 412.982,
+      "text": "Groups of people fled between the buildings.",
+      "scene": 20
+    },
+    {
+      "start": 412.982,
+      "end": 415.942,
+      "text": "On the avenue, a barricade gave way,",
+      "scene": 20
+    },
+    {
+      "start": 415.942,
+      "end": 416.392,
+      "text": "scattering",
+      "scene": 20
+    },
+    {
+      "start": 416.392,
+      "end": 418.692,
+      "text": "people across the street.",
+      "scene": 20
+    },
+    {
+      "start": 418.692,
+      "end": 421.732,
+      "text": "A cable hung loose near the control panel.",
+      "scene": 20
+    },
+    {
+      "start": 421.732,
+      "end": 425.572,
+      "text": "The staff member, sitting on the ground, gave us instructions.",
+      "scene": 20
+    },
+    {
+      "start": 425.572,
+      "end": 427.932,
+      "text": "The officer held the flashlight.",
+      "scene": 20
+    },
+    {
+      "start": 427.932,
+      "end": 431.272,
+      "text": "I reconnected the cable and waited for the small light to flicker back on.",
+      "scene": 20
+    },
+    {
+      "start": 431.802,
+      "end": 434.202,
+      "text": "The radio crackled to life.",
+      "scene": 21
+    },
+    {
+      "start": 434.202,
+      "end": 436.602,
+      "text": "First came a recorded announcement.",
+      "scene": 21
+    },
+    {
+      "start": 436.602,
+      "end": 439.302,
+      "text": "Then, a breath cut through the static.",
+      "scene": 21
+    },
+    {
+      "start": 439.302,
+      "end": 441.902,
+      "text": "A voice asked if anyone was at the school.",
+      "scene": 21
+    },
+    {
+      "start": 441.902,
+      "end": 444.302,
+      "text": "I pressed the button and said there were three of us.",
+      "scene": 21
+    },
+    {
+      "start": 444.302,
+      "end": 445.802,
+      "text": "I didn't mention the mark.",
+      "scene": 21
+    },
+    {
+      "start": 445.802,
+      "end": 447.002,
+      "text": "Not yet.",
+      "scene": 21
+    },
+    {
+      "start": 447.002,
+      "end": 449.658,
+      "text": "On the other end, someone asked us to repeat our answer.",
+      "scene": 21
+    },
+    {
+      "start": 449.658,
+      "end": 451.558,
+      "text": "I repeated it.",
+      "scene": 22
+    },
+    {
+      "start": 451.558,
+      "end": 455.578,
+      "text": "The voice asked for three knocks on the handrail, a pause and then one more.",
+      "scene": 22
+    },
+    {
+      "start": 455.578,
+      "end": 457.078,
+      "text": "We did as requested.",
+      "scene": 22
+    },
+    {
+      "start": 457.078,
+      "end": 458.718,
+      "text": "They confirmed the sound.",
+      "scene": 22
+    },
+    {
+      "start": 458.718,
+      "end": 460.918,
+      "text": "It was a conversation, at last.",
+      "scene": 22
+    },
+    {
+      "start": 460.918,
+      "end": 465.338,
+      "text": "They said there was a shelter beyond the canal but that the main bridge was closed.",
+      "scene": 22
+    },
+    {
+      "start": 465.338,
+      "end": 468.118,
+      "text": "Before explaining the route, he asked if we were capable of heading back through the",
+      "scene": 22
+    },
+    {
+      "start": 468.118,
+      "end": 468.793,
+      "text": "building.",
+      "scene": 22
+    },
+    {
+      "start": 468.793,
+      "end": 470.653,
+      "text": "\"We went back to get the lady.\"",
+      "scene": 23
+    },
+    {
+      "start": 470.653,
+      "end": 472.633,
+      "text": "I knocked twice, as promised.",
+      "scene": 23
+    },
+    {
+      "start": 472.633,
+      "end": 474.793,
+      "text": "She opened the door, still holding the water.",
+      "scene": 23
+    },
+    {
+      "start": 474.793,
+      "end": 477.993,
+      "text": "The staff member sat down near the window, and the police officer began sketching the",
+      "scene": 23
+    },
+    {
+      "start": 477.993,
+      "end": 479.833,
+      "text": "route on a piece of paper.",
+      "scene": 23
+    },
+    {
+      "start": 479.833,
+      "end": 483.553,
+      "text": "I didn't know if the shelter actually existed, but now we had someone who could hear our",
+      "scene": 23
+    },
+    {
+      "start": 483.553,
+      "end": 484.146,
+      "text": "questions.",
+      "scene": 23
+    },
+    {
+      "start": 484.146,
+      "end": 487.666,
+      "text": "The four of us set out, well away from the main bridge.",
+      "scene": 24
+    },
+    {
+      "start": 487.666,
+      "end": 490.266,
+      "text": "The city remained in a state of collapse.",
+      "scene": 24
+    },
+    {
+      "start": 490.266,
+      "end": 492.266,
+      "text": "Behind us a truck exploded.",
+      "scene": 24
+    },
+    {
+      "start": 492.266,
+      "end": 497.226,
+      "text": "People were running along the bank, pursued amidst the wreckage, and my arm kept aching.",
+      "scene": 24
+    },
+    {
+      "start": 497.226,
+      "end": 500.466,
+      "text": "Over the radio a voice guided us through smaller streets.",
+      "scene": 24
+    },
+    {
+      "start": 500.466,
+      "end": 504.826,
+      "text": "When we reached the canal the voice stopped mid-sentence, the static grew louder.",
+      "scene": 24
+    },
+    {
+      "start": 504.826,
+      "end": 506.746,
+      "text": "Then I heard my own name.",
+      "scene": 24
+    },
+    {
+      "start": 506.746,
+      "end": 508.792,
+      "text": "In that voice I recognized Rosa.",
+      "scene": 24
+    }
+  ]
+}

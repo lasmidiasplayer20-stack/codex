@@ -1,0 +1,1 @@
+{"name":"day-two-the-signal","version":"2.0.0","private":true,"scripts":{"preview":"python -m http.server 8765","export":"python pipeline.py","review":"node review.cjs"},"dependencies":{"@napi-rs/canvas":"1.0.11"}}
