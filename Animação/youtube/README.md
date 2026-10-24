@@ -18,3 +18,7 @@ nome-do-video/
 ```
 
 Use uma pergunta visual clara na capa e um título complementar. Descrição e capítulos devem corresponder ao conteúdo do filme; não invente dados, promessas ou resultados. Ajuste os tempos ao revisar o vídeo. A criação destes arquivos não publica o conteúdo no YouTube.
+
+## Identidade do canal
+
+[Foto de perfil e direção visual do mascote](identidade-do-canal/README.md). Esta pasta reúne os materiais do canal, separados dos pacotes de cada vídeo.
