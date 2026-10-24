@@ -10,3 +10,7 @@ Filme autoral de oito minutos. A revisão corrige a locomoção, acrescenta dire
 - [Conferência técnica](projetos/andar-ou-correr-na-chuva/qa/validacao.json)
 
 ![Quadros da versão completa](projetos/andar-ou-correr-na-chuva/qa/visao-geral.jpg)
+
+## YouTube
+
+[Capa, título, descrição e tags do episódio](youtube/andar-ou-correr-na-chuva/README.md). Cada vídeo terá sua própria subpasta em `youtube/`.
