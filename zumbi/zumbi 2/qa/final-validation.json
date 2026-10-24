@@ -1,0 +1,20 @@
+{
+  "file": "day-two-the-signal-1080p60.mp4",
+  "bytes": 104435907,
+  "sha256": "3205de1a5c992e75bcc9e5268bad01b02882031e8439dbcfe40837dc352c48f4",
+  "duration_seconds": 510.8,
+  "width": 1920,
+  "height": 1080,
+  "fps": "60/1",
+  "frames": 30648,
+  "video_codec": "h264",
+  "audio_codec": "aac",
+  "audio_channels": 2,
+  "audio_sample_rate": 48000,
+  "audio_integrated_lufs": -16.06,
+  "audio_true_peak_dbtp": -3.17,
+  "audio_loudness_range_lu": 2.7,
+  "video_start": "0.000000",
+  "audio_start": "0.000000",
+  "complete_decode_passed": true
+}

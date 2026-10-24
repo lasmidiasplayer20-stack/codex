@@ -1,0 +1,16 @@
+{
+  "duration": 510.8,
+  "fps": 60,
+  "frames": 30648,
+  "scenes": 24,
+  "captions": 159,
+  "cta_starts": [
+    45,
+    255.4,
+    475.8
+  ],
+  "deterministic_seeking": true,
+  "primary_pose_samples": 30348,
+  "nonfinite_values": 0,
+  "scope": "Deterministic seeking; primary rig solver sanity samples at each output timestamp (not an exhaustive collision test of every actor); 24 source-canvas scene samples; temporal strips around crash/chase/stairs. No general rigid-body collision claim."
+}

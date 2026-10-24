@@ -1,0 +1,22 @@
+{
+  "source_project": {
+    "name": "day-two-caos-editavel.zip",
+    "sha256": "867e625c8b98f7dd935fc9c0f98b84860327a06a804e52d6709ff502f6dabb45"
+  },
+  "source_voice": "cee2116e7f172792c64004f2639ed04ff9c8dfcd989a2f4bf3468830dc9ced45",
+  "applied_skill": "Arckkiller/SKILL's/animation-from-reference/SKILL.md",
+  "skill_repository_commit": "c67880073bad4af97b5521344ec2d2560cd8b0c6",
+  "local_asr": "Whisper base.en, sherpa-onnx 1.13.8, CPU only",
+  "output": "24 preserved scenes, English on-screen text, native 60 fps renderer, 1080p",
+  "credentials_packaged": false,
+  "preserved_modules": {
+    "character.js": {
+      "sha256": "ceee636e12b889486e05b0b14db4324c3ff28fe6a6f4cca3ead0af4ca456fddc",
+      "unchanged": true
+    },
+    "chaos.js": {
+      "sha256": "8804905a46b3fcc9f6002e1514f69545d429639ddfd951ced2cb877ccacdb64b",
+      "unchanged": true
+    }
+  }
+}

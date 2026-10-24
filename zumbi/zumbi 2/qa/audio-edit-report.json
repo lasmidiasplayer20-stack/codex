@@ -1,0 +1,31 @@
+{
+  "source_duration": 515.24,
+  "source_sha256": "cee2116e7f172792c64004f2639ed04ff9c8dfcd989a2f4bf3468830dc9ced45",
+  "removed_intervals": [
+    {
+      "source_start": 330.219729,
+      "source_end": 332.571958,
+      "reason": "Spoken scene heading: The power fades"
+    },
+    {
+      "source_start": 354.294104,
+      "source_end": 356.643896,
+      "reason": "Spoken scene heading: The noise returns"
+    },
+    {
+      "source_start": 380.242375,
+      "source_end": 383.059542,
+      "reason": "Spoken scene heading: Not leaving anyone behind"
+    },
+    {
+      "source_start": 405.501125,
+      "source_end": 407.429667,
+      "reason": "Spoken scene heading: On the rooftop"
+    }
+  ],
+  "removed_seconds": 9.447730000000035,
+  "intro_seconds": 3,
+  "outro_seconds": 2,
+  "final_duration": 510.8,
+  "method": "Local Whisper base.en transcription; silence-boundary cuts; 8 ms edge fades. No remote transcription upload."
+}
