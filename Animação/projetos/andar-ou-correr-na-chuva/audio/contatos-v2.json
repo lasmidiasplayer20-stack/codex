@@ -1,0 +1,1433 @@
+[
+  {
+    "time": 1.8833,
+    "gait": "walk",
+    "speed": 0.838,
+    "side": 1,
+    "actor": 0,
+    "scene": 0,
+    "pan": 0
+  },
+  {
+    "time": 2.5333,
+    "gait": "walk",
+    "speed": 1.062,
+    "side": 0,
+    "actor": 0,
+    "scene": 0,
+    "pan": 0
+  },
+  {
+    "time": 3.1083,
+    "gait": "walk",
+    "speed": 1.072,
+    "side": 1,
+    "actor": 0,
+    "scene": 0,
+    "pan": 0
+  },
+  {
+    "time": 3.7417,
+    "gait": "walk",
+    "speed": 0.874,
+    "side": 0,
+    "actor": 0,
+    "scene": 0,
+    "pan": 0
+  },
+  {
+    "time": 4.8167,
+    "gait": "walk",
+    "speed": 0.26,
+    "side": 1,
+    "actor": 0,
+    "scene": 0,
+    "pan": 0
+  },
+  {
+    "time": 34.1,
+    "gait": "run",
+    "speed": 2.939,
+    "side": 1,
+    "actor": 1,
+    "scene": 33,
+    "pan": 0.45
+  },
+  {
+    "time": 34.375,
+    "gait": "run",
+    "speed": 3.388,
+    "side": 0,
+    "actor": 1,
+    "scene": 33,
+    "pan": 0.45
+  },
+  {
+    "time": 34.6667,
+    "gait": "run",
+    "speed": 2.681,
+    "side": 1,
+    "actor": 1,
+    "scene": 33,
+    "pan": 0.45
+  },
+  {
+    "time": 34.975,
+    "gait": "walk",
+    "speed": 0.96,
+    "side": 1,
+    "actor": 0,
+    "scene": 33,
+    "pan": -0.45
+  },
+  {
+    "time": 35.5333,
+    "gait": "walk",
+    "speed": 1.234,
+    "side": 0,
+    "actor": 0,
+    "scene": 33,
+    "pan": -0.45
+  },
+  {
+    "time": 36.025,
+    "gait": "walk",
+    "speed": 1.283,
+    "side": 1,
+    "actor": 0,
+    "scene": 33,
+    "pan": -0.45
+  },
+  {
+    "time": 36.5333,
+    "gait": "walk",
+    "speed": 1.129,
+    "side": 0,
+    "actor": 0,
+    "scene": 33,
+    "pan": -0.45
+  },
+  {
+    "time": 37.2167,
+    "gait": "walk",
+    "speed": 0.673,
+    "side": 1,
+    "actor": 0,
+    "scene": 33,
+    "pan": -0.45
+  },
+  {
+    "time": 51.675,
+    "gait": "run",
+    "speed": 1.73,
+    "side": 1,
+    "actor": 0,
+    "scene": 50,
+    "pan": 0.3
+  },
+  {
+    "time": 52.1,
+    "gait": "run",
+    "speed": 2.465,
+    "side": 0,
+    "actor": 0,
+    "scene": 50,
+    "pan": 0.3
+  },
+  {
+    "time": 52.4333,
+    "gait": "run",
+    "speed": 2.958,
+    "side": 1,
+    "actor": 0,
+    "scene": 50,
+    "pan": 0.3
+  },
+  {
+    "time": 52.6,
+    "gait": "walk",
+    "speed": 0.738,
+    "side": 1,
+    "actor": 1,
+    "scene": 50,
+    "pan": -0.3
+  },
+  {
+    "time": 52.725,
+    "gait": "run",
+    "speed": 3.293,
+    "side": 0,
+    "actor": 0,
+    "scene": 50,
+    "pan": 0.3
+  },
+  {
+    "time": 52.9833,
+    "gait": "run",
+    "speed": 3.499,
+    "side": 1,
+    "actor": 0,
+    "scene": 50,
+    "pan": 0.3
+  },
+  {
+    "time": 53.2417,
+    "gait": "run",
+    "speed": 3.61,
+    "side": 0,
+    "actor": 0,
+    "scene": 50,
+    "pan": 0.3
+  },
+  {
+    "time": 53.3,
+    "gait": "walk",
+    "speed": 1.046,
+    "side": 0,
+    "actor": 1,
+    "scene": 50,
+    "pan": -0.3
+  },
+  {
+    "time": 53.4833,
+    "gait": "run",
+    "speed": 3.624,
+    "side": 1,
+    "actor": 0,
+    "scene": 50,
+    "pan": 0.3
+  },
+  {
+    "time": 53.7333,
+    "gait": "run",
+    "speed": 3.546,
+    "side": 0,
+    "actor": 0,
+    "scene": 50,
+    "pan": 0.3
+  },
+  {
+    "time": 53.8417,
+    "gait": "walk",
+    "speed": 1.238,
+    "side": 1,
+    "actor": 1,
+    "scene": 50,
+    "pan": -0.3
+  },
+  {
+    "time": 54,
+    "gait": "run",
+    "speed": 3.362,
+    "side": 1,
+    "actor": 0,
+    "scene": 50,
+    "pan": 0.3
+  },
+  {
+    "time": 54.275,
+    "gait": "run",
+    "speed": 3.074,
+    "side": 0,
+    "actor": 0,
+    "scene": 50,
+    "pan": 0.3
+  },
+  {
+    "time": 54.325,
+    "gait": "walk",
+    "speed": 1.359,
+    "side": 0,
+    "actor": 1,
+    "scene": 50,
+    "pan": -0.3
+  },
+  {
+    "time": 54.5917,
+    "gait": "run",
+    "speed": 2.636,
+    "side": 1,
+    "actor": 0,
+    "scene": 50,
+    "pan": 0.3
+  },
+  {
+    "time": 54.775,
+    "gait": "walk",
+    "speed": 1.422,
+    "side": 1,
+    "actor": 1,
+    "scene": 50,
+    "pan": -0.3
+  },
+  {
+    "time": 54.975,
+    "gait": "run",
+    "speed": 1.997,
+    "side": 0,
+    "actor": 0,
+    "scene": 50,
+    "pan": 0.3
+  },
+  {
+    "time": 55.2083,
+    "gait": "walk",
+    "speed": 1.435,
+    "side": 0,
+    "actor": 1,
+    "scene": 50,
+    "pan": -0.3
+  },
+  {
+    "time": 55.5917,
+    "gait": "run",
+    "speed": 0.908,
+    "side": 1,
+    "actor": 0,
+    "scene": 50,
+    "pan": 0.3
+  },
+  {
+    "time": 55.65,
+    "gait": "walk",
+    "speed": 1.397,
+    "side": 1,
+    "actor": 1,
+    "scene": 50,
+    "pan": -0.3
+  },
+  {
+    "time": 56.1083,
+    "gait": "walk",
+    "speed": 1.307,
+    "side": 0,
+    "actor": 1,
+    "scene": 50,
+    "pan": -0.3
+  },
+  {
+    "time": 56.6167,
+    "gait": "walk",
+    "speed": 1.153,
+    "side": 1,
+    "actor": 1,
+    "scene": 50,
+    "pan": -0.3
+  },
+  {
+    "time": 57.2167,
+    "gait": "walk",
+    "speed": 0.913,
+    "side": 0,
+    "actor": 1,
+    "scene": 50,
+    "pan": -0.3
+  },
+  {
+    "time": 58.0917,
+    "gait": "walk",
+    "speed": 0.508,
+    "side": 1,
+    "actor": 1,
+    "scene": 50,
+    "pan": -0.3
+  },
+  {
+    "time": 116.1,
+    "gait": "run",
+    "speed": 2.939,
+    "side": 1,
+    "actor": 1,
+    "scene": 115,
+    "pan": 0.45
+  },
+  {
+    "time": 116.375,
+    "gait": "run",
+    "speed": 3.388,
+    "side": 0,
+    "actor": 1,
+    "scene": 115,
+    "pan": 0.45
+  },
+  {
+    "time": 116.6667,
+    "gait": "run",
+    "speed": 2.681,
+    "side": 1,
+    "actor": 1,
+    "scene": 115,
+    "pan": 0.45
+  },
+  {
+    "time": 116.975,
+    "gait": "walk",
+    "speed": 0.96,
+    "side": 1,
+    "actor": 0,
+    "scene": 115,
+    "pan": -0.45
+  },
+  {
+    "time": 117.5333,
+    "gait": "walk",
+    "speed": 1.234,
+    "side": 0,
+    "actor": 0,
+    "scene": 115,
+    "pan": -0.45
+  },
+  {
+    "time": 118.025,
+    "gait": "walk",
+    "speed": 1.283,
+    "side": 1,
+    "actor": 0,
+    "scene": 115,
+    "pan": -0.45
+  },
+  {
+    "time": 118.5333,
+    "gait": "walk",
+    "speed": 1.129,
+    "side": 0,
+    "actor": 0,
+    "scene": 115,
+    "pan": -0.45
+  },
+  {
+    "time": 119.2167,
+    "gait": "walk",
+    "speed": 0.673,
+    "side": 1,
+    "actor": 0,
+    "scene": 115,
+    "pan": -0.45
+  },
+  {
+    "time": 125.1,
+    "gait": "run",
+    "speed": 2.939,
+    "side": 1,
+    "actor": 1,
+    "scene": 124,
+    "pan": 0.45
+  },
+  {
+    "time": 125.375,
+    "gait": "run",
+    "speed": 3.388,
+    "side": 0,
+    "actor": 1,
+    "scene": 124,
+    "pan": 0.45
+  },
+  {
+    "time": 125.6667,
+    "gait": "run",
+    "speed": 2.681,
+    "side": 1,
+    "actor": 1,
+    "scene": 124,
+    "pan": 0.45
+  },
+  {
+    "time": 125.975,
+    "gait": "walk",
+    "speed": 0.96,
+    "side": 1,
+    "actor": 0,
+    "scene": 124,
+    "pan": -0.45
+  },
+  {
+    "time": 126.5333,
+    "gait": "walk",
+    "speed": 1.234,
+    "side": 0,
+    "actor": 0,
+    "scene": 124,
+    "pan": -0.45
+  },
+  {
+    "time": 127.025,
+    "gait": "walk",
+    "speed": 1.283,
+    "side": 1,
+    "actor": 0,
+    "scene": 124,
+    "pan": -0.45
+  },
+  {
+    "time": 127.5333,
+    "gait": "walk",
+    "speed": 1.129,
+    "side": 0,
+    "actor": 0,
+    "scene": 124,
+    "pan": -0.45
+  },
+  {
+    "time": 128.2167,
+    "gait": "walk",
+    "speed": 0.673,
+    "side": 1,
+    "actor": 0,
+    "scene": 124,
+    "pan": -0.45
+  },
+  {
+    "time": 134.1,
+    "gait": "run",
+    "speed": 2.939,
+    "side": 1,
+    "actor": 1,
+    "scene": 133,
+    "pan": 0.45
+  },
+  {
+    "time": 134.375,
+    "gait": "run",
+    "speed": 3.388,
+    "side": 0,
+    "actor": 1,
+    "scene": 133,
+    "pan": 0.45
+  },
+  {
+    "time": 134.6667,
+    "gait": "run",
+    "speed": 2.681,
+    "side": 1,
+    "actor": 1,
+    "scene": 133,
+    "pan": 0.45
+  },
+  {
+    "time": 134.975,
+    "gait": "walk",
+    "speed": 0.96,
+    "side": 1,
+    "actor": 0,
+    "scene": 133,
+    "pan": -0.45
+  },
+  {
+    "time": 135.5333,
+    "gait": "walk",
+    "speed": 1.234,
+    "side": 0,
+    "actor": 0,
+    "scene": 133,
+    "pan": -0.45
+  },
+  {
+    "time": 136.025,
+    "gait": "walk",
+    "speed": 1.283,
+    "side": 1,
+    "actor": 0,
+    "scene": 133,
+    "pan": -0.45
+  },
+  {
+    "time": 136.5333,
+    "gait": "walk",
+    "speed": 1.129,
+    "side": 0,
+    "actor": 0,
+    "scene": 133,
+    "pan": -0.45
+  },
+  {
+    "time": 137.2167,
+    "gait": "walk",
+    "speed": 0.673,
+    "side": 1,
+    "actor": 0,
+    "scene": 133,
+    "pan": -0.45
+  },
+  {
+    "time": 152.9917,
+    "gait": "run",
+    "speed": 1.436,
+    "side": 1,
+    "actor": 0,
+    "scene": 151,
+    "pan": 0
+  },
+  {
+    "time": 153.5083,
+    "gait": "run",
+    "speed": 2.05,
+    "side": 0,
+    "actor": 0,
+    "scene": 151,
+    "pan": 0
+  },
+  {
+    "time": 153.9083,
+    "gait": "run",
+    "speed": 2.449,
+    "side": 1,
+    "actor": 0,
+    "scene": 151,
+    "pan": 0
+  },
+  {
+    "time": 154.2583,
+    "gait": "run",
+    "speed": 2.715,
+    "side": 0,
+    "actor": 0,
+    "scene": 151,
+    "pan": 0
+  },
+  {
+    "time": 154.575,
+    "gait": "run",
+    "speed": 2.874,
+    "side": 1,
+    "actor": 0,
+    "scene": 151,
+    "pan": 0
+  },
+  {
+    "time": 154.8833,
+    "gait": "run",
+    "speed": 2.948,
+    "side": 0,
+    "actor": 0,
+    "scene": 151,
+    "pan": 0
+  },
+  {
+    "time": 155.1917,
+    "gait": "run",
+    "speed": 2.937,
+    "side": 1,
+    "actor": 0,
+    "scene": 151,
+    "pan": 0
+  },
+  {
+    "time": 155.5,
+    "gait": "run",
+    "speed": 2.844,
+    "side": 0,
+    "actor": 0,
+    "scene": 151,
+    "pan": 0
+  },
+  {
+    "time": 155.825,
+    "gait": "run",
+    "speed": 2.66,
+    "side": 1,
+    "actor": 0,
+    "scene": 151,
+    "pan": 0
+  },
+  {
+    "time": 156.1833,
+    "gait": "run",
+    "speed": 2.365,
+    "side": 0,
+    "actor": 0,
+    "scene": 151,
+    "pan": 0
+  },
+  {
+    "time": 156.6,
+    "gait": "run",
+    "speed": 1.928,
+    "side": 1,
+    "actor": 0,
+    "scene": 151,
+    "pan": 0
+  },
+  {
+    "time": 157.1667,
+    "gait": "run",
+    "speed": 1.239,
+    "side": 0,
+    "actor": 0,
+    "scene": 151,
+    "pan": 0
+  },
+  {
+    "time": 176.1,
+    "gait": "run",
+    "speed": 2.939,
+    "side": 1,
+    "actor": 1,
+    "scene": 175,
+    "pan": 0.45
+  },
+  {
+    "time": 176.375,
+    "gait": "run",
+    "speed": 3.388,
+    "side": 0,
+    "actor": 1,
+    "scene": 175,
+    "pan": 0.45
+  },
+  {
+    "time": 176.6667,
+    "gait": "run",
+    "speed": 2.681,
+    "side": 1,
+    "actor": 1,
+    "scene": 175,
+    "pan": 0.45
+  },
+  {
+    "time": 176.975,
+    "gait": "walk",
+    "speed": 0.96,
+    "side": 1,
+    "actor": 0,
+    "scene": 175,
+    "pan": -0.45
+  },
+  {
+    "time": 177.5333,
+    "gait": "walk",
+    "speed": 1.234,
+    "side": 0,
+    "actor": 0,
+    "scene": 175,
+    "pan": -0.45
+  },
+  {
+    "time": 178.025,
+    "gait": "walk",
+    "speed": 1.283,
+    "side": 1,
+    "actor": 0,
+    "scene": 175,
+    "pan": -0.45
+  },
+  {
+    "time": 178.5333,
+    "gait": "walk",
+    "speed": 1.129,
+    "side": 0,
+    "actor": 0,
+    "scene": 175,
+    "pan": -0.45
+  },
+  {
+    "time": 179.2167,
+    "gait": "walk",
+    "speed": 0.673,
+    "side": 1,
+    "actor": 0,
+    "scene": 175,
+    "pan": -0.45
+  },
+  {
+    "time": 235.7667,
+    "gait": "run",
+    "speed": 1.664,
+    "side": 1,
+    "actor": 0,
+    "scene": 234,
+    "pan": 0
+  },
+  {
+    "time": 236.2167,
+    "gait": "run",
+    "speed": 2.381,
+    "side": 0,
+    "actor": 0,
+    "scene": 234,
+    "pan": 0
+  },
+  {
+    "time": 236.5583,
+    "gait": "run",
+    "speed": 2.838,
+    "side": 1,
+    "actor": 0,
+    "scene": 234,
+    "pan": 0
+  },
+  {
+    "time": 236.8583,
+    "gait": "run",
+    "speed": 3.144,
+    "side": 0,
+    "actor": 0,
+    "scene": 234,
+    "pan": 0
+  },
+  {
+    "time": 237.1333,
+    "gait": "run",
+    "speed": 3.33,
+    "side": 1,
+    "actor": 0,
+    "scene": 234,
+    "pan": 0
+  },
+  {
+    "time": 237.4,
+    "gait": "run",
+    "speed": 3.416,
+    "side": 0,
+    "actor": 0,
+    "scene": 234,
+    "pan": 0
+  },
+  {
+    "time": 237.6667,
+    "gait": "run",
+    "speed": 3.403,
+    "side": 1,
+    "actor": 0,
+    "scene": 234,
+    "pan": 0
+  },
+  {
+    "time": 237.9333,
+    "gait": "run",
+    "speed": 3.294,
+    "side": 0,
+    "actor": 0,
+    "scene": 234,
+    "pan": 0
+  },
+  {
+    "time": 238.2167,
+    "gait": "run",
+    "speed": 3.077,
+    "side": 1,
+    "actor": 0,
+    "scene": 234,
+    "pan": 0
+  },
+  {
+    "time": 238.525,
+    "gait": "run",
+    "speed": 2.736,
+    "side": 0,
+    "actor": 0,
+    "scene": 234,
+    "pan": 0
+  },
+  {
+    "time": 238.8833,
+    "gait": "run",
+    "speed": 2.23,
+    "side": 1,
+    "actor": 0,
+    "scene": 234,
+    "pan": 0
+  },
+  {
+    "time": 239.3667,
+    "gait": "run",
+    "speed": 1.441,
+    "side": 0,
+    "actor": 0,
+    "scene": 234,
+    "pan": 0
+  },
+  {
+    "time": 317.475,
+    "gait": "walk",
+    "speed": 0.662,
+    "side": 1,
+    "actor": 0,
+    "scene": 315,
+    "pan": 0
+  },
+  {
+    "time": 318.2667,
+    "gait": "walk",
+    "speed": 0.905,
+    "side": 0,
+    "actor": 0,
+    "scene": 315,
+    "pan": 0
+  },
+  {
+    "time": 318.9083,
+    "gait": "walk",
+    "speed": 1.027,
+    "side": 1,
+    "actor": 0,
+    "scene": 315,
+    "pan": 0
+  },
+  {
+    "time": 319.5083,
+    "gait": "walk",
+    "speed": 1.065,
+    "side": 0,
+    "actor": 0,
+    "scene": 315,
+    "pan": 0
+  },
+  {
+    "time": 320.1,
+    "gait": "walk",
+    "speed": 1.026,
+    "side": 1,
+    "actor": 0,
+    "scene": 315,
+    "pan": 0
+  },
+  {
+    "time": 320.7417,
+    "gait": "walk",
+    "speed": 0.902,
+    "side": 0,
+    "actor": 0,
+    "scene": 315,
+    "pan": 0
+  },
+  {
+    "time": 321.5333,
+    "gait": "walk",
+    "speed": 0.659,
+    "side": 1,
+    "actor": 0,
+    "scene": 315,
+    "pan": 0
+  },
+  {
+    "time": 325.9917,
+    "gait": "run",
+    "speed": 1.436,
+    "side": 1,
+    "actor": 0,
+    "scene": 324,
+    "pan": 0
+  },
+  {
+    "time": 326.5083,
+    "gait": "run",
+    "speed": 2.05,
+    "side": 0,
+    "actor": 0,
+    "scene": 324,
+    "pan": 0
+  },
+  {
+    "time": 326.9083,
+    "gait": "run",
+    "speed": 2.449,
+    "side": 1,
+    "actor": 0,
+    "scene": 324,
+    "pan": 0
+  },
+  {
+    "time": 327.2583,
+    "gait": "run",
+    "speed": 2.715,
+    "side": 0,
+    "actor": 0,
+    "scene": 324,
+    "pan": 0
+  },
+  {
+    "time": 327.575,
+    "gait": "run",
+    "speed": 2.874,
+    "side": 1,
+    "actor": 0,
+    "scene": 324,
+    "pan": 0
+  },
+  {
+    "time": 327.8833,
+    "gait": "run",
+    "speed": 2.948,
+    "side": 0,
+    "actor": 0,
+    "scene": 324,
+    "pan": 0
+  },
+  {
+    "time": 328.1917,
+    "gait": "run",
+    "speed": 2.937,
+    "side": 1,
+    "actor": 0,
+    "scene": 324,
+    "pan": 0
+  },
+  {
+    "time": 328.5,
+    "gait": "run",
+    "speed": 2.844,
+    "side": 0,
+    "actor": 0,
+    "scene": 324,
+    "pan": 0
+  },
+  {
+    "time": 328.825,
+    "gait": "run",
+    "speed": 2.66,
+    "side": 1,
+    "actor": 0,
+    "scene": 324,
+    "pan": 0
+  },
+  {
+    "time": 329.1833,
+    "gait": "run",
+    "speed": 2.365,
+    "side": 0,
+    "actor": 0,
+    "scene": 324,
+    "pan": 0
+  },
+  {
+    "time": 329.6,
+    "gait": "run",
+    "speed": 1.928,
+    "side": 1,
+    "actor": 0,
+    "scene": 324,
+    "pan": 0
+  },
+  {
+    "time": 330.1667,
+    "gait": "run",
+    "speed": 1.239,
+    "side": 0,
+    "actor": 0,
+    "scene": 324,
+    "pan": 0
+  },
+  {
+    "time": 333.5083,
+    "gait": "run",
+    "speed": 2.744,
+    "side": 1,
+    "actor": 0,
+    "scene": 332,
+    "pan": 0
+  },
+  {
+    "time": 333.7917,
+    "gait": "run",
+    "speed": 3.547,
+    "side": 0,
+    "actor": 0,
+    "scene": 332,
+    "pan": 0
+  },
+  {
+    "time": 334.0333,
+    "gait": "run",
+    "speed": 3.732,
+    "side": 1,
+    "actor": 0,
+    "scene": 332,
+    "pan": 0
+  },
+  {
+    "time": 334.2833,
+    "gait": "run",
+    "speed": 3.39,
+    "side": 0,
+    "actor": 0,
+    "scene": 332,
+    "pan": 0
+  },
+  {
+    "time": 334.5917,
+    "gait": "run",
+    "speed": 2.349,
+    "side": 1,
+    "actor": 0,
+    "scene": 332,
+    "pan": 0
+  },
+  {
+    "time": 433.675,
+    "gait": "run",
+    "speed": 1.73,
+    "side": 1,
+    "actor": 0,
+    "scene": 432,
+    "pan": 0.3
+  },
+  {
+    "time": 434.1,
+    "gait": "run",
+    "speed": 2.465,
+    "side": 0,
+    "actor": 0,
+    "scene": 432,
+    "pan": 0.3
+  },
+  {
+    "time": 434.1333,
+    "gait": "walk",
+    "speed": 0.939,
+    "side": 1,
+    "actor": 1,
+    "scene": 432,
+    "pan": -0.3
+  },
+  {
+    "time": 434.4333,
+    "gait": "run",
+    "speed": 2.958,
+    "side": 1,
+    "actor": 0,
+    "scene": 432,
+    "pan": 0.3
+  },
+  {
+    "time": 434.6833,
+    "gait": "walk",
+    "speed": 1.329,
+    "side": 0,
+    "actor": 1,
+    "scene": 432,
+    "pan": -0.3
+  },
+  {
+    "time": 434.725,
+    "gait": "run",
+    "speed": 3.293,
+    "side": 0,
+    "actor": 0,
+    "scene": 432,
+    "pan": 0.3
+  },
+  {
+    "time": 434.9833,
+    "gait": "run",
+    "speed": 3.499,
+    "side": 1,
+    "actor": 0,
+    "scene": 432,
+    "pan": 0.3
+  },
+  {
+    "time": 435.1083,
+    "gait": "walk",
+    "speed": 1.572,
+    "side": 1,
+    "actor": 1,
+    "scene": 432,
+    "pan": -0.3
+  },
+  {
+    "time": 435.2417,
+    "gait": "run",
+    "speed": 3.61,
+    "side": 0,
+    "actor": 0,
+    "scene": 432,
+    "pan": 0.3
+  },
+  {
+    "time": 435.4833,
+    "gait": "run",
+    "speed": 3.624,
+    "side": 1,
+    "actor": 0,
+    "scene": 432,
+    "pan": 0.3
+  },
+  {
+    "time": 435.4917,
+    "gait": "walk",
+    "speed": 1.727,
+    "side": 0,
+    "actor": 1,
+    "scene": 432,
+    "pan": -0.3
+  },
+  {
+    "time": 435.7333,
+    "gait": "run",
+    "speed": 3.546,
+    "side": 0,
+    "actor": 0,
+    "scene": 432,
+    "pan": 0.3
+  },
+  {
+    "time": 435.8417,
+    "gait": "walk",
+    "speed": 1.807,
+    "side": 1,
+    "actor": 1,
+    "scene": 432,
+    "pan": -0.3
+  },
+  {
+    "time": 436,
+    "gait": "run",
+    "speed": 3.362,
+    "side": 1,
+    "actor": 0,
+    "scene": 432,
+    "pan": 0.3
+  },
+  {
+    "time": 436.1833,
+    "gait": "walk",
+    "speed": 1.822,
+    "side": 0,
+    "actor": 1,
+    "scene": 432,
+    "pan": -0.3
+  },
+  {
+    "time": 436.275,
+    "gait": "run",
+    "speed": 3.074,
+    "side": 0,
+    "actor": 0,
+    "scene": 432,
+    "pan": 0.3
+  },
+  {
+    "time": 436.5333,
+    "gait": "walk",
+    "speed": 1.775,
+    "side": 1,
+    "actor": 1,
+    "scene": 432,
+    "pan": -0.3
+  },
+  {
+    "time": 436.5917,
+    "gait": "run",
+    "speed": 2.636,
+    "side": 1,
+    "actor": 0,
+    "scene": 432,
+    "pan": 0.3
+  },
+  {
+    "time": 436.8917,
+    "gait": "walk",
+    "speed": 1.661,
+    "side": 0,
+    "actor": 1,
+    "scene": 432,
+    "pan": -0.3
+  },
+  {
+    "time": 436.975,
+    "gait": "run",
+    "speed": 1.997,
+    "side": 0,
+    "actor": 0,
+    "scene": 432,
+    "pan": 0.3
+  },
+  {
+    "time": 437.2917,
+    "gait": "walk",
+    "speed": 1.465,
+    "side": 1,
+    "actor": 1,
+    "scene": 432,
+    "pan": -0.3
+  },
+  {
+    "time": 437.5917,
+    "gait": "run",
+    "speed": 0.908,
+    "side": 1,
+    "actor": 0,
+    "scene": 432,
+    "pan": 0.3
+  },
+  {
+    "time": 437.7667,
+    "gait": "walk",
+    "speed": 1.159,
+    "side": 0,
+    "actor": 1,
+    "scene": 432,
+    "pan": -0.3
+  },
+  {
+    "time": 438.4583,
+    "gait": "walk",
+    "speed": 0.643,
+    "side": 1,
+    "actor": 1,
+    "scene": 432,
+    "pan": -0.3
+  },
+  {
+    "time": 463.1167,
+    "gait": "walk",
+    "speed": 0.718,
+    "side": 1,
+    "actor": 0,
+    "scene": 461,
+    "pan": 0
+  },
+  {
+    "time": 463.8917,
+    "gait": "walk",
+    "speed": 0.87,
+    "side": 0,
+    "actor": 0,
+    "scene": 461,
+    "pan": 0
+  },
+  {
+    "time": 464.625,
+    "gait": "walk",
+    "speed": 0.794,
+    "side": 1,
+    "actor": 0,
+    "scene": 461,
+    "pan": 0
+  },
+  {
+    "time": 465.6333,
+    "gait": "walk",
+    "speed": 0.407,
+    "side": 0,
+    "actor": 0,
+    "scene": 461,
+    "pan": 0
+  },
+  {
+    "time": 468.5417,
+    "gait": "run",
+    "speed": 1.707,
+    "side": 1,
+    "actor": 0,
+    "scene": 467,
+    "pan": 0
+  },
+  {
+    "time": 468.975,
+    "gait": "run",
+    "speed": 2.454,
+    "side": 0,
+    "actor": 0,
+    "scene": 467,
+    "pan": 0
+  },
+  {
+    "time": 469.3083,
+    "gait": "run",
+    "speed": 2.955,
+    "side": 1,
+    "actor": 0,
+    "scene": 467,
+    "pan": 0
+  },
+  {
+    "time": 469.5917,
+    "gait": "run",
+    "speed": 3.299,
+    "side": 0,
+    "actor": 0,
+    "scene": 467,
+    "pan": 0
+  },
+  {
+    "time": 469.8583,
+    "gait": "run",
+    "speed": 3.537,
+    "side": 1,
+    "actor": 0,
+    "scene": 467,
+    "pan": 0
+  },
+  {
+    "time": 470.1083,
+    "gait": "run",
+    "speed": 3.675,
+    "side": 0,
+    "actor": 0,
+    "scene": 467,
+    "pan": 0
+  },
+  {
+    "time": 470.35,
+    "gait": "run",
+    "speed": 3.725,
+    "side": 1,
+    "actor": 0,
+    "scene": 467,
+    "pan": 0
+  },
+  {
+    "time": 470.5917,
+    "gait": "run",
+    "speed": 3.692,
+    "side": 0,
+    "actor": 0,
+    "scene": 467,
+    "pan": 0
+  },
+  {
+    "time": 470.8417,
+    "gait": "run",
+    "speed": 3.571,
+    "side": 1,
+    "actor": 0,
+    "scene": 467,
+    "pan": 0
+  },
+  {
+    "time": 471.1,
+    "gait": "run",
+    "speed": 3.359,
+    "side": 0,
+    "actor": 0,
+    "scene": 467,
+    "pan": 0
+  },
+  {
+    "time": 471.375,
+    "gait": "run",
+    "speed": 3.044,
+    "side": 1,
+    "actor": 0,
+    "scene": 467,
+    "pan": 0
+  },
+  {
+    "time": 471.7,
+    "gait": "run",
+    "speed": 2.574,
+    "side": 0,
+    "actor": 0,
+    "scene": 467,
+    "pan": 0
+  },
+  {
+    "time": 472.1,
+    "gait": "run",
+    "speed": 1.899,
+    "side": 1,
+    "actor": 0,
+    "scene": 467,
+    "pan": 0
+  },
+  {
+    "time": 472.7833,
+    "gait": "run",
+    "speed": 0.729,
+    "side": 0,
+    "actor": 0,
+    "scene": 467,
+    "pan": 0
+  }
+]

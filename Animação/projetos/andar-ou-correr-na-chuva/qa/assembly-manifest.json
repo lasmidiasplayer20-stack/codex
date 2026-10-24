@@ -1,0 +1,54 @@
+{
+  "revision": 2,
+  "base_source_hashes": {
+    "film.js": "25b935c0c209c118a4eede7e20a801dee666022837fd03ec4aea24980ebc1471",
+    "index.html": "23c7457029fac56e40e01bfd30b805d24b4415e382402d49cea1698a5bd9dfde",
+    "locomotion.js": "c6faecefb85d31cfcc396618a98b864a91f6066147cb5bea3c4c039161a4b03a",
+    "rain.js": "7bdb087baca051e1ae674f534a429e261b3d1999bab1a3d95e4c022a136cb2be",
+    "render.mjs": "c65efa843c61319f8b9ee03cbbc964e4ca28e0c2d7529e4cafb22070b36932a4",
+    "three.min.js": "9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2",
+    "timeline.js": "b24edadc7356d0b56982f14d3f3cdee972193c000da082f80667f3373fff3e3a",
+    "world3d.js": "c3b34137d6106f6eaa4e15e3b150bf52adc3e291953c5fe2883e6d5cdda25d0b"
+  },
+  "current_source_hashes": {
+    "rain.js": "7bdb087baca051e1ae674f534a429e261b3d1999bab1a3d95e4c022a136cb2be",
+    "world3d.js": "c3b34137d6106f6eaa4e15e3b150bf52adc3e291953c5fe2883e6d5cdda25d0b",
+    "render.mjs": "c65efa843c61319f8b9ee03cbbc964e4ca28e0c2d7529e4cafb22070b36932a4",
+    "three.min.js": "9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2",
+    "timeline.js": "b24edadc7356d0b56982f14d3f3cdee972193c000da082f80667f3373fff3e3a",
+    "film.js": "25b935c0c209c118a4eede7e20a801dee666022837fd03ec4aea24980ebc1471",
+    "locomotion.js": "860eb461b3f9c0437eee2c9d255706296c7070523d6cbb791e4a70439089aa0d",
+    "index.html": "23c7457029fac56e40e01bfd30b805d24b4415e382402d49cea1698a5bd9dfde"
+  },
+  "replacements": [
+    {
+      "start": 50,
+      "end": 60,
+      "file": "/workspace/codex/Anima\u00e7\u00e3o/projetos/andar-ou-correr-na-chuva/render/replacement-50.mp4",
+      "sha256": "86139f2ebcb78b27a1de809ba0256ed443cd6ce8e06e913b4faace8001579326"
+    },
+    {
+      "start": 432,
+      "end": 440,
+      "file": "/workspace/codex/Anima\u00e7\u00e3o/projetos/andar-ou-correr-na-chuva/render/replacement-432.mp4",
+      "sha256": "3d473d7d7408e80a8b6012b97699a2b5932b6017838ed8ad0bacea0a41797140"
+    }
+  ],
+  "cache_proof": {
+    "sameOutsideReplacements": true,
+    "checkedSamples": 27758,
+    "beforeSHA": "c6faecefb85d31cfcc396618a98b864a91f6066147cb5bea3c4c039161a4b03a",
+    "afterSHA": "860eb461b3f9c0437eee2c9d255706296c7070523d6cbb791e4a70439089aa0d",
+    "ranges": [
+      {
+        "start": 50,
+        "end": 60
+      },
+      {
+        "start": 432,
+        "end": 440
+      }
+    ]
+  },
+  "output_sha256": "ad220dd9e63677dfe7c66bbfdde4b7bc688b3ac40c3c0716005998dc695d532c"
+}

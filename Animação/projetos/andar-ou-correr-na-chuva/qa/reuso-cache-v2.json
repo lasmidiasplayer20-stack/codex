@@ -1,0 +1,18 @@
+{
+  "oldSupportGap": 0.14,
+  "newSupportGap": 0,
+  "sameOutsideReplacements": true,
+  "checkedSamples": 27758,
+  "beforeSHA": "c6faecefb85d31cfcc396618a98b864a91f6066147cb5bea3c4c039161a4b03a",
+  "afterSHA": "860eb461b3f9c0437eee2c9d255706296c7070523d6cbb791e4a70439089aa0d",
+  "ranges": [
+    {
+      "start": 50,
+      "end": 60
+    },
+    {
+      "start": 432,
+      "end": 440
+    }
+  ]
+}

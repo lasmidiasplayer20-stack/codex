@@ -1,4 +1,55 @@
 {
+  "revision": 2,
+  "verified_replacements": [
+    {
+      "start": 50,
+      "end": 60,
+      "file": "/workspace/codex/Animação/projetos/andar-ou-correr-na-chuva/render/replacement-50.mp4",
+      "sha256": "86139f2ebcb78b27a1de809ba0256ed443cd6ce8e06e913b4faace8001579326"
+    },
+    {
+      "start": 432,
+      "end": 440,
+      "file": "/workspace/codex/Animação/projetos/andar-ou-correr-na-chuva/render/replacement-432.mp4",
+      "sha256": "3d473d7d7408e80a8b6012b97699a2b5932b6017838ed8ad0bacea0a41797140"
+    }
+  ],
+  "cache_proof": {
+    "sameOutsideReplacements": true,
+    "checkedSamples": 27758,
+    "beforeSHA": "c6faecefb85d31cfcc396618a98b864a91f6066147cb5bea3c4c039161a4b03a",
+    "afterSHA": "860eb461b3f9c0437eee2c9d255706296c7070523d6cbb791e4a70439089aa0d",
+    "ranges": [
+      {
+        "start": 50,
+        "end": 60
+      },
+      {
+        "start": 432,
+        "end": 440
+      }
+    ]
+  },
+  "locomotion_pure": {
+    "revision": 2,
+    "samples": 21259,
+    "supportedPairs": 7532,
+    "diagramPairs": 3800,
+    "maxSlide": 0,
+    "maxBoneError": 4.440892098500626e-16,
+    "maxTargetError": 0,
+    "minHeadingDot": 0.9999999999999997
+  },
+  "locomotion_meshes": {
+    "samples": 5950,
+    "pairs": 3712,
+    "slide": 9.155133597044475e-16,
+    "boneError": 3.885780586188048e-16,
+    "groundError": 4.768371975050201e-09,
+    "headingDot": 0.9999999999999996
+  },
+  "extra_camera_cuts": 28,
+  "sound_contact_count": 159,
   "duration": 480.0,
   "width": 1920,
   "height": 1080,
@@ -6,48 +57,31 @@
   "frames": 11520,
   "audio_codec": "aac",
   "audio_sample_rate": 48000,
-  "bytes": 79478532,
-  "sha256": "b9fc1142768422079c506e6bf22cb75211cbdb766ac0dd3a9dcc49a92e6d8ab3",
+  "bytes": 70810961,
+  "sha256": "ad220dd9e63677dfe7c66bbfdde4b7bc688b3ac40c3c0716005998dc695d532c",
   "full_decode_passed": true,
-  "audio_peak_dbfs": -1.1,
+  "audio_peak_dbfs": -1.2,
   "shot_count": 57,
   "original_narration_sha256": "49314bd6cd4e11dcc2ecb8a86cfc8dfd144ceec5716c12d9d5255857e2d36524",
   "source_hashes": {
-    "rain.js": "8a6ffc1c3c06595bc87010729a1765f875a690b979b223151c5fb63743dfa3dc",
-    "world3d.js": "f706fdef6b0b1fc4d8aa2b2a0a8847d764fa0c6eadb96eb023de7ed51153c40c",
-    "render.mjs": "2be943ccdfb0a417aab771212cd823cff0fdd000d15c13c992a34559149f170b",
+    "rain.js": "7bdb087baca051e1ae674f534a429e261b3d1999bab1a3d95e4c022a136cb2be",
+    "world3d.js": "c3b34137d6106f6eaa4e15e3b150bf52adc3e291953c5fe2883e6d5cdda25d0b",
+    "render.mjs": "c65efa843c61319f8b9ee03cbbc964e4ca28e0c2d7529e4cafb22070b36932a4",
     "three.min.js": "9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2",
     "timeline.js": "b24edadc7356d0b56982f14d3f3cdee972193c000da082f80667f3373fff3e3a",
     "film.js": "25b935c0c209c118a4eede7e20a801dee666022837fd03ec4aea24980ebc1471",
-    "index.html": "7f446ca3c710dac863c6783932c09705a755e59e34175f76e5bbcfe9f212fd3b"
+    "locomotion.js": "860eb461b3f9c0437eee2c9d255706296c7070523d6cbb791e4a70439089aa0d",
+    "index.html": "23c7457029fac56e40e01bfd30b805d24b4415e382402d49cea1698a5bd9dfde"
   },
   "visuals": "Original Three.js street scenes and Canvas diagrams, not the codex-2 film",
   "webgl_render_size": [
-    1280,
-    720
+    1920,
+    1080
   ],
   "composite_export_size": [
     1920,
     1080
   ],
   "human_listening_performed": false,
-  "summary_labels_contextual": true,
-  "editorial_header_corrections": [
-    {
-      "start": 365,
-      "end": 374,
-      "labels": [
-        "CHUVA RECEBIDA",
-        "ÁGUA RETIDA"
-      ]
-    },
-    {
-      "start": 448,
-      "end": 453,
-      "labels": [
-        "IMPACTO POR SEGUNDO",
-        "DURAÇÃO DO PERCURSO"
-      ]
-    }
-  ]
+  "summary_labels_contextual": true
 }

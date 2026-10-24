@@ -1,0 +1,10 @@
+{
+  "revision": 2,
+  "samples": 21259,
+  "supportedPairs": 7532,
+  "diagramPairs": 3800,
+  "maxSlide": 0,
+  "maxBoneError": 4.440892098500626e-16,
+  "maxTargetError": 0,
+  "minHeadingDot": 0.9999999999999997
+}

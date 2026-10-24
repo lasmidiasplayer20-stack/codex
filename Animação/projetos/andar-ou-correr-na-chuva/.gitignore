@@ -5,3 +5,8 @@ models/
 .venv/
 audio/mix.wav
 delivery/*.mp4
+
+__pycache__/
+*.pyc
+
+delivery/

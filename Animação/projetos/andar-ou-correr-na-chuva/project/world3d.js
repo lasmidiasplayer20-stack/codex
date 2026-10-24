@@ -1,7 +1,7 @@
 /* Geometry, rain and camera animation are original. Three.js is MIT licensed. */
 (()=>{
 const T=THREE,scene=new T.Scene();scene.background=new T.Color('#445e73');scene.fog=new T.Fog('#445e73',35,100);
-const renderer=new T.WebGLRenderer({antialias:false,preserveDrawingBuffer:true});renderer.setSize(1280,720);renderer.setPixelRatio(1);renderer.outputEncoding=T.sRGBEncoding;renderer.toneMapping=T.NoToneMapping;renderer.toneMappingExposure=.78;
+const renderer=new T.WebGLRenderer({antialias:false,preserveDrawingBuffer:true});renderer.setSize(1920,1080);renderer.setPixelRatio(1);renderer.outputEncoding=T.sRGBEncoding;renderer.toneMapping=T.NoToneMapping;renderer.toneMappingExposure=.78;
 const camera=new T.PerspectiveCamera(43,1280/720,.1,150);
 scene.add(new T.HemisphereLight('#b5d6e9','#2c3045',.7));let sun=new T.DirectionalLight('#bfd6e5',.9);sun.position.set(-6,12,10);scene.add(sun);let warm=new T.PointLight('#ffc97a',2.4,14);warm.position.set(8,2.5,-1);scene.add(warm);
 const materials={};function mat(color,rough=.8){let key=color+rough;return materials[key]||(materials[key]=new T.MeshLambertMaterial({color:new T.Color(color).convertSRGBToLinear()}))}
@@ -20,24 +20,62 @@ for(let x of [-8,1,15]){cyl([x,0,0],[x,5.8,0],.07,'#283c4d');cyl([x,5.8,0],[x+.9
 for(let x of [-12,19]){cyl([x,.2,-1],[x,2.4,-1],.12,'#5c6158');ball(x,3,-1,1.3,'#3a666b',scene,1,1.3,1);ball(x-.6,3.3,-1,.9,'#477771');box(x,0,-1,2.2,.25,2,'#5e7682')}
 // Batch static architecture by material to keep software rendering efficient.
 {scene.updateMatrixWorld(true);const groups=new Map();for(const m of [...scene.children]){if(!m.isMesh)continue;let data=groups.get(m.material);if(!data){data={p:[],n:[],uv:[]};groups.set(m.material,data)}let geo=m.geometry.index?m.geometry.toNonIndexed():m.geometry.clone();geo.applyMatrix4(m.matrixWorld);for(let [key,arr]of [['position',data.p],['normal',data.n],['uv',data.uv]]){let a=geo.getAttribute(key);if(a)for(let v of a.array)arr.push(v)}scene.remove(m);geo.dispose();}for(let [material,data]of groups){let geo=new T.BufferGeometry();geo.setAttribute('position',new T.Float32BufferAttribute(data.p,3));geo.setAttribute('normal',new T.Float32BufferAttribute(data.n,3));if(data.uv.length)geo.setAttribute('uv',new T.Float32BufferAttribute(data.uv,2));scene.add(new T.Mesh(geo,material));}}
-function makeActor(color){let g=new T.Group();scene.add(g);let body=new T.Mesh(new T.CylinderGeometry(.23,.19,.87,12),mat(color));g.add(body);let head=ball(0,2.19,0,.28,'#111b28',g,1,1.12,.93);let neck=new T.Mesh(new T.CylinderGeometry(.055,.055,.23,10),mat('#172233'));g.add(neck);let eyes=[];for(let x of [-.095,.095]){let eye=ball(x,2.2,.24,.045,'#edf1de',g,.7,1.3,.6);eyes.push(eye)}let limbs=[];for(let i=0;i<8;i++){let m=new T.Mesh(new T.CylinderGeometry(i<4?.065:.06,i<4?.065:.06,1,10),mat(i<4?'#182838':color));g.add(m);limbs.push(m)}let hands=[ball(0,0,0,.065,'#172330',g),ball(0,0,0,.065,'#172330',g)];let shoes=[];for(let i=0;i<2;i++){let m=new T.Mesh(new T.BoxGeometry(.18,.09,.32),mat('#9bacae'));g.add(m);shoes.push(m)}return{g,body,head,neck,eyes,limbs,hands,shoes}}
-function shadowFor(a){let p=new T.Mesh(new T.CircleGeometry(.48,24),new T.MeshBasicMaterial({color:'#102333',transparent:true,opacity:.35,depthWrite:false}));p.rotation.x=-Math.PI/2;p.position.y=.175;scene.add(p);return p}const hero=makeActor('#efc655'),friend=makeActor('#6cbcc7');const shadowHero=shadowFor(hero),shadowFriend=shadowFor(friend);
-function segment(m,a,b){let d=new T.Vector3(...b).sub(new T.Vector3(...a));m.position.set((a[0]+b[0])/2,(a[1]+b[1])/2,(a[2]+b[2])/2);m.scale.y=d.length();m.quaternion.setFromUnitVectors(new T.Vector3(0,1,0),d.normalize())}
-function pose(actor,t,mode,x,z=1){actor.g.position.set(x,.15,z);actor.g.rotation.y=Math.PI/2-.22;let run=mode==='run',moving=run||mode==='walk',phase=t*(run?2.5:1.25)*Math.PI*2,bounce=moving?Math.abs(Math.sin(phase))*(run?.07:.025):Math.sin(t*2)*.008,hip=[0,1+bounce,0],shoulder=[0,1.84+bounce,run?.12:0];actor.body.position.set(0,1.42+bounce,run?.06:0);actor.body.rotation.x=run?.14:0;actor.head.position.set(0,2.19+bounce,run?.18:0);actor.neck.position.set(0,1.97+bounce,run?.14:0);for(let [i,eye]of actor.eyes.entries()){eye.position.set(i===0?-.095:.095,2.2+bounce,(run?.18:0)+.24);eye.scale.y=(t%4.5<.09)?.2:1.3;}
-for(let side=0;side<2;side++){let sign=side?1:-1,p=phase+side*Math.PI,foot=[sign*.14,.07+(moving?Math.max(0,Math.sin(p))*(run?.3:.13):0),moving?Math.cos(p)*(run?.43:.25):0];let hipSide=[sign*.14,hip[1],0],dy=foot[1]-hip[1],dz=foot[2],d=Math.min(.999,Math.hypot(dy,dz)),a=Math.atan2(dz,dy),alpha=Math.acos(clamp(d/1.02,-1,1)),knee=[sign*.14,hip[1]+Math.cos(a-alpha)*.51,Math.sin(a-alpha)*.51];segment(actor.limbs[side*2],hipSide,knee);segment(actor.limbs[side*2+1],knee,foot);actor.shoes[side].position.set(...foot);actor.shoes[side].position.z+=.06;
-let sh=[sign*.24,shoulder[1]-.03,shoulder[2]],hand=[sign*.29,run?1.36:1.04, moving?Math.cos(p+Math.PI)*(run?.42:.24):.12],elbow=[sign*.32,1.44+bounce,.05];if(mode==='think'&&side){hand=[.2,2.1,.23];elbow=[.45,1.65,.1]}if(mode==='protect'&&side){hand=[.12,2.46,.18];elbow=[.45,1.95,.2]}if(mode==='relief'){hand=[sign*.36,1.7,.3];elbow=[sign*.45,1.6,.1]}segment(actor.limbs[4+side*2],sh,elbow);segment(actor.limbs[5+side*2],elbow,hand);actor.hands[side].position.set(...hand);}
+const M=window.MotionV2;
+function makeActor(color){
+ const g=new T.Group();scene.add(g);
+ const body=new T.Mesh(new T.CylinderGeometry(.23,.19,1,12),mat(color));g.add(body);
+ const head=ball(0,0,0,.29,'#111b28',g,1,1.1,.94),neck=new T.Mesh(new T.CylinderGeometry(.065,.065,1,10),mat('#172233'));g.add(neck);
+ const eyes=[-.095,.095].map(x=>ball(x,0,0,.043,'#edf1de',g,.7,1.3,.6));
+ const mouth=ball(0,0,0,.035,'#abbec2',g,1,.2,.2);
+ const limbs=Array.from({length:8},(_,i)=>{let m=new T.Mesh(new T.CylinderGeometry(i<4?.068:.065,i<4?.068:.065,1,10),mat(i<4?'#182838':color));g.add(m);return m});
+ const hands=[ball(0,0,0,.075,'#172330',g),ball(0,0,0,.075,'#172330',g)],knees=[ball(0,0,0,.07,'#182838',g),ball(0,0,0,.07,'#182838',g)],elbows=[ball(0,0,0,.07,color,g),ball(0,0,0,.07,color,g)];
+ const shoes=[0,1].map(()=>{let m=new T.Mesh(new T.BoxGeometry(.19,.09,.33),mat('#a7b8b9'));g.add(m);return m});
+ const seam=new T.Mesh(new T.BoxGeometry(.013,.70,.014),mat('#b79c56'));seam.position.z=.21;body.add(seam);
+ const shadow=new T.Mesh(new T.CircleGeometry(.47,24),new T.MeshBasicMaterial({color:'#0d1f2e',transparent:true,opacity:.38,depthWrite:false}));shadow.rotation.x=-Math.PI/2;shadow.position.y=.132;scene.add(shadow);
+ return{g,body,head,neck,eyes,mouth,limbs,hands,knees,elbows,shoes,shadow};
 }
-// Rain is deterministic at arbitrary times, not a simulation depending on prior frames.
-const count=850,rainGeometry=new T.BufferGeometry(),positions=new Float32Array(count*6);rainGeometry.setAttribute('position',new T.BufferAttribute(positions,3));const drops=new T.LineSegments(rainGeometry,new T.LineBasicMaterial({color:'#c4dfeb',transparent:true,opacity:.33}));scene.add(drops);
+const hero=makeActor('#efc655'),friend=makeActor('#6cbcc7');
+function segment(m,a,b){let va=new T.Vector3(...a),vb=new T.Vector3(...b),d=vb.sub(va);m.position.copy(va.addScaledVector(d,.5));m.scale.y=d.length();m.quaternion.setFromUnitVectors(new T.Vector3(0,1,0),d.normalize())}
+function applyRig(r,state){
+ const p=M.pose(state);r.g.position.set(state.position[0],state.ground,state.position[2]);r.g.rotation.y=state.yaw;
+ segment(r.body,p.hip,p.shoulder);segment(r.neck,p.shoulder,[p.head[0],p.head[1]-.25,p.head[2]]);r.head.position.set(...p.head);
+ const blink=state.time%4.3<.09;
+ for(let [i,e]of r.eyes.entries()){e.position.set((i?1:-1)*.095,p.head[1]+.015,p.head[2]+.257);e.scale.y=blink?.18:1.3;}
+ r.mouth.position.set(.01,p.head[1]-.11,p.head[2]+.265);r.mouth.scale.y=state.gait==='run'&&state.speed>.2?.65+.12*Math.sin(state.time*8):.20;
+ for(let i=0;i<2;i++){
+  let l=p.legs[i],a=p.arms[i],f=p.feet[i];segment(r.limbs[i*2],l.hip,l.knee);segment(r.limbs[i*2+1],l.knee,l.ankle);r.knees[i].position.set(...l.knee);
+  segment(r.limbs[4+i*2],a.shoulder,a.elbow);segment(r.limbs[5+i*2],a.elbow,a.hand);r.elbows[i].position.set(...a.elbow);r.hands[i].position.set(...a.hand);
+  let turn=Math.atan2(Math.sin(f.nextYaw-f.contactYaw),Math.cos(f.nextYaw-f.contactYaw)),shoeYaw=f.contactYaw+(f.supported?0:turn*M.smooth(f.swing))-state.yaw;r.shoes[i].position.set(l.ankle[0]+Math.sin(shoeYaw)*.065,l.ankle[1]-.045,l.ankle[2]+Math.cos(shoeYaw)*.065);r.shoes[i].rotation.set(f.supported?0:.12*Math.sin(f.swing*Math.PI)*p.amount,shoeYaw,0);
+ }
+ r.shadow.position.x=state.position[0];r.shadow.position.z=state.position[2];r.shadow.scale.setScalar(1-p.bob*.8);r.g.updateMatrixWorld(true);r.pose=p;return p;
+}
+function place(t,s){const tracks=M.streetTracks(t,s);applyRig(hero,tracks[0]);friend.g.visible=tracks.length>1;friend.shadow.visible=tracks.length>1;if(tracks[1])applyRig(friend,tracks[1]);return tracks;}
+function cameraPlan(t,s,tracks){
+ const local=t-s.start,dur=s.end-s.start,urgent=tracks.some(a=>a.gait==='run'),cutLength=urgent?2.2:2.9,cut=Math.floor(local/cutLength),u=(local%cutLength)/cutLength;
+ const a=tracks[0].position,b=tracks[1]?.position||a,mid=[(a[0]+b[0])/2,1.5,(a[2]+b[2])/2];
+ let pos,target,fov=43,name;
+ if(tracks.length>1&&cut%3===0){pos=[3.0,5.1,15];target=[1,1.5,1.2];name='comparacao-ampla';fov=45;}
+ else if(cut%3===0){pos=[a[0]+2.7,urgent?1.25:2.8,a[2]+(urgent?6.2:7.4)];target=[a[0]+.6,urgent?1.25:1.7,a[2]];name=urgent?'acompanhamento-baixo':'aproximacao';fov=38-2*M.smooth(u);}
+ else if(cut%3===1){pos=tracks.length>1?[3,4.6,13.4]:[mid[0]+2.6,4.6,mid[2]+12.2];target=tracks.length>1?[1.5,1.4,1]:mid;name='contexto-e-destino';fov=44;}
+ else{pos=[a[0]+3.2-1.2*M.smooth(u),2.65,a[2]+6.3];target=[a[0]+.1,1.85,a[2]];name='reacao-em-movimento';fov=37-3*M.smooth(u);}
+ const hit=Math.max(0,1-local%cutLength/.18),shake=urgent?.018*hit:0;
+ camera.position.set(pos[0]+Math.sin(t*39)*shake,pos[1]+Math.sin(t*47)*shake,pos[2]);camera.up.set(Math.sin(t*1.1)*(urgent?.006:.002),1,0);camera.fov=fov;camera.lookAt(...target);camera.updateProjectionMatrix();
+ return{name,cut,cutPhase:local%cutLength,position:camera.position.toArray(),target,fov,urgent};
+}
+const count=950,positions=new Float32Array(count*6),rainGeo=new T.BufferGeometry();rainGeo.setAttribute('position',new T.BufferAttribute(positions,3));const drops=new T.LineSegments(rainGeo,new T.LineBasicMaterial({color:'#c4dfeb',transparent:true,opacity:.4}));scene.add(drops);
+const spray=new T.InstancedMesh(new T.SphereGeometry(1,6,4),new T.MeshBasicMaterial({color:'#b8e3ef',transparent:true,opacity:.65}),48);scene.add(spray);const dummy=new T.Object3D();
+function splash(tracks){let k=0;for(let [i,state]of tracks.entries()){let rig=i?friend:hero;for(let f of rig.pose.feet){let age=f.phase*rig.pose.stride/Math.max(.1,state.speed),active=f.supported&&state.speed>.65&&age<.32;for(let j=0;j<12;j++){
+ const a=j*2.399,dt=age-.003*(j%3),v=.3+(j%4)*.15;dummy.position.set(f.world[0]+Math.cos(a)*v*dt,f.world[1]-.04+(.6+j%3*.15)*dt-4*dt*dt,f.world[2]+Math.sin(a)*v*dt);dummy.scale.set(.015,.028,.015);if(!active||dt<0||dummy.position.y<state.ground)dummy.scale.setScalar(0);dummy.updateMatrix();spray.setMatrixAt(k++,dummy.matrix);
+ }}}
+ while(k<48){dummy.scale.setScalar(0);dummy.updateMatrix();spray.setMatrixAt(k++,dummy.matrix)}spray.instanceMatrix.needsUpdate=true;
+}
 window.street3d=(t,s,u)=>{
- let x=s.x===undefined?mix(-3.6,4.3,ease(u)):(s.x-640)/70+mix(-1.1,1.1,u);
- if(s.scene==='arrival')x=mix(-3,8,ease(u));let mode=s.action||'walk';if(s.scene==='arrival'&&u>.83)mode='relief';
- pose(hero,t,mode,x,s.scene==='arrival'?mix(1.2,-1.3,ease(clamp((u-.65)/.35))):1.2);friend.g.visible=!!s.two||!!s.friend;if(s.two){pose(friend,t,'walk',mix(-3.6,2.5,ease(u)),2.8);pose(hero,t,u>.65?'relief':'run',mix(-3.6,8,ease(clamp(u*1.6))),.5)}
- let close=(s.zoom||1)>1.08,az=s.scene==='arrival'?u*.18:(Math.sin(u*Math.PI)*.06),camX=close?x+4.2:3+az*8,camZ=close?7.5:11.5,camY=close?2.9:3.6;
- camera.position.set(camX,camY,camZ);camera.lookAt(close?x:1,1.65,0);if(s.two){camera.position.set(5,3.8,12.8);camera.lookAt(1,1.6,.3)}
- let wind=(s.wind||0)/220;for(let i=0;i<count;i++){let xx=((i*1.391+t*wind)%38+38)%38-18,yy=((i*.237-t*7)%14+14)%14,zz=((i*1.773)%22)-8;let b=i*6;if(xx>5.3&&xx<10.7&&zz>-2.8&&zz<.05&&yy<4)yy+=6;positions[b]=xx;positions[b+1]=yy;positions[b+2]=zz;positions[b+3]=xx-wind*.03;positions[b+4]=yy+.19;positions[b+5]=zz;}
- shadowHero.position.x=hero.g.position.x;shadowHero.position.z=hero.g.position.z;shadowFriend.position.x=friend.g.position.x;shadowFriend.position.z=friend.g.position.z;shadowFriend.visible=friend.g.visible;rainGeometry.attributes.position.needsUpdate=true;drops.visible=true;drops.material.opacity=Math.min(.4,(s.rain||160)/480);renderer.render(scene,camera);ctx.drawImage(renderer.domElement,0,0,1280,720);
- if(s.note){rr(40,455,360,105,12,'#10243de8','#608ba0');wrap(s.note,60,490,320,22,'#e7e6d4',31)}
+ const tracks=place(t,s),plan=cameraPlan(t,s,tracks),wind=(s.wind||0)/220;
+ scene.background.set('#304a60');scene.fog.color.copy(scene.background);
+ for(let i=0;i<count;i++){let xx=((i*1.391+t*wind)%38+38)%38-18,yy=((i*.237-t*8.5)%14+14)%14,zz=((i*1.773)%22)-8,k=i*6;if(xx>5.3&&xx<10.7&&zz>-2.8&&zz<-.14&&yy<4)yy+=6;positions.set([xx,yy,zz,xx-wind*.03,yy+.20,zz],k)}
+ rainGeo.attributes.position.needsUpdate=true;drops.material.opacity=Math.min(.58,(s.rain||160)/380);splash(tracks);renderer.render(scene,camera);ctx.drawImage(renderer.domElement,0,0,1280,720);
+ window.lastMotion={tracks,plan};if(s.note){rr(40,455,360,105,12,'#10243de8','#608ba0');wrap(s.note,60,490,320,22,'#e7e6d4',31)}
 };
+window.inspectWorldMotion=(t,s)=>{let tracks=place(t,s);return tracks.map((state,i)=>{let r=i?friend:hero;return{state,pose:r.pose,forward:new T.Vector3(0,0,1).applyQuaternion(r.g.quaternion).toArray(),boneLengths:r.limbs.map(m=>m.scale.y),shoes:r.shoes.map(m=>m.getWorldPosition(new T.Vector3()).toArray())}})};
 window.WORLD3D_READY=true;
 })();
