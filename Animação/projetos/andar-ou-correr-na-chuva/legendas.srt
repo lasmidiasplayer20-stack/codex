@@ -1,0 +1,803 @@
+1
+00:00:00,000 --> 00:00:02,340
+Você está voltando para casa quando sente a
+
+2
+00:00:02,340 --> 00:00:06,300
+primeira gota, depois outra, em poucos segundos
+
+3
+00:00:06,300 --> 00:00:09,020
+a rua inteira está debaixo de chuva.
+
+4
+00:00:09,200 --> 00:00:11,120
+Você olha para o abrigo mais próximo e
+
+5
+00:00:11,120 --> 00:00:12,040
+precisa decidir.
+
+6
+00:00:12,340 --> 00:00:14,300
+Continua andando ou começa a correr?
+
+7
+00:00:14,760 --> 00:00:17,480
+Correr parece a escolha óbvia, mas surge aquela
+
+8
+00:00:17,480 --> 00:00:17,980
+dúvida.
+
+9
+00:00:18,520 --> 00:00:20,320
+Se eu correr, não vou bater em mais
+
+10
+00:00:20,320 --> 00:00:22,380
+gotas e acabar ainda mais molhado?
+
+11
+00:00:22,740 --> 00:00:25,380
+A pergunta parece pequena, mas esconde um problema
+
+12
+00:00:25,380 --> 00:00:27,040
+de física bastante interessante,
+
+13
+00:00:27,540 --> 00:00:29,920
+porque as duas intuições têm alguma razão.
+
+14
+00:00:30,440 --> 00:00:32,540
+Correndo, você fica menos tempo exposto.
+
+15
+00:00:32,980 --> 00:00:35,020
+Ao mesmo tempo, encontra as gotas de um
+
+16
+00:00:35,020 --> 00:00:35,640
+jeito diferente.
+
+17
+00:00:36,080 --> 00:00:39,200
+Para descobrir o que realmente importa, precisamos separar
+
+18
+00:00:39,200 --> 00:00:40,040
+essas duas coisas.
+
+19
+00:00:40,520 --> 00:00:42,400
+E começar com uma condição fundamental.
+
+20
+00:00:43,240 --> 00:00:45,800
+Estamos comparando duas maneiras de chegar ao mesmo
+
+21
+00:00:45,800 --> 00:00:46,220
+lugar.
+
+22
+00:00:46,700 --> 00:00:48,040
+A distância até o abrigo é igual.
+
+23
+00:00:48,620 --> 00:00:49,900
+O que muda é a velocidade.
+
+24
+00:00:50,480 --> 00:00:53,760
+Imagina duas pessoas saindo do mesmo ponto na
+
+25
+00:00:53,760 --> 00:00:56,260
+mesma chuva em direção à mesma porta.
+
+26
+00:00:56,260 --> 00:00:58,580
+Uma anda e a outra corre.
+
+27
+00:00:59,060 --> 00:01:01,040
+Por enquanto, vamos simplificar o mundo.
+
+28
+00:01:01,520 --> 00:01:05,180
+Não há vento, a chuva cai verticalmente com intensidade
+
+29
+00:01:05,180 --> 00:01:05,700
+constante.
+
+30
+00:01:06,540 --> 00:01:09,080
+As duas pessoas têm o mesmo tamanho, seguem
+
+31
+00:01:09,080 --> 00:01:12,020
+o mesmo caminho e mantêm uma postura parecida.
+
+32
+00:01:12,580 --> 00:01:14,520
+Vamos também deixar de lado os respingos do
+
+33
+00:01:14,520 --> 00:01:16,920
+chão e a maneira como o tecido absorve
+
+34
+00:01:16,920 --> 00:01:17,260
+água.
+
+35
+00:01:17,620 --> 00:01:20,300
+Não porque essas coisas sejam irrelevantes, mas porque
+
+36
+00:01:20,300 --> 00:01:23,160
+primeiro precisamos entender o mecanismo principal.
+
+37
+00:01:23,680 --> 00:01:25,400
+Pense em cada pessoa como um bloco.
+
+38
+00:01:25,400 --> 00:01:28,400
+Existe uma parte de cima, que recebe gotas
+
+39
+00:01:28,400 --> 00:01:30,380
+vindas do alto, e uma parte da frente,
+
+40
+00:01:30,760 --> 00:01:32,620
+que encontra gotas durante o deslocamento.
+
+41
+00:01:33,220 --> 00:01:36,120
+Essa divisão não descreve perfeitamente um corpo humano,
+
+42
+00:01:36,400 --> 00:01:38,920
+mas permite enxergar o que a velocidade realmente
+
+43
+00:01:38,920 --> 00:01:39,340
+faz.
+
+44
+00:01:39,840 --> 00:01:42,080
+Comecemos pela água que vem de cima.
+
+45
+00:01:42,520 --> 00:01:44,780
+Se você fica parado debaixo de uma chuva
+
+46
+00:01:44,780 --> 00:01:48,260
+constante, continua recebendo água na cabeça e nos
+
+47
+00:01:48,260 --> 00:01:48,560
+ombros.
+
+48
+00:01:49,100 --> 00:01:51,960
+Quanto mais tempo permanece ali, maior é a
+
+49
+00:01:51,960 --> 00:01:53,020
+quantidade acumulada.
+
+50
+00:01:53,660 --> 00:01:56,460
+Agora, suponha que o abrigo esteja a 100
+
+51
+00:01:56,460 --> 00:01:56,880
+metros.
+
+52
+00:01:57,420 --> 00:01:59,640
+Se você percorre essa distância andando a pouco
+
+53
+00:01:59,640 --> 00:02:02,100
+mais de 1 metro por segundo, passa mais
+
+54
+00:02:02,100 --> 00:02:03,380
+de 1 minuto exposto.
+
+55
+00:02:03,780 --> 00:02:06,480
+Correndo a 4 metros por segundo, chega em
+
+56
+00:02:06,480 --> 00:02:07,540
+25 segundos.
+
+57
+00:02:07,940 --> 00:02:10,560
+Não precisamos escolher esses números para todas as
+
+58
+00:02:10,560 --> 00:02:10,900
+pessoas.
+
+59
+00:02:11,420 --> 00:02:13,860
+Eles servem apenas para mostrar a relação.
+
+60
+00:02:14,380 --> 00:02:17,800
+Para a mesma distância, aumentar a velocidade reduz
+
+61
+00:02:17,800 --> 00:02:18,900
+o tempo na chuva.
+
+62
+00:02:18,900 --> 00:02:22,100
+Nesse modelo, a água recebida pela parte de
+
+63
+00:02:22,100 --> 00:02:24,480
+cima diminui na mesma proporção.
+
+64
+00:02:25,080 --> 00:02:28,280
+Dobrou a velocidade, o tempo cai pela metade.
+
+65
+00:02:28,720 --> 00:02:30,260
+E essa parcela de água também.
+
+66
+00:02:30,820 --> 00:02:33,100
+Mas falta a objeção que torna a pergunta
+
+67
+00:02:33,100 --> 00:02:33,720
+interessante.
+
+68
+00:02:34,440 --> 00:02:36,980
+Quando você corre, as gotas parecem vir na
+
+69
+00:02:36,980 --> 00:02:37,680
+sua direção.
+
+70
+00:02:38,220 --> 00:02:40,520
+Elas atingem seu rosto e sua roupa pela
+
+71
+00:02:40,520 --> 00:02:40,860
+frente.
+
+72
+00:02:41,420 --> 00:02:44,660
+Isso significa que correr aumenta a quantidade de água
+
+73
+00:02:44,660 --> 00:02:45,240
+nessa região?
+
+74
+00:02:45,700 --> 00:02:47,000
+Por segundo? Sim.
+
+75
+00:02:47,460 --> 00:02:50,980
+Nesse modelo de chuva vertical, avançar mais rápido
+
+76
+00:02:50,980 --> 00:02:53,760
+faz você encontrar mais gotas a cada segundo.
+
+77
+00:02:54,160 --> 00:02:56,720
+Só que a viagem também termina mais cedo.
+
+78
+00:02:57,120 --> 00:02:59,800
+Imagine um corredor invisível entre você e a
+
+79
+00:02:59,800 --> 00:03:00,040
+porta.
+
+80
+00:03:00,540 --> 00:03:02,820
+Ao atravessá -lo, a frente do seu corpo
+
+81
+00:03:02,820 --> 00:03:04,980
+percorre uma determinada faixa do espaço.
+
+82
+00:03:05,620 --> 00:03:08,720
+Aumentar a velocidade faz essa travessia acontecer mais
+
+83
+00:03:08,720 --> 00:03:09,320
+depressa,
+
+84
+00:03:09,580 --> 00:03:11,520
+mas não aumenta a distância percorrida.
+
+85
+00:03:11,960 --> 00:03:14,680
+Em uma chuva uniforme e contínua, as duas
+
+86
+00:03:14,680 --> 00:03:16,080
+mudanças se compensam.
+
+87
+00:03:16,560 --> 00:03:19,120
+Você recebe mais água pela frente por segundo,
+
+88
+00:03:19,340 --> 00:03:20,720
+durante menos segundos.
+
+89
+00:03:21,280 --> 00:03:25,220
+A quantidade total dessa parcela permanece aproximadamente igual.
+
+90
+00:03:25,600 --> 00:03:28,560
+Podemos resumir a conta sem escrever uma única
+
+91
+00:03:28,560 --> 00:03:29,020
+equação.
+
+92
+00:03:29,560 --> 00:03:31,820
+Uma parte da água depende do tempo que
+
+93
+00:03:31,820 --> 00:03:32,700
+você passa exposto.
+
+94
+00:03:33,200 --> 00:03:36,160
+Outra parte depende da distância que você percorre
+
+95
+00:03:36,160 --> 00:03:37,260
+através da chuva.
+
+96
+00:03:37,680 --> 00:03:40,620
+Para o mesmo trajeto, correr reduz a primeira,
+
+97
+00:03:41,020 --> 00:03:44,100
+e nas condições simplificadas que escolhemos, não aumenta
+
+98
+00:03:44,100 --> 00:03:44,460
+a segunda.
+
+99
+00:03:45,120 --> 00:03:48,940
+Portanto, a resposta é sim. Correr faz diferença.
+
+100
+00:03:49,800 --> 00:03:52,680
+Em chuva vertical, sem vento e mantendo condições
+
+101
+00:03:52,680 --> 00:03:53,340
+semelhantes,
+
+102
+00:03:53,700 --> 00:03:55,680
+correr até o abrigo tende a deixar você
+
+103
+00:03:55,680 --> 00:03:57,120
+menos molhado do que andar.
+
+104
+00:03:57,480 --> 00:04:00,080
+Isso não significa que um corredor ficará seco.
+
+105
+00:04:00,260 --> 00:04:02,800
+Também não significa que dobrar a velocidade corta
+
+106
+00:04:02,800 --> 00:04:04,200
+toda a água pela metade.
+
+107
+00:04:04,200 --> 00:04:07,100
+Apenas a parcela associada ao tempo cai dessa
+
+108
+00:04:07,100 --> 00:04:07,480
+maneira.
+
+109
+00:04:07,880 --> 00:04:10,300
+A água encontrada pela frente continua presente.
+
+110
+00:04:10,940 --> 00:04:13,740
+Por isso, correr mais pode ajudar cada vez
+
+111
+00:04:13,740 --> 00:04:16,100
+menos, mesmo enquanto continua ajudando.
+
+112
+00:04:16,520 --> 00:04:19,940
+Agora, vamos abrir a janela desse mundo ideal
+
+113
+00:04:19,940 --> 00:04:21,440
+e deixar o vento entrar.
+
+114
+00:04:21,920 --> 00:04:24,680
+As gotas já não caem necessariamente na vertical.
+
+115
+00:04:25,320 --> 00:04:27,900
+Elas também se deslocam horizontalmente.
+
+116
+00:04:28,380 --> 00:04:30,440
+Se a chuva vem de frente, seu movimento
+
+117
+00:04:30,440 --> 00:04:32,540
+faz você avançar contra ela.
+
+118
+00:04:32,540 --> 00:04:36,120
+A comparação muda, mas reduzir o tempo exposto
+
+119
+00:04:36,120 --> 00:04:38,000
+ainda pode ser uma vantagem importante.
+
+120
+00:04:38,660 --> 00:04:41,040
+Se a chuva vem por trás, aparece uma
+
+121
+00:04:41,040 --> 00:04:42,220
+possibilidade diferente.
+
+122
+00:04:42,860 --> 00:04:46,020
+Mover-se na mesma direção das gotas pode diminuir
+
+123
+00:04:46,020 --> 00:04:48,620
+a velocidade horizontal delas em relação ao seu
+
+124
+00:04:48,620 --> 00:04:48,980
+corpo.
+
+125
+00:04:49,620 --> 00:04:52,700
+Em certos modelos, isso cria uma velocidade favorável
+
+126
+00:04:52,700 --> 00:04:56,160
+que não é simplesmente a maior velocidade possível.
+
+127
+00:04:56,580 --> 00:04:59,580
+O resultado depende da direção do vento, da
+
+128
+00:04:59,580 --> 00:05:02,600
+velocidade das gotas e das proporções do corpo.
+
+129
+00:05:02,860 --> 00:05:05,580
+A conclusão correta não é que correr sempre
+
+130
+00:05:05,580 --> 00:05:07,080
+piora com o vento a favor.
+
+131
+00:05:07,480 --> 00:05:10,520
+É que quando o vento participa, precisamos saber
+
+132
+00:05:10,520 --> 00:05:13,200
+mais antes de dar uma resposta universal.
+
+133
+00:05:13,580 --> 00:05:16,740
+E existe outra diferença entre uma pessoa e
+
+134
+00:05:16,740 --> 00:05:17,940
+aquele bloco imaginário.
+
+135
+00:05:18,300 --> 00:05:20,360
+A pessoa se move por dentro.
+
+136
+00:05:20,980 --> 00:05:24,760
+Os braços balançam, as pernas avançam, o tronco
+
+137
+00:05:24,760 --> 00:05:25,640
+pode se inclinar.
+
+138
+00:05:25,640 --> 00:05:28,960
+Essas mudanças alteram as superfícies expostas.
+
+139
+00:05:29,220 --> 00:05:31,080
+O chão também participa.
+
+140
+00:05:31,580 --> 00:05:33,840
+Um passo dentro de uma poça pode lançar
+
+141
+00:05:33,840 --> 00:05:35,560
+água sobre a calça e os sapatos.
+
+142
+00:05:36,120 --> 00:05:38,760
+Uma corrida por um caminho alagado pode produzir
+
+143
+00:05:38,760 --> 00:05:41,680
+mais respingos do que uma caminhada cuidadosa pelo
+
+144
+00:05:41,680 --> 00:05:42,480
+mesmo trecho.
+
+145
+00:05:43,120 --> 00:05:45,620
+A roupa acrescenta outra camada ao problema.
+
+146
+00:05:46,200 --> 00:05:49,340
+Uma jaqueta impermeável, uma camiseta de algodão e
+
+147
+00:05:49,340 --> 00:05:52,060
+um tecido já encharcado não se comportam da
+
+148
+00:05:52,060 --> 00:05:52,640
+mesma forma.
+
+149
+00:05:52,640 --> 00:05:55,980
+A água que atinge uma superfície nem sempre
+
+150
+00:05:55,980 --> 00:05:57,300
+é a água que fica nela.
+
+151
+00:05:57,800 --> 00:06:01,440
+Parte escorre, parte absorvida e parte atravessa.
+
+152
+00:06:02,000 --> 00:06:04,720
+Receber menos chuva e terminar com menos água
+
+153
+00:06:04,720 --> 00:06:08,260
+retida na roupa são perguntas relacionadas, mas não
+
+154
+00:06:08,260 --> 00:06:09,420
+perfeitamente idênticas.
+
+155
+00:06:09,840 --> 00:06:13,180
+Por isso, um experimento precisa ser organizado com
+
+156
+00:06:13,180 --> 00:06:13,640
+cuidado.
+
+157
+00:06:14,180 --> 00:06:16,720
+Não basta uma pessoa caminhar hoje e correr
+
+158
+00:06:16,720 --> 00:06:17,180
+amanhã.
+
+159
+00:06:17,700 --> 00:06:20,500
+Talvez a intensidade da chuva tenha mudado, talvez
+
+160
+00:06:20,500 --> 00:06:23,520
+o vento tenha virado, talvez uma roupa tenha
+
+161
+00:06:23,520 --> 00:06:25,280
+começado seca e a outra não.
+
+162
+00:06:25,600 --> 00:06:29,500
+Uma comparação útil manteria a distância, o trajeto,
+
+163
+00:06:29,840 --> 00:06:32,500
+a roupa e as condições da chuva tão
+
+164
+00:06:32,500 --> 00:06:33,880
+parecidos quanto possível.
+
+165
+00:06:34,300 --> 00:06:36,320
+Também definiria o que está sendo medido.
+
+166
+00:06:36,740 --> 00:06:38,600
+A água que atinge o corpo, o aumento
+
+167
+00:06:38,600 --> 00:06:41,420
+de massa da roupa ou apenas a sensação
+
+168
+00:06:41,420 --> 00:06:42,180
+de estar molhado.
+
+169
+00:06:42,700 --> 00:06:45,600
+Repetir o teste ajudaria a separar uma tendência
+
+170
+00:06:45,600 --> 00:06:47,580
+real de um resultado acidental.
+
+171
+00:06:47,960 --> 00:06:50,840
+Também vale repetir o percurso algumas vezes e
+
+172
+00:06:50,840 --> 00:06:52,040
+comparar os resultados.
+
+173
+00:06:52,520 --> 00:06:54,560
+Uma única tentativa pode enganar.
+
+174
+00:06:54,960 --> 00:06:57,480
+Uma rajada de vento ou uma poça já
+
+175
+00:06:57,480 --> 00:06:58,580
+muda a experiência.
+
+176
+00:06:59,120 --> 00:07:01,840
+O importante é descobrir o que realmente fez
+
+177
+00:07:01,840 --> 00:07:04,620
+diferença, sem trocar todas as condições ao mesmo
+
+178
+00:07:04,620 --> 00:07:05,000
+tempo.
+
+179
+00:07:05,340 --> 00:07:08,280
+Então, quando a chuva começar, qual é a
+
+180
+00:07:08,280 --> 00:07:09,300
+decisão prática?
+
+181
+00:07:09,720 --> 00:07:12,120
+Se o abrigo está a uma distância fixa,
+
+182
+00:07:12,400 --> 00:07:14,860
+a chuva cai quase verticalmente e o caminho
+
+183
+00:07:14,860 --> 00:07:18,920
+permite chegar mais depressa, normalmente reduz a água
+
+184
+00:07:18,920 --> 00:07:19,480
+recebida.
+
+185
+00:07:19,780 --> 00:07:22,540
+Não há motivo para continuar andando, apenas porque
+
+186
+00:07:22,540 --> 00:07:25,260
+correr parece fazer as gotas baterem mais forte.
+
+187
+00:07:25,800 --> 00:07:28,260
+A sensação por segundo não conta a história
+
+188
+00:07:28,260 --> 00:07:28,700
+inteira.
+
+189
+00:07:29,060 --> 00:07:31,080
+O tempo total também importa.
+
+190
+00:07:31,080 --> 00:07:35,300
+Mas vale olhar para o chão, escorregar, atravessar
+
+191
+00:07:35,300 --> 00:07:37,880
+uma poça funda ou correr para uma situação
+
+192
+00:07:37,880 --> 00:07:40,460
+perigosa pode custar muito mais do que uma
+
+193
+00:07:40,460 --> 00:07:41,180
+roupa molhada.
+
+194
+00:07:41,460 --> 00:07:44,360
+A física ajuda a escolher, não elimina o
+
+195
+00:07:44,360 --> 00:07:44,660
+contexto.
+
+196
+00:07:45,180 --> 00:07:47,540
+No fim, a pergunta não é apenas quantas
+
+197
+00:07:47,540 --> 00:07:50,800
+gotas você encontra enquanto se move, é quantas
+
+198
+00:07:50,800 --> 00:07:52,540
+encontra durante todo o caminho.
+
+199
+00:07:53,220 --> 00:07:55,820
+E, muitas vezes, a melhor maneira de receber
+
+200
+00:07:55,820 --> 00:07:59,560
+menos chuva é simplesmente passar menos tempo debaixo
+
+201
+00:07:59,560 --> 00:07:59,800
+dela.

@@ -1,0 +1,1450 @@
+{
+  "duration": 479.981875,
+  "sample_rate": 48000,
+  "source": "Supplied narration, original NumPy effects and colored-noise rain",
+  "peak_before_scaling": 0.8501111268997192,
+  "global_scale": 1,
+  "events": [
+    {
+      "time": 0.4,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 0.8,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 1.2000000000000002,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 1.6,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 2.0,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 2.4,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 2.8000000000000003,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 3.2,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 3.6,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 4.0,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 4.4,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 4.800000000000001,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 5.200000000000001,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 5.7,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 10,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 18,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 26,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 26.4,
+      "effect": "pop",
+      "gain": 0.13,
+      "pan": 0
+    },
+    {
+      "time": 33,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 41,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 41.4,
+      "effect": "pop",
+      "gain": 0.13,
+      "pan": 0
+    },
+    {
+      "time": 50,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 50.2,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 50.60000000000001,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 51.000000000000014,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 51.40000000000002,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 51.800000000000026,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 52.20000000000003,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 52.60000000000004,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 53.00000000000004,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 53.40000000000005,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 53.800000000000054,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 54.20000000000006,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 54.600000000000065,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 55.00000000000007,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 55.40000000000008,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 55.80000000000008,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 56.20000000000009,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 56.600000000000094,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 57.0000000000001,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 57.400000000000105,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 57.80000000000011,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 58.20000000000012,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 58.60000000000012,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 59.00000000000013,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 59.400000000000134,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 60,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 60.4,
+      "effect": "pop",
+      "gain": 0.13,
+      "pan": 0
+    },
+    {
+      "time": 70,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 70.4,
+      "effect": "pop",
+      "gain": 0.13,
+      "pan": 0
+    },
+    {
+      "time": 83,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 83.4,
+      "effect": "pop",
+      "gain": 0.13,
+      "pan": 0
+    },
+    {
+      "time": 92,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 92.4,
+      "effect": "pop",
+      "gain": 0.13,
+      "pan": 0
+    },
+    {
+      "time": 100,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 108,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 115,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 124,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 133,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 140,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 151,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 151.20000000000002,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 151.6,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 151.99999999999997,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 152.39999999999995,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 152.79999999999993,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 153.1999999999999,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 153.59999999999988,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 153.99999999999986,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 154.39999999999984,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 154.7999999999998,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 155.1999999999998,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 155.59999999999977,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 155.99999999999974,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 156.39999999999972,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 156.7999999999997,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 157.19999999999968,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 157.59999999999965,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 157.99999999999963,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 158.3999999999996,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 159,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 167,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 175,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 181,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 190,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 197,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 206,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 206.4,
+      "effect": "pop",
+      "gain": 0.13,
+      "pan": 0
+    },
+    {
+      "time": 216,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 216.4,
+      "effect": "pop",
+      "gain": 0.13,
+      "pan": 0
+    },
+    {
+      "time": 225,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 225.5,
+      "effect": "chime",
+      "gain": 0.11,
+      "pan": 0
+    },
+    {
+      "time": 234,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 234.20000000000002,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 234.6,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 234.99999999999997,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 235.39999999999995,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 235.79999999999993,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 236.1999999999999,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 236.59999999999988,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 236.99999999999986,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 237.39999999999984,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 237.7999999999998,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 238.1999999999998,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 238.59999999999977,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 238.99999999999974,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 239.39999999999972,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 239.7999999999997,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 240.19999999999968,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 240.59999999999965,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 241,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 241.4,
+      "effect": "pop",
+      "gain": 0.13,
+      "pan": 0
+    },
+    {
+      "time": 251,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 257,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 268,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 279,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 289,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 298,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 298.4,
+      "effect": "pop",
+      "gain": 0.13,
+      "pan": 0
+    },
+    {
+      "time": 307,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 315,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 315.20000000000005,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 315.6,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 316.0,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 316.4,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 316.79999999999995,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 317.19999999999993,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 317.5999999999999,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 317.9999999999999,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 318.39999999999986,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 318.79999999999984,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 319.1999999999998,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 319.5999999999998,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 319.9999999999998,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 320.39999999999975,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 320.7999999999997,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 321.1999999999997,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 321.5999999999997,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 321.99999999999966,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 322.39999999999964,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 322.7999999999996,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 323.1999999999996,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 323.59999999999957,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 324,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 324.20000000000005,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 324.6,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 325.0,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 325.4,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 325.79999999999995,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 326.19999999999993,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 326.5999999999999,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 326.9999999999999,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 327.39999999999986,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 327.79999999999984,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 328.1999999999998,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 328.5999999999998,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 328.9999999999998,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 329.39999999999975,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 329.7999999999997,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 330.1999999999997,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 330.5999999999997,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 330.99999999999966,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 331.39999999999964,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 332,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 333,
+      "effect": "impact",
+      "gain": 0.05,
+      "pan": 0
+    },
+    {
+      "time": 340,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 341,
+      "effect": "impact",
+      "gain": 0.05,
+      "pan": 0
+    },
+    {
+      "time": 347,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 347.4,
+      "effect": "pop",
+      "gain": 0.13,
+      "pan": 0
+    },
+    {
+      "time": 356,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 356.4,
+      "effect": "pop",
+      "gain": 0.13,
+      "pan": 0
+    },
+    {
+      "time": 365,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 365.4,
+      "effect": "pop",
+      "gain": 0.13,
+      "pan": 0
+    },
+    {
+      "time": 374,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 374.4,
+      "effect": "pop",
+      "gain": 0.13,
+      "pan": 0
+    },
+    {
+      "time": 383,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 383.4,
+      "effect": "pop",
+      "gain": 0.13,
+      "pan": 0
+    },
+    {
+      "time": 394,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 394.4,
+      "effect": "pop",
+      "gain": 0.13,
+      "pan": 0
+    },
+    {
+      "time": 403,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 403.4,
+      "effect": "pop",
+      "gain": 0.13,
+      "pan": 0
+    },
+    {
+      "time": 413,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 413.4,
+      "effect": "pop",
+      "gain": 0.13,
+      "pan": 0
+    },
+    {
+      "time": 426,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 432,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 432.20000000000005,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 432.6,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 433.0,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 433.4,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 433.79999999999995,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 434.19999999999993,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 434.5999999999999,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 434.9999999999999,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 435.39999999999986,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 435.79999999999984,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 436.1999999999998,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 436.5999999999998,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 436.9999999999998,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 437.39999999999975,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 437.7999999999997,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 438.1999999999997,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 438.5999999999997,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 438.99999999999966,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 439.39999999999964,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 440,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 448,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 448.4,
+      "effect": "pop",
+      "gain": 0.13,
+      "pan": 0
+    },
+    {
+      "time": 453,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 461,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": 0.2
+    },
+    {
+      "time": 461.20000000000005,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 461.6,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 462.0,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 462.4,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 462.79999999999995,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 463.19999999999993,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 463.5999999999999,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 463.9999999999999,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 464.39999999999986,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 464.79999999999984,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 465.1999999999998,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 465.5999999999998,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 465.9999999999998,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 466.39999999999975,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 467,
+      "effect": "whoosh",
+      "gain": 0.065,
+      "pan": -0.2
+    },
+    {
+      "time": 467.20000000000005,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 467.6,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 468.0,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 468.4,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 468.79999999999995,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 469.19999999999993,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 469.5999999999999,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 469.9999999999999,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 470.39999999999986,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 470.79999999999984,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 471.1999999999998,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 471.5999999999998,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 471.9999999999998,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 472.39999999999975,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 472.7999999999997,
+      "effect": "click",
+      "gain": 0.04,
+      "pan": 0
+    },
+    {
+      "time": 474.5,
+      "effect": "chime",
+      "gain": 0.11,
+      "pan": 0
+    }
+  ],
+  "human_listening_performed": false
+}

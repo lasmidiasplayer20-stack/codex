@@ -1,0 +1,53 @@
+{
+  "duration": 480.0,
+  "width": 1920,
+  "height": 1080,
+  "fps": "24/1",
+  "frames": 11520,
+  "audio_codec": "aac",
+  "audio_sample_rate": 48000,
+  "bytes": 79478532,
+  "sha256": "b9fc1142768422079c506e6bf22cb75211cbdb766ac0dd3a9dcc49a92e6d8ab3",
+  "full_decode_passed": true,
+  "audio_peak_dbfs": -1.1,
+  "shot_count": 57,
+  "original_narration_sha256": "49314bd6cd4e11dcc2ecb8a86cfc8dfd144ceec5716c12d9d5255857e2d36524",
+  "source_hashes": {
+    "rain.js": "8a6ffc1c3c06595bc87010729a1765f875a690b979b223151c5fb63743dfa3dc",
+    "world3d.js": "f706fdef6b0b1fc4d8aa2b2a0a8847d764fa0c6eadb96eb023de7ed51153c40c",
+    "render.mjs": "2be943ccdfb0a417aab771212cd823cff0fdd000d15c13c992a34559149f170b",
+    "three.min.js": "9274bbcec8d96168626c732b5d31c775aa8cfb7eaa0599bec0c175908a2c1ce2",
+    "timeline.js": "b24edadc7356d0b56982f14d3f3cdee972193c000da082f80667f3373fff3e3a",
+    "film.js": "25b935c0c209c118a4eede7e20a801dee666022837fd03ec4aea24980ebc1471",
+    "index.html": "7f446ca3c710dac863c6783932c09705a755e59e34175f76e5bbcfe9f212fd3b"
+  },
+  "visuals": "Original Three.js street scenes and Canvas diagrams, not the codex-2 film",
+  "webgl_render_size": [
+    1280,
+    720
+  ],
+  "composite_export_size": [
+    1920,
+    1080
+  ],
+  "human_listening_performed": false,
+  "summary_labels_contextual": true,
+  "editorial_header_corrections": [
+    {
+      "start": 365,
+      "end": 374,
+      "labels": [
+        "CHUVA RECEBIDA",
+        "ÁGUA RETIDA"
+      ]
+    },
+    {
+      "start": 448,
+      "end": 453,
+      "labels": [
+        "IMPACTO POR SEGUNDO",
+        "DURAÇÃO DO PERCURSO"
+      ]
+    }
+  ]
+}

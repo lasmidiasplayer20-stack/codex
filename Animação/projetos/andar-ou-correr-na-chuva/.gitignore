@@ -1,0 +1,7 @@
+project/node_modules/
+render/
+references/
+models/
+.venv/
+audio/mix.wav
+delivery/*.mp4

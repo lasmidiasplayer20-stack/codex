@@ -1,0 +1,535 @@
+[
+  {
+    "start": 0,
+    "scene": "street",
+    "label": "01 / A PRIMEIRA GOTA",
+    "action": "walk",
+    "x": 450,
+    "rain": 55,
+    "end": 5.7
+  },
+  {
+    "start": 5.7,
+    "scene": "street",
+    "label": "A CHUVA APERTA",
+    "action": "protect",
+    "x": 500,
+    "rain": 200,
+    "zoom": 1.12,
+    "focus": 570,
+    "end": 10
+  },
+  {
+    "start": 10,
+    "scene": "question",
+    "label": "UMA ESCOLHA COTIDIANA",
+    "note": "Andar ou correr?",
+    "sub": "O mesmo abrigo. Duas maneiras de chegar.",
+    "end": 18
+  },
+  {
+    "start": 18,
+    "scene": "street",
+    "label": "A DÚVIDA FAZ SENTIDO",
+    "action": "think",
+    "x": 570,
+    "note": "Mais velocidade = mais água?",
+    "rain": 180,
+    "end": 26
+  },
+  {
+    "start": 26,
+    "scene": "summary",
+    "label": "DUAS INTUIÇÕES",
+    "left": "Menos tempo debaixo da chuva",
+    "right": "Mais gotas encontradas por segundo",
+    "end": 33,
+    "leftTitle": "TEMPO EXPOSTO",
+    "rightTitle": "ENCONTROS COM GOTAS"
+  },
+  {
+    "start": 33,
+    "scene": "timing",
+    "label": "MENOS TEMPO EXPOSTO",
+    "left": "Andar: mais tempo",
+    "right": "Correr: menos tempo",
+    "board": "TEMPO E VELOCIDADE",
+    "end": 41
+  },
+  {
+    "start": 41,
+    "scene": "conditions",
+    "label": "02 / A COMPARAÇÃO PRECISA SER JUSTA",
+    "board": "O MESMO DESTINO",
+    "items": [
+      "MESMO PONTO DE PARTIDA",
+      "MESMA DISTÂNCIA",
+      "MESMO ABRIGO",
+      "VELOCIDADES DIFERENTES"
+    ],
+    "end": 50
+  },
+  {
+    "start": 50,
+    "scene": "street",
+    "label": "UM CAMINHO. DOIS RITMOS.",
+    "two": true,
+    "rain": 140,
+    "end": 60
+  },
+  {
+    "start": 60,
+    "scene": "conditions",
+    "label": "PRIMEIRO, UM MODELO SIMPLES",
+    "board": "CONDIÇÕES INICIAIS",
+    "items": [
+      "CHUVA VERTICAL",
+      "INTENSIDADE CONSTANTE",
+      "MESMO TAMANHO",
+      "MESMO CAMINHO"
+    ],
+    "end": 70
+  },
+  {
+    "start": 70,
+    "scene": "conditions",
+    "label": "SIMPLIFICAR PARA ENTENDER",
+    "board": "ISOLAR O MECANISMO PRINCIPAL",
+    "items": [
+      "POSTURAS SEMELHANTES",
+      "SEM RESPINGOS DO CHÃO",
+      "SEM ABSORÇÃO DO TECIDO",
+      "SEM VENTO"
+    ],
+    "end": 83
+  },
+  {
+    "start": 83,
+    "scene": "block",
+    "label": "03 / UM CORPO, DUAS SUPERFÍCIES",
+    "board": "PENSAR COMO UM BLOCO",
+    "end": 92
+  },
+  {
+    "start": 92,
+    "scene": "block",
+    "label": "DUAS MANEIRAS DE RECEBER ÁGUA",
+    "board": "POR CIMA + PELA FRENTE",
+    "zoom": 1.04,
+    "end": 100
+  },
+  {
+    "start": 100,
+    "scene": "top",
+    "label": "04 / A ÁGUA QUE CAI POR CIMA",
+    "board": "CABEÇA E OMBROS",
+    "end": 108
+  },
+  {
+    "start": 108,
+    "scene": "compare",
+    "label": "O TEMPO ACUMULA ÁGUA",
+    "board": "CHUVA CONSTANTE",
+    "leftTitle": "MAIS TEMPO",
+    "rightTitle": "MENOS TEMPO",
+    "left": "MAIS ÁGUA",
+    "right": "MENOS ÁGUA",
+    "topLeft": 0.85,
+    "topRight": 0.32,
+    "end": 115
+  },
+  {
+    "start": 115,
+    "scene": "timing",
+    "label": "EXEMPLO / UM ABRIGO A 100 METROS",
+    "board": "A MESMA DISTÂNCIA",
+    "caption": "Velocidades escolhidas para ilustrar",
+    "end": 124
+  },
+  {
+    "start": 124,
+    "scene": "timing",
+    "label": "CORRENDO A 4 METROS POR SEGUNDO",
+    "board": "100 METROS EM 25 SEGUNDOS",
+    "caption": "Exemplo ilustrativo: 1,25 m/s e 4 m/s",
+    "end": 133
+  },
+  {
+    "start": 133,
+    "scene": "timing",
+    "label": "A RELAÇÃO É O QUE IMPORTA",
+    "board": "TEMPO = DISTÂNCIA ÷ VELOCIDADE",
+    "end": 140
+  },
+  {
+    "start": 140,
+    "scene": "compare",
+    "label": "MENOS TEMPO, MENOS ÁGUA POR CIMA",
+    "board": "APENAS A PARCELA SUPERIOR",
+    "topLeft": 0.8,
+    "topRight": 0.4,
+    "leftTitle": "VELOCIDADE v",
+    "rightTitle": "VELOCIDADE 2v",
+    "left": "TEMPO t",
+    "right": "TEMPO t / 2",
+    "end": 151
+  },
+  {
+    "start": 151,
+    "scene": "street",
+    "label": "05 / MAS E AS GOTAS NA FRENTE?",
+    "action": "run",
+    "x": 570,
+    "zoom": 1.1,
+    "focus": 570,
+    "rain": 180,
+    "end": 159
+  },
+  {
+    "start": 159,
+    "scene": "front",
+    "label": "A SENSAÇÃO POR SEGUNDO",
+    "board": "MAIS ENCONTROS A CADA SEGUNDO",
+    "end": 167
+  },
+  {
+    "start": 167,
+    "scene": "front",
+    "label": "POR SEGUNDO? SIM.",
+    "board": "A TAXA DE IMPACTO AUMENTA",
+    "zoom": 1.025,
+    "end": 175
+  },
+  {
+    "start": 175,
+    "scene": "timing",
+    "label": "MAS A VIAGEM TERMINA ANTES",
+    "board": "NÃO ESQUEÇA O TEMPO TOTAL",
+    "left": "Mais segundos",
+    "right": "Menos segundos",
+    "end": 181
+  },
+  {
+    "start": 181,
+    "scene": "corridor",
+    "label": "O CORREDOR INVISÍVEL",
+    "board": "A MESMA FAIXA DO ESPAÇO",
+    "end": 190
+  },
+  {
+    "start": 190,
+    "scene": "corridor",
+    "label": "MAIS RÁPIDO NÃO É MAIS LONGE",
+    "board": "O CAMINHO NÃO AUMENTA",
+    "end": 197
+  },
+  {
+    "start": 197,
+    "scene": "compare",
+    "label": "DUAS MUDANÇAS SE COMPENSAM",
+    "board": "ÁGUA TOTAL PELA FRENTE",
+    "topLeft": 0.58,
+    "topRight": 0.58,
+    "left": "APROXIMADAMENTE IGUAL",
+    "right": "APROXIMADAMENTE IGUAL",
+    "caption": "Chuva uniforme, vertical e sem vento",
+    "end": 206
+  },
+  {
+    "start": 206,
+    "scene": "summary",
+    "label": "06 / DUAS PARCELAS",
+    "left": "Depende do tempo exposto",
+    "right": "Depende da distância percorrida",
+    "end": 216,
+    "leftTitle": "TEMPO",
+    "rightTitle": "DISTÂNCIA"
+  },
+  {
+    "start": 216,
+    "scene": "summary",
+    "label": "O MESMO TRAJETO",
+    "left": "Correr reduz esta parcela",
+    "right": "Esta parcela não aumenta no modelo",
+    "end": 225,
+    "leftTitle": "MENOS EXPOSIÇÃO",
+    "rightTitle": "MESMO TRAJETO"
+  },
+  {
+    "start": 225,
+    "scene": "answer",
+    "label": "A RESPOSTA DO MODELO",
+    "note": "Sim: correr tende a molhar menos.",
+    "sub": "Chuva vertical · sem vento · mesmo destino",
+    "end": 234
+  },
+  {
+    "start": 234,
+    "scene": "street",
+    "label": "MENOS MOLHADO NÃO É SECO",
+    "action": "run",
+    "x": 650,
+    "rain": 150,
+    "end": 241
+  },
+  {
+    "start": 241,
+    "scene": "summary",
+    "label": "NÃO CORTE A CONTA INTEIRA PELA METADE",
+    "left": "Ao dobrar a velocidade, cai pela metade",
+    "right": "Continua presente no percurso",
+    "end": 251,
+    "leftTitle": "PARCELA SUPERIOR",
+    "rightTitle": "PARCELA FRONTAL"
+  },
+  {
+    "start": 251,
+    "scene": "graph",
+    "label": "GANHOS CADA VEZ MENORES",
+    "board": "CORRER MAIS AINDA PODE AJUDAR",
+    "caption": "Curva qualitativa do modelo sem vento",
+    "end": 257
+  },
+  {
+    "start": 257,
+    "scene": "wind",
+    "label": "07 / AGORA, DEIXE O VENTO ENTRAR",
+    "board": "AS GOTAS TAMBÉM SE MOVEM NA HORIZONTAL",
+    "wind": -180,
+    "end": 268
+  },
+  {
+    "start": 268,
+    "scene": "wind",
+    "label": "CHUVA VINDO DE FRENTE",
+    "board": "AVANÇAR CONTRA AS GOTAS",
+    "wind": -430,
+    "note": "Reduzir o tempo exposto ainda pode ajudar",
+    "end": 279
+  },
+  {
+    "start": 279,
+    "scene": "wind",
+    "label": "CHUVA VINDO POR TRÁS",
+    "board": "O MOVIMENTO RELATIVO MUDA",
+    "wind": 340,
+    "note": "Mover-se na direção das gotas muda o encontro",
+    "end": 289
+  },
+  {
+    "start": 289,
+    "scene": "wind",
+    "label": "NEM SEMPRE É SÓ CORRER MAIS",
+    "board": "PODE EXISTIR UMA VELOCIDADE FAVORÁVEL",
+    "wind": 170,
+    "note": "O resultado depende das condições",
+    "action": "walk",
+    "end": 298
+  },
+  {
+    "start": 298,
+    "scene": "conditions",
+    "label": "COM VENTO, PRECISAMOS SABER MAIS",
+    "board": "SEM RESPOSTA UNIVERSAL",
+    "items": [
+      "DIREÇÃO DO VENTO",
+      "VELOCIDADE DAS GOTAS",
+      "PROPORÇÕES DO CORPO",
+      "VELOCIDADE DA PESSOA"
+    ],
+    "end": 307
+  },
+  {
+    "start": 307,
+    "scene": "question",
+    "label": "EVITE UMA REGRA ABSOLUTA",
+    "note": "O contexto muda a resposta.",
+    "sub": "Vento a favor não significa que correr sempre piora.",
+    "end": 315
+  },
+  {
+    "start": 315,
+    "scene": "street",
+    "label": "08 / UMA PESSOA NÃO É UM BLOCO",
+    "action": "walk",
+    "x": 550,
+    "zoom": 1.15,
+    "focus": 550,
+    "rain": 130,
+    "end": 324
+  },
+  {
+    "start": 324,
+    "scene": "street",
+    "label": "BRAÇOS, PERNAS E POSTURA",
+    "action": "run",
+    "x": 570,
+    "zoom": 1.13,
+    "focus": 570,
+    "rain": 150,
+    "end": 332
+  },
+  {
+    "start": 332,
+    "scene": "puddle",
+    "label": "O CHÃO TAMBÉM PARTICIPA",
+    "board": "RESPINGOS SÃO OUTRA FONTE DE ÁGUA",
+    "end": 340
+  },
+  {
+    "start": 340,
+    "scene": "puddle",
+    "label": "UM CAMINHO ALAGADO MUDA A COMPARAÇÃO",
+    "board": "OLHE PARA O PERCURSO",
+    "zoom": 1.03,
+    "end": 347
+  },
+  {
+    "start": 347,
+    "scene": "fabric",
+    "label": "09 / A ROUPA MUDA O PROBLEMA",
+    "board": "NEM TODO TECIDO SE COMPORTA IGUAL",
+    "end": 356
+  },
+  {
+    "start": 356,
+    "scene": "fabric",
+    "label": "ATINGIR NÃO É O MESMO QUE FICAR",
+    "board": "ESCORRER · ABSORVER · ATRAVESSAR",
+    "end": 365
+  },
+  {
+    "start": 365,
+    "scene": "summary",
+    "label": "DUAS PERGUNTAS RELACIONADAS",
+    "left": "Quanta água atinge o corpo?",
+    "right": "Quanta água fica na roupa?",
+    "end": 374,
+    "leftHeading": "CHUVA RECEBIDA",
+    "rightHeading": "ÁGUA RETIDA",
+    "leftTitle": "RECEBER",
+    "rightTitle": "RETER"
+  },
+  {
+    "start": 374,
+    "scene": "conditions",
+    "label": "10 / COMO COMPARAR DIREITO?",
+    "board": "CONTROLE AS CONDIÇÕES",
+    "items": [
+      "MESMA DISTÂNCIA",
+      "MESMO TRAJETO",
+      "MESMA ROUPA",
+      "CHUVA SEMELHANTE"
+    ],
+    "end": 383
+  },
+  {
+    "start": 383,
+    "scene": "conditions",
+    "label": "HOJE E AMANHÃ PODEM SER DIFERENTES",
+    "board": "NÃO MUDE TUDO AO MESMO TEMPO",
+    "items": [
+      "INTENSIDADE DA CHUVA",
+      "DIREÇÃO DO VENTO",
+      "ROUPA SECA OU MOLHADA",
+      "ESTADO DO CAMINHO"
+    ],
+    "end": 394
+  },
+  {
+    "start": 394,
+    "scene": "measure",
+    "label": "DEFINA O QUE VOCÊ VAI MEDIR",
+    "board": "QUAL É A MEDIDA DO EXPERIMENTO?",
+    "end": 403
+  },
+  {
+    "start": 403,
+    "scene": "measure",
+    "label": "REPETIR AJUDA A SEPARAR O ACASO",
+    "board": "COMPARE MAIS DE UMA TENTATIVA",
+    "end": 413
+  },
+  {
+    "start": 413,
+    "scene": "conditions",
+    "label": "UMA ÚNICA TENTATIVA PODE ENGANAR",
+    "board": "PROCURE O QUE REALMENTE FEZ DIFERENÇA",
+    "items": [
+      "REPITA O PERCURSO",
+      "OBSERVE AS RAJADAS",
+      "CONTROLE AS POÇAS",
+      "COMPARE OS RESULTADOS"
+    ],
+    "end": 426
+  },
+  {
+    "start": 426,
+    "scene": "question",
+    "label": "11 / E NA PRÁTICA?",
+    "note": "O abrigo está logo ali.",
+    "sub": "Como chegar recebendo menos chuva?",
+    "end": 432
+  },
+  {
+    "start": 432,
+    "scene": "street",
+    "label": "MESMA DISTÂNCIA, MENOS TEMPO",
+    "two": true,
+    "rain": 140,
+    "end": 440
+  },
+  {
+    "start": 440,
+    "scene": "front",
+    "label": "A SENSAÇÃO NÃO CONTA TUDO",
+    "board": "MAIS FORTE POR SEGUNDO ≠ MAIS NO TOTAL",
+    "end": 448
+  },
+  {
+    "start": 448,
+    "scene": "summary",
+    "label": "O TOTAL TAMBÉM DEPENDE DO TEMPO",
+    "left": "Intensidade do encontro",
+    "right": "Duração de todo o percurso",
+    "end": 453,
+    "leftHeading": "IMPACTO POR SEGUNDO",
+    "rightHeading": "DURAÇÃO DO PERCURSO",
+    "leftTitle": "POR SEGUNDO",
+    "rightTitle": "PERCURSO COMPLETO"
+  },
+  {
+    "start": 453,
+    "scene": "caution",
+    "label": "12 / SEGURANÇA VEM PRIMEIRO",
+    "note": "Piso escorregadio? Poça funda?",
+    "sub": "UM RISCO NÃO COMPENSA UMA ROUPA MAIS SECA",
+    "end": 461
+  },
+  {
+    "start": 461,
+    "scene": "street",
+    "label": "A FÍSICA AJUDA. O CONTEXTO DECIDE.",
+    "action": "walk",
+    "x": 850,
+    "rain": 100,
+    "note": "Escolha um caminho seguro.",
+    "end": 467
+  },
+  {
+    "start": 467,
+    "scene": "arrival",
+    "label": "CONTE TODO O CAMINHO",
+    "action": "run",
+    "rain": 140,
+    "end": 474
+  },
+  {
+    "start": 474,
+    "scene": "answer",
+    "label": "MENOS TEMPO DEBAIXO DA CHUVA",
+    "note": "Olhe o caminho inteiro.",
+    "sub": "Menos tempo exposto pode significar menos água recebida.",
+    "end": 480.024
+  }
+]
