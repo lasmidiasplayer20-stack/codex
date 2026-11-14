@@ -1,0 +1,847 @@
+{
+  "status": "partial",
+  "original_sha256": "cb2fdfce61858063bf4c9da4228381c3ec3abe423f4d378cddd174ae4adb261e",
+  "output_sha256": "51b7d1e34fa469388118400b66bd0420a84a4974dc39f155070081b1e5154ca7",
+  "strings": [
+    {
+      "offset": "0x3b563",
+      "en": "START",
+      "pt_BR": "JOGAR"
+    },
+    {
+      "offset": "0x3b569",
+      "en": "OPTIONS",
+      "pt_BR": "OPCOES"
+    },
+    {
+      "offset": "0x3b571",
+      "en": "SOUND TEST",
+      "pt_BR": "TESTE SOM"
+    },
+    {
+      "offset": "0x3b57c",
+      "en": "KOOL STUFF",
+      "pt_BR": "SEGREDOS"
+    },
+    {
+      "offset": "0x3b587",
+      "en": "KOOLER STUFF",
+      "pt_BR": "MAIS TRUQUES"
+    },
+    {
+      "offset": "0x3b594",
+      "en": "SCOTTS STUFF",
+      "pt_BR": "DO SCOTT"
+    },
+    {
+      "offset": "0x3b5a1",
+      "en": "CREDITS",
+      "pt_BR": "FICHAS"
+    },
+    {
+      "offset": "0x3bc10",
+      "en": "CERTAIN SUBROUTINES",
+      "pt_BR": "ALGUMAS SUBROTINAS"
+    },
+    {
+      "offset": "0x3bbfb",
+      "en": "ALL RIGHTS RESERVED.",
+      "pt_BR": "DIREITOS RESERVADOS."
+    },
+    {
+      "offset": "0x3bc81",
+      "en": "ALL RIGHTS RESERVED.",
+      "pt_BR": "DIREITOS RESERVADOS."
+    },
+    {
+      "offset": "0x3bc96",
+      "en": "MORTAL KOMBAT, MK3, MIDWAY, AND",
+      "pt_BR": "MORTAL KOMBAT, MK3, MIDWAY E"
+    },
+    {
+      "offset": "0x3bcb6",
+      "en": "THE DRAGON DESIGN ARE TRADEMARKS",
+      "pt_BR": "O DRAGAO SAO MARCAS REGISTRADAS"
+    },
+    {
+      "offset": "0x3bcd7",
+      "en": "OF MIDWAY MANUFACTURING COMPANY.",
+      "pt_BR": "DA MIDWAY MANUFACTURING COMPANY."
+    },
+    {
+      "offset": "0x3bcf8",
+      "en": "USED UNDER LICENSE. WILLIAMS IS A",
+      "pt_BR": "SOB LICENCA. WILLIAMS E UMA"
+    },
+    {
+      "offset": "0x3bd1a",
+      "en": "REGISTERED TRADEMARK OF WILLIAMS",
+      "pt_BR": "MARCA REGISTRADA DA WILLIAMS"
+    },
+    {
+      "offset": "0x3bd52",
+      "en": "USED BY PERMISSION.",
+      "pt_BR": "USO AUTORIZADO."
+    },
+    {
+      "offset": "0x3bd66",
+      "en": "PROGRAMMED BY",
+      "pt_BR": "PROGRAMACAO"
+    },
+    {
+      "offset": "0x3bd8c",
+      "en": "LICENSED BY NINTENDO",
+      "pt_BR": "LICENCA DA NINTENDO"
+    },
+    {
+      "offset": "0x3be84",
+      "en": "THERE IS NO KNOWLEDGE",
+      "pt_BR": "TODO CONHECIMENTO"
+    },
+    {
+      "offset": "0x3be9a",
+      "en": "THAT IS NOT POWER",
+      "pt_BR": "E PODER"
+    },
+    {
+      "offset": "0x3c5d3",
+      "en": "CONTROLLER",
+      "pt_BR": "CONTROLE"
+    },
+    {
+      "offset": "0x3c5de",
+      "en": "CONFIGURATION",
+      "pt_BR": "CONFIGURACAO"
+    },
+    {
+      "offset": "0x3cd10",
+      "en": "MORTAL KOMBAT SOUND MENU",
+      "pt_BR": "MORTAL KOMBAT: MENU SOM"
+    },
+    {
+      "offset": "0x3cd29",
+      "en": "SONG",
+      "pt_BR": "FAIX"
+    },
+    {
+      "offset": "0x3cd2e",
+      "en": "SOUND FX",
+      "pt_BR": "EFEITOS"
+    },
+    {
+      "offset": "0x3d607",
+      "en": "SOUND FX",
+      "pt_BR": "EFEITOS"
+    },
+    {
+      "offset": "0x3cff5",
+      "en": "VIOLENCE CONTROL",
+      "pt_BR": "NIVEL DE SANGUE"
+    },
+    {
+      "offset": "0x3d640",
+      "en": "VIOLENCE CONTROL",
+      "pt_BR": "NIVEL DE SANGUE"
+    },
+    {
+      "offset": "0x3d006",
+      "en": "FATALITIES",
+      "pt_BR": "FATALIDADE"
+    },
+    {
+      "offset": "0x3d011",
+      "en": "BLOOD",
+      "pt_BR": "SANG."
+    },
+    {
+      "offset": "0x3d14b",
+      "en": "GAME OVER",
+      "pt_BR": "FIM JOGO"
+    },
+    {
+      "offset": "0x3d4b5",
+      "en": "THROWS",
+      "pt_BR": "AGARR."
+    },
+    {
+      "offset": "0x3d4bc",
+      "en": "BLOCKS",
+      "pt_BR": "DEFESA"
+    },
+    {
+      "offset": "0x3d4c3",
+      "en": "SWEEPS",
+      "pt_BR": "RAST."
+    },
+    {
+      "offset": "0x3d4d1",
+      "en": "TIMER",
+      "pt_BR": "TEMPO"
+    },
+    {
+      "offset": "0x3d4d7",
+      "en": "2X HEALTH",
+      "pt_BR": "VIDA 2X"
+    },
+    {
+      "offset": "0x5edc5",
+      "en": "2X HEALTH",
+      "pt_BR": "VIDA 2X"
+    },
+    {
+      "offset": "0x3d4e1",
+      "en": "QUICK FINISH",
+      "pt_BR": "FIM RAPIDO"
+    },
+    {
+      "offset": "0x3d4ee",
+      "en": "2X DAMAGE",
+      "pt_BR": "DANO 2X"
+    },
+    {
+      "offset": "0x5edcf",
+      "en": "2X DAMAGE",
+      "pt_BR": "DANO 2X"
+    },
+    {
+      "offset": "0x3d4f8",
+      "en": "30 CREDITS",
+      "pt_BR": "30 FICHAS"
+    },
+    {
+      "offset": "0x3d503",
+      "en": "MAX FATALITY TIME",
+      "pt_BR": "TEMPO FATAL MAX."
+    },
+    {
+      "offset": "0x3d515",
+      "en": "ENABLE MOTARO",
+      "pt_BR": "ATIVAR MOTARO"
+    },
+    {
+      "offset": "0x3d523",
+      "en": "ENABLE SHAO KAHN",
+      "pt_BR": "ATIVAR SHAO KAHN"
+    },
+    {
+      "offset": "0x3d534",
+      "en": "HYPER FIGHTING",
+      "pt_BR": "LUTA TURBO"
+    },
+    {
+      "offset": "0x3d543",
+      "en": "PLAY MINI GAME",
+      "pt_BR": "JOGAR MINIJOGO"
+    },
+    {
+      "offset": "0x3d552",
+      "en": "VIEW GAME CREDITS",
+      "pt_BR": "VER OS CREDITOS"
+    },
+    {
+      "offset": "0x3d564",
+      "en": "DARK FIGHTING",
+      "pt_BR": "LUTA ESCURA"
+    },
+    {
+      "offset": "0x3d572",
+      "en": "SWITCHEROO",
+      "pt_BR": "TROCA"
+    },
+    {
+      "offset": "0x3d57d",
+      "en": "UNLIMITED RUN",
+      "pt_BR": "CORRIDA LIVRE"
+    },
+    {
+      "offset": "0x5ead2",
+      "en": "UNLIMITED RUN",
+      "pt_BR": "CORRIDA LIVRE"
+    },
+    {
+      "offset": "0x3d58b",
+      "en": "QUICK UPPERCUT RECOVERY",
+      "pt_BR": "RECUPERAR GANCHO RAPIDO"
+    },
+    {
+      "offset": "0x3d5a3",
+      "en": "KOMBAT ZONE",
+      "pt_BR": "LOCAL LUTA"
+    },
+    {
+      "offset": "0x3d5af",
+      "en": "ENABLE PAUSE",
+      "pt_BR": "ATIVAR PAUSA"
+    },
+    {
+      "offset": "0x3d5bc",
+      "en": "ENABLE POWER KODE",
+      "pt_BR": "ATIVAR COD. PODER"
+    },
+    {
+      "offset": "0x3d5ce",
+      "en": "HEALTH RECOVERY",
+      "pt_BR": "RECUPERAR VIDA"
+    },
+    {
+      "offset": "0x5edd9",
+      "en": "HEALTH RECOVERY",
+      "pt_BR": "RECUPERAR VIDA"
+    },
+    {
+      "offset": "0x3d5de",
+      "en": "OPTIONS SCREEN",
+      "pt_BR": "MENU DE OPCOES"
+    },
+    {
+      "offset": "0x3d5ed",
+      "en": "CHOOSE YOUR OPTIONS",
+      "pt_BR": "ESCOLHA AS OPCOES"
+    },
+    {
+      "offset": "0x3d601",
+      "en": "MUSIC",
+      "pt_BR": "SOM"
+    },
+    {
+      "offset": "0x3d610",
+      "en": "DIFFICULTY LEVEL",
+      "pt_BR": "DIFICULDADE"
+    },
+    {
+      "offset": "0x3d621",
+      "en": "HANDICAP",
+      "pt_BR": "DESVANT."
+    },
+    {
+      "offset": "0x3d62a",
+      "en": "CONTROL CONFIGURATION",
+      "pt_BR": "CONFIGURAR CONTROLES"
+    },
+    {
+      "offset": "0x3d654",
+      "en": "OFF",
+      "pt_BR": "NAO"
+    },
+    {
+      "offset": "0x3d658",
+      "en": "SLOW",
+      "pt_BR": "DEV."
+    },
+    {
+      "offset": "0x3d65d",
+      "en": "FAST",
+      "pt_BR": "VEL."
+    },
+    {
+      "offset": "0x3d662",
+      "en": "VERY EASY",
+      "pt_BR": "BEM FACIL"
+    },
+    {
+      "offset": "0x3d66c",
+      "en": "EASY",
+      "pt_BR": "FAC."
+    },
+    {
+      "offset": "0x3d671",
+      "en": "MEDIUM",
+      "pt_BR": "NORMAL"
+    },
+    {
+      "offset": "0x3d678",
+      "en": "HARD",
+      "pt_BR": "ALTA"
+    },
+    {
+      "offset": "0x3d67d",
+      "en": "VERY HARD",
+      "pt_BR": "BEM DIFIC"
+    },
+    {
+      "offset": "0x3d6c1",
+      "en": "RUN",
+      "pt_BR": "COR"
+    },
+    {
+      "offset": "0x3d6c5",
+      "en": "BLOCK",
+      "pt_BR": "DEF."
+    },
+    {
+      "offset": "0x3d6cb",
+      "en": "HIGH KICK",
+      "pt_BR": "CHUTE AL."
+    },
+    {
+      "offset": "0x3d6d5",
+      "en": "LOW KICK",
+      "pt_BR": "CHUTE B."
+    },
+    {
+      "offset": "0x3d6de",
+      "en": "HIGH PUNCH",
+      "pt_BR": "SOCO ALTO"
+    },
+    {
+      "offset": "0x3d6e9",
+      "en": "LOW PUNCH",
+      "pt_BR": "SOCO BX."
+    },
+    {
+      "offset": "0x3d711",
+      "en": "STEREO",
+      "pt_BR": "ESTER."
+    },
+    {
+      "offset": "0x3d71d",
+      "en": "CHEATS",
+      "pt_BR": "TRUQUE"
+    },
+    {
+      "offset": "0x3d98f",
+      "en": "YOU HAVE DISCOVERED THE LOST TREASURES",
+      "pt_BR": "VOCE ACHOU OS TESOUROS PERDIDOS"
+    },
+    {
+      "offset": "0x3d9b6",
+      "en": "OF SHAO KAHN.",
+      "pt_BR": "DE SHAO KAHN."
+    },
+    {
+      "offset": "0x3d9c4",
+      "en": "CHOOSE YOUR REWARD WISELY",
+      "pt_BR": "ESCOLHA BEM SEU PREMIO"
+    },
+    {
+      "offset": "0x3df5b",
+      "en": "PLAYER 1",
+      "pt_BR": "JOG. 1"
+    },
+    {
+      "offset": "0x3df64",
+      "en": "PLAYER 2",
+      "pt_BR": "JOG. 2"
+    },
+    {
+      "offset": "0x3df6d",
+      "en": "PRESS START",
+      "pt_BR": "USE START"
+    },
+    {
+      "offset": "0x3df79",
+      "en": "TO KONTINUE",
+      "pt_BR": "P/ SEGUIR"
+    },
+    {
+      "offset": "0x3df87",
+      "en": "PRESS",
+      "pt_BR": "USE"
+    },
+    {
+      "offset": "0x3df8d",
+      "en": "START TO",
+      "pt_BR": "START P/"
+    },
+    {
+      "offset": "0x3df96",
+      "en": "JOIN IN",
+      "pt_BR": "ENTRAR"
+    },
+    {
+      "offset": "0x3df9e",
+      "en": "PREPARE",
+      "pt_BR": "PREPARE"
+    },
+    {
+      "offset": "0x3dfa6",
+      "en": "FOR YOUR",
+      "pt_BR": "SEU NOVO"
+    },
+    {
+      "offset": "0x3dfaf",
+      "en": "NEXT",
+      "pt_BR": "NOVO"
+    },
+    {
+      "offset": "0x3dfb4",
+      "en": "CHALLENGE",
+      "pt_BR": "DESAFIO"
+    },
+    {
+      "offset": "0x3dfce",
+      "en": "2 ON 2",
+      "pt_BR": "2 EM 2"
+    },
+    {
+      "offset": "0x3dfd7",
+      "en": "PLAYER",
+      "pt_BR": "JOG."
+    },
+    {
+      "offset": "0x3dfde",
+      "en": "TOURNAMENT",
+      "pt_BR": "TORNEIO"
+    },
+    {
+      "offset": "0x3f1ff",
+      "en": "UMK3 ARCADE KODE",
+      "pt_BR": "CODIGO UMK3"
+    },
+    {
+      "offset": "0x5eac4",
+      "en": "PSYCHO KOMBAT",
+      "pt_BR": "LUTA INSANA"
+    },
+    {
+      "offset": "0x5eae0",
+      "en": "FAST UPPERCUT RECOVERY ENABLED",
+      "pt_BR": "RECUPERACAO RAPIDA DO GANCHO"
+    },
+    {
+      "offset": "0x5eaff",
+      "en": "NO POWERBARS",
+      "pt_BR": "SEM BARRAS"
+    },
+    {
+      "offset": "0x5eb0c",
+      "en": "WINNER OF THIS ROUND BATTLES SMOKE",
+      "pt_BR": "VENCEDOR DESTA LUTA ENFRENTA SMOKE"
+    },
+    {
+      "offset": "0x5eb2f",
+      "en": "WINNER OF THIS ROUND BATTLES NOOB SAIBOT",
+      "pt_BR": "VENCEDOR DESTA LUTA ENFRENTA NOOB SAIBOT"
+    },
+    {
+      "offset": "0x5eb58",
+      "en": "WINNER OF THIS ROUND BATTLES SHAO KAHN",
+      "pt_BR": "VENCEDOR DESTA LUTA ENFRENTA SHAO KAHN"
+    },
+    {
+      "offset": "0x5eb7f",
+      "en": "WINNER OF THIS ROUND BATTLES MOTARO",
+      "pt_BR": "VENCEDOR DESTA LUTA ENFRENTA MOTARO"
+    },
+    {
+      "offset": "0x5eba3",
+      "en": "YOU ARE ENTERING THE LAND OF RELLIM",
+      "pt_BR": "VOCE ESTA ENTRANDO NA TERRA RELLIM"
+    },
+    {
+      "offset": "0x5ebc7",
+      "en": "NO FEAR = EB BUTTON, SKYDIVE, MAX COUNTDOWN",
+      "pt_BR": "NO FEAR = BOTAO EB, SALTO, CONTAGEM MAX."
+    },
+    {
+      "offset": "0x5ebf3",
+      "en": "HOLD FLIPPERS DURING CASINO RUN",
+      "pt_BR": "SEGURE AS PALHETAS NO CASINO"
+    },
+    {
+      "offset": "0x5ec13",
+      "en": "RANDPER KOMBAT",
+      "pt_BR": "LUTA ALEATOR."
+    },
+    {
+      "offset": "0x5ec22",
+      "en": "THROWING DISABLED",
+      "pt_BR": "AGARRAO DESLIGADO"
+    },
+    {
+      "offset": "0x5ed28",
+      "en": "THROWING DISABLED",
+      "pt_BR": "AGARRAO DESLIGADO"
+    },
+    {
+      "offset": "0x5ec34",
+      "en": "BLOCKING DISABLED",
+      "pt_BR": "DEFESA DESLIGADA"
+    },
+    {
+      "offset": "0x5ed16",
+      "en": "BLOCKING DISABLED",
+      "pt_BR": "DEFESA DESLIGADA"
+    },
+    {
+      "offset": "0x5ec46",
+      "en": "PLAYER 1 HALF POWER",
+      "pt_BR": "JOG. 1: MEIA VIDA"
+    },
+    {
+      "offset": "0x5ec5a",
+      "en": "PLAYER 2 HALF POWER",
+      "pt_BR": "JOG. 2: MEIA VIDA"
+    },
+    {
+      "offset": "0x5ec6e",
+      "en": "PLAYER 1 QUARTER POWER",
+      "pt_BR": "JOG. 1: UM QUARTO VIDA"
+    },
+    {
+      "offset": "0x5ec85",
+      "en": "PLAYER 2 QUARTER POWER",
+      "pt_BR": "JOG. 2: UM QUARTO VIDA"
+    },
+    {
+      "offset": "0x5ec9c",
+      "en": "NO POWER",
+      "pt_BR": "SEM VIDA"
+    },
+    {
+      "offset": "0x5eca5",
+      "en": "SILENT KOMBAT",
+      "pt_BR": "LUTA SILENTE"
+    },
+    {
+      "offset": "0x5ecb3",
+      "en": "THROWING ENCOURAGED",
+      "pt_BR": "USE AGARROES"
+    },
+    {
+      "offset": "0x5ecc7",
+      "en": "ONE BUTTON BRUTALITIES",
+      "pt_BR": "BRUTALIDADE: UM BOTAO"
+    },
+    {
+      "offset": "0x5ecde",
+      "en": "DARK KOMBAT",
+      "pt_BR": "LUTA ESCURA"
+    },
+    {
+      "offset": "0x5ecea",
+      "en": "TIMER OFF",
+      "pt_BR": "SEM TEMPO"
+    },
+    {
+      "offset": "0x5ecf4",
+      "en": "SWEEPING DISABLED",
+      "pt_BR": "RASTEIRA INATIVA"
+    },
+    {
+      "offset": "0x5ed06",
+      "en": "COMBOS DISABLED",
+      "pt_BR": "SEM COMBOS"
+    },
+    {
+      "offset": "0x5ed3a",
+      "en": "HYPER KOMBAT ENABLED",
+      "pt_BR": "LUTA TURBO ATIVADA"
+    },
+    {
+      "offset": "0x5ed4f",
+      "en": "GAME PAUSE ENABLED",
+      "pt_BR": "PAUSA ATIVADA"
+    },
+    {
+      "offset": "0x5ed62",
+      "en": "ONE BUTTON FATALITIES ENABLED",
+      "pt_BR": "FATALIDADE: UM BOTAO ATIVADO"
+    },
+    {
+      "offset": "0x5ed80",
+      "en": "EXTENDED FATALITY TIME ENABLED",
+      "pt_BR": "TEMPO EXTRA PARA FATALIDADE"
+    },
+    {
+      "offset": "0x5ed9f",
+      "en": "NINTENDO POWER EXCLUSIVE",
+      "pt_BR": "EXCLUSIVO NINTENDO POWER"
+    },
+    {
+      "offset": "0x5edb8",
+      "en": "KOMBAT ZONE:",
+      "pt_BR": "LOCAL LUTA:"
+    },
+    {
+      "offset": "0x5ede9",
+      "en": "SHADOW FIGHTING ENABLED",
+      "pt_BR": "LUTA DE SOMBRAS ATIVADA"
+    },
+    {
+      "offset": "0x5ee01",
+      "en": "ALL BACKGROUND BLAST",
+      "pt_BR": "CENARIO EXPLOSIVO"
+    },
+    {
+      "offset": "0x5ee16",
+      "en": "ALL PROJECTILES BOUNCE BACK",
+      "pt_BR": "TODOS OS PROJETEIS VOLTAM"
+    },
+    {
+      "offset": "0x5ee40",
+      "en": "LOST",
+      "pt_BR": "PERD"
+    },
+    {
+      "offset": "0x5ee45",
+      "en": "ROOFTOP",
+      "pt_BR": "TELHADO"
+    },
+    {
+      "offset": "0x5ee4d",
+      "en": "THE PIT 3",
+      "pt_BR": "O POCO 3"
+    },
+    {
+      "offset": "0x5ee57",
+      "en": "THE DESERT",
+      "pt_BR": "O DESERTO"
+    },
+    {
+      "offset": "0x5ee68",
+      "en": "THE KAVE",
+      "pt_BR": "A GRUTA"
+    },
+    {
+      "offset": "0x5ee71",
+      "en": "THE WATERFRONT",
+      "pt_BR": "O CAIS"
+    },
+    {
+      "offset": "0x6b8f0",
+      "en": "YOU HAVE BEEN TRANSPORTED",
+      "pt_BR": "VOCE FOI TRANSPORTADO"
+    },
+    {
+      "offset": "0x6b90a",
+      "en": "TO ANOTHER REALM",
+      "pt_BR": "PARA OUTRO REINO"
+    },
+    {
+      "offset": "0x6b91d",
+      "en": "A REALM WHERE NEITHER THE",
+      "pt_BR": "UM REINO ONDE NEM OS"
+    },
+    {
+      "offset": "0x6b937",
+      "en": "EARTH WARRIORS NOR SHAO",
+      "pt_BR": "GUERREIROS NEM SHAO"
+    },
+    {
+      "offset": "0x6b94f",
+      "en": "KAHN HAVE ANY CONTROL",
+      "pt_BR": "KAHN TEM CONTROLE"
+    },
+    {
+      "offset": "0x6b965",
+      "en": "BEWARE THE REALM OF",
+      "pt_BR": "TEMA O REINO DE"
+    },
+    {
+      "offset": "0x6b988",
+      "en": "THE STATS",
+      "pt_BR": "OS DADOS"
+    },
+    {
+      "offset": "0x6b9b1",
+      "en": "SHOTS FIRED",
+      "pt_BR": "TIROS DADOS"
+    },
+    {
+      "offset": "0x6b9bd",
+      "en": "NUMBER OF KILLS",
+      "pt_BR": "TOTAL DE MORTES"
+    },
+    {
+      "offset": "0x6b9cd",
+      "en": "HIT PERCENTAGE",
+      "pt_BR": "TAXA DE ACERTO"
+    },
+    {
+      "offset": "0x6e07f",
+      "en": "WELCOME TO SCOTT'S",
+      "pt_BR": "BEM-VINDO A SALA"
+    },
+    {
+      "offset": "0x6e092",
+      "en": "SECRET SLOT ROOM",
+      "pt_BR": "SECRETA DO SCOTT"
+    },
+    {
+      "offset": "0x6e0a3",
+      "en": "EACH PLAYER CAN HAVE UP TO 10 PULLS.",
+      "pt_BR": "CADA JOGADOR PODE TENTAR 10 VEZES."
+    },
+    {
+      "offset": "0x6e0c8",
+      "en": "SO GIVE IT A TRY AND HOPE",
+      "pt_BR": "TENTE A SORTE E ESPERE"
+    },
+    {
+      "offset": "0x6e0e2",
+      "en": "FOR THE BEST!",
+      "pt_BR": "PELO MELHOR!"
+    },
+    {
+      "offset": "0x7fe04",
+      "en": "DEVELOPMENT TEAM",
+      "pt_BR": "DESENVOLVIMENTO"
+    },
+    {
+      "offset": "0x6b992",
+      "en": "PLAYER 1              PLAYER 2",
+      "pt_BR": "JOG. 1                JOG. 2  "
+    },
+    {
+      "offset": "0x3ff90",
+      "en": "ON",
+      "pt_BR": "SIM",
+      "relocated_pointer_sites": [
+        "0x3c003",
+        "0x3c302",
+        "0x3cae9",
+        "0x3cb76",
+        "0x3cf14",
+        "0x3cf36",
+        "0x3d041"
+      ]
+    },
+    {
+      "graphics_resource": "0x23eecb",
+      "edits": [
+        {
+          "en": "PRESS START",
+          "pt_BR": "USE START",
+          "vram_first_tile": "0x381"
+        },
+        {
+          "en": "WINS:",
+          "pt_BR": "VITORIAS",
+          "vram_first_tile": "0x38b"
+        },
+        {
+          "en": "DANGER",
+          "pt_BR": "PERIGO",
+          "vram_first_tile": "0x39a"
+        }
+      ]
+    }
+  ],
+  "revision": 2,
+  "validation": {
+    "core": "libretro/snes9x fae2fea, rebuilt without debug instrumentation",
+    "checks": [
+      "Main menu and options screenshot: SIM complete",
+      "Fresh single-player match: VITORIAS and USE START visible",
+      "Two rounds, defeat, continue and game-over sequence: 3600 additional frames",
+      "Rebuilt into independent directory: identical ROM and IPS",
+      "IPS reapplied to original matches ROM byte-for-byte",
+      "ROM length and SNES checksum verified"
+    ],
+    "not_validated": [
+      "ZSNES directly",
+      "full campaign",
+      "PERIGO appearance during live low-health condition",
+      "all menu toggle states"
+    ]
+  },
+  "remaining_english": [
+    "ROUND",
+    "character WINS victory banners",
+    "other large combat announcements",
+    "tower selection instructions",
+    "story and character endings",
+    "additional graphic assets"
+  ]
+}

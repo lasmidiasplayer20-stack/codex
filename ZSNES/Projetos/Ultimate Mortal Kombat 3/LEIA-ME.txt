@@ -1,14 +1,11 @@
-UMK3 PT-BR — ALFA PARCIAL
+UMK3 PT-BR — ALFA R2 PARCIAL
 
-Abra UMK3-PTBR-ALFA.smc pelo menu de carregar ROM do emulador.
-ROM SNES HiROM de 4 MB, sem cabeçalho de copiador, checksum corrigido.
-A extensão .smc é aceita por emuladores como ZSNES e Snes9x.
-Inicialização, menu principal e menu de opções conferidos no núcleo Snes9x compilado do projeto libretro/snes9x. Não houve teste direto no ZSNES nem campanha completa.
+Abra UMK3-PTBR-ALFA.smc no emulador. Comece uma partida nova: save states antigos podem manter gráficos e textos da versão anterior na memória.
 
-ESTA NÃO É A TRADUÇÃO COMPLETA PEDIDA.
-Foram alteradas 157 entradas de texto, incluindo opções, controles e mensagens. Parte delas usa abreviações por limites de espaço. As alterações de textos fora dos menus observados não foram conferidas visualmente.
-Ainda faltam textos codificados/comprimidos, história, finais, gráficos com palavras e uma revisão integral das telas. A fonte ainda não recebeu acentos portugueses.
-Não houve decompilação/recompilação completa: houve edição binária em endereços fixos. Código executável, tamanho e mapeamento foram preservados.
+Nesta revisão: SIM completo no menu; VITORIAS e USE START no placar da luta; imagem PERIGO implementada, ainda sem conferência em baixa vida real.
 
-O arquivo IPS é uma alternativa para aplicar as mesmas mudanças à ROM original de 4194304 bytes, sem cabeçalho. O manifesto registra os hashes SHA-256 e as entradas alteradas.
-O original enviado permanece separado e intacto.
+Continua parcial: ROUND, mensagens grandes de vitória, outras chamadas de combate, história, finais e outras imagens ainda precisam de trabalho. A fonte dos menus ainda não tem acentos.
+
+Testado no núcleo Snes9x, com menus e uma sequência de duas rodadas, derrota, continuação e fim de jogo. Não testado diretamente no ZSNES nem em uma campanha completa.
+
+Consulte README.md e qa/translation-manifest.json para os detalhes e hashes. O patch IPS permite aplicar as mesmas mudanças à ROM original correta. A ROM original do usuário permanece separada e intacta.
